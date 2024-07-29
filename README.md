@@ -32,4 +32,4 @@ counts the frequencies of the 30 most frequently mentioned institutions** in all
 ## institution_freq_corr_weights_directed
 counts the frequencies of the 30 most frequently mentioned institutions** per correspondence in directed graphs
 
-*** mentions are counted per document body*
+** mentions are counted per document body
