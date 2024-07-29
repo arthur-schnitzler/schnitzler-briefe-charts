@@ -27,6 +27,8 @@
         <xsl:value-of select="$separator"/>
         <xsl:text>Target</xsl:text>
         <xsl:value-of select="$separator"/>
+        <xsl:text>ID</xsl:text>
+        <xsl:value-of select="$separator"/>
         <xsl:text>Type</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>Label</xsl:text>
@@ -47,6 +49,8 @@
 
             <xsl:variable name="weight-1" select="count($editions//tei:TEI[key('receiver', $other-pmb)])"/>
             <xsl:variable name="weight-2" select="count($editions//tei:TEI[key('sender', $other-pmb)])"/>
+            
+            <xsl:variable name="correspondence-id" select="substring-after(@xml:id, '_')"/>
 
             <!-- Schnitzler an Target -->
 
@@ -57,21 +61,31 @@
                 <xsl:value-of select="$schnitzler-name"/>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
+                
                 <!-- target -->
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$other-name"/>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
+                
+                <!-- correspondence-id -->
+                <xsl:value-of select="$quote"/>
+                <xsl:value-of select="$correspondence-id"/>
+                <xsl:value-of select="$quote"/>
+                <xsl:value-of select="$separator"/>
+                
                 <!-- type -->
                 <xsl:value-of select="$quote"/>
                 <xsl:text>Directed</xsl:text>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
+                
                 <!-- label -->
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$label-1"/>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
+                
                 <!-- weight -->
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$weight-1"/>
@@ -89,21 +103,31 @@
                 <xsl:value-of select="$other-name"/>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
+                
                 <!-- target -->
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$schnitzler-name"/>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
+                
+                <!-- correspondence-id -->
+                <xsl:value-of select="$quote"/>
+                <xsl:value-of select="$correspondence-id"/>
+                <xsl:value-of select="$quote"/>
+                <xsl:value-of select="$separator"/>
+                
                 <!-- type -->
                 <xsl:value-of select="$quote"/>
                 <xsl:text>Directed</xsl:text>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
+                
                 <!-- label -->
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$label-2"/>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
+                
                 <!-- weight -->
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$weight-2"/>
