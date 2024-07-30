@@ -33,7 +33,13 @@
 
         <xsl:text>Source</xsl:text>
         <xsl:value-of select="$separator"/>
+        <xsl:text>CorrID</xsl:text>
+        <xsl:value-of select="$separator"/>
         <xsl:text>Target</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>WorkID</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>Overallcount</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>Type</xsl:text>
         <xsl:value-of select="$separator"/>
@@ -50,10 +56,10 @@
                 <xsl:variable name="work-name"
                     select="normalize-space(child::tei:title[@type = 'main'])"/>
                 <!-- count work mentions in bodies -->
-                <xsl:variable name="count"
+                <xsl:variable name="overallcount"
                     select="count($editions//tei:TEI[key('edition-by-work', $work-id)])"/>
-                <xsl:if test="$count &gt; 0">
-                    <work id="{$work-id}" count="{$count}">
+                <xsl:if test="$overallcount &gt; 0">
+                    <work id="{$work-id}" overallcount="{$overallcount}">
                         <xsl:value-of select="$work-name"/>
                     </work>
                 </xsl:if>
@@ -77,11 +83,12 @@
                         <!-- names and ids -->
                         <xsl:variable name="work-id" select="@id"/>
                         <xsl:variable name="work-name" select="text()"/>
+                        <xsl:variable name="overallcount" select="@overallcount"/>
                         <!-- count work mentions in bodies -->
                         <xsl:variable name="count"
                             select="count($editions//tei:TEI[key('corresp-by-id', $korr-id)][key('edition-by-work', $work-id)])"/>
                         <xsl:if test="$count &gt; 0">
-                            <work id="{$work-id}" count="{$count}">
+                            <work id="{$work-id}" overallcount="{$overallcount}" count="{$count}">
                                 <xsl:value-of select="$work-name"/>
                             </work>
                         </xsl:if>
@@ -98,7 +105,19 @@
                     <xsl:value-of select="$quote"/>
                     <xsl:value-of select="$separator"/>
                     <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="substring-after($korr-id, '_')"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
                     <xsl:value-of select="."/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="@overallcount"/>
                     <xsl:value-of select="$quote"/>
                     <xsl:value-of select="$separator"/>
                     <xsl:value-of select="$quote"/>
