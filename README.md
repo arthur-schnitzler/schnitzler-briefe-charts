@@ -4,7 +4,7 @@ This repository gathers various CSV files containing analyses of the professiona
 
 ## correspondence_weights_undirected
 counts the number of correspondence pieces of all correspondences in undirected graphs
-(visualisation not published)
+(visualization not published)
 
 ## correspondence_weights_directed
 counts the number of correspondence pieces of all correspondences in directed graphs
@@ -19,7 +19,7 @@ counts the frequencies of the 30 most frequently mentioned persons** in all corr
 counts the frequencies of the 30 most frequently mentioned persons** per correspondence in directed graphs
 
 ## work_freq_corp_weights_directed
-counts the frequencies of the 30 most frequently mentioned works** in all correspondences in directed graphs (direction: from main correspondent to mentioned work)
+counts the frequencies of the 30 most frequently mentioned works** in all correspondences in directed graphs (direction: from main correspondent to mentioned work; in the visualization only the works that are mentioned more than 10 times are included)
 
 ## work_freq_corr_weights_directed
 counts the frequencies of the 30 most frequently mentioned works** per correspondence in directed graphs
