@@ -39,6 +39,8 @@
         <xsl:value-of select="$separator"/>
         <xsl:text>TID</xsl:text>
         <xsl:value-of select="$separator"/>
+        <xsl:text>Overallcount</xsl:text>
+        <xsl:value-of select="$separator"/>
         <xsl:text>Type</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>Label</xsl:text>
@@ -56,7 +58,7 @@
                 <xsl:variable name="count"
                     select="count($editions//tei:TEI[key('edition-by-person', $pers-id)])"/>
                 <xsl:if test="$count &gt; 0">
-                    <person id="{$pers-id}" count="{$count}">
+                    <person id="{$pers-id}" overallcount="{$count}">
                         <xsl:value-of select="$pers-name"/>
                     </person>
                 </xsl:if>
@@ -75,11 +77,12 @@
             <!-- counts in correspondences -->
             <xsl:variable name="top-30-persons">
                 <xsl:for-each select="$overall-count/*:person">
-                    <xsl:sort select="@count" order="descending" data-type="number"/>
+                    <xsl:sort select="@overallcount" order="descending" data-type="number"/>
                     <xsl:if test="position() &lt;= 30">
                         <!-- names and ids -->
                         <xsl:variable name="pers-id" select="@id"/>
                         <xsl:variable name="pers-name" select="text()"/>
+                        <xsl:variable name="overallcount" select="@overallcount"/>
                         <!-- exclude mentions of correspondence partners -->
                         <xsl:variable name="exclude-ref"
                             select="concat('#pmb', substring-after($korr-id, '_'))"/>
@@ -88,7 +91,7 @@
                             <xsl:variable name="count"
                                 select="count($editions//tei:TEI[key('corresp-by-id', $korr-id)][key('edition-by-person', $pers-id)])"/>
                             <xsl:if test="$count &gt; 0">
-                                <person id="{$pers-id}" count="{$count}">
+                                <person id="{$pers-id}" overallcount="{$overallcount}" count="{$count}">
                                     <xsl:value-of select="$pers-name"/>
                                 </person>
                             </xsl:if>
@@ -115,6 +118,10 @@
                     <xsl:value-of select="$separator"/>
                     <xsl:value-of select="$quote"/>
                     <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="@overallcount"/>
                     <xsl:value-of select="$quote"/>
                     <xsl:value-of select="$separator"/>
                     <xsl:value-of select="$quote"/>
