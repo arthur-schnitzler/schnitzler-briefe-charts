@@ -4,6 +4,7 @@ This repository gathers various CSV files containing analyses of the professiona
 
 ## correspondence_weights_undirected
 counts the number of correspondence pieces of all correspondences in undirected graphs
+(visualisation not published)
 
 ## correspondence_weights_directed
 counts the number of correspondence pieces of all correspondences in directed graphs
