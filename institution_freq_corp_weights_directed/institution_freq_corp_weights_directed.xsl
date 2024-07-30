@@ -33,7 +33,13 @@
 
         <xsl:text>Source</xsl:text>
         <xsl:value-of select="$separator"/>
+        <xsl:text>CorrID</xsl:text>
+        <xsl:value-of select="$separator"/>
         <xsl:text>Target</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>InstID</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>Overallcount</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>Type</xsl:text>
         <xsl:value-of select="$separator"/>
@@ -49,10 +55,10 @@
                 <xsl:variable name="org-id" select="concat('#', @xml:id)"/>
                 <xsl:variable name="org-name" select="normalize-space(child::tei:orgName[1])"/>
                 <!-- count org mentions in bodies -->
-                <xsl:variable name="count"
+                <xsl:variable name="overallcount"
                     select="count($editions//tei:TEI[key('edition-by-org', $org-id)])"/>
-                <xsl:if test="$count &gt; 0">
-                    <org id="{$org-id}" count="{$count}">
+                <xsl:if test="$overallcount &gt; 0">
+                    <org id="{$org-id}" overallcount="{$overallcount}">
                         <xsl:value-of select="$org-name"/>
                     </org>
                 </xsl:if>
@@ -76,11 +82,12 @@
                         <!-- names and ids -->
                         <xsl:variable name="org-id" select="@id"/>
                         <xsl:variable name="org-name" select="text()"/>
+                        <xsl:variable name="overallcount" select="@overallcount"/>
                         <!-- count org mentions in bodies -->
                         <xsl:variable name="count"
                             select="count($editions//tei:TEI[key('corresp-by-id', $korr-id)][key('edition-by-org', $org-id)])"/>
                         <xsl:if test="$count &gt; 0">
-                            <org id="{$org-id}" count="{$count}">
+                            <org id="{$org-id}" overallcount="{$overallcount}" count="{$count}">
                                 <xsl:value-of select="$org-name"/>
                             </org>
                         </xsl:if>
@@ -97,7 +104,19 @@
                     <xsl:value-of select="$quote"/>
                     <xsl:value-of select="$separator"/>
                     <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="substring-after($korr-id, '_')"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
                     <xsl:value-of select="."/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="@overallcount"/>
                     <xsl:value-of select="$quote"/>
                     <xsl:value-of select="$separator"/>
                     <xsl:value-of select="$quote"/>
