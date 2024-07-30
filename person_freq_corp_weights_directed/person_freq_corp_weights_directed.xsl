@@ -33,7 +33,11 @@
 
         <xsl:text>Source</xsl:text>
         <xsl:value-of select="$separator"/>
+        <xsl:text>SID</xsl:text>
+        <xsl:value-of select="$separator"/>
         <xsl:text>Target</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>TID</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>Type</xsl:text>
         <xsl:value-of select="$separator"/>
@@ -102,7 +106,15 @@
                     <xsl:value-of select="$quote"/>
                     <xsl:value-of select="$separator"/>
                     <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="substring-after($korr-id, '_')"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
                     <xsl:value-of select="."/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:value-of select="$quote"/>
+                    <xsl:value-of select="substring-after(@id, '#pmb')"/>
                     <xsl:value-of select="$quote"/>
                     <xsl:value-of select="$separator"/>
                     <xsl:value-of select="$quote"/>
