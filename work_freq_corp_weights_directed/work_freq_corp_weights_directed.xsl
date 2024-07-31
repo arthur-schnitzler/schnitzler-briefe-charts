@@ -31,9 +31,9 @@
 
     <xsl:template match="/">
 
-        <!-- all -->
-        <xsl:result-document href="work_freq_corp_weights_directed_all.csv">
-
+        <!-- top 1000 -->
+        <xsl:result-document href="work_freq_corp_weights_directed_top1000.csv">
+            
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
             <xsl:text>CorrID</xsl:text>
@@ -50,7 +50,7 @@
             <xsl:value-of select="$separator"/>
             <xsl:text>Weight</xsl:text>
             <xsl:value-of select="$newline"/>
-
+            
             <!-- overall counts -->
             <xsl:variable name="overall-count">
                 <xsl:for-each select="$listwork//tei:bibl">
@@ -68,38 +68,42 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:variable>
-
+            
             <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
-
+                
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
-
+                
                 <!-- correspondence id -->
                 <xsl:variable name="korr-id" select="@xml:id"/>
-
+                
                 <!-- counts in correspondences -->
-                <xsl:variable name="all-works">
+                <xsl:variable name="top-1000-works">
                     <xsl:for-each select="$overall-count/*:work">
-                        <!-- names and ids -->
-                        <xsl:variable name="work-id" select="@id"/>
-                        <xsl:variable name="work-name" select="text()"/>
-                        <xsl:variable name="overallcount" select="@overallcount"/>
-                        <!-- count work mentions in bodies -->
-                        <xsl:variable name="count"
-                            select="count($editions//tei:TEI[key('corresp-by-id', $korr-id)][key('edition-by-work', $work-id)])"/>
-                        <xsl:if test="$count &gt; 0">
-                            <work id="{$work-id}" overallcount="{$overallcount}" count="{$count}">
-                                <xsl:value-of select="$work-name"/>
-                            </work>
+                        <xsl:sort select="@overallcount" order="descending" data-type="number"/>
+                        <xsl:if test="position() &lt;= 1000">
+                            <!-- names and ids -->
+                            <xsl:variable name="work-id" select="@id"/>
+                            <xsl:variable name="work-name" select="text()"/>
+                            <xsl:variable name="overallcount" select="@overallcount"/>
+                            <!-- count work mentions in bodies -->
+                            <xsl:variable name="count"
+                                select="count($editions//tei:TEI[key('corresp-by-id', $korr-id)][key('edition-by-work', $work-id)])"/>
+                            <xsl:if test="$count &gt; 0">
+                                <work id="{$work-id}" overallcount="{$overallcount}"
+                                    count="{$count}">
+                                    <xsl:value-of select="$work-name"/>
+                                </work>
+                            </xsl:if>
                         </xsl:if>
                     </xsl:for-each>
                 </xsl:variable>
-
+                
                 <!-- csv -->
-                <xsl:if test="$all-works/*:work">
-
-                    <xsl:for-each select="$all-works/*:work">
+                <xsl:if test="$top-1000-works/*:work">
+                    
+                    <xsl:for-each select="$top-1000-works/*:work">
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$korr-name"/>
                         <xsl:value-of select="$quote"/>
@@ -133,11 +137,11 @@
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$newline"/>
                     </xsl:for-each>
-
+                    
                 </xsl:if>
-
+                
             </xsl:for-each>
-
+            
         </xsl:result-document>
 
         <!-- top 100 -->
