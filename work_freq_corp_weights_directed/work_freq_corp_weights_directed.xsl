@@ -78,7 +78,7 @@
             <!-- counts in correspondences -->
             <xsl:variable name="top-30-works">
                 <xsl:for-each select="$overall-count/*:work">
-                    <xsl:sort select="@count" order="descending" data-type="number"/>
+                    <xsl:sort select="@overallcount" order="descending" data-type="number"/>
                     <xsl:if test="position() &lt;= 30">
                         <!-- names and ids -->
                         <xsl:variable name="work-id" select="@id"/>
