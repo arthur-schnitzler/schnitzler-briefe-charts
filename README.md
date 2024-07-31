@@ -13,24 +13,24 @@ counts the number of correspondence pieces of all correspondences in directed gr
 evaluates the mail routes in directed graphs (sending and receiving locations, without intermediate stops)
 
 ## person_freq_corp_weights_directed
-counts the frequencies of the 30 most frequently mentioned persons** in all correspondences in directed graphs (direction: from main correspondent to mentioned person)
+counts the frequencies of the most frequently mentioned persons** in all correspondences in directed graphs (direction: from main correspondent to mentioned person)
 
 ## person_freq_corr_weights_directed
-counts the frequencies of the 30 most frequently mentioned persons** per correspondence in directed graphs
+counts the frequencies of the most frequently mentioned persons** per correspondence in directed graphs
 
 ## work_freq_corp_weights_directed
-counts the frequencies of the 30 most frequently mentioned works** in all correspondences in directed graphs (direction: from main correspondent to mentioned work; in the visualization only the works that are mentioned more than 45 times are included)
+counts the frequencies of the most frequently mentioned works** in all correspondences in directed graphs (direction: from main correspondent to mentioned work)
 
 ## work_freq_corr_weights_directed
-counts the frequencies of the 30 most frequently mentioned works** per correspondence in directed graphs
+counts the frequencies of the most frequently mentioned works** per correspondence in directed graphs
 
 ## place_freq_corr_weights_directed
-counts the frequencies of the 30 most frequently mentioned places** per correspondence in directed graphs
+counts the frequencies of the most frequently mentioned places** per correspondence in directed graphs
 
 ## institution_freq_corp_weights_directed
-counts the frequencies of the 30 most frequently mentioned institutions** in all correspondences in directed graphs (direction: from main correspondent to mentioned institution; in the visualization only the works that are mentioned more than 15 times are included))
+counts the frequencies of the most frequently mentioned institutions** in all correspondences in directed graphs (direction: from main correspondent to mentioned institution)
 
 ## institution_freq_corr_weights_directed
-counts the frequencies of the 30 most frequently mentioned institutions** per correspondence in directed graphs
+counts the frequencies of the most frequently mentioned institutions** per correspondence in directed graphs
 
 ** mentions are counted per document body
