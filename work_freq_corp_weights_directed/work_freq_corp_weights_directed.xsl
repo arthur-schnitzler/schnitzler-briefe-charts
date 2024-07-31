@@ -31,8 +31,8 @@
 
     <xsl:template match="/">
 
-        <!-- top 1000 -->
-        <xsl:result-document href="work_freq_corp_weights_directed_top1000.csv">
+        <!-- top 500 -->
+        <xsl:result-document href="work_freq_corp_weights_directed_top500.csv">
             
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
@@ -79,10 +79,10 @@
                 <xsl:variable name="korr-id" select="@xml:id"/>
                 
                 <!-- counts in correspondences -->
-                <xsl:variable name="top-1000-works">
+                <xsl:variable name="top-500-works">
                     <xsl:for-each select="$overall-count/*:work">
                         <xsl:sort select="@overallcount" order="descending" data-type="number"/>
-                        <xsl:if test="position() &lt;= 1000">
+                        <xsl:if test="position() &lt;= 500">
                             <!-- names and ids -->
                             <xsl:variable name="work-id" select="@id"/>
                             <xsl:variable name="work-name" select="text()"/>
@@ -101,9 +101,9 @@
                 </xsl:variable>
                 
                 <!-- csv -->
-                <xsl:if test="$top-1000-works/*:work">
+                <xsl:if test="$top-500-works/*:work">
                     
-                    <xsl:for-each select="$top-1000-works/*:work">
+                    <xsl:for-each select="$top-500-works/*:work">
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$korr-name"/>
                         <xsl:value-of select="$quote"/>
