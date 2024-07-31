@@ -28,7 +28,7 @@ counts the frequencies of the 30 most frequently mentioned works** per correspon
 counts the frequencies of the 30 most frequently mentioned places** per correspondence in directed graphs
 
 ## institution_freq_corp_weights_directed
-counts the frequencies of the 30 most frequently mentioned institutions** in all correspondences in directed graphs (direction: from main correspondent to mentioned institution)
+counts the frequencies of the 30 most frequently mentioned institutions** in all correspondences in directed graphs (direction: from main correspondent to mentioned institution; in the visualization only the works that are mentioned more than 15 times are included))
 
 ## institution_freq_corr_weights_directed
 counts the frequencies of the 30 most frequently mentioned institutions** per correspondence in directed graphs
