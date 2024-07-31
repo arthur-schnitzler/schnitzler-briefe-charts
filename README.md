@@ -19,7 +19,7 @@ counts the frequencies of the 30 most frequently mentioned persons** in all corr
 counts the frequencies of the 30 most frequently mentioned persons** per correspondence in directed graphs
 
 ## work_freq_corp_weights_directed
-counts the frequencies of the 30 most frequently mentioned works** in all correspondences in directed graphs (direction: from main correspondent to mentioned work; in the visualization only the works that are mentioned more than 10 times are included)
+counts the frequencies of the 30 most frequently mentioned works** in all correspondences in directed graphs (direction: from main correspondent to mentioned work; in the visualization only the works that are mentioned more than 45 times are included)
 
 ## work_freq_corr_weights_directed
 counts the frequencies of the 30 most frequently mentioned works** per correspondence in directed graphs
