@@ -31,8 +31,8 @@
 
     <xsl:template match="/">
 
-        <!-- top 300 -->
-        <xsl:result-document href="person_freq_corp_weights_directed_top300.csv">
+        <!-- top 500 -->
+        <xsl:result-document href="person_freq_corp_weights_directed_top500.csv">
             
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
@@ -78,10 +78,10 @@
                 <xsl:variable name="korr-id" select="@xml:id"/>
                 
                 <!-- counts in correspondences -->
-                <xsl:variable name="top-300-persons">
+                <xsl:variable name="top-500-persons">
                     <xsl:for-each select="$overall-count/*:person">
                         <xsl:sort select="@overallcount" order="descending" data-type="number"/>
-                        <xsl:if test="position() &lt;= 300">
+                        <xsl:if test="position() &lt;= 500">
                             <!-- names and ids -->
                             <xsl:variable name="pers-id" select="@id"/>
                             <xsl:variable name="pers-name" select="text()"/>
@@ -105,9 +105,9 @@
                 </xsl:variable>
                 
                 <!-- csv -->
-                <xsl:if test="$top-300-persons/*:person">
+                <xsl:if test="$top-500-persons/*:person">
                     
-                    <xsl:for-each select="$top-300-persons/*:person">
+                    <xsl:for-each select="$top-500-persons/*:person">
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$korr-name"/>
                         <xsl:value-of select="$quote"/>
@@ -148,7 +148,7 @@
             
         </xsl:result-document>
         
-        <!--<!-\- top 100 -\->
+        <!-- top 100 -->
         <xsl:result-document href="person_freq_corp_weights_directed_top100.csv">
 
             <xsl:text>Source</xsl:text>
@@ -168,13 +168,13 @@
             <xsl:text>Weight</xsl:text>
             <xsl:value-of select="$newline"/>
 
-            <!-\- overall counts -\->
+            <!-- overall counts -->
             <xsl:variable name="overall-count">
                 <xsl:for-each select="$listperson//tei:person">
-                    <!-\- normalized names and ids -\->
+                    <!-- normalized names and ids -->
                     <xsl:variable name="pers-id" select="concat('#', @xml:id)"/>
                     <xsl:variable name="pers-name" select="normalize-space(child::tei:persName[1])"/>
-                    <!-\- count person mentions in bodies -\->
+                    <!-- count person mentions in bodies -->
                     <xsl:variable name="count"
                         select="count($editions//tei:TEI[key('edition-by-person', $pers-id)])"/>
                     <xsl:if test="$count &gt; 0">
@@ -187,27 +187,27 @@
 
             <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
 
-                <!-\- name of correspondence partner -\->
+                <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
 
-                <!-\- correspondence id -\->
+                <!-- correspondence id -->
                 <xsl:variable name="korr-id" select="@xml:id"/>
 
-                <!-\- counts in correspondences -\->
+                <!-- counts in correspondences -->
                 <xsl:variable name="top-100-persons">
                     <xsl:for-each select="$overall-count/*:person">
                         <xsl:sort select="@overallcount" order="descending" data-type="number"/>
                         <xsl:if test="position() &lt;= 100">
-                            <!-\- names and ids -\->
+                            <!-- names and ids -->
                             <xsl:variable name="pers-id" select="@id"/>
                             <xsl:variable name="pers-name" select="text()"/>
                             <xsl:variable name="overallcount" select="@overallcount"/>
-                            <!-\- exclude mentions of correspondence partners -\->
+                            <!-- exclude mentions of correspondence partners -->
                             <xsl:variable name="exclude-ref"
                                 select="concat('#pmb', substring-after($korr-id, '_'))"/>
                             <xsl:if test="$pers-id != $exclude-ref">
-                                <!-\- count person mentions in bodies -\->
+                                <!-- count person mentions in bodies -->
                                 <xsl:variable name="count"
                                     select="count($editions//tei:TEI[key('corresp-by-id', $korr-id)][key('edition-by-person', $pers-id)])"/>
                                 <xsl:if test="$count &gt; 0">
@@ -221,7 +221,7 @@
                     </xsl:for-each>
                 </xsl:variable>
 
-                <!-\- csv -\->
+                <!-- csv -->
                 <xsl:if test="$top-100-persons/*:person">
 
                     <xsl:for-each select="$top-100-persons/*:person">
@@ -265,7 +265,7 @@
 
         </xsl:result-document>
 
-        <!-\- top 30 -\->
+        <!-- top 30 -->
         <xsl:result-document href="person_freq_corp_weights_directed_top30.csv">
 
             <xsl:text>Source</xsl:text>
@@ -285,13 +285,13 @@
             <xsl:text>Weight</xsl:text>
             <xsl:value-of select="$newline"/>
 
-            <!-\- overall counts -\->
+            <!-- overall counts -->
             <xsl:variable name="overall-count">
                 <xsl:for-each select="$listperson//tei:person">
-                    <!-\- normalized names and ids -\->
+                    <!-- normalized names and ids -->
                     <xsl:variable name="pers-id" select="concat('#', @xml:id)"/>
                     <xsl:variable name="pers-name" select="normalize-space(child::tei:persName[1])"/>
-                    <!-\- count person mentions in bodies -\->
+                    <!-- count person mentions in bodies -->
                     <xsl:variable name="count"
                         select="count($editions//tei:TEI[key('edition-by-person', $pers-id)])"/>
                     <xsl:if test="$count &gt; 0">
@@ -304,27 +304,27 @@
 
             <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
 
-                <!-\- name of correspondence partner -\->
+                <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
 
-                <!-\- correspondence id -\->
+                <!-- correspondence id -->
                 <xsl:variable name="korr-id" select="@xml:id"/>
 
-                <!-\- counts in correspondences -\->
+                <!-- counts in correspondences -->
                 <xsl:variable name="top-30-persons">
                     <xsl:for-each select="$overall-count/*:person">
                         <xsl:sort select="@overallcount" order="descending" data-type="number"/>
                         <xsl:if test="position() &lt;= 30">
-                            <!-\- names and ids -\->
+                            <!-- names and ids -->
                             <xsl:variable name="pers-id" select="@id"/>
                             <xsl:variable name="pers-name" select="text()"/>
                             <xsl:variable name="overallcount" select="@overallcount"/>
-                            <!-\- exclude mentions of correspondence partners -\->
+                            <!-- exclude mentions of correspondence partners -->
                             <xsl:variable name="exclude-ref"
                                 select="concat('#pmb', substring-after($korr-id, '_'))"/>
                             <xsl:if test="$pers-id != $exclude-ref">
-                                <!-\- count person mentions in bodies -\->
+                                <!-- count person mentions in bodies -->
                                 <xsl:variable name="count"
                                     select="count($editions//tei:TEI[key('corresp-by-id', $korr-id)][key('edition-by-person', $pers-id)])"/>
                                 <xsl:if test="$count &gt; 0">
@@ -338,7 +338,7 @@
                     </xsl:for-each>
                 </xsl:variable>
 
-                <!-\- csv -\->
+                <!-- csv -->
                 <xsl:if test="$top-30-persons/*:person">
 
                     <xsl:for-each select="$top-30-persons/*:person">
@@ -380,7 +380,7 @@
 
             </xsl:for-each>
 
-        </xsl:result-document>-->
+        </xsl:result-document>
 
     </xsl:template>
 
