@@ -6,7 +6,7 @@
     <xsl:mode on-no-match="shallow-skip"/>
 
     <!-- this template creates a csv file for network analysis 
-         containing all correspondences with the 30 most frequently mentioned places in each correspondence with weights and directions -->
+         containing all correspondences with the mentioned places in each correspondence with weights and directions -->
 
     <!-- keys -->
     <xsl:key name="edition-by-place" match="tei:body"
@@ -45,10 +45,13 @@
                     <xsl:variable name="place-name"
                         select="normalize-space(child::tei:placeName[1])"/>
                     <!-- count place mentions in bodies -->
-                    <xsl:variable name="count"
+                    <xsl:variable name="overallcount"
+                        select="count($editions//tei:TEI[key('edition-by-place', $place-id)])"/>
+                    <xsl:variable name="corrcount"
                         select="count($editions//tei:TEI[key('corresp-by-id', $korr-id)][key('edition-by-place', $place-id)])"/>
-                    <xsl:if test="$count &gt; 0">
-                        <place id="{$place-id}" count="{$count}">
+                    <xsl:if test="$corrcount &gt; 0">
+                        <place id="{$place-id}" overallcount="{$overallcount}"
+                            corrcount="{$corrcount}">
                             <xsl:value-of select="$place-name"/>
                         </place>
                     </xsl:if>
@@ -64,7 +67,13 @@
 
                     <xsl:text>Source</xsl:text>
                     <xsl:value-of select="$separator"/>
+                    <xsl:text>CorrID</xsl:text>
+                    <xsl:value-of select="$separator"/>
                     <xsl:text>Target</xsl:text>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:text>PlaceID</xsl:text>
+                    <xsl:value-of select="$separator"/>
+                    <xsl:text>Overallcount</xsl:text>
                     <xsl:value-of select="$separator"/>
                     <xsl:text>Type</xsl:text>
                     <xsl:value-of select="$separator"/>
@@ -73,31 +82,41 @@
                     <xsl:text>Weight</xsl:text>
                     <xsl:value-of select="$newline"/>
 
+
                     <xsl:for-each select="$places/*:place">
-                        <xsl:sort select="@count" order="descending" data-type="number"/>
-                        <!-- only top 30 mentions -->
-                        <xsl:if test="position() &lt;= 30">
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="$korr-name"/>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="$separator"/>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="."/>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="$separator"/>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:text>Directed</xsl:text>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="$separator"/>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="concat($korr-name, '–', .)"/>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="$separator"/>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="@count"/>
-                            <xsl:value-of select="$quote"/>
-                            <xsl:value-of select="$newline"/>
-                        </xsl:if>
+                        <xsl:sort select="@corrcount" order="descending" data-type="number"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$korr-name"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="substring-after($korr-id, '_')"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="."/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="@overallcount"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:text>Directed</xsl:text>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="concat($korr-name, '–', .)"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="@corrcount"/>
+                        <xsl:value-of select="$quote"/>
+                        <xsl:value-of select="$newline"/>
                     </xsl:for-each>
 
                 </xsl:result-document>

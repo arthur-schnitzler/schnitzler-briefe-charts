@@ -1,7 +1,7 @@
-Source,Target,Type,Label,Weight
-"Julius Rodenberg","Berlin","Directed","Julius Rodenberg–Berlin","4"
-"Julius Rodenberg","Margaretenstraße","Directed","Julius Rodenberg–Margaretenstraße","3"
-"Julius Rodenberg","Lützowstraße","Directed","Julius Rodenberg–Lützowstraße","3"
-"Julius Rodenberg","Burgtheater","Directed","Julius Rodenberg–Burgtheater","1"
-"Julius Rodenberg","Wien","Directed","Julius Rodenberg–Wien","1"
-"Julius Rodenberg","Frankgasse 1","Directed","Julius Rodenberg–Frankgasse 1","1"
+Source,CorrID,Target,PlaceID,Overallcount,Type,Label,Weight
+"Julius Rodenberg","9550","Berlin","168","570","Directed","Julius Rodenberg–Berlin","4"
+"Julius Rodenberg","9550","Margaretenstraße","34933","3","Directed","Julius Rodenberg–Margaretenstraße","3"
+"Julius Rodenberg","9550","Lützowstraße","34943","3","Directed","Julius Rodenberg–Lützowstraße","3"
+"Julius Rodenberg","9550","Burgtheater","14","55","Directed","Julius Rodenberg–Burgtheater","1"
+"Julius Rodenberg","9550","Wien","50","1647","Directed","Julius Rodenberg–Wien","1"
+"Julius Rodenberg","9550","Frankgasse 1","168934","225","Directed","Julius Rodenberg–Frankgasse 1","1"

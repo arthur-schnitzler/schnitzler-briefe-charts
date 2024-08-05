@@ -27,9 +27,13 @@
 
         <xsl:text>Source</xsl:text>
         <xsl:value-of select="$separator"/>
+        <xsl:text>SourceID</xsl:text>
+        <xsl:value-of select="$separator"/>
         <xsl:text>Lat-Long-Sender</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>Target</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>TargetID</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>Lat-Long-Receiver</xsl:text>
         <xsl:value-of select="$separator"/>
@@ -106,9 +110,29 @@
             <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
 
+            <!-- source id -->
+            <xsl:value-of select="$quote"/>
+            <xsl:choose>
+                <xsl:when test="$sendeort-pmb">
+                    <xsl:value-of select="substring-after($sendeort-pmb, '#pmb')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>nicht vorhanden</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:value-of select="$quote"/>
+            <xsl:value-of select="$separator"/>
+
             <!-- lat-long-sender -->
             <xsl:value-of select="$quote"/>
-            <xsl:value-of select="$lat-long-sender"/>
+            <xsl:choose>
+                <xsl:when test="$lat-long-sender">
+                    <xsl:value-of select="$lat-long-sender"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>nicht vorhanden</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
 
@@ -125,9 +149,29 @@
             <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
 
+            <!-- target id -->
+            <xsl:value-of select="$quote"/>
+            <xsl:choose>
+                <xsl:when test="$empfangsort-pmb">
+                    <xsl:value-of select="substring-after($empfangsort-pmb, '#pmb')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>nicht vorhanden</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:value-of select="$quote"/>
+            <xsl:value-of select="$separator"/>
+
             <!-- lat-long-receiver -->
             <xsl:value-of select="$quote"/>
-            <xsl:value-of select="$lat-long-receiver"/>
+            <xsl:choose>
+                <xsl:when test="$lat-long-receiver">
+                    <xsl:value-of select="$lat-long-receiver"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>nicht vorhanden</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
 
