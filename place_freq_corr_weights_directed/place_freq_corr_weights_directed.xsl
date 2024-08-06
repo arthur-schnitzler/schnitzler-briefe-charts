@@ -62,64 +62,372 @@
 
             <xsl:if test="$places/*:place">
 
-                <xsl:result-document href="place_freq_corr_weights_directed_{$korr-id}.csv"
-                    method="text">
+                <!-- unter/gleich 30 entitäten vorhanden -->
+                <xsl:if test="count($places/*:place) &lt;= 30">
+                    <xsl:result-document href="place_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                        method="text">
 
-                    <xsl:text>Source</xsl:text>
-                    <xsl:value-of select="$separator"/>
-                    <xsl:text>CorrID</xsl:text>
-                    <xsl:value-of select="$separator"/>
-                    <xsl:text>Target</xsl:text>
-                    <xsl:value-of select="$separator"/>
-                    <xsl:text>PlaceID</xsl:text>
-                    <xsl:value-of select="$separator"/>
-                    <xsl:text>Overallcount</xsl:text>
-                    <xsl:value-of select="$separator"/>
-                    <xsl:text>Type</xsl:text>
-                    <xsl:value-of select="$separator"/>
-                    <xsl:text>Label</xsl:text>
-                    <xsl:value-of select="$separator"/>
-                    <xsl:text>Weight</xsl:text>
-                    <xsl:value-of select="$newline"/>
-
-
-                    <xsl:for-each select="$places/*:place">
-                        <xsl:sort select="@corrcount" order="descending" data-type="number"/>
-                        <xsl:value-of select="$quote"/>
-                        <xsl:value-of select="$korr-name"/>
-                        <xsl:value-of select="$quote"/>
+                        <xsl:text>Source</xsl:text>
                         <xsl:value-of select="$separator"/>
-                        <xsl:value-of select="$quote"/>
-                        <xsl:value-of select="substring-after($korr-id, '_')"/>
-                        <xsl:value-of select="$quote"/>
+                        <xsl:text>CorrID</xsl:text>
                         <xsl:value-of select="$separator"/>
-                        <xsl:value-of select="$quote"/>
-                        <xsl:value-of select="."/>
-                        <xsl:value-of select="$quote"/>
+                        <xsl:text>Target</xsl:text>
                         <xsl:value-of select="$separator"/>
-                        <xsl:value-of select="$quote"/>
-                        <xsl:value-of select="substring-after(@id, '#pmb')"/>
-                        <xsl:value-of select="$quote"/>
+                        <xsl:text>PlaceID</xsl:text>
                         <xsl:value-of select="$separator"/>
-                        <xsl:value-of select="$quote"/>
-                        <xsl:value-of select="@overallcount"/>
-                        <xsl:value-of select="$quote"/>
+                        <xsl:text>Overallcount</xsl:text>
                         <xsl:value-of select="$separator"/>
-                        <xsl:value-of select="$quote"/>
-                        <xsl:text>Directed</xsl:text>
-                        <xsl:value-of select="$quote"/>
+                        <xsl:text>Type</xsl:text>
                         <xsl:value-of select="$separator"/>
-                        <xsl:value-of select="$quote"/>
-                        <xsl:value-of select="concat($korr-name, '–', .)"/>
-                        <xsl:value-of select="$quote"/>
+                        <xsl:text>Label</xsl:text>
                         <xsl:value-of select="$separator"/>
-                        <xsl:value-of select="$quote"/>
-                        <xsl:value-of select="@corrcount"/>
-                        <xsl:value-of select="$quote"/>
+                        <xsl:text>Weight</xsl:text>
                         <xsl:value-of select="$newline"/>
-                    </xsl:for-each>
 
-                </xsl:result-document>
+                        <xsl:for-each select="$places/*:place">
+                            <xsl:sort select="@corrcount" order="descending" data-type="number"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$korr-name"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="substring-after($korr-id, '_')"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="."/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="@overallcount"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:text>Directed</xsl:text>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="concat($korr-name, '–', .)"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="@corrcount"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$newline"/>
+                        </xsl:for-each>
+                    </xsl:result-document>
+                </xsl:if>
+
+                <!-- unter 100 entitäten vorhanden -->
+
+                <xsl:if test="count($places/*:place) &gt; 30 and count($places/*:place) &lt; 100">
+
+                    <!-- alle -->
+                    <xsl:result-document href="place_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                        method="text">
+
+                        <xsl:text>Source</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>CorrID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Target</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>PlaceID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Overallcount</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Type</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Label</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Weight</xsl:text>
+                        <xsl:value-of select="$newline"/>
+
+                        <xsl:for-each select="$places/*:place">
+                            <xsl:sort select="@corrcount" order="descending" data-type="number"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$korr-name"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="substring-after($korr-id, '_')"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="."/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="@overallcount"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:text>Directed</xsl:text>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="concat($korr-name, '–', .)"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="@corrcount"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$newline"/>
+                        </xsl:for-each>
+                    </xsl:result-document>
+
+                    <!-- top 30 -->
+                    <xsl:result-document
+                        href="place_freq_corr_weights_directed_{$korr-id}_top30.csv" method="text">
+
+                        <xsl:text>Source</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>CorrID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Target</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>PlaceID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Overallcount</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Type</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Label</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Weight</xsl:text>
+                        <xsl:value-of select="$newline"/>
+
+                        <xsl:for-each select="$places/*:place">
+                            <xsl:sort select="@corrcount" order="descending" data-type="number"/>
+                            <xsl:if test="position() &lt;= 30">
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$korr-name"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="substring-after($korr-id, '_')"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="."/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="@overallcount"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:text>Directed</xsl:text>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="concat($korr-name, '–', .)"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="@corrcount"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$newline"/>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </xsl:result-document>
+
+                </xsl:if>
+
+                <!-- über/gleich 100 entitäten vorhanden -->
+                <xsl:if test="count($places/*:place) &gt;= 100">
+
+                    <!-- alle -->
+                    <xsl:result-document href="place_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                        method="text">
+
+                        <xsl:text>Source</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>CorrID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Target</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>PlaceID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Overallcount</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Type</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Label</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Weight</xsl:text>
+                        <xsl:value-of select="$newline"/>
+
+                        <xsl:for-each select="$places/*:place">
+                            <xsl:sort select="@corrcount" order="descending" data-type="number"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$korr-name"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="substring-after($korr-id, '_')"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="."/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="@overallcount"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:text>Directed</xsl:text>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="concat($korr-name, '–', .)"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$separator"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="@corrcount"/>
+                            <xsl:value-of select="$quote"/>
+                            <xsl:value-of select="$newline"/>
+                        </xsl:for-each>
+                    </xsl:result-document>
+
+                    <!-- top 30 -->
+                    <xsl:result-document
+                        href="place_freq_corr_weights_directed_{$korr-id}_top30.csv" method="text">
+
+                        <xsl:text>Source</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>CorrID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Target</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>PlaceID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Overallcount</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Type</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Label</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Weight</xsl:text>
+                        <xsl:value-of select="$newline"/>
+
+                        <xsl:for-each select="$places/*:place">
+                            <xsl:sort select="@corrcount" order="descending" data-type="number"/>
+                            <xsl:if test="position() &lt;= 30">
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$korr-name"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="substring-after($korr-id, '_')"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="."/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="@overallcount"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:text>Directed</xsl:text>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="concat($korr-name, '–', .)"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="@corrcount"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$newline"/>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </xsl:result-document>
+
+                    <!-- top 100 -->
+                    <xsl:result-document
+                        href="place_freq_corr_weights_directed_{$korr-id}_top100.csv" method="text">
+
+                        <xsl:text>Source</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>CorrID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Target</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>PlaceID</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Overallcount</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Type</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Label</xsl:text>
+                        <xsl:value-of select="$separator"/>
+                        <xsl:text>Weight</xsl:text>
+                        <xsl:value-of select="$newline"/>
+
+                        <xsl:for-each select="$places/*:place">
+                            <xsl:sort select="@corrcount" order="descending" data-type="number"/>
+                            <xsl:if test="position() &lt;= 100">
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$korr-name"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="substring-after($korr-id, '_')"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="."/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="substring-after(@id, '#pmb')"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="@overallcount"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:text>Directed</xsl:text>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="concat($korr-name, '–', .)"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$separator"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="@corrcount"/>
+                                <xsl:value-of select="$quote"/>
+                                <xsl:value-of select="$newline"/>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </xsl:result-document>
+
+                </xsl:if>
 
             </xsl:if>
 
