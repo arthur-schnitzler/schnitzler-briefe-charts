@@ -9,7 +9,7 @@ counts the number of correspondence pieces of all correspondences in undirected 
 counts the number of correspondence pieces of all correspondences in directed graphs, [see visualization](https://schnitzler-briefe.acdh.oeaw.ac.at/tocs.html)
 
 ## postwege_weights_directed
-evaluates the mail routes in directed graphs (sending and receiving locations, without intermediate stops)
+evaluates the mail routes in directed graphs (sending and receiving locations, without intermediate stops), [see visualization](https://schnitzler-briefe.acdh.oeaw.ac.at/correspaction.html)
 
 ## person_freq_corp_weights_directed
 counts the frequencies of the most frequently mentioned persons** in all correspondences in directed graphs (direction: from main correspondent to mentioned person), [see visualization](https://schnitzler-briefe.acdh.oeaw.ac.at/listperson.html)
