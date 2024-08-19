@@ -1,23 +1,23 @@
 # statistiken
 
 ## statistik1
-contains csvs for a graph that shows number of surviving correspondence pieces per sender and receiver. schnitzler’s letters (usually fewer survive than the one he received) are shown as negative numbers
+counts surviving correspondence pieces per sender and receiver. schnitzler’s letters (usually fewer survive than the one he received) are shown as negative numbers, e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/statistik_pmb10863.html)
 
 ## statistik2
-csvs comparing the amount of letters/year with the amount of mentions/year (using the data in [tagebuch-vorkommen-korrespondenzpartner](https://github.com/arthur-schnitzler/schnitzler-tagebuch-charts/tree/main/tagebuch-vorkommen-korrespondenzpartner))
+compares the amount of letters per year with the amount of diary mentions per year (using the data in [tagebuch-vorkommen-korrespondenzpartner](https://github.com/arthur-schnitzler/schnitzler-tagebuch-charts/tree/main/tagebuch-vorkommen-korrespondenzpartner)), e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/statistik_pmb10863.html)
 
 ## statistik3
-this sums the element `<measure unit='zeichenanzahl' quantity='XXX'>` for each correspondence
-partner individually
+sums the element `<measure unit='zeichenanzahl' quantity='XXX'>` for each correspondence
+partner individually, e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/statistik_pmb10863.html)
 
 ## statistik4
-this differentiates types of text (»brief«, »postkarte« etc.)
+differentiates types of text (»brief«, »postkarte« etc.), e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/statistik_pmb10863.html)
 
 ## karte1
-json-files containing the relevant data for the highchart flow-maps for all the surviving correspondence pieces
+shows all surviving correspondence pieces on a map, e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/karte_pmb10863.html)
 
 ## karte2
-similar to the one above with the difference that the map shows schnitzler’s correspondence pieces
+similar to the one above with the difference that the map shows only schnitzler’s correspondence pieces, e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/karte_pmb10863.html)
 
 ## karte3
-… and this one shows the pieces directed to Schnitzler
+similar to the one above, but it shows only the pieces directed to schnitzler, e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/karte_pmb10863.html)
