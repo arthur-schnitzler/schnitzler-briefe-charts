@@ -4,7 +4,7 @@
 contains csvs for a graph that shows number of surviving correspondence pieces per sender and receiver. schnitzler’s letters (usually fewer survive than the one he received) are shown as negative numbers
 
 ## statistik2
-csvs comparing the amount of letters/year with the amount of mentions/year (using the data in tagebuch-vorkommen-korrespondenzpartner)
+csvs comparing the amount of letters/year with the amount of mentions/year (using the data in [tagebuch-vorkommen-korrespondenzpartner](https://github.com/arthur-schnitzler/schnitzler-tagebuch-charts/tree/main/tagebuch-vorkommen-korrespondenzpartner))
 
 ## statistik3
 this sums the element `<measure unit='zeichenanzahl' quantity='XXX'>` for each correspondence
