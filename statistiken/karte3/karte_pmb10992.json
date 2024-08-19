@@ -1,0 +1,216 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Kopenhagen",
+"lat": 55.67594,
+"lon": 12.56553
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
+},
+{
+"id": "Taormina",
+"lat": 37.85358,
+"lon": 15.28851
+},
+{
+"id": "Budapest",
+"lat": 47.49835,
+"lon": 19.04045
+},
+{
+"id": "Opatija",
+"lat": 45.33771,
+"lon": 14.30515
+},
+{
+"id": "Ostrava",
+"lat": 49.83465,
+"lon": 18.28204
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+},
+{
+"id": "Skodsborg",
+"lat": 55.8225,
+"lon": 12.57324
+},
+{
+"id": "Vahrn",
+"lat": 46.73901,
+"lon": 11.63749
+},
+{
+"id": "Marienlyst",
+"lat": 56.042028,
+"lon": 12.601917
+},
+{
+"id": "Pallanza",
+"lat": 45.92298,
+"lon": 8.55045
+},
+{
+"id": "Seis am Schlern",
+"lat": 46.54133,
+"lon": 11.55868
+},
+{
+"id": "Karlsbad",
+"lat": 50.23271,
+"lon": 12.87117
+},
+{
+"id": "Edlach",
+"lat": 47.69255,
+"lon": 15.80915
+},
+{
+"id": "Menton",
+"lat": 43.77649,
+"lon": 7.50435
+},
+{
+"id": "Dänemark",
+"lat": 56.0,
+"lon": 10.0
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
+"id": "Skagen",
+"lat": 57.72093,
+"lon": 10.58394
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Kopenhagen",
+"to": "Wien",
+"weight": 26},
+{
+"from": "Kopenhagen",
+"to": "Bad Ischl",
+"weight": 2},
+{
+"from": "Kopenhagen",
+"to": "Salzburg",
+"weight": 1},
+{
+"from": "Kopenhagen",
+"to": "Marienlyst",
+"weight": 2},
+{
+"from": "Kopenhagen",
+"to": "Menton",
+"weight": 1},
+{
+"from": "Kopenhagen",
+"to": "Kopenhagen",
+"weight": 1},
+{
+"from": "Kopenhagen",
+"to": "Berlin",
+"weight": 1}
+,
+{
+"from": "Wien",
+"to": "Kopenhagen",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 3},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 0}
+,
+{
+"from": "Taormina",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Budapest",
+"to": "Opatija",
+"weight": 1}
+,
+{
+"from": "Ostrava",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Opatija",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Skodsborg",
+"to": "Vahrn",
+"weight": 1}
+,
+{
+"from": "Pallanza",
+"to": "Seis am Schlern",
+"weight": 1}
+,
+{
+"from": "Karlsbad",
+"to": "Edlach",
+"weight": 1}
+,
+{
+"from": "Dänemark",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Paris",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Skagen",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Salzburg",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

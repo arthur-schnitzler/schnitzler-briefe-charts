@@ -1,0 +1,43 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Hamburg",
+"lat": 53.57532,
+"lon": 10.01534
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Hamburg",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Wien",
+"to": "Hamburg",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 2}
+
+]}
+]}

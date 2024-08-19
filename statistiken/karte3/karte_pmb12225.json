@@ -1,0 +1,39 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Deutschfeistritz",
+"lat": 47.19852,
+"lon": 15.33623
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 7}
+,
+{
+"from": "Deutschfeistritz",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

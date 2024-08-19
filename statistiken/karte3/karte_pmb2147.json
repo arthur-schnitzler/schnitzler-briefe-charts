@@ -1,0 +1,67 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Gmunden",
+"lat": 47.91839,
+"lon": 13.79933
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Semmering",
+"lat": 47.64224,
+"lon": 15.8241
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Gmunden",
+"to": "Bad Ischl",
+"weight": 1},
+{
+"from": "Gmunden",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 11}
+,
+{
+"from": "Semmering",
+"to": "Wien",
+"weight": 4},
+{
+"from": "Semmering",
+"to": "Semmering",
+"weight": 1}
+
+]}
+]}

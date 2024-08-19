@@ -1,0 +1,73 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "München",
+"lat": 48.13743,
+"lon": 11.57549
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Bad Tölz",
+"lat": 47.76111,
+"lon": 11.5589
+},
+{
+"id": "Brijuni",
+"lat": 44.91417,
+"lon": 13.76222
+},
+{
+"id": "Sestri Levante",
+"lat": 44.27317,
+"lon": 9.39683
+},
+{
+"id": "Arosa",
+"lat": 46.77793,
+"lon": 9.67621
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "München",
+"to": "Wien",
+"weight": 13},
+{
+"from": "München",
+"to": "Brijuni",
+"weight": 1}
+,
+{
+"from": "Bad Tölz",
+"to": "Wien",
+"weight": 4}
+,
+{
+"from": "Sestri Levante",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Arosa",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

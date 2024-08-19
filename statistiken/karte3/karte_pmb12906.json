@@ -1,0 +1,39 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Harmannsdorf",
+"lat": 48.60055,
+"lon": 15.74243
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Harmannsdorf",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 5}
+
+]}
+]}

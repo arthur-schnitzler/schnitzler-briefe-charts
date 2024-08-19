@@ -1,0 +1,75 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Zistersdorf",
+"lat": 48.53585,
+"lon": 16.75613
+},
+{
+"id": "Andorf",
+"lat": 48.3713,
+"lon": 13.57412
+},
+{
+"id": "Millstatt",
+"lat": 46.82295,
+"lon": 13.60447
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 41},
+{
+"from": "Wien",
+"to": "Zistersdorf",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Andorf",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Gutenstein",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Bad Aussee",
+"weight": 0}
+,
+{
+"from": "Zistersdorf",
+"to": "Wien",
+"weight": 7}
+,
+{
+"from": "Andorf",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Millstatt",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

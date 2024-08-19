@@ -1,0 +1,53 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Seis am Schlern",
+"lat": 46.54133,
+"lon": 11.55868
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Seis am Schlern",
+"to": "Berlin",
+"weight": 1}
+,
+{
+"from": "Wien",
+"to": "Berlin",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 1}
+
+]}
+]}

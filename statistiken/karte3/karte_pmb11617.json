@@ -1,0 +1,75 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Szklarska Poręba",
+"lat": 50.82567,
+"lon": 15.52274
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Agnetendorf",
+"lat": 50.816944,
+"lon": 15.609444
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Szklarska Poręba",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Wien",
+"to": "Szklarska Poręba",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Berlin",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Agnetendorf",
+"weight": 0}
+,
+{
+"from": "Agnetendorf",
+"to": "Wien",
+"weight": 5}
+,
+{
+"from": "Berlin",
+"to": "Agnetendorf",
+"weight": 0},
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

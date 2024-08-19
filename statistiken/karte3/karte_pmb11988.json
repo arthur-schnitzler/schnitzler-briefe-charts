@@ -1,0 +1,78 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Opatija",
+"lat": 45.33771,
+"lon": 14.30515
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
+},
+{
+"id": "München",
+"lat": 48.13743,
+"lon": 11.57549
+},
+{
+"id": "Schliersee",
+"lat": 47.73621,
+"lon": 11.85936
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 15}
+,
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Berlin",
+"to": "Opatija",
+"weight": 1}
+,
+{
+"from": "Bad Ischl",
+"to": "Wien",
+"weight": 4}
+,
+{
+"from": "München",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Schliersee",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

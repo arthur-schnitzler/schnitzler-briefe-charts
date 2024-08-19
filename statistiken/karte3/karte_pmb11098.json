@@ -1,0 +1,43 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "München",
+"lat": 48.13743,
+"lon": 11.57549
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "IX., Alsergrund",
+"lat": 48.22387,
+"lon": 16.35641
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "München",
+"to": "Wien",
+"weight": 4},
+{
+"from": "München",
+"to": "IX., Alsergrund",
+"weight": 1}
+
+]}
+]}

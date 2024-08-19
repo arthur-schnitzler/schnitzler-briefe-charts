@@ -1,0 +1,76 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Berlin-Pankow",
+"lat": 52.569167,
+"lon": 13.403333
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Blankenese",
+"lat": 53.5652,
+"lon": 9.7972
+},
+{
+"id": "Brijuni",
+"lat": 44.91417,
+"lon": 13.76222
+},
+{
+"id": "Hamburg",
+"lat": 53.57532,
+"lon": 10.01534
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Berlin-Pankow",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Blankenese",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Berlin",
+"to": "Blankenese",
+"weight": 1},
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 0}
+,
+{
+"from": "Brijuni",
+"to": "Hamburg",
+"weight": 1}
+
+]}
+]}

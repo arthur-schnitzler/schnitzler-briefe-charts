@@ -1,0 +1,85 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Zistersdorf",
+"lat": 48.53585,
+"lon": 16.75613
+},
+{
+"id": "Altaussee",
+"lat": 47.6698,
+"lon": 13.78453
+},
+{
+"id": "Bad Gastein",
+"lat": 47.11547,
+"lon": 13.13467
+},
+{
+"id": "Andorf",
+"lat": 48.3713,
+"lon": 13.57412
+},
+{
+"id": "Gutenstein",
+"lat": 47.875833333333,
+"lon": 15.889166666667
+},
+{
+"id": "Bad Aussee",
+"lat": 47.60998,
+"lon": 13.78243
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 47},
+{
+"from": "Wien",
+"to": "Zistersdorf",
+"weight": 8},
+{
+"from": "Wien",
+"to": "Andorf",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Gutenstein",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Bad Aussee",
+"weight": 1}
+,
+{
+"from": "Altaussee",
+"to": "Altaussee",
+"weight": 2}
+,
+{
+"from": "Bad Gastein",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

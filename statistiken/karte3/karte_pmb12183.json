@@ -1,0 +1,34 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Schliersee",
+"lat": 47.73621,
+"lon": 11.85936
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Schliersee",
+"to": "Wien",
+"weight": 3}
+
+]}
+]}

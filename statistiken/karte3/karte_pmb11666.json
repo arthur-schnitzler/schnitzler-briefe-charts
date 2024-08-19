@@ -1,0 +1,49 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Grundlsee (Gemeinde)",
+"lat": 47.61667,
+"lon": 13.81667
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Hallstätter See",
+"lat": 47.578611,
+"lon": 13.660556
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Grundlsee",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Hallstätter See",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 5}
+
+]}
+]}

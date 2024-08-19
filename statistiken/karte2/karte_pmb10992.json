@@ -1,0 +1,147 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Skodsborg",
+"lat": 55.8225,
+"lon": 12.57324
+},
+{
+"id": "Kopenhagen",
+"lat": 55.67594,
+"lon": 12.56553
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
+},
+{
+"id": "St. Anton am Arlberg",
+"lat": 47.1275,
+"lon": 10.26372
+},
+{
+"id": "Vahrn",
+"lat": 46.73901,
+"lon": 11.63749
+},
+{
+"id": "Welsberg-Taisten",
+"lat": 46.75774,
+"lon": 12.10556
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Marienlyst",
+"lat": 56.042028,
+"lon": 12.601917
+},
+{
+"id": "Seis am Schlern",
+"lat": 46.54133,
+"lon": 11.55868
+},
+{
+"id": "Garmisch-Partenkirchen",
+"lat": 47.49209,
+"lon": 11.09576
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
+"id": "Celerina",
+"lat": 46.5146,
+"lon": 9.8622
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+},
+{
+"id": "Las Palmas de Gran Canaria",
+"lat": 28.09973,
+"lon": -15.41343
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Kopenhagen",
+"weight": 26},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 1}
+,
+{
+"from": "Bad Ischl",
+"to": "Kopenhagen",
+"weight": 2}
+,
+{
+"from": "St. Anton am Arlberg",
+"to": "Kopenhagen",
+"weight": 1}
+,
+{
+"from": "Vahrn",
+"to": "Kopenhagen",
+"weight": 1}
+,
+{
+"from": "Welsberg-Taisten",
+"to": "Berlin",
+"weight": 1}
+,
+{
+"from": "Marienlyst",
+"to": "Kopenhagen",
+"weight": 3}
+,
+{
+"from": "Garmisch-Partenkirchen",
+"to": "Paris",
+"weight": 1}
+,
+{
+"from": "Celerina",
+"to": "Kopenhagen",
+"weight": 1}
+,
+{
+"from": "Las Palmas de Gran Canaria",
+"to": "Kopenhagen",
+"weight": 1}
+
+]}
+]}

@@ -1,0 +1,67 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Dießen am Ammersee",
+"lat": 47.950839,
+"lon": 11.103059
+},
+{
+"id": "Göttingen",
+"lat": 51.53443,
+"lon": 9.93228
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Paris",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Wien",
+"to": "Paris",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 15}
+,
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Berlin",
+"to": "Berlin",
+"weight": 1}
+
+]}
+]}

@@ -1,0 +1,274 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
+"id": "Breitenfurt bei Wien",
+"lat": 48.13333,
+"lon": 16.15
+},
+{
+"id": "Baden bei Wien",
+"lat": 48.00543,
+"lon": 16.23264
+},
+{
+"id": "Innsbruck",
+"lat": 47.28433,
+"lon": 11.37706
+},
+{
+"id": "St. Anton am Arlberg",
+"lat": 47.1275,
+"lon": 10.26372
+},
+{
+"id": "Matrei am Brenner",
+"lat": 47.12852,
+"lon": 11.45222
+},
+{
+"id": "Lugano",
+"lat": 46.01008,
+"lon": 8.96004
+},
+{
+"id": "Lavarone",
+"lat": 45.93632,
+"lon": 11.27206
+},
+{
+"id": "Radolfzell am Bodensee",
+"lat": 47.74194,
+"lon": 8.97098
+},
+{
+"id": "St. Gilgen",
+"lat": 47.76667,
+"lon": 13.36667
+},
+{
+"id": "Ajaccio",
+"lat": 41.91886,
+"lon": 8.73812
+},
+{
+"id": "Semmering",
+"lat": 47.64224,
+"lon": 15.8241
+},
+{
+"id": "Reichenau an der Rax",
+"lat": 47.7,
+"lon": 15.83333
+},
+{
+"id": "Helsingør",
+"lat": 56.03606,
+"lon": 12.6136
+},
+{
+"id": "Venedig",
+"lat": 45.43713,
+"lon": 12.33265
+},
+{
+"id": "Riva del Garda",
+"lat": 45.88576,
+"lon": 10.84118
+},
+{
+"id": "München",
+"lat": 48.13743,
+"lon": 11.57549
+},
+{
+"id": "Seis am Schlern",
+"lat": 46.54133,
+"lon": 11.55868
+},
+{
+"id": "Zell am Ziller",
+"lat": 47.22982,
+"lon": 11.88535
+},
+{
+"id": "Darmstadt",
+"lat": 49.87167,
+"lon": 8.65027
+},
+{
+"id": "London",
+"lat": 51.50853,
+"lon": -0.12574
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 90},
+{
+"from": "Wien",
+"to": "Bad Ischl",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Berlin",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Radolfzell am Bodensee",
+"weight": 2},
+{
+"from": "Wien",
+"to": "London",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Semmering",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 7},
+{
+"from": "Wien",
+"to": "München",
+"weight": 4}
+,
+{
+"from": "Bad Ischl",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 3},
+{
+"from": "Berlin",
+"to": "Berlin",
+"weight": 1}
+,
+{
+"from": "Paris",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Breitenfurt bei Wien",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Innsbruck",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "St. Anton am Arlberg",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Matrei am Brenner",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Lugano",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Lavarone",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "St. Gilgen",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Ajaccio",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Semmering",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Helsingør",
+"to": "Venedig",
+"weight": 1}
+,
+{
+"from": "Riva del Garda",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "München",
+"to": "Wien",
+"weight": 1},
+{
+"from": "München",
+"to": "Zell am Ziller",
+"weight": 1},
+{
+"from": "München",
+"to": "Salzburg",
+"weight": 0}
+,
+{
+"from": "Seis am Schlern",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Darmstadt",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

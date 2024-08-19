@@ -1,0 +1,39 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Rájec-Jestřebí",
+"lat": 49.41094,
+"lon": 16.63902
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 5}
+,
+{
+"from": "Rájec-Jestřebí",
+"to": "Wien",
+"weight": 2}
+
+]}
+]}

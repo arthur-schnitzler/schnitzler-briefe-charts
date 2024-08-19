@@ -1,0 +1,49 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Meran",
+"lat": 46.66817,
+"lon": 11.15953
+},
+{
+"id": "Zürich",
+"lat": 47.37174,
+"lon": 8.54226
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 17}
+,
+{
+"from": "Meran",
+"to": "Wien",
+"weight": 5}
+,
+{
+"from": "Zürich",
+"to": "Wien",
+"weight": 6}
+
+]}
+]}

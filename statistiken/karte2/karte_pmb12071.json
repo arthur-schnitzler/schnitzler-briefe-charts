@@ -1,0 +1,48 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Hamburg",
+"lat": 53.57532,
+"lon": 10.01534
+},
+{
+"id": "Edlach",
+"lat": 47.69255,
+"lon": 15.80915
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Hamburg",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 0}
+,
+{
+"from": "Edlach",
+"to": "Hamburg",
+"weight": 1}
+
+]}
+]}

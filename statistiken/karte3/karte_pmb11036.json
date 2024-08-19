@@ -1,0 +1,94 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Breslau",
+"lat": 51.10773,
+"lon": 17.03533
+},
+{
+"id": "St. Gilgen",
+"lat": 47.76667,
+"lon": 13.36667
+},
+{
+"id": "Seis am Schlern",
+"lat": 46.54133,
+"lon": 11.55868
+},
+{
+"id": "München",
+"lat": 48.13743,
+"lon": 11.57549
+},
+{
+"id": "Edlach",
+"lat": 47.69255,
+"lon": 15.80915
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 22},
+{
+"from": "Wien",
+"to": "Berlin",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Breslau",
+"weight": 1}
+,
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "St. Gilgen",
+"to": "Wien",
+"weight": 10},
+{
+"from": "St. Gilgen",
+"to": "Seis am Schlern",
+"weight": 1},
+{
+"from": "St. Gilgen",
+"to": "St. Gilgen",
+"weight": 1},
+{
+"from": "St. Gilgen",
+"to": "Edlach",
+"weight": 1}
+,
+{
+"from": "München",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

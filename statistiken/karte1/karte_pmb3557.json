@@ -1,0 +1,39 @@
+{
+"title": {
+"text": "Gesamte Korrespondenz"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Bern",
+"lat": 46.9489,
+"lon": 7.4638
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Bern",
+"to": "Wien",
+"weight": 5}
+,
+{
+"from": "Wien",
+"to": "Bern",
+"weight": 2}
+
+]}
+]}

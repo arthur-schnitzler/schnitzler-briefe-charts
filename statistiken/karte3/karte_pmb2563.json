@@ -1,0 +1,79 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Brünn",
+"lat": 49.19522,
+"lon": 16.60796
+},
+{
+"id": "Prag",
+"lat": 50.08333,
+"lon": 14.46667
+},
+{
+"id": "Leipzig",
+"lat": 51.33962,
+"lon": 12.37129
+},
+{
+"id": "Breslau",
+"lat": 51.10773,
+"lon": 17.03533
+},
+{
+"id": "Kreiensen",
+"lat": 51.85363,
+"lon": 9.96481
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Brünn",
+"to": "Wien",
+"weight": 3}
+,
+{
+"from": "Prag",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Leipzig",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Breslau",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Kreiensen",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

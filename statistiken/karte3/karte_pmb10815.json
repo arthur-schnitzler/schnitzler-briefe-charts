@@ -1,0 +1,318 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
+"id": "Grundlsee (Gemeinde)",
+"lat": 47.61667,
+"lon": 13.81667
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Carbonin",
+"lat": 46.62111,
+"lon": 12.21722
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+},
+{
+"id": "Edlach",
+"lat": 47.69255,
+"lon": 15.80915
+},
+{
+"id": "Semmering",
+"lat": 47.64224,
+"lon": 15.8241
+},
+{
+"id": "Marbach am Bodensee",
+"lat": 47.6667,
+"lon": 8.9
+},
+{
+"id": "Konstanz",
+"lat": 47.66033,
+"lon": 9.17582
+},
+{
+"id": "Opatija",
+"lat": 45.33771,
+"lon": 14.30515
+},
+{
+"id": "Solin",
+"lat": 43.5,
+"lon": 16.5
+},
+{
+"id": "Dubrovnik",
+"lat": 42.64807,
+"lon": 18.09216
+},
+{
+"id": "Athen",
+"lat": 37.97945,
+"lon": 23.71622
+},
+{
+"id": "Pola",
+"lat": 44.86833,
+"lon": 13.84806
+},
+{
+"id": "Würzburg",
+"lat": 49.79391,
+"lon": 9.95121
+},
+{
+"id": "München",
+"lat": 48.13743,
+"lon": 11.57549
+},
+{
+"id": "Venedig",
+"lat": 45.43713,
+"lon": 12.33265
+},
+{
+"id": "Zürich",
+"lat": 47.37174,
+"lon": 8.54226
+},
+{
+"id": "Lindau am Bodensee",
+"lat": 47.54612,
+"lon": 9.68431
+},
+{
+"id": "Bayreuth",
+"lat": 49.94782,
+"lon": 11.57893
+},
+{
+"id": "Zell am Ziller",
+"lat": 47.22982,
+"lon": 11.88535
+},
+{
+"id": "Kaliningrad",
+"lat": 54.70649,
+"lon": 20.51095
+},
+{
+"id": "London",
+"lat": 51.50853,
+"lon": -0.12574
+},
+{
+"id": "Wuppertal",
+"lat": 51.25627,
+"lon": 7.14816
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 142},
+{
+"from": "Wien",
+"to": "Bad Ischl",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Berlin",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Radolfzell am Bodensee",
+"weight": 0},
+{
+"from": "Wien",
+"to": "London",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Semmering",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 0},
+{
+"from": "Wien",
+"to": "München",
+"weight": 0}
+,
+{
+"from": "Paris",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Grundlsee",
+"to": "Bad Ischl",
+"weight": 1}
+,
+{
+"from": "Carbonin",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Salzburg",
+"to": "Wien",
+"weight": 9}
+,
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 2},
+{
+"from": "Berlin",
+"to": "Berlin",
+"weight": 1}
+,
+{
+"from": "Edlach",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Semmering",
+"to": "Wien",
+"weight": 4}
+,
+{
+"from": "Marbach am Bodensee",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Marbach am Bodensee",
+"to": "Berlin",
+"weight": 1}
+,
+{
+"from": "Konstanz",
+"to": "Berlin",
+"weight": 1}
+,
+{
+"from": "Opatija",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Solin",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Dubrovnik",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Athen",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Pola",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Würzburg",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "München",
+"to": "Wien",
+"weight": 5},
+{
+"from": "München",
+"to": "Zell am Ziller",
+"weight": 0},
+{
+"from": "München",
+"to": "Salzburg",
+"weight": 0}
+,
+{
+"from": "Venedig",
+"to": "Wien",
+"weight": 4}
+,
+{
+"from": "Zürich",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Lindau am Bodensee",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Bayreuth",
+"to": "Edlach",
+"weight": 1}
+,
+{
+"from": "Zell am Ziller",
+"to": "München",
+"weight": 1}
+,
+{
+"from": "Kaliningrad",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "London",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Wuppertal",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

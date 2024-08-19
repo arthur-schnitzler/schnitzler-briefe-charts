@@ -1,0 +1,90 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Blankenese",
+"lat": 53.5652,
+"lon": 9.7972
+},
+{
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Braunwald",
+"lat": 46.94159,
+"lon": 8.99643
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Hamburg",
+"lat": 53.57532,
+"lon": 10.01534
+},
+{
+"id": "Brijuni",
+"lat": 44.91417,
+"lon": 13.76222
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Blankenese",
+"to": "Wien",
+"weight": 2}
+,
+{
+"from": "Braunwald",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Wien",
+"to": "Berlin-Pankow",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Blankenese",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Berlin",
+"to": "Blankenese",
+"weight": 0},
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Hamburg",
+"to": "Brijuni",
+"weight": 1},
+{
+"from": "Hamburg",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

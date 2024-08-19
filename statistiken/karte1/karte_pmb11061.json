@@ -1,0 +1,59 @@
+{
+"title": {
+"text": "Gesamte Korrespondenz"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
+},
+{
+"id": "Zürich",
+"lat": 47.37174,
+"lon": 8.54226
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Berlin",
+"weight": 14}
+,
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 9}
+,
+{
+"from": "Bad Ischl",
+"to": "Berlin",
+"weight": 1}
+,
+{
+"from": "Zürich",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

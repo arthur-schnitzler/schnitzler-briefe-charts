@@ -1,0 +1,1513 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.2066,
+"lon": 16.37341
+},
+{
+"id": "Brünn",
+"lat": 49.19522,
+"lon": 16.60796
+},
+{
+"id": "Bad Aussee",
+"lat": 47.60998,
+"lon": 13.78243
+},
+{
+"id": "Halle an der Saale",
+"lat": 51.48158,
+"lon": 11.97947
+},
+{
+"id": "III., Landstraße",
+"lat": 48.19811,
+"lon": 16.39482
+},
+{
+"id": "Opatija",
+"lat": 45.33771,
+"lon": 14.30515
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
+},
+{
+"id": "Riva del Garda",
+"lat": 45.88576,
+"lon": 10.84118
+},
+{
+"id": "Venedig",
+"lat": 45.43713,
+"lon": 12.33265
+},
+{
+"id": "I., Innere Stadt",
+"lat": 48.20769,
+"lon": 16.37049
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+},
+{
+"id": "Pörtschach",
+"lat": 47.02251,
+"lon": 14.47783
+},
+{
+"id": "Znaim",
+"lat": 48.8555,
+"lon": 16.0488
+},
+{
+"id": "Berlin",
+"lat": 52.52437,
+"lon": 13.41053
+},
+{
+"id": "Florenz",
+"lat": 43.77925,
+"lon": 11.24626
+},
+{
+"id": "Rom",
+"lat": 41.89193,
+"lon": 12.51133
+},
+{
+"id": "Neapel",
+"lat": 40.85216,
+"lon": 14.26811
+},
+{
+"id": "Caslau",
+"lat": 49.91099,
+"lon": 15.38972
+},
+{
+"id": "Marienbad",
+"lat": 49.96115,
+"lon": 12.72872
+},
+{
+"id": "St. Johann in Tirol",
+"lat": 47.52332,
+"lon": 12.42326
+},
+{
+"id": "München",
+"lat": 48.13743,
+"lon": 11.57549
+},
+{
+"id": "Schönberg im Stubaital",
+"lat": 47.18333,
+"lon": 11.41667
+},
+{
+"id": "Gardone Riviera",
+"lat": 45.62499,
+"lon": 10.56527
+},
+{
+"id": "Fürberg",
+"lat": 47.76667,
+"lon": 13.38333
+},
+{
+"id": "Lübeck",
+"lat": 53.86893,
+"lon": 10.68729
+},
+{
+"id": "St. Gilgen",
+"lat": 47.76667,
+"lon": 13.36667
+},
+{
+"id": "Stavanger",
+"lat": 58.97005,
+"lon": 5.73332
+},
+{
+"id": "Kopenhagen",
+"lat": 55.67594,
+"lon": 12.56553
+},
+{
+"id": "Trondheim",
+"lat": 63.43049,
+"lon": 10.39506
+},
+{
+"id": "Tromsø",
+"lat": 69.6489,
+"lon": 18.95508
+},
+{
+"id": "Oslo",
+"lat": 59.91273,
+"lon": 10.74609
+},
+{
+"id": "Stockholm",
+"lat": 59.325,
+"lon": 18.05
+},
+{
+"id": "Skodsborg",
+"lat": 55.8225,
+"lon": 12.57324
+},
+{
+"id": "Baden bei Wien",
+"lat": 48.00543,
+"lon": 16.23264
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
+"id": "London",
+"lat": 51.50853,
+"lon": -0.12574
+},
+{
+"id": "Steindorf am Ossiacher See",
+"lat": 46.6992,
+"lon": 13.98892
+},
+{
+"id": "Krieglach",
+"lat": 47.54728,
+"lon": 15.56248
+},
+{
+"id": "Graz",
+"lat": 47.06667,
+"lon": 15.43333
+},
+{
+"id": "St. Johann im Pongau",
+"lat": 47.35,
+"lon": 13.2
+},
+{
+"id": "Bad Gastein",
+"lat": 47.11547,
+"lon": 13.13467
+},
+{
+"id": "Tegernsee",
+"lat": 47.7123,
+"lon": 11.7582
+},
+{
+"id": "Biel",
+"lat": 47.13713,
+"lon": 7.24608
+},
+{
+"id": "Luzern",
+"lat": 47.05048,
+"lon": 8.30635
+},
+{
+"id": "Seeboden",
+"lat": 46.83649,
+"lon": 13.52346
+},
+{
+"id": "Orahovica",
+"lat": 45.54,
+"lon": 17.88472
+},
+{
+"id": "Velden am Wörthersee",
+"lat": 46.61901,
+"lon": 14.03129
+},
+{
+"id": "Tarvisio",
+"lat": 46.50567,
+"lon": 13.58689
+},
+{
+"id": "Spittal an der Drau",
+"lat": 46.8,
+"lon": 13.5
+},
+{
+"id": "Toblach",
+"lat": 46.72493,
+"lon": 12.22109
+},
+{
+"id": "Vahrn",
+"lat": 46.73901,
+"lon": 11.63749
+},
+{
+"id": "Zirndorf",
+"lat": 49.4424,
+"lon": 10.95414
+},
+{
+"id": "Nürnberg",
+"lat": 49.45421,
+"lon": 11.07752
+},
+{
+"id": "Frankfurt am Main",
+"lat": 50.11552,
+"lon": 8.68417
+},
+{
+"id": "Wiesbaden",
+"lat": 50.08258,
+"lon": 8.24932
+},
+{
+"id": "Sankt Michael",
+"lat": 46.455308,
+"lon": 11.258736
+},
+{
+"id": "Rüdesheim",
+"lat": 49.9789,
+"lon": 7.92442
+},
+{
+"id": "Sanremo",
+"lat": 43.81725,
+"lon": 7.7772
+},
+{
+"id": "Reichenau an der Rax",
+"lat": 47.7,
+"lon": 15.83333
+},
+{
+"id": "Dubrovnik",
+"lat": 42.64807,
+"lon": 18.09216
+},
+{
+"id": "Split",
+"lat": 43.5,
+"lon": 16.433333
+},
+{
+"id": "Solin",
+"lat": 43.5,
+"lon": 16.5
+},
+{
+"id": "Puchberg am Schneeberg",
+"lat": 47.78709,
+"lon": 15.91352
+},
+{
+"id": "Altaussee",
+"lat": 47.6698,
+"lon": 13.78453
+},
+{
+"id": "Admont",
+"lat": 47.56155,
+"lon": 14.47188
+},
+{
+"id": "Payerbach",
+"lat": 47.69209,
+"lon": 15.8634
+},
+{
+"id": "Bormio",
+"lat": 46.46717,
+"lon": 10.37008
+},
+{
+"id": "Bologna",
+"lat": 44.49381,
+"lon": 11.33875
+},
+{
+"id": "St. Anton am Arlberg",
+"lat": 47.1275,
+"lon": 10.26372
+},
+{
+"id": "Innsbruck",
+"lat": 47.28433,
+"lon": 11.37706
+},
+{
+"id": "Sand in Taufers",
+"lat": 46.90844,
+"lon": 11.96036
+},
+{
+"id": "Welsberg-Taisten",
+"lat": 46.75774,
+"lon": 12.10556
+},
+{
+"id": "Rodaun",
+"lat": 48.132793312328,
+"lon": 16.256152195922
+},
+{
+"id": "Semmering",
+"lat": 47.64224,
+"lon": 15.8241
+},
+{
+"id": "Matrei am Brenner",
+"lat": 47.12852,
+"lon": 11.45222
+},
+{
+"id": "Hallein",
+"lat": 47.68333,
+"lon": 13.1
+},
+{
+"id": "Padua",
+"lat": 45.40797,
+"lon": 11.88586
+},
+{
+"id": "Hochschneeberg",
+"lat": 47.775833,
+"lon": 15.8075
+},
+{
+"id": "Monreale",
+"lat": 38.08125,
+"lon": 13.28947
+},
+{
+"id": "Taormina",
+"lat": 37.85358,
+"lon": 15.28851
+},
+{
+"id": "Pegli",
+"lat": 44.42445,
+"lon": 8.81213
+},
+{
+"id": "Korfu",
+"lat": 39.598055,
+"lon": 19.852222
+},
+{
+"id": "Marienlyst",
+"lat": 56.042028,
+"lon": 12.601917
+},
+{
+"id": "Helsingør",
+"lat": 56.03606,
+"lon": 12.6136
+},
+{
+"id": "Fredensborg",
+"lat": 55.97558,
+"lon": 12.40314
+},
+{
+"id": "Weimar",
+"lat": 50.97361,
+"lon": 11.33806
+},
+{
+"id": "Veldes",
+"lat": 46.36917,
+"lon": 14.11361
+},
+{
+"id": "Maria Schutz",
+"lat": 47.64168,
+"lon": 15.86924
+},
+{
+"id": "Misurina",
+"lat": 46.58108,
+"lon": 12.25275
+},
+{
+"id": "Villach",
+"lat": 46.61254,
+"lon": 13.8529
+},
+{
+"id": "Meran",
+"lat": 46.66817,
+"lon": 11.15953
+},
+{
+"id": "Lido",
+"lat": 45.38333,
+"lon": 12.35
+},
+{
+"id": "Garmisch-Partenkirchen",
+"lat": 47.49209,
+"lon": 11.09576
+},
+{
+"id": "Seis am Schlern",
+"lat": 46.54133,
+"lon": 11.55868
+},
+{
+"id": "Strobl",
+"lat": 47.71667,
+"lon": 13.48333
+},
+{
+"id": "Edlach",
+"lat": 47.69255,
+"lon": 15.80915
+},
+{
+"id": "Pichl am See",
+"lat": 47.81667,
+"lon": 13.4
+},
+{
+"id": "Zürich",
+"lat": 47.37174,
+"lon": 8.54226
+},
+{
+"id": "Interlaken",
+"lat": 46.68387,
+"lon": 7.86638
+},
+{
+"id": "Genf",
+"lat": 46.20222,
+"lon": 6.14569
+},
+{
+"id": "Hamburg",
+"lat": 53.57532,
+"lon": 10.01534
+},
+{
+"id": "Brijuni",
+"lat": 44.91417,
+"lon": 13.76222
+},
+{
+"id": "Sankt Moritz",
+"lat": 46.49937,
+"lon": 9.84327
+},
+{
+"id": "Tutzing",
+"lat": 47.90938,
+"lon": 11.2803
+},
+{
+"id": "Maloja",
+"lat": 46.401497,
+"lon": 9.695937
+},
+{
+"id": "Menton",
+"lat": 43.77649,
+"lon": 7.50435
+},
+{
+"id": "Genua",
+"lat": 44.40478,
+"lon": 8.94439
+},
+{
+"id": "Antwerpen",
+"lat": 51.2663,
+"lon": 4.37077
+},
+{
+"id": "Amsterdam",
+"lat": 52.37403,
+"lon": 4.88969
+},
+{
+"id": "Weißenbach am Attersee",
+"lat": 47.8004,
+"lon": 13.5358
+},
+{
+"id": "Mariazell",
+"lat": 47.77306,
+"lon": 15.31639
+},
+{
+"id": "Celerina",
+"lat": 46.5146,
+"lon": 9.8622
+},
+{
+"id": "Mallnitz",
+"lat": 46.99173,
+"lon": 13.1678
+},
+{
+"id": "Den Haag",
+"lat": 52.07667,
+"lon": 4.29861
+},
+{
+"id": "Feldafing",
+"lat": 47.94602,
+"lon": 11.29326
+},
+{
+"id": "Berchtesgaden",
+"lat": 47.63236,
+"lon": 13.00187
+},
+{
+"id": "Mayrhofen",
+"lat": 47.16539,
+"lon": 11.86475
+},
+{
+"id": "Forte dei Marmi",
+"lat": 43.96388,
+"lon": 10.17478
+},
+{
+"id": "Las Palmas de Gran Canaria",
+"lat": 28.09973,
+"lon": -15.41343
+},
+{
+"id": "Mittelmeer",
+"lat": 35.0,
+"lon": 18.0
+},
+{
+"id": "Istanbul",
+"lat": 41.01384,
+"lon": 28.94966
+},
+{
+"id": "New York City",
+"lat": 40.71427,
+"lon": -74.00597
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Brünn",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 184},
+{
+"from": "Wien",
+"to": "Bad Aussee",
+"weight": 6},
+{
+"from": "Wien",
+"to": "III., Landstraße",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Opatija",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Bad Ischl",
+"weight": 34},
+{
+"from": "Wien",
+"to": "I., Innere Stadt",
+"weight": 3},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Znaim",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Berlin",
+"weight": 3},
+{
+"from": "Wien",
+"to": "Florenz",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Rom",
+"weight": 3},
+{
+"from": "Wien",
+"to": "Neapel",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Venedig",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Caslau",
+"weight": 4},
+{
+"from": "Wien",
+"to": "Schönberg im Stubaital",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Riva del Garda",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Gardone Riviera",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Fürberg",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Baden bei Wien",
+"weight": 5},
+{
+"from": "Wien",
+"to": "Paris",
+"weight": 0},
+{
+"from": "Wien",
+"to": "London",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Steindorf am Ossiacher See",
+"weight": 6},
+{
+"from": "Wien",
+"to": "Seeboden",
+"weight": 7},
+{
+"from": "Wien",
+"to": "Sanremo",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Altaussee",
+"weight": 6},
+{
+"from": "Wien",
+"to": "Pörtschach",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Rodaun",
+"weight": 35},
+{
+"from": "Wien",
+"to": "Semmering",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Seis am Schlern",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Edlach",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Sankt Moritz",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Tutzing",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Menton",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Weißenbach am Attersee",
+"weight": 1},
+{
+"from": "Wien",
+"to": "New York City",
+"weight": 1}
+,
+{
+"from": "Halle an der Saale",
+"to": "III., Landstraße",
+"weight": 1}
+,
+{
+"from": "Riva del Garda",
+"to": "Bad Ischl",
+"weight": 1},
+{
+"from": "Riva del Garda",
+"to": "Rodaun",
+"weight": 1},
+{
+"from": "Riva del Garda",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Venedig",
+"to": "Wien",
+"weight": 2},
+{
+"from": "Venedig",
+"to": "Edlach",
+"weight": 0},
+{
+"from": "Venedig",
+"to": "Venedig",
+"weight": 1},
+{
+"from": "Venedig",
+"to": "Brijuni",
+"weight": 0}
+,
+{
+"from": "Opatija",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Bad Ischl",
+"to": "Wien",
+"weight": 0},
+{
+"from": "Bad Ischl",
+"to": "Bad Ischl",
+"weight": 11},
+{
+"from": "Bad Ischl",
+"to": "Marienbad",
+"weight": 0},
+{
+"from": "Bad Ischl",
+"to": "Paris",
+"weight": 0},
+{
+"from": "Bad Ischl",
+"to": "Seeboden",
+"weight": 3},
+{
+"from": "Bad Ischl",
+"to": "Vahrn",
+"weight": 2},
+{
+"from": "Bad Ischl",
+"to": "Altaussee",
+"weight": 3},
+{
+"from": "Bad Ischl",
+"to": "Bad Aussee",
+"weight": 1},
+{
+"from": "Bad Ischl",
+"to": "Brijuni",
+"weight": 0},
+{
+"from": "Bad Ischl",
+"to": "Weißenbach am Attersee",
+"weight": 2},
+{
+"from": "Bad Ischl",
+"to": "Garmisch-Partenkirchen",
+"weight": 0}
+,
+{
+"from": "Pörtschach",
+"to": "Znaim",
+"weight": 1},
+{
+"from": "Pörtschach",
+"to": "Vahrn",
+"weight": 0},
+{
+"from": "Pörtschach",
+"to": "Welsberg-Taisten",
+"weight": 0},
+{
+"from": "Pörtschach",
+"to": "Wien",
+"weight": 0}
+,
+{
+"from": "Salzburg",
+"to": "Wien",
+"weight": 3},
+{
+"from": "Salzburg",
+"to": "Bad Ischl",
+"weight": 2},
+{
+"from": "Salzburg",
+"to": "Trondheim",
+"weight": 0},
+{
+"from": "Salzburg",
+"to": "Reichenau an der Rax",
+"weight": 0},
+{
+"from": "Salzburg",
+"to": "Pörtschach",
+"weight": 1},
+{
+"from": "Salzburg",
+"to": "Rodaun",
+"weight": 2},
+{
+"from": "Salzburg",
+"to": "Salzburg",
+"weight": 0},
+{
+"from": "Salzburg",
+"to": "Weißenbach am Attersee",
+"weight": 1}
+,
+{
+"from": "Marienbad",
+"to": "Bad Ischl",
+"weight": 1}
+,
+{
+"from": "St. Johann in Tirol",
+"to": "Bad Ischl",
+"weight": 1}
+,
+{
+"from": "München",
+"to": "Bad Ischl",
+"weight": 1},
+{
+"from": "München",
+"to": "Wien",
+"weight": 3},
+{
+"from": "München",
+"to": "Vahrn",
+"weight": 1},
+{
+"from": "München",
+"to": "Lido",
+"weight": 1}
+,
+{
+"from": "Berlin",
+"to": "Wien",
+"weight": 3},
+{
+"from": "Berlin",
+"to": "Sankt Michael",
+"weight": 1},
+{
+"from": "Berlin",
+"to": "Rodaun",
+"weight": 2}
+,
+{
+"from": "Lübeck",
+"to": "St. Gilgen",
+"weight": 1}
+,
+{
+"from": "Stavanger",
+"to": "Kopenhagen",
+"weight": 1}
+,
+{
+"from": "Trondheim",
+"to": "Kopenhagen",
+"weight": 1}
+,
+{
+"from": "Tromsø",
+"to": "Kopenhagen",
+"weight": 1}
+,
+{
+"from": "Oslo",
+"to": "Kopenhagen",
+"weight": 2}
+,
+{
+"from": "Stockholm",
+"to": "Kopenhagen",
+"weight": 3}
+,
+{
+"from": "Skodsborg",
+"to": "Skodsborg",
+"weight": 1},
+{
+"from": "Skodsborg",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Paris",
+"to": "Wien",
+"weight": 3}
+,
+{
+"from": "London",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Krieglach",
+"to": "Steindorf am Ossiacher See",
+"weight": 1}
+,
+{
+"from": "Graz",
+"to": "Steindorf am Ossiacher See",
+"weight": 1}
+,
+{
+"from": "St. Johann im Pongau",
+"to": "Steindorf am Ossiacher See",
+"weight": 1}
+,
+{
+"from": "Bad Gastein",
+"to": "Steindorf am Ossiacher See",
+"weight": 1},
+{
+"from": "Bad Gastein",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Tegernsee",
+"to": "Steindorf am Ossiacher See",
+"weight": 2}
+,
+{
+"from": "Luzern",
+"to": "Steindorf am Ossiacher See",
+"weight": 1},
+{
+"from": "Luzern",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Orahovica",
+"to": "Seeboden",
+"weight": 1}
+,
+{
+"from": "Velden am Wörthersee",
+"to": "Seeboden",
+"weight": 1},
+{
+"from": "Velden am Wörthersee",
+"to": "Welsberg-Taisten",
+"weight": 0},
+{
+"from": "Velden am Wörthersee",
+"to": "Karersee",
+"weight": 0}
+,
+{
+"from": "Tarvisio",
+"to": "Seeboden",
+"weight": 1}
+,
+{
+"from": "Spittal an der Drau",
+"to": "Berlin",
+"weight": 0},
+{
+"from": "Spittal an der Drau",
+"to": "Seeboden",
+"weight": 1}
+,
+{
+"from": "Toblach",
+"to": "Seeboden",
+"weight": 1}
+,
+{
+"from": "Zirndorf",
+"to": "Vahrn",
+"weight": 1}
+,
+{
+"from": "Nürnberg",
+"to": "Vahrn",
+"weight": 2},
+{
+"from": "Nürnberg",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Frankfurt am Main",
+"to": "Vahrn",
+"weight": 1}
+,
+{
+"from": "Wiesbaden",
+"to": "Vahrn",
+"weight": 1},
+{
+"from": "Wiesbaden",
+"to": "Sankt Michael",
+"weight": 2}
+,
+{
+"from": "Rüdesheim",
+"to": "Sankt Michael",
+"weight": 1},
+{
+"from": "Rüdesheim",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Reichenau an der Rax",
+"to": "Florenz",
+"weight": 1},
+{
+"from": "Reichenau an der Rax",
+"to": "Altaussee",
+"weight": 2},
+{
+"from": "Reichenau an der Rax",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Dubrovnik",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Split",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Solin",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Puchberg am Schneeberg",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Admont",
+"to": "Altaussee",
+"weight": 1}
+,
+{
+"from": "Payerbach",
+"to": "Altaussee",
+"weight": 1}
+,
+{
+"from": "Bormio",
+"to": "Altaussee",
+"weight": 1}
+,
+{
+"from": "Rom",
+"to": "Wien",
+"weight": 4},
+{
+"from": "Rom",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Florenz",
+"to": "Wien",
+"weight": 3}
+,
+{
+"from": "Bologna",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Schönberg im Stubaital",
+"to": "Wien",
+"weight": 0},
+{
+"from": "Schönberg im Stubaital",
+"to": "Pörtschach",
+"weight": 1}
+,
+{
+"from": "St. Anton am Arlberg",
+"to": "Pörtschach",
+"weight": 2}
+,
+{
+"from": "Innsbruck",
+"to": "Pörtschach",
+"weight": 1}
+,
+{
+"from": "Vahrn",
+"to": "München",
+"weight": 0},
+{
+"from": "Vahrn",
+"to": "Frankfurt am Main",
+"weight": 0},
+{
+"from": "Vahrn",
+"to": "Wien",
+"weight": 0},
+{
+"from": "Vahrn",
+"to": "Pörtschach",
+"weight": 5}
+,
+{
+"from": "Sand in Taufers",
+"to": "Pörtschach",
+"weight": 1}
+,
+{
+"from": "Welsberg-Taisten",
+"to": "Pörtschach",
+"weight": 1},
+{
+"from": "Welsberg-Taisten",
+"to": "Maria Schutz",
+"weight": 2},
+{
+"from": "Welsberg-Taisten",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Welsberg-Taisten",
+"to": "Villach",
+"weight": 1},
+{
+"from": "Welsberg-Taisten",
+"to": "Velden am Wörthersee",
+"weight": 1}
+,
+{
+"from": "Matrei am Brenner",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Hallein",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Padua",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Hochschneeberg",
+"to": "Rodaun",
+"weight": 1},
+{
+"from": "Hochschneeberg",
+"to": "Lido",
+"weight": 1}
+,
+{
+"from": "Monreale",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Taormina",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "St. Gilgen",
+"to": "Bad Aussee",
+"weight": 3},
+{
+"from": "St. Gilgen",
+"to": "Rodaun",
+"weight": 1},
+{
+"from": "St. Gilgen",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Pegli",
+"to": "Wien",
+"weight": 0},
+{
+"from": "Pegli",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Korfu",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Marienlyst",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Helsingør",
+"to": "Rodaun",
+"weight": 1},
+{
+"from": "Helsingør",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Fredensborg",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Weimar",
+"to": "Rodaun",
+"weight": 1}
+,
+{
+"from": "Semmering",
+"to": "Wien",
+"weight": 5}
+,
+{
+"from": "Veldes",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Misurina",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Meran",
+"to": "Lido",
+"weight": 1}
+,
+{
+"from": "Garmisch-Partenkirchen",
+"to": "Wien",
+"weight": 2},
+{
+"from": "Garmisch-Partenkirchen",
+"to": "Bad Ischl",
+"weight": 1}
+,
+{
+"from": "Seis am Schlern",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Seis am Schlern",
+"to": "Strobl",
+"weight": 1}
+,
+{
+"from": "Edlach",
+"to": "Wien",
+"weight": 2},
+{
+"from": "Edlach",
+"to": "Pichl am See",
+"weight": 1}
+,
+{
+"from": "Zürich",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Interlaken",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Genf",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Hamburg",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Brijuni",
+"to": "Venedig",
+"weight": 1},
+{
+"from": "Brijuni",
+"to": "Sankt Moritz",
+"weight": 2},
+{
+"from": "Brijuni",
+"to": "Lido",
+"weight": 2}
+,
+{
+"from": "Tutzing",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Maloja",
+"to": "Lido",
+"weight": 1}
+,
+{
+"from": "Genua",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Antwerpen",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Amsterdam",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Mariazell",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Celerina",
+"to": "Weißenbach am Attersee",
+"weight": 2},
+{
+"from": "Celerina",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Altaussee",
+"to": "Wien",
+"weight": 0},
+{
+"from": "Altaussee",
+"to": "Reichenau an der Rax",
+"weight": 0},
+{
+"from": "Altaussee",
+"to": "Bad Ischl",
+"weight": 5},
+{
+"from": "Altaussee",
+"to": "Mallnitz",
+"weight": 1}
+,
+{
+"from": "Den Haag",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Feldafing",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Berchtesgaden",
+"to": "Mayrhofen",
+"weight": 1}
+,
+{
+"from": "Sankt Moritz",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Sankt Moritz",
+"to": "Brijuni",
+"weight": 0},
+{
+"from": "Sankt Moritz",
+"to": "Baden-Baden",
+"weight": 0}
+,
+{
+"from": "Forte dei Marmi",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Las Palmas de Gran Canaria",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Mittelmeer",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Gardone Riviera",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Istanbul",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}
