@@ -13,4 +13,29 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <xslt style="./statistiken/xslts/2-statistik-toc_tagebuch.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/statistik2" includes="statisti*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="./statistiken/xslts/3-statistik-toc_zeichenanzahl.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/statistik3" includes="statisti*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="./statistiken/xslts/4-statistik-toc_textsorten.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/statistik4" includes="statisti*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="./statistiken/xslts/1-karte-toc_map.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/karte1" includes="statisti*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="./statistiken/xslts/2-karte-toc_map.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/karte2" includes="statisti*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="./statistiken/xslts/3-karte-toc_map.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/karte3" includes="statisti*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    
 </project>
