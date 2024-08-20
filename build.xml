@@ -4,21 +4,7 @@
     <property name="editions" value="./data/editions"/>
     <delete dir="${tmpDir}"/>
     <mkdir dir="${tmpDir}"/>
-    <xslt style="./import-xslts/add-title-with-iso-date.xsl"  basedir="./data/editions" destdir="${tmpDir}" includes="*.xml" extension=".xml">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <move todir="${editions}">
-        <fileset dir="${tmpDir}"/>
-    </move>
-    <xslt style="./import-xslts/langesS-neu.xsl"  basedir="./data/editions" destdir="${tmpDir}" includes="*.xml" extension=".xml">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <move todir="${editions}">
-        <fileset dir="${tmpDir}"/>
-    </move>
-    <xslt style="./import-xslts/remove-whitespace.xsl"  basedir="./data/editions" destdir="${tmpDir}" includes="*.xml" extension=".xml">
+    <xslt style="./statistiken/xslts/01_asbwzusammenkopieren-tocs-statistik.xsl"  basedir="./data/editions" destdir="${tmpDir}" includes="L00001.xml" extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
