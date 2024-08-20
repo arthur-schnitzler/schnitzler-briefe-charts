@@ -63,7 +63,8 @@
 
                 <!-- unter/gleich 30 entitäten vorhanden -->
                 <xsl:if test="count($works/*:work) &lt;= 30">
-                    <xsl:result-document href="work_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                    <xsl:result-document indent="false"
+            href="../../netzwerke/work_freq_corr_weights_directed/work_freq_corr_weights_directed_{$korr-id}_alle.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -125,7 +126,8 @@
                 <xsl:if test="count($works/*:work) &gt; 30 and count($works/*:work) &lt; 100">
 
                     <!-- alle -->
-                    <xsl:result-document href="work_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                    <xsl:result-document indent="false"
+            href="../../netzwerke/work_freq_corr_weights_directed/work_freq_corr_weights_directed_{$korr-id}_alle.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -183,7 +185,8 @@
                     </xsl:result-document>
 
                     <!-- top 30 -->
-                    <xsl:result-document href="work_freq_corr_weights_directed_{$korr-id}_top30.csv"
+                    <xsl:result-document indent="false"
+            href="../../netzwerke/work_freq_corr_weights_directed/work_freq_corr_weights_directed_{$korr-id}_top30.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -249,7 +252,8 @@
                 <xsl:if test="count($works/*:work) &gt;= 100">
 
                     <!-- alle -->
-                    <xsl:result-document href="work_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                    <xsl:result-document indent="false"
+            href="../../netzwerke/work_freq_corr_weights_directed/work_freq_corr_weights_directed_{$korr-id}_alle.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -307,7 +311,8 @@
                     </xsl:result-document>
 
                     <!-- top 30 -->
-                    <xsl:result-document href="work_freq_corr_weights_directed_{$korr-id}_top30.csv"
+                    <xsl:result-document indent="false"
+            href="../../netzwerke/work_freq_corr_weights_directed/work_freq_corr_weights_directed_{$korr-id}_top30.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -368,7 +373,8 @@
 
                     <!-- top 30 -->
                     <xsl:result-document
-                        href="work_freq_corr_weights_directed_{$korr-id}_top100.csv" method="text">
+                        indent="false"
+            href="../../netzwerke/work_freq_corr_weights_directed/work_freq_corr_weights_directed_{$korr-id}_top100.csv" method="text">
 
                         <xsl:text>Source</xsl:text>
                         <xsl:value-of select="$separator"/>

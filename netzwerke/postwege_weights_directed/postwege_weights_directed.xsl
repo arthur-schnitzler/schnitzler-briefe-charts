@@ -24,6 +24,9 @@
         use="concat(tei:correspAction[@type = 'sent']/tei:placeName[1]/@ref, '|', tei:correspAction[@type = 'received']/tei:placeName[1]/@ref)"/>
 
     <xsl:template match="/">
+        
+        <xsl:result-document indent="false"
+            href="../../netzwerke/postwege_weights_directed/postwege_weights_directed.csv">
 
         <xsl:text>Source</xsl:text>
         <xsl:value-of select="$separator"/>
@@ -194,7 +197,7 @@
             <xsl:value-of select="$newline"/>
 
         </xsl:for-each>
-
+        </xsl:result-document>
     </xsl:template>
 
 </xsl:stylesheet>

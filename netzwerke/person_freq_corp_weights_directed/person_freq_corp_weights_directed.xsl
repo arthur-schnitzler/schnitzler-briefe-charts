@@ -3,37 +3,27 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:csv="csv:csv"
     xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
     <xsl:output method="text" indent="yes" encoding="utf-8"/>
-
     <xsl:mode on-no-match="shallow-skip"/>
-
     <!-- this template creates a csv file
          containing info about how often people mentioned in all correspondences 
          are mentioned in each correspondence (just bodies without comments) -->
-
     <!-- keys -->
     <xsl:key name="edition-by-person" match="tei:body"
         use="//tei:rs[@type = 'person' and not(ancestor::tei:note[@type = 'textConst']) and not(ancestor::tei:note[@type = 'commentary'])]/@ref"/>
     <xsl:key name="corresp-by-id"
         match="tei:correspContext/tei:ref[@type = 'belongsToCorrespondence']" use="@target"/>
-
     <!-- path to edition files -->
-    <xsl:variable name="editions"
-        select="collection('../../data/editions/?select=L*.xml')"/>
-
+    <xsl:variable name="editions" select="collection('../../data/editions/?select=L*.xml')"/>
     <!-- path to listperson.xml -->
-    <xsl:variable name="listperson"
-        select="document('../../data/indices/listperson.xml')"/>
-
+    <xsl:variable name="listperson" select="document('../../data/indices/listperson.xml')"/>
     <!-- csv variables -->
     <xsl:variable name="quote" select="'&quot;'"/>
     <xsl:variable name="separator" select="','"/>
     <xsl:variable name="newline" select="'&#xA;'"/>
-
     <xsl:template match="/">
-
         <!-- top 500 -->
-        <xsl:result-document href="person_freq_corp_weights_directed_top500.csv">
-            
+        <xsl:result-document indent="false"
+            href="../../netzwerke/person_freq_corp_weights_directed/person_freq_corp_weights_directed_top500.csv">
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
             <xsl:text>SID</xsl:text>
@@ -50,7 +40,6 @@
             <xsl:value-of select="$separator"/>
             <xsl:text>Weight</xsl:text>
             <xsl:value-of select="$newline"/>
-            
             <!-- overall counts -->
             <xsl:variable name="overall-count">
                 <xsl:for-each select="$listperson//tei:person">
@@ -67,16 +56,12 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:variable>
-            
             <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
-                
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
-                
                 <!-- correspondence id -->
                 <xsl:variable name="korr-id" select="@xml:id"/>
-                
                 <!-- counts in correspondences -->
                 <xsl:variable name="top-500-persons">
                     <xsl:for-each select="$overall-count/*:person">
@@ -103,10 +88,8 @@
                         </xsl:if>
                     </xsl:for-each>
                 </xsl:variable>
-                
                 <!-- csv -->
                 <xsl:if test="$top-500-persons/*:person">
-                    
                     <xsl:for-each select="$top-500-persons/*:person">
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$korr-name"/>
@@ -141,16 +124,12 @@
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$newline"/>
                     </xsl:for-each>
-                    
                 </xsl:if>
-                
             </xsl:for-each>
-            
         </xsl:result-document>
-        
         <!-- top 100 -->
-        <xsl:result-document href="person_freq_corp_weights_directed_top100.csv">
-
+        <xsl:result-document indent="false"
+            href="../../netzwerke/person_freq_corp_weights_directed/person_freq_corp_weights_directed_top100.csv">
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
             <xsl:text>SID</xsl:text>
@@ -167,7 +146,6 @@
             <xsl:value-of select="$separator"/>
             <xsl:text>Weight</xsl:text>
             <xsl:value-of select="$newline"/>
-
             <!-- overall counts -->
             <xsl:variable name="overall-count">
                 <xsl:for-each select="$listperson//tei:person">
@@ -184,16 +162,12 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:variable>
-
             <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
-
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
-
                 <!-- correspondence id -->
                 <xsl:variable name="korr-id" select="@xml:id"/>
-
                 <!-- counts in correspondences -->
                 <xsl:variable name="top-100-persons">
                     <xsl:for-each select="$overall-count/*:person">
@@ -220,10 +194,8 @@
                         </xsl:if>
                     </xsl:for-each>
                 </xsl:variable>
-
                 <!-- csv -->
                 <xsl:if test="$top-100-persons/*:person">
-
                     <xsl:for-each select="$top-100-persons/*:person">
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$korr-name"/>
@@ -258,16 +230,12 @@
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$newline"/>
                     </xsl:for-each>
-
                 </xsl:if>
-
             </xsl:for-each>
-
         </xsl:result-document>
-
         <!-- top 30 -->
-        <xsl:result-document href="person_freq_corp_weights_directed_top30.csv">
-
+        <xsl:result-document indent="false"
+            href="../../netzwerke/person_freq_corp_weights_directed/person_freq_corp_weights_directed_top30.csv">
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
             <xsl:text>SID</xsl:text>
@@ -284,7 +252,6 @@
             <xsl:value-of select="$separator"/>
             <xsl:text>Weight</xsl:text>
             <xsl:value-of select="$newline"/>
-
             <!-- overall counts -->
             <xsl:variable name="overall-count">
                 <xsl:for-each select="$listperson//tei:person">
@@ -301,16 +268,12 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:variable>
-
             <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
-
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
-
                 <!-- correspondence id -->
                 <xsl:variable name="korr-id" select="@xml:id"/>
-
                 <!-- counts in correspondences -->
                 <xsl:variable name="top-30-persons">
                     <xsl:for-each select="$overall-count/*:person">
@@ -337,10 +300,8 @@
                         </xsl:if>
                     </xsl:for-each>
                 </xsl:variable>
-
                 <!-- csv -->
                 <xsl:if test="$top-30-persons/*:person">
-
                     <xsl:for-each select="$top-30-persons/*:person">
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$korr-name"/>
@@ -375,13 +336,8 @@
                         <xsl:value-of select="$quote"/>
                         <xsl:value-of select="$newline"/>
                     </xsl:for-each>
-
                 </xsl:if>
-
             </xsl:for-each>
-
         </xsl:result-document>
-
     </xsl:template>
-
 </xsl:stylesheet>

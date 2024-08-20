@@ -28,7 +28,7 @@
     <xsl:variable name="newline" select="'&#xA;'"/>
 
     <xsl:template match="/">
-
+        
         <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
 
             <!-- name of correspondence partner -->
@@ -63,7 +63,8 @@
                 <!-- unter/gleich 30 entitäten vorhanden -->
                 <xsl:if test="count($orgs/*:org) &lt;= 30">
                     <xsl:result-document
-                        href="institution_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                        indent="false"
+                        href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}_alle.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -127,7 +128,8 @@
 
                     <!-- alle -->
                     <xsl:result-document
-                        href="institution_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                        indent="false"
+                        href="../../netzwerke/institution_freq_corr_weights_directed_{$korr-id}_alle.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -186,7 +188,8 @@
 
                     <!-- top 30 -->
                     <xsl:result-document
-                        href="institution_freq_corr_weights_directed_{$korr-id}_top30.csv"
+                        indent="false"
+                        href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}_top30.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -252,7 +255,8 @@
 
                     <!-- alle -->
                     <xsl:result-document
-                        href="institution_freq_corr_weights_directed_{$korr-id}_alle.csv"
+                        indent="false"
+                        href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}_alle.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -311,7 +315,8 @@
 
                     <!-- top 30 -->
                     <xsl:result-document
-                        href="institution_freq_corr_weights_directed_{$korr-id}_top30.csv"
+                        indent="false"
+                        href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}_top30.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>
@@ -372,7 +377,8 @@
 
                     <!-- top 100 -->
                     <xsl:result-document
-                        href="institution_freq_corr_weights_directed_{$korr-id}_top100.csv"
+                        indent="false"
+                        href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}_top100.csv"
                         method="text">
 
                         <xsl:text>Source</xsl:text>

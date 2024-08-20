@@ -32,7 +32,8 @@
     <xsl:template match="/">
 
         <!-- top 500 -->
-        <xsl:result-document href="work_freq_corp_weights_directed_top500.csv">
+        <xsl:result-document  indent="false"
+            href="../../netzwerke/work_freq_corp_weights_directed/work_freq_corp_weights_directed_top500.csv">
             
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
@@ -145,7 +146,8 @@
         </xsl:result-document>
 
         <!-- top 100 -->
-        <xsl:result-document href="work_freq_corp_weights_directed_top100.csv">
+        <xsl:result-document indent="false"
+            href="../../netzwerke/work_freq_corp_weights_directed/work_freq_corp_weights_directed_top100.csv">
 
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
@@ -258,7 +260,8 @@
         </xsl:result-document>
 
         <!-- top 30 -->
-        <xsl:result-document href="work_freq_corp_weights_directed_top30.csv">
+        <xsl:result-document indent="false"
+            href="../../netzwerke/work_freq_corp_weights_directed/work_freq_corp_weights_directed_top30.csv">
 
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
