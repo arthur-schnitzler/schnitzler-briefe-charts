@@ -6,8 +6,14 @@
     <xsl:output method="xml" indent="true"/>
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:param name="listcorrespondence" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-data/main/data/indices/listcorrespondence.xml')"/>
-    <xsl:template match="root">
-        <xsl:variable name="folderURI" select="'https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-data/main/data/editions'"/>
+    <xsl:variable name="editions"
+        select="collection('../../../arthur-schnitzler-arbeit/editions/?select=*.xml')"/>
+    
+    <!-- This is the initial transformation. It uses the listcorrespondence as parameter and creates
+    a reduced table of contents for each correspondence that is stored in the inputs-folder -->
+    
+    <xsl:template match="/">
+        <xsl:variable name="folderURI" select="resolve-uri('.', base-uri())"/>
         <xsl:for-each
             select="$listcorrespondence/descendant::tei:listPerson/tei:personGrp[not(@xml:id = 'correspondence_null')]">
             <xsl:variable name="correspondence-nummer"
@@ -16,8 +22,8 @@
                 select="concat('statistik_toc_', $correspondence-nummer, '.xml')"/>
             <xsl:variable name="Korrespondenzname"
                 select="foo:nameOhneKomma(child::tei:persName[@role = 'main'][1])"/>
-            <xsl:result-document indent="true" href="../inputs/{$dateiname}">
-                <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
+            <xsl:result-document indent="true" href="../../inputs/{$dateiname}">
+                <TEI xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
                     <teiHeader>
@@ -64,7 +70,7 @@
                         <body>
                             <xsl:element name="list" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:for-each
-                                    select="collection(concat($folderURI, '?select=L0*.xml;recurse=yes'))[descendant::tei:correspContext/tei:ref[@type = 'belongsToCorrespondence' and @target = concat('correspondence_', $correspondence-nummer)]]/node()">
+                                    select="$editions[descendant::tei:correspContext/tei:ref[@type = 'belongsToCorrespondence' and @target = concat('correspondence_', $correspondence-nummer)]]/node()">
                                     <xsl:sort
                                         select="child::tei:teiHeader[1]/tei:profileDesc[1]/tei:correspDesc[1]/tei:correspAction[@type = 'sent']/tei:date[1]/@*[name() = 'when' or name() = 'from' or name() = 'notBefore']"/>
                                     <xsl:sort
