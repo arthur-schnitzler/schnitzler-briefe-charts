@@ -14,10 +14,6 @@ rm main.zip
 wget https://github.com/arthur-schnitzler/schnitzler-briefe-data/archive/refs/heads/main.zip
 unzip main
 rm main.zip
-mv ./schnitzler-briefe-data/data/editions ./data
-mv ./schnitzler-briefe-data/data/indices ./data
-mv ./schnitzler-briefe-data/data/meta ./data
-mv ./schnitzler-briefe-data/data/tocs ./data
 
 rm -rf ./schnitzler-briefe-data
 
