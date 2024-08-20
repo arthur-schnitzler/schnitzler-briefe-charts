@@ -11,10 +11,10 @@
     <xsl:variable name="quote" select="'&quot;'"/>
     <xsl:variable name="separator" select="','"/>
     <xsl:variable name="newline" select="'&#xA;'"/>
-
+    
     <!-- path to edition files -->
     <xsl:variable name="editions"
-        select="collection('../../../schnitzler/arthur-schnitzler-arbeit/editions/?select=*.xml')"/>
+        select="collection('../../data/editions/?select=L*.xml')"/>
 
     <!-- keys -->
     <xsl:key name="sender" match="tei:correspAction[@type = 'sent']/tei:persName[1]" use="@ref"/>

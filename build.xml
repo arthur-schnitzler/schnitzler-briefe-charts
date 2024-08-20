@@ -9,7 +9,7 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <delete dir="./data"/>
-    <xslt style="./statistiken/xslts/1-statistik-toc_populationtree.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/statistik1" includes="statisti*.xml" extension=".xml">
+   <!-- <xslt style="./statistiken/xslts/1-statistik-toc_populationtree.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/statistik1" includes="statisti*.xml" extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
@@ -36,6 +36,9 @@
     <xslt style="./statistiken/xslts/3-karte-toc_map.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/karte3" includes="statisti*.xml" extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>-->
+    <xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"  basedir="./data/indices" destdir="./netzwerke/correspondence_weights_directed" includes="listcorrespondence.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    
 </project>
