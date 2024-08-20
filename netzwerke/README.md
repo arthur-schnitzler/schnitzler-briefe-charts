@@ -31,3 +31,13 @@ counts the frequencies of the most frequently mentioned institutions** in all co
 counts the frequencies of the most frequently mentioned institutions** per correspondence in directed graphs, visualizations at correspondence sites, e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/netzwerke_pmb10863.html)
 
 ** mentions are counted per document body
+
+## jung-wien
+this directory contains data concerning the correspondences between arthur schnitzler, richard beer-hofmann, hugo von hofmannsthal and hermann bahr:
+- jung-wien-ist-alle.xml contains all relevant data in xml format
+- jung-wien-ist-alle-to-csv.xsl transforms jung-wien-ist-alle.xml to jung-wien-ist-alle.csv
+- jung-wien-ist-alle.csv contains the data as it is represented in jung-wien-ist-alle.xml, but in csv format (jung-wien-ist-alle.xlsx is the same, but for excel)
+- jung-wien-ist-alle-to-jung-wien-alle-without-gaps.py transforms jung-wien-ist-alle.csv to jung-wien-alle-without-gaps.csv
+- jung-wien-alle-without-gaps.csv fills the gaps in jung-wien-ist-alle.csv and pretends like there was always a reply (jung-wien-alle-without-gaps.xlsx is the same, but for excel)
+- jung-wien-ist-und-without-gaps-to-per-year.py transforms both jung-wien-ist-alle.csv and jung-wien-alle-without-gaps.csv to jung-wien-ist-alle-per-year.csv and jung-wien-alle-without-gaps-per-year.csv
+- jung-wien-ist-alle-per-year.csv and jung-wien-alle-without-gaps-per-year.csv summarizes the data from jung-wien-ist-alle.csv and jung-wien-alle-without-gaps.csv and outputs only one line per year for each correspondence (jung-wien-ist-alle-per-year.xlsx and jung-wien-alle-without-gaps-per-year.xlsx are the same, but for excel)

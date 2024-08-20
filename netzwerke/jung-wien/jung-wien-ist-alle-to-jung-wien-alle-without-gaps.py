@@ -68,11 +68,15 @@ def fill_gaps_in_correspondence(input_csv, output_csv):
     # Write the output CSV file
     with open(output_csv, mode='w', newline='', encoding='utf-8') as outfile:
         fieldnames = ['Source', 'SourceID', 'Target', 'TargetID', 'Year', 'Type', 'Label', 'Weight']
-        writer = csv.DictWriter(outfile, fieldnames=fieldnames)
-        writer.writeheader()
+        
+        # Write the header manually without quotes
+        outfile.write(','.join(fieldnames) + '\n')
+        
+        # Write the data rows with quotes
+        writer = csv.DictWriter(outfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
         writer.writerows(filled_data.values())
 
 # Paths
-input_csv = 'jung-wien-ist.csv'
-output_csv = 'jung-wien-without-gaps.csv'
+input_csv = 'jung-wien-ist-alle.csv'
+output_csv = 'jung-wien-alle-without-gaps.csv'
 fill_gaps_in_correspondence(input_csv, output_csv)
