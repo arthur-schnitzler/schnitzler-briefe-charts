@@ -11,7 +11,7 @@ mkdir -p ./data/tocs
 
 rm main.zip
 
-wget https://github.com/arthur-schnitzler/schnitzler-briefe-data/archive/refs/heads/main.zip
+wget -O main.zip https://github.com/arthur-schnitzler/schnitzler-briefe-data/archive/refs/heads/main.zip
 unzip main
 rm main.zip
 
