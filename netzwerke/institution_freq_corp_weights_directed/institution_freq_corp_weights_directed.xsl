@@ -18,11 +18,11 @@
 
     <!-- path to edition files -->
     <xsl:variable name="editions"
-        select="collection('../../../schnitzler/arthur-schnitzler-arbeit/editions/?select=*.xml')"/>
+        select="collection('../../data/editions/?select=L*.xml')"/>
 
     <!-- path to listorg.xml -->
     <xsl:variable name="listorg"
-        select="document('../../../schnitzler/arthur-schnitzler-arbeit/indices/listorg.xml')"/>
+        select="document('../../data/indices/listorg.xml')"/>
 
     <!-- csv variables -->
     <xsl:variable name="quote" select="'&quot;'"/>
@@ -32,7 +32,8 @@
     <xsl:template match="/">
 
         <!-- top 500 -->
-        <xsl:result-document href="institution_freq_corp_weights_directed_top500.csv">
+        <xsl:result-document indent="false"
+            href="../../netzwerke/institution_freq_corp_weights_directed/institution_freq_corp_weights_directed_top500.csv">
             
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
@@ -143,7 +144,8 @@
         </xsl:result-document>
 
         <!-- top 100 -->
-        <xsl:result-document href="institution_freq_corp_weights_directed_top100.csv">
+        <xsl:result-document indent="false"
+            href="../../netzwerke/institution_freq_corp_weights_directed/institution_freq_corp_weights_directed_top100.csv">
 
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
@@ -254,7 +256,8 @@
         </xsl:result-document>
 
         <!-- top 30 -->
-        <xsl:result-document href="institution_freq_corp_weights_directed_top30.csv">
+        <xsl:result-document indent="false"
+            href="../../netzwerke/institution_freq_corp_weights_directed/institution_freq_corp_weights_directed_top30.csv">
 
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>

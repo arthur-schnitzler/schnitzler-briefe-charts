@@ -36,11 +36,42 @@
     <xslt style="./statistiken/xslts/3-karte-toc_map.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/karte3" includes="statisti*.xml" extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"  basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>-->
+    <xslt style="./netzwerke/correspondence_weights_undirected/correspondence_weights_undirected.xsl"  basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    
+    <xslt style="./netzwerke/institution_freq_corp_weights_directed/institution_freq_corp_weights_directed.xsl"  basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <!--<xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"  basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
     <xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"  basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml" extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"  basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"  basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"  basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>-->
+    
+    
     <delete dir="./data"/>
     <delete dir="${tmpDir}"/>
 </project>

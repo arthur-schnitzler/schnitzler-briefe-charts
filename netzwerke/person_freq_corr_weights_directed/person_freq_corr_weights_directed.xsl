@@ -16,11 +16,11 @@
 
     <!-- path to edition files -->
     <xsl:variable name="editions"
-        select="collection('../../../schnitzler/arthur-schnitzler-arbeit/editions/?select=*.xml')"/>
+        select="collection('../../data/editions/?select=L*.xml')"/>
 
     <!-- path to listperson.xml -->
     <xsl:variable name="listperson"
-        select="document('../../../schnitzler/arthur-schnitzler-arbeit/indices/listperson.xml')"/>
+        select="document('../../data/indices/listperson.xml')"/>
 
     <!-- csv variables -->
     <xsl:variable name="quote" select="'&quot;'"/>

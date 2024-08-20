@@ -14,11 +14,11 @@
 
     <!-- path to edition files -->
     <xsl:variable name="editions"
-        select="collection('../../../schnitzler/arthur-schnitzler-arbeit/editions/?select=*.xml')"/>
+        select="collection('../../data/editions/?select=L*.xml')"/>
 
     <!-- path to listplace.xml -->
     <xsl:variable name="listplace"
-        select="document('../../../schnitzler/arthur-schnitzler-arbeit/indices/listplace.xml')"/>
+        select="document('../../data/indices/listplace.xml')"/>
 
     <xsl:key name="placeKey" match="tei:correspDesc"
         use="concat(tei:correspAction[@type = 'sent']/tei:placeName[1]/@ref, '|', tei:correspAction[@type = 'received']/tei:placeName[1]/@ref)"/>
