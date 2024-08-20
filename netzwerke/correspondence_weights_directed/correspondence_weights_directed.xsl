@@ -22,8 +22,9 @@
         use="@ref"/>
 
     <xsl:template match="//tei:listPerson">
+        <xsl:result-document indent="false" href="../../netzwerke/correspondence_weights_directed/correspondence_weights_directed.csv">
 
-        <xsl:text>Source</xsl:text>
+        <xsl:text>Siurce</xsl:text>
         <xsl:value-of select="$separator"/>
         <xsl:text>Target</xsl:text>
         <xsl:value-of select="$separator"/>
