@@ -9,4 +9,8 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <delete dir="./data"/>
+    <xslt style="./statistiken/xslts/1-statistik-toc_populationtree.xsl"  basedir="./statistiken/inputs" destdir="./statistiken/statistik1" includes="statisti*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
 </project>
