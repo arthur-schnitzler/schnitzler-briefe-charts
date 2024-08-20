@@ -138,7 +138,7 @@
             </xsl:if>
 
         </xsl:for-each>
-
+        </xsl:result-document>
     </xsl:template>
 
 </xsl:stylesheet>
