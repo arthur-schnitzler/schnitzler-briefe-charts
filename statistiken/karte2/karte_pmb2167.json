@@ -45,6 +45,11 @@
 "lon": 11.63749
 },
 {
+"id": "Florenz",
+"lat": 43.77925,
+"lon": 11.24626
+},
+{
 "id": "Kaltenleutgeben",
 "lat": 48.11646,
 "lon": 16.19956
@@ -58,6 +63,21 @@
 "id": "Berlin",
 "lat": 52.52437,
 "lon": 13.41053
+},
+{
+"id": "Semmering",
+"lat": 47.64224,
+"lon": 15.8241
+},
+{
+"id": "Reichenau an der Rax",
+"lat": 47.7,
+"lon": 15.83333
+},
+{
+"id": "Welsberg-Taisten",
+"lat": 46.75774,
+"lon": 12.10556
 },
 {
 "id": "Seis am Schlern",
@@ -108,10 +128,6 @@
 "weight": 2},
 {
 "from": "Wien",
-"to": "Ischl",
-"weight": 0},
-{
-"from": "Wien",
 "to": "Berlin",
 "weight": 5},
 {
@@ -124,11 +140,35 @@
 "weight": 0},
 {
 "from": "Wien",
-"to": "Kaltenleutgeben",
+"to": "London",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Ischl",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Berlin?",
 "weight": 1},
 {
 "from": "Wien",
+"to": "Wien?",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Velden am Wörthersee?",
+"weight": 0},
+{
+"from": "Wien",
 "to": "Reichenau an der Rax",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Berchtesgaden",
 "weight": 0},
 {
 "from": "Wien",
@@ -136,12 +176,24 @@
 "weight": 0},
 {
 "from": "Wien",
+"to": "Florenz",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Kaltenleutgeben",
+"weight": 2},
+{
+"from": "Wien",
 "to": "Semmering",
-"weight": 0},
+"weight": 1},
 {
 "from": "Wien",
 "to": "Unterach",
-"weight": 3},
+"weight": 1},
+{
+"from": "Wien",
+"to": "Unterach am Attersee",
+"weight": 2},
 {
 "from": "Wien",
 "to": "Czernowitz",
@@ -165,7 +217,19 @@
 "weight": 0},
 {
 "from": "Bad Ischl",
-"to": "Unterach",
+"to": "Schruns",
+"weight": 0},
+{
+"from": "Bad Ischl",
+"to": "Thusis?",
+"weight": 0},
+{
+"from": "Bad Ischl",
+"to": "Vahrn",
+"weight": 0},
+{
+"from": "Bad Ischl",
+"to": "Unterach am Attersee",
 "weight": 1}
 ,
 {
@@ -194,9 +258,32 @@
 "weight": 5},
 {
 "from": "Berlin",
+"to": "Berlin",
+"weight": 1},
+{
+"from": "Berlin",
 "to": "Marienlyst",
 "weight": 0}
 ,
+{
+"from": "Semmering",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Reichenau an der Rax",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Welsberg-Taisten",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Seis am Schlern",
+"to": "Wien",
+"weight": 1},
 {
 "from": "Seis am Schlern",
 "to": "Noordwijk",

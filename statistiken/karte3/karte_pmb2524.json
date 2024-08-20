@@ -15,6 +15,11 @@
 "lon": 13.41053
 },
 {
+"id": "Seis am Schlern",
+"lat": 46.54133,
+"lon": 11.55868
+},
+{
 "id": "Wien",
 "lat": 48.2066,
 "lon": 16.37341
@@ -27,8 +32,12 @@
 "name": "Flow Lines",
 "data": [{
 "from": "Berlin",
+"to": "Seis am Schlern",
+"weight": 1},
+{
+"from": "Berlin",
 "to": "Wien",
-"weight": 3}
+"weight": 2}
 
 ]}
 ]}

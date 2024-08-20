@@ -90,6 +90,26 @@
 "lon": 2.3488
 },
 {
+"id": "London",
+"lat": 51.50853,
+"lon": -0.12574
+},
+{
+"id": "Pötzleinsdorf",
+"lat": 48.246838181084,
+"lon": 16.300034240016
+},
+{
+"id": "Velden am Wörthersee",
+"lat": 46.61901,
+"lon": 14.03129
+},
+{
+"id": "Reichenau an der Rax",
+"lat": 47.7,
+"lon": 15.83333
+},
+{
 "id": "Pressbaum",
 "lat": 48.18333,
 "lon": 16.08333
@@ -98,6 +118,16 @@
 "id": "Karlsbad",
 "lat": 50.23271,
 "lon": 12.87117
+},
+{
+"id": "Schruns",
+"lat": 47.06667,
+"lon": 9.91667
+},
+{
+"id": "Thusis",
+"lat": ,
+"lon": 
 },
 {
 "id": "Strobl",
@@ -113,6 +143,26 @@
 "id": "Versailles",
 "lat": 48.80359,
 "lon": 2.13424
+},
+{
+"id": "St. Anton am Arlberg",
+"lat": 47.1275,
+"lon": 10.26372
+},
+{
+"id": "Innsbruck",
+"lat": 47.28433,
+"lon": 11.37706
+},
+{
+"id": "Vahrn",
+"lat": 46.73901,
+"lon": 11.63749
+},
+{
+"id": "Welsberg-Taisten",
+"lat": 46.75774,
+"lon": 12.10556
 },
 {
 "id": "Trient",
@@ -140,14 +190,19 @@
 "lon": 31.24967
 },
 {
-"id": "Reichenau an der Rax",
-"lat": 47.7,
-"lon": 15.83333
+"id": "Rodaun",
+"lat": 48.132793312328,
+"lon": 16.256152195922
 },
 {
 "id": "Mariazell",
 "lat": 47.77306,
 "lon": 15.31639
+},
+{
+"id": "Südtirol",
+"lat": 46.71667,
+"lon": 11.5
 },
 {
 "id": "Wartburg",
@@ -180,14 +235,14 @@
 "lon": 0.11667
 },
 {
-"id": "Bansin",
-"lat": 53.95988,
-"lon": 14.12954
-},
-{
 "id": "Marienlyst",
 "lat": 56.042028,
 "lon": 12.601917
+},
+{
+"id": "Bansin",
+"lat": 53.95988,
+"lon": 14.12954
 },
 {
 "id": "Klamm",
@@ -198,11 +253,6 @@
 "id": "Hinterbrühl",
 "lat": 48.08611,
 "lon": 16.24809
-},
-{
-"id": "Welsberg-Taisten",
-"lat": 46.75774,
-"lon": 12.10556
 },
 {
 "id": "Marienbad",
@@ -235,24 +285,24 @@
 "lon": 12.33265
 },
 {
-"id": "Höhlenstein",
-"lat": 46.641944,
-"lon": 12.2322
-},
-{
 "id": "Edlach",
 "lat": 47.69255,
 "lon": 15.80915
 },
 {
+"id": "Höhlenstein",
+"lat": 46.641944,
+"lon": 12.2322
+},
+{
+"id": "Prato Piazza",
+"lat": 46.64949,
+"lon": 12.18531
+},
+{
 "id": "Kaltenleutgeben",
 "lat": 48.11646,
 "lon": 16.19956
-},
-{
-"id": "Innsbruck",
-"lat": 47.28433,
-"lon": 11.37706
 },
 {
 "id": "Axenstein",
@@ -295,14 +345,14 @@
 "lon": 17.25175
 },
 {
-"id": "Hannover",
-"lat": 52.37052,
-"lon": 9.73322
-},
-{
 "id": "Hildesheim",
 "lat": 52.15077,
 "lon": 9.95112
+},
+{
+"id": "Hannover",
+"lat": 52.37052,
+"lon": 9.73322
 },
 {
 "id": "Rom",
@@ -393,7 +443,7 @@
 "data": [{
 "from": "Wien",
 "to": "Wien",
-"weight": 160},
+"weight": 162},
 {
 "from": "Wien",
 "to": "Miskolc",
@@ -401,19 +451,15 @@
 {
 "from": "Wien",
 "to": "Bad Ischl",
-"weight": 6},
+"weight": 9},
 {
 "from": "Wien",
 "to": "Dölsach",
 "weight": 0},
 {
 "from": "Wien",
-"to": "Ischl",
-"weight": 6},
-{
-"from": "Wien",
 "to": "Berlin",
-"weight": 8},
+"weight": 9},
 {
 "from": "Wien",
 "to": "Trondheim",
@@ -421,19 +467,51 @@
 {
 "from": "Wien",
 "to": "Paris",
+"weight": 1},
+{
+"from": "Wien",
+"to": "London",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Ischl",
+"weight": 5},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Berlin?",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Wien?",
 "weight": 2},
 {
 "from": "Wien",
-"to": "Kaltenleutgeben",
-"weight": 0},
+"to": "Velden am Wörthersee?",
+"weight": 1},
 {
 "from": "Wien",
 "to": "Reichenau an der Rax",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Berchtesgaden",
 "weight": 1},
 {
 "from": "Wien",
 "to": "Welsberg-Taisten",
-"weight": 2},
+"weight": 3},
+{
+"from": "Wien",
+"to": "Florenz",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Kaltenleutgeben",
+"weight": 0},
 {
 "from": "Wien",
 "to": "Semmering",
@@ -441,6 +519,10 @@
 {
 "from": "Wien",
 "to": "Unterach",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Unterach am Attersee",
 "weight": 0},
 {
 "from": "Wien",
@@ -459,10 +541,34 @@
 {
 "from": "Unterach am Attersee",
 "to": "Wien",
-"weight": 7},
+"weight": 12},
+{
+"from": "Unterach am Attersee",
+"to": "Bad Ischl",
+"weight": 1},
+{
+"from": "Unterach am Attersee",
+"to": "Ischl",
+"weight": 1},
+{
+"from": "Unterach am Attersee",
+"to": "Semmering",
+"weight": 1},
+{
+"from": "Unterach am Attersee",
+"to": "Brijuni",
+"weight": 1},
 {
 "from": "Unterach am Attersee",
 "to": "Tutzing",
+"weight": 1},
+{
+"from": "Unterach am Attersee",
+"to": "Altaussee",
+"weight": 2},
+{
+"from": "Unterach am Attersee",
+"to": "Berchtesgaden",
 "weight": 1}
 ,
 {
@@ -496,15 +602,19 @@
 "weight": 1},
 {
 "from": "Salzburg",
-"to": "Ischl",
+"to": "Bad Ischl",
 "weight": 1},
 {
 "from": "Salzburg",
 "to": "Wien",
-"weight": 3},
+"weight": 4},
 {
 "from": "Salzburg",
 "to": "Salzburg",
+"weight": 1},
+{
+"from": "Salzburg",
+"to": "Innsbruck?",
 "weight": 1}
 ,
 {
@@ -521,7 +631,19 @@
 "weight": 2},
 {
 "from": "Bad Ischl",
-"to": "Unterach",
+"to": "Schruns",
+"weight": 1},
+{
+"from": "Bad Ischl",
+"to": "Thusis?",
+"weight": 1},
+{
+"from": "Bad Ischl",
+"to": "Vahrn",
+"weight": 1},
+{
+"from": "Bad Ischl",
+"to": "Unterach am Attersee",
 "weight": 0}
 ,
 {
@@ -530,28 +652,22 @@
 "weight": 2}
 ,
 {
-"from": "Unterach",
-"to": "Ischl",
+"from": "Wien?",
+"to": "Bad Ischl",
 "weight": 1},
 {
-"from": "Unterach",
+"from": "Wien?",
 "to": "Wien",
-"weight": 6},
+"weight": 2}
+,
 {
-"from": "Unterach",
-"to": "Brioni",
-"weight": 1},
+"from": "Pressbaum",
+"to": "Bad Ischl",
+"weight": 1}
+,
 {
-"from": "Unterach",
-"to": "Brijuni",
-"weight": 1},
-{
-"from": "Unterach",
-"to": "Alt-Aussee",
-"weight": 2},
-{
-"from": "Unterach",
-"to": "Berchtesgaden",
+"from": "Karlsbad",
+"to": "Bad Ischl",
 "weight": 1}
 ,
 {
@@ -561,13 +677,17 @@
 ,
 {
 "from": "Versailles",
-"to": "Wien",
+"to": "St. Anton am Arlberg",
 "weight": 1}
 ,
 {
 "from": "Berlin",
 "to": "Wien",
 "weight": 20},
+{
+"from": "Berlin",
+"to": "Berlin",
+"weight": 0},
 {
 "from": "Berlin",
 "to": "Marienlyst",
@@ -599,7 +719,17 @@
 "weight": 1}
 ,
 {
+"from": "Rodaun",
+"to": "Wien",
+"weight": 1}
+,
+{
 "from": "Mariazell",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Südtirol",
 "to": "Wien",
 "weight": 1}
 ,
@@ -630,7 +760,7 @@
 ,
 {
 "from": "Cambridge",
-"to": "Wien",
+"to": "Marienlyst",
 "weight": 1}
 ,
 {
@@ -644,7 +774,7 @@
 ,
 {
 "from": "Klamm",
-"to": "Hinterbrühl ",
+"to": "Hinterbrühl",
 "weight": 1}
 ,
 {
@@ -665,7 +795,11 @@
 {
 "from": "Grado",
 "to": "Wien",
-"weight": 3}
+"weight": 2},
+{
+"from": "Grado",
+"to": "Edlach",
+"weight": 1}
 ,
 {
 "from": "Venedig",
@@ -675,7 +809,12 @@
 {
 "from": "Höhlenstein",
 "to": "Edlach",
-"weight": 3}
+"weight": 2}
+,
+{
+"from": "Prato Piazza",
+"to": "Edlach",
+"weight": 1}
 ,
 {
 "from": "Kaltenleutgeben",
@@ -698,6 +837,15 @@
 "weight": 1}
 ,
 {
+"from": "Unterach",
+"to": "Wien",
+"weight": 1},
+{
+"from": "Unterach",
+"to": "Brijuni",
+"weight": 1}
+,
+{
 "from": "Dresden",
 "to": "Wien",
 "weight": 2}
@@ -713,17 +861,17 @@
 "weight": 1}
 ,
 {
-"from": "Olmütz",
-"to": "Wien",
-"weight": 1}
-,
-{
-"from": "Hannover",
+"from": "Olomouc",
 "to": "Wien",
 "weight": 1}
 ,
 {
 "from": "Hildesheim",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Hannover",
 "to": "Wien",
 "weight": 1}
 ,
@@ -768,7 +916,7 @@
 "weight": 1}
 ,
 {
-"from": "Grundlsee (Gemeinde)",
+"from": "Grundlsee",
 "to": "Wien",
 "weight": 1}
 ,

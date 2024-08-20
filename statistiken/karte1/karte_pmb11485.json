@@ -250,6 +250,11 @@
 "lon": 13.78453
 },
 {
+"id": "Grundlsee (Gemeinde)",
+"lat": 47.61667,
+"lon": 13.81667
+},
+{
 "id": "Reichenau an der Rax",
 "lat": 47.7,
 "lon": 15.83333
@@ -516,7 +521,11 @@
 {
 "from": "Frankfurt am Main",
 "to": "Wien",
-"weight": 43},
+"weight": 42},
+{
+"from": "Frankfurt am Main",
+"to": "Frankfurt am Main",
+"weight": 1},
 {
 "from": "Frankfurt am Main",
 "to": "Paris",
@@ -877,7 +886,7 @@
 "weight": 1}
 ,
 {
-"from": "Altaussee",
+"from": "Grundlsee",
 "to": "Berlin",
 "weight": 1}
 ,

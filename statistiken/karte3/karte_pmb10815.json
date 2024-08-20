@@ -55,7 +55,7 @@
 "lon": 15.8241
 },
 {
-"id": "Marbach am Bodensee",
+"id": "Öhningen",
 "lat": 47.6667,
 "lon": 8.9
 },
@@ -85,7 +85,7 @@
 "lon": 23.71622
 },
 {
-"id": "Pola",
+"id": "Pula",
 "lat": 44.86833,
 "lon": 13.84806
 },
@@ -103,6 +103,11 @@
 "id": "Venedig",
 "lat": 45.43713,
 "lon": 12.33265
+},
+{
+"id": "Marienlyst",
+"lat": 56.042028,
+"lon": 12.601917
 },
 {
 "id": "Zürich",
@@ -276,8 +281,12 @@
 ,
 {
 "from": "Venedig",
+"to": "Marienlyst",
+"weight": 1},
+{
+"from": "Venedig",
 "to": "Wien",
-"weight": 4}
+"weight": 3}
 ,
 {
 "from": "Zürich",

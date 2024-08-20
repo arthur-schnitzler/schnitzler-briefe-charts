@@ -506,7 +506,11 @@
 {
 "from": "Frankfurt am Main",
 "to": "Wien",
-"weight": 42},
+"weight": 41},
+{
+"from": "Frankfurt am Main",
+"to": "Frankfurt am Main",
+"weight": 1},
 {
 "from": "Frankfurt am Main",
 "to": "Paris",
