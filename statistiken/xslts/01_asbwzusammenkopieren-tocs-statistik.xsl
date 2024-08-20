@@ -7,7 +7,7 @@
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:param name="listcorrespondence" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-data/main/data/indices/listcorrespondence.xml')"/>
     <xsl:variable name="editions"
-        select="collection('../../../arthur-schnitzler-arbeit/editions/?select=*.xml')"/>
+        select="collection('../../data/editions/?select=L*.xml')"/>
     
     <!-- This is the initial transformation. It uses the listcorrespondence as parameter and creates
     a reduced table of contents for each correspondence that is stored in the inputs-folder -->
