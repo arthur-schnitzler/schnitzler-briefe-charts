@@ -9,13 +9,14 @@ mkdir -p ./data/meta
 rm -rf ./data/tocs
 mkdir -p ./data/tocs
 
-rm main.zip
-
-wget -O main.zip https://github.com/arthur-schnitzler/schnitzler-briefe-data/archive/refs/heads/main.zip
+rm -rf data
+wget https://github.com/arthur-schnitzler/schnitzler-briefe-data/archive/refs/heads/main.zip
 unzip main
-rm main.zip
 
-rm -rf ./schnitzler-briefe-data
+mv ./schnitzler-briefe-data-main/data .
+rm -rf ./data/xslts
+rm main.zip
+rm -rf ./schnitzler-briefe-data-main
 
 echo "and now some XSLTs"
 ant
