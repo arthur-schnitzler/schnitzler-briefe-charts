@@ -8,9 +8,5 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <move todir="${editions}">
-        <fileset dir="${tmpDir}"/>
-    </move>
-    <delete dir="${tmpDir}"/>
-
+    <delete dir="./data"/>
 </project>
