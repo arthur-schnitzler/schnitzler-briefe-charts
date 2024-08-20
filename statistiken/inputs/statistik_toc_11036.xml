@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
      xmlns:foo="whatever"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
      xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
    <teiHeader>
       <fileDesc>
@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-03-19+01:00</date>
+            <date>2024-08-20Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11036.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -42,14 +42,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1891-05-20" n="01">[20.] 5. 1891</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1891-05-20" notAfter="1891-05-22">[20. 5. 1891
                   – 24. 5. 1891?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -67,14 +67,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1891-07-14" n="01">14. 7. 1891</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1891-07-14" notAfter="1891-07-16">[14. 7. 1891
                   – 18. 7. 1891?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -98,14 +98,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1894-01-14" n="01">14. 1. 1894</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1894-01-14" notAfter="1894-01-16">[14. 1. 1894
                   – 18. 1. 1894?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -127,14 +127,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1894-02-12" n="01">12. 2. 1894</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1894-02-12" notAfter="1894-02-14">[12. 2. 1894
                   – 16. 2. 1894?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -158,14 +158,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1894-02-14" n="01">[Mitte Februar 1894?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1894-02-14" notAfter="1894-02-16">[14. 2. 1894
                   – 18. 2. 1894?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -187,14 +187,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1894-07-02" n="02">2. 7. 1894</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1894-07-02" notAfter="1894-07-04">[2. 7. 1894
                   – 6. 7. 1894?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -218,13 +218,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1894-10-31" n="01">[31. 10. 1894]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1894-10-31">[31. 10. 1894]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -248,14 +248,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1894-11-04" n="01">[4. 11. 1894]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1894-11-04" notAfter="1894-11-06">[4. 11. 1894
                   – 8. 11. 1894?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -279,13 +279,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1894-11-21" n="01">21. 11. 1894</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1894-11-21" notAfter="1894-11-23">[21. 11. 1894 – 25. 11. 1894?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -311,8 +311,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1894-11-22" notAfter="1894-11-26">[22. 11. 1894 – 26. 11. 1894?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -336,14 +336,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1895-09-15" n="02">15. 9. 1895</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1895-09-15" notAfter="1895-09-17">[15. 9. 1895
                   – 19. 9. 1895?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -367,14 +367,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1896-06-25" n="02">25. 6. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1896-06-25" notAfter="1896-06-27">[25. 6. 1896
                   – 29. 6. 1896?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -400,15 +400,15 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date notBefore="1896-10-27" notAfter="1896-11-01" n="01">[zwischen 27. 10. und
                   1. 11. 1896]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb168">Berlin</placeName>
                      <date notBefore="1896-10-27" notAfter="1896-11-01">[zwischen 27. 10. und
                   1. 11. 1896]</date>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -432,18 +432,18 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1897-01-18" n="01">[18. 1. 1897]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1897-01-18" notAfter="1897-01-20">[18. 1. 1897
                   – 22. 1. 1897?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03262">Salten an Schnitzler, [17.?] 1. [1897]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03263">Salten an Schnitzler, 16. 1. 1897</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00642">Schnitzler an Beer-Hofmann, [zwischen 21. 1. und
                   3. 12. 1897?]</ref>
                      <ref subtype="previous_letter"
@@ -499,9 +499,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1897-10-02" notAfter="1897-10-06">[2. 10. 1897
                   – 6. 10. 1897?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -525,13 +525,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1897-11-19" n="01">[19. 11.? 1897]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1897-11-19" notAfter="1897-11-21">[19. 11. 1897 – 23. 11. 1897?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -555,13 +555,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1897-12-27" n="02">[27.? 12. 1897]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1897-12-27" notAfter="1897-12-29">[27. 12. 1897 – 31. 12. 1897?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -578,21 +578,21 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="visitenkarte"/>
-               <measure unit="zeichenanzahl" quantity="215"/>
+               <measure unit="zeichenanzahl" quantity="212"/>
             </item>
             <item corresp="L00763">
                <title level="a">Max Burckhard an Arthur Schnitzler, [16. 1. 1898]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb168">Berlin</placeName>
                      <date when="1898-01-16" n="01">[16. 1. 1898]</date>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1898-01-17" notAfter="1898-01-21">[17. 1. 1898
                   – 21. 1. 1898?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -617,9 +617,9 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date notBefore="1898-01-18" notAfter="1898-12-31" n="01">[nach dem
                   18. 1. 1898]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -647,14 +647,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1898-02-05" n="01">5. 2. 1898</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1898-02-05" notAfter="1898-02-07">[5. 2. 1898
                   – 9. 2. 1898?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -679,14 +679,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1899-12-05" n="02">[5. 12. 1899]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1899-12-05" notAfter="1899-12-07">[5. 12. 1899
                   – 9. 12. 1899?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -715,8 +715,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName cert="low" ref="#pmb677">Breslau</placeName>
                      <date when="1900-12-01" evidence="conjecture">[1. 12. 1900?]</date>
+                     <placeName cert="low" ref="#pmb677">Breslau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -740,14 +740,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1904-01-02" n="01">2. 1. 1904</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1904-01-02" notAfter="1904-01-04">[2. 1. 1904
                   – 6. 1. 1904?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -771,13 +771,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1904-12-24" n="01">24. [12. 1904]</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1904-12-24">24. [12. 1904]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -834,9 +834,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1905-04-12" notAfter="1905-04-16">[12. 4. 1905
                   – 16. 4. 1905?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -896,8 +896,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1905-10-27" notAfter="1905-10-31">[27. 10. 1905 – 31. 10. 1905?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -927,8 +927,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1905-10-27" notAfter="1905-10-31">[27. 10. 1905 – 31. 10. 1905?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -952,20 +952,19 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1905-11-30" n="01">30. 11. 1905</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1905-12-01" notAfter="1905-12-05">[1. 12. 1905
                   – 5. 12. 1905?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03238">Goldmann an Schnitzler, 27. 11. [1905]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03050">Salten an Schnitzler, [zwischen 1. und
-                  20. 12.] 1905</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03050">Salten an Schnitzler, [zwischen 1. und 20. 12.] 1905</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11036"
@@ -989,8 +988,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1906-12-22" notAfter="1906-12-26">[22. 12. 1906 – 26. 12. 1906?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1014,14 +1013,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1907-01-03" n="01">3. 1. 1907</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1907-01-04" notAfter="1907-01-08">[4. 1. 1907
                   – 8. 1. 1907?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1045,14 +1044,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1907-01-26" n="01">26. 1. 1907</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1907-01-26" notAfter="1907-01-28">[26. 1. 1907
                   – 30. 1. 1907?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1076,8 +1075,8 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date notBefore="1907-06-01" notAfter="1907-06-28" n="01">[Juni 1907?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1105,13 +1104,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1907-11-14" n="01">14. 11. 1907</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1907-11-15" notAfter="1907-11-19">[15. 11. 1907 – 19. 11. 1907?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1135,13 +1134,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1907-11-23" n="01">23. 11. 1907</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1907-11-24" notAfter="1907-11-28">[24. 11. 1907 – 28. 11. 1907?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1166,13 +1165,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1907-12-27" n="01">27. 12. 1907</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1907-12-27" notAfter="1907-12-29">[27. 12. 1907 – 31. 12. 1907?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1196,13 +1195,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1907-12-31" n="01">31. 12. 1907</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1907-12-31" notAfter="1908-01-02">[31. 12. 1907 – 4. 1. 1908?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1219,21 +1218,21 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="544"/>
+               <measure unit="zeichenanzahl" quantity="543"/>
             </item>
             <item corresp="L01774">
                <title level="a">Max Burckhard an Arthur Schnitzler, 7. 6. 1908</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1908-06-07" n="01">7. 6. 1908</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1908-06-08" notAfter="1908-06-12">[8. 6. 1908
                   – 12. 6. 1908?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1257,14 +1256,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1908-07-14" n="01">14. 7. 1908</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName evidence="conjecture" ref="#pmb988">Seis am Schlern</placeName>
                      <date evidence="conjecture" notBefore="1908-07-15" notAfter="1908-07-19">[15. 7. 1908
                   – 19. 7. 1908?]</date>
+                     <placeName evidence="conjecture" ref="#pmb988">Seis am Schlern</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1281,20 +1280,20 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1176"/>
+               <measure unit="zeichenanzahl" quantity="1177"/>
             </item>
             <item corresp="L01807">
                <title level="a">Max Burckhard an Arthur Schnitzler, 20. 11. 1908</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1908-11-20" n="01">20. 11. 1908</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1908-11-20" notAfter="1908-11-22">[20. 11. 1908 – 24. 11. 1908?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1324,9 +1323,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1909-04-17" notAfter="1909-04-21">[17. 4. 1909
                   – 21. 4. 1909?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1356,13 +1355,13 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1909-06-20">20. 6. 1909</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01846">Bahr an Schnitzler, 18. 6. 1909</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03499">Salten, Salten an Schnitzler, [20. 6.?] 1909</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03499">Salten, Salten an Schnitzler, [20.?] 6. 1909</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11036"
@@ -1381,14 +1380,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1909-07-12" n="02">12. 7. 1909</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1909-07-13" notAfter="1909-07-17">[13. 7. 1909
                   – 17. 7. 1909?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1412,14 +1411,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1909-07-29" n="01">29. 7. 1909</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb470">Edlach</placeName>
                      <date evidence="conjecture" notBefore="1909-07-30" notAfter="1909-08-03">[30. 7. 1909
                   – 3. 8. 1909?]</date>
+                     <placeName ref="#pmb470">Edlach</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1443,13 +1442,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1909-09-15" n="02">15. 9. 1909</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1909-09-15">15. 9. 1909</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1473,13 +1472,13 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1909-10-14" n="01">14. 10. 1909</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1909-10-14">14. 10. 1909</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1503,18 +1502,18 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1910-04-08" n="01">8. 4. 1910</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1910-04-09" notAfter="1910-04-13">[9. 4. 1910
                   – 13. 4. 1910?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03547">Salten an Schnitzler, [3. 4.?] 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03547">Salten an Schnitzler, 3. 4. 1910</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01923">Hofmannsthal an Schnitzler, 8. 4. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -1540,9 +1539,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1910-04-23" notAfter="1910-04-25">[23. 4. 1910
                   – 27. 4. 1910?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1566,17 +1565,17 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1910-11-25" n="01">25. 11. 1910</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1910-11-25">25. 11. 1910</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03546">Salten an Schnitzler, [23. 11. 1910?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03546">Salten an Schnitzler, [22. 11. 1910?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01988">Suttner an Schnitzler, Dezember 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -1596,14 +1595,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
                      <date when="1911-08-23" n="01">23. 8. 1911</date>
+                     <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1911-08-24" notAfter="1911-08-28">[24. 8. 1911
                   – 28. 8. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1627,14 +1626,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date when="1911-09-12" n="01">12. 9. 1911</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1911-09-12" notAfter="1911-09-14">[12. 9. 1911
                   – 16. 9. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -1663,9 +1662,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
                      <date evidence="conjecture" notBefore="1911-11-08" notAfter="1911-11-12">[8. 11. 1911
                   – 12. 11. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
