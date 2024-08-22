@@ -1,5 +1,8 @@
 # statistiken
 
+## allgemeiner-text
+[see visualization](https://schnitzler-briefe.acdh.oeaw.ac.at/statistiken.html)
+
 ## statistik1
 counts surviving correspondence pieces per sender and receiver. schnitzler’s letters (usually fewer survive than the one he received) are shown as negative numbers, e. g. [Richard Beer-Hofmann](https://schnitzler-briefe.acdh.oeaw.ac.at/statistik_pmb10863.html)
 
