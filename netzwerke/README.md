@@ -42,3 +42,5 @@ this directory contains data concerning the correspondences between arthur schni
 - jung-wien-ist-und-without-gaps-to-per-year.py transforms both jung-wien-ist-alle.csv and jung-wien-alle-without-gaps.csv to jung-wien-ist-alle-per-year.csv and jung-wien-alle-without-gaps-per-year.csv
 - jung-wien-ist-alle-per-year.csv and jung-wien-alle-without-gaps-per-year.csv summarizes the data from jung-wien-ist-alle.csv and jung-wien-alle-without-gaps.csv and outputs only one line per year for each correspondence (jung-wien-ist-alle-per-year.xlsx and jung-wien-alle-without-gaps-per-year.xlsx are the same, but for excel)
 - get-pivot-tables.py transforms jung-wien-ist-alle.csv and jung-wien-alle-without-gaps.csv into pivot tables (for excel, see the subdirectory pivot-tables; the pivot tables for single correspondences are created manually by deleting columns)
+
+[see visualization](https://schnitzler-briefe.acdh.oeaw.ac.at/statistiken.html)
