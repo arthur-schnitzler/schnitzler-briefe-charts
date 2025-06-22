@@ -1,0 +1,128 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.208333,
+"lon": 16.373056
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
+"id": "Havanna",
+"lat": 23.13302,
+"lon": -82.38304
+},
+{
+"id": "Hochschneeberg",
+"lat": 47.775833,
+"lon": 15.8075
+},
+{
+"id": "Weimar",
+"lat": 50.97361,
+"lon": 11.33806
+},
+{
+"id": "Mals",
+"lat": ,
+"lon": 
+},
+{
+"id": "Przemyśl",
+"lat": 49.78498,
+"lon": 22.76728
+},
+{
+"id": "Bern",
+"lat": 46.9489,
+"lon": 7.4638
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+},
+{
+"id": "Zermatt",
+"lat": 45.98974,
+"lon": 7.75264
+},
+{
+"id": "Antibes",
+"lat": 43.58579,
+"lon": 7.10831
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 28}
+,
+{
+"from": "Paris",
+"to": "Wien",
+"weight": 3}
+,
+{
+"from": "Havana",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Hochschneeberg",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Weimar",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Mals",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "
+                        48345
+                     ",
+"to": "
+                        50
+                     ",
+"weight": 1}
+,
+{
+"from": "Bern",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Salzburg",
+"to": "Wien",
+"weight": 10}
+,
+{
+"from": "Antibes",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}

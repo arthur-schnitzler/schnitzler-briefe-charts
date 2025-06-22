@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und
+                                    Autoren</title>
+            <title level="a">Statistik Arthur Schnitzler – Stefan Zweig</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+               <name>Gerd-Hermann Susen</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2025-06-22Z</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Inhaltsverzeichnis einzelner Korrespondenzen von
+                                    schnitzler-briefe</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item corresp="L03621">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 15. 1. 190[8]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1908-01-15" n="01">15. 1. 190[8]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1908-01-15" notAfter="1908-01-18">[15. 1. 1908
+                  – 18. 1. 1908?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01750">Schnitzler an Bahr, 13. 1. 1908</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03490">Salten an Schnitzler, 15. 1. 1908</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03622">Zweig an Schnitzler, 3. 6. 1908</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="703"/>
+            </item>
+            <item corresp="L03622">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 3. 6. 1908</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1908-06-03" n="01">3. 6. 1908</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1908-06-03" notAfter="1908-06-06">[3. 6. 1908
+                  – 6. 6. 1908?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01773">Bahr an Schnitzler, 3. [6.] 1908</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03484">Goldmann an Schnitzler, 5. 6. [1908]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03621">Zweig an Schnitzler, 15. 1. 190[8]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03623">Zweig an Schnitzler, [22. 10. 1908?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1703"/>
+            </item>
+            <item corresp="L03623">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [22. 10. 1908?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1908-10-22" n="01">[22. 10. 1908?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1908-10-22" notAfter="1908-10-25">[22. 10. 1908 – 25. 10. 1908?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01794">Schnitzler an Ehrenstein, 20. 10. 1908</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01795">Schnitzler an Beer-Hofmann, [23. 10. 1908?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03622">Zweig an Schnitzler, 3. 6. 1908</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03624">Zweig an Schnitzler, 13. 12. 1909</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="524"/>
+            </item>
+            <item corresp="L03624">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 13. 12. 1909</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1909-12-13" n="01">13. 12. 1909</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1909-12-13" notAfter="1909-12-16">[13. 12. 1909 – 16. 12. 1909?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01898">Schnitzler an Beer-Hofmann, Beer-Hofmann, [12. 12. 1909]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01900">Beer-Hofmann an Schnitzler, [13. 12. 1909?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03623">Zweig an Schnitzler, [22. 10. 1908?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03626">Zweig an Schnitzler, [5. oder 6. 10. 1910?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1913"/>
+            </item>
+            <item corresp="L03626">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [5. oder 6. 10. 1910?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1910-10-05" n="01">[5. oder 6. 10. 1910?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1910-10-05" notAfter="1910-10-08">[5. 10. 1910
+                  – 8. 10. 1910?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01962">Schnitzler an Hofmannsthal, 4. 10. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01963">Schnitzler an Bahr, 8. 10. 1910</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03624">Zweig an Schnitzler, 13. 12. 1909</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03625">Zweig an Schnitzler, [im Herbst 1910]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="930"/>
+            </item>
+            <item corresp="L03625">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [im Herbst 1910]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1910-10-31" n="01">[im Herbst 1910]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1910-10-31" notAfter="1910-11-03">[31. 10. 1910 – 3. 11. 1910?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01974">Schnitzler an Adam, 31. 10. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01975">Schnitzler an Hofmannsthal, 2. 11. 1910</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03626">Zweig an Schnitzler, [5. oder 6. 10. 1910?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03628">Zweig an Schnitzler, 27. 11. 1910</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="788"/>
+            </item>
+            <item corresp="L03628">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 27. 11. 1910</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1910-11-27" n="01">27. 11. 1910</date>
+                     <placeName ref="#pmb50" evidence="internal">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1910-11-27" notAfter="1910-11-30">[27. 11. 1910 – 30. 11. 1910?]</date>
+                     <placeName ref="#pmb50" evidence="internal">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01987">Burckhard an Schnitzler, 25. 11. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01988">Suttner an Schnitzler, Dezember 1910</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03625">Zweig an Schnitzler, [im Herbst 1910]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03627">Zweig an Schnitzler, 4. 2. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="404"/>
+            </item>
+            <item corresp="L03627">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 4. 2. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1911-02-04" n="01">4. 2. 1911</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-02-04" notAfter="1911-02-07">[4. 2. 1911
+                  – 7. 2. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02002">Adam an Schnitzler, 3. 2. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02003">Beer-Hofmann an Schnitzler, 5. 2. 1911</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03628">Zweig an Schnitzler, 27. 11. 1910</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03636">Zweig an Schnitzler, 21. 2. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1090"/>
+            </item>
+            <item corresp="L03636">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 21. 2. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1911-02-21" n="01">21. 2. 1911</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-02-22" notAfter="1911-02-26">[22. 2. 1911 – 26. 2. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02010">Schnitzler an Adam, 11. 2. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02011">Hofmannsthal an Schnitzler, [2. 3. 1911]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03627">Zweig an Schnitzler, 4. 2. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03631">Zweig an Schnitzler, 4. 4. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="634"/>
+            </item>
+            <item corresp="L03631">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 4. 4. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1911-04-04" n="01">4. 4. 1911</date>
+                     <placeName ref="#pmb39944">Havana</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-04-05" notAfter="1911-04-09">[5. 4. 1911
+                  – 9. 4. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02015">Schnitzler an Hofmannsthal, 27. 3. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02016">Brandes an Schnitzler, 11. 4. 1911</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03636">Zweig an Schnitzler, 21. 2. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03634">Zweig an Schnitzler, [zwischen 9. und 12. 6. 1911?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="246"/>
+            </item>
+            <item corresp="L03634">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [zwischen 9. und
+               12. 6. 1911?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date evidence="conjecture"
+                           notBefore="1911-06-09"
+                           notAfter="1911-06-12"
+                           n="01">[zwischen 9. und 12. 6. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02021">Hofmannsthal an Schnitzler, 2. 6. [1911]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03635">Zweig an Schnitzler, [zwischen 13. und
+                  25. 6. 1911?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03631">Zweig an Schnitzler, 4. 4. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03635">Zweig an Schnitzler, [zwischen 13. und
+                  25. 6. 1911?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="kartenbrief"/>
+               <measure unit="zeichenanzahl" quantity="492"/>
+            </item>
+            <item corresp="L03635">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [zwischen dem 13.  und
+               25. 6. 1911?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date notBefore="1911-06-13" notAfter="1911-06-25" n="01">[zwischen 13. und
+                  25. 6. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03634">Zweig an Schnitzler, [zwischen 9. und 12. 6. 1911?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02022">Schnitzler an Beer-Hofmann, 15. 6. 1911</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03634">Zweig an Schnitzler, [zwischen 9. und 12. 6. 1911?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03632">Zweig an Schnitzler, 6. 7. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="413"/>
+            </item>
+            <item corresp="L03632">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 6. 7. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1911-07-06" n="01">6. 7. 1911</date>
+                     <placeName ref="#pmb5836">Hochschneeberg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-07-07" notAfter="1911-07-11">[7. 7. 1911 – 11. 7. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02024">Hofmannsthal an Schnitzler, [26. 6. 1911]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03553">Salten an Schnitzler, 16. 8. 1911</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03635">Zweig an Schnitzler, [zwischen 13. und
+                  25. 6. 1911?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03633">Zweig an Schnitzler, 29. 8. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="287"/>
+            </item>
+            <item corresp="L03633">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 29. 8. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1911-08-29" n="01">29. 8. 1911</date>
+                     <placeName ref="#pmb197">Weimar</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-08-30" notAfter="1911-09-03">[30. 8. 1911 – 3. 9. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02025">Burckhard an Schnitzler, 23. 8. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02026">Beer-Hofmann an Schnitzler, [10.? 9. 1911]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03632">Zweig an Schnitzler, 6. 7. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03637">Zweig an Schnitzler, 27. 10. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="458"/>
+            </item>
+            <item corresp="L03637">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 27. 10. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1911-10-27" n="01">27. 10. 1911</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-10-27" notAfter="1911-10-30">[27. 10. 1911 – 30. 10. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03554">Salten an Schnitzler, 22. 10. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02042">Bahr an Schnitzler, November 1911</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03633">Zweig an Schnitzler, 29. 8. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03630">Zweig an Schnitzler, 6. [11.?] 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="994"/>
+            </item>
+            <item corresp="L03630">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 6. [11.?] 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1911-11-06" n="01">6. [11.?] 1911</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-11-06" notAfter="1911-11-09">[6. 11. 1911 – 9. 11. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02042">Bahr an Schnitzler, November 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02043">Schnitzler, Schnitzler an Beer-Hofmann, 7. 11. 1911</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03637">Zweig an Schnitzler, 27. 10. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03629">Zweig an Schnitzler, 19. 11. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="623"/>
+            </item>
+            <item corresp="L03629">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 19. 11. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1911-11-19" n="01">19. 11. 1911</date>
+                     <placeName ref="#pmb95201" evidence="conjecture">Mals</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-11-20" notAfter="1911-11-24">[20. 11. 1911 – 24. 11. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="external">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02047">Schnitzler an Bahr, 18. 11. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02565">Schnitzler an Beer-Hofmann, [30. 11. 1911?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03630">Zweig an Schnitzler, 6. [11.?] 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03640">Zweig an Schnitzler, 27. 10. 1912</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="520"/>
+            </item>
+            <item corresp="L03640">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [27. 10. 1912?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1912-10-27" n="02">27. 10. 1912</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1912-10-27" notAfter="1912-10-30">[27. 10. 1912 – 30. 10. 1912?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02582">Michaëlis an Schnitzler, 21. 10. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02093">Hofmannsthal an Schnitzler, 6. 11. 1912</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03629">Zweig an Schnitzler, 19. 11. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03639">Zweig an Schnitzler, 12. 11. 1912</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="818"/>
+            </item>
+            <item corresp="L03639">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 12. 11. 1912</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1912-11-12" n="01">12. 11. 1912</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1912-11-12" notAfter="1912-11-15">[12. 11. 1912 – 15. 11. 1912?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02095">Altenberg an Schnitzler, [zwischen 9. und
+                  15. 11. 1912?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02096">Hofmannsthal an Schnitzler, 13. 11. 1912</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03640">Zweig an Schnitzler, 27. 10. 1912</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03642">Zweig an Schnitzler, 15. 3. 1913</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2462"/>
+            </item>
+            <item corresp="L03642">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 15. 3. 1913</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1913-03-15" n="01">15. 3. 1913</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1913-03-16" notAfter="1913-03-20">[16. 3. 1913 – 20. 3. 1913?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02116">Brandes an Schnitzler, 5. 3. 1913</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03644">Zweig an Schnitzler, XXXX</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03639">Zweig an Schnitzler, 12. 11. 1912</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03644">Zweig an Schnitzler, XXXX</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2004"/>
+            </item>
+            <item corresp="L03644">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 20. 3. 1913</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1913-03-20" n="01">XXXX</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1913-03-21" notAfter="1913-03-25">[21. 3. 1913 – 25. 3. 1913?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03642">Zweig an Schnitzler, 15. 3. 1913</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02594">Herzfeld an Schnitzler, 30. 3. 1913</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03642">Zweig an Schnitzler, 15. 3. 1913</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03641">Zweig an Schnitzler, 23. 5. 1913</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="309"/>
+            </item>
+            <item corresp="L03641">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 23. 5. 1913</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1913-05-23" n="01">23. 5. 1913</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1913-05-23" notAfter="1913-05-26">[23. 5. 1913
+                  – 26. 5. 1913?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02139">Mann an Schnitzler, 22. 5. 1913</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03643">Zweig an Schnitzler, [28. 5. 1913?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03644">Zweig an Schnitzler, XXXX</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03643">Zweig an Schnitzler, [28. 5. 1913?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3919"/>
+            </item>
+            <item corresp="L03643">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [28. 5. 1913?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1913-05-28" n="01">[28. 5. 1913?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1913-05-28" notAfter="1913-05-31">[28. 5. 1913
+                  – 31. 5. 1913?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03641">Zweig an Schnitzler, 23. 5. 1913</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03638">Zweig an Schnitzler, 1[2/3?]. 6. [1913?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03641">Zweig an Schnitzler, 23. 5. 1913</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03638">Zweig an Schnitzler, 1[2/3?]. 6. [1913?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="412"/>
+            </item>
+            <item corresp="L03638">
+               <title level="a">Stefan Zweig an Arthur Schnitzler,
+               1[2/3?]. 6. [1913?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date notBefore="1913-06-12" notAfter="1913-06-13" n="01">1[2/3?]. 6. [1913?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03643">Zweig an Schnitzler, [28. 5. 1913?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03561">Salten an Schnitzler, 24. 6. 1913</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03643">Zweig an Schnitzler, [28. 5. 1913?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03646">Zweig an Schnitzler, 20. 2. 1914</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="314"/>
+            </item>
+            <item corresp="L03646">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 20. 2. 1914</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1914-02-20" n="01">20. 2. 1914</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1914-02-20" notAfter="1914-02-23">[20. 2. 1914
+                  – 23. 2. 1914?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02165">Schnitzler, Schnitzler an Beer-Hofmann, 2. 2. 1914</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02166">Bahr an Schnitzler, 7. 3. 1914</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03638">Zweig an Schnitzler, 1[2/3?]. 6. [1913?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03656">Zweig an Schnitzler, [17. 7. 1915?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2159"/>
+            </item>
+            <item corresp="L03656">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [17. 7. 1915?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1914-07-17" n="01">[17. 7. 1915?]</date>
+                     <placeName ref="#pmb48345">
+                        <error type="placeName-nicht-bezogen">48345</error>
+                     </placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1914-07-18" notAfter="1914-07-22">[18. 7. 1914 – 22. 7. 1914?]</date>
+                     <placeName ref="#pmb50">
+                        <error type="placeName-nicht-bezogen">50</error>
+                     </placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02187">Hofmannsthal, Hofmannsthal, Beer-Hofmann, Beer-Hofmann, Schwarzkopf an Schnitzler, 15. [7. 1914]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02188">Schnitzler an Beer-Hofmann, 25. 7. 1914</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03646">Zweig an Schnitzler, 20. 2. 1914</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03649">Zweig an Schnitzler, [29. 11. 1914]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+               <measure unit="zeichenanzahl" quantity="494"/>
+            </item>
+            <item corresp="L03649">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [29. 11. 1914]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1914-11-29" n="01">[29. 11. 1914]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1914-11-30" notAfter="1914-12-04">[30. 11. 1914 – 4. 12. 1914?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02199">Schnitzler an Brandes, 20. 10. 1914</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03645">Zweig an Schnitzler, [7.?] 12. 1914</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03656">Zweig an Schnitzler, [17. 7. 1915?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03645">Zweig an Schnitzler, [7.?] 12. 1914</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2489"/>
+            </item>
+            <item corresp="L03645">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [7.?] 12. 1914</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date notBefore="1914-12-05" notAfter="1914-12-07" n="01">[7.?] 12. 1914</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03649">Zweig an Schnitzler, [29. 11. 1914]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03648">Zweig an Schnitzler, 12. 12. [1914]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03649">Zweig an Schnitzler, [29. 11. 1914]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03648">Zweig an Schnitzler, 12. 12. [1914]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="439"/>
+            </item>
+            <item corresp="L03648">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 12. 12. [1914]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1914-12-12" n="01">12. 12. [1914]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1914-12-13" notAfter="1914-12-17">[13. 12. 1914 – 17. 12. 1914?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03645">Zweig an Schnitzler, [7.?] 12. 1914</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02200">Schnitzler an Brandes, 18. 12. 1914</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03645">Zweig an Schnitzler, [7.?] 12. 1914</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03650">Zweig an Schnitzler, 16. 1. 1915</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1050"/>
+            </item>
+            <item corresp="L03650">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 16. 1. 1915</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1915-01-16" n="01">16. 1. 1915</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1915-01-16" notAfter="1915-01-19">[16. 1. 1915
+                  – 19. 1. 1915?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02202">Schnitzler an Brandes, 8. 1. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03651">Zweig an Schnitzler, [zwischen 5. und 10. 2. 1915]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03648">Zweig an Schnitzler, 12. 12. [1914]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03651">Zweig an Schnitzler, [zwischen 5. und 10. 2. 1915]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="559"/>
+            </item>
+            <item corresp="L03651">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [zwischen 5. und 10. 2. 1915]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date notBefore="1915-02-05" notAfter="1915-02-10" n="01">[zwischen 5. und 10. 2. 1915]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1915-02-05" notAfter="1915-02-10">[zwischen 5. und 10. 2. 1915]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03650">Zweig an Schnitzler, 16. 1. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02203">Schnitzler an Bahr, 9. 2. 1915</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03650">Zweig an Schnitzler, 16. 1. 1915</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03653">Zweig an Schnitzler, [zwischen
+                  5. 4. 1915–9. 4. 1915?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="1038"/>
+            </item>
+            <item corresp="L03653">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [zwischen
+               5. 4. 1915–9. 4. 1915?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date notBefore="1915-04-05" notAfter="1915-04-09" n="01">[zwischen
+                  5. 4. 1915–9. 4. 1915?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1915-04-05" notAfter="1915-04-09">[zwischen
+                  5. 4. 1915–9. 4. 1915?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02205">Hofmannsthal an Schnitzler, 31. 3. [1915]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03654">Zweig an Schnitzler, [26. 4. 1915]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03651">Zweig an Schnitzler, [zwischen 5. und 10. 2. 1915]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03654">Zweig an Schnitzler, [26. 4. 1915]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1447"/>
+            </item>
+            <item corresp="L03654">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [26. 4. 1915]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1915-04-26" n="01">[26. 4. 1915]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1915-04-27" notAfter="1915-05-01">[27. 4. 1915
+                  – 1. 5. 1915?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03653">Zweig an Schnitzler, [zwischen
+                  5. 4. 1915–9. 4. 1915?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02206">Hofmannsthal an Schnitzler, 27. [5. 1915]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03653">Zweig an Schnitzler, [zwischen
+                  5. 4. 1915–9. 4. 1915?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03655">Zweig an Schnitzler, 13. 10. 1915</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1693"/>
+            </item>
+            <item corresp="L03655">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 13. 10. 1915</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1915-10-13" n="01">13. 10. 1915</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1915-10-14" notAfter="1915-10-18">[14. 10. 1915 – 18. 10. 1915?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02219">Adam an Schnitzler, 26. 9. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03613">Schnitzler an Salten, [zwischen 18. und 20.?] 10. 1915</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03654">Zweig an Schnitzler, [26. 4. 1915]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03652">Zweig an Schnitzler, 25. 11. 1915</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2726"/>
+            </item>
+            <item corresp="L03652">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 25. 11. 1915</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1915-11-25" n="01">25. 11. 1915</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1915-11-26" notAfter="1915-11-30">[26. 11. 1915 – 30. 11. 1915?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02220">Adam an Schnitzler, 21. 10. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02221">Brandes an Schnitzler, 4. 12. 1915</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03655">Zweig an Schnitzler, 13. 10. 1915</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03657">Zweig an Schnitzler, 18. 1. 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="480"/>
+            </item>
+            <item corresp="L03657">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 18. 1. 1916</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1916-01-18" n="01">18. 1. 1916</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1916-01-19" notAfter="1916-01-23">[19. 1. 1916 – 23. 1. 1916?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02224">Schnitzler an Brandes, 22. 12. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03658">Zweig an Schnitzler, 26. 4. 1916</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03652">Zweig an Schnitzler, 25. 11. 1915</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03658">Zweig an Schnitzler, 26. 4. 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="638"/>
+            </item>
+            <item corresp="L03658">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 26. 4. 1916</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1916-04-26" n="01">26. 4. 1916</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1916-04-27" notAfter="1916-05-01">[27. 4. 1916 – 1. 5. 1916?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03657">Zweig an Schnitzler, 18. 1. 1916</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02225">Hofmannsthal, Hofmannsthal an Schnitzler, Schnitzler, 5. 5. [1916?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03657">Zweig an Schnitzler, 18. 1. 1916</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03659">Zweig an Schnitzler, 25. 9. 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="431"/>
+            </item>
+            <item corresp="L03659">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 25. 9. 1916</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1916-09-25" n="01">25. 9. 1916</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1916-09-25" notAfter="1916-09-29">[25. 9. 1916 – 29. 9. 1916?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02241">Adam an Schnitzler, 24. 9. 1916</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02242">Beer-Hofmann an Schnitzler, 8. 10. 1916</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03658">Zweig an Schnitzler, 26. 4. 1916</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03660">Zweig an Schnitzler, 25. 2. 1917</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2292"/>
+            </item>
+            <item corresp="L03660">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 25. 2. 1917</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1917-02-25" n="01">25. 2. 1917</date>
+                     <placeName ref="#pmb1223">Bern</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1917-02-26" notAfter="1917-03-02">[26. 2. 1917
+                  – 2. 3. 1917?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02257">Hofmannsthal an Schnitzler, 23. 2. 1917</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02258">Schnitzler an Holz, 28. 2. 1917</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03659">Zweig an Schnitzler, 25. 9. 1916</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03661">Zweig an Schnitzler, 15. 8. 1917</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="883"/>
+            </item>
+            <item corresp="L03661">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 15. 8. 1917</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1917-08-15" n="01">15. 8. 1917</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1917-08-15" notAfter="1917-08-18">[15. 8. 1917 – 18. 8. 1917?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02267">Schnitzler an Beer-Hofmann, 23. 7. 1917</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02268">Adam an Schnitzler, 23. 8. 1917</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03660">Zweig an Schnitzler, 25. 2. 1917</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03662">Zweig an Schnitzler, 25. 8. 1917</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="4717"/>
+            </item>
+            <item corresp="L03662">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 25. 8. 1917</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1917-08-25" n="01">25. 8. 1917</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1917-08-26" notAfter="1917-08-30">[26. 8. 1917 – 30. 8. 1917?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02268">Adam an Schnitzler, 23. 8. 1917</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02269">Schnitzler an Adam, 27. 8. 1917</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03661">Zweig an Schnitzler, 15. 8. 1917</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03681">Zweig an Schnitzler, 12. 10. 1917</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2614"/>
+            </item>
+            <item corresp="L03681">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 12. 10. 1917</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1917-10-12" n="01">12. 10. 1917</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1917-10-13" notAfter="1917-10-17">[13. 10. 1917 – 17. 10. 1917?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02274">Brandes an Schnitzler, 28. 9. 1917</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02275">Adam an Schnitzler, 12. 10. 1917</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03662">Zweig an Schnitzler, 25. 8. 1917</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03664">Zweig an Schnitzler, 14. 4. 1919</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="1185"/>
+            </item>
+            <item corresp="L03664">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 14. 4. 1919</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1919-04-14" n="01">14. 4. 1919</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1919-04-15" notAfter="1919-04-19">[15. 4. 1919 – 19. 4. 1919?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02322">Schnitzler an Engländer, 3. 3. 1919</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02323">Hofmannsthal an Schnitzler, 20. 4. 1919</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03681">Zweig an Schnitzler, 12. 10. 1917</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03680">Zweig an Schnitzler, 15. 5. [1922]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="408"/>
+            </item>
+            <item corresp="L03680">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 15. 5. [1922]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1922-05-15" n="04">15. 5. [1922]</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1922-05-15">15. 5. [1922]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02384">Hauptmann an Schnitzler, 15. 5. 1922</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02385">Schnitzler an Bahr, 6. 6. 1922</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03664">Zweig an Schnitzler, 14. 4. 1919</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03665">Zweig an Schnitzler, 13. 5. 1923</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="telegramm"/>
+               <measure unit="zeichenanzahl" quantity="179"/>
+            </item>
+            <item corresp="L03665">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 13. 5. 1923</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1923-05-13" n="01">13. 5. 1923</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date evidence="conjecture" notBefore="1923-05-14" notAfter="1923-05-18">[14. 5. 1923
+                  – 18. 5. 1923?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1923-05-27" evidence="external">27. 3. 1929</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02398">Brandes an Schnitzler, [11. 5. 1923]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02399">Hofmannsthal an Schnitzler, 15. 5. 1923</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03680">Zweig an Schnitzler, 15. 5. [1922]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03666">Zweig an Schnitzler, 12. 7. 1923</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="590"/>
+            </item>
+            <item corresp="L03666">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 12. 7. 1923</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1923-07-12" n="01">12. 7. 1923</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1923-07-13" notAfter="1923-07-17">[13. 7. 1923 – 17. 7. 1923?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02573">Rie an Schnitzler, [Anfang Juli 1923]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03020">Schnitzler an Salten, 22. 7. 1923</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03665">Zweig an Schnitzler, 13. 5. 1923</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03667">Zweig an Schnitzler, 23. 7. 1923</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="402"/>
+            </item>
+            <item corresp="L03667">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 23. 7. 1923</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1923-07-23" n="01">23. 7. 1923</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1923-07-24" notAfter="1923-07-28">[24. 7. 1923 – 28. 7. 1923?]</date>
+                     <placeName ref="#pmb50" evidence="internal">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02575">Rie an Schnitzler, 23. 7. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03668">Zweig an Schnitzler, 1. 8. 1923</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03666">Zweig an Schnitzler, 12. 7. 1923</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03668">Zweig an Schnitzler, 1. 8. 1923</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="810"/>
+            </item>
+            <item corresp="L03668">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 1. 8. 1923</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1923-08-01" n="01">1. 8. 1923</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1923-08-02">[2. 8.?] 1923</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03667">Zweig an Schnitzler, 23. 7. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02402">Beer-Hofmann an Schnitzler, 13. 8. 1923</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03667">Zweig an Schnitzler, 23. 7. 1923</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03676">Zweig an Schnitzler, [1924–1928]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="506"/>
+            </item>
+            <item corresp="L03676">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [1924–1928]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date notBefore="1924-01-01" notAfter="1924-01-01" n="01">[1924–1928]</date>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1924-01-01" notAfter="1924-01-01">[1924–1928]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02406">Schnitzler an Beer-Hofmann, 14. 12. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02407">Schnitzler an Brandes, 4. 1. 1924</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03668">Zweig an Schnitzler, 1. 8. 1923</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03669">Zweig an Schnitzler, 4. 11. 1924</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="326"/>
+            </item>
+            <item corresp="L03669">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 4. 11. 1924</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1924-11-04" n="01">4. 11. 1924</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1924-11-05" notAfter="1924-11-09">[5. 11. 1924
+                  – 9. 11. 1924?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02418">Hofmannsthal an Schnitzler, 31. 10. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02419">Schnitzler an Hofmannsthal, [5?.] 11. 1924</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03676">Zweig an Schnitzler, [1924–1928]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03670">Zweig an Schnitzler, 2. 1. 1925</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1369"/>
+            </item>
+            <item corresp="L03670">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 2. 1. 1925</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1925-01-02" n="01">2. 1. 1925</date>
+                     <placeName ref="#pmb30" evidence="internal">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1925-01-03" notAfter="1925-01-07">[3. 1. 1925 – 7. 1. 1925?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02428">Braun an Schnitzler, 31. 12. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02429">Schnitzler an Mann, 5. 1. 1925</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03669">Zweig an Schnitzler, 4. 11. 1924</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03671">Zweig an Schnitzler, 21. 8. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+               <measure unit="zeichenanzahl" quantity="725"/>
+            </item>
+            <item corresp="L03671">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 21. 8. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1926-08-21" n="01">21. 8. 1926</date>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1926-08-22" notAfter="1926-08-26">[22. 8. 1926 – 26. 8. 1926?]</date>
+                     <placeName ref="#pmb34005">Zermatt</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02477">Großmann an Schnitzler, 2. 6. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02478">Brandes an Schnitzler, 28. 8. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03670">Zweig an Schnitzler, 2. 1. 1925</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03663">Zweig an Schnitzler, [4.] 10. [1926?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="511"/>
+            </item>
+            <item corresp="L03663">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [4.] 10. [1926?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1926-10-04" n="01">[4.] 10. [1926?]</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1926-10-06">6. 10. [1926?]</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture"
+                           notBefore="1926-10-05"
+                           error="Zeitabfolge Fehler 1"
+                           notAfter="1926-10-09">[5. 10. 1926 – 9. 10. 1926?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02478">Brandes an Schnitzler, 28. 8. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02479">Beer-Hofmann an Schnitzler, 12. 10. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03671">Zweig an Schnitzler, 21. 8. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03672">Zweig an Schnitzler, 10. 11. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="531"/>
+            </item>
+            <item corresp="L03672">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 10. 11. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1926-11-10" n="01">10. 11. 1926</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1926-11-11" notAfter="1926-11-15">[11. 11. 1926 – 15. 11. 1926?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02479">Beer-Hofmann an Schnitzler, 12. 10. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03542">Goldmann an Schnitzler, 1. 1. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03663">Zweig an Schnitzler, [4.] 10. [1926?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03673">Zweig an Schnitzler, 4. 2. 1927</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="980"/>
+            </item>
+            <item corresp="L03673">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 4. 2. 1927</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1927-02-04" n="01">4. 2. 1927</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1927-02-05" notAfter="1927-02-09">[5. 2. 1927 – 9. 2. 1927?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02480">Ludwig an Schnitzler, 3. 2. 1927</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03596">Salten an Schnitzler, 8. 2. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03672">Zweig an Schnitzler, 10. 11. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03674">Zweig an Schnitzler, 18. 5. 1927</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2462"/>
+            </item>
+            <item corresp="L03674">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 18. 5. 1927</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1927-05-18" n="01">18. 5. 1927</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1927-05-19" notAfter="1927-05-23">[19. 5. 1927
+                  – 23. 5. 1927?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02486">Braun an Schnitzler, 10. 5. 1927</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02487">Schnitzler an Braun, 28. 5. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03673">Zweig an Schnitzler, 4. 2. 1927</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03682">Zweig an Schnitzler, 7. 1. 192[8?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3020"/>
+            </item>
+            <item corresp="L03682">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 7. 1. 192[8?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1928-01-07" n="01">7. 1. 192[8?]</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1928-01-08" notAfter="1928-01-12">[8. 1. 1928 – 12. 1. 1928?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02577">Rie an Schnitzler, 6. 1. 1928</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02498">Schnitzler an Adam, 10. 4. 1928</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03674">Zweig an Schnitzler, 18. 5. 1927</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03675">Zweig an Schnitzler, 26. 7. 1929</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="2655"/>
+            </item>
+            <item corresp="L03675">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 26. 7. 1929</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1929-07-26" n="01">26. 7. 1929</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1929-07-27" notAfter="1929-07-31">[27. 7. 1929
+                  – 31. 7. 1929?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02514">Adam an Schnitzler, 22. 7. 1929</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02950">Schnitzler an Salten, 29. 7. 1929</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03682">Zweig an Schnitzler, 7. 1. 192[8?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03679">Zweig an Schnitzler, 21. 12. [1929]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="725"/>
+            </item>
+            <item corresp="L03679">
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 21. 12. [1929]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <date when="1929-12-21" n="01">21. 12. [1929]</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1929-12-21">21. 12. [1929]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02526">Schnitzler an Hauptmann, 27. 11. 1929</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02527">Adam an Schnitzler, 22. 12. 1929</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03675">Zweig an Schnitzler, 26. 7. 1929</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03677">Zweig, Zweig an Schnitzler, [18. 2. 1931?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="telegramm"/>
+               <measure unit="zeichenanzahl" quantity="153"/>
+            </item>
+            <item corresp="L03677">
+               <title level="a">Stefan und Friderike Zweig an Arthur Schnitzler, [18. 2. 1931?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13212">Zweig, Stefan</persName>
+                     <persName ref="#pmb4829">Zweig, Friderike</persName>
+                     <date when="1931-02-18" n="01">[18. 2. 1931?]</date>
+                     <placeName ref="#pmb88767">Antibes</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1931-02-19" notAfter="1931-02-25">[19. 2. 1931
+                  – 25. 2. 1931?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
+                     <ref type="belongsToCorrespondence" target="#pmb4829">Zweig, Friderike</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02543">Schnitzler an Hofmannsthal, 17. 2. 1931</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02544">Hofmannsthal an Schnitzler, [5. 3. 1931]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13212"
+                          target="L03679">Zweig an Schnitzler, 21. 12. [1929]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="293"/>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

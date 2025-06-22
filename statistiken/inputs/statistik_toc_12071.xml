@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-08-20Z</date>
+            <date>2025-06-22Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12071.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -137,7 +137,7 @@
                      <persName ref="#pmb5830">Kahler, Erich</persName>
                      <persName ref="#pmb2147">Altenberg, Peter</persName>
                      <persName ref="#pmb11988">Kraus, Karl</persName>
-                     <persName ref="#pmb2725">Wymetal, Wilhelm von</persName>
+                     <persName ref="#pmb146651">Wymetal, Wilhelm von</persName>
                      <persName ref="#pmb3004">Loos, Lina</persName>
                      <persName ref="#pmb13064">Webern, Anton von</persName>
                      <persName ref="#pmb2446">Devrient, Max</persName>
@@ -154,6 +154,7 @@
                      <ref type="belongsToCorrespondence" target="correspondence_12071">Liliencron, Detlev von</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_11988">Kraus, Karl</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
+                     <ref type="belongsToCorrespondence" target="#pmb146651">Wymetal, Wilhelm von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01390">Hofmannsthal an Schnitzler, [9. 4. 1904]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02991">Schnitzler an Salten, 13. 4. 1904</ref>
                      <ref subtype="previous_letter"
@@ -180,6 +181,10 @@
                           type="withinCorrespondence"
                           source="correspondence_2147"
                           target="L01839">Altenberg an Schnitzler, [17. 4. 1909]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="#pmb146651"
+                          target="L01735">Wymetal, Liliencron, Stefan, Kurzweil, Markowitz, Goldschmied an Schnitzler, 27. 11. [1907]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte"/>
@@ -189,7 +194,7 @@
                <title level="a">Wilhelm von Wymetal u. a. an Arthur Schnitzler, 27. 11. [1907]</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2725">Wymetal, Wilhelm von</persName>
+                     <persName ref="#pmb146651">Wymetal, Wilhelm von</persName>
                      <persName ref="#pmb12071">Liliencron, Detlev von</persName>
                      <persName ref="#pmb12826">Stefan, Paul</persName>
                      <persName ref="#pmb29183">Kurzweil, Hedwig</persName>
@@ -204,9 +209,14 @@
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
+                     <ref type="belongsToCorrespondence" target="#pmb146651">Wymetal, Wilhelm von</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_12071">Liliencron, Detlev von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01734">Burckhard an Schnitzler, 23. 11. 1907</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01736">Schnitzler an Beer-Hofmann, 6. 12. 1907</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="#pmb146651"
+                          target="L01391">Liliencron, Stefan, Horwitz, Kahler, Altenberg, Kraus, Wymetal, Loos, Webern, Devrient an Schnitzler, 1[0?]. 4. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12071"

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-08-20Z</date>
+            <date>2025-06-22Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10815.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -57,18 +57,18 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L00066">Bahr an Schnitzler, [1?. 2. 1892]</ref>
+                          target="L00066">Bahr an Schnitzler, [1.? 2. 1892]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="387"/>
             </item>
             <item corresp="L00066">
-               <title level="a">Hermann Bahr an Arthur Schnitzler, [1?. 2. 1892]</title>
+               <title level="a">Hermann Bahr an Arthur Schnitzler, [1.? 2. 1892]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
-                     <date when="1892-02-01" n="01">[1?. 2. 1892]</date>
+                     <date when="1892-02-01" n="01">[1.? 2. 1892]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -79,7 +79,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00065">Hofmannsthal an Schnitzler, [25. –29. 1. 1892?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00065">Hofmannsthal an Schnitzler, [25. – 29. 1.
+                  1892?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00068">Schnitzler an Hofmannsthal, [1.? 2. 1892]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -115,7 +116,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L00066">Bahr an Schnitzler, [1?. 2. 1892]</ref>
+                          target="L00066">Bahr an Schnitzler, [1.? 2. 1892]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -1893,7 +1894,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02638">Goldmann an Schnitzler, [25.–28.? 2. 1897]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02638">Goldmann an Schnitzler, [25. – 28.? 2. 1897]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00647">Schnitzler an Bahr, 26. 2. 1897</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -3875,18 +3876,18 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L01171">Schnitzler an Bahr, 10.–12. 9. 1901</ref>
+                          target="L01171">Schnitzler an Bahr, 10. – 12. 9. 1901</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1373"/>
             </item>
             <item corresp="L01171">
-               <title level="a">Arthur Schnitzler an Hermann Bahr, 10.–12. 9. 1901</title>
+               <title level="a">Arthur Schnitzler an Hermann Bahr, 10. – 12. 9. 1901</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1901-09-12" n="01">10.–12. 9. 1901</date>
+                     <date when="1901-09-12" n="01">10. – 12. 9. 1901</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -3928,12 +3929,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01171">Schnitzler an Bahr, 10.–12. 9. 1901</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01171">Schnitzler an Bahr, 10. – 12. 9. 1901</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01173">Schnitzler an Bahr, [1]3. 9. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L01171">Schnitzler an Bahr, 10.–12. 9. 1901</ref>
+                          target="L01171">Schnitzler an Bahr, 10. – 12. 9. 1901</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -4601,7 +4602,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01228">Hofmannsthal, Schnitzler an Beer-Hofmann, 3. 7. 1902</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03532">Goldmann an Gussmann, 9. 7. [1902]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03532">Goldmann an Gussmann, 9. 7. [1902?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -4631,7 +4632,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03532">Goldmann an Gussmann, 9. 7. [1902]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03532">Goldmann an Gussmann, 9. 7. [1902?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01231">Schnitzler an Bahr, 13. 7. 1902</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -4644,7 +4645,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1090"/>
+               <measure unit="zeichenanzahl" quantity="1086"/>
             </item>
             <item corresp="L01231">
                <title level="a">Arthur Schnitzler an Hermann Bahr, 13. 7. 1902</title>
@@ -6415,7 +6416,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01422">Schnitzler an Hofmannsthal, 5.–6. 8. 1904</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01422">Schnitzler an Hofmannsthal, 5. – 6. 8. 1904</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01423">Hofmannsthal an Schnitzler, 8. 8. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -7553,8 +7554,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03002">Schnitzler an Salten, 30. 1. 1906</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01582">Schnitzler an Hofmannsthal, [zwischen
-                  4.–7.?] 2. 1906</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01583">Bahr an Schnitzler, 4. 2. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -7583,8 +7583,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03607">Schnitzler an Salten, [zwischen
-                  4.–7.?] 2. 1906</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01581">Schnitzler an Bahr, 3. 2. 1906</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03239">Goldmann an Schnitzler, 7. 2. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -7686,18 +7685,18 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L01604">Schnitzler an Bahr, 24.–25. 6. 1906</ref>
+                          target="L01604">Schnitzler an Bahr, 24. – 25. 6. 1906</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="572"/>
             </item>
             <item corresp="L01604">
-               <title level="a">Arthur Schnitzler an Hermann Bahr, 24.–25. 6. 1906</title>
+               <title level="a">Arthur Schnitzler an Hermann Bahr, 24. – 25. 6. 1906</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date from="1906-06-24" to="1906-06-25" n="02">24.–25. 6. 1906</date>
+                     <date from="1906-06-24" to="1906-06-25" n="02">24. – 25. 6. 1906</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -7746,7 +7745,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L01604">Schnitzler an Bahr, 24.–25. 6. 1906</ref>
+                          target="L01604">Schnitzler an Bahr, 24. – 25. 6. 1906</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -7987,7 +7986,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01655">Hofmannsthal an Schnitzler, [zwischen
-                  3.–7. 2. 1907]</ref>
+                  3. – 7. 2. 1907]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01657">Schnitzler an Bahr, 15. 2. 1907</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -8568,7 +8567,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01749">Hofmannsthal an Schnitzler, 8. 1. 190[8?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03490">Salten an Schnitzler, 15. 1. 1908</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03621">Zweig an Schnitzler, 15. 1. 190[8]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -8724,7 +8723,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01772">Andreas-Salomé an Schnitzler, Juni 1908</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03484">Goldmann an Schnitzler, 5. 6. [1908]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03622">Zweig an Schnitzler, 3. 6. 1908</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -9568,7 +9567,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01962">Schnitzler an Hofmannsthal, 4. 10. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03626">Zweig an Schnitzler, [5. oder 6. 10. 1910?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01964">Schnitzler an Beer-Hofmann, 9. 10. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -9839,8 +9838,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03554">Salten an Schnitzler, 22. 10. 1911</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02043">Schnitzler, Schnitzler an Beer-Hofmann, 7. 11. 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03637">Zweig an Schnitzler, 27. 10. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03630">Zweig an Schnitzler, 6. [11.?] 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -9870,7 +9869,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02046">Hofmannsthal an Schnitzler, 15. 11. 1911</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02565">Schnitzler an Beer-Hofmann, [30. 11. 1911?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03629">Zweig an Schnitzler, 19. 11. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -10484,7 +10483,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02165">Schnitzler, Schnitzler an Beer-Hofmann, 2. 2. 1914</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03646">Zweig an Schnitzler, 20. 2. 1914</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02167">Hofmannsthal an Schnitzler, 27. 3. [1914]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -10606,7 +10605,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02202">Schnitzler an Brandes, 8. 1. 1915</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03651">Zweig an Schnitzler, [zwischen 5. und 10. 2. 1915]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02204">Bahr an Schnitzler, 10. 2. 1915</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -10940,7 +10939,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02384">Hauptmann an Schnitzler, 15. 5. 1922</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03680">Zweig an Schnitzler, 15. 5. [1922]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02386">Schnitzler an Hauptmann, 6. 6. 1922</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

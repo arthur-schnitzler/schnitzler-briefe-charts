@@ -11,8 +11,8 @@
 "data": [
          {
 "id": "Wien",
-"lat": 48.2066,
-"lon": 16.37341
+"lat": 48.208333,
+"lon": 16.373056
 },
 {
 "id": "Strobl",
@@ -86,8 +86,8 @@
 },
 {
 "id": "Altaussee",
-"lat": 47.6698,
-"lon": 13.78453
+"lat": 47.639444,
+"lon": 13.763333
 },
 {
 "id": "Berlin",
@@ -235,7 +235,7 @@
 "lon": 23.19752
 },
 {
-"id": "Nago–Torbole",
+"id": "Nago-Torbole",
 "lat": 45.87594,
 "lon": 10.89106
 },
@@ -275,7 +275,7 @@
 "lon": 17.03533
 },
 {
-"id": "Cortina d'Ampezzo",
+"id": "Cortina d’Ampezzo",
 "lat": 46.5369,
 "lon": 12.13903
 },
@@ -400,7 +400,7 @@
 "lon": 11.55868
 },
 {
-"id": "Sils im Engadin",
+"id": "Sils im Engadin/Segl",
 "lat": 46.41603,
 "lon": 9.77504
 },
@@ -436,8 +436,8 @@
 },
 {
 "id": "Dürnstein",
-"lat": 48.40751,
-"lon": 15.51978
+"lat": 48.395556,
+"lon": 15.520278
 },
 {
 "id": "Magglingen",
@@ -673,7 +673,7 @@
 {
 "from": "Berlin",
 "to": "Wien",
-"weight": 7},
+"weight": 8},
 {
 "from": "Berlin",
 "to": "Venedig",
@@ -915,7 +915,7 @@
 {
 "from": "Semmering",
 "to": "Meran",
-"weight": 2}
+"weight": 1}
 ,
 {
 "from": "Monreale",

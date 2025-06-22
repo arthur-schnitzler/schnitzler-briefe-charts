@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-08-20Z</date>
+            <date>2025-06-22Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -550,8 +550,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00058">Beer-Hofmann an Schnitzler, [1892–1893?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03107">Salten an Schnitzler, [vor dem
-                  24.? 1. 1892]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00060">Schnitzler an Beer-Hofmann, 12. 1. 1892</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -582,7 +581,8 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00060">Schnitzler an Beer-Hofmann, 12. 1. 1892</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00062">Blumenthal an Schnitzler, 16. 1. 1892</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03107">Salten an Schnitzler, [vor dem
+                  24.? 1. 1892]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -613,7 +613,8 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00063">Beer-Hofmann an Schnitzler, 18. 1. 1892</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00065">Hofmannsthal an Schnitzler, [25. –29. 1. 1892?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00065">Hofmannsthal an Schnitzler, [25. – 29. 1.
+                  1892?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -621,7 +622,8 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L00065">Hofmannsthal an Schnitzler, [25. –29. 1. 1892?]</ref>
+                          target="L00065">Hofmannsthal an Schnitzler, [25. – 29. 1.
+                  1892?]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
@@ -643,17 +645,13 @@
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo
-                  von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00064">Hofmannsthal
-                  an Schnitzler, 18. 1. 1892</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00066">Bahr an
-                  Schnitzler, [1?. 2. 1892]</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00064">Hofmannsthal an Schnitzler, 18. 1. 1892</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00066">Bahr an Schnitzler, [1.? 2. 1892]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L00064">Hofmannsthal an Schnitzler,
-                  18. 1. 1892</ref>
+                          target="L00064">Hofmannsthal an Schnitzler, 18. 1. 1892</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -679,12 +677,13 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00066">Bahr an Schnitzler, [1?. 2. 1892]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00066">Bahr an Schnitzler, [1.? 2. 1892]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00069">Schnitzler an Beer-Hofmann, 1. 2. 1892</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L00065">Hofmannsthal an Schnitzler, [25. –29. 1. 1892?]</ref>
+                          target="L00065">Hofmannsthal an Schnitzler, [25. – 29. 1.
+                  1892?]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -1898,7 +1897,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="1189"/>
+               <measure unit="zeichenanzahl" quantity="1188"/>
             </item>
             <item corresp="L00171">
                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1. 2. [1893]</title>
@@ -2629,8 +2628,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00268">Schnitzler an Beer-Hofmann, [zwischen 5. 10. und
-                  14. 11. 1893]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00267">Kraus, Rosner, Schaumberger an Schnitzler, 30. 9. 1893</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00270">Schnitzler an Beer-Hofmann, 13. 10. 1893</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -5693,7 +5691,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02849">Goldmann an Schnitzler, [28.–31. 3. 1898?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02849">Goldmann an Schnitzler, [28. – 31. 3. 1898?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00789">Schnitzler an Beer-Hofmann, 1. 4. 1898</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -11028,18 +11026,18 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01361">Hofmannsthal an Schnitzler, [8.–9. 1. 1904]</ref>
+                          target="L01361">Hofmannsthal an Schnitzler, [8. – 9. 1. 1904]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
                <measure unit="zeichenanzahl" quantity="151"/>
             </item>
             <item corresp="L01361">
-               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [8.–9. 1. 1904]</title>
+               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [8. – 9. 1. 1904]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <date from="1904-01-08" to="1904-01-09" n="03">[8.–9. 1. 1904]</date>
+                     <date from="1904-01-08" to="1904-01-09" n="03">[8. – 9. 1. 1904]</date>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11084,7 +11082,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01361">Hofmannsthal an Schnitzler, [8.–9. 1. 1904]</ref>
+                          target="L01361">Hofmannsthal an Schnitzler, [8. – 9. 1. 1904]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -11213,7 +11211,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1627"/>
+               <measure unit="zeichenanzahl" quantity="1626"/>
             </item>
             <item corresp="L01382">
                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 14. 3. 1904</title>
@@ -11334,7 +11332,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="telegramm"/>
-               <measure unit="zeichenanzahl" quantity="181"/>
+               <measure unit="zeichenanzahl" quantity="180"/>
             </item>
             <item corresp="L01387">
                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 21. 3. 1904</title>
@@ -11877,18 +11875,18 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01422">Schnitzler an Hofmannsthal, 5.–6. 8. 1904</ref>
+                          target="L01422">Schnitzler an Hofmannsthal, 5. – 6. 8. 1904</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1284"/>
             </item>
             <item corresp="L01422">
-               <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 5.–6. 8. 1904</title>
+               <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 5. – 6. 8. 1904</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date from="1904-08-05" to="1904-08-06" n="01">5.–6. 8. 1904</date>
+                     <date from="1904-08-05" to="1904-08-06" n="01">5. – 6. 8. 1904</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -11935,7 +11933,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01422">Schnitzler an Hofmannsthal, 5.–6. 8. 1904</ref>
+                          target="L01422">Schnitzler an Hofmannsthal, 5. – 6. 8. 1904</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -13386,8 +13384,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01582">Schnitzler an Hofmannsthal, [zwischen
-                  4.–7.?] 2. 1906</ref>
+                          target="L01582">Schnitzler an Hofmannsthal, [21.?] 2. 1906</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
@@ -13395,22 +13392,22 @@
             </item>
             <item corresp="L01582">
                <title level="a">Arthur Schnitzler: Widmungsexemplar Ruf des Lebens für Hugo von
-               Hofmannsthal, [zwischen 4.–7.?] 2. 1906</title>
+               Hofmannsthal, [21.?] 2. 1906</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date notBefore="1906-02-04" notAfter="1906-02-07" n="01">[zwischen
-                  4.–7.?] 2. 1906</date>
+                     <date when="1906-02-21" n="01">[21.?] 2. 1906</date>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                     <date evidence="conjecture" notBefore="1906-02-22" notAfter="1906-02-26">[22. 2. 1906 – 26. 2. 1906?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01581">Schnitzler an Bahr, 3. 2. 1906</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03607">Schnitzler an Salten, [zwischen
-                  4.–7.?] 2. 1906</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03240">Goldmann an Schnitzler, 19. 2. 1906</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03607">Schnitzler an Salten, [21.?] 2. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -13440,13 +13437,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03240">Goldmann an Schnitzler, 19. 2. 1906</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03607">Schnitzler an Salten, [21.?] 2. 1906</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01587">Schnitzler an Hofmannsthal, 6. 3. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01582">Schnitzler an Hofmannsthal, [zwischen
-                  4.–7.?] 2. 1906</ref>
+                          target="L01582">Schnitzler an Hofmannsthal, [21.?] 2. 1906</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -13626,7 +13622,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01604">Schnitzler an Bahr, 24.–25. 6. 1906</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01604">Schnitzler an Bahr, 24. – 25. 6. 1906</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03429">Salten an Schnitzler, 27. 6. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -14069,7 +14065,7 @@
                           type="withinCorrespondence"
                           source="correspondence_11740"
                           target="L01655">Hofmannsthal an Schnitzler, [zwischen
-                  3.–7. 2. 1907]</ref>
+                  3. – 7. 2. 1907]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
@@ -14077,12 +14073,12 @@
             </item>
             <item corresp="L01655">
                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [zwischen
-               3.–7. 2. 1907]</title>
+               3. – 7. 2. 1907]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date notBefore="1907-02-03" notAfter="1907-02-07" n="01">[zwischen
-                  3.–7. 2. 1907]</date>
+                  3. – 7. 2. 1907]</date>
                      <placeName ref="#pmb183">Gerngroß</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -14129,7 +14125,7 @@
                           type="withinCorrespondence"
                           source="correspondence_11740"
                           target="L01655">Hofmannsthal an Schnitzler, [zwischen
-                  3.–7. 2. 1907]</ref>
+                  3. – 7. 2. 1907]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -14565,46 +14561,11 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01705">Hofmannsthal, Schnitzler an Schnitzler, 5. 9. 1907</ref>
+                          target="L01707">Schnitzler an Hofmannsthal, 16. 9. 1907</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="telegramm"/>
                <measure unit="zeichenanzahl" quantity="155"/>
-            </item>
-            <item corresp="L01705">
-               <title level="a">Hugo von Hofmannsthal und Louise Schnitzler an Arthur Schnitzler,
-               5. 9. 1907</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <persName ref="#pmb12701">Schnitzler, Louise</persName>
-                     <date when="1907-09-05" n="01">5. 9. 1907</date>
-                     <placeName ref="#pmb189">Semmering</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1907-09-06" notAfter="1907-09-10">[6. 9. 1907
-                  – 10. 9. 1907?]</date>
-                     <placeName ref="#pmb43520">Meran</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01704">Hofmannsthal an Schnitzler, [Anfang
-                  September 1907]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03511">Salten an Schnitzler, 5. 9. 1907</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_11740"
-                          target="L01704">Hofmannsthal an Schnitzler, [Anfang
-                  September 1907]</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_11740"
-                          target="L01707">Schnitzler an Hofmannsthal, 16. 9. 1907</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="446"/>
             </item>
             <item corresp="L01707">
                <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 16. 9. 1907</title>
@@ -14627,7 +14588,8 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01705">Hofmannsthal, Schnitzler an Schnitzler, 5. 9. 1907</ref>
+                          target="L01704">Hofmannsthal an Schnitzler, [Anfang
+                  September 1907]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -16201,7 +16163,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01961">Hofmannsthal an Schnitzler, 30. 9. [1910]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01963">Schnitzler an Bahr, 8. 10. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03626">Zweig an Schnitzler, [5. oder 6. 10. 1910?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -16290,7 +16252,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01974">Schnitzler an Adam, 31. 10. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03625">Zweig an Schnitzler, [im Herbst 1910]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01976">Beer-Hofmann an Schnitzler, 3. 11. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -16442,7 +16404,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02010">Schnitzler an Adam, 11. 2. 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03636">Zweig an Schnitzler, 21. 2. 1911</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02012">Hofmannsthal an Schnitzler, [4. 3. 1911]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -16536,7 +16498,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02014">Hofmannsthal an Schnitzler, 26. [3. 1911]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02016">Brandes an Schnitzler, 11. 4. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03631">Zweig an Schnitzler, 4. 4. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -16567,7 +16529,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02020">Ehrenstein an Schnitzler, 17. 5. 1911</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02022">Schnitzler an Beer-Hofmann, 15. 6. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03634">Zweig an Schnitzler, [zwischen 9. und 12. 6. 1911?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -16598,7 +16560,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02023">Beer-Hofmann an Schnitzler, 15. 6. 1911</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03553">Salten an Schnitzler, 16. 8. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03632">Zweig an Schnitzler, 6. 7. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -17094,7 +17056,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02582">Michaëlis an Schnitzler, 21. 10. 1912</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03640">Zweig an Schnitzler, 27. 10. 1912</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02094">Altenberg an Schnitzler, [7. 11. 1912]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -17124,8 +17086,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02095">Altenberg an Schnitzler, [zwischen 9. und
-                  15. 11. 1912?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03639">Zweig an Schnitzler, 12. 11. 1912</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02097">Andreas-Salomé an Schnitzler, [vor dem 15. 11. 1912?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -17477,7 +17438,7 @@
                <measure unit="zeichenanzahl" quantity="1503"/>
             </item>
             <item corresp="L02187">
-               <title level="a">Hugo von Hofmannsthal u.a. an Arthur Schnitzler, 15. [7. 1914]</title>
+               <title level="a">Hugo von Hofmannsthal u. a. an Arthur Schnitzler, 15. [7. 1914]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
@@ -17501,7 +17462,7 @@
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02186">Schnitzler, Schnitzler, Schmidl, Schmidl an Beer-Hofmann, 15. 7. 1914</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02188">Schnitzler an Beer-Hofmann, 25. 7. 1914</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03656">Zweig an Schnitzler, [17. 7. 1915?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -17602,7 +17563,8 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03477">Goldmann an Schnitzler, 10. 2. 1915</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02206">Hofmannsthal an Schnitzler, 27. [5. 1915]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03653">Zweig an Schnitzler, [zwischen
+                  5. 4. 1915–9. 4. 1915?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -17632,7 +17594,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02205">Hofmannsthal an Schnitzler, 31. 3. [1915]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03654">Zweig an Schnitzler, [26. 4. 1915]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03614">Schnitzler an Salten, [29. 5. 1915?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -17697,7 +17659,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02224">Schnitzler an Brandes, 22. 12. 1915</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03658">Zweig an Schnitzler, 26. 4. 1916</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02226">Adam an Schnitzler, 10. 5. 1916</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -17881,7 +17843,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02256">Schnitzler an Hofmannsthal, 19. 2. 1917</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02258">Schnitzler an Holz, 28. 2. 1917</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03660">Zweig an Schnitzler, 25. 2. 1917</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -18065,7 +18027,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02322">Schnitzler an Engländer, 3. 3. 1919</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03664">Zweig an Schnitzler, 14. 4. 1919</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02324">Schnitzler an Adam, 5. 8. 1919</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -18096,7 +18058,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03568">Salten an Schnitzler, 7. 9. 1919</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03678">Schnitzler, Salten, Harta, Foges, Zweig, Paumgartner, Zotos an Schnitzler, 11. 9. 1909</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02327">Schnitzler an Hofmannsthal, 1. 10. 1919</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -18359,7 +18321,7 @@
                <measure unit="zeichenanzahl" quantity="1904"/>
             </item>
             <item corresp="L02340">
-               <title level="a">Hugo von Hofmannsthal an Olga Schnitzler, 17. 4. 1920</title>
+               <title level="a">Hugo Hofmannsthal an Olga Schnitzler, 17. 4. 1920</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
@@ -18514,7 +18476,7 @@
                <measure unit="zeichenanzahl" quantity="1377"/>
             </item>
             <item corresp="L02374">
-               <title level="a">Christiane von Hofmannsthal an Arthur Schnitzler, 28. 1. 192[2]</title>
+               <title level="a">Christiane Hofmannsthal an Arthur Schnitzler, 28. 1. 192[2]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb3220">Hofmannsthal, Christiane von</persName>
@@ -18651,7 +18613,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02398">Brandes an Schnitzler, [11. 5. 1923]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03665">Zweig an Schnitzler, 13. 5. 1923</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02400">Holz an Schnitzler, 29. 5. 1923</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -18733,7 +18695,7 @@
                <measure unit="zeichenanzahl" quantity="898"/>
             </item>
             <item corresp="L02412">
-               <title level="a">Hugo, Gerty und Christiane von Hofmannsthal an Arthur Schnitzler,
+               <title level="a">Hugo, Gerty und Christiane Hofmannsthal an Arthur Schnitzler,
                8. 5. 1924</title>
                <correspDesc>
                   <correspAction type="sent">
@@ -18783,7 +18745,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02417">Mann an Schnitzler, 22. 10. 1924</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02419">Schnitzler an Hofmannsthal, [5?.] 11. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03669">Zweig an Schnitzler, 4. 11. 1924</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -18813,7 +18775,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02418">Hofmannsthal an Schnitzler, 31. 10. 1924</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03669">Zweig an Schnitzler, 4. 11. 1924</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02420">Schnitzler an Mann, 6. 11. 1924</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -18920,7 +18882,7 @@
                <measure unit="zeichenanzahl" quantity="138"/>
             </item>
             <item corresp="L02437">
-               <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, 7. 3. 1925</title>
+               <title level="a">Gerty Hofmannsthal an Arthur Schnitzler, 7. 3. 1925</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
@@ -19041,7 +19003,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="1013"/>
+               <measure unit="zeichenanzahl" quantity="1014"/>
             </item>
             <item corresp="L02454">
                <title level="a">Hugo Hofmannsthal an Arthur Schnitzler, 14. 11. 1925</title>
@@ -19289,7 +19251,7 @@
             </item>
             <item corresp="L02493">
                <title level="a">Arthur Schnitzler: Widmungsexemplar Buch der Sprüche und Bedenken für
-               Hugo von Hofmannsthal, 16. 12. 1927</title>
+               Hugo Hofmannsthal, 16. 12. 1927</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -19297,7 +19259,7 @@
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
-                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                     <persName ref="#pmb11740">Hofmannsthal, Hugo</persName>
                      <date evidence="conjecture" notBefore="1927-12-16" notAfter="1927-12-18">[16. 12. 1927 – 20. 12. 1927?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
@@ -19349,12 +19311,12 @@
                <measure unit="zeichenanzahl" quantity="1486"/>
             </item>
             <item corresp="L02502">
-               <title level="a">Hugo und Gerty von Hofmannsthal an Arthur Schnitzler, Mitte Juni
+               <title level="a">Hugo und Gerty Hofmannsthal an Arthur Schnitzler, Mitte Juni
                1928</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb11740">Hofmannsthal, Hugo</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date when="1928-06-15" n="01">Mitte Juni 1928</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
@@ -19473,7 +19435,7 @@
                </correspDesc>
             </item>
             <item corresp="L02506">
-               <title level="a">Arthur Schnitzler an Gerty von Hofmannsthal, 4. 11. 1928</title>
+               <title level="a">Arthur Schnitzler an Gerty Hofmannsthal, 4. 11. 1928</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -19481,7 +19443,7 @@
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date evidence="conjecture" notBefore="1928-11-04" notAfter="1928-11-08">[4. 11. 1928
                   – 8. 11. 1928?]</date>
                   </correspAction>
@@ -19534,7 +19496,7 @@
                <measure unit="zeichenanzahl" quantity="2084"/>
             </item>
             <item corresp="L02511">
-               <title level="a">Arthur Schnitzler: Widmungsexemplar Spiel im Morgengrauen für Hugo von
+               <title level="a">Arthur Schnitzler: Widmungsexemplar Spiel im Morgengrauen für Hugo 
                Hofmannsthal, 11. 6. 1929</title>
                <correspDesc>
                   <correspAction type="sent">
@@ -19543,7 +19505,7 @@
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
-                     <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                     <persName ref="#pmb11740">Hofmannsthal, Hugo</persName>
                      <date when="1929-06-11">11. 6. 1929</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
@@ -19596,10 +19558,10 @@
                <measure unit="zeichenanzahl" quantity="284"/>
             </item>
             <item corresp="L02515">
-               <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, [29. 7. 1929]</title>
+               <title level="a">Gerty Hofmannsthal an Arthur Schnitzler, [29. 7. 1929]</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date when="1929-07-29" n="02">[29. 7. 1929]</date>
                   </correspAction>
                   <correspAction type="received">
@@ -19626,7 +19588,7 @@
                <measure unit="zeichenanzahl" quantity="362"/>
             </item>
             <item corresp="L02516">
-               <title level="a">Arthur Schnitzler an Gerty von Hofmannsthal, 2. 8. 1929</title>
+               <title level="a">Arthur Schnitzler an Gerty Hofmannsthal, 2. 8. 1929</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -19634,7 +19596,7 @@
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date evidence="conjecture" notBefore="1929-08-03" notAfter="1929-08-07">[3. 8. 1929
                   – 7. 8. 1929?]</date>
                      <placeName ref="#pmb415">Bad Aussee</placeName>
@@ -19654,7 +19616,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="900"/>
+               <measure unit="zeichenanzahl" quantity="903"/>
             </item>
             <item corresp="L02517">
                <title level="a">Christiane von Hofmannsthal an Arthur Schnitzler, 5. 8. 1929</title>
@@ -19719,10 +19681,10 @@
                <measure unit="zeichenanzahl" quantity="495"/>
             </item>
             <item corresp="L02519">
-               <title level="a">Christiane von Hofmannsthal an Arthur Schnitzler, 13. 8. 1929</title>
+               <title level="a">Christiane Hofmannsthal an Arthur Schnitzler, 13. 8. 1929</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb3220">Hofmannsthal, Christiane von</persName>
+                     <persName ref="#pmb3220">Hofmannsthal, Christiane</persName>
                      <date when="1929-08-13" n="01">13. 8. 1929</date>
                      <placeName ref="#pmb415">Bad Aussee</placeName>
                   </correspAction>
@@ -19750,10 +19712,10 @@
                <measure unit="zeichenanzahl" quantity="925"/>
             </item>
             <item corresp="L02522">
-               <title level="a">Christiane von Hofmannsthal an Arthur Schnitzler, 3. 9. 1929</title>
+               <title level="a">Christiane Hofmannsthal an Arthur Schnitzler, 3. 9. 1929</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb3220">Hofmannsthal, Christiane von</persName>
+                     <persName ref="#pmb3220">Hofmannsthal, Christiane</persName>
                      <date when="1929-09-03" n="01">3. 9. 1929</date>
                      <placeName ref="#pmb415">Bad Aussee</placeName>
                   </correspAction>
@@ -19781,10 +19743,10 @@
                <measure unit="zeichenanzahl" quantity="1769"/>
             </item>
             <item corresp="L02525">
-               <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, 23. 11. 1929</title>
+               <title level="a">Gerty Hofmannsthal an Arthur Schnitzler, 23. 11. 1929</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date when="1929-11-23" n="01">23. 11. 1929</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
@@ -19811,10 +19773,10 @@
                <measure unit="zeichenanzahl" quantity="1477"/>
             </item>
             <item corresp="L02529">
-               <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, 2. 1. 1930</title>
+               <title level="a">Gerty Hofmannsthal an Arthur Schnitzler, 2. 1. 1930</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date when="1930-01-02" n="01">2. 1. 1930</date>
                      <placeName ref="#pmb882">Heidelberg</placeName>
                   </correspAction>
@@ -19846,10 +19808,10 @@
                <measure unit="zeichenanzahl" quantity="280"/>
             </item>
             <item corresp="L02535">
-               <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, 9. 4. 1930</title>
+               <title level="a">Gerty Hofmannsthal an Arthur Schnitzler, 9. 4. 1930</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date when="1930-04-09" n="01">9. 4. 1930</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
@@ -19877,10 +19839,10 @@
                <measure unit="zeichenanzahl" quantity="1760"/>
             </item>
             <item corresp="L02542">
-               <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, 16. 2. 1931</title>
+               <title level="a">Gerty Hofmannsthal an Arthur Schnitzler, 16. 2. 1931</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date when="1931-02-16" n="01">16. 2. 1931</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
@@ -19908,7 +19870,7 @@
                <measure unit="zeichenanzahl" quantity="1154"/>
             </item>
             <item corresp="L02543">
-               <title level="a">Arthur Schnitzler an Gerty von Hofmannsthal, 17. 2. 1931</title>
+               <title level="a">Arthur Schnitzler an Gerty Hofmannsthal, 17. 2. 1931</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -19916,7 +19878,7 @@
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date evidence="conjecture" notBefore="1931-02-17" notAfter="1931-02-19">[17. 2. 1931
                   – 21. 2. 1931?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
@@ -19924,7 +19886,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02542">Hofmannsthal an Schnitzler, 16. 2. 1931</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02544">Hofmannsthal an Schnitzler, [5. 3. 1931]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03677">Zweig, Zweig an Schnitzler, [18. 2. 1931?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -19939,10 +19901,10 @@
                <measure unit="zeichenanzahl" quantity="291"/>
             </item>
             <item corresp="L02544">
-               <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, [5. 3. 1931]</title>
+               <title level="a">Gerty Hofmannsthal an Arthur Schnitzler, [5. 3. 1931]</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date when="1931-03-05" n="01">[5. 3. 1931]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
@@ -19954,7 +19916,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02543">Schnitzler an Hofmannsthal, 17. 2. 1931</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03677">Zweig, Zweig an Schnitzler, [18. 2. 1931?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02589">Herzfeld an Schnitzler, 5. 3. 1931</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -19970,10 +19932,10 @@
                <measure unit="zeichenanzahl" quantity="1299"/>
             </item>
             <item corresp="L02545">
-               <title level="a">Gerty von Hofmannsthal an Arthur Schnitzler, 12. 8. 1931</title>
+               <title level="a">Gerty Hofmannsthal an Arthur Schnitzler, 12. 8. 1931</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty</persName>
                      <date when="1931-08-12" n="01">12. 8. 1931</date>
                   </correspAction>
                   <correspAction type="received">
