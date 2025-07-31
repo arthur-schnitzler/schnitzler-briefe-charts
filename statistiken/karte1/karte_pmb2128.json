@@ -1,0 +1,67 @@
+{
+"title": {
+"text": "Gesamte Korrespondenz"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.208333,
+"lon": 16.373056
+},
+{
+"id": "Meran",
+"lat": 46.66817,
+"lon": 11.15953
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
+"id": "London",
+"lat": 51.50853,
+"lon": -0.12574
+},
+{
+"id": "München",
+"lat": 48.13743,
+"lon": 11.57549
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 26},
+{
+"from": "Wien",
+"to": "Paris",
+"weight": 2},
+{
+"from": "Wien",
+"to": "London",
+"weight": 1}
+,
+{
+"from": "Meran",
+"to": "Wien",
+"weight": 8}
+,
+{
+"from": "München",
+"to": "Wien",
+"weight": 3}
+
+]}
+]}

@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und
+                                    Autoren</title>
+            <title level="a">Statistik Arthur Schnitzler – Else Plessner</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+               <name>Gerd-Hermann Susen</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2025-07-31Z</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2128.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Inhaltsverzeichnis einzelner Korrespondenzen von
+                                    schnitzler-briefe</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item corresp="L03698">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 14. 3. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-03-14" n="03">14. 3. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-03-14" notAfter="1896-03-17">[14. 3. 1896 – 17. 3. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00540">Bahr an Schnitzler, 14. 3. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03699">Plessner an Schnitzler, 18. 3. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03699">Plessner an Schnitzler, 18. 3. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="675"/>
+            </item>
+            <item corresp="L03699">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 18. 3. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-03-18" n="01">18. 3. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-03-18" notAfter="1896-03-21">[18. 3. 1896
+                  – 21. 3. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03698">Plessner an Schnitzler, 14. 3. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02768">Goldmann an Schnitzler, 22. 3. [1896]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03698">Plessner an Schnitzler, 14. 3. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03700">Plessner an Schnitzler, 14. 4. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1113"/>
+            </item>
+            <item corresp="L03700">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 14. 4. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-04-14" n="01">14. 4. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-04-14" notAfter="1896-04-17">[14. 4. 1896
+                  – 17. 4. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02771">Goldmann an Schnitzler, 9. [4.] 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00541">Brandes an Schnitzler, 22. 4. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03699">Plessner an Schnitzler, 18. 3. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03701">Plessner an Schnitzler, 15. 9. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2061"/>
+            </item>
+            <item corresp="L03701">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 15. 9. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-09-15" n="02">15. 9. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-09-16" notAfter="1896-09-20">[16. 9. 1896
+                  – 20. 9. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00591">Beer-Hofmann an Schnitzler, 15. 9. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03702">Plessner an Schnitzler, 15. 9. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03700">Plessner an Schnitzler, 14. 4. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03702">Plessner an Schnitzler, 15. 9. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="770"/>
+            </item>
+            <item corresp="L03702">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 15. 9. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-09-15" n="03">15. 9. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-09-15" notAfter="1896-09-18">[15. 9. 1896
+                  – 18. 9. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03701">Plessner an Schnitzler, 15. 9. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00592">Schnitzler an Beer-Hofmann, 16. 9. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03701">Plessner an Schnitzler, 15. 9. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03703">Plessner an Schnitzler, 21. 9. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1639"/>
+            </item>
+            <item corresp="L03703">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 21. 9. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-09-21" n="03">21. 9. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-09-21" notAfter="1896-09-24">[21. 9. 1896
+                  – 24. 9. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00597">Beer-Hofmann an Schnitzler, 21. 9. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02785">Goldmann an Schnitzler, 22. 9. [1896]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03702">Plessner an Schnitzler, 15. 9. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03704">Plessner an Schnitzler, 28. 9. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2784"/>
+            </item>
+            <item corresp="L03704">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 28. 9. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-09-28" n="01">28. 9. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-09-29" notAfter="1896-10-03">[29. 9. 1896
+                  – 3. 10. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02786">Goldmann an Schnitzler, 26. 9. [1896]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00599">Schnitzler an Beer-Hofmann, 29. 9. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03703">Plessner an Schnitzler, 21. 9. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03705">Plessner an Schnitzler, 17. 10. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="422"/>
+            </item>
+            <item corresp="L03705">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 17. 10. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-10-17" n="03">17. 10. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-10-18" notAfter="1896-10-22">[18. 10. 1896 – 22. 10. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02787">Goldmann an Schnitzler, 17. 10. [1896]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00607">Schnitzler an Beer-Hofmann, 19. 10. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03704">Plessner an Schnitzler, 28. 9. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03707">Plessner an Schnitzler, 17. 11. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1246"/>
+            </item>
+            <item corresp="L03707">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 17. 11. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-11-17" n="01">17. 11. 1896</date>
+                     <placeName ref="#pmb43520">Meran</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-11-18" notAfter="1896-11-22">[18. 11. 1896 –
+            22. 11. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00622">Blumenthal an Schnitzler, 14. 11. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00623">Blumenthal an Schnitzler, 19. 11. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03705">Plessner an Schnitzler, 17. 10. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03706">Plessner an Schnitzler, 20. 11. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="kartenbrief"/>
+               <measure unit="zeichenanzahl" quantity="177"/>
+            </item>
+            <item corresp="L03706">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 20. 11. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-11-20" n="01">20. 11. 1896</date>
+                     <placeName ref="#pmb43520">Meran</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-11-21" notAfter="1896-11-25">[21. 11. 1896 – 25. 11. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00623">Blumenthal an Schnitzler, 19. 11. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02684">Schnitzler an Goldmann, 21. 11. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03707">Plessner an Schnitzler, 17. 11. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03708">Plessner an Schnitzler, 1. 12. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="297"/>
+            </item>
+            <item corresp="L03708">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 1. 12. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-12-01" n="01">1. 12. 1896</date>
+                     <placeName ref="#pmb43520">Meran</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-12-02" notAfter="1896-12-06">[2. 12. 1896
+                  – 6. 12. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00625">Schnitzler an Bahr, 28. 11. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02794">Goldmann an Schnitzler, 2. 12. [1896]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03706">Plessner an Schnitzler, 20. 11. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03709">Plessner an Schnitzler, 23. 12. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2234"/>
+            </item>
+            <item corresp="L03709">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 23. 12. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-12-23" n="02">23. 12. 1896</date>
+                     <placeName ref="#pmb43520">Meran</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-12-24" notAfter="1896-12-28">[24. 12. 1896 – 28. 12. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00633">Bahr an Schnitzler, 23. 12. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03710">Plessner an Schnitzler, 29. 12. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03708">Plessner an Schnitzler, 1. 12. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03710">Plessner an Schnitzler, 29. 12. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2171"/>
+            </item>
+            <item corresp="L03710">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 29. 12. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1896-12-29" n="01">29. 12. 1896</date>
+                     <placeName ref="#pmb43520">Meran</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-12-30" notAfter="1897-01-03">[30. 12. 1896 – 3. 1. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03709">Plessner an Schnitzler, 23. 12. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00634">Schnitzler an Beer-Hofmann, [1897?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03709">Plessner an Schnitzler, 23. 12. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03711">Plessner an Schnitzler, 9. 1. 1897</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2201"/>
+            </item>
+            <item corresp="L03711">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 9. 1. 1897</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-01-09" n="01">9. 1. 1897</date>
+                     <placeName ref="#pmb43520">Meran</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-01-10" notAfter="1897-01-14">[10. 1. 1897
+                  – 14. 1. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02800">Goldmann an Schnitzler, 8. 1. [1897]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03262">Salten an Schnitzler, [10. 1. 1897]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03710">Plessner an Schnitzler, 29. 12. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03712">Plessner an Schnitzler, 13. 1. 1897</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1472"/>
+            </item>
+            <item corresp="L03712">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 13. 1. 1897</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-01-13" n="01">13. 1. 1897</date>
+                     <placeName ref="#pmb43520">Meran</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-01-14" notAfter="1897-01-18">[14. 1. 1897
+                  – 18. 1. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00636">Schnitzler an Brandes, 11. 1. 1897</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00637">Beer-Hofmann an Schnitzler, 14. 1. 1897</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03711">Plessner an Schnitzler, 9. 1. 1897</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03732">Plessner an Schnitzler, 18. 3. 1897</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3612"/>
+            </item>
+            <item corresp="L03732">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 18. 3. 1897</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-03-18" n="02">18. 3. 1897</date>
+                     <placeName ref="#pmb43520">Meran</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-03-19" notAfter="1897-03-23">[19. 3. 1897
+                  – 23. 3. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00654">Schnitzler an Beer-Hofmann, 18. 3. 1897</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00655">Bahr an Schnitzler, [nach dem
+                  20. 3. 1897]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03712">Plessner an Schnitzler, 13. 1. 1897</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03713">Plessner an Schnitzler, 23. 3. 1897</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1183"/>
+            </item>
+            <item corresp="L03713">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 23. 3. 1897</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-03-23" n="04">23. 3. 1897</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-03-29" notAfter="1897-04-01">[29. 3. 1897
+                  – 1. 4. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00660">Beer-Hofmann an Schnitzler, 23. 3. 1897</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00661">Altenberg an Schnitzler, [24. 3. 1897]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03732">Plessner an Schnitzler, 18. 3. 1897</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03694">Plessner an Schnitzler, [Mitte April 1897]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3217"/>
+            </item>
+            <item corresp="L03694">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, [Mitte April 1897]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date notBefore="1897-04-10" notAfter="1897-04-21" n="02">[Mitte April 1897]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1897-04-22">22. 4. 1897</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00665">Schnitzler an Beer-Hofmann, 10. 4. 1897</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02808">Goldmann an Schnitzler, 17. 4. [1897]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03713">Plessner an Schnitzler, 23. 3. 1897</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03695">Plessner an Schnitzler, 15. 5. 1897</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="771"/>
+            </item>
+            <item corresp="L03695">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 15. 5. 1897</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-05-15" n="01">15. 5. 1897</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-05-16" notAfter="1897-05-20">[16. 5. 1897
+                  – 20. 5. 1897?]</date>
+                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00676">Blumenthal an Schnitzler, 12. 5. 1897</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03265">Salten an Schnitzler, 16. 5. 1897</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03694">Plessner an Schnitzler, [Mitte April 1897]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03696">Plessner an Schnitzler, 30. 5. [1897]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1941"/>
+            </item>
+            <item corresp="L03696">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 30. 5. [1897]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-05-30" n="01">30. 5. [1897]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-05-31" notAfter="1897-06-04">[31. 5. 1897 – 4. 6. 1897?]</date>
+                     <placeName ref="#pmb224" evidence="internal">London</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02964">Schnitzler an Salten, 29. 5. 1897</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03267">Salten an Schnitzler, 1. [6.] 1897</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03695">Plessner an Schnitzler, 15. 5. 1897</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03697">Plessner an Schnitzler, 7. 8. [1897]</ref>
+                  </correspContext>
+               </correspDesc>
+               <measure unit="zeichenanzahl" quantity="1190"/>
+            </item>
+            <item corresp="L03697">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 7. 8. [1897]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-08-07" n="02">7. 8. [1897]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-08-07" notAfter="1897-08-12">[7. 8. 1897
+                  – 12. 8. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00714">Beer-Hofmann an Schnitzler, 7. 8. 1897</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03714">Plessner an Schnitzler, 7. 8. 1897</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03696">Plessner an Schnitzler, 30. 5. [1897]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03714">Plessner an Schnitzler, 7. 8. 1897</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3496"/>
+            </item>
+            <item corresp="L03714">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 7. 8. 1897</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-08-07" n="03">7. 8. 1897</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-08-07" notAfter="1897-08-10">[7. 8. 1897
+                  – 10. 8. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03697">Plessner an Schnitzler, 7. 8. [1897]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00715">Hofmannsthal an Schnitzler, [9. 8. 1897]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03697">Plessner an Schnitzler, 7. 8. [1897]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03715">Plessner an Schnitzler, 9. 8. 1897</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="482"/>
+            </item>
+            <item corresp="L03715">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 9. 8. 1897</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-08-09" n="02">9. 8. 1897</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-08-09" notAfter="1897-08-12">[9. 8. 1897 – 12. 8. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00715">Hofmannsthal an Schnitzler, [9. 8. 1897]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02821">Goldmann an Schnitzler, 11. 8. 1897</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03714">Plessner an Schnitzler, 7. 8. 1897</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03716">Plessner an Schnitzler, 23. 10. 1897</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1898"/>
+            </item>
+            <item corresp="L03716">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 23. 10. 1897</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1897-10-23" n="01">23. 10. 1897</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1897-10-24" notAfter="1897-10-28">[24. 10. 1897 – 28. 10. 1897?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00733">Schnitzler an Beer-Hofmann, 21. 10. 1897</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00734">Beer-Hofmann an Schnitzler, 27. 10. 1897</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03715">Plessner an Schnitzler, 9. 8. 1897</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03717">Plessner an Schnitzler, 22. 10 1898</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1078"/>
+            </item>
+            <item corresp="L03717">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 22. 10. 1898</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1898-10-22" n="01">22. 10 1898</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1898-10-23" notAfter="1898-10-27">[23. 10. 1898 – 27. 10. 1898?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02863">Goldmann an Schnitzler, 21. 10. 1898</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02864">Goldmann an Schnitzler, 3. 11. [1898]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03716">Plessner an Schnitzler, 23. 10. 1897</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03718">Plessner an Schnitzler, 2. 1. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="kartenbrief"/>
+               <measure unit="zeichenanzahl" quantity="419"/>
+            </item>
+            <item corresp="L03718">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 2. 1. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1899-01-02" n="01">2. 1. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-01-02" notAfter="1899-01-05">[2. 1. 1899
+                  – 5. 1. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00873">Hofmannsthal an Schnitzler, [1. 1. 1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00874">Schnitzler an Brandes, 4. 1. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03717">Plessner an Schnitzler, 22. 10 1898</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03719">Plessner an Schnitzler, 4. 1. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1269"/>
+            </item>
+            <item corresp="L03719">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 4. 1. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1899-01-04" n="02">4. 1. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-01-04" notAfter="1899-01-07">[4. 1. 1899 – 7. 1. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00874">Schnitzler an Brandes, 4. 1. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00875">Schnitzler an Beer-Hofmann, 5. 1. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03718">Plessner an Schnitzler, 2. 1. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03720">Plessner an Schnitzler, 19. 1. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="744"/>
+            </item>
+            <item corresp="L03720">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 19. 1. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1899-01-19" n="01">19. 1. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-01-19" notAfter="1899-01-22">[19. 1. 1899 – 22. 1. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00881">Hofmannsthal an Schnitzler, [16. 1. 1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03721">Plessner an Schnitzler, 21. 1. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03719">Plessner an Schnitzler, 4. 1. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03721">Plessner an Schnitzler, 21. 1. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2056"/>
+            </item>
+            <item corresp="L03721">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 21. 1. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1899-01-21" n="01">21. 1. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-01-22" notAfter="1899-01-26">[22. 1. 1899 – 26. 1. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03720">Plessner an Schnitzler, 19. 1. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00882">Brandes an Schnitzler, 22. 1. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03720">Plessner an Schnitzler, 19. 1. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03722">Plessner an Schnitzler, 26. 1. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="341"/>
+            </item>
+            <item corresp="L03722">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 26. 1. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1899-01-26" n="01">26. 1. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-01-26" notAfter="1899-01-29">[26. 1. 1899
+                  – 29. 1. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00882">Brandes an Schnitzler, 22. 1. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03286">Salten an Schnitzler, [28. 1. 1899]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03721">Plessner an Schnitzler, 21. 1. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03723">Plessner an Schnitzler, 9. 1. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1900"/>
+            </item>
+            <item corresp="L03723">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 9. 1. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1900-01-09" n="01">9. 1. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-01-09" notAfter="1900-01-12">[9. 1. 1900
+                  – 12. 1. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03304">Salten an Schnitzler, [3.? 1. 1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03724">Plessner an Schnitzler, 10. 1. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03722">Plessner an Schnitzler, 26. 1. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03724">Plessner an Schnitzler, 10. 1. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1640"/>
+            </item>
+            <item corresp="L03724">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 10. 1. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1900-01-10" n="01">10. 1. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-01-10" notAfter="1900-01-13">[10. 1. 1900 – 13. 1. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03723">Plessner an Schnitzler, 9. 1. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02902">Goldmann, Glümer, Chlum, Coschell an Schnitzler, 11. 1. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03723">Plessner an Schnitzler, 9. 1. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03725">Plessner an Schnitzler, 26. 2. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2015"/>
+            </item>
+            <item corresp="L03725">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 26. 2. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1900-02-26" n="01">26. 2. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-02-26" notAfter="1900-03-01">[26. 2. 1900 – 1. 3. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01016">Beer-Hofmann an Schnitzler, 22. 2. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01017">Schnitzler an Beer-Hofmann, 2. 3. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03724">Plessner an Schnitzler, 10. 1. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03726">Plessner an Schnitzler, 24. 6. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2131"/>
+            </item>
+            <item corresp="L03726">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 24. 6. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1900-06-24" n="01">24. 6. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-06-24" notAfter="1900-06-27">[24. 6. 1900 – 27. 6. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01049">Rodenberg an Schnitzler, 23. 6. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01050">Schnitzler an Beer-Hofmann, 26. 6. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03725">Plessner an Schnitzler, 26. 2. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03727">Plessner an Schnitzler, 8. 10. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+            </item>
+            <item corresp="L03727">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 8. 10. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1900-10-08" n="01">8. 10. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-10-08" notAfter="1900-10-11">[8. 10. 1900
+                  – 11. 10. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02935">Goldmann an Schnitzler, 5. 10. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01076">Schnitzler an Bahr, 11. 10. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03726">Plessner an Schnitzler, 24. 6. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03728">Plessner an Schnitzler, 12. 10. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2330"/>
+            </item>
+            <item corresp="L03728">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 12. 10. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1900-10-12" n="02">12. 10. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-10-12" notAfter="1900-10-15">[12. 10. 1900 – 15. 10. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01077">Bahr an Schnitzler, 12. 10. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02936">Goldmann an Schnitzler, 14. 10. [1900]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03727">Plessner an Schnitzler, 8. 10. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03733">Plessner an Schnitzler, 6. 12. 1912</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="5247"/>
+            </item>
+            <item corresp="L03733">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 6. 12. 1912</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1912-12-06" n="01">6. 12. 1912</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1912-12-06" notAfter="1912-12-10">[6. 12. 1912
+                  – 10. 12. 1912?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02106">Altenberg an Schnitzler, 1. 12. 191[2]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02107">Bahr an Schnitzler, 7. 12. 1912</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03728">Plessner an Schnitzler, 12. 10. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03729">Plessner an Schnitzler, 15. 11. 1915</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="kartenbrief"/>
+               <measure unit="zeichenanzahl" quantity="752"/>
+            </item>
+            <item corresp="L03729">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 15. 11. 1915</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1915-11-15" n="01">15. 11. 1915</date>
+                     <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1915-11-16" notAfter="1915-11-20">[16. 11. 1915 – 20. 11. 1915?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02220">Adam an Schnitzler, 21. 10. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03652">Zweig an Schnitzler, 25. 11. 1915</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03733">Plessner an Schnitzler, 6. 12. 1912</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03730">Plessner an Schnitzler, 9. 1. 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2717"/>
+            </item>
+            <item corresp="L03730">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 9. 1. 1916</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1916-01-09" n="01">9. 1. 1916</date>
+                     <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1916-01-10" notAfter="1916-01-14">[10. 1. 1916 – 14. 1. 1916?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02224">Schnitzler an Brandes, 22. 12. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03731">Plessner an Schnitzler, 13. 1. 1916</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03729">Plessner an Schnitzler, 15. 11. 1915</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03731">Plessner an Schnitzler, 13. 1. 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="4390"/>
+            </item>
+            <item corresp="L03731">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 13. 1. 1916</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1916-01-13" n="01">13. 1. 1916</date>
+                     <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1916-01-14" notAfter="1916-01-18">[14. 1. 1916 – 18. 1. 1916?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03730">Plessner an Schnitzler, 9. 1. 1916</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03657">Zweig an Schnitzler, 18. 1. 1916</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03730">Plessner an Schnitzler, 9. 1. 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1169"/>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

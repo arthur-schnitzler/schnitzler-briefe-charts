@@ -9,11 +9,39 @@
 "type": "map",
 "name": "Flow",
 "data": [
-         
+         {
+"id": "Wien",
+"lat": 48.208333,
+"lon": 16.373056
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+},
+{
+"id": "Antibes",
+"lat": 43.58579,
+"lon": 7.10831
+}
+
       ]
 },
 {
 "type": "mapline",
 "name": "Flow Lines",
-"data": []}
+"data": [{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 16},
+{
+"from": "Wien",
+"to": "Wien",
+"weight": 2},
+{
+"from": "Wien",
+"to": "Antibes",
+"weight": 1}
+
+]}
 ]}
