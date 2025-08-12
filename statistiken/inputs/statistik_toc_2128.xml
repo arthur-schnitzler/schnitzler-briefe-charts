@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-07-31Z</date>
+            <date>2025-08-12Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2128.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -718,7 +718,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1897-08-09" notAfter="1897-08-12">[9. 8. 1897 – 12. 8. 1897?]</date>
+                     <date evidence="conjecture" notBefore="1897-08-09" notAfter="1897-08-12">[9. 8. 1897 –
+            12. 8. 1897?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1177,7 +1178,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Else</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02220">Adam an Schnitzler, 21. 10. 1915</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03791">Schnitzler an Zweig, 12. 11. 1915</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03652">Zweig an Schnitzler, 25. 11. 1915</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -1220,7 +1221,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4390"/>
+               <measure unit="zeichenanzahl" quantity="4389"/>
             </item>
             <item corresp="L03731">
                <title level="a">Elsa Plessner an Arthur Schnitzler, 13. 1. 1916</title>

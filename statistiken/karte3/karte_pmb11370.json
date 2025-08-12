@@ -1,0 +1,29 @@
+{
+"title": {
+"text": "Korrespondenzstücke von Schnitzler"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.208333,
+"lon": 16.373056
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 5}
+
+]}
+]}

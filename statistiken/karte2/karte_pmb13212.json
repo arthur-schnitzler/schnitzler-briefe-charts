@@ -15,6 +15,21 @@
 "lon": 16.373056
 },
 {
+"id": "Seis am Schlern",
+"lat": 46.54133,
+"lon": 11.55868
+},
+{
+"id": "Hamburg",
+"lat": 53.55055,
+"lon": 9.993333
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+},
+{
 "id": "Salzburg",
 "lat": 47.80067,
 "lon": 13.04532
@@ -32,15 +47,33 @@
 "name": "Flow Lines",
 "data": [{
 "from": "Wien",
-"to": "Salzburg",
-"weight": 16},
+"to": "Wien",
+"weight": 45},
 {
 "from": "Wien",
-"to": "Wien",
-"weight": 2},
+"to": "Hinterbrühl",
+"weight": 0},
+{
+"from": "Wien",
+"to": "Paris",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Salzburg",
+"weight": 26},
 {
 "from": "Wien",
 "to": "Antibes",
+"weight": 1}
+,
+{
+"from": "Seis am Schlern",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Hamburg",
+"to": "Wien",
 "weight": 1}
 
 ]}
