@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-08-12Z</date>
+            <date>2025-09-02Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11370.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -178,18 +178,18 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03820">Freud an Schnitzler, nach dem 6. 5. 1931</ref>
+                          target="L03814">Freud an Schnitzler, [nach dem 6. 5. 1931]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="kartenbrief"/>
                <measure unit="zeichenanzahl" quantity="209"/>
             </item>
-            <item corresp="L03820">
-               <title level="a">Sigmund Freud an Arthur Schnitzler, nach dem 6. 5. 1931</title>
+            <item corresp="L03814">
+               <title level="a">Sigmund Freud an Arthur Schnitzler, [nach dem 6. 5. 1931]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
-                     <date notBefore="1931-05-07" notAfter="1931-05-31" n="01">nach dem 6. 5. 1931</date>
+                     <date notBefore="1931-05-07" notAfter="1931-05-31" n="01">[nach dem 6. 5. 1931]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">

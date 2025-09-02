@@ -1,0 +1,49 @@
+{
+"title": {
+"text": "Gesamte Korrespondenz"
+},
+"subtitle": {
+ "text": ""
+},
+"series": [{
+"type": "map",
+"name": "Flow",
+"data": [
+         {
+"id": "Wien",
+"lat": 48.208333,
+"lon": 16.373056
+},
+{
+"id": "Schörfling",
+"lat": 47.933329,
+"lon": 13.599999
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+}
+
+      ]
+},
+{
+"type": "mapline",
+"name": "Flow Lines",
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 3}
+,
+{
+"from": "Schörfling",
+"to": "Wien",
+"weight": 1}
+,
+{
+"from": "Paris",
+"to": "Wien",
+"weight": 1}
+
+]}
+]}
