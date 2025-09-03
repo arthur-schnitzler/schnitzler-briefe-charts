@@ -40,6 +40,11 @@
 "lon": 11.33806
 },
 {
+"id": "Hamburg",
+"lat": 53.55055,
+"lon": 9.993333
+},
+{
 "id": "Mals",
 "lat": ,
 "lon": 
@@ -78,10 +83,14 @@
 "data": [{
 "from": "Wien",
 "to": "Wien",
-"weight": 30},
+"weight": 29},
 {
 "from": "Wien",
 "to": "Hinterbrühl",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Hamburg",
 "weight": 1},
 {
 "from": "Wien",
@@ -102,7 +111,7 @@
 "weight": 3}
 ,
 {
-"from": "Havana",
+"from": "Havanna",
 "to": "Wien",
 "weight": 1}
 ,

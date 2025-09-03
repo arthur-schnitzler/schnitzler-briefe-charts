@@ -88,10 +88,14 @@
 "data": [{
 "from": "Wien",
 "to": "Wien",
-"weight": 77},
+"weight": 76},
 {
 "from": "Wien",
 "to": "Hinterbrühl",
+"weight": 1},
+{
+"from": "Wien",
+"to": "Hamburg",
 "weight": 1},
 {
 "from": "Wien",
@@ -122,7 +126,7 @@
 "weight": 3}
 ,
 {
-"from": "Havana",
+"from": "Havanna",
 "to": "Wien",
 "weight": 1}
 ,
