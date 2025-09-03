@@ -24,7 +24,7 @@
     <xsl:template match="tei:list">
         <xsl:variable name="korrespondenz-nummer"
             select="replace(tei:item[not(descendant::tei:ref[@type = 'belongsToCorrespondence'][2])][1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref[@type = 'belongsToCorrespondence'][1]/@target, 'correspondence_', 'pmb')" as="xs:string"/>
-        <xsl:variable name="startYear" select="1888"/>
+        <xsl:variable name="startYear" select="1885"/>
         <xsl:variable name="endYear" select="1931"/>
         <xsl:variable name="correspAction-gesamt" as="node()" select="."/>
         <xsl:text>year,"erhaltene Korrespondenzstücke","Erwähnungen im Tagebuch"&#10;</xsl:text>

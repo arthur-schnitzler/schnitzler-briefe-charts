@@ -25,7 +25,7 @@
     </xsl:template>
     
     <xsl:template match="tei:list">
-        <xsl:variable name="startYear" select="1888"/>
+        <xsl:variable name="startYear" select="1885"/>
         <xsl:variable name="endYear" select="1931"/>
         <xsl:variable name="correspAction-gesamt" as="node()" select="."/>
         <xsl:variable name="correspAction-schnitzler" as="node()">
