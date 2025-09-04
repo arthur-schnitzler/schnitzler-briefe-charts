@@ -1,7 +1,9 @@
 name: Update all csv-files from schnitzler-briefe-data
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+  repository_dispatch:
+    types: [data-updated]
 
 jobs:
   build_pages:
