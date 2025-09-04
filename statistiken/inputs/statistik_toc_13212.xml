@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-09-02Z</date>
+            <date>2025-09-03Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -667,15 +667,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01966">Schnitzler,
-                  Schnitzler an Beer-Hofmann, 18. 10. 1910</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01967">Schnitzler an
-                  Bahr, 20. 10. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01966">Schnitzler, Schnitzler an Beer-Hofmann, 18. 10. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01967">Schnitzler an Bahr, 20. 10. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03795">Schnitzler an Zweig,
-                  7. 10. 1910</ref>
+                          target="L03795">Schnitzler an Zweig, 7. 10. 1910</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -700,15 +697,13 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01987">Burckhard an
-                  Schnitzler, 25. 11. 1910</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03797">Schnitzler an
-                  Zweig, 29. 11. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01987">Burckhard an Schnitzler, 25. 11. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03797">Schnitzler an Zweig, 29. 11. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03625">Zweig an Schnitzler, [zwischen 18.
-                  und 24. 10.? 1910]</ref>
+                          target="L03625">Zweig an Schnitzler, [zwischen 18. und
+                  24. 10.? 1910]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -870,18 +865,18 @@
                <measure unit="zeichenanzahl" quantity="635"/>
             </item>
             <item corresp="L03631">
-               <title level="a">Stefan Zweig an Arthur Schnitzler, 4. 4. 1911</title>
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [4.] 4. 1911</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date when="1911-04-04" n="01">4. 4. 1911</date>
-                     <placeName ref="#pmb39944">Havana</placeName>
+                     <date when="1911-04-04" n="01">[4.] 4. 1911</date>
+                     <placeName ref="#pmb39944">Havanna</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1911-04-05" notAfter="1911-04-09">[5. 4. 1911
-                  – 9. 4. 1911?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="conjecture" notBefore="1911-04-10" notAfter="1911-05-31">[10. 4. 1911
+                  – 31. 5. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
@@ -898,23 +893,26 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="246"/>
+               <measure unit="zeichenanzahl" quantity="244"/>
             </item>
             <item corresp="L03634">
-               <title level="a">Stefan Zweig an Arthur Schnitzler, [zwischen 9. und
-                    12. 6. 1911?]</title>
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [zwischen 5. und
+               12. 6. 1911?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
                      <date evidence="conjecture"
-                           notBefore="1911-06-09"
+                           notBefore="1911-06-05"
                            notAfter="1911-06-12"
-                           n="01">[zwischen 9. und 12. 6. 1911?]</date>
+                           n="01">[zwischen 5. und
+                  12. 6. 1911?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date notBefore="1911-06-05" notAfter="1911-06-12" evidence="conjecture">[zwischen 5. und
+                     12. 6. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
@@ -966,18 +964,17 @@
                <measure unit="zeichenanzahl" quantity="245"/>
             </item>
             <item corresp="L03635">
-               <title level="a">Stefan Zweig an Arthur Schnitzler, [zwischen dem 13.  und
-               25. 6. 1911?]</title>
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [24. 6. 1911?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date notBefore="1911-06-13" notAfter="1911-06-25" n="01">[zwischen 13. und
-                  25. 6. 1911?]</date>
+                     <date when="1911-06-24" n="01">[24. 6. 1911?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date notBefore="1911-06-24" notAfter="1911-06-25" evidence="conjecture">[24. 6. 1911 – 25. 6. 1911?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
@@ -1067,8 +1064,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1911-08-30" notAfter="1911-09-03">[30. 8. 1911 – 3. 9. 1911?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="conjecture" notBefore="1911-08-30" notAfter="1911-09-03">[30. 8. 1911
+                  – 3. 9. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
@@ -1085,7 +1083,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="458"/>
+               <measure unit="zeichenanzahl" quantity="457"/>
             </item>
             <item corresp="L03788">
                <title level="a">Arthur Schnitzler an Stefan Zweig, 16. 10. 1911</title>
@@ -1176,7 +1174,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="994"/>
+               <measure unit="zeichenanzahl" quantity="995"/>
             </item>
             <item corresp="L03630">
                <title level="a">Stefan Zweig an Arthur Schnitzler, 6. [11.?] 1911</title>
@@ -1186,11 +1184,16 @@
                      <date when="1911-11-06" n="01">6. [11.?] 1911</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="forwarded">
+                     <date evidence="conjecture" notBefore="1911-11-06" notAfter="1911-11-07">[6. 11. 1911
+                  – 7. 11. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1911-11-06" notAfter="1911-11-09">[6. 11. 1911
+                     <date evidence="conjecture" notBefore="1911-11-08" notAfter="1911-11-09">[8. 11. 1911
                   – 9. 11. 1911?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb506" evidence="external">Hamburg</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
@@ -1207,7 +1210,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="623"/>
+               <measure unit="zeichenanzahl" quantity="622"/>
             </item>
             <item corresp="L03789">
                <title level="a">Arthur Schnitzler an Stefan Zweig, 9. 11. 1911</title>
