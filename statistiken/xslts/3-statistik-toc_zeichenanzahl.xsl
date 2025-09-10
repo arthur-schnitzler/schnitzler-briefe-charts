@@ -29,85 +29,27 @@
         <xsl:param name="korrespondenz-nummer" as="xs:string"/>
         <xsl:variable name="startYear" select="1885"/>
         <xsl:variable name="endYear" select="1931"/>
-        <xsl:variable name="correspAction-gesamt" as="node()" select="."/>
-        <xsl:variable name="correspAction-schnitzler" as="node()">
-            <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:for-each
-                    select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and (tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]">
-                    <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:copy>
-                            <!-- Copy attributes of tei:item -->
-                            <xsl:copy-of select="@*"/>
-                            <!-- Copy only the descendants tei:date and tei:measure -->
-                            <xsl:copy-of
-                                select="descendant::tei:date[1] | descendant::tei:measure[1]"/>
-                        </xsl:copy>
-                    </xsl:element>
-                </xsl:for-each>
-            </xsl:element>
-        </xsl:variable>
-        <xsl:variable name="correspAction-schnitzler-umfeld" as="node()">
-            <!-- Umfeldbriefe von Schnitzler -->
-            <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:for-each
-                    select="descendant::tei:correspDesc[not(descendant::tei:persName/@ref = '#pmb2121') and (tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]">
-                    <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:copy>
-                            <!-- Copy attributes of tei:item -->
-                            <xsl:copy-of select="@*"/>
-                            <!-- Copy only the descendants tei:date and tei:measure -->
-                            <xsl:copy-of
-                                select="descendant::tei:date[1] | descendant::tei:measure[1]"/>
-                        </xsl:copy>
-                    </xsl:element>
-                </xsl:for-each>
-            </xsl:element>
-        </xsl:variable>
-        <xsl:variable name="correspAction-notschnitzler" as="node()">
-            <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:for-each
-                    select="descendant::tei:correspDesc[(tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121') and (tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]">
-                    <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:copy>
-                            <!-- Copy attributes of tei:item -->
-                            <xsl:copy-of select="@*"/>
-                            <!-- Copy only the descendants tei:date and tei:measure -->
-                            <xsl:copy-of
-                                select="descendant::tei:date[1] | descendant::tei:measure[1]"/>
-                        </xsl:copy>
-                    </xsl:element>
-                </xsl:for-each>
-            </xsl:element>
-        </xsl:variable>
-        <xsl:variable name="correspAction-notschnitzler-umfeld" as="node()">
-            <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:for-each
-                    select="descendant::tei:correspDesc[tei:correspAction[last()]/tei:persName/@ref = '#pmb2121' and not(tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]">
-                    <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">
-                        <xsl:copy>
-                            <!-- Copy attributes of tei:item -->
-                            <xsl:copy-of select="@*"/>
-                            <!-- Copy only the descendants tei:date and tei:measure -->
-                            <xsl:copy-of
-                                select="descendant::tei:date[1] | descendant::tei:measure[1]"/>
-                        </xsl:copy>
-                    </xsl:element>
-                </xsl:for-each>
-            </xsl:element>
-        </xsl:variable>
+        <xsl:variable name="listNode" select="."/>
         <xsl:text>year,"von Schnitzler","Umfeld von Schnitzler", "an Schnitzler", "Umfeld an Schnitzler"&#10;</xsl:text>
         <xsl:for-each select="($startYear to $endYear)">
             <xsl:variable name="currentYear" select="."/>
+            <!-- von Schnitzler: sent by pmb2121 to korrespondenz-nummer -->
             <xsl:variable name="summeSchnitzler"
-                select="sum($correspAction-schnitzler/descendant::tei:item[descendant::tei:date[1]/@*[starts-with(., '1')][1]/fn:year-from-date(.) = $currentYear]/tei:measure/@quantity)"/>
+                select="sum($listNode/tei:item[tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
+            
+            <!-- Umfeld von Schnitzler: sent not by pmb2121 to korrespondenz-nummer -->
             <xsl:variable name="summeSchnitzlerUmfeld"
-                select="sum($correspAction-schnitzler-umfeld/descendant::tei:item[descendant::tei:date[1]/@*[starts-with(., '1')][1]/fn:year-from-date(.) = $currentYear]/tei:measure/@quantity)"/>
+                select="sum($listNode/tei:item[not(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121') and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
+            
+            <!-- an Schnitzler: sent by korrespondenz-nummer to pmb2121 -->
             <xsl:variable name="nichtSummeSchnitzler"
-                select="sum($correspAction-notschnitzler/descendant::tei:item[descendant::tei:date[1]/@*[starts-with(., '1')][1]/fn:year-from-date(.) = $currentYear]/tei:measure/@quantity)"/>
+                select="sum($listNode/tei:item[tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121' and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
+            
+            <!-- Umfeld an Schnitzler: sent not by korrespondenz-nummer to pmb2121 -->
             <xsl:variable name="nichtSummeSchnitzlerUmfeld"
-                select="sum($correspAction-notschnitzler-umfeld/descendant::tei:item[descendant::tei:date[1]/@*[starts-with(., '1')][1]/fn:year-from-date(.) = $currentYear]/tei:measure/@quantity)"/>
+                select="sum($listNode/tei:item[not(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer)) and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121' and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
             <xsl:value-of
-                select="concat($currentYear, ',-', $summeSchnitzler, ',', $summeSchnitzlerUmfeld, $nichtSummeSchnitzler, ',', $summeSchnitzlerUmfeld)"/>
+                select="concat($currentYear, ',', $summeSchnitzler, ',', $summeSchnitzlerUmfeld,',', $nichtSummeSchnitzler, ',', $nichtSummeSchnitzlerUmfeld)"/>
             <xsl:text>&#10;</xsl:text>
         </xsl:for-each>
     </xsl:template>
