@@ -34,22 +34,22 @@
         <xsl:for-each select="($startYear to $endYear)">
             <xsl:variable name="currentYear" select="."/>
             <!-- von Schnitzler: sent by pmb2121 to korrespondenz-nummer -->
-            <xsl:variable name="summeSchnitzler"
+            <xsl:variable name="summeVonSchnitzler"
                 select="sum($listNode/tei:item[tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
             
             <!-- Umfeld von Schnitzler: sent not by pmb2121 to korrespondenz-nummer -->
-            <xsl:variable name="summeSchnitzlerUmfeld"
-                select="sum($listNode/tei:item[not(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121') and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
+            <xsl:variable name="summeVonSchnitzlerUmfeld"
+                select="sum($listNode/tei:item[(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121') and not(tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer)) and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
             
             <!-- an Schnitzler: sent by korrespondenz-nummer to pmb2121 -->
-            <xsl:variable name="nichtSummeSchnitzler"
+            <xsl:variable name="summeVonPartner"
                 select="sum($listNode/tei:item[tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121' and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
             
             <!-- Umfeld an Schnitzler: sent not by korrespondenz-nummer to pmb2121 -->
-            <xsl:variable name="nichtSummeSchnitzlerUmfeld"
+            <xsl:variable name="summeVonPartnerUmfeld"
                 select="sum($listNode/tei:item[not(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer)) and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121' and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
             <xsl:value-of
-                select="concat($currentYear, ',', $summeSchnitzler, ',', $summeSchnitzlerUmfeld,',', $nichtSummeSchnitzler, ',', $nichtSummeSchnitzlerUmfeld)"/>
+                select="concat($currentYear, ',', $summeVonSchnitzler, ',', $summeVonSchnitzlerUmfeld,',', $summeVonPartner, ',', $summeVonPartnerUmfeld)"/>
             <xsl:text>&#10;</xsl:text>
         </xsl:for-each>
     </xsl:template>
