@@ -1785,7 +1785,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date evidence="conjecture" notBefore="1914-11-10" notAfter="1914-11-14">[10. 11. 1914 – 14. 11. 1914?]</date>
+                     <date evidence="conjecture" notBefore="1914-11-09" notAfter="1914-11-14">[9. 11. 1914 – 14. 11. 1914?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1808,17 +1808,17 @@
                <measure unit="zeichenanzahl" quantity="791"/>
             </item>
             <item corresp="L03647">
-               <title level="a">Stefan Zweig an Arthur Schnitzler, [zwischen 14. und
-               27. 11. 1914?]</title>
+               <title level="a">Stefan Zweig an Arthur Schnitzler, [26. 11. 1914?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date notBefore="1914-11-14" notAfter="1914-11-27" n="01">[zwischen 14. und
-                  27. 11. 1914?]</date>
+                     <date when="1914-11-26" n="01">[26. 11. 1914?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1914-11-26" notAfter="1914-11-27">[26. oder
+                  27. 11. 1914?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1836,7 +1836,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="900"/>
+               <measure unit="zeichenanzahl" quantity="898"/>
             </item>
             <item corresp="L03774">
                <title level="a">Arthur Schnitzler an Stefan Zweig, 27. 11. 1914</title>
@@ -1868,7 +1868,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4598"/>
+               <measure unit="zeichenanzahl" quantity="4590"/>
             </item>
             <item corresp="L03649">
                <title level="a">Stefan Zweig an Arthur Schnitzler, [29. 11. 1914]</title>
@@ -1880,7 +1880,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1914-11-30" notAfter="1914-12-04">[30. 11. 1914 – 4. 12. 1914?]</date>
+                     <date evidence="conjecture" notBefore="1914-11-29" notAfter="1914-12-03">[29. 11. 1914 – 3. 12. 1914?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
@@ -1915,12 +1916,15 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03649">Zweig an Schnitzler, [29. 11. 1914]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03683">Zweig an Schnitzler, 3. 12. 1914</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03649">Zweig an
+                  Schnitzler, [29. 11. 1914]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03683">Zweig an
+                  Schnitzler, 3. 12. 1914</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03649">Zweig an Schnitzler, [29. 11. 1914]</ref>
+                          target="L03649">Zweig an Schnitzler,
+                  [29. 11. 1914]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
