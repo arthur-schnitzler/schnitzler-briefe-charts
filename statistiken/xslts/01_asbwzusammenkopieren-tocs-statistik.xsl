@@ -15,7 +15,7 @@
     <xsl:template match="/">
         <xsl:variable name="folderURI" select="resolve-uri('.', base-uri())"/>
         <xsl:for-each
-            select="$listcorrespondence/descendant::tei:listPerson/tei:personGrp[not(@xml:id = 'correspondence_null')]">
+            select="$listcorrespondence/descendant::tei:listPerson/tei:personGrp[not(@xml:id = 'correspondence_null') and not(@ana='planned')]">
             <xsl:variable name="correspondence-nummer"
                 select="replace(@xml:id, 'correspondence_', '')"/>
             <xsl:variable name="dateiname"
