@@ -38,6 +38,16 @@
 "id": "Arosa",
 "lat": 46.77793,
 "lon": 9.67621
+},
+{
+"id": "Nida",
+"lat": 55.303973,
+"lon": 21.00532
+},
+{
+"id": "Gmunden",
+"lat": 47.91839,
+"lon": 13.79933
 }
 
       ]
@@ -67,6 +77,11 @@
 {
 "from": "Arosa",
 "to": "Wien",
+"weight": 1}
+,
+{
+"from": "Nida",
+"to": "Gmunden",
 "weight": 1}
 
 ]}

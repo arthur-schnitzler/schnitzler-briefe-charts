@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und
+                                    Autoren</title>
+            <title level="a">Statistik Arthur Schnitzler – Romain Rolland</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+               <name>Gerd-Hermann Susen</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2025-09-27Z</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12543.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Inhaltsverzeichnis einzelner Korrespondenzen von
+                                    schnitzler-briefe</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item corresp="L03884">
+               <title level="a">Arthur Schnitzler an Romain Rolland, 14. 12. 1914</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1914-12-14" n="01">14. 12. 1914</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb12543">Rolland, Romain</persName>
+                     <date evidence="conjecture" notBefore="1914-12-15" notAfter="1914-12-19">[15. 12. 1914 – 19. 12. 1914?]</date>
+                     <placeName ref="#pmb562" evidence="conjecture">Genf</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03648">Zweig an Schnitzler, 12. 12. [1914]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02200">Schnitzler an Brandes, 18. 12. 1914</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12543"
+                          target="L03882">Rolland an Schnitzler, 19. 12. 1914</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2352"/>
+            </item>
+            <item corresp="L03882">
+               <title level="a">Romain Rolland an Arthur Schnitzler, 19. 12. 1913</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12543">Rolland, Romain</persName>
+                     <date when="1914-12-19" n="01">19. 12. 1914</date>
+                     <placeName ref="#pmb562">Genf</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1914-12-20" notAfter="1914-12-24">[20. 12. 1914 – 24. 12. 1914?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02200">Schnitzler an Brandes, 18. 12. 1914</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02201">Brandes an Schnitzler, 23. 12. 1914</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12543"
+                          target="L03884">Schnitzler an Rolland, 14. 12. 1914</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12543"
+                          target="L03885">Schnitzler an Rolland, 7. 1. 1915</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="738"/>
+            </item>
+            <item corresp="L03885">
+               <title level="a">Arthur Schnitzler an Romain Rolland, 7. 1. 1915</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1915-01-07" n="01">7. 1. 1915</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb12543">Rolland, Romain</persName>
+                     <date evidence="external" notBefore="1915-01-08" notAfter="1915-01-11">[8. 1. 1915 – 11. 1. 1915?]</date>
+                     <placeName ref="#pmb562" evidence="conjecture">Genf</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02201">Brandes an Schnitzler, 23. 12. 1914</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02202">Schnitzler an Brandes, 8. 1. 1915</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12543"
+                          target="L03882">Rolland an Schnitzler, 19. 12. 1914</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12543"
+                          target="L03883">Rolland an Schnitzler, 6. 2. 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1261"/>
+            </item>
+            <item corresp="L03883">
+               <title level="a">Romain Rolland an Arthur Schnitzler, 6. 2. 1916</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12543">Rolland, Romain</persName>
+                     <date when="1916-02-06" n="01">6. 2. 1916</date>
+                     <placeName ref="#pmb562" evidence="internal">Genf</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1916-02-07" notAfter="1916-02-11">[7. 2. 1916
+                  – 11. 2. 1916?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03657">Zweig an Schnitzler, 18. 1. 1916</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03770">Schnitzler an Zweig, 16. 2. 1916</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12543"
+                          target="L03885">Schnitzler an Rolland, 7. 1. 1915</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="627"/>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>
