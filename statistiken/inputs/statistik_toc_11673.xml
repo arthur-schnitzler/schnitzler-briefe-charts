@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-09-27Z</date>
+            <date>2025-09-30Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -694,11 +694,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03765">Herzl an Schnitzler, 25. 11. 1901</ref>
+                          target="L03844">Herzl an Schnitzler, 4. 1. 1895</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="5158"/>
+            </item>
+            <item corresp="L03844">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 4. 1. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-01-04" n="01">4. 1. 1895</date>
+                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-01-05" notAfter="1895-01-09">[5. 1. 1895
+                  – 9. 1. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03182">Salten an Schnitzler, [1895 – 21. 1. 1897?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02726">Goldmann an Schnitzler, 5. 1. [1895]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03843">Herzl an Schnitzler, 1. 1. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03765">Herzl an Schnitzler, 25. 11. 1901</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="800"/>
             </item>
             <item corresp="L03765">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 25. 11. 1901</title>
@@ -720,7 +751,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03843">Herzl an Schnitzler, 1. 1. 1895</ref>
+                          target="L03844">Herzl an Schnitzler, 4. 1. 1895</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>

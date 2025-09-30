@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-09-27Z</date>
+            <date>2025-09-30Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11370.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -38,8 +38,7 @@
       <body>
          <list>
             <item corresp="L03815">
-               <title level="a">Arthur Schnitzler an Sigmund Freud, 6. 5. 1906,
-               Briefentwurf</title>
+               <title level="a">Arthur Schnitzler an Sigmund Freud, 6. 5. 1906, Briefentwurf</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -48,7 +47,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
-                     <date evidence="conjecture" notBefore="1906-05-06" notAfter="1906-05-09">[6. 5. 1906 – 9. 5. 1906?]</date>
+                     <date evidence="conjecture" notBefore="1906-05-06" notAfter="1906-05-09">[6. 5. 1906
+                  – 9. 5. 1906?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -74,7 +74,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1906-05-08" notAfter="1906-05-11">[8. 5. 1906 – 11. 5. 1906?]</date>
+                     <date evidence="conjecture" notBefore="1906-05-08" notAfter="1906-05-11">[8. 5. 1906
+                  – 11. 5. 1906?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -88,11 +89,100 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03816">Freud an Schnitzler, Oktober 1924</ref>
+                          target="L03886">Freud an Schnitzler, 14. 5. 1912</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="831"/>
+            </item>
+            <item corresp="L03886">
+               <title level="a">Sigmund Freud an Arthur Schnitzler, 14. 5. 1912</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11370">Freud, Sigmund</persName>
+                     <date when="1912-05-14" n="01">14. 5. 1912</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1912-05-14" notAfter="1912-05-17">[14. 5. 1912
+                  – 17. 5. 1912?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02678">Mann an Schnitzler, 13. 5. [1912?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02064">Blumenthal an Schnitzler, 14. 5. 1912</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03819">Freud an Schnitzler, 8. 5. 1906</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03887">Freud an Schnitzler, 14. 5. 1922</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1503"/>
+            </item>
+            <item corresp="L03887">
+               <title level="a">Sigmund Freud an Arthur Schnitzler, 14. 5. 1922</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11370">Freud, Sigmund</persName>
+                     <date when="1922-05-14" n="01">14. 5. 1922</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1922-05-15" notAfter="1922-05-19">[15. 5. 1922 – 19. 5. 1922?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02381">Braun an Schnitzler, 13. 5. 1922</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02382">Schnitzler an Beer-Hofmann, 15. 5. 1921</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03886">Freud an Schnitzler, 14. 5. 1912</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03888">Freud an Schnitzler, 8. 6. 1922</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2933"/>
+            </item>
+            <item corresp="L03888">
+               <title level="a">Sigmund Freud an Arthur Schnitzler, 8. 6. 1922</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11370">Freud, Sigmund</persName>
+                     <date when="1922-06-08" n="01">8. 6. 1922</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1922-06-09" notAfter="1922-06-13">[9. 6. 1922 – 13. 6. 1922?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02387">Schnitzler an Brandes, 7. 6. 1922</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02388">Bahr an Schnitzler, 9. 6. 1922</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03887">Freud an Schnitzler, 14. 5. 1922</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03816">Freud an Schnitzler, Oktober 1924</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="986"/>
             </item>
             <item corresp="L03816">
                <title level="a">Sigmund Freud an Arthur Schnitzler, Oktober 1924</title>
@@ -113,7 +203,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03819">Freud an Schnitzler, 8. 5. 1906</ref>
+                          target="L03888">Freud an Schnitzler, 8. 6. 1922</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
@@ -148,11 +238,102 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03817">Freud an Schnitzler, 7. 5. 1928</ref>
+                          target="L03889">Freud an Schnitzler, 24. 3. 1926</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="568"/>
+            </item>
+            <item corresp="L03889">
+               <title level="a">Sigmund Freud an Arthur Schnitzler, 24. 3. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11370">Freud, Sigmund</persName>
+                     <date when="1926-03-24" n="01">24. 3. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1926-03-24" notAfter="1926-03-24">[24. 3. 1926 –
+                  26. 3. 1926]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02469">Schnitzler an Braun, [nach dem 15. 3. 1926?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02470">Brandes an Schnitzler, 21. 4. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03818">Freud an Schnitzler, 8. 3. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03890">Freud an Schnitzler, 24. 5. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="478"/>
+            </item>
+            <item corresp="L03890">
+               <title level="a">Sigmund Freud an Arthur Schnitzler, 24. 5. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11370">Freud, Sigmund</persName>
+                     <date when="1926-05-24" n="01">24. 5. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1926-05-24" notAfter="1926-05-27">[24. 5. 1926
+                  – 27. 5. 1926?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02474">Mann, Mann an Schnitzler, 23. 5. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02475">Großmann an Schnitzler, 25. 5. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03889">Freud an Schnitzler, 24. 3. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03892">Freud an Schnitzler, [zwischen 1. und 28. 11. 1927]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1076"/>
+            </item>
+            <item corresp="L03892">
+               <title level="a">Sigmund Freud: Widmungsexemplar von Die Zukunft einer Illusion, [zwischen 1. und 28. 11. 1927]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11370">Freud, Sigmund</persName>
+                     <date notBefore="1927-11-01" notAfter="1927-11-28" n="01">[zwischen 1. und 28. 11. 1927]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1927-11-01" notAfter="1927-11-28">[zwischen 1. und 28. 11. 1927]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03740">Schnitzler an Zweig, 15. 10. 1927</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03580">Salten, Salten, Salten, Salten an Schnitzler, [November 1927 –
+                  Juni 1928?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03890">Freud an Schnitzler, 24. 5. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03817">Freud an Schnitzler, 7. 5. 1928</ref>
+                  </correspContext>
+               </correspDesc>
             </item>
             <item corresp="L03817">
                <title level="a">Sigmund Freud an Arthur Schnitzler, 7. 5. 1928</title>
@@ -174,22 +355,52 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03818">Freud an Schnitzler, 8. 3. 1926</ref>
+                          target="L03892">Freud an Schnitzler, [zwischen 1. und 28. 11. 1927]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03814">Freud an Schnitzler, [nach dem 6. 5. 1931]</ref>
+                          target="L03891">Freud an Schnitzler, [1. Jännerwoche 1930]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="kartenbrief"/>
                <measure unit="zeichenanzahl" quantity="209"/>
+            </item>
+            <item corresp="L03891">
+               <title level="a">Sigmund Freud: Widmungsexemplar von Das Unbehagen in der Kultur an Arthur Schnitzler, [1. Jännerwoche 1930]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11370">Freud, Sigmund</persName>
+                     <date notBefore="1930-01-01" notAfter="1930-01-07" n="01">[1. Jännerwoche 1930]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1930-01-01" notAfter="1930-01-07" n="01">[1. Jännerwoche 1930]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03025">Schnitzler an Salten, 30. 12. 19[29?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02529">Hofmannsthal an Schnitzler, 2. 1. 1930</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03817">Freud an Schnitzler, 7. 5. 1928</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03814">Freud an Schnitzler, [nach dem
+                  6. 5. 1931]</ref>
+                  </correspContext>
+               </correspDesc>
             </item>
             <item corresp="L03814">
                <title level="a">Sigmund Freud an Arthur Schnitzler, [nach dem 6. 5. 1931]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
-                     <date notBefore="1931-05-07" notAfter="1931-05-31" n="01">[nach dem 6. 5. 1931]</date>
+                     <date notBefore="1931-05-07" notAfter="1931-05-31" n="01">[nach dem
+                  6. 5. 1931]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -203,7 +414,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03817">Freud an Schnitzler, 7. 5. 1928</ref>
+                          target="L03891">Freud an Schnitzler, [1. Jännerwoche 1930]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="kartenbrief"/>
