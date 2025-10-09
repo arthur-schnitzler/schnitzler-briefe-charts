@@ -10,24 +10,22 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt style="./statistiken/xslts/1-statistik-toc_populationtree.xsl"
-        basedir="./statistiken/inputs" destdir="./statistiken/statistik1" includes="statisti*.xml"
-        extension=".csv">
+        in="./statistiken/inputs/statistik_toc_10762.xml" out="${tmpDir}/statistik1-dummy.txt">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt style="./statistiken/xslts/2-statistik-toc_tagebuch.xsl" basedir="./statistiken/inputs"
-        destdir="./statistiken/statistik2" includes="statisti*.xml" extension=".csv">
+    <xslt style="./statistiken/xslts/2-statistik-toc_tagebuch.xsl"
+        in="./statistiken/inputs/statistik_toc_10762.xml" out="${tmpDir}/statistik2-dummy.txt">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt style="./statistiken/xslts/3-statistik-toc_zeichenanzahl.xsl"
-        basedir="./statistiken/inputs" destdir="./statistiken/statistik3" includes="statisti*.xml"
-        extension=".csv">
+        in="./statistiken/inputs/statistik_toc_10762.xml" out="${tmpDir}/statistik3-dummy.txt">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt style="./statistiken/xslts/4-statistik-toc_textsorten.xsl" basedir="./statistiken/inputs"
-        destdir="./statistiken/statistik4" includes="statisti*.xml" extension=".csv">
+    <xslt style="./statistiken/xslts/4-statistik-toc_textsorten.xsl"
+        in="./statistiken/inputs/statistik_toc_10762.xml" out="${tmpDir}/statistik4-dummy.txt">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
