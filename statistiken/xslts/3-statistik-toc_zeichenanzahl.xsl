@@ -11,7 +11,7 @@
    -->
     <xsl:template match="/">
         <xsl:for-each
-            select="distinct-values(uri-collection('../inputs/?select=statistik_toc_*.xml'))">
+            select="distinct-values(uri-collection('../inputs/?select=statistik_toc_13212.xml'))">
             <xsl:variable name="current-uri" select="."/>
             <xsl:variable name="current-doc"
                 select="document($current-uri)/tei:TEI/tei:text[1]/tei:body[1]"/>
@@ -39,7 +39,7 @@
             
             <!-- Umfeld von Schnitzler: sent not by pmb2121 to korrespondenz-nummer -->
             <xsl:variable name="summeVonSchnitzlerUmfeld"
-                select="sum($listNode/tei:item[(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121') and not(tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer)) and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
+                select="sum($listNode/tei:item[not(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121') and (tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer)) and year-from-date(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:date/@when) = $currentYear]/tei:measure/@quantity)"/>
             
             <!-- an Schnitzler: sent by korrespondenz-nummer to pmb2121 -->
             <xsl:variable name="summeVonPartner"
