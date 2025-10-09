@@ -33,7 +33,7 @@
             select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer)]"/>
         <!-- Aus Schnitzlers Umfeld an den Korrespondenzpartner -->
         <xsl:variable name="correspAction-von-schnitzler-an-umfeld"
-            select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and not(tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"/>
+            select="descendant::tei:correspDesc[not(tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121') and (tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"/>
         <!-- Von Partner an Schnitzler -->
         <xsl:variable name="correspAction-von-partner"
             select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121']"/>
