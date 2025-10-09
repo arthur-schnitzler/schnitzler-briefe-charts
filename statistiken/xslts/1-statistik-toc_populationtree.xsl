@@ -54,10 +54,11 @@
         <xsl:variable name="correspAction-von-partner-an-umfeld" as="node()">
             <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:copy-of
-                    select="descendant::tei:correspDesc[tei:correspAction[last()]/tei:persName/@ref = '#pmb2121' and not(tei:correspAction[@type='sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"
+                    select="descendant::tei:correspDesc[tei:correspAction[last()][not(tei:persName/@ref = '#pmb2121')] and (tei:correspAction[@type='sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"
                 />
             </xsl:element>
         </xsl:variable>
+
         <xsl:text>year,"von Schnitzler","Umfeld von Schnitzler", "an Schnitzler", "Umfeld an Schnitzler"&#10;</xsl:text>
         <xsl:for-each select="($startYear to $endYear)">
             <xsl:variable name="currentYear" select="."/>
