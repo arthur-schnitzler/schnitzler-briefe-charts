@@ -11,7 +11,7 @@
    -->
     <xsl:template match="/">
         <xsl:for-each
-            select="distinct-values(uri-collection('../inputs/?select=statistik_toc_13212.xml'))">
+            select="distinct-values(uri-collection('../inputs/?select=statistik_toc_*.xml'))">
             <xsl:variable name="current-uri" select="."/>
             <xsl:variable name="current-doc"
                 select="document($current-uri)/tei:TEI/tei:text[1]/tei:body[1]"/>
