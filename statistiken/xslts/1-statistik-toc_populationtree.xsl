@@ -27,83 +27,34 @@
     </xsl:template>
     <xsl:template match="tei:list">
         <xsl:param name="korrespondenz-nummer" as="xs:string"/>
-        <xsl:variable name="startYear" select="1885"/>
-        <xsl:variable name="endYear" select="1901"/>
-        <xsl:variable name="correspAction-gesamt" as="node()" select="."/>
-        <xsl:variable name="correspAction-von-schnitzler-an-partner" as="node()">
-            <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:copy-of
-                    select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and (tei:correspAction[@type='received']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"
-                />
-            </xsl:element>
-        </xsl:variable>
-        <xsl:variable name="correspAction-von-schnitzler-an-umfeld" as="node()"><!-- Umfeldbriefe von Schnitzler -->
-            <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:copy-of
-                    select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and not((tei:correspAction[@type='received']/tei:persName/@ref = concat('#', $korrespondenz-nummer)))]"
-                />
-            </xsl:element>
-        </xsl:variable>
-        <xsl:variable name="correspAction-von-partner" as="node()">
-            <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:copy-of
-                    select="descendant::tei:correspDesc[(tei:correspAction[@type='received']/tei:persName/@ref = '#pmb2121') and (tei:correspAction[@type='sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"
-                />
-            </xsl:element>
-        </xsl:variable>
-        <xsl:variable name="correspAction-von-partner-an-umfeld" as="node()">
-            <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:copy-of
-                    select="descendant::tei:correspDesc[tei:correspAction[last()][not(tei:persName/@ref = '#pmb2121')] and (tei:correspAction[@type='sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"
-                />
-            </xsl:element>
-        </xsl:variable>
+        <!-- Von Schnitzler an Partner -->
+        <xsl:variable name="correspAction-von-schnitzler-an-partner"
+            select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer)]"/>
+        <!-- Aus Schnitzlers Umfeld an den Korrespondenzpartner -->
+        <xsl:variable name="correspAction-von-schnitzler-an-umfeld"
+            select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and not(tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"/>
+        <!-- Von Partner an Schnitzler -->
+        <xsl:variable name="correspAction-von-partner"
+            select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121']"/>
+        <!-- Aus dem Umfeld des Korrespondenzpartners an Schnitzler -->
+        <xsl:variable name="correspAction-von-partner-an-umfeld"
+            select="descendant::tei:correspDesc[tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121' and not(tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer)) and not(tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121')]"/>
 
         <xsl:text>year,"von Schnitzler","Umfeld von Schnitzler", "an Schnitzler", "Umfeld an Schnitzler"&#10;</xsl:text>
-        <xsl:for-each select="($startYear to $endYear)">
+        <xsl:for-each select="1885 to 1931">
             <xsl:variable name="currentYear" select="."/>
-            <!-- Zählen der tei:date[@when] für das aktuelle Jahr -->
-            <xsl:variable name="countAllDates"
-                select="count($correspAction-gesamt/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
-                as="xs:integer"/>
             <xsl:variable name="countSchnitzlerDates"
-                select="count($correspAction-von-schnitzler-an-partner/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
+                select="count($correspAction-von-schnitzler-an-partner/tei:correspAction[@type = 'sent']/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear])"
                 as="xs:integer"/>
             <xsl:variable name="countSchnitzlerUmfeldDates"
-                select="count($correspAction-von-schnitzler-an-umfeld/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
+                select="count($correspAction-von-schnitzler-an-umfeld/tei:correspAction[@type = 'sent']/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear])"
                 as="xs:integer"/>
             <xsl:variable name="countNotSchnitzlerDates"
-                select="count($correspAction-von-partner/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
+                select="count($correspAction-von-partner/tei:correspAction[@type = 'sent']/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear])"
                 as="xs:integer"/>
             <xsl:variable name="countNotSchnitzlerUmfeldDates"
-                select="count($correspAction-von-partner-an-umfeld/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
+                select="count($correspAction-von-partner-an-umfeld/tei:correspAction[@type = 'sent']/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear])"
                 as="xs:integer"/>
-            <!-- Ausgabe der Anzahl von tei:date[@when] für das aktuelle Jahr -->
-            <xsl:value-of
-                select="concat($currentYear, ',', $countSchnitzlerDates, ',', $countSchnitzlerUmfeldDates, ',', $countNotSchnitzlerDates, ',', $countNotSchnitzlerUmfeldDates)"/>
-            <xsl:text>&#10;</xsl:text>
-        </xsl:for-each>
-        <xsl:variable name="startYear" select="1902"/>
-        <xsl:variable name="endYear" select="1931"/>
-        <xsl:for-each select="($startYear to $endYear)">
-            <xsl:variable name="currentYear" select="."/>
-            <!-- Zählen der tei:date[@when] für das aktuelle Jahr -->
-            <xsl:variable name="countAllDates"
-                select="count($correspAction-gesamt/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
-                as="xs:integer"/>
-            <xsl:variable name="countSchnitzlerDates"
-                select="count($correspAction-von-schnitzler-an-partner/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
-                as="xs:integer"/>
-            <xsl:variable name="countSchnitzlerUmfeldDates"
-                select="count($correspAction-von-schnitzler-an-umfeld/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
-                as="xs:integer"/>
-            <xsl:variable name="countNotSchnitzlerDates"
-                select="count($correspAction-von-partner/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
-                as="xs:integer"/>
-            <xsl:variable name="countNotSchnitzlerUmfeldDates"
-                select="count($correspAction-von-partner-an-umfeld/descendant::tei:correspDesc/tei:correspAction[1]/tei:date[number(tokenize(@*[contains(., '-')][1], '-')[1]) = $currentYear]/number(tokenize(@*[contains(., '-')][1], '-')[1]))"
-                as="xs:integer"/>
-            <!-- Ausgabe der Anzahl von tei:date[@when] für das aktuelle Jahr -->
             <xsl:value-of
                 select="concat($currentYear, ',', $countSchnitzlerDates, ',', $countSchnitzlerUmfeldDates, ',', $countNotSchnitzlerDates, ',', $countNotSchnitzlerUmfeldDates)"/>
             <xsl:text>&#10;</xsl:text>
