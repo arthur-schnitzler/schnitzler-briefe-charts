@@ -32,10 +32,9 @@
     <xsl:template match="tei:list" mode="ids">
         <xsl:variable name="correspAction-gesamt" as="node()" select="."/>
         <xsl:for-each
-            select="distinct-values(descendant::tei:correspAction[@type='sent' or @type='received']/tei:placeName[1]/tokenize(normalize-space(@ref), ' ')[1])">
+            select="distinct-values(descendant::tei:correspAction[@type='sent' or @type='received']/tei:placeName[1][@ref[starts-with(., '#pmb')]]/tokenize(normalize-space(@ref), ' ')[1])">
             <xsl:variable name="absenderort-ref" select="normalize-space(replace(., '#pmb', ''))"
                 as="xs:string"/>
-            <xsl:if test="$absenderort-ref != ''">
             <xsl:variable name="absender-nachgeschlagen"
                 select="document(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/place/', $absenderort-ref))"
                 as="node()"/>
@@ -56,7 +55,6 @@
                 <xsl:text>,</xsl:text>
             </xsl:if>
             <xsl:text>&#10;</xsl:text>
-            </xsl:if>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:list">
