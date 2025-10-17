@@ -60,11 +60,6 @@
 "lon": 22.76728
 },
 {
-"id": "Bern",
-"lat": 46.9489,
-"lon": 7.4638
-},
-{
 "id": "Salzburg",
 "lat": 47.80067,
 "lon": 13.04532
@@ -88,7 +83,7 @@
 "data": [{
 "from": "Wien",
 "to": "Wien",
-"weight": 78},
+"weight": 79},
 {
 "from": "Wien",
 "to": "Hinterbrühl",
@@ -152,11 +147,6 @@
 ,
 {
 "from": "Przemyśl",
-"to": "Wien",
-"weight": 1}
-,
-{
-"from": "Bern",
 "to": "Wien",
 "weight": 1}
 ,

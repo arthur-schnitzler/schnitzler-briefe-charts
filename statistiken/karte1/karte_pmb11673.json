@@ -28,6 +28,11 @@
 "id": "Morschach",
 "lat": 46.97149,
 "lon": 8.64802
+},
+{
+"id": "Baden bei Wien",
+"lat": 48.00543,
+"lon": 16.23264
 }
 
       ]
@@ -52,7 +57,12 @@
 {
 "from": "Paris",
 "to": "Wien",
-"weight": 19}
+"weight": 30}
+,
+{
+"from": "Baden bei Wien",
+"to": "Wien",
+"weight": 1}
 
 ]}
 ]}
