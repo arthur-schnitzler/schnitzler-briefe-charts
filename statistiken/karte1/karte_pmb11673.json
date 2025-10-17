@@ -33,6 +33,16 @@
 "id": "Baden bei Wien",
 "lat": 48.00543,
 "lon": 16.23264
+},
+{
+"id": "Bad Aussee",
+"lat": 47.60998,
+"lon": 13.78243
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
 }
 
       ]
@@ -43,7 +53,7 @@
 "data": [{
 "from": "Wien",
 "to": "Wien",
-"weight": 4}
+"weight": 19}
 ,
 {
 "from": "Schörfling",
@@ -53,7 +63,7 @@
 {
 "from": "Paris",
 "to": "Wien",
-"weight": 30}
+"weight": 38}
 ,
 {
 "from": "Morschach",
@@ -63,6 +73,11 @@
 {
 "from": "Baden bei Wien",
 "to": "Wien",
+"weight": 1}
+,
+{
+"from": "Bad Aussee",
+"to": "Bad Ischl",
 "weight": 1}
 
 ]}
