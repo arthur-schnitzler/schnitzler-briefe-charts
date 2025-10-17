@@ -103,6 +103,12 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <xslt style="./netzwerke/event_freq_corr_weights_directed/event_freq_corr_weights_directed.xsl"
+        basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml"
+        extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
     <xslt style="./netzwerke/postwege_weights_directed/postwege_weights_directed.xsl"
         basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml"
         extension=".xml">
