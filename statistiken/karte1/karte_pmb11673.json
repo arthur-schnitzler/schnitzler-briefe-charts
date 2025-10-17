@@ -43,11 +43,7 @@
 "data": [{
 "from": "Wien",
 "to": "Wien",
-"weight": 4},
-{
-"from": "Wien",
-"to": "Morschach",
-"weight": 1}
+"weight": 4}
 ,
 {
 "from": "Schörfling",
@@ -58,6 +54,11 @@
 "from": "Paris",
 "to": "Wien",
 "weight": 30}
+,
+{
+"from": "Morschach",
+"to": "Wien",
+"weight": 1}
 ,
 {
 "from": "Baden bei Wien",

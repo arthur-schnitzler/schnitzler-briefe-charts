@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-10-10Z</date>
+            <date>2025-10-17Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11370.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -179,7 +179,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03816">Freud an Schnitzler, [Mitte?] Oktober
+                          target="L03816">Freud an Schnitzler, Oktober
                   1924</ref>
                   </correspContext>
                </correspDesc>
@@ -187,23 +187,24 @@
                <measure unit="zeichenanzahl" quantity="986"/>
             </item>
             <item corresp="L03816">
-               <title level="a">Sigmund Freud an Arthur Schnitzler, [Mitte?] Oktober 1924</title>
+               <title level="a">Sigmund Freud an Arthur Schnitzler, Oktober 1924</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
-                     <date notBefore="1924-10-15" notAfter="1924-10-31" n="01">[Mitte?] Oktober
+                     <date notBefore="1924-10-01" notAfter="1924-10-31" n="01">Oktober
                   1924</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date notBefore="1924-10-15" notAfter="1924-10-31">[Mitte?] Oktober 1924</date>
+                     <date notBefore="1924-10-01" notAfter="1924-10-31">Oktober
+                  1924</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02415">Braun an Schnitzler, 2. 10. 1924</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02416">Schnitzler an Braun, 19. 10. 1924</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02414">Schnitzler an Beer-Hofmann, 18. 8. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02415">Braun an Schnitzler, 2. 10. 1924</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
@@ -211,11 +212,46 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03818">Freud an Schnitzler, 8. 3. 1926</ref>
+                          target="L03897">Freud an Schnitzler, [erste Hälfte] November
+                  1924</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="visitenkarte"/>
                <measure unit="zeichenanzahl" quantity="25"/>
+            </item>
+            <item corresp="L03897">
+               <title level="a">Sigmund Freud: Widmungsexemplar von Psychoanalytische Studien an Werken
+               der Dichtung und Kunst, [erste Hälfte] November 1924</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11370">Freud, Sigmund</persName>
+                     <date notBefore="1924-11-01" notAfter="1924-11-15" n="01">[erste Hälfte] November
+                  1924</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1924-11-01" notAfter="1924-11-15">[erste Hälfte] November
+                  1924</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02418">Hofmannsthal an Schnitzler, 31. 10. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03669">Zweig an Schnitzler, 4. 11. 1924</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03816">Freud an Schnitzler, Oktober
+                  1924</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11370"
+                          target="L03818">Freud an Schnitzler, 8. 3. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="widmung" ana="widmung_vorsatzblatt"/>
+               <measure unit="zeichenanzahl" quantity="69"/>
             </item>
             <item corresp="L03818">
                <title level="a">Sigmund Freud an Arthur Schnitzler, 8. 3. 1926</title>
@@ -238,7 +274,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03816">Freud an Schnitzler, [Mitte?] Oktober
+                          target="L03897">Freud an Schnitzler, [erste Hälfte] November
                   1924</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
