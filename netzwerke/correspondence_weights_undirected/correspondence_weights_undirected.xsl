@@ -31,7 +31,7 @@
             <xsl:value-of select="$separator"/>
             <xsl:text>Weight</xsl:text>
             <xsl:value-of select="$newline"/>
-            <xsl:for-each select="child::tei:personGrp[@xml:id != 'correspondence_null']">
+            <xsl:for-each select="child::tei:personGrp[@xml:id != 'correspondence_null' and not(@ana = 'planned')]">
                 <xsl:variable name="target"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
                 <xsl:variable name="label" select="$target"/>

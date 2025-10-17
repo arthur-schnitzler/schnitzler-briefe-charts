@@ -56,7 +56,7 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
+            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null' and not(@ana = 'planned')]">
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
@@ -162,7 +162,7 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
+            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null' and not(@ana = 'planned')]">
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>
@@ -268,7 +268,7 @@
                     </xsl:if>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
+            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null' and not(@ana = 'planned')]">
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
                     select="concat(substring-after(child::tei:persName[@role = 'main'], ', '), ' ', substring-before(child::tei:persName[@role = 'main'], ','))"/>

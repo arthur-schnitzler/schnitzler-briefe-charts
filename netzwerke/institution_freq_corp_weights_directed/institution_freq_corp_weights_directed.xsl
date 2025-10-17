@@ -69,7 +69,7 @@
                 </xsl:for-each>
             </xsl:variable>
             
-            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
+            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null' and not(@ana = 'planned')]">
                 
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
@@ -181,7 +181,7 @@
                 </xsl:for-each>
             </xsl:variable>
 
-            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
+            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null' and not(@ana = 'planned')]">
 
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"
@@ -293,7 +293,7 @@
                 </xsl:for-each>
             </xsl:variable>
 
-            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null']">
+            <xsl:for-each select="//tei:personGrp[@xml:id != 'correspondence_null' and not(@ana = 'planned')]">
 
                 <!-- name of correspondence partner -->
                 <xsl:variable name="korr-name"

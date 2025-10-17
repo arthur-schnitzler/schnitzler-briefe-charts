@@ -29,7 +29,7 @@
             <xsl:value-of select="$separator"/>
             <xsl:text>Weight</xsl:text>
             <xsl:value-of select="$newline"/>
-            <xsl:for-each select="tei:personGrp[@xml:id != 'correspondence_null']">
+            <xsl:for-each select="tei:personGrp[@xml:id != 'correspondence_null' and not(@ana = 'planned')]">
                 <xsl:variable name="schnitzler-pmb" select="'#pmb2121'"/>
                 <xsl:variable name="schnitzler-name" select="'Arthur Schnitzler'"/>
                 <xsl:variable name="other-pmb" select="tei:persName[1]/@ref"/>
