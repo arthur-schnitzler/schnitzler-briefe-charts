@@ -37,8 +37,15 @@
             <xsl:text>,</xsl:text>
             <xsl:value-of select="$correspAction-gesamt-zahl"/>
             <xsl:text>,</xsl:text>
-            <xsl:value-of
-                select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-tagebuch-charts/refs/heads/main/tagebuch-vorkommen-korrespondenzpartner/tagebuch-vorkommen_', $korrespondenz-nummer, '.xml'))/descendant::tei:event[@when = $currentYear]/tei:desc"/>
+            <xsl:variable name="tagebuchUrl" select="concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-tagebuch-charts/refs/heads/main/tagebuch-vorkommen-korrespondenzpartner/tagebuch-vorkommen_', $korrespondenz-nummer, '.xml')"/>
+            <xsl:choose>
+                <xsl:when test="doc-available($tagebuchUrl)">
+                    <xsl:value-of select="document($tagebuchUrl)/descendant::tei:event[@when = $currentYear]/tei:desc"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>0</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:text>&#10;</xsl:text>
         </xsl:for-each>
     </xsl:template>
