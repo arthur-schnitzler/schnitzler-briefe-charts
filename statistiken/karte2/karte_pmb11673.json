@@ -9,11 +9,45 @@
 "type": "map",
 "name": "Flow",
 "data": [
-         
+         {
+"id": "Wien",
+"lat": 48.208333,
+"lon": 16.373056
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+},
+{
+"id": "Baden bei Wien",
+"lat": 48.00543,
+"lon": 16.23264
+},
+{
+"id": "Paris",
+"lat": 48.85341,
+"lon": 2.3488
+}
+
       ]
 },
 {
 "type": "mapline",
 "name": "Flow Lines",
-"data": []}
+"data": [{
+"from": "Wien",
+"to": "Wien",
+"weight": 34},
+{
+"from": "Wien",
+"to": "Paris",
+"weight": 2}
+,
+{
+"from": "Salzburg",
+"to": "Baden bei Wien",
+"weight": 1}
+
+]}
 ]}
