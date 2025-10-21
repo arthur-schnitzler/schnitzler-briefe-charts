@@ -20,6 +20,11 @@
 "lon": 13.600556
 },
 {
+"id": "Houlgate",
+"lat": 49.299,
+"lon": -0.08153
+},
+{
 "id": "Paris",
 "lat": 48.85341,
 "lon": 2.3488
@@ -33,6 +38,21 @@
 "id": "Baden bei Wien",
 "lat": 48.00543,
 "lon": 16.23264
+},
+{
+"id": "Salzburg",
+"lat": 47.80067,
+"lon": 13.04532
+},
+{
+"id": "Bad Aussee",
+"lat": 47.60998,
+"lon": 13.78243
+},
+{
+"id": "Bad Ischl",
+"lat": 47.71109,
+"lon": 13.61893
 }
 
       ]
@@ -43,7 +63,11 @@
 "data": [{
 "from": "Wien",
 "to": "Wien",
-"weight": 4}
+"weight": 56},
+{
+"from": "Wien",
+"to": "Paris",
+"weight": 2}
 ,
 {
 "from": "Schörfling",
@@ -51,9 +75,14 @@
 "weight": 1}
 ,
 {
+"from": "Houlgate",
+"to": "Wien",
+"weight": 1}
+,
+{
 "from": "Paris",
 "to": "Wien",
-"weight": 30}
+"weight": 39}
 ,
 {
 "from": "Morschach",
@@ -63,6 +92,16 @@
 {
 "from": "Baden bei Wien",
 "to": "Wien",
+"weight": 1}
+,
+{
+"from": "Salzburg",
+"to": "Baden bei Wien",
+"weight": 1}
+,
+{
+"from": "Bad Aussee",
+"to": "Bad Ischl",
 "weight": 1}
 
 ]}

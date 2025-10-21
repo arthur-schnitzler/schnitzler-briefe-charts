@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-10-17Z</date>
+            <date>2025-10-21Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -2884,7 +2884,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03760">Schnitzler an Zweig, 10. 4. 1909</ref>
+                          target="L03760">Schnitzler an Zweig, 10. 4. 1919</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
@@ -2936,15 +2936,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03760">Schnitzler an
-                  Zweig, 10. 4. 1909</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02323">Hofmannsthal an
-                  Schnitzler, 20. 4. 1919</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03760">Schnitzler an Zweig, 10. 4. 1919</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02323">Hofmannsthal an Schnitzler, 20. 4. 1919</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03760">Schnitzler an Zweig,
-                  10. 4. 1909</ref>
+                          target="L03760">Schnitzler an Zweig, 10. 4. 1919</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -3096,15 +3093,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02358">Schnitzler an
-                  Adam, 20. 11. 1920</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02359">Schnitzler an
-                  Beer-Hofmann, 29. 1. 1921</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02358">Schnitzler an Adam, 20. 11. 1920</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02359">Schnitzler an Beer-Hofmann, 29. 1. 1921</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03763">Schnitzler an Zweig,
-                  20. 8. 1920</ref>
+                          target="L03763">Schnitzler an Zweig, 20. 8. 1920</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -3159,15 +3153,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02393">Schnitzler an
-                  Hauptmann, 14. 11. 1922</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02394">Schnitzler an
-                  Mann, 28. 12. 1922</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02393">Schnitzler an Hauptmann, 14. 11. 1922</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02394">Schnitzler an Mann, 28. 12. 1922</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03680">Zweig an Schnitzler,
-                  15. 5. [1922]</ref>
+                          target="L03680">Zweig an Schnitzler, 15. 5. [1922]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -3193,15 +3184,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02396">Hofmannsthal
-                  an Schnitzler, 16. 1. 1923</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02397">Mann an
-                  Schnitzler, 20. 2. 1923</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02396">Hofmannsthal an Schnitzler, 16. 1. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02397">Mann an Schnitzler, 20. 2. 1923</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03756">Schnitzler an Zweig,
-                  29. 11. 1922</ref>
+                          target="L03756">Schnitzler an Zweig, 29. 11. 1922</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -3355,7 +3343,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1923-07-24" notAfter="1923-07-28">[24. 7. 1923 – 28. 7. 1923?]</date>
+                     <date evidence="external" notBefore="1923-07-24" notAfter="1923-07-27">[24. 7. 1923 – 27. 7. 1923?]</date>
                      <placeName ref="#pmb50" evidence="internal">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -3385,7 +3373,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date evidence="conjecture" notBefore="1923-07-28" notAfter="1923-08-01">[28. 7. 1923 – 1. 8. 1923?]</date>
+                     <date evidence="external" when="1923-07-28">[28.? 7. 1923]</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
                   <correspContext>
@@ -3403,7 +3391,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="825"/>
+               <measure unit="zeichenanzahl" quantity="824"/>
             </item>
             <item corresp="L03686">
                <title level="a">Stefan Zweig an Arthur Schnitzler, 28. 7. 1923</title>
@@ -3415,8 +3403,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1923-07-29" notAfter="1923-08-02">[29. 7. 1923
-                  – 2. 8. 1923?]</date>
+                     <date evidence="external" notBefore="1923-07-29" notAfter="1923-07-30">[29. 7. 1923
+                  – 30. 7. 1923?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -3446,7 +3434,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date evidence="conjecture" notBefore="1923-07-31" notAfter="1923-08-04">[31. 7. 1923 – 4. 8. 1923?]</date>
+                     <date evidence="conjecture" notBefore="1923-07-31" notAfter="1923-08-01">[31. 7. 1923 – 1. 8. 1923?]</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
                   <correspContext>
@@ -3476,7 +3464,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date evidence="conjecture" notBefore="1923-08-02" notAfter="1923-08-06">[2. 8. 1923 – 6. 8. 1923?]</date>
+                     <date evidence="conjecture" notBefore="1923-08-02" notAfter="1923-08-06">[2. 8. 1923
+                  – 6. 8. 1923?]</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
                   <correspContext>
@@ -3494,7 +3483,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="387"/>
+               <measure unit="zeichenanzahl" quantity="385"/>
             </item>
             <item corresp="L03668">
                <title level="a">Stefan Zweig an Arthur Schnitzler, 1. 8. 1923</title>

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-10-17Z</date>
+            <date>2025-10-21Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -118,11 +118,102 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03825">Herzl an Schnitzler, 10. 10. 1892</ref>
+                          target="L03900">Schnitzler an Herzl, 25. 7. 1892</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="443"/>
+            </item>
+            <item corresp="L03900">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 25. 7. 1892</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1892-07-25" n="01">25. 7. 1892</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00106">Bölsche an Schnitzler, [24. 7. 1892]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00107">Schnitzler an Hofmannsthal, [25.? 7. 1892]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03822">Herzl an Schnitzler, 2. 10. 1886</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03823">Herzl an Schnitzler, 29. 7. 1892</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03823">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 29. 7. 1892</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1892-07-29" n="02">29. 7. 1892</date>
+                     <placeName ref="#pmb63049">Houlgate</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1892-07-30" notAfter="1892-08-03">[30. 7. 1892
+                  – 3. 8. 1892?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00109">Schnitzler an Hofmannsthal, 29. 7. 1892</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00110">Blumenthal an Schnitzler, 1. 8. 1892</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03900">Schnitzler an Herzl, 25. 7. 1892</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03901">Schnitzler an Herzl, 5. 8. 1892</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="8164"/>
+            </item>
+            <item corresp="L03901">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 5. 8. 1892</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1892-08-05" n="01">5. 8. 1892</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl,
+                  Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00111">Hofmannsthal
+                  an Schnitzler, 4. 8. [1892]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00112">Schnitzler an
+                  Hofmannsthal, 6. 8. 1892</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03823">Herzl an Schnitzler,
+                  29. 7. 1892</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03825">Herzl an Schnitzler, 10. 10. 1892</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03825">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 10. 10. 1892</title>
@@ -144,7 +235,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03822">Herzl an Schnitzler, 2. 10. 1886</ref>
+                          target="L03901">Schnitzler an Herzl, 5. 8. 1892</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -301,11 +392,39 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03831">Herzl an Schnitzler, 29. 6. 1893</ref>
+                          target="L03902">Schnitzler an Herzl, 21. 6. 1893</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="6518"/>
+            </item>
+            <item corresp="L03902">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 21. 6. 1893</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1893-06-21" n="01">21. 6. 1893</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00223">Beer-Hofmann an Schnitzler, [vor dem 22. 6. 1893?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00224">Conrad an Schnitzler, 21. 6. 1893</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03830">Herzl an Schnitzler, 15. 6. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03831">Herzl an Schnitzler, 29. 6. 1893</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03831">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 29. 6. 1893</title>
@@ -328,15 +447,71 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03830">Herzl an Schnitzler, 15. 6. 1893</ref>
+                          target="L03902">Schnitzler an Herzl, 21. 6. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03903">Schnitzler an Herzl, 1. 7. 1893</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="828"/>
+            </item>
+            <item corresp="L03903">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 1. 7. 1893</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1893-07-01" n="01">1. 7. 1893</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00228">Schnitzler an Beer-Hofmann, 30. 6. 1893</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00229">Bölsche an Schnitzler, 1. 7. 1893</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03831">Herzl an Schnitzler, 29. 6. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03904">Schnitzler an Herzl, 4. 8. 1893</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03904">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 4. 8. 1893</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1893-08-04" n="01">4. 8. 1893</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00249">Schnitzler an Beer-Hofmann, 3. 8. 1893</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03832">Herzl an Schnitzler, 6. 8. 1893</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03903">Schnitzler an Herzl, 1. 7. 1893</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03832">Herzl an Schnitzler, 6. 8. 1893</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="828"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03832">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 6. 8. 1893</title>
@@ -353,12 +528,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00249">Schnitzler an Beer-Hofmann, 3. 8. 1893</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03904">Schnitzler an Herzl, 4. 8. 1893</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02711">Goldmann an Schnitzler, 8. 8. 1893</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03831">Herzl an Schnitzler, 29. 6. 1893</ref>
+                          target="L03904">Schnitzler an Herzl, 4. 8. 1893</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -393,11 +568,69 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03833">Herzl an Schnitzler, 8. 12. 1893</ref>
+                          target="L03905">Schnitzler, Goldmann an Herzl, 19. 9. 1893</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="397"/>
+            </item>
+            <item corresp="L03905">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 19. 9. 1893</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <persName ref="#pmb11485">Goldmann, Paul</persName>
+                     <date when="1893-09-19" n="01">19. 9. 1893</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb662">Baden bei Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00264">Schnitzler, Goldmann an Beer-Hofmann, 18. 9. 1893</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00265">Bahr an Schnitzler, [19. 9. 1893?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03895">Herzl an Schnitzler, 12. 9. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03906">Schnitzler an Herzl, 28. 9. 1893</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03906">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 28. 9. 1893</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1893-09-28" n="01">28. 9. 1893</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02717">Goldmann an Schnitzler, 27. 9. [1893]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02718">Goldmann an Schnitzler, [zwischen 29. 9. und
+                  2. 10. 1893]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03905">Schnitzler, Goldmann an Herzl, 19. 9. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03833">Herzl an Schnitzler, 8. 12. 1893</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03833">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 8. 12. 1893</title>
@@ -415,19 +648,105 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02723">Goldmann an Schnitzler, 8. 12. [1893]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03907">Schnitzler an Herzl, 10. 12. 1893</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03906">Schnitzler an Herzl, 28. 9. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03907">Schnitzler an Herzl, 10. 12. 1893</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="483"/>
+            </item>
+            <item corresp="L03907">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 10. 12. 1893</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1893-12-10" n="01">10. 12. 1893</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03833">Herzl an Schnitzler, 8. 12. 1893</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00286">Hofmannsthal an Schnitzler, 15. 12. 1893</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03895">Herzl an Schnitzler, 12. 9. 1893</ref>
+                          target="L03833">Herzl an Schnitzler, 8. 12. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03898">Herzl an Schnitzler, 3. 7. 1894</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03898">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 3. 7. 1894</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1894-07-03" n="02">3. 7. 1894</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1894-07-04" notAfter="1894-07-08">[4. 7. 1894 – 8. 7. 1894?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02629">Goldmann an Schnitzler, 3. 7. [1894]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03140">Salten an Schnitzler, [3. 7. 1894]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03907">Schnitzler an Herzl, 10. 12. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03908">Schnitzler an Herzl, 5. 7. 1894</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="714"/>
+            </item>
+            <item corresp="L03908">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 5. 7. 1894</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1894-07-05" n="01">5. 7. 1894</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03140">Salten an Schnitzler, [3. 7. 1894]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00346">Altenberg an Schnitzler, [5.? 7. 1894]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03898">Herzl an Schnitzler, 3. 7. 1894</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03834">Herzl an Schnitzler, 4. 9. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="483"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03834">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 4. 9. 1894</title>
@@ -449,7 +768,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03833">Herzl an Schnitzler, 8. 12. 1893</ref>
+                          target="L03908">Schnitzler an Herzl, 5. 7. 1894</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -484,11 +803,39 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03836">Herzl an Schnitzler, 13. 11. 1894</ref>
+                          target="L03909">Schnitzler an Herzl, 10. 11. 1894</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="4400"/>
+            </item>
+            <item corresp="L03909">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 10. 11. 1894</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1894-11-10" n="02">10. 11. 1894</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00400">Schnitzler an Beer-Hofmann, 10. 11. 1894</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00401">Fels an Schnitzler, [12. 11. 1894]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03835">Herzl an Schnitzler, 8. 11. 1894</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03836">Herzl an Schnitzler, 13. 11. 1894</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03836">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 13. 11. 1894</title>
@@ -510,15 +857,43 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03835">Herzl an Schnitzler, 8. 11. 1894</ref>
+                          target="L03909">Schnitzler an Herzl, 10. 11. 1894</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03910">Schnitzler an Herzl, 17. 11. 1894</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="5584"/>
+            </item>
+            <item corresp="L03910">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 17. 11. 1894</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1894-11-17" n="01">17. 11. 1894</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00402">Beer-Hofmann an Schnitzler, 14. 11. 1894</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02620">Goldmann an Schnitzler, 18. 11. 1894</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03836">Herzl an Schnitzler, 13. 11. 1894</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03837">Herzl an Schnitzler, 27. 11. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="5584"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03837">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 27. 11. 1894</title>
@@ -540,15 +915,43 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03836">Herzl an Schnitzler, 13. 11. 1894</ref>
+                          target="L03910">Schnitzler an Herzl, 17. 11. 1894</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03911">Schnitzler an Herzl, 30. 11. 1894</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="4627"/>
+            </item>
+            <item corresp="L03911">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 30. 11. 1894</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1894-11-30" n="01">30. 11. 1894</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02622">Goldmann an Schnitzler, 28. 11. 1894</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02624">Goldmann an Schnitzler, 04. 12. 1894</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03837">Herzl an Schnitzler, 27. 11. 1894</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03838">Herzl an Schnitzler, 11. 12. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4627"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03838">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 11. 12. 1894</title>
@@ -570,15 +973,43 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03837">Herzl an Schnitzler, 27. 11. 1894</ref>
+                          target="L03911">Schnitzler an Herzl, 30. 11. 1894</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03912">Schnitzler an Herzl, 15. 12. 1894</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3388"/>
+            </item>
+            <item corresp="L03912">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 15. 12. 1894</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1894-12-15" n="01">15. 12. 1894</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00410">Saar an Schnitzler, 13. 12. 1894</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03839">Herzl an Schnitzler, 17. 12. 1894</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03838">Herzl an Schnitzler, 11. 12. 1894</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03839">Herzl an Schnitzler, 17. 12. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3388"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03839">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 17. 12. 1894</title>
@@ -595,20 +1026,48 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00410">Saar an Schnitzler, 13. 12. 1894</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03912">Schnitzler an Herzl, 15. 12. 1894</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02628">Goldmann an Schnitzler, 18. 12. [1894]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03838">Herzl an Schnitzler, 11. 12. 1894</ref>
+                          target="L03912">Schnitzler an Herzl, 15. 12. 1894</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03913">Schnitzler an Herzl, 19. 12. 1894</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2556"/>
+            </item>
+            <item corresp="L03913">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 19. 12. 1894</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1894-12-19" n="01">19. 12. 1894</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02628">Goldmann an Schnitzler, 18. 12. [1894]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00411">David an Schnitzler, 23. 12. 1894</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03839">Herzl an Schnitzler, 17. 12. 1894</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03840">Herzl an Schnitzler, 23. 12. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2556"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03840">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 23. 12. 1894</title>
@@ -626,19 +1085,47 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00411">David an Schnitzler, 23. 12. 1894</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03914">Schnitzler an Herzl, 26. 12. 1894</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03913">Schnitzler an Herzl, 19. 12. 1894</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03914">Schnitzler an Herzl, 26. 12. 1894</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1368"/>
+            </item>
+            <item corresp="L03914">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 26. 12. 1894</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1894-12-26" n="01">26. 12. 1894</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03840">Herzl an Schnitzler, 23. 12. 1894</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03841">Herzl an Schnitzler, 29. 12. 1894</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03839">Herzl an Schnitzler, 17. 12. 1894</ref>
+                          target="L03840">Herzl an Schnitzler, 23. 12. 1894</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03841">Herzl an Schnitzler, 29. 12. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1368"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03841">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 29. 12. 1894</title>
@@ -655,12 +1142,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03840">Herzl an Schnitzler, 23. 12. 1894</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03914">Schnitzler an Herzl, 26. 12. 1894</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00412">Hofmannsthal an Schnitzler, [30. 12. 1894?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03840">Herzl an Schnitzler, 23. 12. 1894</ref>
+                          target="L03914">Schnitzler an Herzl, 26. 12. 1894</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -756,11 +1243,39 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03845">Herzl an Schnitzler, 9. 1. 1895</ref>
+                          target="L03918">Schnitzler an Herzl, 7. 1. 189[5?]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="800"/>
+            </item>
+            <item corresp="L03918">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 7. 1. 189[5?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-01-07" n="01">7. 1. 189[5?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02726">Goldmann an Schnitzler, 5. 1. [1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03845">Herzl an Schnitzler, 9. 1. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03844">Herzl an Schnitzler, 4. 1. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03845">Herzl an Schnitzler, 9. 1. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03845">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 9. 1. 1895</title>
@@ -777,12 +1292,69 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02726">Goldmann an Schnitzler, 5. 1. [1895]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03918">Schnitzler an Herzl, 7. 1. 189[5?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02727">Goldmann an Schnitzler, 12. 1. [1895]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03844">Herzl an Schnitzler, 4. 1. 1895</ref>
+                          target="L03918">Schnitzler an Herzl, 7. 1. 189[5?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03919">Schnitzler an Herzl, 14. 1. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2856"/>
+            </item>
+            <item corresp="L03919">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 14. 1. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-01-14" n="01">14. 1. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02727">Goldmann an Schnitzler, 12. 1. [1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03148">Salten an Schnitzler, [14?. 1. 1895]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03845">Herzl an Schnitzler, 9. 1. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03920">Schnitzler an Herzl, 19. 1. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03920">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 19. 1. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-01-19" n="02">19. 1. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00415">Schnitzler an Beer-Hofmann, [19. 1. 1895?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02692">Goldmann an Schnitzler, [20. 1. 1895?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03919">Schnitzler an Herzl, 14. 1. 1895</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -790,8 +1362,7 @@
                   21. 1. 1895?]</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2856"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03893">
                <title level="a">Theodor Herzl an Arthur Schnitzler, [20. oder 21. 1. 1895?]</title>
@@ -816,7 +1387,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03845">Herzl an Schnitzler, 9. 1. 1895</ref>
+                          target="L03920">Schnitzler an Herzl, 19. 1. 1895</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -854,11 +1425,40 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03847">Herzl an Schnitzler, 1. 2. 1895</ref>
+                          target="L03921">Schnitzler an Herzl, 30. 1. 1895</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="820"/>
+            </item>
+            <item corresp="L03921">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 30. 1. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-01-30" n="01">30. 1. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00418">Beer-Hofmann an Schnitzler, 29. 1. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03847">Herzl an Schnitzler, 1. 2. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03846">Herzl an Schnitzler, [zwischen 20.  und
+                  23.?] 1. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03847">Herzl an Schnitzler, 1. 2. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03847">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 1. 2. 1895</title>
@@ -875,13 +1475,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00418">Beer-Hofmann an Schnitzler, 29. 1. 1895</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03921">Schnitzler an Herzl, 30. 1. 1895</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00419">Schnitzler an Beer-Hofmann, 6. 2. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03846">Herzl an Schnitzler, [zwischen 20.  und
-                  23.?] 1. 1895</ref>
+                          target="L03921">Schnitzler an Herzl, 30. 1. 1895</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -916,18 +1515,74 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03849">Herzl an Schnitzler, 18. 2. 1895</ref>
+                          target="L03924">Schnitzler an Herzl, 18. 2. 189[5]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="2866"/>
+            </item>
+            <item corresp="L03924">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 18. 2. 189[5]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-02-18" n="01">18. 2. 189[5]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00421">Beer-Hofmann an Schnitzler, [17. 2. 1895?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03923">Schnitzler an Herzl, 18. 2. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03848">Herzl an Schnitzler, 16. 2. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03923">Schnitzler an Herzl, 18. 2. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03923">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 18. 2. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-02-18" n="02">18. 2. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03924">Schnitzler an Herzl, 18. 2. 189[5]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03849">Herzl an Schnitzler, 18. 2. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03924">Schnitzler an Herzl, 18. 2. 189[5]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03849">Herzl an Schnitzler, 18. 2. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03849">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 18. 2. 1895</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
-                     <date when="1895-02-18" n="01">18. 2. 1895</date>
+                     <date when="1895-02-18" n="03">18. 2. 1895</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -937,12 +1592,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00421">Beer-Hofmann an Schnitzler, [17. 2. 1895?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03923">Schnitzler an Herzl, 18. 2. 1895</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03152">Salten an Schnitzler, 18. 2. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03848">Herzl an Schnitzler, 16. 2. 1895</ref>
+                          target="L03923">Schnitzler an Herzl, 18. 2. 1895</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -1070,11 +1725,40 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03854">Herzl an Schnitzler, 21. 3. 1895</ref>
+                          target="L03925">Schnitzler an Herzl, 9. 3. 1895</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1228"/>
+            </item>
+            <item corresp="L03925">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 9. 3. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-03-09" n="02">9. 3. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00424">Schnitzler an Beer-Hofmann, 9. 3. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00549">Schnitzler an Beer-Hofmann, [21. 3. 1895?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03853">Herzl an Schnitzler, [zwischen 8. und
+                  17. 3. 1895?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03854">Herzl an Schnitzler, 21. 3. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03854">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 21. 3. 1895</title>
@@ -1097,16 +1781,427 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03853">Herzl an Schnitzler, [zwischen 8. und
-                  17. 3. 1895?]</ref>
+                          target="L03925">Schnitzler an Herzl, 9. 3. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03855">Herzl an Schnitzler, 30. 3. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="433"/>
+            </item>
+            <item corresp="L03855">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 30. 3. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-03-30" n="01">30. 3. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-03-30" notAfter="1895-04-02">[30. 3. 1895
+                  – 2. 4. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00414">Schnitzler an Beer-Hofmann, [28. 3. 1895?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02733">Goldmann an Schnitzler, 3. 4. [1895]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03854">Herzl an Schnitzler, 21. 3. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03856">Herzl an Schnitzler, 3. 4. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="251"/>
+            </item>
+            <item corresp="L03856">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 3. 4. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-04-03" n="02">3. 4. 1895</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-04-04" notAfter="1895-04-08">[4. 4. 1895
+                  – 8. 4. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02733">Goldmann an Schnitzler, 3. 4. [1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03926">Schnitzler an Herzl, 6. 4. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03855">Herzl an Schnitzler, 30. 3. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03926">Schnitzler an Herzl, 6. 4. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3973"/>
+            </item>
+            <item corresp="L03926">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 6. 4. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-04-06" n="01">6. 4. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03856">Herzl an Schnitzler, 3. 4. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03857">Herzl an Schnitzler, 8. 4. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03856">Herzl an Schnitzler, 3. 4. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03857">Herzl an Schnitzler, 8. 4. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03857">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 8. 4. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-04-08" n="01">8. 4. 1895</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-04-09" notAfter="1895-04-13">[9. 4. 1895
+                  – 13. 4. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03926">Schnitzler an Herzl, 6. 4. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00428">Hofmannsthal an Schnitzler, 10. 4. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03926">Schnitzler an Herzl, 6. 4. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03858">Herzl an Schnitzler, 16. 4. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="905"/>
+            </item>
+            <item corresp="L03858">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 16. 4. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-04-16" n="01">16. 4. 1895</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-04-17" notAfter="1895-04-21">[17. 4. 1895 – 21. 4. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00428">Hofmannsthal an Schnitzler, 10. 4. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00429">Marholm an Schnitzler, 16. 4. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03857">Herzl an Schnitzler, 8. 4. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03928">Schnitzler an Herzl, 26. 4. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="423"/>
+            </item>
+            <item corresp="L03928">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 26. 4. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-04-26" n="01">26. 4. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00432">Kraus an Schnitzler, 25. 4. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03859">Herzl an Schnitzler, 26. 4. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03858">Herzl an Schnitzler, 16. 4. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03859">Herzl an Schnitzler, 26. 4. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03859">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 26. 4. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-04-26" n="02">26. 4. 1895</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-04-27" notAfter="1895-05-01">[27. 4. 1895 – 1. 5. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03928">Schnitzler an Herzl, 26. 4. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03927">Schnitzler an Herzl, 27. 4. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03928">Schnitzler an Herzl, 26. 4. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03927">Schnitzler an Herzl, 27. 4. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="602"/>
+            </item>
+            <item corresp="L03927">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 27. 4. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-04-27" n="01">27. 4. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03859">Herzl an Schnitzler, 26. 4. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00433">Andreas-Salomé an Schnitzler, 28. 4. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03859">Herzl an Schnitzler, 26. 4. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03929">Schnitzler an Herzl, 1. 5. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03929">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 1. 5. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-05-01" n="01">1. 5. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03154">Salten an Schnitzler, [30. 4.? 1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00435">Andreas-Salomé an Schnitzler, [1. 5. 1895]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03927">Schnitzler an Herzl, 27. 4. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03860">Herzl an Schnitzler, 5. 5. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03860">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 5. 5. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-05-05" n="01">5. 5. 1895</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-05-05" notAfter="1895-05-08">[5. 5. 1895
+                  – 8. 5. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00437">Beer-Hofmann an Schnitzler, [3.? 5. 1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00438">Bahr an Schnitzler, [8.? 5. 1895]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03929">Schnitzler an Herzl, 1. 5. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03930">Schnitzler an Herzl, 13. 5. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1531"/>
+            </item>
+            <item corresp="L03930">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 13. 5. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-05-13" n="02">13. 5. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00440">Schnitzler an Beer-Hofmann, 13. 5. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03861">Herzl an Schnitzler, 14. 5. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03860">Herzl an Schnitzler, 5. 5. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03861">Herzl an Schnitzler, 14. 5. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03861">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 14. 5. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-05-14" n="01">14. 5. 1895</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-05-15" notAfter="1895-05-19">[15. 5. 1895 – 19. 5. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03930">Schnitzler an Herzl, 13. 5. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00441">Marholm an Schnitzler, 15. 5. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03930">Schnitzler an Herzl, 13. 5. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03862">Herzl an Schnitzler, 19. 5. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="563"/>
+            </item>
+            <item corresp="L03862">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 19. 5. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-05-19" n="02">19. 5. 1895</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-05-20" notAfter="1895-05-24">[20. 5. 1895 – 24. 5. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02735">Goldmann an Schnitzler, 19. 5. [1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00444">Fels an Schnitzler, 20. 5. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03861">Herzl an Schnitzler, 14. 5. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03931">Schnitzler an Herzl, 21. 6. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1118"/>
+            </item>
+            <item corresp="L03931">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 21. 6. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-06-21" n="01">21. 6. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00455">Bahr an Schnitzler, [19. 6. 1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00456">Schnitzler an Beer-Hofmann, 22. 6. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03862">Herzl an Schnitzler, 19. 5. 1895</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03896">Herzl an Schnitzler, 23. 6. 1895</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="433"/>
+               <objectType corresp="xbrief"/>
             </item>
             <item corresp="L03896">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 23. 6. 1895</title>
@@ -1118,7 +2213,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1895-06-24" notAfter="1895-06-28">[24. 6. 1895 – 28. 6. 1895?]</date>
+                     <date evidence="conjecture" notBefore="1895-06-24" notAfter="1895-06-28">[24. 6. 1895
+                  – 28. 6. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1128,7 +2224,834 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03854">Herzl an Schnitzler, 21. 3. 1895</ref>
+                          target="L03931">Schnitzler an Herzl, 21. 6. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03932">Schnitzler an Herzl, 30. 6. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2329"/>
+            </item>
+            <item corresp="L03932">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 30. 6. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-06-30" n="01">30. 6. 1895</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02738">Goldmann an Schnitzler, 29. 6. [1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03157">Salten an Schnitzler, 30. 6. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03896">Herzl an Schnitzler, 23. 6. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03863">Herzl an Schnitzler, 20. 7. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03863">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 20. 7. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-07-20" n="01">20. 7. 1895</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-07-21" notAfter="1895-07-25">[21. 7. 1895 – 25. 7. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00464">Hofmannsthal an Schnitzler, 17. [7. 1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03159">Salten an Schnitzler, 22. 7. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03932">Schnitzler an Herzl, 30. 6. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03894">Herzl an Schnitzler, [zwischen 28. 7.  und 5. 8. 1895?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="331"/>
+            </item>
+            <item corresp="L03894">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, [zwischen 28. 7.  und 5. 8. 1895?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date notBefore="1895-07-28" notAfter="1895-08-05" n="02">[zwischen 28. 7.  und 5. 8. 1895?]</date>
+                     <placeName ref="#pmb415" evidence="internal">Bad Aussee</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1895-08-01" notAfter="1895-08-07">[Anfang August 1895]</date>
+                     <placeName ref="#pmb213" evidence="conjecture">Bad Ischl</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00467">Schnitzler an Hofmannsthal, 28. 7. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02742">Goldmann an Schnitzler, 29. 7. [1895]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03863">Herzl an Schnitzler, 20. 7. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03864">Herzl an Schnitzler, 25. 8. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="413"/>
+            </item>
+            <item corresp="L03864">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 25. 8. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-08-25" n="01">25. 8. 1895</date>
+                     <placeName ref="#pmb415">Bad Aussee</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <date when="1895-08-26">1895-08-26</date>
+                     <placeName ref="#pmb213" evidence="conjecture">Bad Ischl</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1895-08-27" notAfter="1895-09-07">[27. 8. 1895
+                  – 7. 9. 1895?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00477">Schnitzler an Beer-Hofmann, 24. 8. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00478">Schnitzler an Beer-Hofmann, 27. 8. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03894">Herzl an Schnitzler, [zwischen 28. 7.  und 5. 8. 1895?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03933">Schnitzler an Herzl, 16. 10. 1895</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="kartenbrief"/>
+               <measure unit="zeichenanzahl" quantity="458"/>
+            </item>
+            <item corresp="L03933">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 16. 10. 1895</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1895-10-16" n="01">16. 10. 1895</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02753">Goldmann an Schnitzler, 15. 10. [1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00507">Fels an Schnitzler, 16. 10. 1895</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03864">Herzl an Schnitzler, 25. 8. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03865">Herzl an Schnitzler, [9. 11. 1895?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03865">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, [9. 11. 1895?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1895-11-09" n="01">[9. 11. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1895-11-09" notAfter="1895-11-10">[9. 11. 1895 –
+                  10. 11. 1895?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00512">Schnitzler an Beer-Hofmann, 7. 11. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02755">Goldmann an Schnitzler, 13. 11. [1895]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03933">Schnitzler an Herzl, 16. 10. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03866">Herzl an Schnitzler, 8. 4. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="visitenkarte"/>
+               <measure unit="zeichenanzahl" quantity="225"/>
+            </item>
+            <item corresp="L03866">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 8. 4. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1896-04-08" n="01">8. 4. 1896</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1896-04-09" notAfter="1896-04-13">[9. 4. 1896 – 13. 4. 1896?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02770">Goldmann an Schnitzler, 2. 4. [1896]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02771">Goldmann an Schnitzler, 9. [4.] 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03865">Herzl an Schnitzler, [9. 11. 1895?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03915">Schnitzler an Herzl, 24. 4. 1896</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="199"/>
+            </item>
+            <item corresp="L03915">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 24. 4. 1896</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1896-04-24" n="01">24. 4. 1896</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00541">Brandes an Schnitzler, 22. 4. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00542">Schnitzler an Brandes, 25. 4. 1896</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03866">Herzl an Schnitzler, 8. 4. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03867">Herzl an Schnitzler, 9. 12. 1898</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03867">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 9. 12. 1898</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1898-12-09" n="01">9. 12. 1898</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1898-12-09" notAfter="1898-12-12">[9. 12. 1898
+                  – 12. 12. 1898?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03606">Schnitzler an Salten, 8. 12. 1898</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00866">Schnitzler an Bahr, 10. 12. 1898</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03915">Schnitzler an Herzl, 24. 4. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03868">Herzl an Schnitzler, 6. 11. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="577"/>
+            </item>
+            <item corresp="L03868">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 6. 11. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1899-11-06" n="01">6. 11. 1899</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-11-06" notAfter="1899-11-09">[6. 11. 1899 – 9. 11. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00993">Hofmannsthal an Schnitzler, [28. 10. 1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02893">Goldmann an Schnitzler, 12. 11. [1899]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03867">Herzl an Schnitzler, 9. 12. 1898</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03869">Herzl an Schnitzler, 8. 12. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="206"/>
+            </item>
+            <item corresp="L03869">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 8. 12. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1899-12-08" n="01">8. 12. 1899</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-12-08" notAfter="1899-12-11">[8. 12. 1899 – 11. 12. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02897">Goldmann an Schnitzler, 6. 12. [1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02898">Goldmann an Schnitzler, 11. 12. [1899]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03868">Herzl an Schnitzler, 6. 11. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03870">Herzl an Schnitzler, 12. 12. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="135"/>
+            </item>
+            <item corresp="L03870">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 12. 12. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1899-12-12" n="01">12. 12. 1899</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-12-12" notAfter="1899-12-15">[12. 12. 1899 – 15. 12. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02898">Goldmann an Schnitzler, 11. 12. [1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02899">Goldmann an Schnitzler, 13. 12. [1899]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03869">Herzl an Schnitzler, 8. 12. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03940">Schnitzler an Herzl, 14. 1. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="198"/>
+            </item>
+            <item corresp="L03940">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 14. 1. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1900-01-14" n="01">14. 1. 1900</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02902">Goldmann, Glümer, Chlum, Coschell an Schnitzler, 11. 1. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02903">Goldmann an Schnitzler, 23. 1. [1900]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03870">Herzl an Schnitzler, 12. 12. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03871">Herzl an Schnitzler, 8. 5. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03871">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 8. 5. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1900-05-08" n="01">8. 5. 1900</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-05-08" notAfter="1900-05-11">[8. 5. 1900 – 11. 5. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01035">Hofmannsthal an Schnitzler, 6. 5. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02915">Goldmann an Schnitzler, 10. 5. [1900]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03940">Schnitzler an Herzl, 14. 1. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03872">Herzl an Schnitzler, 14. 11. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="118"/>
+            </item>
+            <item corresp="L03872">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 14. 11. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1900-11-14" n="01">14. 11. 1900</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-11-14" notAfter="1900-11-17">[14. 11. 1900 – 17. 11. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02938">Goldmann an Schnitzler, 12. 11. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03937">Schnitzler an Herzl, 15. 11. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03871">Herzl an Schnitzler, 8. 5. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03937">Schnitzler an Herzl, 15. 11. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="108"/>
+            </item>
+            <item corresp="L03937">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 15. 11. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1900-11-15" n="01">15. 11. 1900</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03872">Herzl an Schnitzler, 14. 11. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03873">Herzl an Schnitzler, 16. 11. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03872">Herzl an Schnitzler, 14. 11. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03873">Herzl an Schnitzler, 16. 11. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03873">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 16. 11. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1900-11-16" n="01">16. 11. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-11-16" notAfter="1900-11-19">[16. 11. 1900 – 19. 11. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03937">Schnitzler an Herzl, 15. 11. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03936">Schnitzler an Herzl, 17. 11. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03937">Schnitzler an Herzl, 15. 11. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03936">Schnitzler an Herzl, 17. 11. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="449"/>
+            </item>
+            <item corresp="L03936">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 17. 11. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1900-11-17" n="01">17. 11. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03873">Herzl an Schnitzler, 16. 11. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02939">Goldmann an Schnitzler, 20. 11. [1900]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03873">Herzl an Schnitzler, 16. 11. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03935">Schnitzler an Herzl, 3. 12. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03935">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 3. 12. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1900-12-03" n="01">3. 12. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02942">Goldmann an Schnitzler, 2. 12. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02943">Goldmann an Schnitzler, 3. 12. [1900]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03936">Schnitzler an Herzl, 17. 11. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03874">Herzl an Schnitzler, 5. 12. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03874">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 5. 12. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1900-12-05" n="01">5. 12. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-12-05" notAfter="1900-12-08">[5. 12. 1900 – 8. 12. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01084">Schnitzler an Hofmannsthal, 4. 12. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01085">Schnitzler an Bahr, [6.] 12. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03935">Schnitzler an Herzl, 3. 12. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03875">Herzl an Schnitzler, 6. 12. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="237"/>
+            </item>
+            <item corresp="L03875">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 6. 12. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1900-12-06" n="02">6. 12. 1900</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-12-06" notAfter="1900-12-09">[6. 12. 1900
+                  – 9. 12. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01085">Schnitzler an Bahr, [6.] 12. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02944">Goldmann an Schnitzler, 9. 12. [1900]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03874">Herzl an Schnitzler, 5. 12. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03876">Herzl an Schnitzler, 21. 12. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="192"/>
+            </item>
+            <item corresp="L03876">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 21. 12. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1900-12-21" n="02">21. 12. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-12-21" notAfter="1900-12-24">[21. 12. 1900 – 24. 12. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01086">Bahr an Schnitzler, 21. 12. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01087">Hofmannsthal an Schnitzler, 21. 12. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03875">Herzl an Schnitzler, 6. 12. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03938">Schnitzler an Herzl, 22. 12. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="458"/>
+            </item>
+            <item corresp="L03938">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 22. 12. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1900-12-22" n="01">22. 12. 1900</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01087">Hofmannsthal an Schnitzler, 21. 12. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01088">Hofmannsthal an Schnitzler, 22. 12. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03876">Herzl an Schnitzler, 21. 12. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03877">Herzl an Schnitzler, 23. 12. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03877">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 23. 12. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1900-12-23" n="01">23. 12. 1900</date>
+                     <placeName ref="#50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <placeName ref="#50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01088">Hofmannsthal an Schnitzler, 22. 12. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03939">Schnitzler an Herzl, 24. 12. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03938">Schnitzler an Herzl, 22. 12. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03939">Schnitzler an Herzl, 24. 12. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+            </item>
+            <item corresp="L03939">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 24. 12. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1900-12-24" n="01">24. 12. 1900</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03877">Herzl an Schnitzler, 23. 12. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02946">Goldmann an Schnitzler, 27. 12. [1900]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03877">Herzl an Schnitzler, 23. 12. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03916">Schnitzler an Herzl, XXXX</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="xbrief"/>
+            </item>
+            <item corresp="L03878">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 5. 3. 1901</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1901-03-05" n="01">5. 3. 1901</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1901-03-05" notAfter="1901-03-08">[5. 3. 1901 – 8. 3. 1901?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03060">Goldmann an Schnitzler, 2. 3. [1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03526">Goldmann an Gussmann, 9. 3. [1901]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03916">Schnitzler an Herzl, XXXX</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03879">Herzl an Schnitzler, 11. 4. 1901</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="229"/>
+            </item>
+            <item corresp="L03879">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 11. 4. 1901</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1901-04-11" n="01">11. 4. 1901</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1901-04-19">[19. 4. 1901?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01107">Schnitzler an Beer-Hofmann, 9. 4. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01108">Schnitzler an Beer-Hofmann, 13. 4. 1901</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03878">Herzl an Schnitzler, 5. 3. 1901</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03828">Herzl an Schnitzler, 3. 5. 1901</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="186"/>
+            </item>
+            <item corresp="L03828">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, 3. 5. 1901</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1901-05-03" n="01">3. 5. 1901</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1901-05-03" notAfter="1901-05-06">[3. 5. 1901 – 6. 5. 1901?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03530">Goldmann an Gussmann, 29. 4. [1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03065">Goldmann an Schnitzler, 7. 5. [1901]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03879">Herzl an Schnitzler, 11. 4. 1901</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -1136,7 +3059,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2329"/>
+               <measure unit="zeichenanzahl" quantity="181"/>
             </item>
             <item corresp="L03765">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 25. 11. 1901</title>
@@ -1158,11 +3081,39 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03896">Herzl an Schnitzler, 23. 6. 1895</ref>
+                          target="L03828">Herzl an Schnitzler, 3. 5. 1901</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03899">Herzl an Schnitzler, [28. 2. 1902]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="160"/>
+            </item>
+            <item corresp="L03899">
+               <title level="a">Theodor Herzl an Arthur Schnitzler, [28. 2. 1902]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date when="1902-02-28" n="02">[28. 2. 1902]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1902-02-28" notAfter="1902-03-03">[28. 2. 1902 – 3. 3. 1902?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01206">Schnitzler an Beer-Hofmann, 26. 2. 1902</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01207">Bahr an Schnitzler, 8. 3. [1902]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03765">Herzl an Schnitzler, 25. 11. 1901</ref>
+                  </correspContext>
+               </correspDesc>
             </item>
          </list>
       </body>
