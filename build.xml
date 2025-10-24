@@ -29,21 +29,6 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt style="./statistiken/xslts/1-karte-toc_map.xsl" basedir="./statistiken/inputs"
-        destdir="./statistiken/karte1" includes="statisti*.xml" extension=".xml">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt style="./statistiken/xslts/2-karte-toc_map.xsl" basedir="./statistiken/inputs"
-        destdir="./statistiken/karte2" includes="statisti*.xml" extension=".xml">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt style="./statistiken/xslts/3-karte-toc_map.xsl" basedir="./statistiken/inputs"
-        destdir="./statistiken/karte3" includes="statisti*.xml" extension=".xml">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
     <xslt style="./statistiken/xslts/karte-json.xsl"
         in="./statistiken/inputs/statistik_toc_10762.xml" out="${tmpDir}/karte-dummy.txt">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
