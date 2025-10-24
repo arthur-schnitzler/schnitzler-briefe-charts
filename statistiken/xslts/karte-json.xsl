@@ -24,7 +24,9 @@
                 <xsl:text>"&#10;</xsl:text>
                 <xsl:text>  },&#10;</xsl:text>
                 <xsl:text>  "letters": [</xsl:text>
-                <xsl:apply-templates select="$current-doc/tei:list/tei:item"/>
+                <xsl:apply-templates select="$current-doc/tei:list/tei:item">
+                    <xsl:with-param name="korrespondenz-id" select="$korrespondenz-nummer"/>
+                </xsl:apply-templates>
                 <xsl:text>&#10;  ]&#10;</xsl:text>
                 <xsl:text>}</xsl:text>
             </xsl:result-document>
@@ -32,6 +34,7 @@
     </xsl:template>
 
     <xsl:template match="tei:item">
+        <xsl:param name="korrespondenz-id"/>
         <xsl:if test="position() > 1">
             <xsl:text>,</xsl:text>
         </xsl:if>
@@ -44,7 +47,30 @@
 
         <!-- Titel -->
         <xsl:text>      "title": "</xsl:text>
-        <xsl:value-of select="replace(tei:title[@level='a'], '&quot;', '\\&quot;')"/>
+        <xsl:value-of select="normalize-space(replace(replace(tei:title[@level='a'], '&quot;', '\\&quot;'), '&#xA;', ' '))"/>
+        <xsl:text>",&#10;</xsl:text>
+
+        <!-- Typ: von wem der Brief ist -->
+        <xsl:variable name="sender-ref" select="replace(tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[1]/@ref, '#', '')"/>
+        <xsl:variable name="receiver-ref" select="replace(tei:correspDesc/tei:correspAction[@type='received']/tei:persName[1]/@ref, '#', '')"/>
+        <xsl:text>      "type": "</xsl:text>
+        <xsl:choose>
+            <xsl:when test="$sender-ref = 'pmb2121' and $receiver-ref = $korrespondenz-id">
+                <xsl:text>von schnitzler</xsl:text>
+            </xsl:when>
+            <xsl:when test="$sender-ref = $korrespondenz-id and $receiver-ref = 'pmb2121'">
+                <xsl:text>von partner</xsl:text>
+            </xsl:when>
+            <xsl:when test="$sender-ref = 'pmb2121'">
+                <xsl:text>umfeld schnitzler</xsl:text>
+            </xsl:when>
+            <xsl:when test="$sender-ref = $korrespondenz-id">
+                <xsl:text>umfeld partner</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>umfeld</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>",&#10;</xsl:text>
 
         <!-- Datum -->
@@ -99,10 +125,24 @@
                 <xsl:value-of select="$sent-place-ref"/>
                 <xsl:text>",&#10;</xsl:text>
                 <xsl:text>        "lat": </xsl:text>
-                <xsl:value-of select="replace(tokenize($absender-geo, ' ')[1], ',', '.')"/>
+                <xsl:choose>
+                    <xsl:when test="tokenize($absender-geo, ' ')[1] != ''">
+                        <xsl:value-of select="replace(tokenize($absender-geo, ' ')[1], ',', '.')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>null</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:text>,&#10;</xsl:text>
                 <xsl:text>        "lon": </xsl:text>
-                <xsl:value-of select="replace(tokenize($absender-geo, ' ')[2], ',', '.')"/>
+                <xsl:choose>
+                    <xsl:when test="tokenize($absender-geo, ' ')[2] != ''">
+                        <xsl:value-of select="replace(tokenize($absender-geo, ' ')[2], ',', '.')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>null</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:text>&#10;</xsl:text>
                 <xsl:text>      }</xsl:text>
             </xsl:when>
@@ -129,10 +169,24 @@
                 <xsl:value-of select="$received-place-ref"/>
                 <xsl:text>",&#10;</xsl:text>
                 <xsl:text>        "lat": </xsl:text>
-                <xsl:value-of select="replace(tokenize($empfaenger-geo, ' ')[1], ',', '.')"/>
+                <xsl:choose>
+                    <xsl:when test="tokenize($empfaenger-geo, ' ')[1] != ''">
+                        <xsl:value-of select="replace(tokenize($empfaenger-geo, ' ')[1], ',', '.')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>null</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:text>,&#10;</xsl:text>
                 <xsl:text>        "lon": </xsl:text>
-                <xsl:value-of select="replace(tokenize($empfaenger-geo, ' ')[2], ',', '.')"/>
+                <xsl:choose>
+                    <xsl:when test="tokenize($empfaenger-geo, ' ')[2] != ''">
+                        <xsl:value-of select="replace(tokenize($empfaenger-geo, ' ')[2], ',', '.')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>null</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:text>&#10;</xsl:text>
                 <xsl:text>      }</xsl:text>
             </xsl:when>
