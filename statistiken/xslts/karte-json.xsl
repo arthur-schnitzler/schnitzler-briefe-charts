@@ -52,28 +52,26 @@
             <xsl:choose>
                 <!-- 1 Der Brief ist von Schnitzler an den Partner -->
                 <xsl:when
-                    test="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[@ref = '#pmb2121'] and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
+                    test="tei:correspDesc[1]/tei:correspAction[@type = 'sent'][1]/tei:persName[@ref = '#pmb2121'][1] and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id][1]">
                     <xsl:text>von schnitzler</xsl:text>
                 </xsl:when>
                 <!-- 2 Der Brief ist vom Partner an Schnitzler -->
                 <xsl:when
-                    test="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id] and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[@ref = '#pmb2121']">
+                    test="tei:correspDesc[1]/tei:correspAction[@type = 'sent'][1]/tei:persName[replace(@ref, '#', '') = $korrespondenz-id][1] and tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[@ref = '#pmb2121'][1]">
                     <xsl:text>von partner</xsl:text>
                 </xsl:when>
                 <!-- 3 Der Brief ist an den Partner gerichtet, kann nicht von Schnitzler sein, also kommt er aus Schnitzlers Umfeld -->
                 <xsl:when
-                    test="tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
+                    test="tei:correspDesc[1]/tei:correspAction[@type = 'received'][1]/tei:persName[replace(@ref, '#', '') = $korrespondenz-id][1]">
                     <xsl:text>umfeld schnitzler</xsl:text>
                 </xsl:when>
                 <!-- 4 Der Brief ist an Schnitzler gerichtet, aber nicht vom Partner, also kommt er aus dem Umfeld des Partners -->
                 <xsl:when
-                    test="tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[@ref = '#pmb2121']">
+                    test="tei:correspDesc[1]/tei:correspAction[@type = 'received'][1]/tei:persName[@ref = '#pmb2121'][1]">
                     <xsl:text>umfeld partner</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
-                                               <xsl:text>umfeld partner</xsl:text>
-             <xsl:text>umfeld</xsl:text>
-
+                    <xsl:text>umfeld</xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
