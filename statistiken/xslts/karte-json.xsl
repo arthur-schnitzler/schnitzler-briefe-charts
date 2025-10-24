@@ -96,21 +96,61 @@
         <!-- Absender -->
         <xsl:text>      "sender": {&#10;</xsl:text>
         <xsl:text>        "name": "</xsl:text>
-        <xsl:value-of select="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[1]"/>
+        <xsl:choose>
+            <xsl:when test="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[@ref='#pmb2121']">
+                <xsl:text>Schnitzler, Arthur</xsl:text>
+            </xsl:when>
+            <xsl:when test="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
+                <xsl:value-of select="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[1]"/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>",&#10;</xsl:text>
         <xsl:text>        "ref": "</xsl:text>
-        <xsl:value-of
-            select="replace(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[1]/@ref, '#', '')"/>
+        <xsl:choose>
+            <xsl:when test="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[@ref='#pmb2121']">
+                <xsl:text>pmb2121</xsl:text>
+            </xsl:when>
+            <xsl:when test="tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
+                <xsl:value-of select="$korrespondenz-id"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="replace(tei:correspDesc/tei:correspAction[@type = 'sent']/tei:persName[1]/@ref, '#', '')"/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>"&#10;</xsl:text>
         <xsl:text>      },&#10;</xsl:text>
         <!-- Empfänger -->
         <xsl:text>      "receiver": {&#10;</xsl:text>
         <xsl:text>        "name": "</xsl:text>
-        <xsl:value-of select="tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[1]"/>
+        <xsl:choose>
+            <xsl:when test="tei:correspDesc/tei:correspAction[@type = 'reveived']/tei:persName[@ref='#pmb2121']">
+                <xsl:text>Schnitzler, Arthur</xsl:text>
+            </xsl:when>
+            <xsl:when test="tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
+                <xsl:value-of select="tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[1]"/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>",&#10;</xsl:text>
         <xsl:text>        "ref": "</xsl:text>
-        <xsl:value-of
-            select="replace(tei:correspDesc/tei:correspAction[@type = 'received']/tei:persName[1]/@ref, '#', '')"/>
+        <xsl:choose>
+            <xsl:when test="tei:correspDesc/tei:correspAction[@type = 'reveived']/tei:persName[@ref='#pmb2121']">
+                <xsl:text>pmb2121</xsl:text>
+            </xsl:when>
+            <xsl:when test="tei:correspDesc/tei:correspAction[@type = 'reveived']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
+                <xsl:value-of select="$korrespondenz-id"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of
+                    select="replace(tei:correspDesc/tei:correspAction[@type = 'reveived']/tei:persName[1]/@ref, '#', '')"/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>"&#10;</xsl:text>
         <xsl:text>      },&#10;</xsl:text>
         <!-- Absenderort -->
