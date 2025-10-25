@@ -45,11 +45,6 @@
         <xsl:value-of select="@corresp"/>
         <xsl:text>",&#10;</xsl:text>
 
-        <!-- DEBUG: Korrespondenz-ID ausgeben -->
-        <xsl:text>      "debug_korrespondenz_id": "</xsl:text>
-        <xsl:value-of select="$korrespondenz-id"/>
-        <xsl:text>",&#10;</xsl:text>
-
         <!-- Titel -->
         <xsl:text>      "title": "</xsl:text>
         <xsl:value-of select="normalize-space(replace(replace(tei:title[@level='a'], '&quot;', '\\&quot;'), '&#xA;', ' '))"/>
