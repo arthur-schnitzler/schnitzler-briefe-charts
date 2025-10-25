@@ -374,8 +374,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12071">Liliencron, Detlev von</ref>
-                     <ref type="belongsToCorrespondence" target="correspondence_11988">Kraus, Karl</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_11988">Kraus, Karl</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01390">Hofmannsthal an Schnitzler, [9. 4. 1904]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02991">Schnitzler an Salten, 13. 4. 1904</ref>
                      <ref subtype="previous_letter"
@@ -388,20 +388,20 @@
                           target="L01735">Wymetal, Liliencron, Stefan, Kurzweil, Markowitz, Goldschmied an Schnitzler, 27. 11. [1907]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
-                          source="correspondence_11988"
-                          target="L00432">Kraus an Schnitzler, 25. 4. 1895</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_11988"
-                          target="L01754">Kraus an Schnitzler, 20. 1. 1908</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
                           source="correspondence_2147"
                           target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, 30. 4. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
                           target="L01839">Altenberg an Schnitzler, [17. 4. 1909]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11988"
+                          target="L00432">Kraus an Schnitzler, 25. 4. 1895</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11988"
+                          target="L01754">Kraus an Schnitzler, 20. 1. 1908</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte"/>
@@ -628,42 +628,11 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L02123">Engländer an Schnitzler, 18. 4. 1913</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1776"/>
-            </item>
-            <item corresp="L02123">
-               <title level="a">Georg Engländer an Arthur Schnitzler, 18. 4. 1913</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2260">Engländer, Georg</persName>
-                     <date when="1913-04-18" n="02">18. 4. 1913</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1913-04-18" notAfter="1913-04-20">[18. 4. 1913
-                  – 22. 4. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02122">Schnitzler an Bahr, 18. 4. 1913</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02124">Altenberg an Schnitzler, [19.? 4. 1913]</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02120">Altenberg, Engländer an Schnitzler, [Mitte April] 1913</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
                           target="L02124">Altenberg an Schnitzler, [19.? 4. 1913]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2673"/>
+               <measure unit="zeichenanzahl" quantity="1776"/>
             </item>
             <item corresp="L02124">
                <title level="a">Peter Altenberg an Arthur Schnitzler, [19.? 4. 1913]</title>
@@ -686,46 +655,15 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L02123">Engländer an Schnitzler, 18. 4. 1913</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02125">Schnitzler an Engländer, 20. 4. 1913</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="554"/>
-            </item>
-            <item corresp="L02125">
-               <title level="a">Arthur Schnitzler an Georg Engländer, 20. 4. 1913</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1913-04-20" n="01">20. 4. 1913</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2260">Engländer, Georg</persName>
-                     <date evidence="conjecture" notBefore="1913-04-20" notAfter="1913-04-22">[20. 4. 1913
-                  – 24. 4. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02124">Altenberg an Schnitzler, [19.? 4. 1913]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02126">Altenberg an Schnitzler, [20.?] 4. 1913</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02124">Altenberg an Schnitzler, [19.? 4. 1913]</ref>
+                          target="L02120">Altenberg, Engländer an Schnitzler, [Mitte April] 1913</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
                           target="L02126">Altenberg an Schnitzler, [20.?] 4. 1913</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="290"/>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="554"/>
             </item>
             <item corresp="L02126">
                <title level="a">Peter Altenberg an Arthur Schnitzler, [20.?] 4. 1913</title>
@@ -748,7 +686,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L02125">Schnitzler an Engländer, 20. 4. 1913</ref>
+                          target="L02124">Altenberg an Schnitzler, [19.? 4. 1913]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
@@ -814,42 +752,11 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L02131">Engländer an Schnitzler, 25. 4. 1913</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1577"/>
-            </item>
-            <item corresp="L02131">
-               <title level="a">Georg Engländer an Arthur Schnitzler, 25. 4. 1913</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2260">Engländer, Georg</persName>
-                     <date when="1913-04-25" n="01">25. 4. 1913</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1913-04-25" notAfter="1913-04-27">[25. 4. 1913
-                  – 29. 4. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02130">Bahr an Schnitzler, 23. 4. 1913</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02132">Schnitzler an Bahr, 2[5]. 4. 1913</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02128">Schnitzler an Altenberg, 22. 4. 1913</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
                           target="L02133">Altenberg an Schnitzler, [26. 4. 1913]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1229"/>
+               <measure unit="zeichenanzahl" quantity="1577"/>
             </item>
             <item corresp="L02133">
                <title level="a">Peter Altenberg an Arthur Schnitzler, [26. 4. 1913]</title>
@@ -872,103 +779,11 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L02131">Engländer an Schnitzler, 25. 4. 1913</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02318">Schnitzler an Engländer, 10. 1. 1919</ref>
+                          target="L02128">Schnitzler an Altenberg, 22. 4. 1913</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1024"/>
-            </item>
-            <item corresp="L02318">
-               <title level="a">Arthur Schnitzler an Georg Engländer, 10. 1. 1919</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1919-01-10" n="01">10. 1. 1919</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2260">Engländer, Georg</persName>
-                     <date when="1919-02-26">26. 2. 1919</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02317">Hofmannsthal an Schnitzler, 21. 12. [1918?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02319">Adam an Schnitzler, 17. 1. 1919</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02133">Altenberg an Schnitzler, [26. 4. 1913]</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02321">Engländer an Schnitzler, 27. 2. 1919</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1092"/>
-            </item>
-            <item corresp="L02321">
-               <title level="a">Georg Engländer an Arthur Schnitzler, 27. 2. 1919</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2260">Engländer, Georg</persName>
-                     <date when="1919-02-27" n="01">27. 2. 1919</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1919-02-27" notAfter="1919-03-01">[27. 2. 1919
-                  – 3. 3. 1919?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02320">Schnitzler an Adam, 21. 1. 1919</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02322">Schnitzler an Engländer, 3. 3. 1919</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02318">Schnitzler an Engländer, 10. 1. 1919</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02322">Schnitzler an Engländer, 3. 3. 1919</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1405"/>
-            </item>
-            <item corresp="L02322">
-               <title level="a">Arthur Schnitzler an Georg Engländer, 3. 3. 1919</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1919-03-03" n="01">3. 3. 1919</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2260">Engländer, Georg</persName>
-                     <date evidence="conjecture" notBefore="1919-03-03" notAfter="1919-03-05">[3. 3. 1919
-                  – 7. 3. 1919?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02321">Engländer an Schnitzler, 27. 2. 1919</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03760">Schnitzler an Zweig, 10. 4. 1919</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_2147"
-                          target="L02321">Engländer an Schnitzler, 27. 2. 1919</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="572"/>
             </item>
          </list>
       </body>
