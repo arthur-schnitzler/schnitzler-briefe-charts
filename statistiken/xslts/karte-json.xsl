@@ -15,8 +15,9 @@
                 select="replace($current-doc/tei:list[1]/tei:item[not(descendant::tei:ref[@type = 'belongsToCorrespondence'][2])][1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref[@type = 'belongsToCorrespondence'][1]/@target, 'correspondence_', 'pmb')"/>
             <xsl:variable name="korrespondenzpartner-name"
                 select="$current-doc/tei:list[1]/tei:item[not(descendant::tei:ref[@type = 'belongsToCorrespondence'][2])][1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref[@type = 'belongsToCorrespondence'][1]/text()"/>
-            <xsl:message>Creating karte_{$korrespondenz-nummer}.json for <xsl:value-of select="$korrespondenzpartner-name"/></xsl:message>
-            <xsl:result-document href="../karte/karte_{$korrespondenz-nummer}.json">
+            <xsl:variable name="output-path" select="resolve-uri(concat('../karte/karte_', $korrespondenz-nummer, '.json'), static-base-uri())"/>
+            <xsl:message>Creating <xsl:value-of select="$output-path"/> for <xsl:value-of select="$korrespondenzpartner-name"/></xsl:message>
+            <xsl:result-document href="{$output-path}">
                 <xsl:text>{&#10;</xsl:text>
                 <xsl:text>  "correspondent": {&#10;</xsl:text>
                 <xsl:text>    "id": "</xsl:text>
