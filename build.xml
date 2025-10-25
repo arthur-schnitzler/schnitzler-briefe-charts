@@ -29,6 +29,7 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <mkdir dir="./statistiken/karte"/>
     <xslt style="./statistiken/xslts/karte-json.xsl"
         in="./statistiken/inputs/statistik_toc_10762.xml" out="${tmpDir}/karte-dummy.txt">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
