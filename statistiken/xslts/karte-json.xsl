@@ -4,8 +4,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0">
     <xsl:output method="text" indent="true"/>
     <xsl:template name="main">
+        <xsl:variable name="files" select="collection('../inputs/?select=statistik_toc_*.xml')"/>
+        <xsl:message>Found <xsl:value-of select="count($files)"/> statistik_toc files</xsl:message>
         <xsl:for-each
-            select="distinct-values(collection('../inputs/?select=statistik_toc_*.xml')/document-uri(.))">
+            select="distinct-values($files/document-uri(.))">
             <xsl:variable name="current-uri" select="."/>
             <xsl:variable name="current-doc"
                 select="document($current-uri)/tei:TEI/tei:text[1]/tei:body[1]"/>
@@ -13,6 +15,7 @@
                 select="replace($current-doc/tei:list[1]/tei:item[not(descendant::tei:ref[@type = 'belongsToCorrespondence'][2])][1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref[@type = 'belongsToCorrespondence'][1]/@target, 'correspondence_', 'pmb')"/>
             <xsl:variable name="korrespondenzpartner-name"
                 select="$current-doc/tei:list[1]/tei:item[not(descendant::tei:ref[@type = 'belongsToCorrespondence'][2])][1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref[@type = 'belongsToCorrespondence'][1]/text()"/>
+            <xsl:message>Creating karte_{$korrespondenz-nummer}.json for <xsl:value-of select="$korrespondenzpartner-name"/></xsl:message>
             <xsl:result-document href="../karte/karte_{$korrespondenz-nummer}.json">
                 <xsl:text>{&#10;</xsl:text>
                 <xsl:text>  "correspondent": {&#10;</xsl:text>
