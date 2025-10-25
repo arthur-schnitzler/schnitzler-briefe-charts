@@ -1203,7 +1203,7 @@
     {
       "id": "L00277",
       "title": "Hugo von Hofmannsthal und Felix Salten an Arthur Schnitzler, [27. 10. 1893]",
-      "type": "umfeld",
+      "type": "von partner",
       "date": "1893-10-27",
       "sender": {
         "name": "Hofmannsthal, Hugo von",
@@ -2628,7 +2628,7 @@
     {
       "id": "L00576",
       "title": "Felix Salten und Hugo von Hofmannsthal an Arthur Schnitzler und Richard Beer-Hofmann, 1. 8. 1896",
-      "type": "umfeld",
+      "type": "von partner",
       "date": "1896-08-01",
       "sender": {
         "name": "Hofmannsthal, Hugo von",
@@ -5408,32 +5408,6 @@
       }
     },
     {
-      "id": "L03100",
-      "title": "Ottilie Salten an Arthur Schnitzler, [24. 5. 1902?]",
-      "type": "umfeld",
-      "date": "1902-05-24",
-      "sender": {
-        "name": "Salten, Ottilie",
-        "ref": "pmb23918"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
       "id": "L02974",
       "title": "Arthur Schnitzler an Felix Salten, 27. 5. 1902",
       "type": "von schnitzler",
@@ -7572,32 +7546,6 @@
       "receiver": {
         "name": "Salten, Felix",
         "ref": "pmb2167"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L03027",
-      "title": "Arthur Schnitzler an Ottilie Salten, 14. 1. 1906",
-      "type": "umfeld schnitzler",
-      "date": "1906-01-14",
-      "sender": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "receiver": {
-        "name": "Salten, Ottilie",
-        "ref": "pmb23918"
       },
       "from": {
         "name": "Wien",
@@ -10184,7 +10132,7 @@
     {
       "id": "L03560",
       "title": "Felix Salten an Olga Schnitzler, 2. 9. 1912",
-      "type": "umfeld partner",
+      "type": "umfeld schnitzler",
       "date": "1912-09-02",
       "sender": {
         "name": "Salten, Felix",
@@ -11172,11 +11120,11 @@
     {
       "id": "L03581",
       "title": "Ottilie und Felix Salten an Arthur Schnitzler, [Anfang April 1927?]",
-      "type": "umfeld",
+      "type": "von partner",
       "date": null,
       "sender": {
-        "name": "Salten, Ottilie",
-        "ref": "pmb23918"
+        "name": "Salten, Felix",
+        "ref": "pmb2167"
       },
       "receiver": {
         "name": "Schnitzler, Arthur",

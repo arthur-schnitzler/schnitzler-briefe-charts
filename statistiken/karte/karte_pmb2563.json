@@ -5,65 +5,13 @@
   },
   "letters": [
     {
-      "id": "L00002",
-      "title": "Jaques Joachim an Arthur Schnitzler, 31. 1. 1890",
-      "type": "umfeld",
-      "date": "1890-01-31",
-      "sender": {
-        "name": "Joachim, Jaques",
-        "ref": "pmb18870"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L00003",
-      "title": "Michael Konstantin an Arthur Schnitzler, 22. 5. 1890",
-      "type": "umfeld",
-      "date": "1890-05-22",
-      "sender": {
-        "name": "Konstantin, Michael",
-        "ref": "pmb41355"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Brünn",
-        "ref": "pmb833",
-        "lat": 49.19522,
-        "lon": 16.60796
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
       "id": "L00022",
       "title": "Jaques Joachim und Eduard Michael Kafka an Arthur Schnitzler, 6. 7. 1891",
-      "type": "umfeld",
+      "type": "von partner",
       "date": "1891-07-06",
       "sender": {
-        "name": "Joachim, Jaques",
-        "ref": "pmb18870"
+        "name": "Kafka, Eduard Michael",
+        "ref": "pmb2563"
       },
       "receiver": {
         "name": "Schnitzler, Arthur",
