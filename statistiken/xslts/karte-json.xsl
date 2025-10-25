@@ -38,11 +38,16 @@
         <xsl:text>&#10;    {&#10;</xsl:text>
 
         <!-- Korrespondenz-ID aus dem Item selbst extrahieren -->
-        <xsl:variable name="korrespondenz-id" select="replace(tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence'][1]/@target, 'correspondence_', 'pmb')"/>
+        <xsl:variable name="korrespondenz-id" select="if (tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence'][1]/@target) then replace(tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence'][1]/@target, 'correspondence_', 'pmb') else ''" as="xs:string"/>
 
         <!-- ID des Briefes -->
         <xsl:text>      "id": "</xsl:text>
         <xsl:value-of select="@corresp"/>
+        <xsl:text>",&#10;</xsl:text>
+
+        <!-- DEBUG: Korrespondenz-ID ausgeben -->
+        <xsl:text>      "debug_korrespondenz_id": "</xsl:text>
+        <xsl:value-of select="$korrespondenz-id"/>
         <xsl:text>",&#10;</xsl:text>
 
         <!-- Titel -->
