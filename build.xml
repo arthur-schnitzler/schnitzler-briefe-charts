@@ -33,6 +33,7 @@
         in="./statistiken/inputs/statistik_toc_10762.xml" out="${tmpDir}/karte-dummy.txt">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
+        <param name="initial-template" expression="main"/>
     </xslt>
     <xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"
         basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml"
