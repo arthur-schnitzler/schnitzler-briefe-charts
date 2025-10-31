@@ -3,11 +3,17 @@
     xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0">
     <xsl:output method="text" indent="true"/>
+
+    <xsl:key name="place-lookup" match="tei:item" use="concat(
+        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')),
+        '|',
+        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))
+    )"/>
+
     <xsl:template name="main">
         <xsl:variable name="files" select="collection('../inputs/?select=statistik_toc_*.xml')"/>
         <xsl:message>Found <xsl:value-of select="count($files)"/> statistik_toc files</xsl:message>
-        <xsl:for-each
-            select="distinct-values($files/document-uri(.))">
+        <xsl:for-each select="distinct-values($files/document-uri(.))">
             <xsl:variable name="current-uri" select="."/>
             <xsl:variable name="current-doc"
                 select="document($current-uri)/tei:TEI/tei:text[1]/tei:body[1]"/>
@@ -17,264 +23,153 @@
                 select="$current-doc/tei:list[1]/tei:item[not(descendant::tei:ref[@type = 'belongsToCorrespondence'][2])][1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref[@type = 'belongsToCorrespondence'][1]/text()"/>
             <xsl:variable name="output-path" select="resolve-uri(concat('../arcs/arc_', $korrespondenz-nummer, '.json'), static-base-uri())"/>
             <xsl:message>Creating <xsl:value-of select="$output-path"/> for <xsl:value-of select="$korrespondenzpartner-name"/></xsl:message>
+
+            <!-- Sammle alle Briefe -->
+            <xsl:variable name="all-items" select="$current-doc/tei:list/tei:item"/>
+
+            <!-- Sammle alle einzigartigen Orte -->
+            <xsl:variable name="all-place-refs" as="xs:string*">
+                <xsl:for-each select="$all-items">
+                    <xsl:variable name="sent" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+                    <xsl:variable name="received" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+                    <xsl:if test="$sent != '' and starts-with(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref, '#pmb')">
+                        <xsl:sequence select="$sent"/>
+                    </xsl:if>
+                    <xsl:if test="$received != '' and starts-with(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref, '#pmb')">
+                        <xsl:sequence select="$received"/>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:variable>
+
+            <xsl:variable name="unique-places" select="distinct-values($all-place-refs)"/>
+
             <xsl:result-document href="{$output-path}">
                 <xsl:text>{&#10;</xsl:text>
                 <xsl:text>  "correspondent": "</xsl:text>
                 <xsl:value-of select="$korrespondenzpartner-name"/>
                 <xsl:text>",&#10;</xsl:text>
-                <xsl:text>  "letters": [</xsl:text>
-                <xsl:apply-templates select="$current-doc/tei:list/tei:item">
+
+                <!-- Nodes -->
+                <xsl:text>  "nodes": [</xsl:text>
+                <xsl:for-each select="$unique-places">
+                    <xsl:sort select="."/>
+                    <xsl:variable name="place-id" select="."/>
+                    <xsl:variable name="count" select="count($all-items[
+                        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $place-id or
+                        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $place-id
+                    ])"/>
+
+                    <!-- Lookup place name from PMB -->
+                    <xsl:variable name="place-doc" select="document(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/place/', $place-id))"/>
+                    <xsl:variable name="place-name" select="$place-doc/descendant::*:placeName[1]/text()"/>
+
+                    <xsl:if test="position() > 1">
+                        <xsl:text>,</xsl:text>
+                    </xsl:if>
+                    <xsl:text>&#10;    {&#10;</xsl:text>
+                    <xsl:text>      "id": "pmb</xsl:text>
+                    <xsl:value-of select="$place-id"/>
+                    <xsl:text>",&#10;</xsl:text>
+                    <xsl:text>      "name": "</xsl:text>
+                    <xsl:value-of select="$place-name"/>
+                    <xsl:text>",&#10;</xsl:text>
+                    <xsl:text>      "count": </xsl:text>
+                    <xsl:value-of select="$count"/>
+                    <xsl:text>&#10;</xsl:text>
+                    <xsl:text>    }</xsl:text>
+                </xsl:for-each>
+                <xsl:text>&#10;  ],&#10;</xsl:text>
+
+                <!-- Links from Schnitzler -->
+                <xsl:text>  "links_from_schnitzler": [</xsl:text>
+                <xsl:call-template name="generate-links">
+                    <xsl:with-param name="items" select="$all-items"/>
                     <xsl:with-param name="korrespondenz-nummer" select="$korrespondenz-nummer"/>
-                </xsl:apply-templates>
+                    <xsl:with-param name="direction" select="'from_schnitzler'"/>
+                </xsl:call-template>
+                <xsl:text>&#10;  ],&#10;</xsl:text>
+
+                <!-- Links to Schnitzler -->
+                <xsl:text>  "links_to_schnitzler": [</xsl:text>
+                <xsl:call-template name="generate-links">
+                    <xsl:with-param name="items" select="$all-items"/>
+                    <xsl:with-param name="korrespondenz-nummer" select="$korrespondenz-nummer"/>
+                    <xsl:with-param name="direction" select="'to_schnitzler'"/>
+                </xsl:call-template>
                 <xsl:text>&#10;  ]&#10;</xsl:text>
                 <xsl:text>}</xsl:text>
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
 
-    <xsl:template match="tei:item">
+    <xsl:template name="generate-links">
+        <xsl:param name="items"/>
         <xsl:param name="korrespondenz-nummer"/>
-        <xsl:if test="position() > 1">
-            <xsl:text>,</xsl:text>
-        </xsl:if>
-        <xsl:text>&#10;    {&#10;</xsl:text>
+        <xsl:param name="direction"/>
 
-        <!-- Korrespondenz-ID aus dem Item selbst extrahieren -->
-        <xsl:variable name="korrespondenz-id" select="if (tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence'][1]/@target) then replace(tei:correspDesc/tei:correspContext/tei:ref[@type='belongsToCorrespondence'][1]/@target, 'correspondence_', 'pmb') else $korrespondenz-nummer" as="xs:string"/>
-
-        <!-- ID des Briefes -->
-        <xsl:text>      "id": "</xsl:text>
-        <xsl:value-of select="@corresp"/>
-        <xsl:text>",&#10;</xsl:text>
-
-        <!-- Titel -->
-        <xsl:text>      "title": "</xsl:text>
-        <xsl:value-of select="normalize-space(replace(replace(tei:title[@level='a'], '&quot;', '\\&quot;'), '&#xA;', ' '))"/>
-        <xsl:text>",&#10;</xsl:text>
-
-        <!-- Typ: von wem der Brief ist -->
-        <xsl:variable name="sender-ref" as="xs:string">
+        <!-- Filter items based on direction -->
+        <xsl:variable name="filtered-items">
             <xsl:choose>
-                <xsl:when test="tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:persName[@ref='#pmb2121']">
-                    <xsl:text>pmb2121</xsl:text>
-                </xsl:when>
-                <xsl:when test="tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:persName[replace(@ref, '#', '') = $korrespondenz-id][1]">
-                    <xsl:value-of select="$korrespondenz-id"/>
+                <xsl:when test="$direction = 'from_schnitzler'">
+                    <xsl:sequence select="$items[tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[@ref='#pmb2121']]"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="replace(tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[1]/@ref, '#', '')"/>
+                    <xsl:sequence select="$items[tei:correspDesc/tei:correspAction[@type='received']/tei:persName[@ref='#pmb2121']]"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:variable name="receiver-ref"  as="xs:string">
-            <xsl:choose>
-                <xsl:when test="tei:correspDesc/tei:correspAction[@type='received'][1]/tei:persName[@ref='#pmb2121']">
-                    <xsl:text>pmb2121</xsl:text>
-                </xsl:when>
-                <xsl:when test="tei:correspDesc/tei:correspAction[@type='received'][1]/tei:persName[replace(@ref, '#', '') = $korrespondenz-id][1]">
-                    <xsl:value-of select="$korrespondenz-id"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="replace(tei:correspDesc/tei:correspAction[@type='received']/tei:persName[1]/@ref, '#', '')"/>
-                </xsl:otherwise>
-            </xsl:choose>
+
+        <!-- Group by from-to combination -->
+        <xsl:variable name="routes" as="xs:string*">
+            <xsl:for-each select="$filtered-items">
+                <xsl:variable name="from-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+                <xsl:variable name="to-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+                <xsl:if test="$from-ref != '' and $to-ref != '' and
+                              starts-with(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref, '#pmb') and
+                              starts-with(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref, '#pmb')">
+                    <xsl:sequence select="concat($from-ref, '|', $to-ref)"/>
+                </xsl:if>
+            </xsl:for-each>
         </xsl:variable>
-        <xsl:text>      "type": "</xsl:text>
 
-        <xsl:choose>
-            <xsl:when test="$sender-ref = 'pmb2121' and $receiver-ref = $korrespondenz-id">
-                <xsl:text>von schnitzler</xsl:text>
-            </xsl:when>
-            <xsl:when test="$sender-ref = $korrespondenz-id and $receiver-ref = 'pmb2121'">
-                <xsl:text>von partner</xsl:text>
-            </xsl:when>
-            <xsl:when test="$sender-ref = 'pmb2121'">
-                <xsl:text>umfeld partner</xsl:text>
-            </xsl:when>
-            <xsl:when test="$sender-ref = $korrespondenz-id">
-                <xsl:text>umfeld schnitzler</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:text>umfeld</xsl:text>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>",&#10;</xsl:text>
+        <xsl:variable name="unique-routes" select="distinct-values($routes)"/>
 
-        <!-- Datum -->
-        <xsl:variable name="date" select="tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
-        <xsl:variable name="date-notBefore" select="tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore"/>
-        <xsl:variable name="date-from" select="tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@from"/>
-        <xsl:text>      "date": </xsl:text>
-        <xsl:choose>
-            <xsl:when test="$date">
+        <xsl:for-each select="$unique-routes">
+            <xsl:sort select="."/>
+            <xsl:variable name="route" select="."/>
+            <xsl:variable name="from-id" select="tokenize($route, '\|')[1]"/>
+            <xsl:variable name="to-id" select="tokenize($route, '\|')[2]"/>
+
+            <!-- Collect all titles for this route -->
+            <xsl:variable name="route-items" select="$filtered-items[
+                normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $from-id and
+                normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $to-id
+            ]"/>
+
+            <xsl:if test="position() > 1">
+                <xsl:text>,</xsl:text>
+            </xsl:if>
+            <xsl:text>&#10;    {&#10;</xsl:text>
+            <xsl:text>      "from": "pmb</xsl:text>
+            <xsl:value-of select="$from-id"/>
+            <xsl:text>",&#10;</xsl:text>
+            <xsl:text>      "to": "pmb</xsl:text>
+            <xsl:value-of select="$to-id"/>
+            <xsl:text>",&#10;</xsl:text>
+            <xsl:text>      "weight": </xsl:text>
+            <xsl:value-of select="count($route-items)"/>
+            <xsl:text>,&#10;</xsl:text>
+            <xsl:text>      "titles": [</xsl:text>
+            <xsl:for-each select="$route-items">
+                <xsl:if test="position() > 1">
+                    <xsl:text>,</xsl:text>
+                </xsl:if>
+                <xsl:text>&#10;        "</xsl:text>
+                <xsl:value-of select="normalize-space(replace(replace(tei:title[@level='a'], '&quot;', '\\&quot;'), '&#xA;', ' '))"/>
                 <xsl:text>"</xsl:text>
-                <xsl:value-of select="$date"/>
-                <xsl:text>"</xsl:text>
-            </xsl:when>
-            <xsl:when test="$date-notBefore">
-                <xsl:text>"</xsl:text>
-                <xsl:value-of select="$date-notBefore"/>
-                <xsl:text>"</xsl:text>
-            </xsl:when>
-            <xsl:when test="$date-from">
-                <xsl:text>"</xsl:text>
-                <xsl:value-of select="$date-from"/>
-                <xsl:text>"</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:text>null</xsl:text>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>,&#10;</xsl:text>
-
-        <!-- Absender -->
-        <xsl:text>      "sender": {&#10;</xsl:text>
-        <xsl:text>        "name": "</xsl:text>
-        <xsl:choose>
-            <xsl:when test="tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[@ref='#pmb2121']">
-                <xsl:text>Schnitzler, Arthur</xsl:text>
-            </xsl:when>
-            <xsl:when test="tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id][1]">
-                <xsl:value-of select="tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[1]"/>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>",&#10;</xsl:text>
-        <xsl:text>        "ref": "</xsl:text>
-        <xsl:choose>
-            <xsl:when test="tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[@ref='#pmb2121']">
-                <xsl:text>pmb2121</xsl:text>
-            </xsl:when>
-            <xsl:when test="tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
-                <xsl:value-of select="$korrespondenz-id"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="replace(tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[1]/@ref, '#', '')"/>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>"&#10;</xsl:text>
-        <xsl:text>      },&#10;</xsl:text>
-
-        <!-- Empfänger -->
-        <xsl:text>      "receiver": {&#10;</xsl:text>
-        <xsl:text>        "name": "</xsl:text>
-        <xsl:choose>
-            <xsl:when test="tei:correspDesc/tei:correspAction[@type='received']/tei:persName[@ref='#pmb2121']">
-                <xsl:text>Schnitzler, Arthur</xsl:text>
-            </xsl:when>
-            <xsl:when test="tei:correspDesc/tei:correspAction[@type='received']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
-                <xsl:value-of select="tei:correspDesc/tei:correspAction[@type='received']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="tei:correspDesc/tei:correspAction[@type='received']/tei:persName[1]"/>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>",&#10;</xsl:text>
-        <xsl:text>        "ref": "</xsl:text>
-        <xsl:choose>
-            <xsl:when test="tei:correspDesc/tei:correspAction[@type='received']/tei:persName[@ref='#pmb2121']">
-                <xsl:text>pmb2121</xsl:text>
-            </xsl:when>
-            <xsl:when test="tei:correspDesc/tei:correspAction[@type='received']/tei:persName[replace(@ref, '#', '') = $korrespondenz-id]">
-                <xsl:value-of select="$korrespondenz-id"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="replace(tei:correspDesc/tei:correspAction[@type='received']/tei:persName[1]/@ref, '#', '')"/>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>"&#10;</xsl:text>
-        <xsl:text>      },&#10;</xsl:text>
-
-        <!-- Absenderort -->
-        <xsl:variable name="sent-place-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
-        <xsl:text>      "from": </xsl:text>
-        <xsl:choose>
-            <xsl:when test="$sent-place-ref != '' and starts-with(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref, '#pmb')">
-                <xsl:variable name="absender-nachgeschlagen"
-                    select="document(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/place/', $sent-place-ref))"/>
-                <xsl:variable name="absender-geo"
-                    select="$absender-nachgeschlagen/descendant::*:location[@type = 'coords'][1]/*:geo[1]"/>
-                <xsl:text>{&#10;</xsl:text>
-                <xsl:text>        "name": "</xsl:text>
-                <xsl:value-of select="$absender-nachgeschlagen/descendant::*:placeName[1]/text()"/>
-                <xsl:text>",&#10;</xsl:text>
-                <xsl:text>        "ref": "pmb</xsl:text>
-                <xsl:value-of select="$sent-place-ref"/>
-                <xsl:text>",&#10;</xsl:text>
-                <xsl:text>        "lat": </xsl:text>
-                <xsl:choose>
-                    <xsl:when test="tokenize($absender-geo, ' ')[1] != ''">
-                        <xsl:value-of select="replace(tokenize($absender-geo, ' ')[1], ',', '.')"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>null</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <xsl:text>,&#10;</xsl:text>
-                <xsl:text>        "lon": </xsl:text>
-                <xsl:choose>
-                    <xsl:when test="tokenize($absender-geo, ' ')[2] != ''">
-                        <xsl:value-of select="replace(tokenize($absender-geo, ' ')[2], ',', '.')"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>null</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <xsl:text>&#10;</xsl:text>
-                <xsl:text>      }</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:text>null</xsl:text>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>,&#10;</xsl:text>
-
-        <!-- Empfangsort -->
-        <xsl:variable name="received-place-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
-        <xsl:text>      "to": </xsl:text>
-        <xsl:choose>
-            <xsl:when test="$received-place-ref != '' and starts-with(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref, '#pmb')">
-                <xsl:variable name="empfaenger-nachgeschlagen"
-                    select="document(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/place/', $received-place-ref))"/>
-                <xsl:variable name="empfaenger-geo"
-                    select="$empfaenger-nachgeschlagen/descendant::*:location[@type = 'coords'][1]/*:geo[1]"/>
-                <xsl:text>{&#10;</xsl:text>
-                <xsl:text>        "name": "</xsl:text>
-                <xsl:value-of select="$empfaenger-nachgeschlagen/descendant::*:placeName[1]/text()"/>
-                <xsl:text>",&#10;</xsl:text>
-                <xsl:text>        "ref": "pmb</xsl:text>
-                <xsl:value-of select="$received-place-ref"/>
-                <xsl:text>",&#10;</xsl:text>
-                <xsl:text>        "lat": </xsl:text>
-                <xsl:choose>
-                    <xsl:when test="tokenize($empfaenger-geo, ' ')[1] != ''">
-                        <xsl:value-of select="replace(tokenize($empfaenger-geo, ' ')[1], ',', '.')"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>null</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <xsl:text>,&#10;</xsl:text>
-                <xsl:text>        "lon": </xsl:text>
-                <xsl:choose>
-                    <xsl:when test="tokenize($empfaenger-geo, ' ')[2] != ''">
-                        <xsl:value-of select="replace(tokenize($empfaenger-geo, ' ')[2], ',', '.')"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>null</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <xsl:text>&#10;</xsl:text>
-                <xsl:text>      }</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:text>null</xsl:text>
-            </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>&#10;</xsl:text>
-
-        <xsl:text>    }</xsl:text>
+            </xsl:for-each>
+            <xsl:text>&#10;      ]&#10;</xsl:text>
+            <xsl:text>    }</xsl:text>
+        </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
