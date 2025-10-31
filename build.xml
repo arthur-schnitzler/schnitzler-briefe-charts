@@ -39,6 +39,16 @@
         <arg value="-o:${tmpDir}/karte-dummy.txt"/>
     </java>
     <echo message="Karte-json transformation completed!"/>
+    <echo message="Starting arc-json transformation..."/>
+    <mkdir dir="./statistiken/arcs"/>
+    <echo message="Created arcs directory, now running Saxon transformation..."/>
+    <java classname="net.sf.saxon.Transform" fork="true" failonerror="true">
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+        <arg value="-xsl:./statistiken/xslts/arc-json.xsl"/>
+        <arg value="-it:main"/>
+        <arg value="-o:${tmpDir}/arc-dummy.txt"/>
+    </java>
+    <echo message="Arc-json transformation completed!"/>
     <xslt style="./netzwerke/correspondence_weights_directed/correspondence_weights_directed.xsl"
         basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml"
         extension=".xml">
