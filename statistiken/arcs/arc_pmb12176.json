@@ -43,7 +43,90 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb42768",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Thomas Mann, 6. 11. 1924"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb45258",
+      "weight": 5,
+      "titles": [
+        "Arthur Schnitzler an Thomas Mann, 26. 6. 1922",
+        "Arthur Schnitzler an Thomas Mann, 28. 12. 1922",
+        "Arthur Schnitzler an Thomas Mann, 18. 11. 1923",
+        "Arthur Schnitzler an Thomas Mann, 30. 1. 1929",
+        "Arthur Schnitzler an Thomas Mann, 18. 11. 1929"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb298432",
+      "to": "pmb874",
+      "weight": 1,
+      "titles": [
+        "Franz Goldstein und Thomas Mann an Arthur Schnitzler, 19. 8. 1931"
+      ]
+    },
+    {
+      "from": "pmb424",
+      "to": "pmb50",
+      "weight": 4,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 7. 8. 1908",
+        "Thomas Mann an Arthur Schnitzler, 25. 9. 1911",
+        "Thomas Mann an Arthur Schnitzler, 22. 5. 1913",
+        "Thomas Mann an Arthur Schnitzler, 27. 8. 1917"
+      ]
+    },
+    {
+      "from": "pmb42768",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 22. 10. 1924"
+      ]
+    },
+    {
+      "from": "pmb43995",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Thomas und Katia Mann an Arthur Schnitzler, 23. 5. 1926"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb45260",
+      "weight": 1,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 13. 5. [1912?]"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb50",
+      "weight": 13,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 15. 2. 1904",
+        "Thomas Mann an Arthur Schnitzler, 22. 11. 1910",
+        "Thomas Mann an Arthur Schnitzler, 16. 10. 1911",
+        "Thomas Mann an Arthur Schnitzler, 8. 12. 1912",
+        "Thomas Mann an Arthur Schnitzler, 4. 9. 1922",
+        "Thomas Mann an Arthur Schnitzler, 20. 2. 1923",
+        "Thomas Mann an Arthur Schnitzler, 22. 11. 1923",
+        "Thomas Mann an Arthur Schnitzler, 9. 1. 1925",
+        "Thomas Mann an Arthur Schnitzler, 25. 12. 1927",
+        "Thomas Mann an Arthur Schnitzler, 28. 5. 1928",
+        "Thomas Mann an Arthur Schnitzler, 1. 2. 1929",
+        "Thomas Mann an Arthur Schnitzler, [nach dem 18. 11. 1929]",
+        "Thomas Mann an Arthur Schnitzler, [5. 12. 1930]"
+      ]
+    }
   ]
 }

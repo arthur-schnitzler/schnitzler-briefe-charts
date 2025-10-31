@@ -23,7 +23,60 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb213",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Wilhelm Bölsche, 8. 7. 1893"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 14,
+      "titles": [
+        "Arthur Schnitzler an Wilhelm Bölsche, [Anfang September] 1890",
+        "Arthur Schnitzler an Wilhelm Bölsche, 14. 10. 1890",
+        "Arthur Schnitzler an Wilhelm Bölsche, [5. 5. 1891]",
+        "Arthur Schnitzler an Wilhelm Bölsche, 3. 8. 1891",
+        "Arthur Schnitzler an Wilhelm Bölsche, 19. 12. 1891",
+        "Arthur Schnitzler an Wilhelm Bölsche, 24. 2. 1892",
+        "Arthur Schnitzler an Wilhelm Bölsche, 27. 3. 1892",
+        "Arthur Schnitzler an Wilhelm Bölsche, 20. 4. 1892",
+        "Arthur Schnitzler an Wilhelm Bölsche, 27. 5. 1892",
+        "Arthur Schnitzler an Wilhelm Bölsche, 10. 4. 1893",
+        "Arthur Schnitzler an Wilhelm Bölsche, 1. 6. 1893",
+        "Arthur Schnitzler an Wilhelm Bölsche, 11. 6. 1893",
+        "Arthur Schnitzler an Wilhelm Bölsche, 14. 6. 1893",
+        "Arthur Schnitzler an Wilhelm Bölsche, [12.? 11. 1893]"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 9,
+      "titles": [
+        "Wilhelm Bölsche an Arthur Schnitzler, 17. 9. 1890",
+        "Wilhelm Bölsche an Arthur Schnitzler, 25. 10. 1890",
+        "Wilhelm Bölsche an Arthur Schnitzler, 6. 10. 1891",
+        "Wilhelm Bölsche an Arthur Schnitzler, 15. 12. 1891",
+        "Wilhelm Bölsche an Arthur Schnitzler, 24. 3. 1892",
+        "Wilhelm Bölsche an Arthur Schnitzler, [Anfang April 1892]",
+        "Wilhelm Bölsche an Arthur Schnitzler, [24. 7. 1892]",
+        "Wilhelm Bölsche an Arthur Schnitzler, 12. 6. 1893",
+        "Wilhelm Bölsche an Arthur Schnitzler, 1. 7. 1893"
+      ]
+    },
+    {
+      "from": "pmb484",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Wilhelm Bölsche an Arthur Schnitzler, 16. 11. 1893"
+      ]
+    }
   ]
 }

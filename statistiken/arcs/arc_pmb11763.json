@@ -13,7 +13,25 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Arno Holz, 28. 2. 1917"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Arno Holz an Arthur Schnitzler, 26. 4. 1913",
+        "Arno Holz an Arthur Schnitzler, 11. 2. 1917",
+        "Arno Holz an Arthur Schnitzler, 29. 5. 1923"
+      ]
+    }
   ]
 }

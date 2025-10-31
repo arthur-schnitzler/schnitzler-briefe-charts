@@ -28,7 +28,81 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Peter Altenberg, 29. 10. 1896"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Peter Altenberg, 22. 4. 1913"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb189",
+      "to": "pmb189",
+      "weight": 1,
+      "titles": [
+        "Peter Altenberg an Arthur Schnitzler, [10.? 5. 1912]"
+      ]
+    },
+    {
+      "from": "pmb189",
+      "to": "pmb50",
+      "weight": 4,
+      "titles": [
+        "Peter Altenberg an Arthur Schnitzler, [zwischen April und Oktober 1912]",
+        "Peter Altenberg an Arthur Schnitzler, [7. 11. 1912]",
+        "Peter Altenberg an Arthur Schnitzler, [zwischen 9. und 15. 11. 1912?]",
+        "Peter Altenberg an Arthur Schnitzler, 1. 12. 191[2]"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 30. 4. 1899"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 8,
+      "titles": [
+        "Peter Altenberg an Arthur Schnitzler, [24. 3. 1897]",
+        "Peter Altenberg an Arthur Schnitzler, 30. 11. 1898",
+        "Detlev von Liliencron u. a. an Arthur Schnitzler, 1[0?]. 4. 1904",
+        "Peter Altenberg und Georg Engländer an Arthur Schnitzler, [Mitte April] 1913",
+        "Peter Altenberg an Arthur Schnitzler, [19.? 4. 1913]",
+        "Peter Altenberg an Arthur Schnitzler, [20.?] 4. 1913",
+        "Peter Altenberg an Arthur Schnitzler, [20.? 4. 1913]",
+        "Peter Altenberg an Arthur Schnitzler, [26. 4. 1913]"
+      ]
+    },
+    {
+      "from": "pmb874",
+      "to": "pmb213",
+      "weight": 1,
+      "titles": [
+        "Peter Altenberg an Arthur Schnitzler, [30. 7. 1895]"
+      ]
+    },
+    {
+      "from": "pmb874",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Peter Altenberg an Arthur Schnitzler, [10. 10. 1895]"
+      ]
+    }
   ]
 }

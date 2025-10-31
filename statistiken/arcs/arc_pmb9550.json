@@ -13,7 +13,26 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Julius Rodenberg, 7. 3. 1899",
+        "Arthur Schnitzler an Julius Rodenberg, 21. 6. 1900"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Julius Rodenberg an Arthur Schnitzler, 13. 12. 1897",
+        "Julius Rodenberg an Arthur Schnitzler, 9. 3. 1899",
+        "Julius Rodenberg an Arthur Schnitzler, 23. 6. 1900"
+      ]
+    }
   ]
 }

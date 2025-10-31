@@ -38,7 +38,96 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb1226",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler: Widmungsexemplar Der Schleier der Beatrice für Richard Dehmel, [1. 1. 1902?]"
+      ]
+    },
+    {
+      "from": "pmb45260",
+      "to": "pmb506",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Dehmel, 19. 8. 1912"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb1226",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Dehmel, 16. 2. 1902"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb17871",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus u. a. an Richard Dehmel, 10. 2. 1894"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Dehmel, [14. 11. 1908?]"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb1226",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 1. 1. 1902",
+        "Richard Dehmel an Arthur Schnitzler, 14. 2. 1902"
+      ]
+    },
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel, Gerhart Hauptmann und Jakob Wassermann an Arthur Schnitzler, 3. 12. 1909"
+      ]
+    },
+    {
+      "from": "pmb44880",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 8. 6. 1908"
+      ]
+    },
+    {
+      "from": "pmb506",
+      "to": "pmb45260",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 14. 8. 1912"
+      ]
+    },
+    {
+      "from": "pmb506",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, [18. 11. 1913?]"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 14. 11. 1908"
+      ]
+    }
   ]
 }

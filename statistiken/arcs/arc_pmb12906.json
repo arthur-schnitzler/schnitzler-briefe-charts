@@ -13,7 +13,39 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 5,
+      "titles": [
+        "Arthur Schnitzler an Bertha von Suttner, 24. 10. 1913",
+        "Arthur Schnitzler an Bertha von Suttner, 31. 10. 1913",
+        "Arthur Schnitzler an Bertha von Suttner, 10. 12. 1913",
+        "Arthur Schnitzler an Bertha von Suttner, 17. 12. 1913",
+        "Arthur Schnitzler an Bertha von Suttner, 31. 3. 1914"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb49283",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Bertha von Suttner an Arthur Schnitzler, 3. 5. 1893"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 5,
+      "titles": [
+        "Bertha von Suttner an Arthur Schnitzler, 22. 10. 1913",
+        "Bertha von Suttner an Arthur Schnitzler, 4. 11. 1913",
+        "Bertha von Suttner an Arthur Schnitzler, [20. 12. 1913?]",
+        "Bertha von Suttner an Arthur und Olga Schnitzler, 30. 3. 1914",
+        "Bertha von Suttner an Arthur und Olga Schnitzler, 14. 5. 1914"
+      ]
+    }
   ]
 }

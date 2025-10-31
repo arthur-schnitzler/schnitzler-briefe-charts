@@ -28,7 +28,79 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb189",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Albert Ehrenstein, 26. 1. 1909"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 9,
+      "titles": [
+        "Arthur Schnitzler an Albert Ehrenstein, 5. 6. 1906",
+        "Arthur Schnitzler an Albert Ehrenstein, 19. 12. 1906",
+        "Arthur Schnitzler an Albert Ehrenstein, 20. 10. 1908",
+        "Arthur Schnitzler an Albert Ehrenstein, 9. 11. 1908",
+        "Arthur Schnitzler an Albert Ehrenstein, 20. 1. 1909",
+        "Arthur Schnitzler an Albert Ehrenstein, 25. 12. 1910",
+        "Arthur Schnitzler an Albert Ehrenstein, 31. 1. 1911",
+        "Arthur Schnitzler an Albert Ehrenstein, 9. 2. 1911",
+        "Arthur Schnitzler an Albert Ehrenstein, 6. 5. 1911"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb34498",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Albert Ehrenstein an Arthur Schnitzler, 12. 7. 1910",
+        "Albert Ehrenstein an Arthur Schnitzler, 18. 7. 1910"
+      ]
+    },
+    {
+      "from": "pmb44146",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Albert Ehrenstein an Arthur Schnitzler, 24. 8. 1909"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb470",
+      "weight": 2,
+      "titles": [
+        "Albert Ehrenstein an Arthur Schnitzler, 1. 7. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 13. 7. 1909"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 15,
+      "titles": [
+        "Albert Ehrenstein an Arthur Schnitzler, 3. 12. 1905",
+        "Albert Ehrenstein an Arthur Schnitzler, 30. 11. 1906",
+        "Albert Ehrenstein an Arthur Schnitzler, 16. 1. 1908",
+        "Albert Ehrenstein an Arthur Schnitzler, 10. 10. 1908",
+        "Albert Ehrenstein an Arthur Schnitzler, 20. 10. 1908",
+        "Albert Ehrenstein an Arthur Schnitzler, 24. 1. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 27. 3. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 6. 5. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 17. 10. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 6. 11. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 22. 11. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 25. 11. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 10. 2. 1910",
+        "Albert Ehrenstein an Arthur Schnitzler, 31. 12. 1910",
+        "Albert Ehrenstein an Arthur Schnitzler, 27. 4. 1911"
+      ]
+    }
   ]
 }

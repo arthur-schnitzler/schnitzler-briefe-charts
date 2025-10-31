@@ -18,7 +18,23 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb45258",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Ludwig Ganghofer, 4. 2. 1899"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb45258",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Ludwig Ganghofer an Arthur Schnitzler, 30. 4. [1899]"
+      ]
+    }
   ]
 }

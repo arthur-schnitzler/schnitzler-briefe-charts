@@ -13,7 +13,40 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb168",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Karl Emil Franzos, 29. 4. 1888",
+        "Arthur Schnitzler an Karl Emil Franzos, 11. 5. 1888"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Karl Emil Franzos, 25. 6. 1892"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Karl Emil Franzos an Arthur Schnitzler, [3. 5. 1888 – 11. 5. 1888?]"
+      ]
+    },
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Karl Emil Franzos an Arthur Schnitzler, 8. 9. 1900"
+      ]
+    }
   ]
 }

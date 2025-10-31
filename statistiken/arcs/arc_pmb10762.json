@@ -28,7 +28,62 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb182",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Lou Andreas-Salomé, 13. 6. 1894"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, 19. 2. 1906"
+      ]
+    },
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, 9. 8. 1895"
+      ]
+    },
+    {
+      "from": "pmb182",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, 15. 5. 1894",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 25. 5. 1895"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 15,
+      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, 28. 4. 1895",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [1. 5. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [2. 5.? 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 22. 11. 1895",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [24.? 11. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [25. 11. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [25. –26.? 11. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [1. 12. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 8. 12. 1895",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 15. 12. 1895",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 27. 12. 1895",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [9. 1. 1896]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 18. 1. 1896",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 28. 1. 1896",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [vor dem 15. 11. 1912?]"
+      ]
+    }
   ]
 }

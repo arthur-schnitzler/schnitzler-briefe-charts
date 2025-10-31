@@ -38,7 +38,93 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb735",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 8. 3. 1903"
+      ]
+    },
+    {
+      "from": "pmb213",
+      "to": "pmb45270",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 25. 8. 1899"
+      ]
+    },
+    {
+      "from": "pmb33",
+      "to": "pmb735",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler u. a. an Gerhart Hauptmann, 7. 9. 1904"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 24. 10. 1904"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb34528",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 15. 7. 1899"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb735",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 6. 6. 1922",
+        "Arthur Schnitzler an Gerhart Hauptmann, 14. 11. 1922"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel, Gerhart Hauptmann und Jakob Wassermann an Arthur Schnitzler, 3. 12. 1909"
+      ]
+    },
+    {
+      "from": "pmb34528",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Gerhart Hauptmann an Arthur Schnitzler, [25.?] 7. 1899",
+        "Otto Brahm, Gerhart Hauptmann und Margarete Marschalk an Arthur Schnitzler, 21. 6. 1903"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gerhart Hauptmann an Arthur Schnitzler, [29. 11. 1902]"
+      ]
+    },
+    {
+      "from": "pmb735",
+      "to": "pmb50",
+      "weight": 5,
+      "titles": [
+        "Gerhart Hauptmann an Arthur Schnitzler, 24. 1. 1905",
+        "Gerhart Hauptmann an Arthur Schnitzler, 29. [1. 1905?]",
+        "Hugo und Gerty von Hofmannsthal, Gerhart und Margarete Hauptmann an Arthur Schnitzler, 29. 1. 1905",
+        "Gerhart Hauptmann an Arthur Schnitzler, 18. 12. 1906",
+        "Gerhart Hauptmann an Arthur Schnitzler, 15. 5. 1922"
+      ]
+    }
   ]
 }

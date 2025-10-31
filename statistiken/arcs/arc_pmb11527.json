@@ -18,7 +18,76 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 5,
+      "titles": [
+        "Arthur Schnitzler an Stefan Großmann, 17. 2. 1921",
+        "Arthur Schnitzler an Stefan Großmann, 24. 9. 1925",
+        "Arthur Schnitzler an Stefan Großmann, 24. 12. 1925",
+        "Arthur Schnitzler an Stefan Großmann, 31. 5. 1926",
+        "Arthur Schnitzler an Stefan Großmann, 7. 11. 1927"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 6,
+      "titles": [
+        "Arthur Schnitzler an Stefan Großmann, 28. 9. 1907",
+        "Arthur Schnitzler an Stefan Großmann, 9. 10. 1907",
+        "Arthur Schnitzler an Stefan Großmann, [8. 2. 1911]",
+        "Arthur Schnitzler an Stefan Großmann, 8. 2. 1911",
+        "Arthur Schnitzler an Stefan Großmann, 12. 2. 1912",
+        "Arthur Schnitzler an Stefan Großmann, 2. 12. 1913"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 8,
+      "titles": [
+        "Stefan Großmann an Arthur Schnitzler, 10. 2. 1921",
+        "Stefan Großmann an Arthur Schnitzler, 26. 4. 1922",
+        "Stefan Großmann an Arthur Schnitzler, 21. 9. 1925",
+        "Stefan Großmann an Arthur Schnitzler, [nach dem 25. 9. 1925]",
+        "Stefan Großmann an Arthur Schnitzler, 23. 11. 1925",
+        "Stefan Großmann an Arthur Schnitzler, 2. 1. 192[6?]",
+        "Stefan Großmann an Arthur Schnitzler, 25. 5. 1926",
+        "Stefan Großmann an Arthur Schnitzler, 2. 6. 1926"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Stefan Großmann an Arthur Schnitzler, 5. 2. 1912"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 14,
+      "titles": [
+        "Stefan Großmann an Arthur Schnitzler, 16. 9. 1898",
+        "Stefan Großmann an Arthur Schnitzler, 30. 8. 1900",
+        "Stefan Großmann an Arthur Schnitzler, 4. 5. 1906",
+        "Stefan Großmann an Arthur Schnitzler, 27. 9. 1907",
+        "Stefan Großmann an Arthur Schnitzler, 29. 9. 1907",
+        "Stefan Großmann an Arthur Schnitzler, 7. 10. 1907",
+        "Stefan Großmann an Arthur Schnitzler, 12. 10. 1907",
+        "Stefan Großmann an Arthur Schnitzler, 31. 3. 1910",
+        "Stefan Großmann an Arthur Schnitzler, 2. 4. 1910",
+        "Stefan Großmann an Arthur Schnitzler, [7.] 2. 1911",
+        "Engelbert Pernerstorfer und Stefan Großmann an Arthur Schnitzler, 14. 3. 1911",
+        "Stefan Großmann an Arthur Schnitzler, 19. 2. 1912",
+        "Stefan Großmann an Arthur Schnitzler, 30. 11. 1913",
+        "Stefan Großmann an Arthur Schnitzler, 5. 12. 1913"
+      ]
+    }
   ]
 }

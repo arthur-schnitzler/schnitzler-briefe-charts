@@ -13,7 +13,25 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb562",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Romain Rolland, 14. 12. 1914",
+        "Arthur Schnitzler an Romain Rolland, 7. 1. 1915"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb562",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Romain Rolland an Arthur Schnitzler, 19. 12. 1914",
+        "Romain Rolland an Arthur Schnitzler, 6. 2. 1916"
+      ]
+    }
   ]
 }

@@ -18,7 +18,34 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb45258",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Michael Georg Conrad, 24. 1. 1904"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb45258",
+      "to": "pmb50",
+      "weight": 4,
+      "titles": [
+        "Michael Georg Conrad an Arthur Schnitzler, 14. 11. 1890",
+        "Michael Georg Conrad an Arthur Schnitzler, 28. 3. 1893",
+        "Michael Georg Conrad an Arthur Schnitzler, 21. 6. 1893",
+        "Michael Georg Conrad an Arthur Schnitzler, 26. 5. 1906"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb59",
+      "weight": 1,
+      "titles": [
+        "Michael Georg Conrad an Arthur Schnitzler, 22. 1. 1904"
+      ]
+    }
   ]
 }

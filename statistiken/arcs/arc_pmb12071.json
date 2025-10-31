@@ -13,7 +13,33 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb506",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Detlev von Liliencron, 10. 12. 1896"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb506",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Detlev von Liliencron an Arthur Schnitzler, 7. 5. 1894",
+        "Detlev von Liliencron und Marcell Salzer an Arthur Schnitzler, 7. 12. 1896"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Detlev von Liliencron u. a. an Arthur Schnitzler, 1[0?]. 4. 1904",
+        "Wilhelm von Wymetal u. a. an Arthur Schnitzler, 27. 11. [1907]"
+      ]
+    }
   ]
 }

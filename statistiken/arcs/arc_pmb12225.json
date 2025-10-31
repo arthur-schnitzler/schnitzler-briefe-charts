@@ -13,7 +13,39 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Arthur Schnitzler an Max Mell, 26. 10. 1906",
+        "Olga und Arthur Schnitzler, Hugo und Gerty Hofmannsthal an Max Mell, [18.? 7. 1907]",
+        "Arthur Schnitzler an Max Mell, 28. 6. 1910"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb50963",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Max und Mary Mell an Arthur und Olga Schnitzler, 3. 8. 1907"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 7,
+      "titles": [
+        "Max Mell an Arthur Schnitzler, 11. 10. 1906",
+        "Max Mell an Arthur Schnitzler, 7. 11. 1906",
+        "Max Mell an Arthur Schnitzler, 15. 7. 1907",
+        "Max Mell an Arthur Schnitzler, 29. 7. 1907",
+        "Max Mell an Arthur Schnitzler, 4. 11. 1907",
+        "Max Mell an Arthur Schnitzler, 8. 12. 1909",
+        "Max Mell an Arthur Schnitzler, 14. 5. 1912"
+      ]
+    }
   ]
 }

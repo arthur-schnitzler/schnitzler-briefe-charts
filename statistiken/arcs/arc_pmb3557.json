@@ -13,7 +13,28 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb1223",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Joseph Victor Widmann, 8. 2. 1902",
+        "Arthur Schnitzler an Joseph Victor Widmann, 20. 2. 1902"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb1223",
+      "to": "pmb50",
+      "weight": 5,
+      "titles": [
+        "Joseph Victor Widmann an Arthur Schnitzler, 26. 3. 1893",
+        "Joseph Victor Widmann an Arthur Schnitzler, 26. 2. 1894",
+        "Joseph Victor Widmann an Arthur Schnitzler, 28. 5. 1900",
+        "Joseph Victor Widmann an Arthur Schnitzler, [22.?] 2. 1902",
+        "Joseph Victor Widmann an Arthur Schnitzler, 9. 5. 1903"
+      ]
+    }
   ]
 }

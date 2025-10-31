@@ -13,7 +13,28 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb45258",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Franz Blei, 14. 12. 1909"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb45258",
+      "to": "pmb50",
+      "weight": 6,
+      "titles": [
+        "Franz Blei an Arthur Schnitzler, 17. 10. 1903",
+        "Franz Blei an Arthur Schnitzler, 25. 11. 1903",
+        "Franz Blei an Arthur Schnitzler, 4. 1. 1904",
+        "Franz Blei an Arthur Schnitzler, 12. 12. 1907",
+        "Franz Blei an Arthur Schnitzler, [17. 12. 1909]",
+        "Franz Blei an Arthur Schnitzler, [Anfang? Januar 1911]"
+      ]
+    }
   ]
 }

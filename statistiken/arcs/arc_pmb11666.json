@@ -18,7 +18,45 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Arthur Schnitzler an Marie Herzfeld, 24. 1. 1908",
+        "Arthur Schnitzler an Marie Herzfeld, 20. 4. 1909",
+        "Arthur Schnitzler an Marie Herzfeld, 7. 3. 1931"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb46000",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Marie Herzfeld an Arthur Schnitzler, 7. 8. 1896"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 5,
+      "titles": [
+        "Marie Herzfeld an Arthur Schnitzler, 16. 1. 1908",
+        "Marie Herzfeld an Arthur Schnitzler, 19. 4. 1909",
+        "Marie Herzfeld an Arthur Schnitzler, 30. 3. 1913",
+        "Marie Herzfeld an Arthur Schnitzler, 5. 3. 1931",
+        "Marie Herzfeld an Arthur Schnitzler, 10. 3. 1931"
+      ]
+    },
+    {
+      "from": "pmb65265",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Marie Herzfeld an Arthur Schnitzler, 23. 8. 1899"
+      ]
+    }
   ]
 }
