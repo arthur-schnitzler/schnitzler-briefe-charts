@@ -108,16 +108,11 @@
         <xsl:param name="direction"/>
 
         <!-- Filter items based on direction -->
-        <xsl:variable name="filtered-items">
-            <xsl:choose>
-                <xsl:when test="$direction = 'from_schnitzler'">
-                    <xsl:sequence select="$items[tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[@ref='#pmb2121']]"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:sequence select="$items[tei:correspDesc/tei:correspAction[@type='received']/tei:persName[@ref='#pmb2121']]"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
+        <xsl:variable name="filtered-items" select="
+            if ($direction = 'from_schnitzler')
+            then $items[tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[@ref='#pmb2121']]
+            else $items[tei:correspDesc/tei:correspAction[@type='received']/tei:persName[@ref='#pmb2121']]
+        "/>
 
         <!-- Group by from-to combination -->
         <xsl:variable name="routes" as="xs:string*">
