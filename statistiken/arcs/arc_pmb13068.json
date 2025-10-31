@@ -1,78 +1,19 @@
 {
   "correspondent": "Wedekind, Frank",
-  "letters": [
+  "nodes": [
     {
-      "id": "L01909",
-      "title": "Frank Wedekind an Arthur Schnitzler, 24. 12. 1909",
-      "type": "von partner",
-      "date": "1909-12-24",
-      "sender": {
-        "name": "Wedekind, Frank",
-        "ref": "pmb13068"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
+      "id": "pmb45258",
+      "name": "München",
+      "count": 2
     },
     {
-      "id": "L01937",
-      "title": "Frank Wedekind an Arthur Schnitzler, 19. 6. 1910",
-      "type": "von partner",
-      "date": "1910-06-19",
-      "sender": {
-        "name": "Wedekind, Frank",
-        "ref": "pmb13068"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L02143",
-      "title": "Arthur Schnitzler an Frank Wedekind, 19. 7. 1913",
-      "type": "von schnitzler",
-      "date": "1913-07-19",
-      "sender": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "receiver": {
-        "name": "Wedekind, Frank",
-        "ref": "pmb13068"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": null
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 3
     }
+  ],
+  "links_from_schnitzler": [
+  ],
+  "links_to_schnitzler": [
   ]
 }

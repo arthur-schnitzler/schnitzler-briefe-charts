@@ -1,187 +1,19 @@
 {
   "correspondent": "Saar, Ferdinand von",
-  "letters": [
+  "nodes": [
     {
-      "id": "L00273",
-      "title": "Ferdinand von Saar an Arthur Schnitzler, 15. 10. 1893",
-      "type": "von partner",
-      "date": "1893-10-15",
-      "sender": {
-        "name": "Saar, Ferdindand von",
-        "ref": "pmb12602"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 7
     },
     {
-      "id": "L00296",
-      "title": "Ferdinand von Saar an Arthur Schnitzler, 5. 2. 1894",
-      "type": "von partner",
-      "date": "1894-02-05",
-      "sender": {
-        "name": "Saar, Ferdindand von",
-        "ref": "pmb12602"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Rájec-Jestřebí",
-        "ref": "pmb50476",
-        "lat": 49.41094,
-        "lon": 16.63902
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L00410",
-      "title": "Ferdinand von Saar an Arthur Schnitzler, 13. 12. 1894",
-      "type": "von partner",
-      "date": "1894-12-13",
-      "sender": {
-        "name": "Saar, Ferdindand von",
-        "ref": "pmb12602"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Rájec-Jestřebí",
-        "ref": "pmb50476",
-        "lat": 49.41094,
-        "lon": 16.63902
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L00504",
-      "title": "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1895",
-      "type": "von partner",
-      "date": "1895-10-11",
-      "sender": {
-        "name": "Saar, Ferdindand von",
-        "ref": "pmb12602"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L01130",
-      "title": "Ferdinand von Saar an Arthur Schnitzler, 19. 6. 1901",
-      "type": "von partner",
-      "date": "1901-06-19",
-      "sender": {
-        "name": "Saar, Ferdindand von",
-        "ref": "pmb12602"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L01240",
-      "title": "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1902",
-      "type": "von partner",
-      "date": "1902-10-11",
-      "sender": {
-        "name": "Saar, Ferdindand von",
-        "ref": "pmb12602"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L01245",
-      "title": "Ferdinand von Saar an Arthur Schnitzler, 25. 10. 1902",
-      "type": "von partner",
-      "date": "1902-10-25",
-      "sender": {
-        "name": "Saar, Ferdindand von",
-        "ref": "pmb12602"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
+      "id": "pmb50476",
+      "name": "Rájec-Jestřebí",
+      "count": 2
     }
+  ],
+  "links_from_schnitzler": [
+  ],
+  "links_to_schnitzler": [
   ]
 }
