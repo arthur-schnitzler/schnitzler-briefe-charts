@@ -1,31 +1,19 @@
 {
   "correspondent": "Lasker-Schüler, Else",
-  "letters": [
+  "nodes": [
     {
-      "id": "L02653",
-      "title": "Else Lasker-Schüler an Arthur Schnitzler, 10. 12. 1924",
-      "type": "von partner",
-      "date": "1924-12-10",
-      "sender": {
-        "name": "Lasker-Schüler, Else",
-        "ref": "pmb38973"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
+      "id": "pmb168",
+      "name": "Berlin",
+      "count": 1
+    },
+    {
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 1
     }
+  ],
+  "links_from_schnitzler": [
+  ],
+  "links_to_schnitzler": [
   ]
 }

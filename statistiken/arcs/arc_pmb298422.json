@@ -1,26 +1,14 @@
 {
   "correspondent": "Sacher-Masoch, Wanda",
-  "letters": [
+  "nodes": [
     {
-      "id": "L03880",
-      "title": "Wanda Sacher-Masoch an Arthur Schnitzler, 9. 12. 1908",
-      "type": "von partner",
-      "date": "1908-12-09",
-      "sender": {
-        "name": "Sacher-Masoch, Wanda",
-        "ref": "pmb298422"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Morges",
-        "ref": "pmb44376",
-        "lat": 46.51399,
-        "lon": 6.49321
-      },
-      "to": null
+      "id": "pmb44376",
+      "name": "Morges",
+      "count": 1
     }
+  ],
+  "links_from_schnitzler": [
+  ],
+  "links_to_schnitzler": [
   ]
 }

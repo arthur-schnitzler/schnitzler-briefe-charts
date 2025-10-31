@@ -1,83 +1,19 @@
 {
   "correspondent": "Marholm, Laura",
-  "letters": [
+  "nodes": [
     {
-      "id": "L00429",
-      "title": "Laura Marholm an Arthur Schnitzler, 16. 4. 1895",
-      "type": "von partner",
-      "date": "1895-04-16",
-      "sender": {
-        "name": "Marholm, Laura",
-        "ref": "pmb12183"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Schliersee",
-        "ref": "pmb936",
-        "lat": 47.73621,
-        "lon": 11.85936
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 3
     },
     {
-      "id": "L00431",
-      "title": "Laura Marholm an Arthur Schnitzler, 24. 4. 1895",
-      "type": "von partner",
-      "date": "1895-04-24",
-      "sender": {
-        "name": "Marholm, Laura",
-        "ref": "pmb12183"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Schliersee",
-        "ref": "pmb936",
-        "lat": 47.73621,
-        "lon": 11.85936
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
-      "id": "L00441",
-      "title": "Laura Marholm an Arthur Schnitzler, 15. 5. 1895",
-      "type": "von partner",
-      "date": "1895-05-15",
-      "sender": {
-        "name": "Marholm, Laura",
-        "ref": "pmb12183"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Schliersee",
-        "ref": "pmb936",
-        "lat": 47.73621,
-        "lon": 11.85936
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
+      "id": "pmb936",
+      "name": "Schliersee",
+      "count": 3
     }
+  ],
+  "links_from_schnitzler": [
+  ],
+  "links_to_schnitzler": [
   ]
 }
