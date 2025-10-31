@@ -102,11 +102,23 @@
 
         <!-- Datum -->
         <xsl:variable name="date" select="tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@when"/>
+        <xsl:variable name="date-notBefore" select="tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@notBefore"/>
+        <xsl:variable name="date-from" select="tei:correspDesc/tei:correspAction[@type='sent']/tei:date/@from"/>
         <xsl:text>      "date": </xsl:text>
         <xsl:choose>
             <xsl:when test="$date">
                 <xsl:text>"</xsl:text>
                 <xsl:value-of select="$date"/>
+                <xsl:text>"</xsl:text>
+            </xsl:when>
+            <xsl:when test="$date-notBefore">
+                <xsl:text>"</xsl:text>
+                <xsl:value-of select="$date-notBefore"/>
+                <xsl:text>"</xsl:text>
+            </xsl:when>
+            <xsl:when test="$date-from">
+                <xsl:text>"</xsl:text>
+                <xsl:value-of select="$date-from"/>
                 <xsl:text>"</xsl:text>
             </xsl:when>
             <xsl:otherwise>
