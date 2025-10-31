@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und
+                                    Autoren</title>
+            <title level="a">Statistik Arthur Schnitzler – Berta Zuckerkandl</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+               <name>Gerd-Hermann Susen</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2025-10-31Z</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Inhaltsverzeichnis einzelner Korrespondenzen von
+                                    schnitzler-briefe</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item corresp="L03950">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 20. 6. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1911-06-20" n="01">20. 6. 1911</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1911-06-20" notAfter="1911-06-23">[20. 6. 1911 – 23. 6. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02023">Beer-Hofmann an Schnitzler, 15. 6. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03635">Zweig an Schnitzler, [24. 6. 1911?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03951">Schnitzler an Zuckerkandl, 9. 12. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="957"/>
+            </item>
+            <item corresp="L03951">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 9. 12. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1911-12-09" n="01">9. 12. 1911</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1911-12-09" notAfter="1911-12-12">[9. 12. 1911 – 12. 12. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02049">Brandes an Schnitzler, vor dem 2. 12. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03790">Schnitzler an Zweig, 1[1]. 1[2]. 1911</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03950">Schnitzler an Zuckerkandl, 20. 6. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03945">Schnitzler an Zuckerkandl, 8. 1. 1912</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1078"/>
+            </item>
+            <item corresp="L03945">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 8. 1. 1912</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1912-01-08" n="01">8. 1. 1912</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1912-01-08" notAfter="1912-01-11">[8. 1. 1912 – 11. 1. 1912?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02566">Schnitzler an Beer-Hofmann, [1912?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02050">Bahr an Schnitzler, 8. 1. 1912</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03951">Schnitzler an Zuckerkandl, 9. 12. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03660">Zuckerkandl an Schnitzler, 25. 2. 1917</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="991"/>
+            </item>
+            <item corresp="L03660">
+               <title level="a">Berta Zuckerkandl an Arthur Schnitzler, 25. 2. 1917</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date when="1917-02-25" n="01">25. 2. 1917</date>
+                     <placeName ref="#pmb1223">Bern</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1917-02-26" notAfter="1917-03-02">[26. 2. 1917
+                  – 2. 3. 1917?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02257">Hofmannsthal an Schnitzler, 23. 2. 1917</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02258">Schnitzler an Holz, 28. 2. 1917</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03945">Schnitzler an Zuckerkandl, 8. 1. 1912</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03946">Schnitzler an Zuckerkandl, 19. 3. 1923</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="878"/>
+            </item>
+            <item corresp="L03946">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 19. 3. 1923</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1923-03-19" n="01">19. 3. 1923</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1923-03-19" notAfter="1923-03-22">[19. 3. 1923 – 22. 3. 1923?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02397">Mann an Schnitzler, 20. 2. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02572">Rie an Schnitzler, 3. 5. 1923</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03660">Zuckerkandl an Schnitzler, 25. 2. 1917</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03947">Schnitzler an Zuckerkandl, 25. 10. 1923</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2530"/>
+            </item>
+            <item corresp="L03947">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 25. 10. 1923</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1923-10-25" n="01">25. 10. 1923</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02576">Rie an Schnitzler, 30. 9. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03948">Schnitzler an Zuckerkandl, 29. 10. 1923</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03946">Schnitzler an Zuckerkandl, 19. 3. 1923</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03948">Schnitzler an Zuckerkandl, 29. 10. 1923</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3174"/>
+            </item>
+            <item corresp="L03948">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 29. 10. 1923</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1923-10-29" n="01">29. 10. 1923</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03947">Schnitzler an Zuckerkandl, 25. 10. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02404">Schnitzler an Mann, 18. 11. 1923</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03947">Schnitzler an Zuckerkandl, 25. 10. 1923</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03949">Schnitzler an Zuckerkandl, 1. 12. 1923</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2161"/>
+            </item>
+            <item corresp="L03949">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 1. 12. 1923</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1923-12-01" n="01">1. 12. 1923</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1923-12-01" notAfter="1923-12-04">[1. 12. 1923 – 4. 12. 1923?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02405">Mann an Schnitzler, 22. 11. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02948">Schnitzler an Salten, 10. 12. 1923</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03948">Schnitzler an Zuckerkandl, 29. 10. 1923</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03952">Schnitzler an Zuckerkandl, 16. 1. 1924</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1613"/>
+            </item>
+            <item corresp="L03952">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 16. 1. 1924</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1924-01-16" n="01">16. 1. 1924</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1924-01-17" notAfter="1924-01-21">[17. 1. 1924 – 21. 1. 1924?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02407">Schnitzler an Brandes, 4. 1. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02408">Hofmannsthal an Schnitzler, 18. 1. 1924</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03949">Schnitzler an Zuckerkandl, 1. 12. 1923</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03953">Schnitzler an Zuckerkandl, 31. 1. 1924</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1253"/>
+            </item>
+            <item corresp="L03953">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 31. 1. 1924</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1924-01-31" n="01">31. 1. 1924</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1924-02-01" notAfter="1924-02-05">[1. 2. 1924 – 5. 2. 1924?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02409">Schnitzler an Beer-Hofmann, 21. 1. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02410">Schnitzler an Beer-Hofmann, 27. 2. 1924</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03952">Schnitzler an Zuckerkandl, 16. 1. 1924</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03954">Schnitzler an Zuckerkandl, 20. 11. 1924</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="969"/>
+            </item>
+            <item corresp="L03954">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 20. 11. 1924</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1924-11-20" n="01">20. 11. 1924</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1924-11-20" notAfter="1924-11-23">[20. 11. 1924 – 23. 11. 1924?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03754">Schnitzler an Zweig, 6. 11. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03955">Schnitzler an Zuckerkandl, 24. 11. 1924</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03953">Schnitzler an Zuckerkandl, 31. 1. 1924</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03955">Schnitzler an Zuckerkandl, 24. 11. 1924</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1853"/>
+            </item>
+            <item corresp="L03955">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 24. 11. 1924</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1924-11-24" n="01">24. 11. 1924</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03954">Schnitzler an Zuckerkandl, 20. 11. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03956">Schnitzler an Zuckerkandl, 1. 12. 1924</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03954">Schnitzler an Zuckerkandl, 20. 11. 1924</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03956">Schnitzler an Zuckerkandl, 1. 12. 1924</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="610"/>
+            </item>
+            <item corresp="L03956">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 1. 12. 1924</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1924-12-01" n="01">1. 12. 1924</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1924-12-02" notAfter="1924-12-06">[2. 12. 1924 – 6. 12. 1924?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03955">Schnitzler an Zuckerkandl, 24. 11. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02421">Braun an Schnitzler, 9. 12. 1924</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03955">Schnitzler an Zuckerkandl, 24. 11. 1924</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03958">Schnitzler an Zuckerkandl, 7. 2. 1925</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2629"/>
+            </item>
+            <item corresp="L03958">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 7. 2. 1925</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1925-02-07" n="01">7. 2. 1925</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1925-02-07" notAfter="1925-02-10">[7. 2. 1925 – 10. 2. 1925?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03042">Salten an Schnitzler, Februar 1925</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02432">Schnitzler an Brandes, 11. 2. 1925</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03956">Schnitzler an Zuckerkandl, 1. 12. 1924</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03957">Schnitzler an Zuckerkandl, 2. 4. 1925</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="286"/>
+            </item>
+            <item corresp="L03957">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 2. 4. 1925</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1925-04-02" n="01">2. 4. 1925</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02439">Hofmannsthal an Schnitzler, 11. 3. 1925</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02654">Lasker-Schüler an Schnitzler, 28. 4. [1925?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03958">Schnitzler an Zuckerkandl, 7. 2. 1925</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03959">Schnitzler an Zuckerkandl, 15. 6. 1925</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="3320"/>
+            </item>
+            <item corresp="L03959">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 15. 6. 1925</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1925-06-15" n="01">15. 6. 1925</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1925-06-15" notAfter="1925-06-18">[15. 6. 1925 – 18. 6. 1925?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02442">Schnitzler an Mann, 7. 6. 1925</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02443">Brandes an Schnitzler, 21. 6. 1925</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03957">Schnitzler an Zuckerkandl, 2. 4. 1925</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03960">Schnitzler an Zuckerkandl, 8. 10. 1925</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="997"/>
+            </item>
+            <item corresp="L03960">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 8. 10. 1925</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1925-10-08" n="01">8. 10. 1925</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1925-10-09" notAfter="1925-10-13">[9. 10. 1925 – 13. 10. 1925?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02451">Großmann an Schnitzler, [nach dem
+                  25. 9. 1925]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02452">Hofmannsthal an Schnitzler, 8. 10. 1925</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03959">Schnitzler an Zuckerkandl, 15. 6. 1925</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03961">Schnitzler an Zuckerkandl, 31. 10. 1925</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2488"/>
+            </item>
+            <item corresp="L03961">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 31. 10. 1925</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1925-10-31" n="01">31. 10. 1925</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1925-11-01" notAfter="1925-11-05">[1. 11. 1925 – 5. 11. 1925?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03539">Goldmann an Schnitzler, [Ende Oktober 1925?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02454">Hofmannsthal an Schnitzler, 14. 11. 1925</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03960">Schnitzler an Zuckerkandl, 8. 10. 1925</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03971">Schnitzler an Zuckerkandl, 24. 12. 1925</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2325"/>
+            </item>
+            <item corresp="L03971">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 24. 12. 1925</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1925-12-24" n="02">24. 12. 1925</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1925-12-24" notAfter="1925-12-27">[24. 12. 1925 – 27. 12. 1925?]</date>
+                     <placeName ref="#pmb50" evidence="internal">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02459">Schnitzler an Großmann, 24. 12. 1925</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03962">Schnitzler an Zuckerkandl, 24. 12. 1925</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03961">Schnitzler an Zuckerkandl, 31. 10. 1925</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03962">Schnitzler an Zuckerkandl, 24. 12. 1925</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1977"/>
+            </item>
+            <item corresp="L03962">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 24. 12. 1925</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1925-12-24" n="03">24. 12. 1925</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1925-12-24" notAfter="1925-12-27">[24. 12. 1925 – 27. 12. 1925?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03971">Schnitzler an Zuckerkandl, 24. 12. 1925</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02460">Schnitzler an Braun, 26. 12. 1925</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03971">Schnitzler an Zuckerkandl, 24. 12. 1925</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03963">Schnitzler an Zuckerkandl, 2. 1. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1435"/>
+            </item>
+            <item corresp="L03963">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 2. 1. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1926-01-02" n="01">2. 1. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1926-01-03" notAfter="1926-01-07">[3. 1. 1926 – 7. 1. 1926?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02463">Rung an Schnitzler, 30. 12. 1925</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02464">Großmann an Schnitzler, 2. 1. 192[6?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03962">Schnitzler an Zuckerkandl, 24. 12. 1925</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03964">Schnitzler an Zuckerkandl, 11. 1. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1142"/>
+            </item>
+            <item corresp="L03964">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 11. 1. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1926-01-11" n="01">11. 1. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1926-01-12" notAfter="1926-01-16">[12. 1. 1926 – 16. 1. 1926?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02465">Schnitzler an Brandes, 3. 1. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03965">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03963">Schnitzler an Zuckerkandl, 2. 1. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03965">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1347"/>
+            </item>
+            <item corresp="L03965">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, XXXX</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1926-01-25" n="01">25. 1. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1926-01-26" notAfter="1926-01-30">[26. 1. 1926 – 30. 1. 1926?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03964">Schnitzler an Zuckerkandl, 11. 1. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03967">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03964">Schnitzler an Zuckerkandl, 11. 1. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03967">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="4667"/>
+            </item>
+            <item corresp="L03967">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 25. 1. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1926-01-25" n="02">25. 1. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1926-01-26" notAfter="1926-01-30">[26. 1. 1926 – 30. 1. 1926?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03965">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03968">Schnitzler an Zuckerkandl, 4. 2. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03965">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03968">Schnitzler an Zuckerkandl, 4. 2. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1284"/>
+            </item>
+            <item corresp="L03968">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 4. 2. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1926-02-04" n="01">4. 2. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1926-02-04" notAfter="1926-02-07">[4. 2. 1926 – 7. 2. 1926?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03967">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03585">Salten an Schnitzler, 23. 2. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03967">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03976">Schnitzler an Zuckerkandl, 27. 5. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1070"/>
+            </item>
+            <item corresp="L03976">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 27. 5. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1926-05-27" n="01">27. 5. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1926-02-05" notAfter="1926-02-09">[5. 2. 1926 – 9. 2. 1926?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02475">Großmann an Schnitzler, 25. 5. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02476">Schnitzler an Großmann, 31. 5. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03968">Schnitzler an Zuckerkandl, 4. 2. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03969">Schnitzler an Zuckerkandl, 20. 11. 1926</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2036"/>
+            </item>
+            <item corresp="L03969">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 20. 11. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1926-11-20" n="01">20. 11. 1926</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1926-11-21" notAfter="1926-11-25">[21. 11. 1926 – 25. 11. 1926?]</date>
+                     <placeName ref="#pmb182" evidence="internal">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03672">Zweig an Schnitzler, 10. 11. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03542">Goldmann an Schnitzler, 1. 1. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03976">Schnitzler an Zuckerkandl, 27. 5. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03970">Schnitzler an Zuckerkandl, 14. 5. 1927</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1244"/>
+            </item>
+            <item corresp="L03970">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 14. 5. 1927</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1927-05-14" n="01">14. 5. 1927</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1927-05-14" notAfter="1927-05-17">[14. 5. 1927 – 17. 5. 1927?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02486">Braun an Schnitzler, 10. 5. 1927</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03674">Zweig an Schnitzler, 18. 5. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03969">Schnitzler an Zuckerkandl, 20. 11. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03972">Schnitzler an Zuckerkandl, 19. 11. 1927</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1539"/>
+            </item>
+            <item corresp="L03972">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 19. 11. 1927</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1927-11-19" n="01">19. 11. 1927</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1927-11-20" notAfter="1927-11-24">[20. 11. 1927 – 24. 11. 1927?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03892">Freud an Schnitzler, [zwischen 15.? und 28. 11. 1927]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03973">Schnitzler an Zuckerkandl, 21. 11. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03970">Schnitzler an Zuckerkandl, 14. 5. 1927</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03973">Schnitzler an Zuckerkandl, 21. 11. 1927</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2241"/>
+            </item>
+            <item corresp="L03973">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 21. 11. 1927</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1927-11-21" n="01">21. 11. 1927</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1927-11-22" notAfter="1927-11-26">[22. 11. 1927 – 26. 11. 1927?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03972">Schnitzler an Zuckerkandl, 19. 11. 1927</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03966">Schnitzler an Zuckerkandl, 24. 11. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03972">Schnitzler an Zuckerkandl, 19. 11. 1927</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03966">Schnitzler an Zuckerkandl, 24. 11. 1927</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2203"/>
+            </item>
+            <item corresp="L03966">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 24. 11. 1927</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1927-11-24" n="01">24. 11. 1927</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1927-11-24" notAfter="1927-11-27">[24. 11. 1927 – 27. 11. 1927?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03973">Schnitzler an Zuckerkandl, 21. 11. 1927</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02493">Schnitzler an Hofmannsthal, 16. 12. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03973">Schnitzler an Zuckerkandl, 21. 11. 1927</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03974">Schnitzler an Zuckerkandl, 22. 12. 1928</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="324"/>
+            </item>
+            <item corresp="L03974">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 22. 12. 1928</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1928-12-22" n="01">22. 12. 1928</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1928-12-22" notAfter="1928-12-25">[22. 12. 1928 – 25. 12. 1928?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02506">Schnitzler an Hofmannsthal, 4. 11. 1928</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02507">Schnitzler an Mann, 30. 1. 1929</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03966">Schnitzler an Zuckerkandl, 24. 11. 1927</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03975">Schnitzler an Zuckerkandl, 4. 3. 1929</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="342"/>
+            </item>
+            <item corresp="L03975">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 4. 3. 1929</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1929-03-04" n="01">4. 3. 1929</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1929-03-04" notAfter="1929-03-07">[4. 3. 1929 – 7. 3. 1929?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02508">Mann an Schnitzler, 1. 2. 1929</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02509">Hofmannsthal an Schnitzler, 3. 6. 1929</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03974">Schnitzler an Zuckerkandl, 22. 12. 1928</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03977">Schnitzler an Zuckerkandl, 8. 8. 1929</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="4225"/>
+            </item>
+            <item corresp="L03977">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 8. 8. 1929</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1929-08-08" n="01">8. 8. 1929</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1929-08-08" notAfter="1929-08-11">[8. 8. 1929 – 11. 8. 1929?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02517">Hofmannsthal an Schnitzler, 13. 8. 1929</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02518">Schnitzler an Hofmannsthal, 12. 8. 1929</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03975">Schnitzler an Zuckerkandl, 4. 3. 1929</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03978">Schnitzler an Zuckerkandl, 7. 11. 1929</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2149"/>
+            </item>
+            <item corresp="L03978">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 7. 11. 1929</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1929-11-07" n="01">7. 11. 1929</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1929-11-07" notAfter="1929-11-10">[7. 11. 1929 – 10. 11. 1929?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03692">Zweig an Schnitzler, 6. 11. 1929</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03589">Salten an Schnitzler, [16. 11. 1929]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03977">Schnitzler an Zuckerkandl, 8. 8. 1929</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03979">Schnitzler an Zuckerkandl, 2. 12. 1929</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="609"/>
+            </item>
+            <item corresp="L03979">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 2. 12. 1929</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1929-12-02" n="01">2. 12. 1929</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1929-12-03" notAfter="1929-12-07">[3. 12. 1929 – 7. 12. 1929?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02526">Schnitzler an Hauptmann, 27. 11. 1929</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03735">Schnitzler an Zweig, 5. 12. 1929</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03978">Schnitzler an Zuckerkandl, 7. 11. 1929</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03980">Schnitzler an Zuckerkandl, 3. 6. 1931</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="274"/>
+            </item>
+            <item corresp="L03980">
+               <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 3. 6. 1931</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1931-06-03" n="01">3. 6. 1931</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1931-06-04" notAfter="1931-06-08">[4. 6. 1931 – 8. 6. 1931?]</date>
+                     <placeName ref="#pmb182">Paris</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03026">Schnitzler an Salten, 30. 5. 1931</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03518">Goldmann an Schnitzler, 2. 8. 1931</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2312"
+                          target="L03979">Schnitzler an Zuckerkandl, 2. 12. 1929</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="713"/>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

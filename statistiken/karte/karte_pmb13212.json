@@ -3054,7 +3054,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Montreux",
+        "ref": "pmb40482",
+        "lat": 46.45179,
+        "lon": 6.94084
+      },
       "to": {
         "name": "Zermatt",
         "ref": "pmb34005",
