@@ -12,12 +12,45 @@
       "count": 18
     },
     {
+      "id": "pmb36456",
+      "name": "Menton",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 37
+      "count": 42
+    },
+    {
+      "id": "pmb52051",
+      "name": "Territet",
+      "count": 1
+    },
+    {
+      "id": "pmb90460",
+      "name": "Caux",
+      "count": 1
+    },
+    {
+      "id": "pmb91067",
+      "name": "Kreuzberg [Breitenstein]",
+      "count": 1
+    },
+    {
+      "id": "pmb966",
+      "name": "Istanbul",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb36456",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Berta Zuckerkandl, 18. 4. 1911"
+      ]
+    },
     {
       "from": "pmb50",
       "to": "pmb182",
@@ -33,7 +66,7 @@
         "Arthur Schnitzler an Berta Zuckerkandl, 31. 10. 1925",
         "Arthur Schnitzler an Berta Zuckerkandl, 2. 1. 1926",
         "Arthur Schnitzler an Berta Zuckerkandl, 11. 1. 1926",
-        "Arthur Schnitzler an Berta Zuckerkandl, XXXX",
+        "Arthur Schnitzler an Berta Zuckerkandl, 25. 1. 1926",
         "Arthur Schnitzler an Berta Zuckerkandl, 25. 1. 1926",
         "Arthur Schnitzler an Berta Zuckerkandl, 27. 5. 1926",
         "Arthur Schnitzler an Berta Zuckerkandl, 20. 11. 1926",
@@ -66,6 +99,30 @@
         "Arthur Schnitzler an Berta Zuckerkandl, 4. 3. 1929",
         "Arthur Schnitzler an Berta Zuckerkandl, 8. 8. 1929",
         "Arthur Schnitzler an Berta Zuckerkandl, 7. 11. 1929"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb91067",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Berta Zuckerkandl, 31. 7. 1920"
+      ]
+    },
+    {
+      "from": "pmb52051",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Berta Zuckerkandl, 3. 9. 1929"
+      ]
+    },
+    {
+      "from": "pmb966",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Berta Zuckerkandl, 23. 4. 1928"
       ]
     }
   ],
