@@ -140,13 +140,13 @@ def main():
 
     years_sorted = sorted(viz2_received_by_year_and_person.keys())
 
-    # Finde die wichtigsten Korrespondenzpartner (Top 20 nach Gesamtzahl)
+    # Alle Korrespondenzpartner nach Gesamtzahl sortieren
     person_totals = defaultdict(int)
     for year_dict in viz2_received_by_year_and_person.values():
         for person, count in year_dict.items():
             person_totals[person] += count
 
-    top_persons = sorted(person_totals.items(), key=lambda x: x[1], reverse=True)[:20]
+    all_persons = sorted(person_totals.items(), key=lambda x: x[1], reverse=True)
 
     output_viz2 = {
         'title': 'Edierte Korrespondenzstücke an Schnitzler im Laufe der Jahre',
@@ -154,7 +154,7 @@ def main():
         'correspondents': []
     }
 
-    for person_id, total in top_persons:
+    for person_id, total in all_persons:
         person_data = {
             'id': person_id,
             'name': person_names.get(person_id, person_id),
