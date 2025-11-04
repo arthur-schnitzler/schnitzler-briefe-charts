@@ -20,3 +20,9 @@ rm -rf ./schnitzler-briefe-data-main
 
 echo "and now some XSLTs"
 ant
+
+echo "Generating statistics JSON files"
+cd statistiken/allgemeiner-text
+python3 generate_gesamtstatistik.py
+python3 generate_statistiken_visualizations.py
+cd ../..
