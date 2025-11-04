@@ -115,7 +115,7 @@ def main():
     # Datenstrukturen für die 6 Visualisierungen
     viz1_all_pieces_by_year = defaultdict(int)  # Abb. 1
     viz2_received_by_year_and_person = defaultdict(lambda: defaultdict(int))  # Abb. 2
-    viz4_all_text_length_by_year = defaultdict(int)  # Abb. 4
+    viz4_text_length_by_year_and_person = defaultdict(lambda: defaultdict(int))  # Abb. 4
     viz5_goldmann_hofmannsthal_length = defaultdict(lambda: {'goldmann': 0, 'hofmannsthal': 0})  # Abb. 5
 
     for xml_file in files:
@@ -138,12 +138,13 @@ def main():
         # Abb. 1: Alle Korrespondenzstücke nach Jahr
         viz1_all_pieces_by_year[year] += 1
 
-        # Abb. 2: An Schnitzler empfangene Stücke nach Jahr und Person
+        # Abb. 2: An Schnitzler empfangene Stücke nach Jahr und Person (Anzahl)
         if receiver_pmb == 'pmb2121' and sender_pmb:
             viz2_received_by_year_and_person[year][sender_pmb] += 1
 
-        # Abb. 4: Textlänge aller Korrespondenzstücke nach Jahr
-        viz4_all_text_length_by_year[year] += text_length
+        # Abb. 4: An Schnitzler empfangene Stücke nach Jahr und Person (Textlänge)
+        if receiver_pmb == 'pmb2121' and sender_pmb:
+            viz4_text_length_by_year_and_person[year][sender_pmb] += text_length
 
         # Abb. 5: Goldmann und Hofmannsthal an Schnitzler (Textlänge)
         if receiver_pmb == 'pmb2121':
@@ -207,12 +208,31 @@ def main():
         }
         output_viz3['correspondents'].append(person_data)
 
-    # Abb. 4: Alle edierten Korrespondenzstücke nach Textlänge
+    # Abb. 4: Alle edierten Korrespondenzstücke nach Textlänge (aufgeschlüsselt nach Person)
+    # Nur Korrespondenzpartner aus listcorrespondence.xml verwenden
+    person_text_totals = defaultdict(int)
+    for year_dict in viz4_text_length_by_year_and_person.values():
+        for person, text_length in year_dict.items():
+            # Nur Personen mit vollständigen Korrespondenzen
+            if person in correspondence_pmb_ids:
+                person_text_totals[person] += text_length
+
+    all_persons_by_text = sorted(person_text_totals.items(), key=lambda x: x[1], reverse=True)
+
     output_viz4 = {
         'title': 'Alle edierten Korrespondenzstücke nach Textlänge',
-        'years': sorted(viz4_all_text_length_by_year.keys()),
-        'text_lengths': [viz4_all_text_length_by_year[year] for year in sorted(viz4_all_text_length_by_year.keys())]
+        'years': years_sorted,
+        'correspondents': []
     }
+
+    for person_id, total in all_persons_by_text:
+        person_data = {
+            'id': person_id,
+            'name': person_names.get(person_id, person_id),
+            'total': total,
+            'text_lengths': [viz4_text_length_by_year_and_person[year].get(person_id, 0) for year in years_sorted]
+        }
+        output_viz4['correspondents'].append(person_data)
 
     # Abb. 5: Goldmann und Hofmannsthal an Schnitzler (Textlänge)
     years_sorted_viz5 = sorted(viz5_goldmann_hofmannsthal_length.keys())
