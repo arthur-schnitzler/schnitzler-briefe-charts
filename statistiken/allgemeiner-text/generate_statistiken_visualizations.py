@@ -79,11 +79,38 @@ def load_person_names():
     return person_names
 
 
+def load_correspondence_pmb_ids():
+    """Lädt die PMB-IDs der vollständigen Korrespondenzen aus listcorrespondence.xml"""
+    correspondence_pmb_ids = set()
+    listcorrespondence_file = "../../../schnitzler-briefe-data/data/indices/listcorrespondence.xml"
+
+    try:
+        doc = TeiReader(listcorrespondence_file)
+        # Nur Korrespondenzen ohne ana="planned" und nicht correspondence_null
+        person_groups = doc.any_xpath(
+            '//tei:personGrp[not(@ana="planned") and not(@xml:id="correspondence_null")]'
+        )
+
+        for group in person_groups:
+            # Extrahiere die PMB-ID aus der correspondence-ID (z.B. correspondence_11485 -> pmb11485)
+            correspondence_id = group.get('{http://www.w3.org/XML/1998/namespace}id')
+            if correspondence_id and correspondence_id.startswith('correspondence_'):
+                pmb_id = 'pmb' + correspondence_id.replace('correspondence_', '')
+                correspondence_pmb_ids.add(pmb_id)
+
+        print(f"✓ {len(correspondence_pmb_ids)} vollständige Korrespondenzen aus listcorrespondence.xml geladen")
+    except Exception as e:
+        print(f"Warning: Could not load correspondence IDs from listcorrespondence.xml: {e}")
+
+    return correspondence_pmb_ids
+
+
 def main():
     files = sorted(glob.glob("../../../schnitzler-briefe-data/data/editions/*.xml"))
 
-    # Lade Personennamen
+    # Lade Personennamen und Korrespondenz-IDs
     person_names = load_person_names()
+    correspondence_pmb_ids = load_correspondence_pmb_ids()
 
     # Datenstrukturen für die 6 Visualisierungen
     viz1_all_pieces_by_year = defaultdict(int)  # Abb. 1
@@ -140,11 +167,13 @@ def main():
 
     years_sorted = sorted(viz2_received_by_year_and_person.keys())
 
-    # Alle Korrespondenzpartner nach Gesamtzahl sortieren
+    # Nur Korrespondenzpartner aus listcorrespondence.xml verwenden
     person_totals = defaultdict(int)
     for year_dict in viz2_received_by_year_and_person.values():
         for person, count in year_dict.items():
-            person_totals[person] += count
+            # Nur Personen mit vollständigen Korrespondenzen
+            if person in correspondence_pmb_ids:
+                person_totals[person] += count
 
     all_persons = sorted(person_totals.items(), key=lambda x: x[1], reverse=True)
 
