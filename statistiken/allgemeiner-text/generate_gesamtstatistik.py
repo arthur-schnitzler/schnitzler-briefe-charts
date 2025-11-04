@@ -81,7 +81,8 @@ def main():
         )
         if object_type:
             type_value = object_type[0].strip()
-            if type_value:
+            # Ignoriere xbrief
+            if type_value and type_value != 'xbrief':
                 stats['by_object_type'][type_value] += 1
                 stats['letters_by_year_and_object_type'][year][type_value] += 1
 
