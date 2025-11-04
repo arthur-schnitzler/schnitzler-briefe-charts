@@ -50,8 +50,40 @@ def get_receiver_pmb_id(doc):
     return None
 
 
+def load_person_names():
+    """Lädt Personennamen aus listperson.xml"""
+    person_names = {}
+    listperson_file = "../../../schnitzler-briefe-data/data/indices/listperson.xml"
+
+    try:
+        doc = TeiReader(listperson_file)
+        persons = doc.any_xpath('//tei:person[@xml:id]')
+
+        for person in persons:
+            person_id = person.get('{http://www.w3.org/XML/1998/namespace}id')
+            if person_id:
+                # Versuche Nachname und Vorname zu finden
+                surname = person.xpath('.//tei:surname/text()', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'})
+                forename = person.xpath('.//tei:forename/text()', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'})
+
+                if surname:
+                    name = surname[0]
+                    if forename:
+                        name = f"{forename[0]} {surname[0]}"
+                    person_names[person_id] = name
+
+        print(f"✓ {len(person_names)} Personennamen aus listperson.xml geladen")
+    except Exception as e:
+        print(f"Warning: Could not load person names from listperson.xml: {e}")
+
+    return person_names
+
+
 def main():
     files = sorted(glob.glob("../../../schnitzler-briefe-data/data/editions/*.xml"))
+
+    # Lade Personennamen
+    person_names = load_person_names()
 
     # Datenstrukturen für die 6 Visualisierungen
     viz1_all_pieces_by_year = defaultdict(int)  # Abb. 1
@@ -125,7 +157,7 @@ def main():
     for person_id, total in top_persons:
         person_data = {
             'id': person_id,
-            'name': BIG_FIVE.get(person_id, person_id),
+            'name': person_names.get(person_id, person_id),
             'total': total,
             'counts': [viz2_received_by_year_and_person[year].get(person_id, 0) for year in years_sorted]
         }
