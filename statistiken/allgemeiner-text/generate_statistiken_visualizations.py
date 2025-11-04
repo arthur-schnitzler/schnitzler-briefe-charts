@@ -6,6 +6,7 @@ Output: 6 JSON-Dateien für die verschiedenen Charts
 
 import glob
 import json
+import urllib.request
 from collections import defaultdict
 from acdh_tei_pyutils.tei import TeiReader
 
@@ -77,6 +78,47 @@ def load_person_names():
         print(f"Warning: Could not load person names from listperson.xml: {e}")
 
     return person_names
+
+
+def load_diary_mentions(pmb_id):
+    """
+    Lädt Tagebucherwähnungen für eine Person aus dem schnitzler-tagebuch-charts Repository
+    Returns: Dictionary {year: count}
+    """
+    url = f"https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-tagebuch-charts/main/tagebuch-vorkommen-korrespondenzpartner/tagebuch-vorkommen_{pmb_id}.xml"
+
+    mentions = {}
+    try:
+        print(f"  Lade Tagebucherwähnungen für {pmb_id}...")
+        with urllib.request.urlopen(url, timeout=10) as response:
+            xml_content = response.read()
+
+        # Parse XML mit TeiReader
+        import tempfile
+        with tempfile.NamedTemporaryFile(mode='wb', suffix='.xml', delete=False) as tmp:
+            tmp.write(xml_content)
+            tmp_path = tmp.name
+
+        try:
+            doc = TeiReader(tmp_path)
+            events = doc.any_xpath('//tei:event[@when]')
+
+            for event in events:
+                year = event.get('when')
+                desc = event.xpath('.//tei:desc/text()', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'})
+                if year and desc:
+                    count = int(desc[0])
+                    mentions[year] = count
+
+            print(f"  ✓ {len(mentions)} Jahre mit Tagebucherwähnungen geladen")
+        finally:
+            import os
+            os.unlink(tmp_path)
+
+    except Exception as e:
+        print(f"  Warning: Could not load diary mentions for {pmb_id}: {e}")
+
+    return mentions
 
 
 def load_correspondence_pmb_ids():
@@ -243,19 +285,21 @@ def main():
         'hofmannsthal': [viz5_goldmann_hofmannsthal_length[year]['hofmannsthal'] for year in years_sorted_viz5]
     }
 
-    # Abb. 6: Erwähnungen im Tagebuch - wird aus schnitzler-tagebuch-data geladen
-    # Diese Visualisierung benötigt Daten aus dem Tagebuch-Repository
+    # Abb. 6: Erwähnungen im Tagebuch - wird aus schnitzler-tagebuch-charts geladen
+    print("\nLade Tagebucherwähnungen...")
+    goldmann_diary = load_diary_mentions('pmb11485')
+    hofmannsthal_diary = load_diary_mentions('pmb11740')
+
     output_viz6 = {
         'title': 'Erwähnungen im Tagebuch und Anzahl der Korrespondenzstücke',
-        'note': 'Diese Daten müssen aus schnitzler-tagebuch-data bezogen werden',
         'years': years_sorted_viz5,
         'goldmann': {
             'letters': [viz2_received_by_year_and_person[year].get('pmb11485', 0) for year in years_sorted_viz5],
-            'diary_mentions': []  # TODO: Aus Tagebuch-Daten laden
+            'diary_mentions': [goldmann_diary.get(year, 0) for year in years_sorted_viz5]
         },
         'hofmannsthal': {
             'letters': [viz2_received_by_year_and_person[year].get('pmb11740', 0) for year in years_sorted_viz5],
-            'diary_mentions': []  # TODO: Aus Tagebuch-Daten laden
+            'diary_mentions': [hofmannsthal_diary.get(year, 0) for year in years_sorted_viz5]
         }
     }
 
