@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-11-04Z</date>
+            <date>2025-11-06Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -2758,7 +2758,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02897">Goldmann an Schnitzler, 6. 12. [1899]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02898">Goldmann an Schnitzler, 11. 12. [1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03989">Schnitzler an Herzl, 10. 12. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -2766,11 +2766,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03870">Herzl an Schnitzler, 12. 12. 1899</ref>
+                          target="L03989">Schnitzler an Herzl, 10. 12. 1899</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="135"/>
+            </item>
+            <item corresp="L03989">
+               <title level="a">Arthur Schnitzler an Theodor Herzl, 10. 12. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1899-12-10" n="01">10. 12. 1899</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date notBefore="1899-12-10" notAfter="1899-12-12">[10. 12. 1899 –
+                  12. 12. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03869">Herzl an Schnitzler, 8. 12. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02898">Goldmann an Schnitzler, 11. 12. [1899]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03869">Herzl an Schnitzler, 8. 12. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11673"
+                          target="L03870">Herzl an Schnitzler, 12. 12. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="506"/>
             </item>
             <item corresp="L03870">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 12. 12. 1899</title>
@@ -2792,7 +2823,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03869">Herzl an Schnitzler, 8. 12. 1899</ref>
+                          target="L03989">Schnitzler an Herzl, 10. 12. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"

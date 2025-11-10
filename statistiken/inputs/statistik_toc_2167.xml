@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-11-04Z</date>
+            <date>2025-11-06Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2167.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -12228,11 +12228,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L03561">Salten an Schnitzler, 24. 6. 1913</ref>
+                          target="L03988">Salten an Schnitzler, Oktober 1913</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
                <measure unit="zeichenanzahl" quantity="1863"/>
+            </item>
+            <item corresp="L03988">
+               <title level="a">Felix Salten: Widmungsexemplar von Gestalten und Erscheinungen an Olga
+               Schnitzler, Oktober 1913</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2167">Salten, Felix</persName>
+                     <date notBefore="1913-01-01" notAfter="1913-01-30" n="01">Oktober 1913</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date notBefore="1913-01-01" notAfter="1913-01-30">Oktober 1913</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02110">Schnitzler an Hofmannsthal, 21. 12. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02112">Hofmannsthal an Schnitzler, 3. 1. 1913</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2167"
+                          target="L03560">Salten an Schnitzler, 2. 9. 1912</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2167"
+                          target="L03561">Salten an Schnitzler, 24. 6. 1913</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="widmung" ana="widmung_titelblatt"/>
+               <measure unit="zeichenanzahl" quantity="100"/>
             </item>
             <item corresp="L03561">
                <title level="a">Felix Salten an Arthur Schnitzler, 24. 6. 1913</title>
@@ -12256,7 +12287,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L03560">Salten an Schnitzler, 2. 9. 1912</ref>
+                          target="L03988">Salten an Schnitzler, Oktober 1913</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -13546,7 +13577,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02493">Schnitzler an Hofmannsthal, 16. 12. 1927</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03515">Goldmann an Schnitzler, 23. 12. 1927</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03993">Schnitzler an Zuckerkandl, 17. 12. 1927</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
