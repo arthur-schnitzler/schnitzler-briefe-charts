@@ -12,7 +12,7 @@
 
     <!-- keys -->
     <xsl:key name="edition-by-work" match="tei:body"
-        use="//tei:rs[@type = 'work' and not(ancestor::tei:note[@type = 'textConst']) and not(ancestor::tei:note[@type = 'commentary'])]/@ref"/>
+        use=".//tei:rs[@type = 'work' and not(ancestor::tei:note[@type = 'textConst']) and not(ancestor::tei:note[@type = 'commentary'])]/@ref"/>
     <xsl:key name="corresp-by-id"
         match="tei:correspContext/tei:ref[@type = 'belongsToCorrespondence']" use="@target"/>
 

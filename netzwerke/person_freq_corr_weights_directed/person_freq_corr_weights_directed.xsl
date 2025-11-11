@@ -10,7 +10,7 @@
 
     <!-- keys -->
     <xsl:key name="edition-by-person" match="tei:body"
-        use="//tei:rs[@type = 'person' and not(ancestor::tei:note[@type = 'textConst']) and not(ancestor::tei:note[@type = 'commentary'])]/@ref"/>
+        use=".//tei:rs[@type = 'person' and not(ancestor::tei:note[@type = 'textConst']) and not(ancestor::tei:note[@type = 'commentary'])]/@ref"/>
     <xsl:key name="corresp-by-id"
         match="tei:correspContext/tei:ref[@type = 'belongsToCorrespondence']" use="@target"/>
 
