@@ -35,39 +35,52 @@
                 <xsl:if test="$mentioned-orgs/org">
                     <xsl:variable name="total-orgs" select="count($mentioned-orgs/org)"/>
 
-                    <!-- Determine file suffix based on count -->
-                    <xsl:variable name="suffix">
-                        <xsl:choose>
-                            <xsl:when test="$total-orgs &gt; 100">_top100</xsl:when>
-                            <xsl:when test="$total-orgs &gt; 30">_top30</xsl:when>
-                            <xsl:otherwise>_alle</xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:variable>
-
-                    <!-- Create CSV file -->
-                    <xsl:result-document href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}{$suffix}.csv">
+                    <!-- Always create _alle.csv with all entities -->
+                    <xsl:result-document href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}_alle.csv">
                         <xsl:text>Source,Target,Weight,Type&#10;</xsl:text>
-
-                        <!-- Sort by count descending and take top N -->
-                        <xsl:variable name="limit">
-                            <xsl:choose>
-                                <xsl:when test="$total-orgs &gt; 100">100</xsl:when>
-                                <xsl:when test="$total-orgs &gt; 30">30</xsl:when>
-                                <xsl:otherwise><xsl:value-of select="$total-orgs"/></xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:variable>
-
                         <xsl:for-each select="$mentioned-orgs/org">
                             <xsl:sort select="@count" data-type="number" order="descending"/>
-                            <xsl:if test="position() &lt;= $limit">
-                                <xsl:value-of select="concat($quote, $korr-name, $quote, $separator)"/>
-                                <xsl:value-of select="concat($quote, normalize-space(.), $quote, $separator)"/>
-                                <xsl:value-of select="concat(@count, $separator)"/>
-                                <xsl:text>Directed</xsl:text>
-                                <xsl:value-of select="$newline"/>
-                            </xsl:if>
+                            <xsl:value-of select="concat($quote, $korr-name, $quote, $separator)"/>
+                            <xsl:value-of select="concat($quote, normalize-space(.), $quote, $separator)"/>
+                            <xsl:value-of select="concat(@count, $separator)"/>
+                            <xsl:text>Directed</xsl:text>
+                            <xsl:value-of select="$newline"/>
                         </xsl:for-each>
                     </xsl:result-document>
+
+                    <!-- Create _top30.csv if more than 30 institutions -->
+                    <xsl:if test="$total-orgs &gt; 30">
+                        <xsl:result-document href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}_top30.csv">
+                            <xsl:text>Source,Target,Weight,Type&#10;</xsl:text>
+                            <xsl:for-each select="$mentioned-orgs/org">
+                                <xsl:sort select="@count" data-type="number" order="descending"/>
+                                <xsl:if test="position() &lt;= 30">
+                                    <xsl:value-of select="concat($quote, $korr-name, $quote, $separator)"/>
+                                    <xsl:value-of select="concat($quote, normalize-space(.), $quote, $separator)"/>
+                                    <xsl:value-of select="concat(@count, $separator)"/>
+                                    <xsl:text>Directed</xsl:text>
+                                    <xsl:value-of select="$newline"/>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:result-document>
+                    </xsl:if>
+
+                    <!-- Create _top100.csv if more than 100 institutions -->
+                    <xsl:if test="$total-orgs &gt; 100">
+                        <xsl:result-document href="../../netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_{$korr-id}_top100.csv">
+                            <xsl:text>Source,Target,Weight,Type&#10;</xsl:text>
+                            <xsl:for-each select="$mentioned-orgs/org">
+                                <xsl:sort select="@count" data-type="number" order="descending"/>
+                                <xsl:if test="position() &lt;= 100">
+                                    <xsl:value-of select="concat($quote, $korr-name, $quote, $separator)"/>
+                                    <xsl:value-of select="concat($quote, normalize-space(.), $quote, $separator)"/>
+                                    <xsl:value-of select="concat(@count, $separator)"/>
+                                    <xsl:text>Directed</xsl:text>
+                                    <xsl:value-of select="$newline"/>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </xsl:result-document>
+                    </xsl:if>
                 </xsl:if>
             </xsl:if>
         </xsl:for-each-group>
