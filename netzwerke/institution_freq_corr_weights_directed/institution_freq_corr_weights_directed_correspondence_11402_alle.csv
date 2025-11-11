@@ -1,3 +1,5 @@
-Source,CorrID,Target,OrgID,Overallcount,Type,Label,Weight
-"Ludwig Ganghofer","11402","Burgtheater","36247","62","Directed","Ludwig Ganghofer–Burgtheater","1"
-"Ludwig Ganghofer","11402","Residenztheater München","48177","1","Directed","Ludwig Ganghofer–Residenztheater München","1"
+Source,Target,Weight,Type
+"Ganghofer, Ludwig","Residenztheater München",2,Directed
+"Ganghofer, Ludwig","Deutsches Theater Berlin",1,Directed
+"Ganghofer, Ludwig","Burgtheater",1,Directed
+"Ganghofer, Ludwig","Münchener Litterarische Gesellschaft",1,Directed

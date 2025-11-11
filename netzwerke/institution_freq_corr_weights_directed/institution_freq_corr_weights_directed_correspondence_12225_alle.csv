@@ -1,4 +1,4 @@
-Source,CorrID,Target,OrgID,Overallcount,Type,Label,Weight
-"Max Mell","12225","Frankfurter Zeitung","29442","188","Directed","Max Mell–Frankfurter Zeitung","1"
-"Max Mell","12225","Volkstheater","36430","20","Directed","Max Mell–Volkstheater","1"
-"Max Mell","12225","Wiener Werkstätte","40016","1","Directed","Max Mell–Wiener Werkstätte","1"
+Source,Target,Weight,Type
+"Mell, Max","Frankfurter Zeitung",1,Directed
+"Mell, Max","Wiener Werkstätte",1,Directed
+"Mell, Max","Volkstheater",1,Directed

@@ -1,15 +1,17 @@
-Source,CorrID,Target,PlaceID,Overallcount,Type,Label,Weight
-"Felix Braun","11002","Wien","50","1647","Directed","Felix Braun–Wien","13"
-"Felix Braun","11002","Sieveringer Straße","1092","9","Directed","Felix Braun–Sieveringer Straße","9"
-"Felix Braun","11002","Sternwartestraße 71","168815","259","Directed","Felix Braun–Sternwartestraße 71","7"
-"Felix Braun","11002","XVIII., Währing","68","210","Directed","Felix Braun–XVIII., Währing","6"
-"Felix Braun","11002","XIX., Döbling","69","22","Directed","Felix Braun–XIX., Döbling","5"
-"Felix Braun","11002","Salzburg","30","194","Directed","Felix Braun–Salzburg","1"
-"Felix Braun","11002","Berlin","168","570","Directed","Felix Braun–Berlin","1"
-"Felix Braun","11002","Sievering","288","1","Directed","Felix Braun–Sievering","1"
-"Felix Braun","11002","Karlsruhe","871","4","Directed","Felix Braun–Karlsruhe","1"
-"Felix Braun","11002","Stuttgart","872","4","Directed","Felix Braun–Stuttgart","1"
-"Felix Braun","11002","Elisabethstraße","1234","1","Directed","Felix Braun–Elisabethstraße","1"
-"Felix Braun","11002","Hotel Schottenhamel","1235","1","Directed","Felix Braun–Hotel Schottenhamel","1"
-"Felix Braun","11002","Mainz","44119","2","Directed","Felix Braun–Mainz","1"
-"Felix Braun","11002","München","45258","154","Directed","Felix Braun–München","1"
+Source,Target,Weight,Type
+"Braun, Felix","Wien",17,Directed
+"Braun, Felix","Sieveringer Straße",9,Directed
+"Braun, Felix","Sternwartestraße 71",7,Directed
+"Braun, Felix","XVIII., Währing",6,Directed
+"Braun, Felix","XIX., Döbling",5,Directed
+"Braun, Felix","München",2,Directed
+"Braun, Felix","Karlsruhe",2,Directed
+"Braun, Felix","Berlin",1,Directed
+"Braun, Felix","Mainz",1,Directed
+"Braun, Felix","Elisabethstraße [München]",1,Directed
+"Braun, Felix","Hotel Schottenhamel",1,Directed
+"Braun, Felix","Salzburg",1,Directed
+"Braun, Felix","XVI., Ottakring",1,Directed
+"Braun, Felix","Sievering",1,Directed
+"Braun, Felix","Badisches Staatstheater",1,Directed
+"Braun, Felix","Stuttgart",1,Directed

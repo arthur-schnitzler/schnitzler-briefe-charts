@@ -1,8 +1,8 @@
-Source,CorrID,Target,PlaceID,Overallcount,Type,Label,Weight
-"Ludwig Ganghofer","11402","Berlin","168","570","Directed","Ludwig Ganghofer–Berlin","2"
-"Ludwig Ganghofer","11402","München","45258","154","Directed","Ludwig Ganghofer–München","2"
-"Ludwig Ganghofer","11402","Wien","50","1647","Directed","Ludwig Ganghofer–Wien","1"
-"Ludwig Ganghofer","11402","Friedrichstraße","482","3","Directed","Ludwig Ganghofer–Friedrichstraße","1"
-"Ludwig Ganghofer","11402","Hotel Savoy","545","7","Directed","Ludwig Ganghofer–Hotel Savoy","1"
-"Ludwig Ganghofer","11402","Residenztheater München","635","5","Directed","Ludwig Ganghofer–Residenztheater München","1"
-"Ludwig Ganghofer","11402","Haupttelegrafenamt","148055","1","Directed","Ludwig Ganghofer–Haupttelegrafenamt","1"
+Source,Target,Weight,Type
+"Ganghofer, Ludwig","Berlin",2,Directed
+"Ganghofer, Ludwig","München",2,Directed
+"Ganghofer, Ludwig","Wien",1,Directed
+"Ganghofer, Ludwig","Haupttelegrafenamt",1,Directed
+"Ganghofer, Ludwig","Hotel Savoy [Berlin]",1,Directed
+"Ganghofer, Ludwig","Friedrichstraße [Berlin]",1,Directed
+"Ganghofer, Ludwig","Residenztheater München",1,Directed

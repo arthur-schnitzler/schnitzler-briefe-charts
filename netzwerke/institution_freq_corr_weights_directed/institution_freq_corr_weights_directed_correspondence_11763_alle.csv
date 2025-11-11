@@ -1,4 +1,4 @@
-Source,CorrID,Target,OrgID,Overallcount,Type,Label,Weight
-"Arno Holz","11763","Petzschke & Gretschel","29578","1","Directed","Arno Holz–Petzschke & Gretschel","1"
-"Arno Holz","11763","Der Kunstwart","29649","1","Directed","Arno Holz–Der Kunstwart","1"
-"Arno Holz","11763","Insel-Verlag","29751","2","Directed","Arno Holz–Insel-Verlag","1"
+Source,Target,Weight,Type
+"Holz, Arno","Der Kunstwart",1,Directed
+"Holz, Arno","Insel Verlag",1,Directed
+"Holz, Arno","Petzschke & Gretschel",1,Directed

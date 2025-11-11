@@ -1,8 +1,11 @@
-Source,CorrID,Target,PlaceID,Overallcount,Type,Label,Weight
-"Jakob Julius David","2416","IX., Alsergrund","59","36","Directed","Jakob Julius David–IX., Alsergrund","4"
-"Jakob Julius David","2416","Frankgasse 1","168934","225","Directed","Jakob Julius David–Frankgasse 1","4"
-"Jakob Julius David","2416","Wien","50","1647","Directed","Jakob Julius David–Wien","2"
-"Jakob Julius David","2416","Obere Donaustraße","44779","2","Directed","Jakob Julius David–Obere Donaustraße","2"
-"Jakob Julius David","2416","Leipzig","864","29","Directed","Jakob Julius David–Leipzig","1"
-"Jakob Julius David","2416","Nussdorfer Straße","1270","4","Directed","Jakob Julius David–Nussdorfer Straße","1"
-"Jakob Julius David","2416","Glasergasse","44819","1","Directed","Jakob Julius David–Glasergasse","1"
+Source,Target,Weight,Type
+"David, Jakob Julius","Wien",10,Directed
+"David, Jakob Julius","IX., Alsergrund",5,Directed
+"David, Jakob Julius","Frankgasse 1",4,Directed
+"David, Jakob Julius","Obere Donaustraße",2,Directed
+"David, Jakob Julius","II., Leopoldstadt",2,Directed
+"David, Jakob Julius","Nussdorfer Straße",1,Directed
+"David, Jakob Julius","III., Landstraße",1,Directed
+"David, Jakob Julius","I., Innere Stadt",1,Directed
+"David, Jakob Julius","Glasergasse",1,Directed
+"David, Jakob Julius","Leipzig",1,Directed

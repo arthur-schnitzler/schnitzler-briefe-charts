@@ -1,7 +1,6 @@
-Source,CorrID,Target,PlaceID,Overallcount,Type,Label,Weight
-"Auguste Hauschner","2524","Berlin","168","570","Directed","Auguste Hauschner–Berlin","6"
-"Auguste Hauschner","2524","Wien","50","1647","Directed","Auguste Hauschner–Wien","2"
-"Auguste Hauschner","2524","Seis am Schlern","988","13","Directed","Auguste Hauschner–Seis am Schlern","1"
-"Auguste Hauschner","2524","Charlottenburg","9925","3","Directed","Auguste Hauschner–Charlottenburg","1"
-"Auguste Hauschner","2524","Am Karlsbad","65256","1","Directed","Auguste Hauschner–Am Karlsbad","1"
-"Auguste Hauschner","2524","Edmund-Weiß-Gasse 7","168940","318","Directed","Auguste Hauschner–Edmund-Weiß-Gasse 7","1"
+Source,Target,Weight,Type
+"Hauschner, Auguste","Berlin",6,Directed
+"Hauschner, Auguste","Wien",6,Directed
+"Hauschner, Auguste","Seis am Schlern",2,Directed
+"Hauschner, Auguste","Edmund-Weiß-Gasse 7",1,Directed
+"Hauschner, Auguste","Am Karlsbad",1,Directed

@@ -1,7 +1,8 @@
-Source,CorrID,Target,OrgID,Overallcount,Type,Label,Weight
-"Oskar Blumenthal","14328","Lessing-Theater","35053","25","Directed","Oskar Blumenthal–Lessing-Theater","10"
-"Oskar Blumenthal","14328","Emanuel Reicher’s Deutsche Gastspielgesellschaft","29252","2","Directed","Oskar Blumenthal–Emanuel Reicher’s Deutsche Gastspielgesellschaft","2"
-"Oskar Blumenthal","14328","Deutsches Theater München","35546","2","Directed","Oskar Blumenthal–Deutsches Theater München","1"
-"Oskar Blumenthal","14328","Irving Place Theatre","35555","1","Directed","Oskar Blumenthal–Irving Place Theatre","1"
-"Oskar Blumenthal","14328","Hoftheater Meiningen","35563","1","Directed","Oskar Blumenthal–Hoftheater Meiningen","1"
-"Oskar Blumenthal","14328","Internationale Ausstellung für Musik und Theaterwesen","45127","3","Directed","Oskar Blumenthal–Internationale Ausstellung für Musik und Theaterwesen","1"
+Source,Target,Weight,Type
+"Blumenthal, Oskar","Lessing-Theater",9,Directed
+"Blumenthal, Oskar","Emanuel Reicher’s Deutsche Gastspielgesellschaft",2,Directed
+"Blumenthal, Oskar","Internationale Ausstellung für Musik und Theaterwesen",1,Directed
+"Blumenthal, Oskar","Volkstheater",1,Directed
+"Blumenthal, Oskar","Deutsches Theater München",1,Directed
+"Blumenthal, Oskar","Irving Place Theatre",1,Directed
+"Blumenthal, Oskar","Hoftheater Meiningen",1,Directed

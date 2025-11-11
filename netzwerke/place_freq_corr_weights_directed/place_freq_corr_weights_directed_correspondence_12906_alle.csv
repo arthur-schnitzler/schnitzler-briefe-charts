@@ -1,10 +1,8 @@
-Source,CorrID,Target,PlaceID,Overallcount,Type,Label,Weight
-"Bertha Suttner","12906","Sternwartestraße 71","168815","259","Directed","Bertha Suttner–Sternwartestraße 71","7"
-"Bertha Suttner","12906","Zedlitzgasse","49286","2","Directed","Bertha Suttner–Zedlitzgasse","2"
-"Bertha Suttner","12906","Wien","50","1647","Directed","Bertha Suttner–Wien","1"
-"Bertha Suttner","12906","I., Innere Stadt","51","25","Directed","Bertha Suttner–I., Innere Stadt","1"
-"Bertha Suttner","12906","XVIII., Währing","68","210","Directed","Bertha Suttner–XVIII., Währing","1"
-"Bertha Suttner","12906","Spiegelgasse","45381","2","Directed","Bertha Suttner–Spiegelgasse","1"
-"Bertha Suttner","12906","Harmannsdorf","49283","1","Directed","Bertha Suttner–Harmannsdorf","1"
-"Bertha Suttner","12906","Eggenburg","49301","1","Directed","Bertha Suttner–Eggenburg","1"
-"Bertha Suttner","12906","Schloss Harmannsdorf","49303","1","Directed","Bertha Suttner–Schloss Harmannsdorf","1"
+Source,Target,Weight,Type
+"Suttner, Bertha","Wien",13,Directed
+"Suttner, Bertha","Sternwartestraße 71",7,Directed
+"Suttner, Bertha","Zedlitzgasse",2,Directed
+"Suttner, Bertha","I., Innere Stadt",2,Directed
+"Suttner, Bertha","Harmannsdorf",1,Directed
+"Suttner, Bertha","XVIII., Währing",1,Directed
+"Suttner, Bertha","Spiegelgasse",1,Directed

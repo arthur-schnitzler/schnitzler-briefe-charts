@@ -1,19 +1,19 @@
 {
-  "total_letters": 3936,
-  "complete_correspondences": 52,
-  "schnitzler_sent": 1377,
+  "total_letters": 3994,
+  "complete_correspondences": 53,
+  "schnitzler_sent": 1434,
   "schnitzler_received": 2507,
-  "third_party": 52,
+  "third_party": 53,
   "date_range": {
     "earliest": "1885-05-29",
     "latest": "1931-09-14"
   },
   "by_object_type": {
-    "brief": 2179,
-    "karte": 1357,
+    "brief": 2228,
+    "karte": 1361,
     "kartenbrief": 130,
     "telegramm": 108,
-    "widmung": 88,
+    "widmung": 94,
     "bild": 7,
     "anderes": 5
   },
@@ -34,7 +34,7 @@
       "third_party": 1
     },
     "1889": {
-      "schnitzler_sent": 0,
+      "schnitzler_sent": 1,
       "schnitzler_received": 9,
       "third_party": 0
     },
@@ -49,17 +49,17 @@
       "third_party": 0
     },
     "1892": {
-      "schnitzler_sent": 50,
+      "schnitzler_sent": 52,
       "schnitzler_received": 80,
       "third_party": 0
     },
     "1893": {
-      "schnitzler_sent": 67,
+      "schnitzler_sent": 69,
       "schnitzler_received": 124,
       "third_party": 0
     },
     "1894": {
-      "schnitzler_sent": 59,
+      "schnitzler_sent": 60,
       "schnitzler_received": 132,
       "third_party": 0
     },
@@ -69,7 +69,7 @@
       "third_party": 0
     },
     "1896": {
-      "schnitzler_sent": 55,
+      "schnitzler_sent": 56,
       "schnitzler_received": 124,
       "third_party": 0
     },
@@ -84,7 +84,7 @@
       "third_party": 0
     },
     "1899": {
-      "schnitzler_sent": 69,
+      "schnitzler_sent": 70,
       "schnitzler_received": 139,
       "third_party": 0
     },
@@ -94,7 +94,7 @@
       "third_party": 2
     },
     "1901": {
-      "schnitzler_sent": 62,
+      "schnitzler_sent": 63,
       "schnitzler_received": 108,
       "third_party": 8
     },
@@ -144,19 +144,19 @@
       "third_party": 4
     },
     "1911": {
-      "schnitzler_sent": 31,
+      "schnitzler_sent": 34,
       "schnitzler_received": 48,
       "third_party": 2
     },
     "1912": {
-      "schnitzler_sent": 23,
+      "schnitzler_sent": 24,
       "schnitzler_received": 56,
       "third_party": 4
     },
     "1913": {
       "schnitzler_sent": 24,
       "schnitzler_received": 40,
-      "third_party": 1
+      "third_party": 2
     },
     "1914": {
       "schnitzler_sent": 27,
@@ -164,7 +164,7 @@
       "third_party": 0
     },
     "1915": {
-      "schnitzler_sent": 21,
+      "schnitzler_sent": 22,
       "schnitzler_received": 21,
       "third_party": 0
     },
@@ -174,7 +174,7 @@
       "third_party": 4
     },
     "1917": {
-      "schnitzler_sent": 16,
+      "schnitzler_sent": 17,
       "schnitzler_received": 23,
       "third_party": 0
     },
@@ -184,12 +184,12 @@
       "third_party": 0
     },
     "1919": {
-      "schnitzler_sent": 8,
+      "schnitzler_sent": 9,
       "schnitzler_received": 12,
       "third_party": 0
     },
     "1920": {
-      "schnitzler_sent": 12,
+      "schnitzler_sent": 13,
       "schnitzler_received": 17,
       "third_party": 1
     },
@@ -204,47 +204,47 @@
       "third_party": 0
     },
     "1923": {
-      "schnitzler_sent": 12,
+      "schnitzler_sent": 16,
       "schnitzler_received": 18,
       "third_party": 0
     },
     "1924": {
-      "schnitzler_sent": 12,
+      "schnitzler_sent": 18,
       "schnitzler_received": 18,
       "third_party": 0
     },
     "1925": {
-      "schnitzler_sent": 21,
+      "schnitzler_sent": 28,
       "schnitzler_received": 27,
       "third_party": 0
     },
     "1926": {
-      "schnitzler_sent": 9,
+      "schnitzler_sent": 16,
       "schnitzler_received": 16,
       "third_party": 0
     },
     "1927": {
-      "schnitzler_sent": 16,
+      "schnitzler_sent": 21,
       "schnitzler_received": 22,
       "third_party": 0
     },
     "1928": {
-      "schnitzler_sent": 8,
+      "schnitzler_sent": 10,
       "schnitzler_received": 14,
       "third_party": 0
     },
     "1929": {
-      "schnitzler_sent": 17,
+      "schnitzler_sent": 24,
       "schnitzler_received": 22,
       "third_party": 0
     },
     "1930": {
-      "schnitzler_sent": 5,
+      "schnitzler_sent": 6,
       "schnitzler_received": 17,
       "third_party": 0
     },
     "1931": {
-      "schnitzler_sent": 7,
+      "schnitzler_sent": 8,
       "schnitzler_received": 15,
       "third_party": 0
     }
@@ -261,7 +261,8 @@
       "brief": 5
     },
     "1889": {
-      "brief": 9
+      "brief": 9,
+      "karte": 1
     },
     "1890": {
       "brief": 11,
@@ -275,12 +276,12 @@
     },
     "1892": {
       "karte": 32,
-      "brief": 84,
+      "brief": 88,
       "kartenbrief": 10,
       "widmung": 2
     },
     "1893": {
-      "brief": 117,
+      "brief": 120,
       "karte": 52,
       "kartenbrief": 10,
       "telegramm": 4,
@@ -303,7 +304,7 @@
     "1896": {
       "karte": 43,
       "kartenbrief": 6,
-      "brief": 115,
+      "brief": 116,
       "telegramm": 12,
       "widmung": 1
     },
@@ -323,14 +324,14 @@
       "telegramm": 3
     },
     "1899": {
-      "brief": 118,
+      "brief": 119,
       "karte": 73,
       "kartenbrief": 5,
       "widmung": 2,
       "telegramm": 9
     },
     "1900": {
-      "karte": 42,
+      "karte": 43,
       "brief": 103,
       "telegramm": 6,
       "kartenbrief": 2,
@@ -408,7 +409,7 @@
       "telegramm": 3
     },
     "1911": {
-      "brief": 35,
+      "brief": 38,
       "karte": 35,
       "kartenbrief": 3,
       "telegramm": 3,
@@ -417,7 +418,7 @@
     "1912": {
       "widmung": 2,
       "karte": 48,
-      "brief": 27,
+      "brief": 28,
       "telegramm": 5,
       "kartenbrief": 1
     },
@@ -427,7 +428,7 @@
       "kartenbrief": 2,
       "telegramm": 1,
       "bild": 1,
-      "widmung": 1
+      "widmung": 2
     },
     "1914": {
       "karte": 31,
@@ -435,7 +436,7 @@
       "kartenbrief": 1
     },
     "1915": {
-      "karte": 19,
+      "karte": 20,
       "brief": 20,
       "anderes": 1,
       "widmung": 2
@@ -448,7 +449,8 @@
     "1917": {
       "karte": 19,
       "brief": 15,
-      "kartenbrief": 4
+      "kartenbrief": 4,
+      "widmung": 1
     },
     "1918": {
       "karte": 16,
@@ -457,12 +459,12 @@
     "1919": {
       "brief": 9,
       "karte": 9,
-      "widmung": 1,
+      "widmung": 2,
       "kartenbrief": 1
     },
     "1920": {
       "karte": 12,
-      "brief": 17,
+      "brief": 18,
       "telegramm": 1
     },
     "1921": {
@@ -476,46 +478,47 @@
       "telegramm": 3
     },
     "1923": {
-      "brief": 13,
+      "brief": 17,
       "karte": 16
     },
     "1924": {
       "karte": 16,
-      "brief": 13,
-      "widmung": 1
+      "brief": 18,
+      "widmung": 2
     },
     "1925": {
-      "brief": 23,
+      "brief": 30,
       "karte": 22,
       "widmung": 2
     },
     "1926": {
-      "brief": 15,
+      "brief": 22,
       "karte": 10
     },
     "1927": {
       "karte": 15,
-      "brief": 20,
-      "widmung": 2
+      "brief": 24,
+      "widmung": 3
     },
     "1928": {
-      "brief": 11,
-      "karte": 7,
+      "brief": 12,
+      "karte": 8,
       "widmung": 2,
       "kartenbrief": 1
     },
     "1929": {
-      "brief": 28,
+      "brief": 34,
       "widmung": 1,
       "karte": 8,
       "telegramm": 2
     },
     "1930": {
       "karte": 10,
-      "brief": 11
+      "brief": 11,
+      "widmung": 1
     },
     "1931": {
-      "brief": 11,
+      "brief": 12,
       "karte": 9,
       "widmung": 1,
       "bild": 1

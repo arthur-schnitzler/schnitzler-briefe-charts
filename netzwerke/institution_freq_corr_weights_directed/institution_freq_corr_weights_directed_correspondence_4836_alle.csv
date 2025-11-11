@@ -1,6 +1,7 @@
-Source,CorrID,Target,OrgID,Overallcount,Type,Label,Weight
-"Therese Rie-Andro","4836","Oper Straßburg","56043","2","Directed","Therese Rie-Andro–Oper Straßburg","2"
-"Therese Rie-Andro","4836","Allgemeine Poliklinik","41367","2","Directed","Therese Rie-Andro–Allgemeine Poliklinik","1"
-"Therese Rie-Andro","4836","Städtisches Konservatorium","56040","1","Directed","Therese Rie-Andro–Städtisches Konservatorium","1"
-"Therese Rie-Andro","4836","Straßburger Philharmoniker","56046","1","Directed","Therese Rie-Andro–Straßburger Philharmoniker","1"
-"Therese Rie-Andro","4836","Schottengymnasium","56082","1","Directed","Therese Rie-Andro–Schottengymnasium","1"
+Source,Target,Weight,Type
+"Rie-Andro, Therese","Oper Straßburg",2,Directed
+"Rie-Andro, Therese","Städtisches Konservatorium",1,Directed
+"Rie-Andro, Therese","Straßburger Philharmoniker",1,Directed
+"Rie-Andro, Therese","Allgemeine Poliklinik",1,Directed
+"Rie-Andro, Therese","Schottengymnasium",1,Directed
+"Rie-Andro, Therese","Deutsche Verlags-Anstalt",1,Directed

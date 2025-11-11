@@ -1,7 +1,8 @@
-Source,CorrID,Target,OrgID,Overallcount,Type,Label,Weight
-"Thomas Mann","12176","S. Fischer Verlag","29639","76","Directed","Thomas Mann–S. Fischer Verlag","4"
-"Thomas Mann","12176","Book of The Month Club","29574","2","Directed","Thomas Mann–Book of The Month Club","2"
-"Thomas Mann","12176","Brandt & Kirkpatrick","29586","2","Directed","Thomas Mann–Brandt & Kirkpatrick","2"
-"Thomas Mann","12176","Nobelpreis","29679","6","Directed","Thomas Mann–Nobelpreis","2"
-"Thomas Mann","12176","The Dial","29371","2","Directed","Thomas Mann–The Dial","1"
-"Thomas Mann","12176","The New York Society for the Suppression of Vice","42889","1","Directed","Thomas Mann–The New York Society for the Suppression of Vice","1"
+Source,Target,Weight,Type
+"Mann, Thomas","S. Fischer Verlag",4,Directed
+"Mann, Thomas","Brandt & Kirkpatrick",2,Directed
+"Mann, Thomas","Book of The Month Club",2,Directed
+"Mann, Thomas","Nobelpreis",2,Directed
+"Mann, Thomas","Residenztheater München",1,Directed
+"Mann, Thomas","The Dial",1,Directed
+"Mann, Thomas","The New York Society for the Suppression of Vice",1,Directed

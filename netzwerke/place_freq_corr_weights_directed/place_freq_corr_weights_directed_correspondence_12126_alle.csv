@@ -1,5 +1,6 @@
-Source,CorrID,Target,PlaceID,Overallcount,Type,Label,Weight
-"Emil Ludwig","12126","Berlin","168","570","Directed","Emil Ludwig–Berlin","1"
-"Emil Ludwig","12126","Bülowstraße","659","3","Directed","Emil Ludwig–Bülowstraße","1"
-"Emil Ludwig","12126","Ascona","49872","1","Directed","Emil Ludwig–Ascona","1"
-"Emil Ludwig","12126","Isole di Brissago","50619","1","Directed","Emil Ludwig–Isole di Brissago","1"
+Source,Target,Weight,Type
+"Ludwig, Emil","Ascona",1,Directed
+"Ludwig, Emil","Berlin",1,Directed
+"Ludwig, Emil","Wien",1,Directed
+"Ludwig, Emil","Bülowstraße",1,Directed
+"Ludwig, Emil","Isole di Brissago",1,Directed

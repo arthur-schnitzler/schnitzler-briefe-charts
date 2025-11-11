@@ -1,17 +1,18 @@
-Source,CorrID,Target,PlaceID,Overallcount,Type,Label,Weight
-"Max Mell","12225","Wien","50","1647","Directed","Max Mell–Wien","4"
-"Max Mell","12225","Wittelsbachstraße","1238","4","Directed","Max Mell–Wittelsbachstraße","4"
-"Max Mell","12225","Edmund-Weiß-Gasse 7","168940","318","Directed","Max Mell–Edmund-Weiß-Gasse 7","3"
-"Max Mell","12225","II., Leopoldstadt","52","3","Directed","Max Mell–II., Leopoldstadt","2"
-"Max Mell","12225","VII., Neubau","57","1","Directed","Max Mell–VII., Neubau","1"
-"Max Mell","12225","XVIII., Währing","68","210","Directed","Max Mell–XVIII., Währing","1"
-"Max Mell","12225","Berlin","168","570","Directed","Max Mell–Berlin","1"
-"Max Mell","12225","Rodaun","173","173","Directed","Max Mell–Rodaun","1"
-"Max Mell","12225","Wildbad Waldbrunn","723","21","Directed","Max Mell–Wildbad Waldbrunn","1"
-"Max Mell","12225","Bruneck","1236","1","Directed","Max Mell–Bruneck","1"
-"Max Mell","12225","Ungarn","35512","14","Directed","Max Mell–Ungarn","1"
-"Max Mell","12225","Schweiz","43435","53","Directed","Max Mell–Schweiz","1"
-"Max Mell","12225","Neustiftgasse","50568","1","Directed","Max Mell–Neustiftgasse","1"
-"Max Mell","12225","Schloss Thinnfeld","50844","1","Directed","Max Mell–Schloss Thinnfeld","1"
-"Max Mell","12225","Deutschfeistritz","50963","1","Directed","Max Mell–Deutschfeistritz","1"
-"Max Mell","12225","Taubstummengasse","50989","1","Directed","Max Mell–Taubstummengasse","1"
+Source,Target,Weight,Type
+"Mell, Max","Wien",11,Directed
+"Mell, Max","Wittelsbachstraße",4,Directed
+"Mell, Max","Edmund-Weiß-Gasse 7",3,Directed
+"Mell, Max","II., Leopoldstadt",2,Directed
+"Mell, Max","Berlin",1,Directed
+"Mell, Max","VII., Neubau",1,Directed
+"Mell, Max","Neustiftgasse",1,Directed
+"Mell, Max","Ungarn",1,Directed
+"Mell, Max","Bruneck",1,Directed
+"Mell, Max","Wildbad Waldbrunn",1,Directed
+"Mell, Max","Rodaun",1,Directed
+"Mell, Max","Peggau",1,Directed
+"Mell, Max","Deutschfeistritz",1,Directed
+"Mell, Max","XVIII., Währing",1,Directed
+"Mell, Max","Schloss Thinnfeld",1,Directed
+"Mell, Max","Taubstummengasse",1,Directed
+"Mell, Max","Schweiz",1,Directed
