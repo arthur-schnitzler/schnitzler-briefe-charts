@@ -1,10 +1,15 @@
-Source,CorrID,Target,PersID,Overallcount,Type,Label,Weight
-"Max Mell","12225","Olga Schnitzler","2173","459","Directed","Max Mell–Olga Schnitzler","6"
-"Max Mell","12225","Maria Mell","5765","5","Directed","Max Mell–Maria Mell","5"
-"Max Mell","12225","Josef Hoffmann","7891","2","Directed","Max Mell–Josef Hoffmann","2"
-"Max Mell","12225","Friedrich Wärndorfer","27386","2","Directed","Max Mell–Friedrich Wärndorfer","2"
-"Max Mell","12225","Koloman Moser","3280","1","Directed","Max Mell–Koloman Moser","1"
-"Max Mell","12225","Josef Kainz","11851","22","Directed","Max Mell–Josef Kainz","1"
-"Max Mell","12225","Paul Schlenther","12671","43","Directed","Max Mell–Paul Schlenther","1"
-"Max Mell","12225","Franz Servaes","12772","5","Directed","Max Mell–Franz Servaes","1"
-"Max Mell","12225","Rudolf Huber-Wiesenthal","50985","1","Directed","Max Mell–Rudolf Huber-Wiesenthal","1"
+Source,Target,Weight,Type
+"Mell, Max","Olga Schnitzler",7,Directed
+"Mell, Max","Maria Mell",6,Directed
+"Mell, Max","Friedrich Wärndorfer",2,Directed
+"Mell, Max","Josef Hoffmann",2,Directed
+"Mell, Max","Josef Kainz",1,Directed
+"Mell, Max","Hugo von Hofmannsthal",1,Directed
+"Mell, Max","Gertrude von Hofmannsthal",1,Directed
+"Mell, Max","Franz Servaes",1,Directed
+"Mell, Max","Grethe Wiesenthal",1,Directed
+"Mell, Max","Elsa Wiesenthal",1,Directed
+"Mell, Max","Berta Wiesenthal",1,Directed
+"Mell, Max","Rudolf Huber-Wiesenthal",1,Directed
+"Mell, Max","Koloman Moser",1,Directed
+"Mell, Max","Paul Schlenther",1,Directed

@@ -84,8 +84,8 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt
-        style="./netzwerke/person_freq_corr_weights_directed/person_freq_corr_weights_directed.xsl"
-        basedir="./data/indices" destdir="${tmpDir}" includes="listcorrespondence.xml"
+        style="./netzwerke/person_freq_corr_weights_directed/person_freq_corr_weights_directed_cmif.xsl"
+        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe_cmif.xml"
         extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>

@@ -1,11 +1,14 @@
-Source,CorrID,Target,PersID,Overallcount,Type,Label,Weight
-"Franz Blei","10955","Fanny Johnson","29141","3","Directed","Franz Blei–Fanny Johnson","3"
-"Franz Blei","10955","Alfred Bates","29140","2","Directed","Franz Blei–Alfred Bates","2"
-"Franz Blei","10955","Marc Henry","3056","1","Directed","Franz Blei–Marc Henry","1"
-"Franz Blei","10955","William Heinemann","5594","1","Directed","Franz Blei–William Heinemann","1"
-"Franz Blei","10955","Hans von Weber","5598","2","Directed","Franz Blei–Hans von Weber","1"
-"Franz Blei","10955","Georg Müller","5601","2","Directed","Franz Blei–Georg Müller","1"
-"Franz Blei","10955","Charles-Louis Philippe","5604","1","Directed","Franz Blei–Charles-Louis Philippe","1"
-"Franz Blei","10955","Arthur Symons","5608","1","Directed","Franz Blei–Arthur Symons","1"
-"Franz Blei","10955","William Butler Yeats","5613","1","Directed","Franz Blei–William Butler Yeats","1"
-"Franz Blei","10955","Georg von Lukács","12133","1","Directed","Franz Blei–Georg von Lukács","1"
+Source,Target,Weight,Type
+"Blei, Franz","Fanny Johnson",3,Directed
+"Blei, Franz","Alfred Bates",2,Directed
+"Blei, Franz","William Butler Yeats",1,Directed
+"Blei, Franz","Arthur Symons",1,Directed
+"Blei, Franz","Marc Henry",1,Directed
+"Blei, Franz","William Heinemann",1,Directed
+"Blei, Franz","Olga Schnitzler",1,Directed
+"Blei, Franz","Hans von Weber",1,Directed
+"Blei, Franz","Georg Müller",1,Directed
+"Blei, Franz","Hermann Bahr",1,Directed
+"Blei, Franz","Leopold von Andrian-Werburg",1,Directed
+"Blei, Franz","Charles-Louis Philippe",1,Directed
+"Blei, Franz","Georg von Lukács",1,Directed
