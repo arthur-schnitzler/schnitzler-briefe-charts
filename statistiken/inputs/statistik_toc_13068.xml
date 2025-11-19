@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-11-12Z</date>
+            <date>2025-11-19Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13068.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,8 +73,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1910-06-20" notAfter="1910-06-24">[20. 6. 1910
-                  – 24. 6. 1910?]</date>
+                     <date evidence="external" when="1910-06-20">[20. 6. 1910]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -88,11 +87,76 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13068"
-                          target="L02143">Schnitzler an Wedekind, 19. 7. 1913</ref>
+                          target="L04012">Wedekind an Schnitzler, [zwischen 1.
+                  und. 5.] 12. 1911</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="735"/>
+            </item>
+            <item corresp="L04012">
+               <title level="a">Frank Wedekind: Widmungsexemplar von Franziska für Arthur Schnitzler,
+               [zwischen 1. und. 5.] 12. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13068">Wedekind, Frank</persName>
+                     <date notBefore="1911-12-01" notAfter="1911-12-05" n="02">[zwischen 1.
+                  und. 5.] 12. 1911</date>
+                     <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1911-12-02" notAfter="1911-12-06">[zwischen 2.
+                  und. 6.] 12. 1911</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13068">Wedekind, Frank</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02552">Schnitzler, Schnitzler an Beer-Hofmann, 1. 12. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02049">Brandes an Schnitzler, vor dem 2. 12. 1911</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13068"
+                          target="L01937">Wedekind an Schnitzler, 19. 6. 1910</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13068"
+                          target="L04011">Wedekind an Schnitzler, 11. 6. 1913</ref>
+                  </correspContext>
+               </correspDesc>
+            </item>
+            <item corresp="L04011">
+               <title level="a">Frank Wedekind an Arthur Schnitzler, 11. 6. 1913</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13068">Wedekind, Frank</persName>
+                     <date when="1913-06-11" n="01">11. 6. 1913</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1913-06-11" notAfter="1913-06-15">[11. 6. 1913
+                  – 15. 6. 1913?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13068">Wedekind, Frank</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03643">Zweig an Schnitzler, [28. 5. 1913?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03638">Zweig an Schnitzler, [12. oder
+                  13.?] 6. [1913?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13068"
+                          target="L04012">Wedekind an Schnitzler, [zwischen 1.
+                  und. 5.] 12. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13068"
+                          target="L02143">Schnitzler an Wedekind, 19. 7. 1913</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="539"/>
             </item>
             <item corresp="L02143">
                <title level="a">Arthur Schnitzler an Frank Wedekind, 19. 7. 1913</title>
@@ -114,7 +178,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13068"
-                          target="L01937">Wedekind an Schnitzler, 19. 6. 1910</ref>
+                          target="L04011">Wedekind an Schnitzler, 11. 6. 1913</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
