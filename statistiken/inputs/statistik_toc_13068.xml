@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-11-19Z</date>
+            <date>2025-11-20Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13068.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -121,9 +121,44 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13068"
+                          target="L04013">Sternheim, Wedekind, Eulenberg, Borngräber an Schnitzler, 22. 12. 1911</ref>
+                  </correspContext>
+               </correspDesc>
+            </item>
+            <item corresp="L04013">
+               <title level="a">Carl Sternheim u.a. an Arthur Schnitzler,
+               22. 12. 1911</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12848">Sternheim, Carl</persName>
+                     <persName ref="#pmb13068">Wedekind, Frank</persName>
+                     <persName ref="#pmb11273">Eulenberg, Herbert</persName>
+                     <persName ref="#pmb300090">Borngräber, Otto</persName>
+                     <date when="1911-12-22" n="01">22. 12. 1911</date>
+                     <placeName ref="#pmb60017">Pullach im Isartal</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1911-12-23" notAfter="1911-12-27">[23. 12. 1911 – 27. 12. 1911?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_13068">Wedekind, Frank</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03052">Salten an Schnitzler, 12. 12. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02566">Schnitzler an Beer-Hofmann, [1912?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13068"
+                          target="L04012">Wedekind an Schnitzler, [zwischen 1.
+                  und. 5.] 12. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_13068"
                           target="L04011">Wedekind an Schnitzler, 11. 6. 1913</ref>
                   </correspContext>
                </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2435"/>
             </item>
             <item corresp="L04011">
                <title level="a">Frank Wedekind an Arthur Schnitzler, 11. 6. 1913</title>
@@ -147,8 +182,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13068"
-                          target="L04012">Wedekind an Schnitzler, [zwischen 1.
-                  und. 5.] 12. 1911</ref>
+                          target="L04013">Sternheim, Wedekind, Eulenberg, Borngräber an Schnitzler, 22. 12. 1911</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13068"
