@@ -71,7 +71,7 @@
     </xslt>
     <xslt
         style="./netzwerke/institution_freq_corr_weights_directed/institution_freq_corr_weights_directed_cmif.xsl"
-        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe_cmif.xml"
+        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe-cmif.xml"
         extension=".xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
@@ -85,7 +85,7 @@
     </xslt>
     <xslt
         style="./netzwerke/person_freq_corr_weights_directed/person_freq_corr_weights_directed_cmif.xsl"
-        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe_cmif.xml"
+        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe-cmif.xml"
         extension=".xml" force="true">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
@@ -97,13 +97,13 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt style="./netzwerke/work_freq_corr_weights_directed/work_freq_corr_weights_directed_cmif.xsl"
-        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe_cmif.xml"
+        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe-cmif.xml"
         extension=".xml" force="true">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <xslt style="./netzwerke/place_freq_corr_weights_directed/place_freq_corr_weights_directed_cmif.xsl"
-        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe_cmif.xml"
+        basedir="./data/indices" destdir="${tmpDir}" includes="schnitzler-briefe-cmif.xml"
         extension=".xml" force="true">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
