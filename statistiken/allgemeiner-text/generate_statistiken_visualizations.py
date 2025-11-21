@@ -6,6 +6,7 @@ Output: 6 JSON-Dateien für die verschiedenen Charts
 
 import glob
 import json
+import os
 import urllib.request
 from collections import defaultdict
 from acdh_tei_pyutils.tei import TeiReader
@@ -19,6 +20,22 @@ BIG_FIVE = {
     'pmb11740': 'Hofmannsthal',
     'pmb2167': 'Salten'
 }
+
+
+def get_data_path():
+    """Bestimmt den korrekten Pfad zu den Daten"""
+    # Im GitHub Workflow: ../../data
+    workflow_path = "../../data"
+    # Lokal mit separatem Repository: ../../../schnitzler-briefe-data/data
+    local_path = "../../../schnitzler-briefe-data/data"
+
+    # Prüfe auf editions Verzeichnis, da das Hauptverzeichnis existieren könnte aber leer sein
+    if os.path.exists(f"{workflow_path}/editions") and os.path.exists(f"{workflow_path}/indices"):
+        return workflow_path
+    elif os.path.exists(f"{local_path}/editions") and os.path.exists(f"{local_path}/indices"):
+        return local_path
+    else:
+        raise FileNotFoundError(f"Datenverzeichnis nicht gefunden. Geprüft: {workflow_path}/editions und {local_path}/editions")
 
 
 def count_text_length(doc):
@@ -54,7 +71,8 @@ def get_receiver_pmb_id(doc):
 def load_person_names():
     """Lädt Personennamen aus listperson.xml"""
     person_names = {}
-    listperson_file = "../../../schnitzler-briefe-data/data/indices/listperson.xml"
+    data_path = get_data_path()
+    listperson_file = f"{data_path}/indices/listperson.xml"
 
     try:
         doc = TeiReader(listperson_file)
@@ -124,7 +142,8 @@ def load_diary_mentions(pmb_id):
 def load_correspondence_pmb_ids():
     """Lädt die PMB-IDs der vollständigen Korrespondenzen aus listcorrespondence.xml"""
     correspondence_pmb_ids = set()
-    listcorrespondence_file = "../../../schnitzler-briefe-data/data/indices/listcorrespondence.xml"
+    data_path = get_data_path()
+    listcorrespondence_file = f"{data_path}/indices/listcorrespondence.xml"
 
     try:
         doc = TeiReader(listcorrespondence_file)
@@ -148,7 +167,8 @@ def load_correspondence_pmb_ids():
 
 
 def main():
-    files = sorted(glob.glob("../../../schnitzler-briefe-data/data/editions/*.xml"))
+    data_path = get_data_path()
+    files = sorted(glob.glob(f"{data_path}/editions/*.xml"))
 
     # Lade Personennamen und Korrespondenz-IDs
     person_names = load_person_names()

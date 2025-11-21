@@ -18,12 +18,13 @@ def get_data_path():
     # Lokal mit separatem Repository: ../../../schnitzler-briefe-data/data
     local_path = "../../../schnitzler-briefe-data/data"
 
-    if os.path.exists(workflow_path):
+    # Prüfe auf editions Verzeichnis, da das Hauptverzeichnis existieren könnte aber leer sein
+    if os.path.exists(f"{workflow_path}/editions") and os.path.exists(f"{workflow_path}/indices"):
         return workflow_path
-    elif os.path.exists(local_path):
+    elif os.path.exists(f"{local_path}/editions") and os.path.exists(f"{local_path}/indices"):
         return local_path
     else:
-        raise FileNotFoundError("Datenverzeichnis nicht gefunden")
+        raise FileNotFoundError(f"Datenverzeichnis nicht gefunden. Geprüft: {workflow_path}/editions und {local_path}/editions")
 
 
 def count_complete_correspondences():
