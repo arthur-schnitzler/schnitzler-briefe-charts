@@ -18,24 +18,11 @@ rm -rf ./data/xslts
 rm main.zip
 rm -rf ./schnitzler-briefe-data-main
 
-echo "Data directory after download:"
-ls -la data/ || echo "data/ not found"
-ls -la data/editions/ | head -5 || echo "data/editions/ not found"
-ls -la data/indices/ | head -5 || echo "data/indices/ not found"
-
-echo "and now some XSLTs"
-ant
-
-echo "Data directory after ant:"
-ls -la data/ || echo "data/ not found after ant"
-ls -la data/editions/ | head -5 || echo "data/editions/ not found after ant"
-ls -la data/indices/ | head -5 || echo "data/indices/ not found after ant"
-
-echo "Generating statistics JSON files"
+echo "Generating statistics JSON files (before ant deletes data/)"
 cd statistiken/allgemeiner-text
-echo "Current directory: $(pwd)"
-echo "Looking for ../../data/editions:"
-ls -la ../../data/editions/ || echo "../../data/editions/ not found"
 python3 generate_gesamtstatistik.py
 python3 generate_statistiken_visualizations.py
 cd ../..
+
+echo "and now some XSLTs"
+ant
