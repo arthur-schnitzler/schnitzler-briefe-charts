@@ -22,7 +22,14 @@ echo "and now some XSLTs"
 ant
 
 echo "Generating statistics JSON files"
+echo "Checking data directory structure..."
+ls -la data/ || echo "data/ not found"
+ls -la data/editions/ || echo "data/editions/ not found"
+ls -la data/indices/ || echo "data/indices/ not found"
 cd statistiken/allgemeiner-text
+echo "Current directory: $(pwd)"
+echo "Looking for ../../data/editions:"
+ls -la ../../data/editions/ || echo "../../data/editions/ not found"
 python3 generate_gesamtstatistik.py
 python3 generate_statistiken_visualizations.py
 cd ../..
