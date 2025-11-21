@@ -6,13 +6,30 @@ Output: gesamtstatistik.json für die Index-Seite
 
 import glob
 import json
+import os
 from collections import defaultdict
 from acdh_tei_pyutils.tei import TeiReader
 
 
+def get_data_path():
+    """Bestimmt den korrekten Pfad zu den Daten"""
+    # Im GitHub Workflow: ../../data
+    workflow_path = "../../data"
+    # Lokal mit separatem Repository: ../../../schnitzler-briefe-data/data
+    local_path = "../../../schnitzler-briefe-data/data"
+
+    if os.path.exists(workflow_path):
+        return workflow_path
+    elif os.path.exists(local_path):
+        return local_path
+    else:
+        raise FileNotFoundError("Datenverzeichnis nicht gefunden")
+
+
 def count_complete_correspondences():
     """Zählt vollständige Korrespondenzen aus listcorrespondence.xml"""
-    correspondence_file = "../../../schnitzler-briefe-data/data/indices/listcorrespondence.xml"
+    data_path = get_data_path()
+    correspondence_file = f"{data_path}/indices/listcorrespondence.xml"
     doc = TeiReader(correspondence_file)
     person_groups = doc.any_xpath(
         "//tei:listPerson/tei:personGrp[not(@ana='planned') and not(@xml:id='correspondence_null')]"
@@ -21,7 +38,8 @@ def count_complete_correspondences():
 
 
 def main():
-    files = sorted(glob.glob("../../../schnitzler-briefe-data/data/editions/*.xml"))
+    data_path = get_data_path()
+    files = sorted(glob.glob(f"{data_path}/editions/*.xml"))
 
     stats = {
         'total_letters': 0,
