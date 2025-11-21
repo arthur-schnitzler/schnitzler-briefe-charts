@@ -18,14 +18,20 @@ rm -rf ./data/xslts
 rm main.zip
 rm -rf ./schnitzler-briefe-data-main
 
+echo "Data directory after download:"
+ls -la data/ || echo "data/ not found"
+ls -la data/editions/ | head -5 || echo "data/editions/ not found"
+ls -la data/indices/ | head -5 || echo "data/indices/ not found"
+
 echo "and now some XSLTs"
 ant
 
+echo "Data directory after ant:"
+ls -la data/ || echo "data/ not found after ant"
+ls -la data/editions/ | head -5 || echo "data/editions/ not found after ant"
+ls -la data/indices/ | head -5 || echo "data/indices/ not found after ant"
+
 echo "Generating statistics JSON files"
-echo "Checking data directory structure..."
-ls -la data/ || echo "data/ not found"
-ls -la data/editions/ || echo "data/editions/ not found"
-ls -la data/indices/ || echo "data/indices/ not found"
 cd statistiken/allgemeiner-text
 echo "Current directory: $(pwd)"
 echo "Looking for ../../data/editions:"
