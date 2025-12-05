@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-11-21Z</date>
+            <date>2025-12-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2128.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -289,8 +289,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1896-11-18" notAfter="1896-11-22">[18. 11. 1896 –
-            22. 11. 1896?]</date>
+                     <date evidence="conjecture" notBefore="1896-11-18" notAfter="1896-11-22">[18. 11. 1896 – 22. 11. 1896?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -307,7 +306,7 @@
                           target="L03706">Plessner an Schnitzler, 20. 11. 1896</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="kartenbrief"/>
+               <objectType corresp="karte" ana="visitenkarte"/>
                <measure unit="zeichenanzahl" quantity="177"/>
             </item>
             <item corresp="L03706">
@@ -338,7 +337,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="297"/>
+               <measure unit="zeichenanzahl" quantity="299"/>
             </item>
             <item corresp="L03708">
                <title level="a">Elsa Plessner an Arthur Schnitzler, 1. 12. 1896</title>
@@ -369,7 +368,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2234"/>
+               <measure unit="zeichenanzahl" quantity="2238"/>
             </item>
             <item corresp="L03709">
                <title level="a">Elsa Plessner an Arthur Schnitzler, 23. 12. 1896</title>
@@ -399,7 +398,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2171"/>
+               <measure unit="zeichenanzahl" quantity="2173"/>
             </item>
             <item corresp="L03710">
                <title level="a">Elsa Plessner an Arthur Schnitzler, 29. 12. 1896</title>
@@ -429,7 +428,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2201"/>
+               <measure unit="zeichenanzahl" quantity="2206"/>
             </item>
             <item corresp="L03711">
                <title level="a">Elsa Plessner an Arthur Schnitzler, 9. 1. 1897</title>

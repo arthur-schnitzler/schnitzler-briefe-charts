@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-11-21Z</date>
+            <date>2025-12-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1914,12 +1914,15 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03649">Zweig an Schnitzler, [29. 11. 1914]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03683">Zweig an Schnitzler, 3. 12. 1914</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03649">Zweig an
+                  Schnitzler, [29. 11. 1914]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03683">Zweig an
+                  Schnitzler, 3. 12. 1914</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
-                          target="L03649">Zweig an Schnitzler, [29. 11. 1914]</ref>
+                          target="L03649">Zweig an Schnitzler,
+                  [29. 11. 1914]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -2021,11 +2024,11 @@
                <measure unit="zeichenanzahl" quantity="438"/>
             </item>
             <item corresp="L03648">
-               <title level="a">Stefan Zweig an Arthur Schnitzler, 12. 12. [1914]</title>
+               <title level="a">Stefan Zweig an Arthur Schnitzler, 12. 12. [1914?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date when="1914-12-12" n="01">12. 12. [1914]</date>
+                     <date when="1914-12-12" n="01">12. 12. [1914?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -2048,7 +2051,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1056"/>
+               <measure unit="zeichenanzahl" quantity="1055"/>
             </item>
             <item corresp="L03771">
                <title level="a">Arthur Schnitzler an Stefan Zweig, 15. 1. 1915</title>
