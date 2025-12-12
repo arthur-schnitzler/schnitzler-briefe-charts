@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-05Z</date>
+            <date>2025-12-12Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10863.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -14725,8 +14725,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1901-06-28" notAfter="1901-07-02">[28. 6. 1901
-                  – 2. 7. 1901?]</date>
+                     <date evidence="external" when="1901-07-01">[2. 7. 1901]</date>
+                     <placeName ref="#pmb212">St. Anton am Arlberg</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -15509,7 +15509,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03198">Goldmann an Schnitzler, 25. 2. [1902]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03899">Herzl an Schnitzler, [28. 2. 1902]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03899">Herzl an Schnitzler, 28. 2. 1902</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -22949,7 +22949,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03633">Zweig an Schnitzler, 29. 8. 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03999">Zuckerkandl an Schnitzler, [9. oder
+                  10. 9. 1911?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03476">Goldmann an Schnitzler, 10. 9. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -23011,7 +23012,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03630">Zweig an Schnitzler, 6. [11.?] 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04004">Zuckerkandl an Schnitzler, [7. oder
+                  14. 11. 1911?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02044">Burckhard an Schnitzler, 8. 11. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -23078,7 +23080,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03629">Zweig an Schnitzler, 19. 11. 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04003">Zuckerkandl an Schnitzler, [25. 11. 1911?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02048">Hofmannsthal an Schnitzler, 30. 11. [1911]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

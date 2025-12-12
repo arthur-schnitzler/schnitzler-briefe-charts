@@ -9,7 +9,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 21
+      "count": 22
     },
     {
       "id": "pmb36456",
@@ -17,9 +17,14 @@
       "count": 2
     },
     {
+      "id": "pmb39792",
+      "name": "Purkersdorf",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 55
+      "count": 63
     },
     {
       "id": "pmb52051",
@@ -143,9 +148,18 @@
     {
       "from": "pmb182",
       "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Berta Zuckerkandl an Arthur Schnitzler, [23. 6. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, 27. 2. 192[3?]"
+      ]
+    },
+    {
+      "from": "pmb39792",
+      "to": "pmb50",
       "weight": 1,
       "titles": [
-        "Berta Zuckerkandl an Arthur Schnitzler, [23. 6. 1911?]"
+        "Berta Zuckerkandl an Arthur Schnitzler, 27. 7. [1931?]"
       ]
     },
     {
@@ -159,11 +173,17 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 10,
       "titles": [
+        "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 11. und 31. 5. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 11. und 13. 6. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, 25. 7. [1911]",
-        "Berta Zuckerkandl an Arthur Schnitzler, [9. 10. 1911]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [9. oder 10. 9. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [9. 10. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [7. oder 14. 11. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [25. 11. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 20. und 30. 5. 1913?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, 30. 7. 1920",
         "Berta Zuckerkandl an Arthur Schnitzler, 11. 10. 1924"
       ]
     }

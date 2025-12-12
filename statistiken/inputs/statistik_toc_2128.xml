@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-05Z</date>
+            <date>2025-12-12Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2128.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1128,11 +1128,41 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2128"
-                          target="L03733">Plessner an Schnitzler, 6. 12. 1912</ref>
+                          target="L04016">Plessner an Schnitzler, 10. 5. 1912</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="5247"/>
+            </item>
+            <item corresp="L04016">
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 10. 5. 1912</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2128">Plessner, Elsa</persName>
+                     <date when="1912-05-10" n="02">10. 5. 1912</date>
+                     <placeName ref="#pmb140">Halle (Saale)</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1912-05-11" notAfter="1912-05-15">[11. 5. 1912 – 15. 5. 1912?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02060">Bahr an Schnitzler, 27. 4. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02062">Altenberg an Schnitzler, [10.? 5. 1912]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03728">Plessner an Schnitzler, 12. 10. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2128"
+                          target="L03733">Plessner an Schnitzler, 6. 12. 1912</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="161"/>
             </item>
             <item corresp="L03733">
                <title level="a">Elsa Plessner an Arthur Schnitzler, 6. 12. 1912</title>
@@ -1155,7 +1185,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2128"
-                          target="L03728">Plessner an Schnitzler, 12. 10. 1900</ref>
+                          target="L04016">Plessner an Schnitzler, 10. 5. 1912</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2128"

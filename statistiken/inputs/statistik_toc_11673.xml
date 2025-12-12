@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-05Z</date>
+            <date>2025-12-12Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -271,7 +271,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1405"/>
+               <measure unit="zeichenanzahl" quantity="1404"/>
             </item>
             <item corresp="L03941">
                <title level="a">Arthur Schnitzler an Theodor Herzl, 12. – 14. 11. 1892</title>
@@ -3356,7 +3356,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03899">Herzl an Schnitzler, [28. 2. 1902]</ref>
+                          target="L03899">Herzl an Schnitzler, 28. 2. 1902</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
@@ -3377,17 +3377,13 @@
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl,
-                  Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01206">Schnitzler an
-                  Beer-Hofmann, 26. 2. 1902</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01207">Bahr an
-                  Schnitzler, 8. 3. [1902]</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01206">Schnitzler an Beer-Hofmann, 26. 2. 1902</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01207">Bahr an Schnitzler, 8. 3. [1902]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03765">Herzl an Schnitzler,
-                  25. 11. 1901</ref>
+                          target="L03765">Herzl an Schnitzler, 25. 11. 1901</ref>
                   </correspContext>
                </correspDesc>
             </item>

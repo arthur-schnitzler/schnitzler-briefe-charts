@@ -1,0 +1,27 @@
+{
+  "correspondent": "",
+  "nodes": [
+    {
+      "id": "pmb34344",
+      "name": "Weißenbach am Attersee",
+      "count": 1
+    },
+    {
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 1
+    }
+  ],
+  "links_from_schnitzler": [
+  ],
+  "links_to_schnitzler": [
+    {
+      "from": "pmb34344",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal u. a. an Arthur Schnitzler, 15. [7. 1914]"
+      ]
+    }
+  ]
+}
