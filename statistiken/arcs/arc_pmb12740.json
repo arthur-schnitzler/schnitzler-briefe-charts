@@ -1,5 +1,5 @@
 {
-  "correspondent": "",
+  "correspondent": "Schwarzkopf, Gustav",
   "nodes": [
     {
       "id": "pmb34344",
@@ -7,12 +7,80 @@
       "count": 1
     },
     {
+      "id": "pmb415",
+      "name": "Bad Aussee",
+      "count": 1
+    },
+    {
+      "id": "pmb483",
+      "name": "Reichenau an der Rax",
+      "count": 2
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
+      "count": 14
+    },
+    {
+      "id": "pmb860",
+      "name": "Graz",
+      "count": 1
+    },
+    {
+      "id": "pmb91729",
+      "name": "Sekirn",
       "count": 1
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb415",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 30. 7. 1900"
+      ]
+    },
+    {
+      "from": "pmb483",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 20. 7. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 18. 7. 1905"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 8,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 8. 5. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 6. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 1. 9. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 5. 9. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 16. 9. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 10. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 12. 10. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 24. 6. 1906"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb91729",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 19. 7. 1904"
+      ]
+    },
+    {
+      "from": "pmb860",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 15. 7. 1898"
+      ]
+    }
   ],
   "links_to_schnitzler": [
     {

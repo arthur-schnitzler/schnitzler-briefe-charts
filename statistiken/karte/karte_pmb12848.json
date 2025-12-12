@@ -1,8 +1,60 @@
 {
   "correspondent": {
     "id": "pmb12848",
-    "name": ""
+    "name": "Sternheim, Carl"
   },
   "letters": [
+    {
+      "id": "L04013",
+      "title": "Carl Sternheim u.a. an Arthur Schnitzler, 22. 12. 1911",
+      "type": "von partner",
+      "date": "1911-12-22",
+      "sender": {
+        "name": "Sternheim, Carl",
+        "ref": "pmb12848"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Pullach im Isartal",
+        "ref": "pmb60017",
+        "lat": 48.06122,
+        "lon": 11.52148
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    },
+    {
+      "id": "L04014",
+      "title": "Arthur Schnitzler an Carl Sternheim, 27. 12. 1911",
+      "type": "von schnitzler",
+      "date": "1911-12-27",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Sternheim, Carl",
+        "ref": "pmb12848"
+      },
+      "from": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      },
+      "to": {
+        "name": "Pullach im Isartal",
+        "ref": "pmb60017",
+        "lat": 48.06122,
+        "lon": 11.52148
+      }
+    }
   ]
 }
