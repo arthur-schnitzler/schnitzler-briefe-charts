@@ -16,9 +16,9 @@
             <xsl:variable name="current-doc"
                 select="document($current-uri)/tei:TEI/tei:text[1]/tei:body[1]"/>
             <xsl:variable name="korrespondenz-nummer"
-                select="replace($current-doc/tei:list[1]/tei:item[not(descendant::tei:ref[@type = 'belongsToCorrespondence'][2])][1]/tei:correspDesc[1]/tei:correspContext[1]/tei:ref[@type = 'belongsToCorrespondence'][1]/@target, 'correspondence_', 'pmb')"/>
+                select="concat('pmb', replace(tokenize($current-uri, '/')[last()], 'statistik_toc_|\.xml', ''))"/>
             <xsl:result-document indent="no"
-                href="../statistik3/statistik_{$korrespondenz-nummer}.csv">
+                href="{resolve-uri(concat('../statistik3/statistik_', $korrespondenz-nummer, '.csv'), static-base-uri())}">
                 <xsl:apply-templates select="$current-doc">
                     <xsl:with-param select="$korrespondenz-nummer" name="korrespondenz-nummer"/>
                 </xsl:apply-templates>
