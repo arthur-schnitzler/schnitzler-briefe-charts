@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-12Z</date>
+            <date>2025-12-15Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -405,7 +405,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1078"/>
+               <measure unit="zeichenanzahl" quantity="1074"/>
             </item>
             <item corresp="L03945">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 8. 1. 1912</title>
@@ -417,8 +417,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <date evidence="conjecture" notBefore="1912-01-08" notAfter="1912-01-11">[8. 1. 1912
-                  – 11. 1. 1912?]</date>
+                     <date evidence="conjecture" notBefore="1912-01-08" notAfter="1912-01-11">[8. 1. 1912 –
+            11. 1. 1912?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -437,7 +437,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="991"/>
+               <measure unit="zeichenanzahl" quantity="989"/>
             </item>
             <item corresp="L04015">
                <title level="a">Berta Zuckerkandl an Arthur Schnitzler, [16. oder
@@ -448,7 +448,7 @@
                      <date notBefore="1912-05-16"
                            notAfter="1912-05-17"
                            evidence="external"
-                           n="01">[16.
+                           n="02">[16.
                   oder 17. 5. 1912?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
@@ -458,9 +458,9 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02067">Bahr an Schnitzler, 15. 5. 1912</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02068">Schnitzler an Ehrenstein, [nach dem
+                     <ref subtype="previous_letter" type="withinCollection" target="L02068">Schnitzler an Ehrenstein, [nach dem
                   15.] 5. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02069">Beer-Hofmann an Schnitzler, 23. 5. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2312"
@@ -517,6 +517,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date evidence="conjecture" notBefore="1914-01-21" notAfter="1914-01-24">[21. 1. 1914 – 24. 1. 1914?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -535,6 +536,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="536"/>
             </item>
             <item corresp="L03987">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 25. 3. 1915</title>
@@ -564,7 +566,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="876"/>
+               <measure unit="zeichenanzahl" quantity="874"/>
             </item>
             <item corresp="L03660">
                <title level="a">Berta Zuckerkandl an Arthur Schnitzler, 25. 2. 1917</title>
@@ -576,8 +578,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1917-02-26" notAfter="1917-03-02">[26. 2. 1917
-                  – 2. 3. 1917?]</date>
+                     <date evidence="conjecture" when="1917-03-03">[3. 3. 1917?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -595,7 +596,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="878"/>
+               <measure unit="zeichenanzahl" quantity="877"/>
             </item>
             <item corresp="L03992">
                <title level="a">Arthur Schnitzler: Widmungsexemplar von Fink und Fliederbusch an Berta
@@ -665,11 +666,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date when="1920-07-30" n="02">30. 7. 1920</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb36503" evidence="conjecture">Breitenstein am
+                  Semmering</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1920-07-30" notAfter="1920-08-02">[30. 7. 1920 – 2. 8. 1920?]</date>
+                     <date evidence="conjecture" notBefore="1920-07-30" notAfter="1920-07-31">[30. 7. 1920
+                  – 31. 7. 1920?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -687,7 +690,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte"/>
-               <measure unit="zeichenanzahl" quantity="613"/>
+               <measure unit="zeichenanzahl" quantity="612"/>
             </item>
             <item corresp="L03982">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 31. 7. 1920</title>
@@ -699,7 +702,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <placeName ref="#pmb91067" evidence="internal">Kreuzberg</placeName>
+                     <date evidence="conjecture" notBefore="1920-08-01" notAfter="1920-08-05">[1. 8. 1920
+                  – 5. 8. 1920?]</date>
+                     <placeName ref="#pmb91067" evidence="internal">Kreuzberg [Breitenstein]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
@@ -716,7 +721,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1374"/>
+               <measure unit="zeichenanzahl" quantity="1362"/>
             </item>
             <item corresp="L04001">
                <title level="a">Berta Zuckerkandl an Arthur Schnitzler, 27. 2. 192[3?]</title>
@@ -746,7 +751,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="kartenbrief"/>
-               <measure unit="zeichenanzahl" quantity="562"/>
+               <measure unit="zeichenanzahl" quantity="563"/>
             </item>
             <item corresp="L03946">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 19. 3. 1923</title>
@@ -1165,7 +1170,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte"/>
-               <measure unit="zeichenanzahl" quantity="705"/>
+               <measure unit="zeichenanzahl" quantity="703"/>
             </item>
             <item corresp="L03959">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 15. 6. 1925</title>

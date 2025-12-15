@@ -4,22 +4,24 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 4
+      "count": 6
     },
     {
       "id": "pmb562",
       "name": "Genf",
-      "count": 4
+      "count": 6
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb50",
       "to": "pmb562",
-      "weight": 2,
+      "weight": 4,
       "titles": [
         "Arthur Schnitzler an Romain Rolland, 14. 12. 1914",
-        "Arthur Schnitzler an Romain Rolland, 7. 1. 1915"
+        "Arthur Schnitzler an Romain Rolland, 7. 1. 1915",
+        "Arthur Schnitzler an Romain Rolland, 11. 2. 1915",
+        "Arthur Schnitzler an Romain Rolland, [29. 1.?] 1916"
       ]
     }
   ],
