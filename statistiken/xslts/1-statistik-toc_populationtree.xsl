@@ -31,13 +31,13 @@
         <!-- Von Schnitzler an Partner -->
         <xsl:variable name="correspAction-von-schnitzler-an-partner"
             select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer)]"/>
-        <!-- Aus Schnitzlers Umfeld an den Korrespondenzpartner -->
+        <!-- Aus Schnitzlers Umfeld (Schnitzler an andere ODER andere an Partner, aber nicht Schnitzler direkt an Partner) -->
         <xsl:variable name="correspAction-von-schnitzler-an-umfeld"
-            select="descendant::tei:correspDesc[not(tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121') and (tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer))]"/>
+            select="descendant::tei:correspDesc[(tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121' and not(tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer))) or (not(tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121') and not(tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer)) and (tei:correspAction[@type = 'received']/tei:persName/@ref = concat('#', $korrespondenz-nummer)))]"/>
         <!-- Von Partner an Schnitzler -->
         <xsl:variable name="correspAction-von-partner"
             select="descendant::tei:correspDesc[tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer) and tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121']"/>
-        <!-- Aus dem Umfeld des Korrespondenzpartners an Schnitzler -->
+        <!-- Aus dem Umfeld des Korrespondenzpartners an Schnitzler (Partner nicht Sender, Schnitzler nicht Sender, Schnitzler ist Empfänger) -->
         <xsl:variable name="correspAction-von-partner-an-umfeld"
             select="descendant::tei:correspDesc[tei:correspAction[@type = 'received']/tei:persName/@ref = '#pmb2121' and not(tei:correspAction[@type = 'sent']/tei:persName/@ref = concat('#', $korrespondenz-nummer)) and not(tei:correspAction[@type = 'sent']/tei:persName/@ref = '#pmb2121')]"/>
 
