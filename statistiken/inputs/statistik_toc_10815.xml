@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-15Z</date>
+            <date>2025-12-16Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10815.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -6573,7 +6573,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01458">Bahr an Schnitzler, 19. [10. 1904]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03053">Salten an Schnitzler, 22. 10. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04046">Schnitzler an Schwarzkopf, 21. 10. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -6635,7 +6635,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01473">Hofmannsthal an Schnitzler, 1. 12. 1904</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01475">Schnitzler an Bahr, 5. 12. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04045">Schnitzler an Schwarzkopf, 5. 12. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -6664,7 +6664,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01474">Bahr an Schnitzler, 4. [12.] 1904</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04045">Schnitzler an Schwarzkopf, 5. 12. 1904</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01476">Hofmannsthal an Schnitzler, 5. 12. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -10767,11 +10767,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L02360">Schnitzler an Bahr, 7. 2. 1921</ref>
+                          target="L02305">Buschbeck an Schnitzler, 24. 9. 1918</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="270"/>
+            </item>
+            <item corresp="L02305">
+               <title level="a">Erhard Buschbeck an Arthur Schnitzler, 24. 9. 1918</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11054">Buschbeck, Erhard</persName>
+                     <date when="1918-09-24" n="01">24. 9. 1918</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1918-09-24" notAfter="1918-09-26">[24. 9. 1918
+                  – 28. 9. 1918?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02304">Schnitzler an Bahr, 23. 9. 1918</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02306">Adam an Schnitzler, 1. 10. 1918</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10815"
+                          target="L02304">Schnitzler an Bahr, 23. 9. 1918</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10815"
+                          target="L02360">Schnitzler an Bahr, 7. 2. 1921</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="851"/>
             </item>
             <item corresp="L02360">
                <title level="a">Arthur Schnitzler an Hermann Bahr, 7. 2. 1921</title>
@@ -10793,7 +10824,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L02304">Schnitzler an Bahr, 23. 9. 1918</ref>
+                          target="L02305">Buschbeck an Schnitzler, 24. 9. 1918</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -10827,11 +10858,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L02371">Schnitzler an Bahr, 16. 12. 1921</ref>
+                          target="L02367">Schnitzler an Bahr-Mildenburg, 11. 5. 1921</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
                <measure unit="zeichenanzahl" quantity="634"/>
+            </item>
+            <item corresp="L02367">
+               <title level="a">Olga Schnitzler an Anna Bahr-Mildenburg, 11. 5. 1921</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date when="1921-05-11" n="01">11. 5. 1921</date>
+                     <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb10818">Bahr-Mildenburg, Anna</persName>
+                     <date evidence="conjecture" notBefore="1921-05-12" notAfter="1921-05-16">[12. 5. 1921
+                  – 16. 5. 1921?]</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02366">Schnitzler an Beer-Hofmann, 8. 5. 1921</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02368">Schnitzler an Adam, 25. 5. 1921</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10815"
+                          target="L02361">Bahr an Schnitzler, 9. 2. 1921</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10815"
+                          target="L02371">Schnitzler an Bahr, 16. 12. 1921</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="582"/>
             </item>
             <item corresp="L02371">
                <title level="a">Olga Schnitzler an Hermann Bahr, 16. 12. 1921</title>
@@ -10852,7 +10914,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
-                          target="L02361">Bahr an Schnitzler, 9. 2. 1921</ref>
+                          target="L02367">Schnitzler an Bahr-Mildenburg, 11. 5. 1921</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"

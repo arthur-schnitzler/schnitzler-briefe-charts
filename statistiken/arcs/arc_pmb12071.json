@@ -2,6 +2,11 @@
   "correspondent": "Liliencron, Detlev von",
   "nodes": [
     {
+      "id": "pmb470",
+      "name": "Edlach",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
       "count": 5
@@ -9,10 +14,18 @@
     {
       "id": "pmb506",
       "name": "Hamburg",
-      "count": 3
+      "count": 4
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb470",
+      "to": "pmb506",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Anna von Liliencron, 24. 7. 1909"
+      ]
+    },
     {
       "from": "pmb50",
       "to": "pmb506",

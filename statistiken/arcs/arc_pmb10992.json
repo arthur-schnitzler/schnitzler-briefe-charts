@@ -17,6 +17,11 @@
       "count": 2
     },
     {
+      "id": "pmb212",
+      "name": "St. Anton am Arlberg",
+      "count": 1
+    },
+    {
       "id": "pmb213",
       "name": "Bad Ischl",
       "count": 4
@@ -24,12 +29,12 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 1
+      "count": 4
     },
     {
       "id": "pmb36300",
       "name": "Kopenhagen",
-      "count": 63
+      "count": 70
     },
     {
       "id": "pmb36456",
@@ -84,7 +89,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 91
+      "count": 98
     },
     {
       "id": "pmb667",
@@ -102,9 +107,14 @@
       "count": 2
     },
     {
+      "id": "pmb946",
+      "name": "Vahrn",
+      "count": 3
+    },
+    {
       "id": "pmb958",
       "name": "Skodsborg",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb959",
@@ -124,6 +134,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 3. 8. 1914"
+      ]
+    },
+    {
+      "from": "pmb212",
+      "to": "pmb36300",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Edith Brandes, 4. 7. 1901"
       ]
     },
     {
@@ -153,8 +171,17 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb30",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Gertrud Rung, 22. 5. 1925",
+        "Arthur Schnitzler an Gertrud Rung, 2. 6. 1925"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb36300",
-      "weight": 25,
+      "weight": 26,
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 11. 1. 1897",
         "Arthur Schnitzler an Georg Brandes, 4. 1. 1899",
@@ -178,6 +205,7 @@
         "Arthur Schnitzler an Georg Brandes, 23. 6. 1924",
         "Arthur Schnitzler an Georg Brandes, 11. 2. 1925",
         "Arthur Schnitzler an Georg Brandes, 22. 2. 1925",
+        "Arthur Schnitzler an Gertrud Rung, 9. 3. 1925",
         "Arthur Schnitzler an Georg Brandes, 7. 7. 1925",
         "Arthur Schnitzler an Georg Brandes, 2[7?]. 7. 1925",
         "Arthur Schnitzler an Georg Brandes, 3. 1. 1926"
@@ -200,6 +228,14 @@
       ]
     },
     {
+      "from": "pmb946",
+      "to": "pmb36300",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Edith Brandes, 22. 7. 1901"
+      ]
+    },
+    {
       "from": "pmb959",
       "to": "pmb36300",
       "weight": 3,
@@ -217,6 +253,14 @@
       "weight": 1,
       "titles": [
         "Georg Brandes an Arthur und Olga Schnitzler, 3. 2. 1912"
+      ]
+    },
+    {
+      "from": "pmb30",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gertrud Rung an Arthur Schnitzler, 24. 5. 1925"
       ]
     },
     {
@@ -263,7 +307,7 @@
     {
       "from": "pmb36300",
       "to": "pmb50",
-      "weight": 23,
+      "weight": 26,
       "titles": [
         "Georg Brandes an Arthur Schnitzler, 26. 5. 1894",
         "Georg Brandes an Arthur Schnitzler, 22. 4. 1896",
@@ -284,9 +328,12 @@
         "Georg Brandes an Arthur Schnitzler, 15. 5. 1922",
         "Georg Brandes an Arthur Schnitzler, 11. 6. 1923",
         "Georg Brandes an Arthur Schnitzler, 10. 12. 1924",
+        "Gertrud Rung an Arthur Schnitzler, 17. 2. 1925",
+        "Gertrud Rung an Arthur Schnitzler, 1. 3. 1925",
         "Georg Brandes an Arthur Schnitzler, 21. 6. 1925",
         "Georg Brandes an Arthur Schnitzler, 12. 7. 1925",
         "Georg Brandes an Arthur Schnitzler, 30. 12. 1925",
+        "Gertrud Rung an Arthur Schnitzler, 30. 12. 1925",
         "Georg Brandes an Arthur Schnitzler, 28. 8. 1926"
       ]
     },
@@ -374,6 +421,14 @@
       "titles": [
         "Georg Brandes an Arthur Schnitzler, 16. 3. 1898",
         "Georg Brandes an Arthur Schnitzler, 5. 3. 1913"
+      ]
+    },
+    {
+      "from": "pmb958",
+      "to": "pmb946",
+      "weight": 1,
+      "titles": [
+        "Edith Brandes an Arthur Schnitzler, 15. 7. 1901"
       ]
     }
   ]

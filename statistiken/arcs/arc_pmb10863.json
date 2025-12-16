@@ -24,7 +24,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 16
+      "count": 17
     },
     {
       "id": "pmb173",
@@ -322,6 +322,11 @@
       "count": 1
     },
     {
+      "id": "pmb44053",
+      "name": "New York City",
+      "count": 1
+    },
+    {
       "id": "pmb44097",
       "name": "Las Palmas de Gran Canaria",
       "count": 1
@@ -459,12 +464,17 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 644
+      "count": 654
+    },
+    {
+      "id": "pmb50112",
+      "name": "Dahmsdorf",
+      "count": 1
     },
     {
       "id": "pmb506",
       "name": "Hamburg",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb51",
@@ -529,7 +539,7 @@
     {
       "id": "pmb662",
       "name": "Baden bei Wien",
-      "count": 10
+      "count": 11
     },
     {
       "id": "pmb667",
@@ -584,6 +594,11 @@
     {
       "id": "pmb864",
       "name": "Leipzig",
+      "count": 1
+    },
+    {
+      "id": "pmb866",
+      "name": "Dresden",
       "count": 1
     },
     {
@@ -1744,6 +1759,14 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb44053",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gabriel Beer-Hofmann, 14. 1. 1931"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb44278",
       "weight": 1,
       "titles": [
@@ -2408,11 +2431,12 @@
     {
       "from": "pmb168",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, 27. 2. 1894",
         "Richard Beer-Hofmann an Arthur Schnitzler, 8. 3. 1908",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 27. 10. 1919"
+        "Richard Beer-Hofmann an Arthur Schnitzler, 27. 10. 1919",
+        "Mirjam Beer-Hofmann an Arthur Schnitzler, 8. 6. 1927"
       ]
     },
     {
@@ -3053,6 +3077,14 @@
       "weight": 1,
       "titles": [
         "Richard und Paula Beer-Hofmann an Arthur Schnitzler, 22. 6. 190[5?]"
+      ]
+    },
+    {
+      "from": "pmb506",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gabriel Beer-Hofmann an Arthur Schnitzler, 12. 10. 1926"
       ]
     },
     {

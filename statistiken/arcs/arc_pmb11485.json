@@ -79,7 +79,7 @@
     {
       "id": "pmb146",
       "name": "Frankfurt am Main",
-      "count": 54
+      "count": 57
     },
     {
       "id": "pmb147210",
@@ -94,7 +94,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 206
+      "count": 210
     },
     {
       "id": "pmb182",
@@ -284,7 +284,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 448
+      "count": 453
     },
     {
       "id": "pmb506",
@@ -648,6 +648,14 @@
     },
     {
       "from": "pmb146",
+      "to": "pmb146",
+      "weight": 1,
+      "titles": [
+        "Clementine Goldmann und Vally Rosengart an Arthur Schnitzler, [11. 1. 1896]"
+      ]
+    },
+    {
+      "from": "pmb146",
       "to": "pmb168",
       "weight": 5,
       "titles": [
@@ -678,18 +686,20 @@
     {
       "from": "pmb146",
       "to": "pmb50",
-      "weight": 41,
+      "weight": 43,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 6. 4. 1891",
         "Paul Goldmann an Arthur Schnitzler, 27. 4. 1891",
         "Paul Goldmann an Arthur Schnitzler, 3. 6. 1893",
         "Paul Goldmann und Fedor Mamroth an Arthur Schnitzler, 4. 6. 1893",
+        "Josef Rosengart an Arthur Schnitzler, 5. 12. 1893",
         "Paul Goldmann an Arthur Schnitzler, 8. 9. [1894]",
         "Paul Goldmann an Arthur Schnitzler, 24. 4. [1895]",
         "Paul Goldmann an Arthur Schnitzler, 9. [4.] 1896",
         "Paul Goldmann an Arthur Schnitzler, 13. 9. 1897",
         "Paul Goldmann an Arthur Schnitzler, [16./17.?] 9. [1897]",
         "Paul Goldmann an Arthur Schnitzler, [17./18.?] 9. 1897",
+        "Vally Rosengart an Arthur Schnitzler, [16. 1. 1898]",
         "Paul Goldmann an Arthur Schnitzler, [28. – 31. 3. 1898?]",
         "Paul Goldmann an Arthur Schnitzler, [31. 1. 1899?]",
         "Paul Goldmann an Arthur Schnitzler, 5. 3. [1899]",
@@ -758,7 +768,7 @@
     {
       "from": "pmb168",
       "to": "pmb168",
-      "weight": 12,
+      "weight": 13,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 24. 11. [1900]",
         "Paul Goldmann an Arthur Schnitzler, 2. 3. [1901]",
@@ -771,7 +781,8 @@
         "Paul Goldmann an Arthur Schnitzler, 18. 11. [1904]",
         "Paul Goldmann an Arthur Schnitzler, 20. 11. 1905",
         "Paul Goldmann an Arthur Schnitzler, 20. 11. [1905]",
-        "Paul Goldmann an Arthur Schnitzler, 19. 2. 1906"
+        "Paul Goldmann an Arthur Schnitzler, 19. 2. 1906",
+        "Eva Marie Goldmann an Arthur Schnitzler, 1. 1. 1927"
       ]
     },
     {
@@ -846,7 +857,7 @@
     {
       "from": "pmb168",
       "to": "pmb50",
-      "weight": 141,
+      "weight": 144,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 7. 9. [1896]",
         "Paul Goldmann an Arthur Schnitzler, 2. 1. [1900]",
@@ -981,9 +992,12 @@
         "Paul Goldmann an Arthur Schnitzler, 16. 11. 1908",
         "Paul Goldmann an Arthur Schnitzler, 19. 4. 1910",
         "Paul Goldmann an Arthur Schnitzler, 13. 1. 1911",
+        "Eva Marie Goldmann an Arthur Schnitzler, 21. 9. 1911",
+        "Eva Marie Goldmann an Arthur Schnitzler, 1. 10. 1911",
         "Paul Goldmann an Arthur Schnitzler, 10. 2. 1915",
         "Paul Goldmann an Arthur Schnitzler, 16. 2. 1925",
         "Paul Goldmann an Arthur Schnitzler, 24. 10. 1925",
+        "Franziska Goldmann an Arthur Schnitzler, [Ende Oktober 1925?]",
         "Paul Goldmann an Arthur Schnitzler, 20. 11. 1925",
         "Paul Goldmann an Arthur Schnitzler, 23. 12. 1927",
         "Paul Goldmann an Arthur Schnitzler, 3. 5. 1928",

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-15Z</date>
+            <date>2025-12-16Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10863.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -18624,11 +18624,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01603">Schnitzler an Beer-Hofmann, 24. 6. 1906</ref>
+                          target="L01600">Beer-Hofmann an Schnitzler, 12. 6. 1906</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="669"/>
+            </item>
+            <item corresp="L01600">
+               <title level="a">Mirjam Beer-Hofmann an Olga Schnitzler, 12. 6. 1906</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2668">Beer-Hofmann, Mirjam</persName>
+                     <date when="1906-06-12" n="01">12. 6. 1906</date>
+                     <placeName ref="#pmb50112">Dahmsdorf</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date evidence="conjecture" notBefore="1906-06-13" notAfter="1906-06-17">[13. 6. 1906
+                  – 17. 6. 1906?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03424">Salten an Schnitzler, 9. 6. 1906</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03427">Salten an Schnitzler, 19. 6. 1906</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L01597">Beer-Hofmann an Schnitzler, [15.?] 5. 1906</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L01603">Schnitzler an Beer-Hofmann, 24. 6. 1906</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="123"/>
             </item>
             <item corresp="L01603">
                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 24. 6. 1906</title>
@@ -18651,7 +18682,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01597">Beer-Hofmann an Schnitzler, [15.?] 5. 1906</ref>
+                          target="L01600">Beer-Hofmann an Schnitzler, 12. 6. 1906</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -20067,7 +20098,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04031">Schnitzler an Schwarzkopf, 6. 3. 1908</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03809">Schnitzler an Zweig, 23. 3. 1908</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04044">Schnitzler an Schwarzkopf, 16. 3. 1908</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -20403,11 +20434,41 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01797">Schnitzler an Beer-Hofmann, 5. 11. 1908</ref>
+                          target="L01795">Schnitzler an Beer-Hofmann, [23. 10. 1908?]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1101"/>
+            </item>
+            <item corresp="L01795">
+               <title level="a">Olga Schnitzler an Paula Beer-Hofmann, [23. 10. 1908?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date when="1908-10-23" n="01">[23. 10. 1908?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
+                     <date when="1908-10-23">[23. 10. 1908?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03623">Zweig an Schnitzler, [22. 10. 1908?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03802">Schnitzler an Zweig, 29. 10. 1908</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L01790">Schnitzler an Beer-Hofmann, 16. 9. 1908</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L01797">Schnitzler an Beer-Hofmann, 5. 11. 1908</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="406"/>
             </item>
             <item corresp="L01797">
                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 5. 11. 1908</title>
@@ -20434,7 +20495,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01790">Schnitzler an Beer-Hofmann, 16. 9. 1908</ref>
+                          target="L01795">Schnitzler an Beer-Hofmann, [23. 10. 1908?]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -20648,11 +20709,41 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01816">Beer-Hofmann an Schnitzler, [30. 11. 1908?]</ref>
+                          target="L01815">Schnitzler an Beer-Hofmann, [30. 11. 1908?]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="343"/>
+            </item>
+            <item corresp="L01815">
+               <title level="a">Olga Schnitzler an Paula Beer-Hofmann, [30. 11. 1908?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date when="1908-11-30" n="01">[30. 11. 1908?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
+                     <date when="1908-11-30">[30. 11. 1908?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01814">Schnitzler an Beer-Hofmann, 2[8]. 11. 1908</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01816">Beer-Hofmann an Schnitzler, [30. 11. 1908?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L01814">Schnitzler an Beer-Hofmann, 2[8]. 11. 1908</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L01816">Beer-Hofmann an Schnitzler, [30. 11. 1908?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="383"/>
             </item>
             <item corresp="L01816">
                <title level="a">Richard Beer-Hofmann an Olga Schnitzler, [30. 11. 1908?]</title>
@@ -20674,7 +20765,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01814">Schnitzler an Beer-Hofmann, 2[8]. 11. 1908</ref>
+                          target="L01815">Schnitzler an Beer-Hofmann, [30. 11. 1908?]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -21704,11 +21795,72 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01916">Beer-Hofmann an Schnitzler, 6. 3. 1910</ref>
+                          target="L02561">Schnitzler an Beer-Hofmann, [19. 1. 1910]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="kartenbrief"/>
                <measure unit="zeichenanzahl" quantity="340"/>
+            </item>
+            <item corresp="L02561">
+               <title level="a">Olga Schnitzler an Paula Beer-Hofmann, [19. 1. 1910]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date when="1910-01-19" n="01">[19. 1. 1910]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
+                     <date when="1910-01-19">[19. 1. 1910]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01911">Beer-Hofmann an Schnitzler, 18. 1. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02553">Schnitzler an Beer-Hofmann, 23. 1. 1910</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L01911">Beer-Hofmann an Schnitzler, 18. 1. 1910</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02553">Schnitzler an Beer-Hofmann, 23. 1. 1910</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="98"/>
+            </item>
+            <item corresp="L02553">
+               <title level="a">Olga Schnitzler an Paula Beer-Hofmann, 23. 1. 1910</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date when="1910-01-23" n="01">23. 1. 1910</date>
+                     <placeName ref="#pmb866">Dresden</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
+                     <date evidence="conjecture" notBefore="1910-01-24" notAfter="1910-01-28">[24. 1. 1910
+                  – 28. 1. 1910?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02561">Schnitzler an Beer-Hofmann, [19. 1. 1910]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03544">Salten an Schnitzler, 29. 1. 1910</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02561">Schnitzler an Beer-Hofmann, [19. 1. 1910]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L01916">Beer-Hofmann an Schnitzler, 6. 3. 1910</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="400"/>
             </item>
             <item corresp="L01916">
                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 6. 3. 1910</title>
@@ -21730,7 +21882,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01911">Beer-Hofmann an Schnitzler, 18. 1. 1910</ref>
+                          target="L02553">Schnitzler an Beer-Hofmann, 23. 1. 1910</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -23122,11 +23274,41 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L02055">Beer-Hofmann an Schnitzler, 14. 2. 1912</ref>
+                          target="L02566">Schnitzler an Beer-Hofmann, [1912?]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="visitenkarte"/>
                <measure unit="zeichenanzahl" quantity="170"/>
+            </item>
+            <item corresp="L02566">
+               <title level="a">Olga Schnitzler an Paula Beer-Hofmann, [1912?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date notBefore="1912-01-01" notAfter="1912-12-31" n="01">[1912?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
+                     <date notBefore="1912-01-01" notAfter="1912-12-31" evidence="conjecture">[1912?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04014">Schnitzler an Sternheim, 27. 12. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03945">Schnitzler an Zuckerkandl, 8. 1. 1912</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02552">Schnitzler, Schnitzler an Beer-Hofmann, 1. 12. 1911</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02055">Beer-Hofmann an Schnitzler, 14. 2. 1912</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="227"/>
             </item>
             <item corresp="L02055">
                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14. 2. 1912</title>
@@ -23148,7 +23330,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L02552">Schnitzler, Schnitzler an Beer-Hofmann, 1. 12. 1911</ref>
+                          target="L02566">Schnitzler an Beer-Hofmann, [1912?]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -23675,11 +23857,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L02140">Beer-Hofmann an Schnitzler, 5. 7. 1913</ref>
+                          target="L02563">Schnitzler an Beer-Hofmann, 22. 4. 1913</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
                <measure unit="zeichenanzahl" quantity="90"/>
+            </item>
+            <item corresp="L02563">
+               <title level="a">Olga Schnitzler an Paula Beer-Hofmann, 22. 4. 1913</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2173">Schnitzler, Olga</persName>
+                     <date when="1913-04-22" n="03">22. 4. 1913</date>
+                     <placeName ref="#pmb662">Baden bei Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
+                     <date evidence="conjecture" notBefore="1913-04-23" notAfter="1913-04-27">[23. 4. 1913
+                  – 27. 4. 1913?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02129">Schnitzler an Bahr, 22. 4. 1913</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02130">Bahr an Schnitzler, 23. 4. 1913</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02115">Beer-Hofmann, Beer-Hofmann an Schnitzler, 28. 2. 1913</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02140">Beer-Hofmann an Schnitzler, 5. 7. 1913</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="390"/>
             </item>
             <item corresp="L02140">
                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 5. 7. 1913</title>
@@ -23702,7 +23915,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L02115">Beer-Hofmann, Beer-Hofmann an Schnitzler, 28. 2. 1913</ref>
+                          target="L02563">Schnitzler an Beer-Hofmann, 22. 4. 1913</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -25947,11 +26160,72 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L02489">Schnitzler an Beer-Hofmann, 17. 7. 1927</ref>
+                          target="L02479">Beer-Hofmann an Schnitzler, 12. 10. 1926</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
                <measure unit="zeichenanzahl" quantity="135"/>
+            </item>
+            <item corresp="L02479">
+               <title level="a">Gabriel Beer-Hofmann an Arthur Schnitzler, 12. 10. 1926</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb13923">Beer-Hofmann, Gabriel</persName>
+                     <date when="1926-10-12" n="01">12. 10. 1926</date>
+                     <placeName ref="#pmb506">Hamburg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1926-10-13" notAfter="1926-10-17">[13. 10. 1926 – 17. 10. 1926?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03663">Zweig an Schnitzler, 5. 10. [1926?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03811">Schnitzler an Zweig, 7. 11. 1926</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02473">Schnitzler an Beer-Hofmann, 5. 5. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02488">Beer-Hofmann an Schnitzler, 8. 6. 1927</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1015"/>
+            </item>
+            <item corresp="L02488">
+               <title level="a">Mirjam Beer-Hofmann an Arthur Schnitzler, 8. 6. 1927</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2668">Beer-Hofmann, Miriam</persName>
+                     <date when="1927-06-08" n="01">8. 6. 1927</date>
+                     <placeName ref="#pmb168">Berlin</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1927-06-09" notAfter="1927-06-13">[9. 6. 1927
+                  – 13. 6. 1927?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03744">Schnitzler an Zweig, 28. 5. 1927</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02489">Schnitzler an Beer-Hofmann, 17. 7. 1927</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02479">Beer-Hofmann an Schnitzler, 12. 10. 1926</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02489">Schnitzler an Beer-Hofmann, 17. 7. 1927</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1004"/>
             </item>
             <item corresp="L02489">
                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17. 7. 1927</title>
@@ -25973,7 +26247,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L02473">Schnitzler an Beer-Hofmann, 5. 5. 1926</ref>
+                          target="L02488">Beer-Hofmann an Schnitzler, 8. 6. 1927</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -26163,11 +26437,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L02548">Beer-Hofmann an Schnitzler, 14. 9. 1931</ref>
+                          target="L02541">Schnitzler an Beer-Hofmann, 14. 1. 1931</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
                <measure unit="zeichenanzahl" quantity="146"/>
+            </item>
+            <item corresp="L02541">
+               <title level="a">Arthur Schnitzler an Gabriel Beer-Hofmann, 14. 1. 1931</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1931-01-14" n="01">14. 1. 1931</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb13923">Beer-Hofmann, Gabriel</persName>
+                     <date evidence="conjecture" notBefore="1931-01-15" notAfter="1931-01-19">[15. 1. 1931
+                  – 19. 1. 1931?]</date>
+                     <placeName ref="#pmb44053">New York City</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03485">Schnitzler an Salten, 1. 1. 1931</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02542">Hofmannsthal an Schnitzler, 16. 2. 1931</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02539">Beer-Hofmann, Beer-Hofmann an Schnitzler, 11. 9. 1930</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10863"
+                          target="L02548">Beer-Hofmann an Schnitzler, 14. 9. 1931</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="343"/>
             </item>
             <item corresp="L02548">
                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 14. 9. 1931</title>
@@ -26189,7 +26494,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L02539">Beer-Hofmann, Beer-Hofmann an Schnitzler, 11. 9. 1930</ref>
+                          target="L02541">Schnitzler an Beer-Hofmann, 14. 1. 1931</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>

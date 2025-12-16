@@ -9,7 +9,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 7
+      "count": 9
     },
     {
       "id": "pmb652",
@@ -24,7 +24,7 @@
     {
       "id": "pmb833",
       "name": "Brünn",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb864",
@@ -46,8 +46,9 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Jaques Joachim an Arthur Schnitzler, 31. 1. 1890",
         "Jaques Joachim und Eduard Michael Kafka an Arthur Schnitzler, 6. 7. 1891"
       ]
     },
@@ -70,8 +71,9 @@
     {
       "from": "pmb833",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
+        "Michael Konstantin an Arthur Schnitzler, 22. 5. 1890",
         "Eduard Michael Kafka an Arthur Schnitzler, 30. 8. 1891",
         "Eduard Michael Kafka an Arthur Schnitzler, 12. 1. 1893"
       ]
