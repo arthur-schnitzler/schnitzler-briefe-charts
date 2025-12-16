@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-16+01:00</date>
+            <date>2025-12-16Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12543.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -124,40 +124,6 @@
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1312"/>
             </item>
-            <item corresp="L04213">
-               <title level="a">Arthur Schnitzler an Romain Rolland, 11. 2. 1915</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1915-02-11" n="01">11. 2. 1915</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="transmitted">
-                     <date when="1915-02-12">12. 2. 1915</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb12543">Rolland, Romain</persName>
-                     <date when="1915-02-15">15. 2. 1915</date>
-                     <placeName ref="#pmb562">Genf</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04215">Schnitzler an Rolland, 11. 2. 1915</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03772">Schnitzler an Zweig, 11. 2. 1915</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_12543"
-                          target="L04215">Schnitzler an Rolland, 11. 2. 1915</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_12543"
-                          target="L04214">Schnitzler an Rolland, [29. 1.?] 1916</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="813"/>
-            </item>
             <item corresp="L04215">
                <title level="a">Arthur Schnitzler an Romain Rolland, 11. 2. 1915</title>
                <correspDesc>
@@ -191,6 +157,40 @@
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
                <measure unit="zeichenanzahl" quantity="775"/>
+            </item>
+            <item corresp="L04213">
+               <title level="a">Arthur Schnitzler an Romain Rolland, 11. 2. 1915</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1915-02-11" n="01">11. 2. 1915</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1915-02-12">12. 2. 1915</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb12543">Rolland, Romain</persName>
+                     <date when="1915-02-15">15. 2. 1915</date>
+                     <placeName ref="#pmb562">Genf</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04215">Schnitzler an Rolland, 11. 2. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03772">Schnitzler an Zweig, 11. 2. 1915</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12543"
+                          target="L04215">Schnitzler an Rolland, 11. 2. 1915</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12543"
+                          target="L04214">Schnitzler an Rolland, [29. 1.?] 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="813"/>
             </item>
             <item corresp="L04214">
                <title level="a">Arthur Schnitzler an Romain Rolland, [29. 1.?] 1916</title>
