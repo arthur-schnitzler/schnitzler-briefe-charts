@@ -19,11 +19,16 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 34
+      "count": 52
     },
     {
       "id": "pmb860",
       "name": "Graz",
+      "count": 1
+    },
+    {
+      "id": "pmb866",
+      "name": "Dresden",
       "count": 1
     },
     {
@@ -58,17 +63,34 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 27,
+      "weight": 44,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, [23. oder 24. 11. 1896?]",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 14. 3. 1903",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 28. 3. 1903",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 12. 4. 1903",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 25. 8. 1903",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 5. 10. 1903",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 22. 1. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 27. 2. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 15. 3. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 11 4. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 21. 6. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 25. 8. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 21. 9. 1904",
         "Arthur Schnitzler an Gustav Schwarzkopf, 5. 10. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 17. 10. 1904",
         "Arthur Schnitzler an Gustav Schwarzkopf, 21. 10. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 8. 11. 1904",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 2. 12. 1904",
         "Arthur Schnitzler an Gustav Schwarzkopf, 5. 12. 1904",
         "Arthur Schnitzler an Gustav Schwarzkopf, 8. 5. 1905",
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 6. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 6. 1905",
         "Arthur Schnitzler an Gustav Schwarzkopf, 1. 9. 1905",
         "Arthur Schnitzler an Gustav Schwarzkopf, 5. 9. 1905",
         "Arthur Schnitzler an Gustav Schwarzkopf, 16. 9. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 6. 10. 1905",
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 10. 1905",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 10. 1905",
         "Arthur Schnitzler an Max Schwarzkopf, 13. 10. 1905",
@@ -103,6 +125,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 15. 7. 1898"
+      ]
+    },
+    {
+      "from": "pmb866",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 19. 2. 1904"
       ]
     },
     {

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-16Z</date>
+            <date>2025-12-18Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -57,7 +57,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01456">Hofmannsthal an Schnitzler, [16?. 10. 1904]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01457">Hofmannsthal an Schnitzler, 18. 10. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04048">Schnitzler an Schwarzkopf, 17. 10. 1904</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -2748,7 +2748,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
                      <date when="1917-08-15" n="01">15. 8. 1917</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb555">Kalksburg</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3187,10 +3187,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02396">Hofmannsthal an
-            Schnitzler, 16. 1. 1923</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02397">Mann an Schnitzler,
-            20. 2. 1923</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02396">Hofmannsthal an Schnitzler, 16. 1. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02397">Mann an Schnitzler, 20. 2. 1923</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"

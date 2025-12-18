@@ -47,6 +47,11 @@
       "count": 2
     },
     {
+      "id": "pmb555",
+      "name": "Kalksburg",
+      "count": 1
+    },
+    {
       "id": "pmb5836",
       "name": "Hochschneeberg",
       "count": 1
@@ -275,7 +280,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 34,
+      "weight": 33,
       "titles": [
         "Stefan Zweig an Arthur Schnitzler, 15. 1. 190[8]",
         "Stefan Zweig an Arthur Schnitzler, [22. 10. 1908?]",
@@ -307,7 +312,6 @@
         "Stefan Zweig an Arthur Schnitzler, 18. 1. 1916",
         "Stefan Zweig an Arthur Schnitzler, 26. 4. 1916",
         "Stefan Zweig an Arthur Schnitzler, 25. 9. 1916",
-        "Stefan Zweig an Arthur Schnitzler, 15. 8. 1917",
         "Stefan Zweig an Arthur Schnitzler, 25. 8. 1917",
         "Stefan Zweig an Arthur Schnitzler, 12. 10. 1917",
         "Stefan Zweig an Arthur Schnitzler, 14. 4. 1919"
@@ -327,6 +331,14 @@
       "weight": 1,
       "titles": [
         "Stefan Zweig an Arthur Schnitzler, 3. 6. 1908"
+      ]
+    },
+    {
+      "from": "pmb555",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, 15. 8. 1917"
       ]
     },
     {
