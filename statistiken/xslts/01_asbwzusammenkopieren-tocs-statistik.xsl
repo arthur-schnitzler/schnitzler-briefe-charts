@@ -93,11 +93,20 @@
                                                 select="child::tei:teiHeader[1]/tei:fileDesc[1]/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:objectType[1]"
                                                 xpath-default-namespace="http://www.tei-c.org/ns/1.0"
                                                 copy-namespaces="false"/>
+                                            <!-- Copy measure from listWit if available -->
                                             <xsl:copy-of
                                                 select="child::tei:teiHeader[1]/tei:fileDesc[1]/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:physDesc[1]/tei:objectDesc[1]/tei:supportDesc[1]/tei:extent[1]/tei:measure[@unit = 'zeichenanzahl']"
                                                 xpath-default-namespace="http://www.tei-c.org/ns/1.0"
                                                 copy-namespaces="false"
                                             />
+                                            <!-- Copy measure from listBibl if not in listWit -->
+                                            <xsl:if test="not(child::tei:teiHeader[1]/tei:fileDesc[1]/tei:sourceDesc[1]/tei:listWit[1]/tei:witness[1]/tei:msDesc[1]/tei:physDesc[1]/tei:objectDesc[1]/tei:supportDesc[1]/tei:extent[1]/tei:measure[@unit = 'zeichenanzahl'])">
+                                                <xsl:copy-of
+                                                    select="child::tei:teiHeader[1]/tei:fileDesc[1]/tei:sourceDesc[1]/tei:listBibl[1]/tei:biblStruct[1]/tei:note[@type = 'zeichenanzahl']/tei:measure[@unit = 'zeichenanzahl']"
+                                                    xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+                                                    copy-namespaces="false"
+                                                />
+                                            </xsl:if>
                                         </xsl:element>
                                     </xsl:if>
                                 </xsl:for-each>
