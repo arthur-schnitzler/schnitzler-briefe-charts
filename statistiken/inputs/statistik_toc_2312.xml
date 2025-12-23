@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-19Z</date>
+            <date>2025-12-23Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -752,7 +752,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="kartenbrief"/>
-               <measure unit="zeichenanzahl" quantity="563"/>
+               <measure unit="zeichenanzahl" quantity="564"/>
             </item>
             <item corresp="L03946">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 19. 3. 1923</title>
@@ -783,7 +783,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2530"/>
+               <measure unit="zeichenanzahl" quantity="2522"/>
             </item>
             <item corresp="L03947">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 25. 10. 1923</title>
@@ -824,6 +824,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1923-10-30" notAfter="1923-11-03">[30. 10. 1923 – 3. 11. 1923?]</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspContext>
@@ -841,7 +842,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2161"/>
+               <measure unit="zeichenanzahl" quantity="2153"/>
             </item>
             <item corresp="L03949">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 1. 12. 1923</title>

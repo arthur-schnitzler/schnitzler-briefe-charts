@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-19Z</date>
+            <date>2025-12-23Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2167.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -4872,7 +4872,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1899-07-28" notAfter="1899-08-01">[28. 7. 1899
                   – 1. 8. 1899?]</date>
-                     <placeName ref="#pmb909">Velden am Wörthersee?</placeName>
+                     <placeName ref="#pmb909">Velden am Wörthersee</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
@@ -4889,7 +4889,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1187"/>
+               <measure unit="zeichenanzahl" quantity="1186"/>
             </item>
             <item corresp="L03296">
                <title level="a">Felix Salten an Arthur Schnitzler, 8. 8. 1899</title>
@@ -5345,7 +5345,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01052">Schnitzler an Beer-Hofmann, 7. 7. 1900</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04080">Schnitzler an Schwarzkopf, 9. 7. 1900</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01053">Beer-Hofmann an Schnitzler, 13. 7. 1900</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -5824,7 +5824,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01159">Schnitzler an Hofmannsthal, 10. 8. 1901</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01160">Beer-Hofmann an Schnitzler, 11.  8. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04078">Schnitzler an Schwarzkopf, 10. 8. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"

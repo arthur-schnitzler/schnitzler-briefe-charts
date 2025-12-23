@@ -2,6 +2,16 @@
   "correspondent": "Schwarzkopf, Gustav",
   "nodes": [
     {
+      "id": "pmb168",
+      "name": "Berlin",
+      "count": 2
+    },
+    {
+      "id": "pmb212",
+      "name": "St. Anton am Arlberg",
+      "count": 1
+    },
+    {
       "id": "pmb34344",
       "name": "Weißenbach am Attersee",
       "count": 1
@@ -19,12 +29,12 @@
     {
       "id": "pmb483",
       "name": "Reichenau an der Rax",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 64
+      "count": 76
     },
     {
       "id": "pmb595",
@@ -59,10 +69,27 @@
     {
       "id": "pmb946",
       "name": "Vahrn",
-      "count": 1
+      "count": 3
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 8. 10. 1899",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 12. 1901"
+      ]
+    },
+    {
+      "from": "pmb212",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler und Olga und Elisabeth Gussmann an Gustav Schwarzkopf, 3. 7. 1901"
+      ]
+    },
     {
       "from": "pmb415",
       "to": "pmb50",
@@ -82,8 +109,9 @@
     {
       "from": "pmb483",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 4,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 9. 7. 1900",
         "Arthur Schnitzler an Gustav Schwarzkopf, 20. 7. 1904",
         "Arthur Schnitzler an Gustav Schwarzkopf, 18. 7. 1905",
         "Arthur Schnitzler an Gustav Schwarzkopf, 23. 7. 1905"
@@ -92,9 +120,15 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 51,
+      "weight": 57,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, [23. oder 24. 11. 1896?]",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 8. 2. 1900",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 11. 2. 1900",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 27. 6. 1900",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 10. 1900",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 24. 12. 1900",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 31. 12. 1900",
         "Arthur Schnitzler an Gustav Schwarzkopf, 20. 1. 1902",
         "Arthur Schnitzler an Gustav Schwarzkopf, 19. 8. 1902",
         "Arthur Schnitzler an Gustav Schwarzkopf, 14. 3. 1903",
@@ -198,9 +232,11 @@
     {
       "from": "pmb946",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 3,
       "titles": [
-        "Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 22. 7. 1901"
+        "Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 22. 7. 1901",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 2. 8. 1901",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 10. 8. 1901"
       ]
     }
   ],
