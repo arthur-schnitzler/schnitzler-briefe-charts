@@ -12,6 +12,11 @@
       "count": 1
     },
     {
+      "id": "pmb213",
+      "name": "Bad Ischl",
+      "count": 1
+    },
+    {
       "id": "pmb34344",
       "name": "Weißenbach am Attersee",
       "count": 1
@@ -19,6 +24,11 @@
     {
       "id": "pmb415",
       "name": "Bad Aussee",
+      "count": 1
+    },
+    {
+      "id": "pmb44278",
+      "name": "Pörtschach am Wörthersee",
       "count": 1
     },
     {
@@ -34,7 +44,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 76
+      "count": 94
     },
     {
       "id": "pmb595",
@@ -57,6 +67,11 @@
       "count": 1
     },
     {
+      "id": "pmb883",
+      "name": "Wiesbaden",
+      "count": 1
+    },
+    {
       "id": "pmb909",
       "name": "Velden am Wörthersee",
       "count": 1
@@ -70,6 +85,11 @@
       "id": "pmb946",
       "name": "Vahrn",
       "count": 3
+    },
+    {
+      "id": "pmb968",
+      "name": "Mödling",
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
@@ -91,11 +111,27 @@
       ]
     },
     {
+      "from": "pmb213",
+      "to": "pmb968",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 5. 7. 1893"
+      ]
+    },
+    {
       "from": "pmb415",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 30. 7. 1900"
+      ]
+    },
+    {
+      "from": "pmb44278",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler und Felix Salten an Gustav Schwarzkopf, 27. 8. 1893"
       ]
     },
     {
@@ -120,12 +156,27 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 57,
+      "weight": 72,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, [zwischen 21. 3. 1892 und 30. 3. 1892?]",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 26. 7. 1892",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 2. 8. 1892",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 10. 12. 1892",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 31. 5. 1893",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 10. 6. 1893",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 28. 9. 1893",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 3. 10. 1894",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 8. 12. 1894",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 2. 7. 1896",
         "Arthur Schnitzler an Gustav Schwarzkopf, [23. oder 24. 11. 1896?]",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 11. 7. 1899",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 1. 2. [1900]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 8. 2. 1900",
         "Arthur Schnitzler an Gustav Schwarzkopf, 11. 2. 1900",
         "Arthur Schnitzler an Gustav Schwarzkopf, 27. 6. 1900",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 5. 9. 1900",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 11. 9. 1900",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 28. 9. 1900",
         "Arthur Schnitzler an Gustav Schwarzkopf, 29. 10. 1900",
         "Arthur Schnitzler an Gustav Schwarzkopf, 24. 12. 1900",
         "Arthur Schnitzler an Gustav Schwarzkopf, 31. 12. 1900",
@@ -190,6 +241,14 @@
       ]
     },
     {
+      "from": "pmb50",
+      "to": "pmb968",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 12. 8. 1893"
+      ]
+    },
+    {
       "from": "pmb595",
       "to": "pmb50",
       "weight": 1,
@@ -219,6 +278,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 19. 2. 1904"
+      ]
+    },
+    {
+      "from": "pmb883",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 9. 1899"
       ]
     },
     {
