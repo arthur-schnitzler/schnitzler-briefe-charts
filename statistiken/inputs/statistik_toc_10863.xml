@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-12-26Z</date>
+            <date>2025-12-28Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10863.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -6883,7 +6883,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02779">Goldmann an Schnitzler, 29. 6. [1896]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04099">Schnitzler an Schwarzkopf, 2. 7. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00559">Schnitzler an Beer-Hofmann, 2. 7. 1896</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -6912,8 +6912,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04099">Schnitzler an Schwarzkopf, 2. 7. 1896</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02780">Goldmann an Schnitzler, 4. 7. [1896]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00558">Beer-Hofmann an Schnitzler, 30. 6. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04099">Schnitzler an Schwarzkopf, 2. 7. 1896</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -11499,25 +11499,24 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L00938">Beer-Hofmann an Schnitzler, 11. 7. 1899</ref>
+                          target="L00937">Schnitzler an Beer-Hofmann, 11. 7. 1899</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="500"/>
             </item>
-            <item corresp="L00938">
-               <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 11. 7. 1899</title>
+            <item corresp="L00937">
+               <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 11. 7. 1899</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-07-11" n="01">11. 7. 1899</date>
-                     <placeName ref="#pmb34824">Seeboden</placeName>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1899-07-12" notAfter="1899-07-16">[12. 7. 1899
-                  – 16. 7. 1899?]</date>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
+                     <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                     <date when="1899-07-12">12. 7. 1899</date>
+                     <placeName ref="#pmb34824">Seeboden</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -11530,24 +11529,25 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L00937">Schnitzler an Beer-Hofmann, 11. 7. 1899</ref>
+                          target="L00938">Beer-Hofmann an Schnitzler, 11. 7. 1899</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="251"/>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="314"/>
             </item>
-            <item corresp="L00937">
-               <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 11. 7. 1899</title>
+            <item corresp="L00938">
+               <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 11. 7. 1899</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1899-07-11" n="02">11. 7. 1899</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
+                     <date when="1899-07-11" n="03">11. 7. 1899</date>
+                     <placeName ref="#pmb34824">Seeboden</placeName>
                   </correspAction>
                   <correspAction type="received">
-                     <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-                     <date when="1899-07-12">12. 7. 1899</date>
-                     <placeName ref="#pmb34824">Seeboden</placeName>
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-07-12" notAfter="1899-07-16">[12. 7. 1899
+                  – 16. 7. 1899?]</date>
+                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -11556,15 +11556,15 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L00938">Beer-Hofmann an Schnitzler, 11. 7. 1899</ref>
+                          target="L00937">Schnitzler an Beer-Hofmann, 11. 7. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
                           target="L00939">Schnitzler an Beer-Hofmann, 13. 7. 1899</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="314"/>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="251"/>
             </item>
             <item corresp="L00939">
                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 13. 7. 1899</title>
@@ -11581,12 +11581,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00937">Schnitzler an Beer-Hofmann, 11. 7. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00938">Beer-Hofmann an Schnitzler, 11. 7. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00940">Beer-Hofmann an Schnitzler, 13. 7. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L00937">Schnitzler an Beer-Hofmann, 11. 7. 1899</ref>
+                          target="L00938">Beer-Hofmann an Schnitzler, 11. 7. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -12128,7 +12128,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04093">Schnitzler an Schwarzkopf, 29. 9. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00970">Schnitzler an Hofmannsthal, 8. 9. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00972">Schnitzler an Beer-Hofmann, 10. 9. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -24598,7 +24598,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04069">Schnitzler, Schnitzler an Schwarzkopf, 20. 8. 1909</ref>
+                          target="L04107">Schnitzler an Schwarzkopf, 13. 10. 1911</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
