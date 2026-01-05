@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-01-04Z</date>
+            <date>2026-01-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11485.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -3754,7 +3754,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
-                     <date when="1895-10-06" n="02">6. 10. [1895]</date>
+                     <date when="1895-10-06" n="03">6. 10. [1895]</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -3765,7 +3765,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04119">Schnitzler an Schwarzkopf, 6. 10. 1895</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00501">Bahr an Schnitzler, [6. 10. 1895]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02750">Goldmann an Schnitzler, 7. 10. [1895]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -4887,7 +4887,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
-                     <date when="1896-07-17" n="01">17. 7. [1896]</date>
+                     <date when="1896-07-17" n="03">17. 7. [1896]</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -4897,8 +4897,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00565">Schnitzler an Beer-Hofmann, 17. 7. 1896</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04116">Schnitzler an Schwarzkopf, 17. 7. 1896</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04116">Schnitzler an Schwarzkopf, 17. 7. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03175">Salten an Schnitzler, 21. 7. 1896</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -6985,7 +6985,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02846">Goldmann an Schnitzler, 21. 4. [1898]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02852">Goldmann an Schnitzler, 6. 5. 1898</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04124">Schnitzler an Schwarzkopf, 2. 5. 1898</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -7014,7 +7014,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02851">Goldmann an Schnitzler, 27. 4. 1898</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04124">Schnitzler an Schwarzkopf, 2. 5. 1898</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00794">Hofmannsthal an Schnitzler, [7. 5. 1898]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -7139,7 +7139,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00825">Hofmannsthal an Schnitzler, 19. [7. 1898]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00826">Schnitzler an Hofmannsthal, 23. 7. 1898</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04126">Schnitzler an Schwarzkopf, 21. 7. 1898</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -7177,42 +7177,11 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
+                          target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
                <measure unit="zeichenanzahl" quantity="109"/>
-            </item>
-            <item corresp="L02854">
-               <title level="a">Paul Goldmann an Arthur Schnitzler, 24. 8. [1898]</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb11485">Goldmann, Paul</persName>
-                     <date when="1898-08-24" n="01">24. 8. [1898]</date>
-                     <placeName ref="#pmb118678">Yantai</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1898-09-15" notAfter="1898-10-30">[15. 9. 1898
-                  – 30. 10. 1898?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00837">Schnitzler an Hofmannsthal, 22. 8. 1898</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_11485"
-                          target="L02855">Goldmann an Schnitzler, 5. 8. 1898</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_11485"
-                          target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2970"/>
             </item>
             <item corresp="L02856">
                <title level="a">Paul Goldmann an Arthur Schnitzler, 24. 8. 1898</title>
@@ -7237,20 +7206,51 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04127">Schnitzler an Schwarzkopf, 24. 8. 1898</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11485"
+                          target="L02855">Goldmann an Schnitzler, 5. 8. 1898</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11485"
+                          target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="239"/>
+            </item>
+            <item corresp="L02854">
+               <title level="a">Paul Goldmann an Arthur Schnitzler, 24. 8. [1898]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11485">Goldmann, Paul</persName>
+                     <date when="1898-08-24" n="03">24. 8. [1898]</date>
+                     <placeName ref="#pmb118678">Yantai</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1898-09-15" notAfter="1898-10-30">[15. 9. 1898
+                  – 30. 10. 1898?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00838">Hofmannsthal an Schnitzler, 25. 8. 1898</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
+                          target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
                           target="L02857">Goldmann an Schnitzler, 10. 9. 1898</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="239"/>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2970"/>
             </item>
             <item corresp="L02857">
                <title level="a">Paul Goldmann an Arthur Schnitzler, 10. 9. 1898</title>
@@ -7272,7 +7272,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
+                          target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -7809,7 +7809,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00912">Hofmannsthal an Schnitzler, [5. 4. 1899]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04122">Schnitzler an Schwarzkopf, 24. 4. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00913">Beer-Hofmann an Schnitzler, 28. 4. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -8148,7 +8148,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00956">Schnitzler an Beer-Hofmann, 1. 8. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04134">Schnitzler an Schwarzkopf, 1. 8. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00957">Hofmannsthal an Schnitzler, 6. 8. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -8699,7 +8699,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03989">Schnitzler an Herzl, 10. 12. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04137">Schnitzler an Schwarzkopf, 11. 12. 1[899?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03870">Herzl an Schnitzler, 12. 12. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

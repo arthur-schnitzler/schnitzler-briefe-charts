@@ -4,7 +4,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb182",
@@ -19,11 +19,16 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb34344",
       "name": "Weißenbach am Attersee",
+      "count": 1
+    },
+    {
+      "id": "pmb40260",
+      "name": "Bozen",
       "count": 1
     },
     {
@@ -49,7 +54,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 110
+      "count": 125
+    },
+    {
+      "id": "pmb521",
+      "name": "Bad Gastein",
+      "count": 1
     },
     {
       "id": "pmb595",
@@ -64,7 +74,7 @@
     {
       "id": "pmb860",
       "name": "Graz",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb866",
@@ -92,17 +102,29 @@
       "count": 3
     },
     {
+      "id": "pmb967",
+      "name": "Luzern",
+      "count": 1
+    },
+    {
       "id": "pmb968",
       "name": "Mödling",
       "count": 2
+    },
+    {
+      "id": "pmb987",
+      "name": "Toblach",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 4,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 24. 4. 1899",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 30. 4. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 8. 10. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 29. 12. 1901"
       ]
@@ -128,9 +150,11 @@
     {
       "from": "pmb213",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 3,
       "titles": [
-        "Arthur Schnitzler an Gustav Schwarzkopf, 15. 7. 1897"
+        "Arthur Schnitzler an Gustav Schwarzkopf, 15. 7. 1897",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 16. 8. 1899",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 25. 8. 1899"
       ]
     },
     {
@@ -139,6 +163,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 5. 7. 1893"
+      ]
+    },
+    {
+      "from": "pmb40260",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 13. 8. 1899"
       ]
     },
     {
@@ -179,7 +211,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 83,
+      "weight": 89,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, [zwischen 21. 3. 1892 und 30. 3. 1892?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 26. 7. 1892",
@@ -202,7 +234,13 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, [23. oder 24. 11. 1896?]",
         "Arthur Schnitzler und Felix Salten an Gustav Schwarzkopf, 23. 1. 1897",
         "Arthur Schnitzler an Gustav Schwarzkopf, 24. 6. 1897",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 2. 5. 1898",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 1. 1. 1899",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 20. 4. 1899",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 10. 5. 189[9?]",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 16. 5. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 11. 7. 1899",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 11. 12. 1[899?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 1. 2. [1900]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 8. 2. 1900",
         "Arthur Schnitzler an Gustav Schwarzkopf, 11. 2. 1900",
@@ -283,6 +321,14 @@
       ]
     },
     {
+      "from": "pmb521",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 21. 7. 1898"
+      ]
+    },
+    {
       "from": "pmb595",
       "to": "pmb50",
       "weight": 1,
@@ -301,8 +347,9 @@
     {
       "from": "pmb860",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 15. 7. 1898",
         "Arthur Schnitzler an Gustav Schwarzkopf, 15. 7. 1898"
       ]
     },
@@ -338,6 +385,22 @@
         "Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 22. 7. 1901",
         "Arthur Schnitzler an Gustav Schwarzkopf, 2. 8. 1901",
         "Arthur Schnitzler an Gustav Schwarzkopf, 10. 8. 1901"
+      ]
+    },
+    {
+      "from": "pmb967",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 24. 8. 1898"
+      ]
+    },
+    {
+      "from": "pmb987",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 1. 8. 1899"
       ]
     }
   ],
