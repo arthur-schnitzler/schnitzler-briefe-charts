@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-01-05Z</date>
+            <date>2026-01-09Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -795,6 +795,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1923-10-25" notAfter="1923-10-28">[25. 10. 1923 – 28. 10. 1923?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -812,7 +813,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3174"/>
+               <measure unit="zeichenanzahl" quantity="3179"/>
             </item>
             <item corresp="L03948">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 29. 10. 1923</title>
