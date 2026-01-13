@@ -27,6 +27,11 @@
       "count": 1
     },
     {
+      "id": "pmb38096",
+      "name": "Opatija",
+      "count": 2
+    },
+    {
       "id": "pmb40260",
       "name": "Bozen",
       "count": 1
@@ -59,7 +64,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 150
+      "count": 158
     },
     {
       "id": "pmb521",
@@ -74,7 +79,7 @@
     {
       "id": "pmb662",
       "name": "Baden bei Wien",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb75",
@@ -230,8 +235,17 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb38096",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 7. 1913",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 18. 7. 1913"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb50",
-      "weight": 109,
+      "weight": 113,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, [zwischen 21. 3. 1892 und 30. 3. 1892?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 26. 7. 1892",
@@ -339,16 +353,21 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, 27. 10. 1909",
         "Arthur Schnitzler an Gustav Schwarzkopf, 31. 10. 1909",
         "Arthur Schnitzler an Gustav Schwarzkopf, 10. 12. 1909",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 25. 1. 1910",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 25. 6. 1910",
         "Arthur Schnitzler an Gustav Schwarzkopf, 22. 11. 1910",
         "Arthur Schnitzler an Gustav Schwarzkopf, 13. 10. 1911",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 20. 12. 1911",
+        "Arthur Schnitzler an Gustav Schwarzkopf, [3.?] 2. 1912",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 10. 1919"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb662",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 1. 6. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 24. 2. 1920"
       ]
     },
