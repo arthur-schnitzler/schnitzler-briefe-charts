@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-01-13Z</date>
+            <date>2026-01-14Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -904,7 +904,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1253"/>
+               <measure unit="zeichenanzahl" quantity="1246"/>
             </item>
             <item corresp="L03953">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 31. 1. 1924</title>
@@ -934,7 +934,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="969"/>
+               <measure unit="zeichenanzahl" quantity="962"/>
             </item>
             <item corresp="L04008">
                <title level="a">Berta Zuckerkandl an Arthur Schnitzler, 11. 10. 1924</title>
@@ -964,7 +964,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="797"/>
+               <measure unit="zeichenanzahl" quantity="788"/>
             </item>
             <item corresp="L03954">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 20. 11. 1924</title>
@@ -994,7 +994,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1853"/>
+               <measure unit="zeichenanzahl" quantity="1825"/>
             </item>
             <item corresp="L03955">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 24. 11. 1924</title>
@@ -1006,6 +1006,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
+                     <date evidence="conjecture" notBefore="1924-11-25" notAfter="1924-11-29">[25. 11. 1924 – 29. 11. 1924?]</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspContext>
@@ -1023,7 +1024,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="610"/>
+               <measure unit="zeichenanzahl" quantity="605"/>
             </item>
             <item corresp="L03994">
                <title level="a">Arthur Schnitzler: Widmungsexemplar von Fräulein Else an Berta
@@ -1066,7 +1067,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <date evidence="conjecture" notBefore="1924-12-02" notAfter="1924-12-06">[2. 12. 1924 – 6. 12. 1924?]</date>
+                     <date evidence="conjecture" notBefore="1924-12-02" notAfter="1924-12-06">[2. 12. 1924
+                  – 6. 12. 1924?]</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspContext>
@@ -1084,7 +1086,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2629"/>
+               <measure unit="zeichenanzahl" quantity="2615"/>
             </item>
             <item corresp="L03958">
                <title level="a">Arthur Schnitzler an Berta Zuckerkandl, 7. 2. 1925</title>
