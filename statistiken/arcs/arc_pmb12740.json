@@ -57,6 +57,11 @@
       "count": 1
     },
     {
+      "id": "pmb44413",
+      "name": "Brühl",
+      "count": 1
+    },
+    {
       "id": "pmb45260",
       "name": "Brijuni",
       "count": 1
@@ -74,7 +79,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 192
+      "count": 195
     },
     {
       "id": "pmb521",
@@ -277,8 +282,16 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb44413",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, [23. 7. 1893?]"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb50",
-      "weight": 142,
+      "weight": 144,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, [zwischen 21. 3. 1892 und 30. 3. 1892?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 26. 7. 1892",
@@ -314,6 +327,7 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, 20. 4. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 10. 5. 189[9?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 16. 5. 1899",
+        "Arthur Schnitzler an Gustav Schwarzkopf, [19.? 5. 1899]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 11. 7. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 8. 11. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 9. 11. 1899",
@@ -385,6 +399,7 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 10. 1905",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 10. 1905",
         "Arthur Schnitzler an Max Schwarzkopf, 13. 10. 1905",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 8. 3. 1906",
         "Arthur Schnitzler an Gustav Schwarzkopf, 11. 3. 1906",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 4. 1906",
         "Arthur Schnitzler an Gustav Schwarzkopf, 14. 4. 1906",

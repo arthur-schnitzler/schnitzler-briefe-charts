@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-01-16Z</date>
+            <date>2026-02-13Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10992.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -902,7 +902,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04130">Schnitzler an Schwarzkopf, 16. 5. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02875">Goldmann an Schnitzler, 20. 5. [1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04210">Schnitzler an Schwarzkopf, [19.? 5. 1899]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -1637,9 +1637,12 @@
                      <date when="1901-08-21" n="01">21. 8. 1901</date>
                      <placeName ref="#pmb428">Welsberg-Taisten</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb36300">Kopenhagen</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
-                     <date when="1901-08-26">2<gap quantity="1" reason="illegible" unit="chars"/>. [8. 1901] </date>
+                     <date when="1901-08-26">2[6?]. [8. 1901]</date>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspContext>
