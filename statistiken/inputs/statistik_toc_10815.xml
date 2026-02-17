@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-02-13Z</date>
+            <date>2026-02-17Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10815.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -619,7 +619,8 @@
                <measure unit="zeichenanzahl" quantity="64"/>
             </item>
             <item corresp="L00285">
-               <title level="a" ref="#pmb93194">Arthur Schnitzler an Hermann Bahr, 2. 12. 1893</title>
+               <title level="a" ref="#pmb93194">Arthur Schnitzler an Hermann Bahr,
+                    2. 12. 1893</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -628,8 +629,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
-                     <date evidence="conjecture" notBefore="1893-12-02" notAfter="1893-12-04">[2. 12. 1893
-                  – 6. 12. 1893?]</date>
+                     <date evidence="conjecture" notBefore="1893-12-02" notAfter="1893-12-04">[2. 12. 1893 – 6. 12. 1893?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -3434,7 +3434,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03055">Goldmann an Schnitzler, 22. 1. [1901]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01094">Schnitzler an Bahr, 25. 1. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -3464,7 +3464,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01093">Bahr an Schnitzler, 23. 1. [1901]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01095">Schnitzler an Beer-Hofmann, 26. 1. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -4050,7 +4050,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03320">Salten an Schnitzler, 9. 10. 1901</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04235">Schnitzler an Sosnosky, 10. 10. 1901</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03089">Goldmann an Schnitzler, 18. 10. [1901]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

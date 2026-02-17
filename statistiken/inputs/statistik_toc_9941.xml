@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und
+                                    Autoren</title>
+            <title level="a">Statistik Arthur Schnitzler – Theodor von Sosnosky</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+               <name>Gerd-Hermann Susen</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2026-02-17Z</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_9941.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Inhaltsverzeichnis einzelner Korrespondenzen von
+                                    schnitzler-briefe</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item corresp="L04236">
+               <title level="a">Arthur Schnitzler an Theodor von Sosnosky, 30. 12. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1899-12-30" n="01">30. 12. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <date evidence="conjecture" notBefore="1899-12-31" notAfter="1900-01-04">[31. 12. 1899 – 4. 1. 1900?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01008">Schnitzler an Beer-Hofmann, 25. 12. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03032">Schnitzler an Salten, 30. 12. [1899?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <measure unit="zeichenanzahl" quantity="401"/>
+            </item>
+            <item corresp="L04237">
+               <title level="a">Arthur Schnitzler an Theodor von Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1901-01-24" notAfter="1901-01-29" n="02">[zwischen 24. 1. 1901 und 30. 1. 1901?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01093">Bahr an Schnitzler, 23. 1. [1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01094">Schnitzler an Bahr, 25. 1. 1901</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04236">Schnitzler an Sosnosky, 30. 12. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04234">Schnitzler an Sosnosky, 26. 5. 1901</ref>
+                  </correspContext>
+               </correspDesc>
+            </item>
+            <item corresp="L04234">
+               <title level="a">Arthur Schnitzler an Theodor von Sosnosky, 26. 5. 1901</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1901-05-26" n="01">26. 5. 1901</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <date evidence="conjecture" notBefore="1901-05-27" notAfter="1901-05-31">[27. 5. 1901
+                  – 31. 5. 1901?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01123">Brandes an Schnitzler, 22. 5. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03528">Goldmann an Gussmann, 28. 5. [1901]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04235">Schnitzler an Sosnosky, 10. 10. 1901</ref>
+                  </correspContext>
+               </correspDesc>
+               <measure unit="zeichenanzahl" quantity="1743"/>
+            </item>
+            <item corresp="L04235">
+               <title level="a">Arthur Schnitzler an Theodor von Sosnosky, 10. 10. 1901</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1901-10-10" n="01">10. 10. 1901</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <date evidence="conjecture" notBefore="1901-10-11" notAfter="1901-10-15">[11. 10. 1901 – 15. 10. 1901?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03320">Salten an Schnitzler, 9. 10. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01181">Schnitzler an Bahr, 18. 10. 1901</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04234">Schnitzler an Sosnosky, 26. 5. 1901</ref>
+                  </correspContext>
+               </correspDesc>
+               <measure unit="zeichenanzahl" quantity="2638"/>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

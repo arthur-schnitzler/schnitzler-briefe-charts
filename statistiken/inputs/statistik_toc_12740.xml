@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-02-13Z</date>
+            <date>2026-02-17Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -243,7 +243,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="395"/>
+               <measure unit="zeichenanzahl" quantity="396"/>
             </item>
             <item corresp="L04217">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 5. 7. 1893</title>
@@ -426,6 +426,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="682"/>
             </item>
             <item corresp="L04147">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 28. 11. 1893</title>
@@ -519,7 +520,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="262"/>
+               <measure unit="zeichenanzahl" quantity="263"/>
             </item>
             <item corresp="L04105">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 3. 10. 1894</title>
@@ -794,7 +795,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="125"/>
+               <measure unit="zeichenanzahl" quantity="124"/>
             </item>
             <item corresp="L04099">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 2. 7. 1896</title>
@@ -887,7 +888,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="245"/>
+               <measure unit="zeichenanzahl" quantity="246"/>
             </item>
             <item corresp="L04113">
                <title level="a">Arthur Schnitzler und Felix Salten an Gustav Schwarzkopf,
@@ -1010,7 +1011,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3197"/>
+               <measure unit="zeichenanzahl" quantity="3198"/>
             </item>
             <item corresp="L04120">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 23. 5. 1897</title>
@@ -1040,7 +1041,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="684"/>
+               <measure unit="zeichenanzahl" quantity="682"/>
             </item>
             <item corresp="L04115">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 24. 6. 1897</title>
@@ -1074,7 +1075,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="311"/>
+               <measure unit="zeichenanzahl" quantity="312"/>
             </item>
             <item corresp="L04121">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 15. 7. 1897</title>
@@ -1105,7 +1106,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1294"/>
+               <measure unit="zeichenanzahl" quantity="1295"/>
             </item>
             <item corresp="L04172">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, [24.? 9. 1897]</title>
@@ -1260,7 +1261,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="299"/>
+               <measure unit="zeichenanzahl" quantity="298"/>
             </item>
             <item corresp="L04126">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 21. 7. 1898</title>
@@ -1320,7 +1321,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="502"/>
+               <measure unit="zeichenanzahl" quantity="504"/>
             </item>
             <item corresp="L04187">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, [16. 12. 1898?]</title>
@@ -1410,7 +1411,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="telegramm"/>
-               <measure unit="zeichenanzahl" quantity="180"/>
+               <measure unit="zeichenanzahl" quantity="181"/>
             </item>
             <item corresp="L04133">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 20. 4. 1899</title>
@@ -1687,7 +1688,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="913"/>
+               <measure unit="zeichenanzahl" quantity="911"/>
             </item>
             <item corresp="L04043">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 27. 7. 1899</title>
@@ -1695,10 +1696,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-07-27" n="02">27. 7. 1899</date>
-                     <placeName ref="#pmb909">Velden</placeName>
+                     <placeName ref="#pmb909">Velden am Wörthersee</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date evidence="conjecture" notBefore="1899-07-28" notAfter="1899-08-01">[28. 7. 1899 – 1. 8. 1899?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1716,7 +1718,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1471"/>
+               <measure unit="zeichenanzahl" quantity="1467"/>
             </item>
             <item corresp="L04134">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 1. 8. 1899</title>
@@ -1867,7 +1869,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2606"/>
+               <measure unit="zeichenanzahl" quantity="2607"/>
             </item>
             <item corresp="L04142">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 9. 9. 1899</title>
@@ -1897,7 +1899,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2897"/>
+               <measure unit="zeichenanzahl" quantity="2898"/>
             </item>
             <item corresp="L04093">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 29. 9. 1899</title>
@@ -1909,7 +1911,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture" notBefore="1899-09-30" notAfter="1899-10-04">[30. 9. 1899 – 4. 10. 1899?]</date>
+                     <date evidence="external" notBefore="1899-10-03">[3. 10. 1899]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1957,7 +1959,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="721"/>
+               <measure unit="zeichenanzahl" quantity="719"/>
             </item>
             <item corresp="L04139">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 8. 11. 1899</title>
@@ -2188,6 +2190,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date evidence="conjecture" notBefore="1900-02-01" notAfter="1900-02-04">[1. 2. 1900 – 4. 2. 1900?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2205,6 +2208,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="120"/>
             </item>
             <item corresp="L04084">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 8. 2. 1900</title>
@@ -2388,7 +2392,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="735"/>
+               <measure unit="zeichenanzahl" quantity="736"/>
             </item>
             <item corresp="L04183">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf,
@@ -2449,6 +2453,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="153"/>
             </item>
             <item corresp="L04091">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 11. 9. 1900</title>
@@ -2478,7 +2483,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="139"/>
+               <measure unit="zeichenanzahl" quantity="138"/>
             </item>
             <item corresp="L04090">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 28. 9. 1900</title>
@@ -2538,7 +2543,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="133"/>
+               <measure unit="zeichenanzahl" quantity="130"/>
             </item>
             <item corresp="L04176">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, [20. 12. 1900?]</title>
@@ -2754,7 +2759,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="732"/>
+               <measure unit="zeichenanzahl" quantity="733"/>
             </item>
             <item corresp="L04079">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 29. 12. 1901</title>
@@ -2784,7 +2789,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="260"/>
+               <measure unit="zeichenanzahl" quantity="308"/>
             </item>
             <item corresp="L04181">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf,
@@ -2846,7 +2851,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="388"/>
+               <measure unit="zeichenanzahl" quantity="387"/>
             </item>
             <item corresp="L04074">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 20. 1. 1902</title>
@@ -3059,7 +3064,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="730"/>
+               <measure unit="zeichenanzahl" quantity="731"/>
             </item>
             <item corresp="L04145">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 12. 3. 1903</title>
@@ -3120,7 +3125,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="611"/>
+               <measure unit="zeichenanzahl" quantity="610"/>
             </item>
             <item corresp="L04062">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 28. 3. 1903</title>
@@ -3150,7 +3155,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="171"/>
+               <measure unit="zeichenanzahl" quantity="173"/>
             </item>
             <item corresp="L04060">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 12. 4. 1903</title>
@@ -3180,7 +3185,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="325"/>
+               <measure unit="zeichenanzahl" quantity="326"/>
             </item>
             <item corresp="L04151">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf,
@@ -3253,6 +3258,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date evidence="conjecture" notBefore="1903-08-07" notAfter="1903-08-10">[7. 8. 1903 – 10. 8. 1903?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -3270,6 +3276,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte"/>
+               <measure unit="zeichenanzahl" quantity="200"/>
             </item>
             <item corresp="L04204">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf,
@@ -3450,7 +3457,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="195"/>
+               <measure unit="zeichenanzahl" quantity="196"/>
             </item>
             <item corresp="L04149">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 24. 12. 1903</title>
@@ -3662,7 +3669,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="953"/>
+               <measure unit="zeichenanzahl" quantity="952"/>
             </item>
             <item corresp="L04051">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 21. 6. 1904</title>
@@ -3730,7 +3737,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1904-07-20" n="01">20. 7. 1904</date>
-                     <placeName ref="#pmb483">Reichenau</placeName>
+                     <placeName ref="#pmb483">Reichenau an der Rax</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-07-20">20. 7. 1904</date>
@@ -3757,6 +3764,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="telegramm"/>
+               <measure unit="zeichenanzahl" quantity="101"/>
             </item>
             <item corresp="L04026">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 19. 7. 1904</title>
@@ -3881,6 +3889,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="162"/>
             </item>
             <item corresp="L04028">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 5. 10. 1904</title>
@@ -3910,6 +3919,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="150"/>
             </item>
             <item corresp="L04048">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 17. 10. 1904</title>
@@ -4215,7 +4225,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="398"/>
+               <measure unit="zeichenanzahl" quantity="397"/>
             </item>
             <item corresp="L04064">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 29. 6. 1905</title>
@@ -4399,6 +4409,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="167"/>
             </item>
             <item corresp="L04018">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 16. 9. 1905</title>
@@ -4500,6 +4511,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date evidence="conjecture" notBefore="1905-10-12" notAfter="1905-10-15">[12. 10. 1905 – 15. 10. 1905?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -4517,6 +4529,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="233"/>
             </item>
             <item corresp="L04017">
                <title level="a">Arthur Schnitzler an Max Schwarzkopf, 13. 10. 1905</title>
@@ -4546,6 +4559,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="232"/>
             </item>
             <item corresp="L04209">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 8. 3. 1906</title>
@@ -4575,7 +4589,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="179"/>
+               <measure unit="zeichenanzahl" quantity="178"/>
             </item>
             <item corresp="L04036">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 11. 3. 1906</title>
@@ -4639,6 +4653,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="353"/>
             </item>
             <item corresp="L04042">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 14. 4. 1906</title>
@@ -4732,6 +4747,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="181"/>
             </item>
             <item corresp="L04038">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 23. 6. 1906</title>
@@ -4792,7 +4808,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="208"/>
+               <measure unit="zeichenanzahl" quantity="209"/>
             </item>
             <item corresp="L04202">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 24. 8. 1906</title>
@@ -4978,6 +4994,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="204"/>
             </item>
             <item corresp="L04044">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 16. 3. 1908</title>
@@ -5433,7 +5450,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="visitenkarte"/>
-               <measure unit="zeichenanzahl" quantity="106"/>
+               <measure unit="zeichenanzahl" quantity="105"/>
             </item>
             <item corresp="L04171">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 25. 6. 1910</title>
@@ -5586,7 +5603,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="56"/>
+               <measure unit="zeichenanzahl" quantity="101"/>
             </item>
             <item corresp="L04169">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 28. 11. 1910</title>
@@ -5835,7 +5852,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="379"/>
+               <measure unit="zeichenanzahl" quantity="378"/>
             </item>
             <item corresp="L02187">
                <title level="a">Hugo von Hofmannsthal u. a. an Arthur Schnitzler, 15. [7. 1914]</title>
@@ -5984,7 +6001,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="1041"/>
+               <measure unit="zeichenanzahl" quantity="1043"/>
             </item>
             <item corresp="L04159">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 12. 10. 1919</title>
