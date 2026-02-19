@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-02-17Z</date>
+            <date>2026-02-19Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_9941.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -62,7 +62,7 @@
                <measure unit="zeichenanzahl" quantity="401"/>
             </item>
             <item corresp="L04237">
-               <title level="a">Arthur Schnitzler an Theodor von Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</title>
+               <title level="a">Arthur Schnitzler an Theodor von Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?], Fragment</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -83,9 +83,39 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
+                          target="L04238">Schnitzler an Sosnosky, [24.?] 4. 1901</ref>
+                  </correspContext>
+               </correspDesc>
+            </item>
+            <item corresp="L04238">
+               <title level="a">Arthur Schnitzler: Widmungsexemplar Frau Bertha Garlan für Theodor von
+               Sosnosky, [24.?] 4. 1901</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1901-04-24" n="03">[24.?] 4. 1901</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <date evidence="conjecture" notBefore="1901-04-25" notAfter="1901-04-29">[25. 4. 1901 – 29. 4. 1901?]</date>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01113">Schnitzler an Hofmannsthal, [24.?] 4. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01114">Schnitzler an Brandes, 25. 4. 1901</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
                           target="L04234">Schnitzler an Sosnosky, 26. 5. 1901</ref>
                   </correspContext>
                </correspDesc>
+               <objectType corresp="widmung" ana="widmung_vorsatzblatt"/>
+               <measure unit="zeichenanzahl" quantity="88"/>
             </item>
             <item corresp="L04234">
                <title level="a">Arthur Schnitzler an Theodor von Sosnosky, 26. 5. 1901</title>
@@ -107,7 +137,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
-                          target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
+                          target="L04238">Schnitzler an Sosnosky, [24.?] 4. 1901</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
