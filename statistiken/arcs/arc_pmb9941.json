@@ -2,13 +2,28 @@
   "correspondent": "Sosnosky, Theodor von",
   "nodes": [
     {
+      "id": "pmb48393",
+      "name": "Kremsmünster",
+      "count": 3
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 5
+      "count": 8
     }
   ],
   "links_from_schnitzler": [
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb48393",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Theodor von Sosnosky an Arthur Schnitzler, 27. 12. 1899",
+        "Theodor von Sosnosky an Arthur Schnitzler, 29. 1. 1900",
+        "Theodor von Sosnosky an Arthur Schnitzler, 22. 6. 1900"
+      ]
+    }
   ]
 }

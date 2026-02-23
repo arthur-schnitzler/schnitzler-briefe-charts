@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-02-19Z</date>
+            <date>2026-02-23Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_9941.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -37,6 +37,32 @@
    <text>
       <body>
          <list>
+            <item corresp="L04225">
+               <title level="a">Theodor von Sosnosky an Arthur Schnitzler, 27. 12. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <date when="1899-12-27" n="01">27. 12. 1899</date>
+                     <placeName ref="#pmb48393" evidence="internal">Kremsmünster</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-12-28" notAfter="1900-01-01">[28. 12. 1899 – 1. 1. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01008">Schnitzler an Beer-Hofmann, 25. 12. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04236">Schnitzler an Sosnosky, 30. 12. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04236">Schnitzler an Sosnosky, 30. 12. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1946"/>
+            </item>
             <item corresp="L04236">
                <title level="a">Arthur Schnitzler an Theodor von Sosnosky, 30. 12. 1899</title>
                <correspDesc>
@@ -51,15 +77,81 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01008">Schnitzler an Beer-Hofmann, 25. 12. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04225">Sosnosky an Schnitzler, 27. 12. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03032">Schnitzler an Salten, 30. 12. [1899?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04225">Sosnosky an Schnitzler, 27. 12. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04226">Sosnosky an Schnitzler, 29. 1. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <measure unit="zeichenanzahl" quantity="401"/>
+            </item>
+            <item corresp="L04226">
+               <title level="a">Theodor von Sosnosky an Arthur Schnitzler, 29. 1. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <date when="1900-01-29" n="01">29. 1. 1900</date>
+                     <placeName ref="#pmb48393" evidence="internal">Kremsmünster</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-01-30" notAfter="1900-02-03">[30. 1. 1900
+                  – 3. 2. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02903">Goldmann an Schnitzler, 23. 1. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01009">Schnitzler an Beer-Hofmann, 1. 2. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04236">Schnitzler an Sosnosky, 30. 12. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04227">Sosnosky an Schnitzler, 22. 6. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1930"/>
+            </item>
+            <item corresp="L04227">
+               <title level="a">Theodor von Sosnosky an Arthur Schnitzler, 22. 6. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <date when="1900-06-22" n="01">22. 6. 1900</date>
+                     <placeName ref="#pmb48393" evidence="internal">Kremsmünster</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-06-23" notAfter="1900-06-27">[23. 6. 1900
+                  – 27. 6. 1900?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02921">Goldmann an Schnitzler, 21. 6. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01049">Rodenberg an Schnitzler, 23. 6. 1900</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04226">Sosnosky an Schnitzler, 29. 1. 1900</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
                           target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
                   </correspContext>
                </correspDesc>
-               <measure unit="zeichenanzahl" quantity="401"/>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="4645"/>
             </item>
             <item corresp="L04237">
                <title level="a">Arthur Schnitzler an Theodor von Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?], Fragment</title>
@@ -79,7 +171,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
-                          target="L04236">Schnitzler an Sosnosky, 30. 12. 1899</ref>
+                          target="L04227">Sosnosky an Schnitzler, 22. 6. 1900</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
