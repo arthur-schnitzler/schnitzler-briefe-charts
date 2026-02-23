@@ -4,25 +4,34 @@
     {
       "id": "pmb48393",
       "name": "Kremsmünster",
-      "count": 3
+      "count": 5
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 8
+      "count": 9
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb48393",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Theodor von Sosnosky, [zwischen 26. 1. 1901 und 29. 1. 1901?], Fragment"
+      ]
+    }
   ],
   "links_to_schnitzler": [
     {
       "from": "pmb48393",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Theodor von Sosnosky an Arthur Schnitzler, 27. 12. 1899",
         "Theodor von Sosnosky an Arthur Schnitzler, 29. 1. 1900",
-        "Theodor von Sosnosky an Arthur Schnitzler, 22. 6. 1900"
+        "Theodor von Sosnosky an Arthur Schnitzler, 22. 6. 1900",
+        "Theodor von Sosnosky an Arthur Schnitzler, 24. 1. 1901"
       ]
     }
   ]

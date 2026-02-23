@@ -19,7 +19,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 7
+      "count": 10
     },
     {
       "id": "pmb2318",
@@ -67,6 +67,11 @@
       "count": 1
     },
     {
+      "id": "pmb462",
+      "name": "Venedig",
+      "count": 1
+    },
+    {
       "id": "pmb470",
       "name": "Edlach",
       "count": 1
@@ -79,7 +84,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 198
+      "count": 203
     },
     {
       "id": "pmb521",
@@ -114,6 +119,11 @@
     {
       "id": "pmb883",
       "name": "Wiesbaden",
+      "count": 1
+    },
+    {
+      "id": "pmb90460",
+      "name": "Caux",
       "count": 1
     },
     {
@@ -559,11 +569,36 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb213",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 5. 7. 1915"
+      ]
+    },
+    {
       "from": "pmb34344",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal u. a. an Arthur Schnitzler, 15. [7. 1914]"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb213",
+      "weight": 2,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 10. 8. 1915",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 16. 6. 1928"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb462",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 1[0?]. 9. 1927"
       ]
     },
     {
@@ -574,6 +609,14 @@
         "Gustav Schwarzkopf an Arthur Schnitzler, [8.? 9. 1893]",
         "Gustav Schwarzkopf an Arthur Schnitzler, [3. 10. 1902?]",
         "Gustav Schwarzkopf an Arthur Schnitzler, [14. 12. 1905 – 18. 12. 1905?]"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb90460",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 27. 8. 1929"
       ]
     }
   ]

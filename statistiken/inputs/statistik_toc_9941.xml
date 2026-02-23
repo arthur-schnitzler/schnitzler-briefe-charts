@@ -147,22 +147,25 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
-                          target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
+                          target="L04228">Sosnosky an Schnitzler, 24. 1. 1901</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="4645"/>
             </item>
-            <item corresp="L04237">
-               <title level="a">Arthur Schnitzler an Theodor von Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?], Fragment</title>
+            <item corresp="L04228">
+               <title level="a">Theodor von Sosnosky an Arthur Schnitzler, 24. 1. 1901</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date notBefore="1901-01-24" notAfter="1901-01-29" n="02">[zwischen 24. 1. 1901 und 30. 1. 1901?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <date when="1901-01-24" n="01">24. 1. 1901</date>
+                     <placeName ref="#pmb48393" evidence="internal">Kremsmünster</placeName>
                   </correspAction>
                   <correspAction type="received">
-                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1901-01-25" notAfter="1901-01-29">[25. 1. 1901
+                  – 29. 1. 1901?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
@@ -175,9 +178,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
+                          target="L04237">Schnitzler an Sosnosky, [zwischen 26. 1. 1901 und
+                  29. 1. 1901?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1908"/>
+            </item>
+            <item corresp="L04237">
+               <title level="a">Arthur Schnitzler an Theodor von Sosnosky, [zwischen 26. 1. 1901 und
+               29. 1. 1901?], Fragment</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1901-01-26" notAfter="1901-01-29" n="02">[zwischen 26. 1. 1901 und
+                  29. 1. 1901?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
+                     <placeName ref="#pmb48393">Kremsmünster</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01095">Schnitzler an Beer-Hofmann, 26. 1. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01096">Schnitzler an Beer-Hofmann, 29. 1. 1901</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
+                          target="L04228">Sosnosky an Schnitzler, 24. 1. 1901</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9941"
                           target="L04238">Schnitzler an Sosnosky, [24.?] 4. 1901</ref>
                   </correspContext>
                </correspDesc>
+               <measure unit="zeichenanzahl" quantity="450"/>
             </item>
             <item corresp="L04238">
                <title level="a">Arthur Schnitzler: Widmungsexemplar Frau Bertha Garlan für Theodor von
@@ -199,7 +235,8 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
-                          target="L04237">Schnitzler an Sosnosky, [zwischen 24. 1. 1901 und 30. 1. 1901?]</ref>
+                          target="L04237">Schnitzler an Sosnosky, [zwischen 26. 1. 1901 und
+                  29. 1. 1901?]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9941"
