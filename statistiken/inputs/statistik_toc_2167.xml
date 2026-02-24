@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-02-23Z</date>
+            <date>2026-02-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2167.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -10426,9 +10426,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
-                     <date evidence="conjecture" notBefore="1907-08-06" notAfter="1907-08-10">[6. 8. 1907
-                  – 10. 8. 1907?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="conjecture" notBefore="1907-08-10" notAfter="1907-08-12">[10. 8. 1907
+                  – 12. 8. 1907?]</date>
+                     <placeName ref="#pmb772" evidence="conjecture">Marienbad</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
@@ -10441,11 +10441,41 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L03510">Salten an Schnitzler, 15. 8. 1907</ref>
+                          target="L04250">Salten, Salten an Schnitzler, 12. 8. 1907</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="2900"/>
+            </item>
+            <item corresp="L04250">
+               <title level="a">Felix und Ottilie Salten an Arthur Schnitzler,
+               12. 8. 1907</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2167">Salten, Felix</persName>
+                     <persName ref="#pmb23918">Salten, Ottilie</persName>
+                     <date when="1907-08-12" n="01">12. 8. 1907</date>
+                     <placeName ref="#pmb772">Marienbad</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <placeName ref="#pmb428">Welsberg</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03255">Goldmann an Schnitzler, 7. 8. 1907</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01699">Schnitzler, Schnitzler an Beer-Hofmann, 13. 8. 1907</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2167"
+                          target="L03009">Schnitzler an Salten, 5. 8. 1907</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_2167"
+                          target="L03510">Salten an Schnitzler, 15. 8. 1907</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
             </item>
             <item corresp="L03510">
                <title level="a">Felix Salten an Arthur Schnitzler, 15. 8. 1907</title>
@@ -10468,7 +10498,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L03009">Schnitzler an Salten, 5. 8. 1907</ref>
+                          target="L04250">Salten, Salten an Schnitzler, 12. 8. 1907</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"

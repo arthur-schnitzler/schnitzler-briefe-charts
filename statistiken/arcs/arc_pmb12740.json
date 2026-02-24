@@ -27,9 +27,14 @@
       "count": 1
     },
     {
+      "id": "pmb334746",
+      "name": "Rab [Stadt]",
+      "count": 1
+    },
+    {
       "id": "pmb34344",
       "name": "Weißenbach am Attersee",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb38096",
@@ -82,9 +87,14 @@
       "count": 4
     },
     {
+      "id": "pmb49990",
+      "name": "Bad Ragaz",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 203
+      "count": 206
     },
     {
       "id": "pmb521",
@@ -259,7 +269,7 @@
       "to": "pmb50",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1914"
+        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1913"
       ]
     },
     {
@@ -577,10 +587,19 @@
       ]
     },
     {
-      "from": "pmb34344",
+      "from": "pmb334746",
       "to": "pmb50",
       "weight": 1,
       "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 14. 7. [1913?]"
+      ]
+    },
+    {
+      "from": "pmb34344",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 3. 7. 1914",
         "Hugo von Hofmannsthal u. a. an Arthur Schnitzler, 15. [7. 1914]"
       ]
     },
@@ -599,6 +618,14 @@
       "weight": 1,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, 1[0?]. 9. 1927"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb49990",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 6. 8. 1914"
       ]
     },
     {

@@ -169,7 +169,7 @@
     {
       "id": "pmb428",
       "name": "Welsberg-Taisten",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb431",
@@ -254,7 +254,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 415
+      "count": 414
     },
     {
       "id": "pmb51650",
@@ -294,7 +294,7 @@
     {
       "id": "pmb772",
       "name": "Marienbad",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb797",
@@ -506,7 +506,7 @@
     },
     {
       "from": "pmb428",
-      "to": "pmb50",
+      "to": "pmb772",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Felix Salten, 5. 8. 1907"
@@ -1457,8 +1457,9 @@
     {
       "from": "pmb772",
       "to": "pmb428",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Felix und Ottilie Salten an Arthur Schnitzler, 12. 8. 1907",
         "Felix Salten an Arthur Schnitzler, 15. 8. 1907"
       ]
     },

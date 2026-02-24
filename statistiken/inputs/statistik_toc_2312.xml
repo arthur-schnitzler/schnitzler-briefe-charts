@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-02-23Z</date>
+            <date>2026-02-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -227,12 +227,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date when="1911-07-25" n="01">25. 7. [1911]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb53227">Axenstein</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1911-07-25" notAfter="1911-07-28">[25. 7. 1911
-                  – 28. 7. 1911?]</date>
+                     <date evidence="conjecture" when="1911-08-01">[1. 8. 1911?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -251,19 +250,19 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2048"/>
+               <measure unit="zeichenanzahl" quantity="2043"/>
             </item>
             <item corresp="L03999">
-               <title level="a">Berta Zuckerkandl an Arthur Schnitzler, [9. oder 10. 9. 1911?]</title>
+               <title level="a">Berta Zuckerkandl an Arthur Schnitzler, [10. 9. 1911?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <date notBefore="1911-09-09" notAfter="1911-09-10" n="01">[9. oder
-                  10. 9. 1911?]</date>
+                     <date when="1911-09-10" n="01">[10. 9. 1911?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1911-09-10" notAfter="1911-09-11">[10. 9. 1911 – 11. 9. 1911?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
