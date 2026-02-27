@@ -277,37 +277,6 @@
                <objectType corresp="widmung" ana="widmung_vorsatzblatt"/>
                <measure unit="zeichenanzahl" quantity="88"/>
             </item>
-            <item corresp="L04230">
-               <title level="a">Theodor von Sosnosky an Arthur Schnitzler, 23. 5. 1901</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
-                     <date when="1901-05-23" n="01">23. 5. 1901</date>
-                     <placeName ref="#pmb48393" evidence="internal">Kremsmünster</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1901-05-24" notAfter="1901-05-28">[24. 5. 1901
-                  – 28. 5. 1901?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01123">Brandes an Schnitzler, 22. 5. 1901</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04234">Schnitzler an Sosnosky, 26. 5. 1901</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_9941"
-                          target="L04238">Schnitzler an Sosnosky, [24.?] 4. 1901</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_9941"
-                          target="L04234">Schnitzler an Sosnosky, 26. 5. 1901</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="781"/>
-            </item>
             <item corresp="L04234">
                <title level="a">Arthur Schnitzler an Theodor von Sosnosky, 26. 5. 1901</title>
                <correspDesc>
