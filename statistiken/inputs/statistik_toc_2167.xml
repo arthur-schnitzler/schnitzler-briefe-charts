@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-02-24Z</date>
+            <date>2026-02-27Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2167.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -5194,8 +5194,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04236">Schnitzler an Sosnosky, 30. 12. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03030">Schnitzler an Salten, [31. 12. 1899?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04225">Sosnosky an Schnitzler, 27. 12. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04236">Schnitzler an Sosnosky, 30. 12. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -5224,7 +5224,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03032">Schnitzler an Salten, 30. 12. [1899?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04236">Schnitzler an Sosnosky, 30. 12. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02901">Goldmann an Schnitzler, 2. 1. [1900]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -6007,7 +6007,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03088">Goldmann an Schnitzler, 7. 10. [1901]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04233">Sosnosky an Schnitzler, 9. 10. 1901</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L04235">Schnitzler an Sosnosky, 10. 10. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -10459,7 +10459,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb428">Welsberg</placeName>
+                     <date evidence="conjecture" notBefore="1907-08-13" notAfter="1907-08-17">[13. 8. 1907 – 17. 8. 1907?]</date>
+                     <placeName ref="#pmb428">Welsberg-Taisten</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
@@ -10476,6 +10477,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="222"/>
             </item>
             <item corresp="L03510">
                <title level="a">Felix Salten an Arthur Schnitzler, 15. 8. 1907</title>
@@ -11650,7 +11652,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01924">Schnitzler an Hofmannsthal, 10. 4. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04266">Schwarzkopf an Schnitzler, Schnitzler, [14. oder 15.? 4. 1910]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03470">Goldmann an Schnitzler, 19. 4. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -11993,7 +11995,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04009">Zuckerkandl an Schnitzler, 25. 7. [1911]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04265">Schwarzkopf an Schnitzler, 10. 8. 1911</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02025">Burckhard an Schnitzler, 23. 8. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -12410,7 +12412,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02150">Schnitzler, Schnitzler an Beer-Hofmann, Beer-Hofmann, 27. 8. 1913</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04261">Schwarzkopf an Schnitzler, 29. 8. 1913</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02151">Bahr an Schnitzler, 7. 10. 1913</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

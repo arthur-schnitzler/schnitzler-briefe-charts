@@ -4,12 +4,17 @@
     {
       "id": "pmb48393",
       "name": "Kremsmünster",
-      "count": 5
+      "count": 8
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 9
+      "count": 14
+    },
+    {
+      "id": "pmb90217",
+      "name": "Alland",
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
@@ -26,12 +31,24 @@
     {
       "from": "pmb48393",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 7,
       "titles": [
         "Theodor von Sosnosky an Arthur Schnitzler, 27. 12. 1899",
         "Theodor von Sosnosky an Arthur Schnitzler, 29. 1. 1900",
         "Theodor von Sosnosky an Arthur Schnitzler, 22. 6. 1900",
-        "Theodor von Sosnosky an Arthur Schnitzler, 24. 1. 1901"
+        "Theodor von Sosnosky an Arthur Schnitzler, 24. 1. 1901",
+        "Theodor von Sosnosky an Arthur Schnitzler, 30. 1. 1901",
+        "Theodor von Sosnosky an Arthur Schnitzler, 23. 5. 1901",
+        "Theodor von Sosnosky an Arthur Schnitzler, 26. 5. 1901"
+      ]
+    },
+    {
+      "from": "pmb90217",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Theodor von Sosnosky an Arthur Schnitzler, 21. 6. 1901",
+        "Theodor von Sosnosky an Arthur Schnitzler, 9. 10. 1901"
       ]
     }
   ]

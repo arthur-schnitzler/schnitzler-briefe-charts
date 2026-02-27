@@ -12,6 +12,11 @@
       "count": 3
     },
     {
+      "id": "pmb189",
+      "name": "Semmering",
+      "count": 1
+    },
+    {
       "id": "pmb212",
       "name": "St. Anton am Arlberg",
       "count": 1
@@ -32,14 +37,29 @@
       "count": 1
     },
     {
+      "id": "pmb334803",
+      "name": "Mautern in Steiermark",
+      "count": 1
+    },
+    {
+      "id": "pmb334808",
+      "name": "Reifnitz [Maria Wörth]",
+      "count": 1
+    },
+    {
       "id": "pmb34344",
       "name": "Weißenbach am Attersee",
       "count": 2
     },
     {
+      "id": "pmb34401",
+      "name": "Altaussee",
+      "count": 2
+    },
+    {
       "id": "pmb38096",
       "name": "Opatija",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb40260",
@@ -62,19 +82,29 @@
       "count": 1
     },
     {
+      "id": "pmb44374",
+      "name": "St. Moritz",
+      "count": 1
+    },
+    {
       "id": "pmb44413",
       "name": "Brühl",
       "count": 1
     },
     {
+      "id": "pmb45258",
+      "name": "München",
+      "count": 1
+    },
+    {
       "id": "pmb45260",
       "name": "Brijuni",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb462",
       "name": "Venedig",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb470",
@@ -94,7 +124,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 206
+      "count": 222
     },
     {
       "id": "pmb521",
@@ -109,11 +139,16 @@
     {
       "id": "pmb662",
       "name": "Baden bei Wien",
-      "count": 2
+      "count": 5
     },
     {
       "id": "pmb75",
       "name": "Hinterbrühl",
+      "count": 1
+    },
+    {
+      "id": "pmb772",
+      "name": "Marienbad",
       "count": 1
     },
     {
@@ -129,6 +164,11 @@
     {
       "id": "pmb883",
       "name": "Wiesbaden",
+      "count": 1
+    },
+    {
+      "id": "pmb90188",
+      "name": "Adelboden",
       "count": 1
     },
     {
@@ -595,12 +635,44 @@
       ]
     },
     {
+      "from": "pmb334803",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 12. 7. 1911"
+      ]
+    },
+    {
+      "from": "pmb334808",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 12. 7. 1912"
+      ]
+    },
+    {
       "from": "pmb34344",
       "to": "pmb50",
       "weight": 2,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, 3. 7. 1914",
         "Hugo von Hofmannsthal u. a. an Arthur Schnitzler, 15. [7. 1914]"
+      ]
+    },
+    {
+      "from": "pmb38096",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 4. 7. 1913"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb189",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 10. 8. 1911"
       ]
     },
     {
@@ -614,9 +686,43 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb462",
+      "to": "pmb34401",
       "weight": 1,
       "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 9. 8. 1916"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb44374",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 29. 8. 1913"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb45258",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 26. 1. 1914"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb45260",
+      "weight": 2,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 5. 8. 1913",
+        "Gustav Schwarzkopf und Paul Marx an Arthur Schnitzler, 13. 8. 1913"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb462",
+      "weight": 2,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 21. 8. 1913",
         "Gustav Schwarzkopf an Arthur Schnitzler, 1[0?]. 9. 1927"
       ]
     },
@@ -631,11 +737,21 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 5,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, [8.? 9. 1893]",
         "Gustav Schwarzkopf an Arthur Schnitzler, [3. 10. 1902?]",
-        "Gustav Schwarzkopf an Arthur Schnitzler, [14. 12. 1905 – 18. 12. 1905?]"
+        "Gustav Schwarzkopf an Arthur Schnitzler, [14. 12. 1905 – 18. 12. 1905?]",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 19. 1. 1910",
+        "Gustav Schwarzkopf an Arthur und Olga Schnitzler, [14. oder 15.? 4. 1910]"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb90188",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 19. 8. 1926"
       ]
     },
     {
@@ -644,6 +760,24 @@
       "weight": 1,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, 27. 8. 1929"
+      ]
+    },
+    {
+      "from": "pmb662",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 2. 6. 1913",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 5. 6. 1913",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 20. 2. 1920"
+      ]
+    },
+    {
+      "from": "pmb772",
+      "to": "pmb34401",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 16. 7. 1916"
       ]
     }
   ]
