@@ -9,7 +9,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb189",
@@ -24,7 +24,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 10
+      "count": 12
     },
     {
       "id": "pmb2318",
@@ -82,6 +82,11 @@
       "count": 1
     },
     {
+      "id": "pmb43520",
+      "name": "Meran",
+      "count": 1
+    },
+    {
       "id": "pmb44278",
       "name": "Pörtschach am Wörthersee",
       "count": 1
@@ -94,7 +99,7 @@
     {
       "id": "pmb44413",
       "name": "Brühl",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb45258",
@@ -129,7 +134,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 229
+      "count": 239
     },
     {
       "id": "pmb521",
@@ -214,7 +219,7 @@
     {
       "id": "pmb968",
       "name": "Mödling",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb987",
@@ -678,6 +683,30 @@
       ]
     },
     {
+      "from": "pmb43520",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Rudolf Schwarzkopf an Arthur Schnitzler, 25. 9. 1893"
+      ]
+    },
+    {
+      "from": "pmb44413",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 21. 6. 1893"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb182",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 3. 5. 1897"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb189",
       "weight": 1,
@@ -688,8 +717,9 @@
     {
       "from": "pmb50",
       "to": "pmb213",
-      "weight": 2,
+      "weight": 3,
       "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 10. 8. 1895",
         "Gustav Schwarzkopf an Arthur Schnitzler, 10. 8. 1915",
         "Gustav Schwarzkopf an Arthur Schnitzler, 16. 6. 1928"
       ]
@@ -763,10 +793,16 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 9,
+      "weight": 15,
       "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, [15. 5. 1892?]",
         "Gustav Schwarzkopf an Arthur Schnitzler, [8.? 9. 1893]",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 28. 11. 1893",
+        "Gustav Schwarzkopf an Arthur Schnitzler, XXXX",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 25. 11. 1894",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 24. 7. 1895",
         "Gustav Schwarzkopf an Arthur Schnitzler, [3. 10. 1902?]",
+        "Gustav Schwarzkopf an Arthur Schnitzler, [16. 11. 1905]",
         "Gustav Schwarzkopf an Arthur Schnitzler, [14. 12. 1905 – 18. 12. 1905?]",
         "Gustav Schwarzkopf an Arthur Schnitzler, 14. 4. 1906",
         "Gustav Schwarzkopf an Arthur Schnitzler, 6. 3. 1908",
@@ -816,6 +852,14 @@
       "weight": 1,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, 16. 7. 1916"
+      ]
+    },
+    {
+      "from": "pmb968",
+      "to": "pmb213",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 8. 7. 1893"
       ]
     }
   ]

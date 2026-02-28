@@ -203,6 +203,32 @@
       "to": null
     },
     {
+      "id": "L04230",
+      "title": "Theodor von Sosnosky an Arthur Schnitzler, 23. 5. 1901",
+      "type": "von partner",
+      "date": "1901-05-23",
+      "sender": {
+        "name": "Sosnosky, Theodor von",
+        "ref": "pmb9941"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Kremsmünster",
+        "ref": "pmb48393",
+        "lat": 48.05301,
+        "lon": 14.12842
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    },
+    {
       "id": "L04234",
       "title": "Arthur Schnitzler an Theodor von Sosnosky, 26. 5. 1901",
       "type": "von schnitzler",
@@ -321,6 +347,58 @@
         "lon": 16.373056
       },
       "to": null
+    },
+    {
+      "id": "L04321",
+      "title": "Theodor von Sosnosky an Arthur Schnitzler, 14. 10. 1901",
+      "type": "von partner",
+      "date": "1901-10-14",
+      "sender": {
+        "name": "Sosnosky, Theodor von",
+        "ref": "pmb9941"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Alland",
+        "ref": "pmb90217",
+        "lat": 48.03953,
+        "lon": 16.08085
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    },
+    {
+      "id": "L04322",
+      "title": "Theodor von Sosnosky an Arthur Schnitzler, 3. 2. 1902",
+      "type": "von partner",
+      "date": "1902-03-03",
+      "sender": {
+        "name": "Sosnosky, Theodor von",
+        "ref": "pmb9941"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Alland",
+        "ref": "pmb90217",
+        "lat": 48.03953,
+        "lon": 16.08085
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
     }
   ]
 }
