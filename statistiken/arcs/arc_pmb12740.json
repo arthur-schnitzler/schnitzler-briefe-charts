@@ -4,7 +4,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 6
+      "count": 7
     },
     {
       "id": "pmb182",
@@ -24,7 +24,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 15
+      "count": 16
     },
     {
       "id": "pmb2318",
@@ -69,7 +69,7 @@
     {
       "id": "pmb40260",
       "name": "Bozen",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb40959",
@@ -109,7 +109,7 @@
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb45260",
@@ -139,7 +139,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 250
+      "count": 256
     },
     {
       "id": "pmb521",
@@ -159,7 +159,7 @@
     {
       "id": "pmb75",
       "name": "Hinterbrühl",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb772",
@@ -229,7 +229,7 @@
     {
       "id": "pmb987",
       "name": "Toblach",
-      "count": 1
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
@@ -712,10 +712,19 @@
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb168",
+      "from": "pmb45258",
+      "to": "pmb50",
       "weight": 1,
       "titles": [
+        "Gustav Schwarzkopf, Malvine und Vincenz Chiavacci an Arthur Schnitzler, 20. 2. 1899"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 2,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 26. 4. 1899",
         "Gustav Schwarzkopf an Arthur Schnitzler, 3. 10. 1899"
       ]
     },
@@ -739,12 +748,13 @@
     {
       "from": "pmb50",
       "to": "pmb213",
-      "weight": 6,
+      "weight": 7,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, 10. 8. 1895",
         "Gustav Schwarzkopf an Arthur Schnitzler, 17. 8. 1899",
         "Gustav Schwarzkopf an Arthur Schnitzler, 21. 8. 1899",
         "Gustav Schwarzkopf an Arthur Schnitzler, 31. 8. 1899",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 4. 8. 1900",
         "Gustav Schwarzkopf an Arthur Schnitzler, 10. 8. 1915",
         "Gustav Schwarzkopf an Arthur Schnitzler, 16. 6. 1928"
       ]
@@ -763,6 +773,14 @@
       "weight": 1,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, 31. 7. 1896"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb40260",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 9. 8. 1899"
       ]
     },
     {
@@ -882,6 +900,14 @@
       ]
     },
     {
+      "from": "pmb50",
+      "to": "pmb987",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 29. 7. 1899"
+      ]
+    },
+    {
       "from": "pmb662",
       "to": "pmb50",
       "weight": 3,
@@ -889,6 +915,14 @@
         "Gustav Schwarzkopf an Arthur Schnitzler, 2. 6. 1913",
         "Gustav Schwarzkopf an Arthur Schnitzler, 5. 6. 1913",
         "Gustav Schwarzkopf an Arthur Schnitzler, 20. 2. 1920"
+      ]
+    },
+    {
+      "from": "pmb75",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 26. 6. 1900"
       ]
     },
     {
