@@ -4,7 +4,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb182",
@@ -24,7 +24,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 12
+      "count": 15
     },
     {
       "id": "pmb2318",
@@ -104,12 +104,12 @@
     {
       "id": "pmb44413",
       "name": "Brühl",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb45260",
@@ -139,12 +139,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 245
+      "count": 250
     },
     {
       "id": "pmb521",
       "name": "Bad Gastein",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb595",
@@ -697,10 +697,26 @@
     },
     {
       "from": "pmb44413",
+      "to": "pmb45258",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 12. 9. 1899"
+      ]
+    },
+    {
+      "from": "pmb44413",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, 21. 6. 1893"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 3. 10. 1899"
       ]
     },
     {
@@ -723,9 +739,12 @@
     {
       "from": "pmb50",
       "to": "pmb213",
-      "weight": 3,
+      "weight": 6,
       "titles": [
         "Gustav Schwarzkopf an Arthur Schnitzler, 10. 8. 1895",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 17. 8. 1899",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 21. 8. 1899",
+        "Gustav Schwarzkopf an Arthur Schnitzler, 31. 8. 1899",
         "Gustav Schwarzkopf an Arthur Schnitzler, 10. 8. 1915",
         "Gustav Schwarzkopf an Arthur Schnitzler, 16. 6. 1928"
       ]
@@ -832,8 +851,9 @@
     {
       "from": "pmb50",
       "to": "pmb521",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Gustav Schwarzkopf an Arthur Schnitzler, 18. 7. 1898",
         "Gustav Schwarzkopf an Arthur Schnitzler, 22. 7. 1898"
       ]
     },

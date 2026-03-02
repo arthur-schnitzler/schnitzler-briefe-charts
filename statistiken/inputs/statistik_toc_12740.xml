@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-03-01Z</date>
+            <date>2026-03-02Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1733,11 +1733,49 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04126">Schnitzler an Schwarzkopf, 21. 7. 1898</ref>
+                          target="L04290">Schwarzkopf an Schnitzler, 18. 7. 1898</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
                <measure unit="zeichenanzahl" quantity="298"/>
+            </item>
+            <item corresp="L04290">
+               <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 18. 7. 1898</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date when="1898-07-18" n="03">18. 7. 1898</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1898-07-18">18. 7. 1898</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1898-07-19">19. 7. 1898</date>
+                     <placeName ref="#pmb521">Bad Gastein</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1898-07-19">19. 7. 1898</date>
+                     <placeName ref="#pmb521">Bad Gastein</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00823">Schnitzler an Hofmannsthal, 18. 7. 1898</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00824">Hofmannsthal, Schnitzler an Hofmannsthal, [19. 7. 1898]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04128">Schnitzler an Schwarzkopf, 15. 7. 1898</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04126">Schnitzler an Schwarzkopf, 21. 7. 1898</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="913"/>
             </item>
             <item corresp="L04126">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 21. 7. 1898</title>
@@ -1759,7 +1797,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04128">Schnitzler an Schwarzkopf, 15. 7. 1898</ref>
+                          target="L04290">Schwarzkopf an Schnitzler, 18. 7. 1898</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -2274,7 +2312,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture" notBefore="1899-08-14" notAfter="1899-08-18">[14. 8. 1899 – 18. 8. 1899?]</date>
+                     <date evidence="external" notBefore="1899-08-14" notAfter="1899-08-17">[14. 8. 1899 – 17. 8. 1899]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2318,11 +2356,41 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04203">Schnitzler an Schwarzkopf, 18. 8. 1899</ref>
+                          target="L04295">Schwarzkopf an Schnitzler, 17. 8. 1899</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
                <measure unit="zeichenanzahl" quantity="339"/>
+            </item>
+            <item corresp="L04295">
+               <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 17. 8. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date when="1899-08-17" n="03">17. 8. 1899</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-08-18" notAfter="1899-08-22">[18. 8. 1899 – 22. 8. 1899?]</date>
+                     <placeName ref="#pmb213" evidence="conjecture">Bad Ischl</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03297">Salten an Schnitzler, [17. 8. 1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04203">Schnitzler an Schwarzkopf, 18. 8. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04136">Schnitzler an Schwarzkopf, 16. 8. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04203">Schnitzler an Schwarzkopf, 18. 8. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2281"/>
             </item>
             <item corresp="L04203">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 18. 8. 1899</title>
@@ -2339,20 +2407,58 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03297">Salten an Schnitzler, [17. 8. 1899]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04295">Schwarzkopf an Schnitzler, 17. 8. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00960">Beer-Hofmann an Schnitzler, 18. 8. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04136">Schnitzler an Schwarzkopf, 16. 8. 1899</ref>
+                          target="L04295">Schwarzkopf an Schnitzler, 17. 8. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04293">Schwarzkopf an Schnitzler, 20. 8. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="telegramm"/>
+               <measure unit="zeichenanzahl" quantity="143"/>
+            </item>
+            <item corresp="L04293">
+               <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 21. 8. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date when="1899-08-20" n="02">20. 8. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1899-08-21">21. 8. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1899-08-21">21. 8. 1899</date>
+                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1899-08-21">21. 8. 1899</date>
+                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02884">Goldmann an Schnitzler, 20. 8. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00962">Hofmannsthal an Schnitzler, 21. 8. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04203">Schnitzler an Schwarzkopf, 18. 8. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
                           target="L04131">Schnitzler an Schwarzkopf, 25. 8. 1899</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="telegramm"/>
-               <measure unit="zeichenanzahl" quantity="143"/>
+               <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="571"/>
             </item>
             <item corresp="L04131">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 25. 8. 1899</title>
@@ -2375,15 +2481,45 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04203">Schnitzler an Schwarzkopf, 18. 8. 1899</ref>
+                          target="L04293">Schwarzkopf an Schnitzler, 20. 8. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04294">Schwarzkopf an Schnitzler, 31. 8. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2607"/>
+            </item>
+            <item corresp="L04294">
+               <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 31. 8. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date when="1899-08-31" n="02">31. 8. 1899</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-09-01" notAfter="1899-09-05">[1. 9. 1899 – 5. 9. 1899?]</date>
+                     <placeName ref="#pmb213" evidence="conjecture">Bad Ischl</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00966">Schnitzler, Hofmannsthal an Beer-Hofmann, 31. 8. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00967">Beer-Hofmann an Schnitzler, 2. 9. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04131">Schnitzler an Schwarzkopf, 25. 8. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
                           target="L04142">Schnitzler an Schwarzkopf, 9. 9. 1899</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2607"/>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="1135"/>
             </item>
             <item corresp="L04142">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 9. 9. 1899</title>
@@ -2405,7 +2541,38 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04131">Schnitzler an Schwarzkopf, 25. 8. 1899</ref>
+                          target="L04294">Schwarzkopf an Schnitzler, 31. 8. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04292">Schwarzkopf an Schnitzler, 12. 9. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2898"/>
+            </item>
+            <item corresp="L04292">
+               <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 12. 9. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date when="1899-09-12" n="03">12. 9. 1899</date>
+                     <placeName ref="#pmb44413">Brühl</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-09-13" notAfter="1899-09-16">[13. 9. 1899
+                  – 16. 9. 1899?]</date>
+                     <placeName ref="#pmb45258" evidence="conjecture">München</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02886">Goldmann an Schnitzler, 12. 9. [1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00974">Schnitzler an Beer-Hofmann, 15. 9. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04142">Schnitzler an Schwarzkopf, 9. 9. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -2413,7 +2580,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2898"/>
+               <measure unit="zeichenanzahl" quantity="1462"/>
             </item>
             <item corresp="L04093">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 29. 9. 1899</title>
@@ -2423,9 +2590,13 @@
                      <date when="1899-09-29" n="03">29. 9. 1899</date>
                      <placeName ref="#pmb883">Wiesbaden</placeName>
                   </correspAction>
+                  <correspAction type="delivered">
+                     <date notBefore="1899-09-30" notAfter="1899-10-03">[30. 9. 1899 – 3. 10. 1899?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="external" notBefore="1899-10-03">[3. 10. 1899]</date>
+                     <date evidence="external" when="1899-10-03">[3. 10. 1899]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2435,7 +2606,37 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04142">Schnitzler an Schwarzkopf, 9. 9. 1899</ref>
+                          target="L04292">Schwarzkopf an Schnitzler, 12. 9. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04291">Schwarzkopf an Schnitzler, 3. 10. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="4268"/>
+            </item>
+            <item corresp="L04291">
+               <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 3. 10. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date when="1899-10-03" n="04">3. 10. 1899</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-10-04" notAfter="1899-10-08">[4. 10. 1899 – 8. 10. 1899?]</date>
+                     <placeName ref="#pmb168" evidence="conjecture">Berlin</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03300">Salten an Schnitzler, 3. 10. 189[9?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00989">Schnitzler an Beer-Hofmann, 8. 10. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04093">Schnitzler an Schwarzkopf, 29. 9. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -2443,7 +2644,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4268"/>
+               <measure unit="zeichenanzahl" quantity="1540"/>
             </item>
             <item corresp="L04082">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 8. 10. 1899</title>
@@ -2465,7 +2666,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04093">Schnitzler an Schwarzkopf, 29. 9. 1899</ref>
+                          target="L04291">Schwarzkopf an Schnitzler, 3. 10. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -2638,7 +2839,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date when="1899-12-07" n="01">7. 12. 1899</date>
+                     <date when="1899-12-07" n="02">7. 12. 1899</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
