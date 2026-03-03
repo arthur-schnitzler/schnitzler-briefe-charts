@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-03-02Z</date>
+            <date>2026-03-03Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -3606,7 +3606,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1509"/>
+               <measure unit="zeichenanzahl" quantity="1505"/>
             </item>
             <item corresp="L03670">
                <title level="a">Stefan Zweig an Arthur Schnitzler, 2. 1. 1925</title>
@@ -3700,7 +3700,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="511"/>
+               <measure unit="zeichenanzahl" quantity="512"/>
             </item>
             <item corresp="L03747">
                <title level="a">Arthur Schnitzler an Stefan Zweig, 2. 10. 1926</title>
@@ -3796,7 +3796,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="825"/>
+               <measure unit="zeichenanzahl" quantity="822"/>
             </item>
             <item corresp="L03672">
                <title level="a">Stefan Zweig an Arthur Schnitzler, 10. 11. 1926</title>
@@ -3838,7 +3838,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1927-02-05" notAfter="1927-02-09">[5. 2. 1927 – 9. 2. 1927?]</date>
+                     <date evidence="conjecture" notBefore="1927-02-05" notAfter="1927-02-09">[5. 2. 1927
+                  – 9. 2. 1927?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -3926,7 +3927,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3021"/>
+               <measure unit="zeichenanzahl" quantity="3017"/>
             </item>
             <item corresp="L03744">
                <title level="a">Arthur Schnitzler an Stefan Zweig, 28. 5. 1927</title>
