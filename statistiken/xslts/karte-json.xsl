@@ -222,7 +222,7 @@
         <xsl:text>,&#10;</xsl:text>
 
         <!-- Empfangsort -->
-        <xsl:variable name="received-place-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+        <xsl:variable name="received-place-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc[1]/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
         <xsl:text>      "to": </xsl:text>
         <xsl:choose>
             <xsl:when test="$received-place-ref != '' and starts-with(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref, '#pmb')">
