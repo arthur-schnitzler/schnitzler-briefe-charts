@@ -5,9 +5,9 @@
     <xsl:output method="text" indent="true"/>
 
     <xsl:key name="place-lookup" match="tei:item" use="concat(
-        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')),
+        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')),
         '|',
-        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))
+        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))
     )"/>
 
     <xsl:template name="main">
@@ -30,12 +30,12 @@
             <!-- Sammle alle einzigartigen Orte -->
             <xsl:variable name="all-place-refs" as="xs:string*">
                 <xsl:for-each select="$all-items">
-                    <xsl:variable name="sent" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
-                    <xsl:variable name="received" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
-                    <xsl:if test="$sent != '' and starts-with(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref, '#pmb')">
+                    <xsl:variable name="sent" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+                    <xsl:variable name="received" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+                    <xsl:if test="$sent != '' and starts-with(tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[1]/@ref, '#pmb')">
                         <xsl:sequence select="$sent"/>
                     </xsl:if>
-                    <xsl:if test="$received != '' and starts-with(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref, '#pmb')">
+                    <xsl:if test="$received != '' and starts-with(tei:correspDesc/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref, '#pmb')">
                         <xsl:sequence select="$received"/>
                     </xsl:if>
                 </xsl:for-each>
@@ -55,8 +55,8 @@
                     <xsl:sort select="."/>
                     <xsl:variable name="place-id" select="."/>
                     <xsl:variable name="count" select="count($all-items[
-                        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $place-id or
-                        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $place-id
+                        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $place-id or
+                        normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $place-id
                     ])"/>
 
                     <!-- Lookup place name from PMB -->
@@ -110,18 +110,18 @@
         <!-- Filter items based on direction -->
         <xsl:variable name="filtered-items" select="
             if ($direction = 'from_schnitzler')
-            then $items[tei:correspDesc/tei:correspAction[@type='sent']/tei:persName[@ref='#pmb2121']]
-            else $items[tei:correspDesc/tei:correspAction[@type='received']/tei:persName[@ref='#pmb2121']]
+            then $items[tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:persName[@ref='#pmb2121']]
+            else $items[tei:correspDesc/tei:correspAction[@type='received'][1]/tei:persName[@ref='#pmb2121']]
         "/>
 
         <!-- Group by from-to combination -->
         <xsl:variable name="routes" as="xs:string*">
             <xsl:for-each select="$filtered-items">
-                <xsl:variable name="from-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
-                <xsl:variable name="to-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+                <xsl:variable name="from-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
+                <xsl:variable name="to-ref" select="normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', ''))"/>
                 <xsl:if test="$from-ref != '' and $to-ref != '' and
-                              starts-with(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref, '#pmb') and
-                              starts-with(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref, '#pmb')">
+                    starts-with(tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[1]/@ref, '#pmb') and
+                    starts-with(tei:correspDesc/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref, '#pmb')">
                     <xsl:sequence select="concat($from-ref, '|', $to-ref)"/>
                 </xsl:if>
             </xsl:for-each>
@@ -137,8 +137,8 @@
 
             <!-- Collect all titles for this route -->
             <xsl:variable name="route-items" select="$filtered-items[
-                normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $from-id and
-                normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received']/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $to-id
+                normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $from-id and
+                normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $to-id
             ]"/>
 
             <xsl:if test="position() > 1">
