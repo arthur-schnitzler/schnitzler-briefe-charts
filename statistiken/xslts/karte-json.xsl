@@ -3,6 +3,11 @@
     xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0">
     <xsl:output method="text" indent="true"/>
+
+    <!-- Lokale PMB-Ortsliste (gecacht in temp/indices/listplace.xml) -->
+    <xsl:variable name="listplace" select="document(resolve-uri('../../temp/indices/listplace.xml', static-base-uri()))"/>
+    <xsl:key name="place-by-id" match="*:place" use="@xml:id"/>
+
     <xsl:template name="main">
         <xsl:variable name="files" select="collection('../inputs/?select=statistik_toc_*.xml')"/>
         <xsl:message>Found <xsl:value-of select="count($files)"/> statistik_toc files</xsl:message>
@@ -182,13 +187,13 @@
         <xsl:text>      "from": </xsl:text>
         <xsl:choose>
             <xsl:when test="$sent-place-ref != '' and starts-with(tei:correspDesc/tei:correspAction[@type='sent']/tei:placeName[1]/@ref, '#pmb')">
-                <xsl:variable name="absender-nachgeschlagen"
-                    select="document(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/place/', $sent-place-ref))"/>
+                <xsl:variable name="absender-entry"
+                    select="key('place-by-id', concat('pmb', $sent-place-ref), $listplace)"/>
                 <xsl:variable name="absender-geo"
-                    select="$absender-nachgeschlagen/descendant::*:location[@type = 'coords'][1]/*:geo[1]"/>
+                    select="$absender-entry/descendant::*:location[@type = 'coords'][1]/*:geo[1]"/>
                 <xsl:text>{&#10;</xsl:text>
                 <xsl:text>        "name": "</xsl:text>
-                <xsl:value-of select="$absender-nachgeschlagen/descendant::*:placeName[1]/text()"/>
+                <xsl:value-of select="$absender-entry/descendant::*:placeName[1]/text()"/>
                 <xsl:text>",&#10;</xsl:text>
                 <xsl:text>        "ref": "pmb</xsl:text>
                 <xsl:value-of select="$sent-place-ref"/>
@@ -226,13 +231,13 @@
         <xsl:text>      "to": </xsl:text>
         <xsl:choose>
             <xsl:when test="$received-place-ref != '' and starts-with(tei:correspDesc[1]/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref, '#pmb')">
-                <xsl:variable name="empfaenger-nachgeschlagen"
-                    select="document(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/place/', $received-place-ref))"/>
+                <xsl:variable name="empfaenger-entry"
+                    select="key('place-by-id', concat('pmb', $received-place-ref), $listplace)"/>
                 <xsl:variable name="empfaenger-geo"
-                    select="$empfaenger-nachgeschlagen/descendant::*:location[@type = 'coords'][1]/*:geo[1]"/>
+                    select="$empfaenger-entry/descendant::*:location[@type = 'coords'][1]/*:geo[1]"/>
                 <xsl:text>{&#10;</xsl:text>
                 <xsl:text>        "name": "</xsl:text>
-                <xsl:value-of select="$empfaenger-nachgeschlagen/descendant::*:placeName[1]/text()"/>
+                <xsl:value-of select="$empfaenger-entry/descendant::*:placeName[1]/text()"/>
                 <xsl:text>",&#10;</xsl:text>
                 <xsl:text>        "ref": "pmb</xsl:text>
                 <xsl:value-of select="$received-place-ref"/>

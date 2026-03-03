@@ -4,6 +4,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0">
     <xsl:output method="text" indent="true"/>
 
+    <!-- Lokale PMB-Ortsliste (gecacht in temp/indices/listplace.xml) -->
+    <xsl:variable name="listplace" select="document(resolve-uri('../../temp/indices/listplace.xml', static-base-uri()))"/>
+    <xsl:key name="place-by-id" match="*:place" use="@xml:id"/>
+
     <xsl:key name="place-lookup" match="tei:item" use="concat(
         normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='sent'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')),
         '|',
@@ -59,9 +63,9 @@
                         normalize-space(replace(tokenize(normalize-space(tei:correspDesc/tei:correspAction[@type='received'][1]/tei:placeName[1]/@ref), ' ')[1], '#pmb', '')) = $place-id
                     ])"/>
 
-                    <!-- Lookup place name from PMB -->
-                    <xsl:variable name="place-doc" select="document(concat('https://pmb.acdh.oeaw.ac.at/apis/tei/place/', $place-id))"/>
-                    <xsl:variable name="place-name" select="$place-doc/descendant::*:placeName[1]/text()"/>
+                    <!-- Lookup place name from lokaler listplace.xml -->
+                    <xsl:variable name="place-entry" select="key('place-by-id', concat('pmb', $place-id), $listplace)"/>
+                    <xsl:variable name="place-name" select="$place-entry/descendant::*:placeName[1]/text()"/>
 
                     <xsl:if test="position() > 1">
                         <xsl:text>,</xsl:text>
