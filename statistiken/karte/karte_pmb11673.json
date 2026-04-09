@@ -1,7 +1,8 @@
 {
   "correspondent": {
     "id": "pmb11673",
-    "name": "Herzl, Theodor"
+    "name": "Herzl,
+                  Theodor"
   },
   "letters": [
     {
@@ -44,16 +45,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Schörfling",
-        "ref": "pmb103313",
-        "lat": 47.947222,
-        "lon": 13.600556
+        "name": "Kammer",
+        "ref": "pmb63056",
+        "lat": 47.94711,
+        "lon": 13.59541
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Innsbruck",
+        "ref": "pmb867",
+        "lat": 47.272569,
+        "lon": 11.389534
       }
     },
     {
@@ -128,10 +129,10 @@
         "lon": 16.373056
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Paris",
+        "ref": "pmb182",
+        "lat": 48.85341,
+        "lon": 2.3488
       }
     },
     {
@@ -180,10 +181,10 @@
         "lon": 16.373056
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Paris",
+        "ref": "pmb182",
+        "lat": 48.85341,
+        "lon": 2.3488
       }
     },
     {
@@ -214,7 +215,7 @@
     },
     {
       "id": "L03941",
-      "title": "Arthur Schnitzler an Theodor Herzl, 12. – 14. 11. 1892",
+      "title": "Arthur Schnitzler an Theodor Herzl, 12.–14. 11. 1892",
       "type": "von schnitzler",
       "date": null,
       "sender": {
@@ -2716,7 +2717,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      },
       "to": {
         "name": "Wien",
         "ref": "pmb50",

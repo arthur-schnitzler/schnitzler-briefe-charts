@@ -9,11 +9,16 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 11
+      "count": 10
     },
     {
       "id": "pmb65265",
       "name": "Hallstätter See",
+      "count": 1
+    },
+    {
+      "id": "pmb958",
+      "name": "Skodsborg",
       "count": 1
     }
   ],
@@ -32,7 +37,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb46000",
-      "to": "pmb50",
+      "to": "pmb958",
       "weight": 1,
       "titles": [
         "Marie Herzfeld an Arthur Schnitzler, 7. 8. 1896"

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-03-03Z</date>
+            <date>2026-04-09Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -4152,6 +4152,10 @@
                      <date when="1928-05-10" n="01">10. 5. 1928</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1928-05-10">10. 5. 1928</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
                      <date evidence="conjecture" notBefore="1928-05-11" notAfter="1928-05-15">[11. 5. 1928
@@ -4203,7 +4207,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4973"/>
+               <measure unit="zeichenanzahl" quantity="4971"/>
             </item>
             <item corresp="L03742">
                <title level="a">Arthur Schnitzler an Stefan Zweig, 16. 5. 1928</title>
@@ -4211,6 +4215,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1928-05-16" n="01">16. 5. 1928</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1928-05-16">16. 5. 1928</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -4245,7 +4253,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date evidence="conjecture" notBefore="1929-07-05" notAfter="1929-07-06">[5. 7. 1929 – 6. 7. 1929?]</date>
+                     <date evidence="conjecture" notBefore="1929-07-05" notAfter="1929-07-06">[5. 7. 1929
+                  – 6. 7. 1929?]</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
                   <correspContext>
@@ -4355,7 +4364,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="674"/>
+               <measure unit="zeichenanzahl" quantity="677"/>
             </item>
             <item corresp="L03691">
                <title level="a">Stefan Zweig an Arthur Schnitzler, 2. 11. 1929</title>
@@ -4448,7 +4457,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1207"/>
+               <measure unit="zeichenanzahl" quantity="1206"/>
             </item>
             <item corresp="L03735">
                <title level="a">Arthur Schnitzler an Stefan Zweig, 5. 12. 1929</title>
@@ -4479,7 +4488,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="406"/>
+               <measure unit="zeichenanzahl" quantity="404"/>
             </item>
             <item corresp="L03679">
                <title level="a">Stefan Zweig an Arthur Schnitzler, 21. 12. [1929]</title>

@@ -52,6 +52,11 @@
       "count": 18
     },
     {
+      "id": "pmb304404",
+      "name": "Kaliningrad",
+      "count": 1
+    },
+    {
       "id": "pmb33",
       "name": "St. Gilgen",
       "count": 1
@@ -59,11 +64,6 @@
     {
       "id": "pmb38096",
       "name": "Opatija",
-      "count": 1
-    },
-    {
-      "id": "pmb42605",
-      "name": "Kaliningrad",
       "count": 1
     },
     {
@@ -598,6 +598,14 @@
       ]
     },
     {
+      "from": "pmb304404",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 2. 12. 1909"
+      ]
+    },
+    {
       "from": "pmb30",
       "to": "pmb50",
       "weight": 9,
@@ -619,14 +627,6 @@
       "weight": 1,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 15. 2. 1904"
-      ]
-    },
-    {
-      "from": "pmb42605",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 2. 12. 1909"
       ]
     },
     {

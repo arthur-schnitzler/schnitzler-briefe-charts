@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-03-03Z</date>
+            <date>2026-04-09Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -5053,6 +5053,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="401"/>
             </item>
             <item corresp="L04071">
                <title level="a">Arthur und Olga Schnitzler an Gustav Schwarzkopf, 9. 5. 1904</title>
@@ -5236,7 +5237,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03448">Goldmann an Schnitzler, 10. 7. [1904]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04311">Schwarzkopf, Schwarzkopf, Hirschfeld, Hirschfeld, Chiavacci, Chiavacci an Schnitzler, 22. 7. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04311">Schwarzkopf, Hirschfeld, Hirschfeld, Chiavacci, Chiavacci an Schnitzler, 22. 7. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -5244,7 +5245,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04311">Schwarzkopf, Schwarzkopf, Hirschfeld, Hirschfeld, Chiavacci, Chiavacci an Schnitzler, 22. 7. 1904</ref>
+                          target="L04311">Schwarzkopf, Hirschfeld, Hirschfeld, Chiavacci, Chiavacci an Schnitzler, 22. 7. 1904</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="telegramm"/>
@@ -5254,7 +5255,6 @@
                <title level="a">Gustav Schwarzkopf u.a. an Arthur Schnitzler, 22. 7. 1904</title>
                <correspDesc>
                   <correspAction type="sent">
-                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <persName ref="#pmb19140">Hirschfeld, Emilie</persName>
                      <persName ref="#pmb11707">Hirschfeld, Robert</persName>
@@ -5317,7 +5317,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04311">Schwarzkopf, Schwarzkopf, Hirschfeld, Hirschfeld, Chiavacci, Chiavacci an Schnitzler, 22. 7. 1904</ref>
+                          target="L04311">Schwarzkopf, Hirschfeld, Hirschfeld, Chiavacci, Chiavacci an Schnitzler, 22. 7. 1904</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
