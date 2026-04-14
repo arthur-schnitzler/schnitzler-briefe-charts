@@ -12,14 +12,19 @@
       "count": 1
     },
     {
+      "id": "pmb445",
+      "name": "Rom",
+      "count": 1
+    },
+    {
       "id": "pmb462",
       "name": "Venedig",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 3
+      "count": 6
     }
   ],
   "links_from_schnitzler": [
@@ -42,11 +47,28 @@
       ]
     },
     {
-      "from": "pmb462",
+      "from": "pmb445",
       "to": "pmb50",
       "weight": 1,
       "titles": [
-        "Carl von Torresani an Arthur Schnitzler, [zwischen 13. 5. und 31. 12. 1891?]"
+        "Carl von Torresani an Arthur Schnitzler, 9. 12. 1892"
+      ]
+    },
+    {
+      "from": "pmb462",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Carl von Torresani an Arthur Schnitzler, [zwischen 13. 5. und 31. 12. 1891?]",
+        "Carl von Torresani an Arthur Schnitzler, 8. 5. 1893"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Carl von Torresani an Arthur Schnitzler, 8. 10. [1892]"
       ]
     }
   ]
