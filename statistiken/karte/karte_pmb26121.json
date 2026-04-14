@@ -4,5 +4,83 @@
     "name": ""
   },
   "letters": [
+    {
+      "id": "L04323",
+      "title": "Carl von Torresani an Arthur Schnitzler, [zwischen 13. 5. und 31. 12. 1891?]",
+      "type": "von partner",
+      "date": null,
+      "sender": {
+        "name": "Torresani, Carl von",
+        "ref": "pmb26121"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Venedig",
+        "ref": "pmb462",
+        "lat": 45.43713,
+        "lon": 12.33265
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    },
+    {
+      "id": "L04327",
+      "title": "Carl von Torresani an Arthur Schnitzler, 6. 2. 1892",
+      "type": "von partner",
+      "date": "1892-02-06",
+      "sender": {
+        "name": "Torresani, Carl von",
+        "ref": "pmb26121"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Paris",
+        "ref": "pmb182",
+        "lat": 48.85341,
+        "lon": 2.3488
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    },
+    {
+      "id": "L04324",
+      "title": "Carl von Torresani an Arthur Schnitzler, [22. 4. 1906]",
+      "type": "von partner",
+      "date": "1906-04-22",
+      "sender": {
+        "name": "Torresani, Carl von",
+        "ref": "pmb26121"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Torbole sul Garda",
+        "ref": "pmb40294",
+        "lat": 45.86951,
+        "lon": 10.87561
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    }
   ]
 }

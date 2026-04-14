@@ -6,7 +6,7 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Frankfurt am Main",114,Directed
 "Mamroth, Fedor","rue Feydeau",89,Directed
 "Mamroth, Fedor","Frankreich",53,Directed
-"Mamroth, Fedor","Österreich",51,Directed
+"Mamroth, Fedor","Österreich",52,Directed
 "Mamroth, Fedor","Deutschland",45,Directed
 "Mamroth, Fedor","Frankgasse 1",42,Directed
 "Mamroth, Fedor","Bad Ischl",41,Directed
@@ -122,6 +122,7 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","rue Jacob",3,Directed
 "Mamroth, Fedor","Genf",3,Directed
 "Mamroth, Fedor","Boulevard de Courcelles",3,Directed
+"Mamroth, Fedor","Graz",3,Directed
 "Mamroth, Fedor","Tegernsee",3,Directed
 "Mamroth, Fedor","Lyon",3,Directed
 "Mamroth, Fedor","Karlsruhe",3,Directed
@@ -180,7 +181,6 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Mauer",2,Directed
 "Mamroth, Fedor","Nizza",2,Directed
 "Mamroth, Fedor","Zürich",2,Directed
-"Mamroth, Fedor","Österreich-Ungarn",2,Directed
 "Mamroth, Fedor","Hotel Deutscher Kaiser",2,Directed
 "Mamroth, Fedor","Mariannengasse",2,Directed
 "Mamroth, Fedor","Andermatt",2,Directed
@@ -190,7 +190,6 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Südkorea",2,Directed
 "Mamroth, Fedor","Guangzhou",2,Directed
 "Mamroth, Fedor","Jangtsekiang",2,Directed
-"Mamroth, Fedor","Graz",2,Directed
 "Mamroth, Fedor","Klosterneuburg",2,Directed
 "Mamroth, Fedor","Basel",2,Directed
 "Mamroth, Fedor","Rheinland",2,Directed
@@ -236,6 +235,7 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Gossensaß",2,Directed
 "Mamroth, Fedor","Villa Heufler",2,Directed
 "Mamroth, Fedor","Edlach",2,Directed
+"Mamroth, Fedor","Allgemeine Poliklinik",1,Directed
 "Mamroth, Fedor","Reichenau [Schweiz]",1,Directed
 "Mamroth, Fedor","Thalhof",1,Directed
 "Mamroth, Fedor","Donaukanal",1,Directed
@@ -337,6 +337,7 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","avenue des Champs-Élysées",1,Directed
 "Mamroth, Fedor","16. arrondissement [Paris]",1,Directed
 "Mamroth, Fedor","Cisleithanien",1,Directed
+"Mamroth, Fedor","Österreich-Ungarn",1,Directed
 "Mamroth, Fedor","Hotel de l’Athénée",1,Directed
 "Mamroth, Fedor","Le Bon Marché",1,Directed
 "Mamroth, Fedor","Musée du Louvre",1,Directed
@@ -373,7 +374,7 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Hongkong Hotel",1,Directed
 "Mamroth, Fedor","Bad Gastein",1,Directed
 "Mamroth, Fedor","Astor House Hotel [Shanghai]",1,Directed
-"Mamroth, Fedor","Wollzeile",1,Directed
+"Mamroth, Fedor","Wollzeile 15 (»Berthahof«)",1,Directed
 "Mamroth, Fedor","Steindorf am Ossiacher See",1,Directed
 "Mamroth, Fedor","Qingdao",1,Directed
 "Mamroth, Fedor","Artillerielager Tsingtau",1,Directed
@@ -412,9 +413,9 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Gärtnerweg",1,Directed
 "Mamroth, Fedor","Musikverein",1,Directed
 "Mamroth, Fedor","Triest",1,Directed
-"Mamroth, Fedor","Cadore",1,Directed
 "Mamroth, Fedor","Hoppegarten",1,Directed
 "Mamroth, Fedor","Hamburg-Groß Borstel",1,Directed
+"Mamroth, Fedor","Cadore",1,Directed
 "Mamroth, Fedor","Schlesien",1,Directed
 "Mamroth, Fedor","Grundlsee [Gemeinde]",1,Directed
 "Mamroth, Fedor","Admont",1,Directed
@@ -462,7 +463,8 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Hel",1,Directed
 "Mamroth, Fedor","Wiejlska",1,Directed
 "Mamroth, Fedor","Rooseveltplatz",1,Directed
-"Mamroth, Fedor","?? [Wohnung von Olga und Elisabeth Gussmann, 1901/1902]",1,Directed
+"Mamroth, Fedor","Garnisongasse",1,Directed
+"Mamroth, Fedor","?? [Unterkunft von Olga Schnitzler, Dezember 1901 – 3.2.1902, Garnisonsgasse?]",1,Directed
 "Mamroth, Fedor","Bethmannstraße",1,Directed
 "Mamroth, Fedor","Bernburger Straße",1,Directed
 "Mamroth, Fedor","Hotel Savoy [Berlin]",1,Directed
@@ -547,8 +549,8 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Hôtel Metropole",1,Directed
 "Mamroth, Fedor","St. Moritz-Bad",1,Directed
 "Mamroth, Fedor","Piz Languard",1,Directed
-"Mamroth, Fedor","Tremezzo",1,Directed
 "Mamroth, Fedor","Lago di Como",1,Directed
+"Mamroth, Fedor","Tremezzo",1,Directed
 "Mamroth, Fedor","Hotel Bristol Berlin",1,Directed
 "Mamroth, Fedor","Staatsoper Berlin",1,Directed
 "Mamroth, Fedor","VIII., Josefstadt",1,Directed
@@ -578,9 +580,9 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Teatro Alfieri",1,Directed
 "Mamroth, Fedor","Turin",1,Directed
 "Mamroth, Fedor","Hotel Kaiserin Elisabeth [Bad Ischl]",1,Directed
+"Mamroth, Fedor","Piazza San Marco",1,Directed
 "Mamroth, Fedor","Stazione di Venezia Santa Lucia",1,Directed
 "Mamroth, Fedor","Stauffenbergstraße",1,Directed
-"Mamroth, Fedor","Piazza San Marco",1,Directed
 "Mamroth, Fedor","Akademietheater",1,Directed
 "Mamroth, Fedor","Le Prese",1,Directed
 "Mamroth, Fedor","Lindaustraße",1,Directed

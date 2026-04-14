@@ -1,9 +1,53 @@
 {
   "correspondent": "",
   "nodes": [
+    {
+      "id": "pmb182",
+      "name": "Paris",
+      "count": 1
+    },
+    {
+      "id": "pmb40294",
+      "name": "Torbole sul Garda",
+      "count": 1
+    },
+    {
+      "id": "pmb462",
+      "name": "Venedig",
+      "count": 1
+    },
+    {
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 3
+    }
   ],
   "links_from_schnitzler": [
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb182",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Carl von Torresani an Arthur Schnitzler, 6. 2. 1892"
+      ]
+    },
+    {
+      "from": "pmb40294",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Carl von Torresani an Arthur Schnitzler, [22. 4. 1906]"
+      ]
+    },
+    {
+      "from": "pmb462",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Carl von Torresani an Arthur Schnitzler, [zwischen 13. 5. und 31. 12. 1891?]"
+      ]
+    }
   ]
 }

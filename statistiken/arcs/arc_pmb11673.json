@@ -1,11 +1,10 @@
 {
-  "correspondent": "Herzl,
-                  Theodor",
+  "correspondent": "Herzl, Theodor",
   "nodes": [
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 49
+      "count": 50
     },
     {
       "id": "pmb213",
@@ -25,7 +24,7 @@
     {
       "id": "pmb49170",
       "name": "Morschach",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb50",
@@ -65,7 +64,7 @@
     {
       "from": "pmb50",
       "to": "pmb182",
-      "weight": 10,
+      "weight": 11,
       "titles": [
         "Arthur Schnitzler an Theodor Herzl, 25. 7. 1892",
         "Arthur Schnitzler an Theodor Herzl, 5. 8. 1892",
@@ -74,6 +73,7 @@
         "Arthur Schnitzler an Theodor Herzl, 11. 5. 1893",
         "Arthur Schnitzler an Theodor Herzl, 13. 6. 1893",
         "Arthur Schnitzler an Theodor Herzl, 21. 6. 1893",
+        "Arthur Schnitzler an Theodor Herzl, 4. 8. 1893",
         "Arthur Schnitzler an Theodor Herzl, 10. 12. 1893",
         "Arthur Schnitzler an Theodor Herzl, [17. 11. 1894?]",
         "Arthur Schnitzler an Theodor Herzl, 19. 1. 1895"
@@ -81,12 +81,18 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb49170",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Theodor Herzl, 1. 7. 1893"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb50",
-      "weight": 35,
+      "weight": 33,
       "titles": [
         "Arthur Schnitzler an Theodor Herzl, [23. oder 24. 4. 1889?]",
-        "Arthur Schnitzler an Theodor Herzl, 1. 7. 1893",
-        "Arthur Schnitzler an Theodor Herzl, 4. 8. 1893",
         "Arthur Schnitzler an Theodor Herzl, 28. 9. 1893",
         "Arthur Schnitzler an Theodor Herzl, 5. 7. 1894",
         "Arthur Schnitzler an Theodor Herzl, 10. 11. 1894",
