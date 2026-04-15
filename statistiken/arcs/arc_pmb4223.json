@@ -1,0 +1,52 @@
+{
+  "correspondent": "Mataja, Emilie",
+  "nodes": [
+    {
+      "id": "pmb339388",
+      "name": "",
+      "count": 1
+    },
+    {
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 7
+    },
+    {
+      "id": "pmb968",
+      "name": "Mödling",
+      "count": 1
+    }
+  ],
+  "links_from_schnitzler": [
+  ],
+  "links_to_schnitzler": [
+    {
+      "from": "pmb339388",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Emil Marriot an Arthur Schnitzler, 20. 6. 1902"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 5,
+      "titles": [
+        "Emil Marriot an Arthur Schnitzler, 27. 4. 1902",
+        "Emil Marriot an Arthur Schnitzler, 1. 5. 1902",
+        "Emil Marriot an Arthur Schnitzler, 7. 5. 1902",
+        "Emil Marriot an Arthur Schnitzler, 9. 5. 1902",
+        "Emil Marriot an Arthur Schnitzler, 9. 2. 1903"
+      ]
+    },
+    {
+      "from": "pmb968",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Emil Marriot, Rudolf Kobatsch und Heinrich [?] Mataja an Arthur Schnitzler, 20. 7. 1902"
+      ]
+    }
+  ]
+}

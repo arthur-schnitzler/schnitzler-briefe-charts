@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und
+                                    Autoren</title>
+            <title level="a">Statistik Arthur Schnitzler – Emilie Mataja</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+               <name>Gerd-Hermann Susen</name>
+               <name>Laura Untner</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2026-04-15Z</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_4223.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Inhaltsverzeichnis einzelner Korrespondenzen von
+                                    schnitzler-briefe</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item corresp="L04332">
+               <title level="a">Emil Marriot an Arthur Schnitzler, 27. 4. 1902</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb4223">Marriot, Emil</persName>
+                     <date when="1902-04-27" n="02">27. 4. 1902</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1902-04-27" notAfter="1902-04-30">[27. 4. 1902
+                  – 30. 4. 1902?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02633">Goldmann an Schnitzler, 27. 4. [1902?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03205">Goldmann an Schnitzler, 29. 4. [1902]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04333">Marriot an Schnitzler, 1. 5. 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1508"/>
+            </item>
+            <item corresp="L04333">
+               <title level="a">Emil Marriot an Arthur Schnitzler, 1. 5. 1902</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb4223">Marriot, Emil</persName>
+                     <date when="1902-05-01" n="01">1. 5. 1902</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1902-05-01" notAfter="1902-05-04">[1. 5. 1902 – 4. 5. 1902?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03205">Goldmann an Schnitzler, 29. 4. [1902]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01217">Schnitzler an Beer-Hofmann, 2. [5.?] 1902</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04332">Marriot an Schnitzler, 27. 4. 1902</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04334">Marriot an Schnitzler, 7. 5. 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="707"/>
+            </item>
+            <item corresp="L04334">
+               <title level="a">Emil Marriot an Arthur Schnitzler, 7. 5. 1902</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb4223">Marriot, Emil</persName>
+                     <date when="1902-05-07" n="01">7. 5. 1902</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1902-05-07" notAfter="1902-05-10">[7. 5. 1902 – 10. 5. 1902?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03207">Goldmann an Schnitzler, 5. 5. [1902]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04335">Marriot an Schnitzler, 9. 5. 1902</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04333">Marriot an Schnitzler, 1. 5. 1902</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04335">Marriot an Schnitzler, 9. 5. 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="270"/>
+            </item>
+            <item corresp="L04335">
+               <title level="a">Emil Marriot an Arthur Schnitzler, 9. 5. 1902</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb4223">Marriot, Emil</persName>
+                     <date when="1902-05-09" n="01">9. 5. 1902</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1902-05-10" notAfter="1902-05-14">[10. 5. 1902
+                  – 14. 5. 1902?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04334">Marriot an Schnitzler, 7. 5. 1902</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03208">Goldmann an Schnitzler, 12. 5. [1902]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04334">Marriot an Schnitzler, 7. 5. 1902</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04336">Marriot an Schnitzler, 20. 6. 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="762"/>
+            </item>
+            <item corresp="L04336">
+               <title level="a">Emil Marriot an Arthur Schnitzler, 20. 6. 1902</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb4223">Marriot, Emil</persName>
+                     <date when="1902-06-20" n="01">20. 6. 1902</date>
+                     <placeName ref="#pmb339388">Brodzany</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1902-06-24">24. 6. 1902</date>
+                     <placeName ref="#pmb339388">Brodzany</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1902-06-25">25. 6. 1902</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1902-06-25" notAfter="1902-06-26">[25. 6. 1902 –
+                  26. 6. 1902]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03211">Goldmann an Schnitzler, 16. 6. [1902]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03531">Goldmann an Gussmann, 20. 6. [1902]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04335">Marriot an Schnitzler, 9. 5. 1902</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04337">Marriot, Kobatsch, Mataja an Schnitzler, 20. 7. 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="306"/>
+            </item>
+            <item corresp="L04337">
+               <title level="a">Emil Marriot, Rudolf Kobatsch und Heinrich [?] Mataja an Arthur
+               Schnitzler, 20. 7. 1902</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb4223">Marriot, Emil</persName>
+                     <persName ref="#pmb98117">Kobatsch, Rudolf</persName>
+                     <persName ref="#pmb39096">Mataja, Heinrich</persName>
+                     <date when="1902-07-20" n="01">20. 7. 1902</date>
+                     <placeName ref="#pmb968">Mödling</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1902-07-20">20. 7. 1902</date>
+                     <placeName ref="#pmb968">Mödling</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1902-07-21">21. 7. 1902</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1902-07-21">21. 7. 1902</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01232">Beer-Hofmann an Schnitzler, 17. 7. 1902</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01233">Hofmannsthal an Schnitzler, 23. 7. 1902</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04336">Marriot an Schnitzler, 20. 6. 1902</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04338">Marriot an Schnitzler, 9. 2. 1903</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="255"/>
+            </item>
+            <item corresp="L04338">
+               <title level="a">Emil Marriot an Arthur Schnitzler, 9. 2. 1903</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb4223">Marriot, Emil</persName>
+                     <date when="1903-02-09" n="01">9. 2. 1903</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1903-02-10" notAfter="1903-02-14">[10. 2. 1903 – 14. 2. 1903?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02657">Goldmann an Schnitzler, [6.?] 2. 1903</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04144">Schnitzler an Schwarzkopf, 15. 2. 1903</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_4223"
+                          target="L04337">Marriot, Kobatsch, Mataja an Schnitzler, 20. 7. 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1785"/>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>
