@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-04-15Z</date>
+            <date>2026-04-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_26121.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -113,7 +113,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb26121">Torresani, Carl von</persName>
-                     <date when="1892-10-08" n="01">8. 10. [1892]</date>
+                     <date when="1892-10-08" n="03">8. 10. [1892]</date>
                      <placeName ref="#pmb50" evidence="internal">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -125,8 +125,8 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_26121">Torresani, Carl von</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_null">Bettelheim, Anton Torresani-Lanzenfeld, Carl von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00126">Schnitzler an Beer-Hofmann, 2. 10. 1892</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02957">Schnitzler an Salten, 8. 10. 1892</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03115">Salten an Schnitzler, [8. 10. 1892]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02702">Goldmann an Schnitzler, 9. 10. [1892]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_26121"

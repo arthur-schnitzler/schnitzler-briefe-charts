@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-04-15Z</date>
+            <date>2026-04-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -746,9 +746,14 @@
                      <date when="1893-09-19" n="01">19. 9. 1893</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1893-09-19">19. 9. 1893</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
-                     <date evidence="conjecture" notBefore="1893-09-20" notAfter="1893-09-24">[20. 9. 1893 – 24. 9. 1893?]</date>
+                     <date evidence="conjecture" notBefore="1893-09-20" notAfter="1893-09-24">[20. 9. 1893
+                  – 24. 9. 1893?]</date>
                      <placeName ref="#pmb662">Baden bei Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -778,7 +783,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
-                     <date evidence="conjecture" notBefore="1893-09-28" notAfter="1893-10-01">[28. 9. 1893 – 1. 10. 1893?]</date>
+                     <date evidence="conjecture" notBefore="1893-09-28" notAfter="1893-10-01">[28. 9. 1893
+                  – 1. 10. 1893?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -796,7 +802,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1254"/>
+               <measure unit="zeichenanzahl" quantity="1251"/>
             </item>
             <item corresp="L03833">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 8. 12. 1893</title>
@@ -808,8 +814,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1893-12-09" notAfter="1893-12-13">[9. 12. 1893 – 13. 12. 1893?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="external" notBefore="1893-12-09" notAfter="1893-12-10">[9. 12. 1893
+                  – 10. 12. 1893]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -826,7 +833,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="483"/>
+               <measure unit="zeichenanzahl" quantity="482"/>
             </item>
             <item corresp="L03907">
                <title level="a">Arthur Schnitzler an Theodor Herzl, 10. 12. 1893</title>
@@ -838,6 +845,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1893-12-11" notAfter="1893-12-15">[11. 12. 1893 – 15. 12. 1893?]</date>
                      <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
                   </correspAction>
                   <correspContext>
@@ -854,7 +862,8 @@
                           target="L03898">Herzl an Schnitzler, 3. 7. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="946"/>
             </item>
             <item corresp="L03898">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 3. 7. 1894</title>
@@ -866,8 +875,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1894-07-04" notAfter="1894-07-08">[4. 7. 1894 – 8. 7. 1894?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="external" notBefore="1894-07-04" notAfter="1894-07-05">[4. 7. 1894 – 5. 7. 1894]</date>
+                     <placeName ref="#pmb50" evidence="external">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -896,6 +905,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1894-07-05" notAfter="1894-07-08">[5. 7. 1894
+                  – 8. 7. 1894?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -912,7 +923,8 @@
                           target="L03834">Herzl an Schnitzler, 4. 9. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2649"/>
             </item>
             <item corresp="L03834">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 4. 9. 1894</title>
@@ -924,7 +936,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1894-09-04" notAfter="1894-09-07">[4. 9. 1894 – 7. 9. 1894?]</date>
+                     <date evidence="conjecture" notBefore="1894-09-04" notAfter="1894-09-07">[4. 9. 1894 –
+            7. 9. 1894?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
