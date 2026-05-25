@@ -1,0 +1,67 @@
+{
+  "projects": {
+    "schnitzler-bahr": {
+      "label": "Schnitzler/Bahr",
+      "color": "#639FF9",
+      "count": 968
+    },
+    "schnitzler-briefe": {
+      "label": "Briefe mit Autorinnen und Autoren",
+      "color": "#A63437",
+      "count": 2155
+    },
+    "schnitzler-interviews": {
+      "label": "Interviews",
+      "color": "#3D5A80",
+      "count": 409
+    },
+    "schnitzler-kultur": {
+      "label": "Kulturveranstaltungen",
+      "color": "#6B4C5A",
+      "count": 681
+    },
+    "schnitzler-tagebuch": {
+      "label": "Tagebuch",
+      "color": "#037a33",
+      "count": 2216
+    },
+    "wienerschnitzler": {
+      "label": "Wiener Schnitzler",
+      "color": "#6F5106",
+      "count": 4902
+    }
+  },
+  "intersections": {
+    "schnitzler-bahr|schnitzler-briefe": 582,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-interviews": 161,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-interviews|schnitzler-kultur": 55,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-interviews|schnitzler-kultur|schnitzler-tagebuch": 29,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-interviews|schnitzler-kultur|schnitzler-tagebuch|wienerschnitzler": 29,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-interviews|schnitzler-kultur|wienerschnitzler": 55,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-interviews|schnitzler-tagebuch": 113,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-interviews|schnitzler-tagebuch|wienerschnitzler": 73,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-interviews|wienerschnitzler": 107,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-kultur": 125,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-kultur|schnitzler-tagebuch": 59,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-kultur|schnitzler-tagebuch|wienerschnitzler": 59,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-kultur|wienerschnitzler": 125,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-tagebuch": 315,
+    "schnitzler-bahr|schnitzler-briefe|schnitzler-tagebuch|wienerschnitzler": 225,
+    "schnitzler-bahr|schnitzler-briefe|wienerschnitzler": 372,
+    "schnitzler-briefe|schnitzler-interviews": 253,
+    "schnitzler-briefe|schnitzler-interviews|schnitzler-kultur": 68,
+    "schnitzler-briefe|schnitzler-interviews|schnitzler-kultur|schnitzler-tagebuch": 35,
+    "schnitzler-briefe|schnitzler-interviews|schnitzler-kultur|schnitzler-tagebuch|wienerschnitzler": 35,
+    "schnitzler-briefe|schnitzler-interviews|schnitzler-kultur|wienerschnitzler": 68,
+    "schnitzler-briefe|schnitzler-interviews|schnitzler-tagebuch": 165,
+    "schnitzler-briefe|schnitzler-interviews|schnitzler-tagebuch|wienerschnitzler": 110,
+    "schnitzler-briefe|schnitzler-interviews|wienerschnitzler": 158,
+    "schnitzler-briefe|schnitzler-kultur": 195,
+    "schnitzler-briefe|schnitzler-kultur|schnitzler-tagebuch": 77,
+    "schnitzler-briefe|schnitzler-kultur|schnitzler-tagebuch|wienerschnitzler": 77,
+    "schnitzler-briefe|schnitzler-kultur|wienerschnitzler": 195,
+    "schnitzler-briefe|schnitzler-tagebuch": 719,
+    "schnitzler-briefe|schnitzler-tagebuch|wienerschnitzler": 523,
+    "schnitzler-briefe|wienerschnitzler": 920
+  }
+}

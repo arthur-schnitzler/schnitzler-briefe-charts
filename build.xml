@@ -120,6 +120,11 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <echo message="Starting Venn data calculation…"/>
+    <exec executable="python3" failonerror="true">
+        <arg value="${basedir}/make_venn_data.py"/>
+    </exec>
+    <echo message="Venn data calculation completed!"/>
     <delete dir="./data"/>
     <delete dir="${tmpDir}"/>
 </project>
