@@ -14,6 +14,7 @@ Entitäten ohne idno[@subtype='pmb'] werden übersprungen.
 import json
 import re
 import sys
+import urllib.request
 from itertools import combinations
 from pathlib import Path
 from lxml import etree
