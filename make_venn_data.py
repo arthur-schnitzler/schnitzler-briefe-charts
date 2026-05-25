@@ -14,18 +14,19 @@ Entitäten ohne idno[@subtype='pmb'] werden übersprungen.
 import json
 import re
 import sys
-import urllib.request
 from itertools import combinations
 from pathlib import Path
 from lxml import etree
+
+from download_pmb_lists import ensure_pmb_lists
 
 TEI = "http://www.tei-c.org/ns/1.0"
 NS = {"t": TEI}
 
 SCRIPT_DIR = Path(__file__).parent
 
-# Pfad zu den lokalen PMB-Gesamtlisten
-PMB_DIR = SCRIPT_DIR / "../schnitzler-fischer-data/data/indices-pmb"
+# Lokales PMB-Verzeichnis; wird bei Bedarf von pmb.acdh.oeaw.ac.at befüllt
+PMB_DIR = SCRIPT_DIR / "data/indices-pmb"
 
 # Projektliste – lokal oder per Download
 RELEVANT_URIS = SCRIPT_DIR / "../schnitzler-chronik-static/xslt/export/list-of-relevant-uris.xml"
@@ -135,6 +136,9 @@ def intersection_key(proj_ids):
 
 
 def main():
+    print("Stelle PMB-Gesamtlisten sicher …")
+    ensure_pmb_lists(PMB_DIR)
+
     print("Lade Projektliste …")
     if RELEVANT_URIS.exists():
         projects = load_projects(RELEVANT_URIS)

@@ -1,4 +1,17 @@
 {
-  "projects": {},
-  "intersections": {}
+  "projects": {
+    "schnitzler-briefe": {
+      "label": "Briefe mit Autorinnen und Autoren",
+      "color": "#A63437",
+      "count": 115
+    },
+    "schnitzler-kultur": {
+      "label": "Kulturveranstaltungen",
+      "color": "#6B4C5A",
+      "count": 6229
+    }
+  },
+  "intersections": {
+    "schnitzler-briefe|schnitzler-kultur": 66
+  }
 }
