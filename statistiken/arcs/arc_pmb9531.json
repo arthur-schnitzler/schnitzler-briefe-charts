@@ -1,8 +1,26 @@
 {
-  "correspondent": "",
+  "correspondent": "Rilke, Rainer Maria",
   "nodes": [
+    {
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 1
+    },
+    {
+      "id": "pmb652",
+      "name": "Prag",
+      "count": 1
+    }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb652",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899"
+      ]
+    }
   ],
   "links_to_schnitzler": [
   ]

@@ -1,8 +1,34 @@
 {
   "correspondent": {
     "id": "pmb9531",
-    "name": ""
+    "name": "Rilke, Rainer Maria"
   },
   "letters": [
+    {
+      "id": "L04341",
+      "title": "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899",
+      "type": "von schnitzler",
+      "date": "1899-04-13",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Rilke, Rainer Maria",
+        "ref": "pmb9531"
+      },
+      "from": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      },
+      "to": {
+        "name": "Prag",
+        "ref": "pmb652",
+        "lat": 50.08333,
+        "lon": 14.46667
+      }
+    }
   ]
 }
