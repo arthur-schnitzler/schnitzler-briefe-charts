@@ -14,6 +14,7 @@ Entitäten ohne idno[@subtype='pmb'] werden übersprungen.
 import json
 import re
 import sys
+import urllib.request
 from itertools import combinations
 from pathlib import Path
 from lxml import etree
@@ -26,8 +27,12 @@ SCRIPT_DIR = Path(__file__).parent
 # Pfad zu den lokalen PMB-Gesamtlisten
 PMB_DIR = SCRIPT_DIR / "../schnitzler-fischer-data/data/indices-pmb"
 
-# Projektliste
+# Projektliste – lokal oder per Download
 RELEVANT_URIS = SCRIPT_DIR / "../schnitzler-chronik-static/xslt/export/list-of-relevant-uris.xml"
+RELEVANT_URIS_URL = (
+    "https://raw.githubusercontent.com/arthur-schnitzler/"
+    "schnitzler-chronik-static/main/xslt/export/list-of-relevant-uris.xml"
+)
 
 # Externe Normdaten-Quellen, die nicht als Projektkollektionen zählen
 SKIP_SUBTYPES = {"pmb", "wikidata", "gnd", "wikipedia", "geonames", "oebl",
@@ -48,6 +53,28 @@ def load_projects(xml_path: Path) -> dict:
     """Liest Projekt-IDs, Labels und Farben aus list-of-relevant-uris.xml.
     Ignoriert Einträge mit type='print' oder 'print-online'."""
     tree = etree.parse(str(xml_path))
+    projects = {}
+    for item in tree.xpath("//item"):
+        if item.get("type") in ("print", "print-online"):
+            continue
+        abbr_el = item.find("abbr")
+        caption_el = item.find("caption")
+        color_el = item.find("color")
+        if abbr_el is None or color_el is None:
+            continue
+        pid = abbr_el.text.strip()
+        if pid in SKIP_SUBTYPES:
+            continue
+        projects[pid] = {
+            "label": (caption_el.text or pid).strip() if caption_el is not None else pid,
+            "color": color_el.text.strip(),
+        }
+    return projects
+
+
+def load_projects_from_bytes(xml_bytes: bytes) -> dict:
+    """Wie load_projects, aber aus einem Byte-String statt einer Datei."""
+    tree = etree.fromstring(xml_bytes)
     projects = {}
     for item in tree.xpath("//item"):
         if item.get("type") in ("print", "print-online"):
@@ -109,7 +136,13 @@ def intersection_key(proj_ids):
 
 def main():
     print("Lade Projektliste …")
-    projects = load_projects(RELEVANT_URIS)
+    if RELEVANT_URIS.exists():
+        projects = load_projects(RELEVANT_URIS)
+    else:
+        print(f"  Lokale Datei nicht gefunden, lade von {RELEVANT_URIS_URL}")
+        with urllib.request.urlopen(RELEVANT_URIS_URL) as resp:
+            xml_bytes = resp.read()
+        projects = load_projects_from_bytes(xml_bytes)
     print(f"  {len(projects)} relevante Sammlungen gefunden")
 
     OUTPUT_DIR = SCRIPT_DIR / "venn"
