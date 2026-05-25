@@ -134,8 +134,6 @@ def main():
         intersections_out = {}
         for size in range(2, len(available) + 1):
             for combo in combinations(available, size):
-                if "schnitzler-briefe" not in combo:
-                    continue
                 key = intersection_key(combo)
                 shared = project_sets[combo[0]].copy()
                 for pid in combo[1:]:
