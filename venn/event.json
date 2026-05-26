@@ -9,9 +9,28 @@
       "label": "Kulturveranstaltungen",
       "color": "#6B4C5A",
       "count": 6229
+    },
+    "wikidata": {
+      "label": "Wikidata",
+      "color": "#0645ad",
+      "count": 1
+    },
+    "wikipedia": {
+      "label": "Wikipedia",
+      "color": "#36c",
+      "count": 1
     }
   },
   "intersections": {
-    "schnitzler-briefe|schnitzler-kultur": 66
+    "schnitzler-briefe|schnitzler-kultur": 66,
+    "schnitzler-briefe|schnitzler-kultur|wikidata": 0,
+    "schnitzler-briefe|schnitzler-kultur|wikipedia": 0,
+    "schnitzler-briefe|wikidata": 0,
+    "schnitzler-briefe|wikidata|wikipedia": 0,
+    "schnitzler-briefe|wikipedia": 0,
+    "schnitzler-kultur|wikidata": 1,
+    "schnitzler-kultur|wikidata|wikipedia": 1,
+    "schnitzler-kultur|wikipedia": 1,
+    "wikidata|wikipedia": 1
   }
 }

@@ -3,12 +3,12 @@ Berechnet Venn-Daten (PMB-ID-Überschneidungen) für alle Projekte.
 Aufruf: python make_venn_data.py
 
 Datenquellen:
-  - PMB-Gesamtlisten: ../schnitzler-fischer-data/data/indices-pmb/
-    (aktualisierbar via: python ../schnitzler-fischer-data/pyscripts/download_pmb_lists.py)
-  - Projektliste: ../schnitzler-chronik-static/xslt/export/list-of-relevant-uris.xml
+  - PMB-Gesamtlisten: data/indices-pmb/  (wird bei Bedarf heruntergeladen)
+  - Projektliste: list-of-relevant-uris.xml (lokal oder via GitHub)
 
-Jede Entität wird anhand ihrer idno[@subtype='<projektname>'] den Projekten zugeordnet.
-Entitäten ohne idno[@subtype='pmb'] werden übersprungen.
+Projekte werden automatisch aus der Projektliste geladen.
+Nur Projekte mit mindestens einem PMB-Eintrag erscheinen in der Ausgabe.
+Schnittmengen werden für bis zu MAX_COMBO_SIZE Projekte berechnet.
 """
 
 import json
@@ -36,10 +36,16 @@ RELEVANT_URIS_URL = (
     "schnitzler-chronik-static/main/xslt/export/list-of-relevant-uris.xml"
 )
 
-# Externe Normdaten-Quellen, die nicht als Projektkollektionen zählen
-SKIP_SUBTYPES = {"pmb", "wikidata", "gnd", "wikipedia", "geonames", "oebl",
-                 "wiengeschichtewiki", "fackel", "legalkraus", "semantickraus",
-                 "kalliope-verbund", "dla-marbach"}
+# Einträge aus list-of-relevant-uris.xml, die nicht als Projektkollektionen
+# in den Venn-Diagrammen erscheinen sollen. Nur „pmb" selbst wird übersprungen,
+# da es die Gesamtdatenbank repräsentiert und keine sinnvolle Vergleichsgröße ist.
+# Neue Projekte müssen hier NICHT eingetragen werden – sie werden automatisch
+# aus list-of-relevant-uris.xml geladen, sofern sie PMB-Daten besitzen.
+SKIP_SUBTYPES = {"pmb"}
+
+# Maximale Anzahl von Projekten pro Schnittmenge.
+# Auf 3 begrenzt, um die Ausgabegröße handhabbar zu halten.
+MAX_COMBO_SIZE = 3
 
 # PMB-Dateien und zugehörige Entitäts-Tags
 ENTITY_TYPES = {
@@ -170,7 +176,7 @@ def main():
             }
 
         intersections_out = {}
-        for size in range(2, len(available) + 1):
+        for size in range(2, min(MAX_COMBO_SIZE, len(available)) + 1):
             for combo in combinations(available, size):
                 key = intersection_key(combo)
                 shared = project_sets[combo[0]].copy()

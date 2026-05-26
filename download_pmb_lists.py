@@ -13,6 +13,7 @@ Verwendung als Skript:
 """
 
 import sys
+import datetime
 import requests
 from pathlib import Path
 
@@ -43,8 +44,10 @@ def ensure_pmb_lists(out_dir: Path = PMB_DIR, force: bool = False) -> Path:
     errors = 0
     for filename, url in PMB_URLS.items():
         out_path = out_dir / filename
-        if out_path.exists() and not force:
-            print(f"📂 {filename} bereits vorhanden, wird übersprungen")
+        if not force and out_path.exists():
+            mtime = datetime.date.fromtimestamp(out_path.stat().st_mtime)
+            if mtime == datetime.date.today():
+                print(f"📂 {filename} bereits heute geladen, wird übersprungen")
             sys.stdout.flush()
             continue
         print(f"🌐 Lade {filename} von {url} ...")
