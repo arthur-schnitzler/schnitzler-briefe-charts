@@ -8,12 +8,12 @@
     "geonames": {
       "label": "geoNames",
       "color": "#363",
-      "count": 8381
+      "count": 8384
     },
     "gnd": {
       "label": "GND",
       "color": "#006AB3",
-      "count": 4909
+      "count": 4911
     },
     "legalkraus": {
       "label": "Rechtsakten",
@@ -58,7 +58,7 @@
     "semantickraus": {
       "label": "Semantic Kraus",
       "color": "#7D3C98",
-      "count": 1988
+      "count": 1987
     },
     "wienerschnitzler": {
       "label": "Wiener Schnitzler",
@@ -68,17 +68,17 @@
     "wiengeschichtewiki": {
       "label": "Wien Geschichte Wiki",
       "color": "#6F6938",
-      "count": 171
+      "count": 172
     },
     "wikidata": {
       "label": "Wikidata",
       "color": "#0645ad",
-      "count": 9390
+      "count": 9395
     },
     "wikipedia": {
       "label": "Wikipedia",
       "color": "#36c",
-      "count": 7636
+      "count": 7666
     }
   },
   "intersections": {
@@ -202,20 +202,20 @@
     "dla-marbach|wikidata": 3,
     "dla-marbach|wikidata|wikipedia": 3,
     "dla-marbach|wikipedia": 3,
-    "geonames|gnd": 2796,
-    "geonames|gnd|legalkraus": 111,
+    "geonames|gnd": 2800,
+    "geonames|gnd|legalkraus": 112,
     "geonames|gnd|schnitzler-bahr": 160,
     "geonames|gnd|schnitzler-briefe": 304,
     "geonames|gnd|schnitzler-fischer": 146,
     "geonames|gnd|schnitzler-interviews": 84,
     "geonames|gnd|schnitzler-kultur": 52,
-    "geonames|gnd|schnitzler-tagebuch": 373,
+    "geonames|gnd|schnitzler-tagebuch": 374,
     "geonames|gnd|schoenberg-ue": 92,
-    "geonames|gnd|semantickraus": 454,
+    "geonames|gnd|semantickraus": 455,
     "geonames|gnd|wienerschnitzler": 461,
     "geonames|gnd|wiengeschichtewiki": 0,
-    "geonames|gnd|wikidata": 2723,
-    "geonames|gnd|wikipedia": 2492,
+    "geonames|gnd|wikidata": 2727,
+    "geonames|gnd|wikipedia": 2512,
     "geonames|legalkraus": 283,
     "geonames|legalkraus|schnitzler-bahr": 85,
     "geonames|legalkraus|schnitzler-briefe": 131,
@@ -250,7 +250,7 @@
     "geonames|schnitzler-briefe|semantickraus": 333,
     "geonames|schnitzler-briefe|wienerschnitzler": 493,
     "geonames|schnitzler-briefe|wiengeschichtewiki": 5,
-    "geonames|schnitzler-briefe|wikidata": 758,
+    "geonames|schnitzler-briefe|wikidata": 759,
     "geonames|schnitzler-briefe|wikipedia": 741,
     "geonames|schnitzler-fischer": 224,
     "geonames|schnitzler-fischer|schnitzler-interviews": 82,
@@ -304,22 +304,22 @@
     "geonames|wiengeschichtewiki": 5,
     "geonames|wiengeschichtewiki|wikidata": 3,
     "geonames|wiengeschichtewiki|wikipedia": 3,
-    "geonames|wikidata": 5826,
-    "geonames|wikidata|wikipedia": 5126,
-    "geonames|wikipedia": 5134,
-    "gnd|legalkraus": 117,
+    "geonames|wikidata": 5830,
+    "geonames|wikidata|wikipedia": 5149,
+    "geonames|wikipedia": 5157,
+    "gnd|legalkraus": 118,
     "gnd|legalkraus|schnitzler-bahr": 56,
     "gnd|legalkraus|schnitzler-briefe": 81,
     "gnd|legalkraus|schnitzler-fischer": 53,
     "gnd|legalkraus|schnitzler-interviews": 42,
     "gnd|legalkraus|schnitzler-kultur": 32,
-    "gnd|legalkraus|schnitzler-tagebuch": 84,
+    "gnd|legalkraus|schnitzler-tagebuch": 85,
     "gnd|legalkraus|schoenberg-ue": 39,
-    "gnd|legalkraus|semantickraus": 95,
+    "gnd|legalkraus|semantickraus": 96,
     "gnd|legalkraus|wienerschnitzler": 61,
     "gnd|legalkraus|wiengeschichtewiki": 0,
-    "gnd|legalkraus|wikidata": 112,
-    "gnd|legalkraus|wikipedia": 112,
+    "gnd|legalkraus|wikidata": 113,
+    "gnd|legalkraus|wikipedia": 113,
     "gnd|schnitzler-bahr": 167,
     "gnd|schnitzler-bahr|schnitzler-briefe": 143,
     "gnd|schnitzler-bahr|schnitzler-fischer": 87,
@@ -370,13 +370,13 @@
     "gnd|schnitzler-kultur|wiengeschichtewiki": 0,
     "gnd|schnitzler-kultur|wikidata": 128,
     "gnd|schnitzler-kultur|wikipedia": 119,
-    "gnd|schnitzler-tagebuch": 380,
+    "gnd|schnitzler-tagebuch": 381,
     "gnd|schnitzler-tagebuch|schoenberg-ue": 72,
-    "gnd|schnitzler-tagebuch|semantickraus": 269,
+    "gnd|schnitzler-tagebuch|semantickraus": 270,
     "gnd|schnitzler-tagebuch|wienerschnitzler": 260,
     "gnd|schnitzler-tagebuch|wiengeschichtewiki": 0,
-    "gnd|schnitzler-tagebuch|wikidata": 376,
-    "gnd|schnitzler-tagebuch|wikipedia": 374,
+    "gnd|schnitzler-tagebuch|wikidata": 377,
+    "gnd|schnitzler-tagebuch|wikipedia": 375,
     "gnd|schoenberg-ue": 94,
     "gnd|schoenberg-ue|semantickraus": 72,
     "gnd|schoenberg-ue|wienerschnitzler": 53,
@@ -386,8 +386,8 @@
     "gnd|semantickraus": 838,
     "gnd|semantickraus|wienerschnitzler": 184,
     "gnd|semantickraus|wiengeschichtewiki": 0,
-    "gnd|semantickraus|wikidata": 703,
-    "gnd|semantickraus|wikipedia": 695,
+    "gnd|semantickraus|wikidata": 704,
+    "gnd|semantickraus|wikipedia": 696,
     "gnd|wienerschnitzler": 684,
     "gnd|wienerschnitzler|wiengeschichtewiki": 0,
     "gnd|wienerschnitzler|wikidata": 677,
@@ -395,9 +395,9 @@
     "gnd|wiengeschichtewiki": 1,
     "gnd|wiengeschichtewiki|wikidata": 1,
     "gnd|wiengeschichtewiki|wikipedia": 1,
-    "gnd|wikidata": 4228,
-    "gnd|wikidata|wikipedia": 3919,
-    "gnd|wikipedia": 3919,
+    "gnd|wikidata": 4231,
+    "gnd|wikidata|wikipedia": 3939,
+    "gnd|wikipedia": 3939,
     "legalkraus|schnitzler-bahr": 146,
     "legalkraus|schnitzler-bahr|schnitzler-briefe": 116,
     "legalkraus|schnitzler-bahr|schnitzler-fischer": 45,
@@ -594,7 +594,7 @@
     "schnitzler-briefe|wiengeschichtewiki": 63,
     "schnitzler-briefe|wiengeschichtewiki|wikidata": 24,
     "schnitzler-briefe|wiengeschichtewiki|wikipedia": 20,
-    "schnitzler-briefe|wikidata": 1140,
+    "schnitzler-briefe|wikidata": 1141,
     "schnitzler-briefe|wikidata|wikipedia": 1066,
     "schnitzler-briefe|wikipedia": 1070,
     "schnitzler-fischer|schnitzler-interviews": 87,
@@ -752,15 +752,15 @@
     "semantickraus|wikidata": 1162,
     "semantickraus|wikidata|wikipedia": 1147,
     "semantickraus|wikipedia": 1148,
-    "wienerschnitzler|wiengeschichtewiki": 120,
-    "wienerschnitzler|wiengeschichtewiki|wikidata": 41,
-    "wienerschnitzler|wiengeschichtewiki|wikipedia": 21,
+    "wienerschnitzler|wiengeschichtewiki": 121,
+    "wienerschnitzler|wiengeschichtewiki|wikidata": 42,
+    "wienerschnitzler|wiengeschichtewiki|wikipedia": 22,
     "wienerschnitzler|wikidata": 2239,
     "wienerschnitzler|wikidata|wikipedia": 1705,
     "wienerschnitzler|wikipedia": 1705,
-    "wiengeschichtewiki|wikidata": 55,
-    "wiengeschichtewiki|wikidata|wikipedia": 31,
-    "wiengeschichtewiki|wikipedia": 31,
-    "wikidata|wikipedia": 7624
+    "wiengeschichtewiki|wikidata": 56,
+    "wiengeschichtewiki|wikidata|wikipedia": 32,
+    "wiengeschichtewiki|wikipedia": 32,
+    "wikidata|wikipedia": 7654
   }
 }
