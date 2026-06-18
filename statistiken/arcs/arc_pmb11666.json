@@ -4,7 +4,7 @@
     {
       "id": "pmb46000",
       "name": "Grundlsee [Gemeinde]",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb50",
@@ -19,7 +19,7 @@
     {
       "id": "pmb958",
       "name": "Skodsborg",
-      "count": 1
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
@@ -31,6 +31,14 @@
         "Arthur Schnitzler an Marie Herzfeld, 24. 1. 1908",
         "Arthur Schnitzler an Marie Herzfeld, 20. 4. 1909",
         "Arthur Schnitzler an Marie Herzfeld, 7. 3. 1931"
+      ]
+    },
+    {
+      "from": "pmb958",
+      "to": "pmb46000",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Marie Herzfeld, 19. 8. 1896"
       ]
     }
   ],

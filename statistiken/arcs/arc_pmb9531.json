@@ -2,9 +2,14 @@
   "correspondent": "Rilke, Rainer Maria",
   "nodes": [
     {
+      "id": "pmb168",
+      "name": "Berlin",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb652",
@@ -13,6 +18,22 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, 20. 1. 1900"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, 17. 1. 1902"
+      ]
+    },
     {
       "from": "pmb50",
       "to": "pmb652",
