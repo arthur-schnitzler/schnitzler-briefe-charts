@@ -113,29 +113,53 @@ def extract_pmb_id(entity_el) -> str | None:
     return xml_id if xml_id.startswith("pmb") else None
 
 
-def build_project_sets(pmb_file: Path, entity_tag: str, projects: dict) -> dict:
+# Geschlechtskategorien für den Gender-Filter (nur Personen).
+# PMB kodiert das Geschlecht als <sex value="male|female|not-set|…"/>.
+# Alles außer male/female wird zu "unknown" zusammengefasst (= unbekannt).
+SEXES = ["male", "female", "unknown"]
+
+
+def extract_sex(entity_el) -> str:
+    """Liefert 'male', 'female' oder 'unknown' für eine Person."""
+    sex_el = entity_el.find(f"{{{TEI}}}sex")
+    if sex_el is not None:
+        value = sex_el.get("value", "")
+        if value in ("male", "female"):
+            return value
+    return "unknown"
+
+
+def build_project_sets(pmb_file: Path, entity_tag: str, projects: dict,
+                       with_sex: bool = False):
     """
     Liest eine PMB-Liste und gibt {projekt_id: set[pmb_id]} zurück.
     Jede Entität wird genau einmal pro Projekt gezählt.
+
+    Mit with_sex=True wird zusätzlich {pmb_id: 'male'|'female'|'unknown'}
+    zurückgegeben (Tupel). Nur für Personen sinnvoll.
     """
     if not pmb_file.exists():
         print(f"  ⚠ Datei nicht gefunden: {pmb_file}", file=sys.stderr)
-        return {}
+        return ({}, {}) if with_sex else {}
 
     tree = etree.parse(str(pmb_file))
     project_sets = {pid: set() for pid in projects}
+    sex_of = {}
 
     for entity in tree.xpath(f".//t:{entity_tag}", namespaces=NS):
         pmb_id = extract_pmb_id(entity)
         if not pmb_id:
             continue
 
+        if with_sex:
+            sex_of[pmb_id] = extract_sex(entity)
+
         for idno in entity.findall(f"{{{TEI}}}idno"):
             subtype = idno.get("subtype", "")
             if subtype in project_sets:
                 project_sets[subtype].add(pmb_id)
 
-    return project_sets
+    return (project_sets, sex_of) if with_sex else project_sets
 
 
 def intersection_key(proj_ids):
@@ -163,7 +187,12 @@ def main():
         print(f"Processing {entity_type}…")
 
         pmb_file = PMB_DIR / filename
-        project_sets = build_project_sets(pmb_file, entity_tag, projects)
+        with_sex = entity_type == "person"
+        if with_sex:
+            project_sets, sex_of = build_project_sets(
+                pmb_file, entity_tag, projects, with_sex=True)
+        else:
+            project_sets = build_project_sets(pmb_file, entity_tag, projects)
 
         available = sorted(pid for pid in projects if project_sets.get(pid))
 
@@ -187,6 +216,32 @@ def main():
         intersections_out = dict(sorted(intersections_out.items()))
 
         out = {"projects": projects_out, "intersections": intersections_out}
+
+        # Gender-Filter (nur Personen): pro Geschlecht die Projektzahlen und
+        # Schnittmengen, jeweils auf Personen dieses Geschlechts beschränkt.
+        # Die obersten Felder (count/intersections) bleiben die Gesamtwerte
+        # (= „alle"), sodass bestehende Auswertungen unverändert funktionieren.
+        if with_sex:
+            by_sex = {}
+            for sex in SEXES:
+                sex_sets = {
+                    pid: {x for x in project_sets[pid] if sex_of.get(x) == sex}
+                    for pid in available
+                }
+                counts_sex = {pid: len(sex_sets[pid]) for pid in available}
+                inter_sex = {}
+                for size in range(2, min(MAX_COMBO_SIZE, len(available)) + 1):
+                    for combo in combinations(available, size):
+                        shared = sex_sets[combo[0]].copy()
+                        for pid in combo[1:]:
+                            shared &= sex_sets[pid]
+                        inter_sex[intersection_key(combo)] = len(shared)
+                by_sex[sex] = {
+                    "counts": counts_sex,
+                    "intersections": dict(sorted(inter_sex.items())),
+                }
+            out["by_sex"] = by_sex
+
         out_path = OUTPUT_DIR / f"{entity_type}.json"
         out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"  → {out_path} ({len(available)} Projekte, {len(intersections_out)} Schnittmengen)")

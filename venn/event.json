@@ -1,5 +1,10 @@
 {
   "projects": {
+    "burgtheater": {
+      "label": "Burgtheater",
+      "color": "#8B0000",
+      "count": 6678
+    },
     "schnitzler-briefe": {
       "label": "Briefe mit Autorinnen und Autoren",
       "color": "#A63437",
@@ -22,6 +27,16 @@
     }
   },
   "intersections": {
+    "burgtheater|schnitzler-briefe": 0,
+    "burgtheater|schnitzler-briefe|schnitzler-kultur": 0,
+    "burgtheater|schnitzler-briefe|wikidata": 0,
+    "burgtheater|schnitzler-briefe|wikipedia": 0,
+    "burgtheater|schnitzler-kultur": 30,
+    "burgtheater|schnitzler-kultur|wikidata": 0,
+    "burgtheater|schnitzler-kultur|wikipedia": 0,
+    "burgtheater|wikidata": 0,
+    "burgtheater|wikidata|wikipedia": 0,
+    "burgtheater|wikipedia": 0,
     "schnitzler-briefe|schnitzler-kultur": 66,
     "schnitzler-briefe|schnitzler-kultur|wikidata": 0,
     "schnitzler-briefe|schnitzler-kultur|wikipedia": 0,
