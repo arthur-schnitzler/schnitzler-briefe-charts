@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-06-17Z</date>
+            <date>2026-06-26Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -3304,7 +3304,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03841">Herzl an Schnitzler, 29. 12. 1894</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00413">Schnitzler an Beer-Hofmann, 31. 12. 1894</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00413">Schnitzler, Hofmannsthal an Beer-Hofmann, 31. 12. 1894</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -7988,7 +7988,7 @@
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00977">Schnitzler an Beer-Hofmann, 19. 9. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00979">Schnitzler an Beer-Hofmann, 2[0?]. 9. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00979">Schnitzler, Goldmann an Beer-Hofmann, 2[0?]. 9. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -7996,7 +7996,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L00979">Schnitzler an Beer-Hofmann, 2[0?]. 9. 1899</ref>
+                          target="L00979">Schnitzler, Goldmann an Beer-Hofmann, 2[0?]. 9. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -10469,7 +10469,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04357">Schnitzler an Schwarzkopf, 17. 8. 1903</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02631">Goldmann an Schnitzler, 17. 8. 1903</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03384">Goldmann, Rottenberg an Schnitzler, 18. 8. [1903]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -10762,7 +10762,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="827"/>
+               <measure unit="zeichenanzahl" quantity="828"/>
             </item>
             <item corresp="L01336">
                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 6. 11. 1903</title>
@@ -15187,7 +15187,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01796">Hofmannsthal an Schnitzler, 31. 10. 1908</ref>
+                          target="L01796">Hofmannsthal, Hofmannsthal an Schnitzler, 31. 10. 1908</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
@@ -15199,6 +15199,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
+                     <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
                      <date when="1908-10-31" n="01">31. 10. 1908</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
@@ -15245,7 +15246,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01796">Hofmannsthal an Schnitzler, 31. 10. 1908</ref>
+                          target="L01796">Hofmannsthal, Hofmannsthal an Schnitzler, 31. 10. 1908</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -17614,7 +17615,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03769">Schnitzler an Zweig, 5. 5. 1915</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03614">Schnitzler an Salten, [29. 5. 1915?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03614">Schnitzler, Schmutzer an Salten, [29. 5. 1915?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
