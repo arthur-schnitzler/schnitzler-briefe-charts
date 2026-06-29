@@ -22,6 +22,11 @@
       "count": 2
     },
     {
+      "id": "pmb20650",
+      "name": "Thusis",
+      "count": 1
+    },
+    {
       "id": "pmb212",
       "name": "St. Anton am Arlberg",
       "count": 1
@@ -292,11 +297,6 @@
       "count": 2
     },
     {
-      "id": "pmb91899",
-      "name": "Thusis",
-      "count": 1
-    },
-    {
       "id": "pmb946",
       "name": "Vahrn",
       "count": 4
@@ -364,6 +364,14 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 8. 8. 1911"
+      ]
+    },
+    {
+      "from": "pmb20650",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler, Richard Beer-Hofmann, Alfred Kerr und Paul Goldmann an Gustav Schwarzkopf, [19. 8. 1900]"
       ]
     },
     {
@@ -861,14 +869,6 @@
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 21. 7. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 27. 7. 1899"
-      ]
-    },
-    {
-      "from": "pmb91899",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler, Richard Beer-Hofmann, Alfred Kerr und Paul Goldmann an Gustav Schwarzkopf, [19. 8. 1900]"
       ]
     },
     {

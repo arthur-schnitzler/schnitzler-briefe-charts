@@ -92,6 +92,11 @@
       "count": 1
     },
     {
+      "id": "pmb20650",
+      "name": "Thusis",
+      "count": 1
+    },
+    {
       "id": "pmb212",
       "name": "St. Anton am Arlberg",
       "count": 1
@@ -374,11 +379,6 @@
     {
       "id": "pmb91490",
       "name": "Prato Piazza",
-      "count": 1
-    },
-    {
-      "id": "pmb91899",
-      "name": "Thusis",
       "count": 1
     },
     {
@@ -884,6 +884,14 @@
     },
     {
       "from": "pmb213",
+      "to": "pmb20650",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 18. 8. 1900"
+      ]
+    },
+    {
+      "from": "pmb213",
       "to": "pmb36300",
       "weight": 1,
       "titles": [
@@ -896,14 +904,6 @@
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 14. 8. 1900"
-      ]
-    },
-    {
-      "from": "pmb213",
-      "to": "pmb91899",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 18. 8. 1900"
       ]
     },
     {
