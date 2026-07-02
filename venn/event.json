@@ -8,7 +8,7 @@
     "schnitzler-briefe": {
       "label": "Briefe mit Autorinnen und Autoren",
       "color": "#A63437",
-      "count": 115
+      "count": 335
     },
     "schnitzler-kultur": {
       "label": "Kulturveranstaltungen",
@@ -27,7 +27,7 @@
     }
   },
   "intersections": {
-    "burgtheater|schnitzler-briefe": 0,
+    "burgtheater|schnitzler-briefe": 1,
     "burgtheater|schnitzler-briefe|schnitzler-kultur": 0,
     "burgtheater|schnitzler-briefe|wikidata": 0,
     "burgtheater|schnitzler-briefe|wikipedia": 0,
@@ -37,7 +37,7 @@
     "burgtheater|wikidata": 0,
     "burgtheater|wikidata|wikipedia": 0,
     "burgtheater|wikipedia": 0,
-    "schnitzler-briefe|schnitzler-kultur": 66,
+    "schnitzler-briefe|schnitzler-kultur": 200,
     "schnitzler-briefe|schnitzler-kultur|wikidata": 0,
     "schnitzler-briefe|schnitzler-kultur|wikipedia": 0,
     "schnitzler-briefe|wikidata": 0,

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-06-30Z</date>
+            <date>2026-07-02Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_9941.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -335,7 +335,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1743"/>
+               <measure unit="zeichenanzahl" quantity="1737"/>
             </item>
             <item corresp="L04231">
                <title level="a">Theodor von Sosnosky an Arthur Schnitzler, 26. 5. 1901</title>
@@ -437,9 +437,14 @@
                      <date when="1901-10-10" n="01">10. 10. 1901</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1901-10-11">11. 10. 1901</date>
+                     <placeName ref="#pmb59">Wien 9</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb9941">Sosnosky, Theodor von</persName>
-                     <date evidence="conjecture" notBefore="1901-10-11" notAfter="1901-10-15">[11. 10. 1901 – 15. 10. 1901?]</date>
+                     <date when="1901-10-12">12. 10. 1901</date>
+                     <placeName ref="#pmb90217">Alland</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9941">Sosnosky, Theodor von</ref>
