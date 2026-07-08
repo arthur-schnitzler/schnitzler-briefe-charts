@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-07-02Z</date>
+            <date>2026-07-08Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2128.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -119,30 +119,30 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2128"
-                          target="L03701">Plessner an Schnitzler, 15. 9. 1896</ref>
+                          target="L03701">Plessner an Schnitzler, 14. 9. 1896</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="2065"/>
             </item>
             <item corresp="L03701">
-               <title level="a">Elsa Plessner an Arthur Schnitzler, 15. 9. 1896</title>
+               <title level="a">Elsa Plessner an Arthur Schnitzler, 14. 9. 1896</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
-                     <date when="1896-09-15" n="02">15. 9. 1896</date>
+                     <date when="1896-09-14" n="03">14. 9. 1896</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1896-09-16" notAfter="1896-09-20">[16. 9. 1896
+                     <date evidence="conjecture" notBefore="1896-09-14" notAfter="1896-09-20">[14. 9. 1896
                   – 20. 9. 1896?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00591">Beer-Hofmann an Schnitzler, 15. 9. 1896</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03702">Plessner an Schnitzler, 15. 9. 1896</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00590">Schnitzler an Beer-Hofmann, 14. 9. 1896</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00591">Beer-Hofmann an Schnitzler, 15. 9. 1896</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2128"
@@ -172,12 +172,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03701">Plessner an Schnitzler, 15. 9. 1896</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00591">Beer-Hofmann an Schnitzler, 15. 9. 1896</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00592">Schnitzler an Beer-Hofmann, 16. 9. 1896</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2128"
-                          target="L03701">Plessner an Schnitzler, 15. 9. 1896</ref>
+                          target="L03701">Plessner an Schnitzler, 14. 9. 1896</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2128"
@@ -706,7 +706,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="482"/>
+               <measure unit="zeichenanzahl" quantity="481"/>
             </item>
             <item corresp="L03715">
                <title level="a">Elsa Plessner an Arthur Schnitzler, 9. 8. 1897</title>

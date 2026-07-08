@@ -1636,12 +1636,17 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Dänemark",
-        "ref": "pmb43570",
-        "lat": 56.0,
-        "lon": 10.0
+        "name": "Kopenhagen",
+        "ref": "pmb36300",
+        "lat": 55.67594,
+        "lon": 12.56553
       },
-      "to": null
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
     },
     {
       "id": "L02035",
