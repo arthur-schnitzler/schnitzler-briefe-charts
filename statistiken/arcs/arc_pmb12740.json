@@ -2,6 +2,11 @@
   "correspondent": "Schwarzkopf, Gustav",
   "nodes": [
     {
+      "id": "pmb100524",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb12589",
       "name": "Celerina",
       "count": 4
@@ -37,6 +42,11 @@
       "count": 16
     },
     {
+      "id": "pmb228",
+      "name": "Baden-Baden",
+      "count": 1
+    },
+    {
       "id": "pmb2318",
       "name": "Partenkirchen",
       "count": 2
@@ -49,7 +59,7 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb332",
@@ -87,8 +97,18 @@
       "count": 2
     },
     {
+      "id": "pmb34946",
+      "name": "Pontresina",
+      "count": 1
+    },
+    {
       "id": "pmb36300",
       "name": "Kopenhagen",
+      "count": 1
+    },
+    {
+      "id": "pmb36464",
+      "name": "Ouchy",
       "count": 1
     },
     {
@@ -137,6 +157,11 @@
       "count": 1
     },
     {
+      "id": "pmb44252",
+      "name": "Gilleleje",
+      "count": 1
+    },
+    {
       "id": "pmb44278",
       "name": "Pörtschach am Wörthersee",
       "count": 1
@@ -154,12 +179,12 @@
     {
       "id": "pmb445",
       "name": "Rom",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb45260",
@@ -199,7 +224,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 313
+      "count": 326
     },
     {
       "id": "pmb506",
@@ -219,6 +244,11 @@
     {
       "id": "pmb562",
       "name": "Genf",
+      "count": 1
+    },
+    {
+      "id": "pmb58684",
+      "name": "Regensburg",
       "count": 1
     },
     {
@@ -327,12 +357,30 @@
       "count": 3
     },
     {
+      "id": "pmb974",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb987",
       "name": "Toblach",
       "count": 2
+    },
+    {
+      "id": "pmb994",
+      "name": "Genua",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb100524",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 6. 6. 1898"
+      ]
+    },
     {
       "from": "pmb12589",
       "to": "pmb50",
@@ -415,6 +463,14 @@
       ]
     },
     {
+      "from": "pmb228",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 3. 7. 1923"
+      ]
+    },
+    {
       "from": "pmb2318",
       "to": "pmb50",
       "weight": 2,
@@ -434,10 +490,12 @@
     {
       "from": "pmb30",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 4,
       "titles": [
+        "Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 17. 6. 1901",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 14. 1. 1903",
-        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 2. 2. 1914"
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 2. 2. 1914",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 5. 8. 1923"
       ]
     },
     {
@@ -454,6 +512,22 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 27. 8. 1913"
+      ]
+    },
+    {
+      "from": "pmb34946",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler, Richard Beer-Hofmann und Paul Goldmann an Gustav Schwarzkopf, 23. 8. 1900"
+      ]
+    },
+    {
+      "from": "pmb36464",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler, Hugo von Hofmannsthal, Gisela und Markus Hajek an Gustav Schwarzkopf, 17. 8. 1898"
       ]
     },
     {
@@ -514,6 +588,14 @@
       ]
     },
     {
+      "from": "pmb44252",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 11. 5. 1923"
+      ]
+    },
+    {
       "from": "pmb44278",
       "to": "pmb50",
       "weight": 1,
@@ -532,17 +614,19 @@
     {
       "from": "pmb445",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 9. 4. 1901",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 4. 5. 1904"
       ]
     },
     {
       "from": "pmb45258",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
         "Arthur und Olga Schnitzler und Paul Marx an Gustav Schwarzkopf, 7. 9. 1913",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 28. 1. 1914",
         "Arthur Schnitzler an Gustav Schwarzkopf, 23. 4. 1922"
       ]
     },
@@ -622,7 +706,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 146,
+      "weight": 147,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, [zwischen 21. 3. 1892 und 30. 3. 1892?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 26. 7. 1892",
@@ -768,6 +852,7 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, 20. 12. 1911",
         "Arthur Schnitzler an Gustav Schwarzkopf, [3.?] 2. 1912",
         "Arthur Schnitzler an Gustav Schwarzkopf, 3. 6. 1913",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 2[3?]. 7. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 10. 1919",
         "Arthur Schnitzler an Gustav Schwarzkopf, 4. 1. 1925"
       ]
@@ -819,6 +904,14 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 30. 5. 1910"
+      ]
+    },
+    {
+      "from": "pmb58684",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 25. 1. 1914"
       ]
     },
     {
@@ -930,11 +1023,27 @@
       ]
     },
     {
+      "from": "pmb974",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 28. 4. 1922"
+      ]
+    },
+    {
       "from": "pmb987",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 1. 8. 1899"
+      ]
+    },
+    {
+      "from": "pmb994",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 3. 1901"
       ]
     }
   ],
