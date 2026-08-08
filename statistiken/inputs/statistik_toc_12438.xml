@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-08-07Z</date>
+            <date>2026-08-08Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12438.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -701,7 +701,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02208">Schnitzler an Adam, 18. 6. 1915</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02210">Schnitzler an Adam, 29. 6. 1915</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04484">Schnitzler, Schnitzler an Schwarzkopf, 26. 6. 1915</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
@@ -709,42 +709,11 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02210">Schnitzler an Adam, 29. 6. 1915</ref>
+                          target="L02213">Schnitzler an Adam, 11. 7. 1915</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1667"/>
-            </item>
-            <item corresp="L02210">
-               <title level="a">Arthur Schnitzler an Robert Adam, 29. 6. 1915</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1915-06-29" n="01">29. 6. 1915</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb12438">Adam, Robert</persName>
-                     <date evidence="conjecture" notBefore="1915-06-29" notAfter="1915-07-01">[29. 6. 1915
-                  – 3. 7. 1915?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02209">Adam an Schnitzler, 22. 6. 1915</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02211">Beer-Hofmann an Schnitzler, 29. 6. 1915</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_12438"
-                          target="L02209">Adam an Schnitzler, 22. 6. 1915</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_12438"
-                          target="L02213">Schnitzler an Adam, 11. 7. 1915</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="906"/>
             </item>
             <item corresp="L02213">
                <title level="a">Arthur Schnitzler an Robert Adam, 11. 7. 1915</title>
@@ -762,12 +731,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04246">Schwarzkopf an Schnitzler, 5. 7. 1915</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04489">Schnitzler an Schwarzkopf, 9. 7. 1915</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02214">Schnitzler an Adam, 13. [7. 1915?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02210">Schnitzler an Adam, 29. 6. 1915</ref>
+                          target="L02209">Adam an Schnitzler, 22. 6. 1915</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
@@ -886,7 +855,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04245">Schwarzkopf an Schnitzler, 10. 8. 1915</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04490">Schnitzler an Schwarzkopf, 13. 8. 1915</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03655">Zweig an Schnitzler, 13. 10. 1915</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -1041,7 +1010,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02228">Schnitzler an Adam, 18. 5. 1916</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02230">Schnitzler an Adam, 10. 7. 1916</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02210">Schnitzler an Adam, 29. 6. 1916</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
@@ -1049,11 +1018,42 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02230">Schnitzler an Adam, 10. 7. 1916</ref>
+                          target="L02210">Schnitzler an Adam, 29. 6. 1916</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="348"/>
+            </item>
+            <item corresp="L02210">
+               <title level="a">Arthur Schnitzler an Robert Adam, 29. 6. 1916</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1916-06-29" n="01">29. 6. 1916</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb12438">Adam, Robert</persName>
+                     <date evidence="conjecture" notBefore="1916-06-29" notAfter="1916-07-01">[29. 6. 1916
+                  – 3. 7. 1916?]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02229">Adam an Schnitzler, 21. 5. 1916</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02230">Schnitzler an Adam, 10. 7. 1916</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12438"
+                          target="L02229">Adam an Schnitzler, 21. 5. 1916</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12438"
+                          target="L02230">Schnitzler an Adam, 10. 7. 1916</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="906"/>
             </item>
             <item corresp="L02230">
                <title level="a">Arthur Schnitzler an Robert Adam, 10. 7. 1916</title>
@@ -1071,12 +1071,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02229">Adam an Schnitzler, 21. 5. 1916</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02210">Schnitzler an Adam, 29. 6. 1916</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02231">Schnitzler an Adam, 14. 7. 1916</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02229">Adam an Schnitzler, 21. 5. 1916</ref>
+                          target="L02210">Schnitzler an Adam, 29. 6. 1916</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"

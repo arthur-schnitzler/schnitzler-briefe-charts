@@ -36,10 +36,10 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Auguste Glümer",13,Directed
 "Mamroth, Fedor","Rudolf Lothar",12,Directed
 "Mamroth, Fedor","Vally Rosengart",12,Directed
-"Mamroth, Fedor","Moriz Benedikt",12,Directed
 "Mamroth, Fedor","Hermann Sudermann",12,Directed
 "Mamroth, Fedor","Lou Andreas-Salomé",12,Directed
 "Mamroth, Fedor","Paul Lindau",11,Directed
+"Mamroth, Fedor","Moriz Benedikt",11,Directed
 "Mamroth, Fedor","Friedrich Kapper",10,Directed
 "Mamroth, Fedor","Ludwig Speidel",10,Directed
 "Mamroth, Fedor","Peter Nansen",9,Directed
@@ -64,9 +64,7 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Franziska Goldmann",7,Directed
 "Mamroth, Fedor","Emil Granichstaedten",6,Directed
 "Mamroth, Fedor","Hilda von Mitis",6,Directed
-"Mamroth, Fedor","Eduard Bacher",6,Directed
 "Mamroth, Fedor","Julius von Gans-Ludassy",6,Directed
-"Mamroth, Fedor","Isidor Singer",6,Directed
 "Mamroth, Fedor","Wilhelm II. von Preußen",6,Directed
 "Mamroth, Fedor","Pierre Lalo",6,Directed
 "Mamroth, Fedor","Berthold Frischauer",6,Directed
@@ -81,7 +79,9 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Johann Schnitzler",5,Directed
 "Mamroth, Fedor","Jaques Joachim",5,Directed
 "Mamroth, Fedor","Richard Wagner",5,Directed
+"Mamroth, Fedor","Eduard Bacher",5,Directed
 "Mamroth, Fedor","Arthur Klein",5,Directed
+"Mamroth, Fedor","Isidor Singer",5,Directed
 "Mamroth, Fedor","Friedrich von Schiller",5,Directed
 "Mamroth, Fedor","Henry Becque",5,Directed
 "Mamroth, Fedor","Theodor Wolff",5,Directed
@@ -130,7 +130,6 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Jean Casimir-Perier",3,Directed
 "Mamroth, Fedor","Henri Léon Lavedan",3,Directed
 "Mamroth, Fedor","Georges Courteline",3,Directed
-"Mamroth, Fedor","Oskar Bie",3,Directed
 "Mamroth, Fedor","Sarah Bernhardt",3,Directed
 "Mamroth, Fedor","Stefan George",3,Directed
 "Mamroth, Fedor","Léon Bourgeois",3,Directed
@@ -196,9 +195,8 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Wolfgang Amadeus Mozart",2,Directed
 "Mamroth, Fedor","Maximilian von Mitis",2,Directed
 "Mamroth, Fedor","Alphonse Allais",2,Directed
-"Mamroth, Fedor","Pierre Veber",2,Directed
 "Mamroth, Fedor","Siegmund Feldmann",2,Directed
-"Mamroth, Fedor","Otto Julius Bierbaum",2,Directed
+"Mamroth, Fedor","Pierre Veber",2,Directed
 "Mamroth, Fedor","Franz Joseph I. von Österreich-Ungarn",2,Directed
 "Mamroth, Fedor","Stella Hohenfels",2,Directed
 "Mamroth, Fedor","André Hallays",2,Directed
@@ -216,6 +214,7 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Jules Huret",2,Directed
 "Mamroth, Fedor","Jesus",2,Directed
 "Mamroth, Fedor","Pierre Loti",2,Directed
+"Mamroth, Fedor","Oskar Bie",2,Directed
 "Mamroth, Fedor","Betty Nansen",2,Directed
 "Mamroth, Fedor","Henning von Brüsewitz",2,Directed
 "Mamroth, Fedor","Theodor Siepmann",2,Directed
@@ -252,7 +251,6 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Bjørnstjerne Bjørnson",2,Directed
 "Mamroth, Fedor","Heinrich Conrad",2,Directed
 "Mamroth, Fedor","Moriz Neuda",2,Directed
-"Mamroth, Fedor","Jacques Offenbach",2,Directed
 "Mamroth, Fedor","Arnost Ziegler",2,Directed
 "Mamroth, Fedor","Ignacy Daszyński",2,Directed
 "Mamroth, Fedor","Géza von Mattachich",2,Directed
@@ -318,7 +316,6 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Alfons XIII.",1,Directed
 "Mamroth, Fedor","Ernest Renan",1,Directed
 "Mamroth, Fedor","Alfred Nossig",1,Directed
-"Mamroth, Fedor","Edgar Pierson",1,Directed
 "Mamroth, Fedor","Carl Freund",1,Directed
 "Mamroth, Fedor","Wilhelm Friedrich",1,Directed
 "Mamroth, Fedor","Max Jeckel",1,Directed
@@ -396,13 +393,14 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Cornelius Herz",1,Directed
 "Mamroth, Fedor","Jules Chéret",1,Directed
 "Mamroth, Fedor","Gaspard Vallette",1,Directed
-"Mamroth, Fedor","Moriz Necker",1,Directed
+"Mamroth, Fedor","Moritz Necker",1,Directed
 "Mamroth, Fedor","Henri-Gabriel Ibels",1,Directed
 "Mamroth, Fedor","Adolphe Léon Willette",1,Directed
 "Mamroth, Fedor","A. B.",1,Directed
 "Mamroth, Fedor","Mizi Rosner",1,Directed
 "Mamroth, Fedor","Edgar von Spiegl-Thurnsee",1,Directed
 "Mamroth, Fedor","Adalbert von Goldschmidt",1,Directed
+"Mamroth, Fedor","Otto Julius Bierbaum",1,Directed
 "Mamroth, Fedor","Alphonse Daudet",1,Directed
 "Mamroth, Fedor","Josef Lewinsky",1,Directed
 "Mamroth, Fedor","Felix Mottl",1,Directed
@@ -650,7 +648,6 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Ludwig Stein",1,Directed
 "Mamroth, Fedor","Karl Michaelis",1,Directed
 "Mamroth, Fedor","Alexander N. Ostrovskij",1,Directed
-"Mamroth, Fedor","Ernst Benedikt",1,Directed
 "Mamroth, Fedor","Emil Rechert",1,Directed
 "Mamroth, Fedor","Ernst von Hammerstein-Loxten",1,Directed
 "Mamroth, Fedor","Johannes von Miquel",1,Directed
@@ -741,6 +738,7 @@ Source,Target,Weight,Type
 "Mamroth, Fedor","Emilio Rizzi",1,Directed
 "Mamroth, Fedor","Paul Siraudin",1,Directed
 "Mamroth, Fedor","Jules Moinaux",1,Directed
+"Mamroth, Fedor","Jacques Offenbach",1,Directed
 "Mamroth, Fedor","Rudolf Bernauer",1,Directed
 "Mamroth, Fedor","Gaspard Gourgaud",1,Directed
 "Mamroth, Fedor","Max Pannwitz",1,Directed
