@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-08-08Z</date>
+            <date>2026-08-10Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -10004,6 +10004,10 @@
                      <date when="1919-08-12" n="01">12. 8. 1919</date>
                      <placeName ref="#pmb483">Reichenau an der Rax</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1919-08-12">12. 8. 1919</date>
+                     <placeName ref="#pmb483">Reichenau an der Rax</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date evidence="conjecture" notBefore="1919-08-13" notAfter="1919-08-17">[13. 8. 1919 – 17. 8. 1919?]</date>
@@ -10725,12 +10729,11 @@
                <measure unit="zeichenanzahl" quantity="335"/>
             </item>
             <item corresp="L04528">
-               <title level="a">Arthur Schnitzler an Gustav Schwarzkopf,
-               [23. 1. 1925]</title>
+               <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 2[3]. 1. 1925</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1925-01-23" n="02">[23. 1. 1925]</date>
+                     <date when="1925-01-23" n="02">2[3]. 1. 1925</date>
                      <placeName ref="#pmb44374">St. Moritz</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -10739,7 +10742,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture" notBefore="1925-01-24" notAfter="1925-01-28">[24. 1. 1925 – 28. 1. 1925?]</date>
+                     <date evidence="conjecture" notBefore="1925-01-24" notAfter="1925-01-28">[24. 1. 1925
+                  – 28. 1. 1925?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -10757,7 +10761,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="267"/>
+               <measure unit="zeichenanzahl" quantity="265"/>
             </item>
             <item corresp="L04362">
                <title level="a">Arthur und Heinrich Schnitzler sowie Paul Marx an Gustav Schwarzkopf,
