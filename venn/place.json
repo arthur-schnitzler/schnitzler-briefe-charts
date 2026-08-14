@@ -8,12 +8,12 @@
     "geonames": {
       "label": "geoNames",
       "color": "#363",
-      "count": 8993
+      "count": 9000
     },
     "gnd": {
       "label": "GND",
       "color": "#006AB3",
-      "count": 5365
+      "count": 5371
     },
     "legalkraus": {
       "label": "Rechtsakten",
@@ -73,12 +73,12 @@
     "wikidata": {
       "label": "Wikidata",
       "color": "#0645ad",
-      "count": 10222
+      "count": 10235
     },
     "wikipedia": {
       "label": "Wikipedia",
       "color": "#36c",
-      "count": 8654
+      "count": 8667
     }
   },
   "intersections": {
@@ -202,7 +202,7 @@
     "dla-marbach|wikidata": 3,
     "dla-marbach|wikidata|wikipedia": 3,
     "dla-marbach|wikipedia": 3,
-    "geonames|gnd": 3208,
+    "geonames|gnd": 3212,
     "geonames|gnd|legalkraus": 113,
     "geonames|gnd|schnitzler-bahr": 160,
     "geonames|gnd|schnitzler-briefe": 338,
@@ -214,8 +214,8 @@
     "geonames|gnd|semantickraus": 458,
     "geonames|gnd|wienerschnitzler": 463,
     "geonames|gnd|wiengeschichtewiki": 1,
-    "geonames|gnd|wikidata": 3140,
-    "geonames|gnd|wikipedia": 3102,
+    "geonames|gnd|wikidata": 3144,
+    "geonames|gnd|wikipedia": 3106,
     "geonames|legalkraus": 283,
     "geonames|legalkraus|schnitzler-bahr": 85,
     "geonames|legalkraus|schnitzler-briefe": 133,
@@ -304,9 +304,9 @@
     "geonames|wiengeschichtewiki": 6,
     "geonames|wiengeschichtewiki|wikidata": 4,
     "geonames|wiengeschichtewiki|wikipedia": 4,
-    "geonames|wikidata": 6464,
-    "geonames|wikidata|wikipedia": 5982,
-    "geonames|wikipedia": 5990,
+    "geonames|wikidata": 6471,
+    "geonames|wikidata|wikipedia": 5989,
+    "geonames|wikipedia": 5997,
     "gnd|legalkraus": 119,
     "gnd|legalkraus|schnitzler-bahr": 56,
     "gnd|legalkraus|schnitzler-briefe": 83,
@@ -395,9 +395,9 @@
     "gnd|wiengeschichtewiki": 2,
     "gnd|wiengeschichtewiki|wikidata": 2,
     "gnd|wiengeschichtewiki|wikipedia": 2,
-    "gnd|wikidata": 4692,
-    "gnd|wikidata|wikipedia": 4591,
-    "gnd|wikipedia": 4591,
+    "gnd|wikidata": 4698,
+    "gnd|wikidata|wikipedia": 4597,
+    "gnd|wikipedia": 4597,
     "legalkraus|schnitzler-bahr": 146,
     "legalkraus|schnitzler-bahr|schnitzler-briefe": 118,
     "legalkraus|schnitzler-bahr|schnitzler-fischer": 45,
@@ -761,6 +761,6 @@
     "wiengeschichtewiki|wikidata": 58,
     "wiengeschichtewiki|wikidata|wikipedia": 34,
     "wiengeschichtewiki|wikipedia": 34,
-    "wikidata|wikipedia": 8642
+    "wikidata|wikipedia": 8655
   }
 }
