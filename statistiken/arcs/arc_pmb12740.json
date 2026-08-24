@@ -12,6 +12,11 @@
       "count": 1
     },
     {
+      "id": "pmb1223",
+      "name": "Bern",
+      "count": 1
+    },
+    {
       "id": "pmb12589",
       "name": "Celerina",
       "count": 4
@@ -114,7 +119,7 @@
     {
       "id": "pmb34401",
       "name": "Altaussee",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb34946",
@@ -254,7 +259,7 @@
     {
       "id": "pmb45260",
       "name": "Brijuni",
-      "count": 4
+      "count": 5
     },
     {
       "id": "pmb462",
@@ -289,7 +294,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 358
+      "count": 361
     },
     {
       "id": "pmb506",
@@ -475,6 +480,14 @@
       ]
     },
     {
+      "from": "pmb1223",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 12. 8. 1926"
+      ]
+    },
+    {
       "from": "pmb12589",
       "to": "pmb50",
       "weight": 4,
@@ -639,6 +652,14 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 27. 8. 1913"
+      ]
+    },
+    {
+      "from": "pmb34401",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1921"
       ]
     },
     {
@@ -832,8 +853,9 @@
     {
       "from": "pmb45260",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
+        "Arthur und Olga Schnitzler, Walter und Marta Stross sowie Leopold Kupelwieser an Gustav Schwarzkopf, 21. 8. 1912",
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 8. 1913"
       ]
