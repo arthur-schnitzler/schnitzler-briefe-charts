@@ -87,11 +87,72 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04345">Schnitzler an Rilke, 17. Januar 1902</ref>
+                          target="L04343">Schnitzler an Rilke, 4. 7. 1901</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
                <measure unit="zeichenanzahl" quantity="67"/>
+            </item>
+            <item corresp="L04343">
+               <title level="a">Arthur Schnitzler an Rainer Maria Rilke, 4. 7. 1901</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1901-07-04" n="04">4. 7. 1901</date>
+                     <placeName ref="#pmb212" evidence="internal">St. Anton am Arlberg</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
+                     <date evidence="conjecture" notBefore="1901-07-05" notAfter="1901-07-09">[5. 7. 1901
+                  – 9. 7. 1901?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01142">Schnitzler an Hofmannsthal, [4.? 7. 1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01143">Bahr an Schnitzler, 5. 7. 1901</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04342">Schnitzler an Rilke, 20. 1. 1900</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04344">Schnitzler an Rilke, 7. 12. 1901</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1020"/>
+            </item>
+            <item corresp="L04344">
+               <title level="a">Arthur Schnitzler an Rainer Maria Rilke, 7. 12. 1901</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1901-12-07" n="01">7. 12. 1901</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
+                     <date evidence="conjecture" notBefore="1901-12-08" notAfter="1901-12-12">[8. 12. 1901 – 12. 12. 1901?]</date>
+                     <placeName evidence="conjecture" ref="#pmb258929">Westerwede</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03094">Goldmann an Schnitzler, 6. 12. [1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04347">d’Albert, Olden, Goldmann, Friedmann, Friedmann,  an Schnitzler, [8. 12. 1901]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04343">Schnitzler an Rilke, 4. 7. 1901</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04345">Schnitzler an Rilke, 17. Januar 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1325"/>
             </item>
             <item corresp="L04345">
                <title level="a">Arthur Schnitzler an Rainer Maria Rilke, 17. 1. 1902</title>
@@ -113,7 +174,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04342">Schnitzler an Rilke, 20. 1. 1900</ref>
+                          target="L04344">Schnitzler an Rilke, 7. 12. 1901</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>

@@ -7,9 +7,19 @@
       "count": 1
     },
     {
+      "id": "pmb212",
+      "name": "St. Anton am Arlberg",
+      "count": 1
+    },
+    {
+      "id": "pmb258929",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 3
+      "count": 5
     },
     {
       "id": "pmb652",
@@ -19,11 +29,27 @@
   ],
   "links_from_schnitzler": [
     {
+      "from": "pmb212",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, 4. 7. 1901"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb168",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Rainer Maria Rilke, 20. 1. 1900"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb258929",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, 7. 12. 1901"
       ]
     },
     {

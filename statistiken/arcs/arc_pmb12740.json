@@ -22,6 +22,11 @@
       "count": 4
     },
     {
+      "id": "pmb146",
+      "name": "Frankfurt am Main",
+      "count": 1
+    },
+    {
       "id": "pmb15227",
       "name": "Lissabon",
       "count": 1
@@ -79,11 +84,16 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb305739",
       "name": "Bad Fusch",
+      "count": 1
+    },
+    {
+      "id": "pmb33",
+      "name": "St. Gilgen",
       "count": 1
     },
     {
@@ -104,7 +114,7 @@
     {
       "id": "pmb334808",
       "name": "Reifnitz [Maria Wörth]",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb34108",
@@ -169,7 +179,7 @@
     {
       "id": "pmb41016",
       "name": "Mittelmeer",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb41083",
@@ -247,6 +257,11 @@
       "count": 3
     },
     {
+      "id": "pmb44493",
+      "name": "Tutzing",
+      "count": 1
+    },
+    {
       "id": "pmb445",
       "name": "Rom",
       "count": 2
@@ -254,22 +269,22 @@
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 6
+      "count": 7
     },
     {
       "id": "pmb45260",
       "name": "Brijuni",
-      "count": 5
+      "count": 7
     },
     {
       "id": "pmb462",
       "name": "Venedig",
-      "count": 4
+      "count": 5
     },
     {
       "id": "pmb470",
       "name": "Edlach",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb483",
@@ -279,7 +294,7 @@
     {
       "id": "pmb48761",
       "name": "Puchberg am Schneeberg",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb49781",
@@ -294,7 +309,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 361
+      "count": 378
     },
     {
       "id": "pmb506",
@@ -349,12 +364,12 @@
     {
       "id": "pmb723",
       "name": "Wildbad Waldbrunn",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb75",
       "name": "Hinterbrühl",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb772",
@@ -394,6 +409,11 @@
     {
       "id": "pmb90188",
       "name": "Adelboden",
+      "count": 2
+    },
+    {
+      "id": "pmb90404",
+      "name": "",
       "count": 1
     },
     {
@@ -434,6 +454,11 @@
     {
       "id": "pmb959",
       "name": "Marienlyst",
+      "count": 1
+    },
+    {
+      "id": "pmb966",
+      "name": "Istanbul",
       "count": 1
     },
     {
@@ -496,6 +521,14 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, 22. 8. 1923",
         "Arthur Schnitzler an Gustav Schwarzkopf, [13. 8. 1924]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 25. 8. 1925"
+      ]
+    },
+    {
+      "from": "pmb146",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 19. 9. 1910"
       ]
     },
     {
@@ -629,10 +662,11 @@
     {
       "from": "pmb30",
       "to": "pmb50",
-      "weight": 5,
+      "weight": 6,
       "titles": [
         "Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 17. 6. 1901",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 14. 1. 1903",
+        "Arthur Schnitzler, Olga Schnitzler und Elisabeth Steinrück an Gustav Schwarzkopf, 3. 4. 1912",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 2. 2. 1914",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 20. 8. 1914",
         "Arthur Schnitzler an Gustav Schwarzkopf, 5. 8. 1923"
@@ -644,6 +678,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 9. 4. 1903"
+      ]
+    },
+    {
+      "from": "pmb33",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur, Olga Schnitzler und Emilie Sigmund an Gustav Schwarzkopf, 13. 9. 1904"
       ]
     },
     {
@@ -722,9 +764,10 @@
     {
       "from": "pmb41016",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Gustav Schwarzkopf, [8]. 5. 1926"
+        "Arthur Schnitzler an Gustav Schwarzkopf, [8]. 5. 1926",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 17. 4. 1928"
       ]
     },
     {
@@ -832,6 +875,14 @@
       ]
     },
     {
+      "from": "pmb44493",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler, Elisabeth Steinruck, Olga Schnitzler und Heinrich Mann an Gustav Schwarzkopf, 7. 9. [1912?]"
+      ]
+    },
+    {
       "from": "pmb445",
       "to": "pmb50",
       "weight": 2,
@@ -843,18 +894,21 @@
     {
       "from": "pmb45258",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Arthur und Olga Schnitzler und Paul Marx an Gustav Schwarzkopf, 7. 9. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 28. 1. 1914",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 5. 1921",
         "Arthur Schnitzler an Gustav Schwarzkopf, 23. 4. 1922"
       ]
     },
     {
       "from": "pmb45260",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 5,
       "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, [13.?] 5. 1912",
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 30. 7. 1912",
         "Arthur und Olga Schnitzler, Walter und Marta Stross sowie Leopold Kupelwieser an Gustav Schwarzkopf, 21. 8. 1912",
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 8. 1913"
@@ -863,8 +917,9 @@
     {
       "from": "pmb462",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 1[7?]. 5. 1912",
         "Arthur und Olga Schnitzler und Stefanie Bachrach an Gustav Schwarzkopf, 24. 8. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 22. 4. 1927"
       ]
@@ -872,9 +927,10 @@
     {
       "from": "pmb470",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 2. 7. 1909",
+        "Olga und Arthur Schnitzler an Gustav Schwarzkopf, 8. 7. 1909",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 18. 7. 1909",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 20. 8. 1909"
       ]
@@ -893,6 +949,14 @@
       ]
     },
     {
+      "from": "pmb48761",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler, Felix Salten und Ottilie Metzeles an Gustav Schwarzkopf, 25. 5. 1900"
+      ]
+    },
+    {
       "from": "pmb49781",
       "to": "pmb50",
       "weight": 1,
@@ -906,6 +970,14 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 7. 11. 1911"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb334808",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 19. 7. 1912"
       ]
     },
     {
@@ -1181,9 +1253,18 @@
     {
       "from": "pmb723",
       "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 8. 7. 1907",
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 10. 8. 1907"
+      ]
+    },
+    {
+      "from": "pmb75",
+      "to": "pmb50",
       "weight": 1,
       "titles": [
-        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 10. 8. 1907"
+        "Olga, Arthur Schnitzler und Elisabeth Gussmann an Gustav Schwarzkopf, [5. 6. 1908?]"
       ]
     },
     {
@@ -1236,6 +1317,22 @@
       ]
     },
     {
+      "from": "pmb90188",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1926"
+      ]
+    },
+    {
+      "from": "pmb90404",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und, Olga Schnitzler an Gustav Schwarzkopf, 24. 5. 1910"
+      ]
+    },
+    {
       "from": "pmb90567",
       "to": "pmb50",
       "weight": 1,
@@ -1276,6 +1373,14 @@
         "Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 22. 7. 1901",
         "Arthur Schnitzler an Gustav Schwarzkopf, 2. 8. 1901",
         "Arthur Schnitzler an Gustav Schwarzkopf, 10. 8. 1901"
+      ]
+    },
+    {
+      "from": "pmb966",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler, Lili und Arnoldo Cappellini an Gustav Schwarzkopf, 23. 4. 1928"
       ]
     },
     {
