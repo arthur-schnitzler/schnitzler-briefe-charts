@@ -482,6 +482,11 @@
       "count": 1
     },
     {
+      "id": "pmb51794",
+      "name": "St. Johann am Wocheiner See",
+      "count": 1
+    },
+    {
       "id": "pmb521",
       "name": "Bad Gastein",
       "count": 4
@@ -514,11 +519,6 @@
     {
       "id": "pmb58810",
       "name": "Den Haag",
-      "count": 1
-    },
-    {
-      "id": "pmb590",
-      "name": "Bled",
       "count": 1
     },
     {
@@ -1497,7 +1497,7 @@
       "to": "pmb50",
       "weight": 1,
       "titles": [
-        "Felix und Ottilie Metzl und Arthur Schnitzler an Richard Beer-Hofmann, 26. 5. 1900"
+        "Felix Salten, Ottilie Metzl und Arthur Schnitzler an Richard Beer-Hofmann, 26. 5. 1900"
       ]
     },
     {
@@ -2072,6 +2072,14 @@
       ]
     },
     {
+      "from": "pmb51794",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Richard Beer-Hofmann, 28. 6. 1907"
+      ]
+    },
+    {
       "from": "pmb521",
       "to": "pmb34860",
       "weight": 1,
@@ -2125,14 +2133,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 4. 5. 1922"
-      ]
-    },
-    {
-      "from": "pmb590",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur und Olga Schnitzler an Richard Beer-Hofmann, 28. 6. 1907"
       ]
     },
     {

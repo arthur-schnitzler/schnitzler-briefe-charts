@@ -5,6 +5,58 @@
   },
   "letters": [
     {
+      "id": "L04534",
+      "title": "Rainer Maria Rilke an Arthur Schnitzler, [Anfang?] April 1896",
+      "type": "von partner",
+      "date": null,
+      "sender": {
+        "name": "Rilke, Rainer Maria",
+        "ref": "pmb9531"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Prag",
+        "ref": "pmb652",
+        "lat": 50.08333,
+        "lon": 14.46667
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    },
+    {
+      "id": "L04539",
+      "title": "Rainer Maria Rilke: Widmungsexemplar von Lieder am Volke geschenkt, 1. 4. 1896",
+      "type": "von partner",
+      "date": "1896-04-01",
+      "sender": {
+        "name": "Rilke, Rainer Maria",
+        "ref": "pmb9531"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Prag",
+        "ref": "pmb652",
+        "lat": 50.08333,
+        "lon": 14.46667
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    },
+    {
       "id": "L04341",
       "title": "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899",
       "type": "von schnitzler",
@@ -54,6 +106,32 @@
         "ref": "pmb168",
         "lat": 52.52437,
         "lon": 13.41053
+      }
+    },
+    {
+      "id": "L04346",
+      "title": "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 20. 5. und 20. 6. 1901?]",
+      "type": "von schnitzler",
+      "date": null,
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Rilke, Rainer Maria",
+        "ref": "pmb9531"
+      },
+      "from": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      },
+      "to": {
+        "name": "Dresden",
+        "ref": "pmb866",
+        "lat": 51.0833,
+        "lon": 13.7666
       }
     },
     {
