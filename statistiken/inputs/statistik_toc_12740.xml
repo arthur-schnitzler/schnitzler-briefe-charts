@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-08-28Z</date>
+            <date>2026-08-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -4828,7 +4828,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1903-02-27" n="01">27. 2. 1903</date>
+                     <date when="1903-02-27" n="02">27. 2. 1903</date>
                      <placeName ref="#pmb168" evidence="conjecture">Berlin</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -4846,8 +4846,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01272">Bahr an Schnitzler, 22. 2. 1903</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01273">Schnitzler an Beer-Hofmann, 27. 2. 1903</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01273">Schnitzler an Beer-Hofmann, 27. 2. 1903</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03365">Goldmann an Schnitzler, 27. 2. [1903]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
