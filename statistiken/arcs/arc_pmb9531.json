@@ -14,12 +14,12 @@
     {
       "id": "pmb258929",
       "name": "",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 8
+      "count": 10
     },
     {
       "id": "pmb652",
@@ -83,6 +83,15 @@
     }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb258929",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
+        "Rainer Maria Rilke: Widmungsexemplar Die Letzten an Arthur Schnitzler, [3. 12. 1901]"
+      ]
+    },
     {
       "from": "pmb652",
       "to": "pmb50",

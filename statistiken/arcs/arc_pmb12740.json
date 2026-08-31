@@ -59,7 +59,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 19
+      "count": 20
     },
     {
       "id": "pmb228",
@@ -70,6 +70,11 @@
       "id": "pmb2318",
       "name": "Partenkirchen",
       "count": 2
+    },
+    {
+      "id": "pmb2351",
+      "name": "Ilmenau",
+      "count": 1
     },
     {
       "id": "pmb246114",
@@ -142,6 +147,11 @@
       "count": 1
     },
     {
+      "id": "pmb364264",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb36456",
       "name": "Menton",
       "count": 2
@@ -174,6 +184,11 @@
     {
       "id": "pmb40709",
       "name": "Amsterdam",
+      "count": 1
+    },
+    {
+      "id": "pmb40867",
+      "name": "Zirndorf",
       "count": 1
     },
     {
@@ -282,6 +297,11 @@
       "count": 8
     },
     {
+      "id": "pmb453",
+      "name": "Solin",
+      "count": 1
+    },
+    {
       "id": "pmb462",
       "name": "Venedig",
       "count": 5
@@ -314,7 +334,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 392
+      "count": 398
     },
     {
       "id": "pmb506",
@@ -363,6 +383,11 @@
     },
     {
       "id": "pmb63808",
+      "name": "",
+      "count": 1
+    },
+    {
+      "id": "pmb64703",
       "name": "",
       "count": 1
     },
@@ -617,7 +642,7 @@
     {
       "from": "pmb213",
       "to": "pmb50",
-      "weight": 9,
+      "weight": 10,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 15. 7. 1897",
         "Arthur Schnitzler an Gustav Schwarzkopf, 16. 8. 1899",
@@ -626,6 +651,7 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, 9. 9. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, [9. 8. 1900?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 13. 8. 1915",
+        "Olga und Arthur Schnitzler an Gustav Schwarzkopf, 28. .5. 1916",
         "Arthur Schnitzler an Gustav Schwarzkopf, 13. 6. 1928",
         "Arthur Schnitzler an Gustav Schwarzkopf, 20. 6. 1928"
       ]
@@ -653,6 +679,14 @@
       "titles": [
         "Arthur, Olga Schnitzler und Elisabeth Steinrück an Gustav Schwarzkopf, 14. 11. 1911",
         "Arthur Schnitzler an Gustav Schwarzkopf, 31. 8. 1918"
+      ]
+    },
+    {
+      "from": "pmb2351",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 16. 8. 1906"
       ]
     },
     {
@@ -737,6 +771,14 @@
       ]
     },
     {
+      "from": "pmb364264",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler, Jakob Wassermann und Richard Beer-Hofmann an Gustav Schwarzkopf, 5. 8. 1899"
+      ]
+    },
+    {
       "from": "pmb36456",
       "to": "pmb50",
       "weight": 2,
@@ -784,6 +826,14 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 26. 5. 1914"
+      ]
+    },
+    {
+      "from": "pmb40867",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 17. 9. 1899"
       ]
     },
     {
@@ -948,6 +998,14 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 8. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 19. 8. [1913?]"
+      ]
+    },
+    {
+      "from": "pmb453",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 3. 4. 1900"
       ]
     },
     {
@@ -1294,6 +1352,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, XXXX"
+      ]
+    },
+    {
+      "from": "pmb64703",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 4. 8. 1898"
       ]
     },
     {

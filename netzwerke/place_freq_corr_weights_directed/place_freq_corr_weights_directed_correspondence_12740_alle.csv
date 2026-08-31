@@ -1,10 +1,10 @@
 Source,Target,Weight,Type
-"Schwarzkopf, Gustav","Wien",395,Directed
-"Schwarzkopf, Gustav","I., Innere Stadt",229,Directed
-"Schwarzkopf, Gustav","Tiefer Graben 23",148,Directed
-"Schwarzkopf, Gustav","Tiefer Graben 17",95,Directed
+"Schwarzkopf, Gustav","Wien",400,Directed
+"Schwarzkopf, Gustav","I., Innere Stadt",233,Directed
+"Schwarzkopf, Gustav","Tiefer Graben 23",152,Directed
+"Schwarzkopf, Gustav","Tiefer Graben 17",96,Directed
 "Schwarzkopf, Gustav","XVIII., Währing",47,Directed
-"Schwarzkopf, Gustav","Bad Ischl",35,Directed
+"Schwarzkopf, Gustav","Bad Ischl",36,Directed
 "Schwarzkopf, Gustav","Sternwartestraße 71",31,Directed
 "Schwarzkopf, Gustav","Berlin",30,Directed
 "Schwarzkopf, Gustav","Österreich",28,Directed
@@ -18,12 +18,12 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Reichenau an der Rax",14,Directed
 "Schwarzkopf, Gustav","Venedig",13,Directed
 "Schwarzkopf, Gustav","Brijuni",13,Directed
+"Schwarzkopf, Gustav","Bozen",11,Directed
 "Schwarzkopf, Gustav","Brühl",10,Directed
-"Schwarzkopf, Gustav","Bozen",10,Directed
+"Schwarzkopf, Gustav","Altaussee",9,Directed
 "Schwarzkopf, Gustav","Hotel und Pension Rudolfshöhe (Leopold Petter)",8,Directed
 "Schwarzkopf, Gustav","Volkstheater",8,Directed
 "Schwarzkopf, Gustav","Schweiz",8,Directed
-"Schwarzkopf, Gustav","Altaussee",8,Directed
 "Schwarzkopf, Gustav","Semmering",8,Directed
 "Schwarzkopf, Gustav","Mödling",7,Directed
 "Schwarzkopf, Gustav","Paris",7,Directed
@@ -46,6 +46,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Bad Aussee",5,Directed
 "Schwarzkopf, Gustav","Welsberg-Taisten",5,Directed
 "Schwarzkopf, Gustav","Wildbad Waldbrunn",5,Directed
+"Schwarzkopf, Gustav","Salzkammergut",5,Directed
 "Schwarzkopf, Gustav","Meran",4,Directed
 "Schwarzkopf, Gustav","Café Kaiserhof (Inh. Johann Wortner) [Wien]",4,Directed
 "Schwarzkopf, Gustav","London",4,Directed
@@ -61,7 +62,6 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Pension Wiener Heim",4,Directed
 "Schwarzkopf, Gustav","St. Moritz",4,Directed
 "Schwarzkopf, Gustav","Weißenbach am Attersee",4,Directed
-"Schwarzkopf, Gustav","Salzkammergut",4,Directed
 "Schwarzkopf, Gustav","Cresta Palace",4,Directed
 "Schwarzkopf, Gustav","Dresden",3,Directed
 "Schwarzkopf, Gustav","Café Arkaden",3,Directed
@@ -80,6 +80,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Marienbad",3,Directed
 "Schwarzkopf, Gustav","Tiefer Graben",3,Directed
 "Schwarzkopf, Gustav","Frankfurt am Main",3,Directed
+"Schwarzkopf, Gustav","Nürnberg",3,Directed
 "Schwarzkopf, Gustav","Theater in der Josefstadt",3,Directed
 "Schwarzkopf, Gustav","Genua",3,Directed
 "Schwarzkopf, Gustav","Rom",3,Directed
@@ -91,6 +92,8 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Engadin",3,Directed
 "Schwarzkopf, Gustav","Grand Hotel St. Moritz",3,Directed
 "Schwarzkopf, Gustav","Feldafing",3,Directed
+"Schwarzkopf, Gustav","Hotel garni Athen",3,Directed
+"Schwarzkopf, Gustav","Konditorei Zauner",3,Directed
 "Schwarzkopf, Gustav","Baden-Baden",3,Directed
 "Schwarzkopf, Gustav","Hotel Esplanade [Berlin]",3,Directed
 "Schwarzkopf, Gustav","Bern",3,Directed
@@ -123,7 +126,6 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Lehártheater",2,Directed
 "Schwarzkopf, Gustav","Polná",2,Directed
 "Schwarzkopf, Gustav","Deutschland",2,Directed
-"Schwarzkopf, Gustav","Nürnberg",2,Directed
 "Schwarzkopf, Gustav","Wiesbaden",2,Directed
 "Schwarzkopf, Gustav","Puchberg am Schneeberg",2,Directed
 "Schwarzkopf, Gustav","Gesäuse",2,Directed
@@ -167,8 +169,6 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Lissabon",2,Directed
 "Schwarzkopf, Gustav","Amsterdam",2,Directed
 "Schwarzkopf, Gustav","Lunz am See",2,Directed
-"Schwarzkopf, Gustav","Hotel garni Athen",2,Directed
-"Schwarzkopf, Gustav","Konditorei Zauner",2,Directed
 "Schwarzkopf, Gustav","Haus Tannenberg",2,Directed
 "Schwarzkopf, Gustav","Bayern",2,Directed
 "Schwarzkopf, Gustav","Berchtesgaden",2,Directed
@@ -222,6 +222,10 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Traunkirchen",1,Directed
 "Schwarzkopf, Gustav","Traunsee",1,Directed
 "Schwarzkopf, Gustav","Hauptbahnhof Salzburg",1,Directed
+"Schwarzkopf, Gustav","Wildbad Kreuth",1,Directed
+"Schwarzkopf, Gustav","Kreuth",1,Directed
+"Schwarzkopf, Gustav","Tegernsee",1,Directed
+"Schwarzkopf, Gustav","Hotel Post [Tegernsee]",1,Directed
 "Schwarzkopf, Gustav","Ouchy",1,Directed
 "Schwarzkopf, Gustav","Jura",1,Directed
 "Schwarzkopf, Gustav","Montreux",1,Directed
@@ -242,11 +246,16 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Praterstraße 54",1,Directed
 "Schwarzkopf, Gustav","Niederdorf",1,Directed
 "Schwarzkopf, Gustav","Brenner",1,Directed
+"Schwarzkopf, Gustav","Altprags",1,Directed
+"Schwarzkopf, Gustav","Dürrenstein",1,Directed
+"Schwarzkopf, Gustav","Pragser Tal",1,Directed
 "Schwarzkopf, Gustav","Husarentempel",1,Directed
 "Schwarzkopf, Gustav","Predazzo",1,Directed
 "Schwarzkopf, Gustav","San Martino di Castrozza",1,Directed
 "Schwarzkopf, Gustav","Madrid",1,Directed
 "Schwarzkopf, Gustav","?? [Wohnung von Ida und Max Hiller, Brühl, 1899]",1,Directed
+"Schwarzkopf, Gustav","Zirndorf",1,Directed
+"Schwarzkopf, Gustav","Alte Veste",1,Directed
 "Schwarzkopf, Gustav","Münchner Schauspielhaus",1,Directed
 "Schwarzkopf, Gustav","Hessisches Staatstheater Wiesbaden",1,Directed
 "Schwarzkopf, Gustav","Kochbrunnen",1,Directed
@@ -327,6 +336,9 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Düsseldorf",1,Directed
 "Schwarzkopf, Gustav","Marienlyst",1,Directed
 "Schwarzkopf, Gustav","?? [Urlaubsort von Leo Ebermann, Juli 1906]",1,Directed
+"Schwarzkopf, Gustav","Ilmenau",1,Directed
+"Schwarzkopf, Gustav","Goethehäuschen",1,Directed
+"Schwarzkopf, Gustav","Eisenach",1,Directed
 "Schwarzkopf, Gustav","St. Johann am Wocheiner See",1,Directed
 "Schwarzkopf, Gustav","Die Wochein",1,Directed
 "Schwarzkopf, Gustav","Bahnhof Welsberg-Gsies",1,Directed
@@ -426,6 +438,8 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Schottenkirche",1,Directed
 "Schwarzkopf, Gustav","Esplanade [Bad Ischl]",1,Directed
 "Schwarzkopf, Gustav","Hotel Kaiserkrone",1,Directed
+"Schwarzkopf, Gustav","Kaiservilla",1,Directed
+"Schwarzkopf, Gustav","Restaurant Sonnenschein",1,Directed
 "Schwarzkopf, Gustav","Hotel Rübezahl",1,Directed
 "Schwarzkopf, Gustav","Villa Helgoland",1,Directed
 "Schwarzkopf, Gustav","Třebízského ulice [Marienbad]",1,Directed
