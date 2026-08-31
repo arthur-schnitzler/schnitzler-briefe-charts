@@ -429,12 +429,12 @@
     {
       "id": "pmb470",
       "name": "Edlach",
-      "count": 7
+      "count": 8
     },
     {
       "id": "pmb483",
       "name": "Reichenau an der Rax",
-      "count": 7
+      "count": 6
     },
     {
       "id": "pmb484",
@@ -1444,6 +1444,14 @@
     },
     {
       "from": "pmb470",
+      "to": "pmb263",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 2. 3. 1900"
+      ]
+    },
+    {
+      "from": "pmb470",
       "to": "pmb41102",
       "weight": 1,
       "titles": [
@@ -1465,14 +1473,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 17. 7. 1905"
-      ]
-    },
-    {
-      "from": "pmb483",
-      "to": "pmb263",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 2. 3. 1900"
       ]
     },
     {
