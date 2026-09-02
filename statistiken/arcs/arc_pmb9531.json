@@ -9,17 +9,17 @@
     {
       "id": "pmb212",
       "name": "St. Anton am Arlberg",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb258929",
       "name": "Westerwede",
-      "count": 3
+      "count": 9
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 11
+      "count": 13
     },
     {
       "id": "pmb652",
@@ -35,7 +35,7 @@
   "links_from_schnitzler": [
     {
       "from": "pmb212",
-      "to": "pmb50",
+      "to": "pmb258929",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Rainer Maria Rilke, 4. 7. 1901"
@@ -52,16 +52,9 @@
     {
       "from": "pmb50",
       "to": "pmb258929",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, 7. 12. 1901"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, 7. 12. 1901",
         "Arthur Schnitzler an Rainer Maria Rilke, 17. 1. 1902"
       ]
     },
@@ -85,11 +78,22 @@
   "links_to_schnitzler": [
     {
       "from": "pmb258929",
+      "to": "pmb212",
+      "weight": 1,
+      "titles": [
+        "Rainer Maria Rilke an Arthur Schnitzler, 24. 6. 1901"
+      ]
+    },
+    {
+      "from": "pmb258929",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 5,
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
-        "Rainer Maria Rilke: Widmungsexemplar Die Letzten an Arthur Schnitzler, [3. 12. 1901]"
+        "Rainer Maria Rilke: Widmungsexemplar Die Letzten an Arthur Schnitzler, [3. 12. 1901]",
+        "Rainer Maria Rilke an Arthur Schnitzler, [Ende 1901]",
+        "Rainer Maria Rilke an Arthur Schnitzler, 14. 1. 1902",
+        "Rainer Maria Rilke an Arthur Schnitzler, 19. 1. 1902"
       ]
     },
     {
