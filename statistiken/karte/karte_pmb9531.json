@@ -32,7 +32,7 @@
     },
     {
       "id": "L04539",
-      "title": "Rainer Maria Rilke: Widmungsexemplar von Lieder am Volke geschenkt, 1. 4. 1896",
+      "title": "Rainer Maria Rilke: Widmungsexemplar Lieder am Volke geschenkt für Arthur Schnitzler, 1. 4. 1896",
       "type": "von partner",
       "date": "1896-04-01",
       "sender": {
@@ -80,6 +80,32 @@
         "ref": "pmb652",
         "lat": 50.08333,
         "lon": 14.46667
+      }
+    },
+    {
+      "id": "L04544",
+      "title": "Rainer Maria Rilke: Widmungsexemplar Lieder der Mädchen für Arthur Schnitzler, 14. 7. 1899",
+      "type": "von partner",
+      "date": "1899-07-14",
+      "sender": {
+        "name": "Rilke, Rainer Maria",
+        "ref": "pmb9531"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Schmargendorf",
+        "ref": "pmb61048",
+        "lat": 52.47517,
+        "lon": 13.29071
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
       }
     },
     {
@@ -240,7 +266,7 @@
     },
     {
       "id": "L04537",
-      "title": "Rainer Maria Rilke: Widmungsexemplar Die Letzten an Arthur Schnitzler, [3. 12. 1901]",
+      "title": "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]",
       "type": "von partner",
       "date": "1901-12-03",
       "sender": {
@@ -369,6 +395,32 @@
       }
     },
     {
+      "id": "L04545",
+      "title": "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]",
+      "type": "von partner",
+      "date": "1902-01-18",
+      "sender": {
+        "name": "Rilke, Rainer Maria",
+        "ref": "pmb9531"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Westerwede",
+        "ref": "pmb258929",
+        "lat": 53.19852,
+        "lon": 8.92013
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
+    },
+    {
       "id": "L04543",
       "title": "Rainer Maria Rilke an Arthur Schnitzler, 19. 1. 1902",
       "type": "von partner",
@@ -392,6 +444,32 @@
         "ref": "pmb50",
         "lat": 48.208333,
         "lon": 16.373056
+      }
+    },
+    {
+      "id": "L04546",
+      "title": "Rainer Maria Rilke: Widmungsexemplar Die Liebe der Magdalena für Arthur Schnitzler, 15. 5. 1912",
+      "type": "von partner",
+      "date": "1912-05-15",
+      "sender": {
+        "name": "Rilke, Rainer Maria",
+        "ref": "pmb9531"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Venedig",
+        "ref": "pmb462",
+        "lat": 45.43713,
+        "lon": 12.33265
+      },
+      "to": {
+        "name": "Venedig",
+        "ref": "pmb462",
+        "lat": 45.43713,
+        "lon": 12.33265
       }
     }
   ]

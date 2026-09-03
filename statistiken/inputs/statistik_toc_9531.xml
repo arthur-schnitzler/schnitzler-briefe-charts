@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-02Z</date>
+            <date>2026-09-03Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_9531.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -63,7 +63,7 @@
                <measure unit="zeichenanzahl" quantity="1714"/>
             </item>
             <item corresp="L04539">
-               <title level="a">Rainer Maria Rilke: Widmungsexemplar von Lieder am Volke geschenkt,
+               <title level="a">Rainer Maria Rilke: Widmungsexemplar Lieder am Volke geschenkt für Arthur Schnitzler,
                1. 4. 1896</title>
                <correspDesc>
                   <correspAction type="sent">
@@ -116,11 +116,41 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04342">Schnitzler an Rilke, 20. 1. 1900</ref>
+                          target="L04544">Rilke an Schnitzler, 14. 7. 1899</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
                <measure unit="zeichenanzahl" quantity="602"/>
+            </item>
+            <item corresp="L04544">
+               <title level="a">Rainer Maria Rilke: Widmungsexemplar Lieder der Mädchen für Arthur Schnitzler,
+               14. 7. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
+                     <date when="1899-07-14" n="01">14. 7. 1899</date>
+                     <placeName ref="#pmb61048">Schmargendorf</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-07-15" notAfter="1899-07-19">[15. 7. 1899 – 19. 7. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00940">Beer-Hofmann an Schnitzler, 13. 7. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00941">Schnitzler an Hofmannsthal, 14. 7. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04341">Schnitzler an Rilke, 13. 4. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04342">Schnitzler an Rilke, 20. 1. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <measure unit="zeichenanzahl" quantity="109"/>
             </item>
             <item corresp="L04342">
                <title level="a">Arthur Schnitzler an Rainer Maria Rilke, 20. 1. 1900</title>
@@ -142,7 +172,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04341">Schnitzler an Rilke, 13. 4. 1899</ref>
+                          target="L04544">Rilke an Schnitzler, 14. 7. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
@@ -315,7 +345,7 @@
                <measure unit="zeichenanzahl" quantity="3256"/>
             </item>
             <item corresp="L04537">
-               <title level="a">Rainer Maria Rilke: Widmungsexemplar Die Letzten an Arthur Schnitzler, [3. 12. 1901]</title>
+               <title level="a">Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
@@ -451,7 +481,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03193">Goldmann an Schnitzler, 16. 1. [1902]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04543">Rilke an Schnitzler, 19. 1. 1902</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04545">Rilke an Schnitzler, [18. 1. 1902]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
@@ -459,11 +489,41 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04543">Rilke an Schnitzler, 19. 1. 1902</ref>
+                          target="L04545">Rilke an Schnitzler, [18. 1. 1902]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="747"/>
+            </item>
+            <item corresp="L04545">
+               <title level="a">Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur
+               Schnitzler, [18. 1. 1902]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
+                     <date when="1902-01-18" n="02">[18. 1. 1902]</date>
+                     <placeName ref="#pmb258929" evidence="conjecture">Westerwede</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1902-01-19" notAfter="1902-01-23">[19. 1. 1902 – 23. 1. 1902?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04345">Schnitzler an Rilke, 17. Januar 1902</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04543">Rilke an Schnitzler, 19. 1. 1902</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04345">Schnitzler an Rilke, 17. Januar 1902</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04543">Rilke an Schnitzler, 19. 1. 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <measure unit="zeichenanzahl" quantity="64"/>
             </item>
             <item corresp="L04543">
                <title level="a">Rainer Maria Rilke an Arthur Schnitzler, 19. 1. 1902</title>
@@ -480,15 +540,45 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04345">Schnitzler an Rilke, 17. Januar 1902</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04545">Rilke an Schnitzler, [18. 1. 1902]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L04074">Schnitzler an Schwarzkopf, 20. 1. 1902</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04345">Schnitzler an Rilke, 17. Januar 1902</ref>
+                          target="L04545">Rilke an Schnitzler, [18. 1. 1902]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04546">Rilke an Schnitzler, 15. 5. 1912</ref>
                   </correspContext>
                </correspDesc>
                <measure unit="zeichenanzahl" quantity="1524"/>
+            </item>
+            <item corresp="L04546">
+               <title level="a">Rainer Maria Rilke: Widmungsexemplar Die Liebe der Magdalena für Arthur
+               Schnitzler, 15. 5. 1912</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
+                     <date when="1912-05-15" n="03">15. 5. 1912</date>
+                     <placeName ref="#pmb462">Venedig</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1912-05-15">15. 5. 1912</date>
+                     <placeName ref="#pmb462" evidence="external">Venedig</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02067">Bahr an Schnitzler, 15. 5. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04453">Schnitzler, Schnitzler an Schwarzkopf, 1[7?]. 5. 1912</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04543">Rilke an Schnitzler, 19. 1. 1902</ref>
+                  </correspContext>
+               </correspDesc>
+               <measure unit="zeichenanzahl" quantity="166"/>
             </item>
          </list>
       </body>

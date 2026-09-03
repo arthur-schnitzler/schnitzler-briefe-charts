@@ -14,12 +14,22 @@
     {
       "id": "pmb258929",
       "name": "Westerwede",
-      "count": 9
+      "count": 10
+    },
+    {
+      "id": "pmb462",
+      "name": "Venedig",
+      "count": 1
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 13
+      "count": 15
+    },
+    {
+      "id": "pmb61048",
+      "name": "Schmargendorf",
+      "count": 1
     },
     {
       "id": "pmb652",
@@ -87,13 +97,30 @@
     {
       "from": "pmb258929",
       "to": "pmb50",
-      "weight": 5,
+      "weight": 6,
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
-        "Rainer Maria Rilke: Widmungsexemplar Die Letzten an Arthur Schnitzler, [3. 12. 1901]",
+        "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]",
         "Rainer Maria Rilke an Arthur Schnitzler, [Ende 1901]",
         "Rainer Maria Rilke an Arthur Schnitzler, 14. 1. 1902",
+        "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]",
         "Rainer Maria Rilke an Arthur Schnitzler, 19. 1. 1902"
+      ]
+    },
+    {
+      "from": "pmb462",
+      "to": "pmb462",
+      "weight": 1,
+      "titles": [
+        "Rainer Maria Rilke: Widmungsexemplar Die Liebe der Magdalena für Arthur Schnitzler, 15. 5. 1912"
+      ]
+    },
+    {
+      "from": "pmb61048",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Rainer Maria Rilke: Widmungsexemplar Lieder der Mädchen für Arthur Schnitzler, 14. 7. 1899"
       ]
     },
     {
@@ -102,7 +129,7 @@
       "weight": 2,
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, [Anfang?] April 1896",
-        "Rainer Maria Rilke: Widmungsexemplar von Lieder am Volke geschenkt, 1. 4. 1896"
+        "Rainer Maria Rilke: Widmungsexemplar Lieder am Volke geschenkt für Arthur Schnitzler, 1. 4. 1896"
       ]
     },
     {
