@@ -89,7 +89,7 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 8
+      "count": 9
     },
     {
       "id": "pmb305739",
@@ -339,7 +339,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 407
+      "count": 413
     },
     {
       "id": "pmb506",
@@ -377,8 +377,18 @@
       "count": 1
     },
     {
+      "id": "pmb5836",
+      "name": "Hochschneeberg",
+      "count": 1
+    },
+    {
       "id": "pmb58684",
       "name": "Regensburg",
+      "count": 1
+    },
+    {
+      "id": "pmb591",
+      "name": "Matrei am Brenner",
       "count": 1
     },
     {
@@ -454,7 +464,7 @@
     {
       "id": "pmb883",
       "name": "Wiesbaden",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb895",
@@ -467,9 +477,19 @@
       "count": 1
     },
     {
+      "id": "pmb90170",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb90188",
       "name": "Adelboden",
       "count": 2
+    },
+    {
+      "id": "pmb90320",
+      "name": "Belišće",
+      "count": 1
     },
     {
       "id": "pmb90404",
@@ -744,9 +764,10 @@
     {
       "from": "pmb30",
       "to": "pmb50",
-      "weight": 8,
+      "weight": 9,
       "titles": [
         "Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 17. 6. 1901",
+        "Hugo von Hofmannsthal und Arthur Schnitzler an Gustav Schwarzkopf, 30. 6. [1902]",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 14. 1. 1903",
         "Arthur, Olga Schnitzler, Hermann Bahr und Richard Beer-Hofmann an Gustav Schwarzkopf, 19. 9. 1904",
         "Arthur und Olga Schnitzler, Elisabeth Steinrück an Gustav Schwarzkopf, 3. 4. 1912",
@@ -1376,11 +1397,27 @@
       ]
     },
     {
+      "from": "pmb5836",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 28. 7. 1903"
+      ]
+    },
+    {
       "from": "pmb58684",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 25. 1. 1914"
+      ]
+    },
+    {
+      "from": "pmb591",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler und Hugo von Hofmannsthal an Gustav Schwarzkopf, 3. 7. [1902]"
       ]
     },
     {
@@ -1492,8 +1529,9 @@
     {
       "from": "pmb883",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 24. 9. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 29. 9. 1899"
       ]
     },
@@ -1506,11 +1544,27 @@
       ]
     },
     {
+      "from": "pmb90170",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler und Richard Beer-Hofmann an Gustav Schwarzkopf, 9. 8. 1899"
+      ]
+    },
+    {
       "from": "pmb90188",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1926"
+      ]
+    },
+    {
+      "from": "pmb90320",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 23. 6. 1899"
       ]
     },
     {
