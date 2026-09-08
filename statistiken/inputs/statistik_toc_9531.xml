@@ -87,10 +87,40 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04341">Schnitzler an Rilke, 13. 4. 1899</ref>
+                          target="L04536">Rilke an Schnitzler, 30. 3. 1899</ref>
                   </correspContext>
                </correspDesc>
                <measure unit="zeichenanzahl" quantity="111"/>
+            </item>
+            <item corresp="L04536">
+               <title level="a">Rainer Maria Rilke an Arthur Schnitzler, 30. 3. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
+                     <date when="1899-03-30" n="01">30. 3. 1899</date>
+                     <placeName ref="#pmb61048">Schmargendorf</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-03-31" notAfter="1899-04-04">[31. 3. 1899 – 4. 4. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00911">Hofmannsthal an Schnitzler, 26. 3. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02871">Goldmann an Schnitzler, 31. 3. [1899]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04539">Rilke an Schnitzler, 1. 4. 1896</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04341">Schnitzler an Rilke, 13. 4. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="2450"/>
             </item>
             <item corresp="L04341">
                <title level="a">Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899</title>
@@ -102,25 +132,55 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
-                     <date evidence="conjecture" notBefore="1899-04-14" notAfter="1899-04-18">[14. 4. 1899 – 18. 4. 1899?]</date>
+                     <date evidence="external" notBefore="1899-04-14" notAfter="1899-04-15">[14. 4. 1899 – 15. 4. 1899]</date>
                      <placeName ref="#pmb652" evidence="conjecture">Prag</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00912">Hofmannsthal an Schnitzler, [5. 4. 1899]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04535">Rilke an Schnitzler, 15. 4. 1899</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04536">Rilke an Schnitzler, 30. 3. 1899</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_9531"
+                          target="L04535">Rilke an Schnitzler, 15. 4. 1899</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="briefkarte"/>
+               <measure unit="zeichenanzahl" quantity="602"/>
+            </item>
+            <item corresp="L04535">
+               <title level="a">Rainer Maria Rilke an Arthur Schnitzler, 15. 4. 1899</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
+                     <date when="1899-04-15" n="01">15. 4. 1899</date>
+                     <placeName ref="#pmb61048">Schmargendorf</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1899-04-16" notAfter="1899-04-20">[16. 4. 1899 – 20. 4. 1899?]</date>
+                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04341">Schnitzler an Rilke, 13. 4. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L04133">Schnitzler an Schwarzkopf, 20. 4. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04539">Rilke an Schnitzler, 1. 4. 1896</ref>
+                          target="L04341">Schnitzler an Rilke, 13. 4. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
                           target="L04544">Rilke an Schnitzler, 14. 7. 1899</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="602"/>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="839"/>
             </item>
             <item corresp="L04544">
                <title level="a">Rainer Maria Rilke: Widmungsexemplar Lieder der Mädchen für Arthur Schnitzler,
@@ -143,7 +203,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04341">Schnitzler an Rilke, 13. 4. 1899</ref>
+                          target="L04535">Rilke an Schnitzler, 15. 4. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
