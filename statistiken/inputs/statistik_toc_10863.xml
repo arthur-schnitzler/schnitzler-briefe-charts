@@ -11702,7 +11702,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1899-07-18" n="01">18. 7. 1899</date>
-                     <placeName ref="#pmb34824">Seeboden</placeName>
+                     <placeName ref="#pmb34824">Seeboden am Millstättersee</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11741,7 +11741,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00947">Schnitzler an Hofmannsthal, 18. 7. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04420">Schnitzler an Schwarzkopf, 19. 7. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00949">Hofmannsthal an Schnitzler, 20. 7. [1899]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -12337,7 +12337,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02682">Goldmann an Schnitzler, 18. 9. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00978">Beer-Hofmann, Hofmannsthal an Schnitzler, 19. 9. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04418">Schnitzler, Goldmann an Schwarzkopf, 19. 9. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -12358,8 +12358,16 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb11740">Hofmannsthal, Hugo</persName>
-                     <date when="1899-09-19" n="02">19. 9. 1899</date>
+                     <date when="1899-09-19" n="03">19. 9. 1899</date>
                      <placeName ref="#pmb946">Vahrn</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1899-09-20">20. 9. 1899</date>
+                     <placeName ref="#pmb946">Vahrn</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1899-09-22">22. 9. 1899</date>
+                     <placeName ref="#pmb146">Frankfurt am Main</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12369,7 +12377,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00977">Schnitzler an Beer-Hofmann, 19. 9. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04418">Schnitzler, Goldmann an Schwarzkopf, 19. 9. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00979">Schnitzler, Goldmann an Beer-Hofmann, 2[0?]. 9. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -13708,7 +13716,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03188">Schnitzler an Goldmann, 1. 7. 1900</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02923">Goldmann an Schnitzler, 5. 7. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04417">Schnitzler an Schwarzkopf, [4?]. 7. 1900</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -14523,7 +14531,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03524">Goldmann an Gussmann, 1. 4. [1901]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03525">Goldmann an Gussmann, 3. 4. [1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04414">Schnitzler an Schwarzkopf, 3. 4. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"

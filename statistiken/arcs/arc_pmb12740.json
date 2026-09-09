@@ -24,7 +24,7 @@
     {
       "id": "pmb146",
       "name": "Frankfurt am Main",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb15227",
@@ -177,9 +177,14 @@
       "count": 3
     },
     {
+      "id": "pmb38711",
+      "name": "Schruns",
+      "count": 1
+    },
+    {
       "id": "pmb39930",
       "name": "",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb40260",
@@ -304,7 +309,7 @@
     {
       "id": "pmb445",
       "name": "Rom",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb45258",
@@ -315,6 +320,11 @@
       "id": "pmb45260",
       "name": "Brijuni",
       "count": 8
+    },
+    {
+      "id": "pmb45264",
+      "name": "Monreale",
+      "count": 1
     },
     {
       "id": "pmb453",
@@ -342,6 +352,11 @@
       "count": 2
     },
     {
+      "id": "pmb49312",
+      "name": "Admont",
+      "count": 1
+    },
+    {
       "id": "pmb49781",
       "name": "Locarno",
       "count": 1
@@ -354,7 +369,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 434
+      "count": 441
     },
     {
       "id": "pmb506",
@@ -554,7 +569,7 @@
     {
       "id": "pmb909",
       "name": "Velden am Wörthersee",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb91618",
@@ -656,8 +671,9 @@
     {
       "from": "pmb146",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler und Paul Goldmann an Gustav Schwarzkopf, XXXX",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 19. 9. 1910"
       ]
     },
@@ -915,11 +931,20 @@
       ]
     },
     {
-      "from": "pmb39930",
+      "from": "pmb38711",
       "to": "pmb50",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Gustav Schwarzkopf, [zwischen 5. und 7. 9. 1902?]"
+        "Arthur Schnitzler, Richard Beer-Hofmann und Paul Goldmann an Gustav Schwarzkopf, [17. oder 18.] 8. 1900"
+      ]
+    },
+    {
+      "from": "pmb39930",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, [5. 9. 1902?]",
+        "Arthur Schnitzler an Gustav Schwarzkopf, XXXX"
       ]
     },
     {
@@ -1105,8 +1130,9 @@
     {
       "from": "pmb445",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 3. 4. 1901",
         "Arthur Schnitzler an Gustav Schwarzkopf, 9. 4. 1901",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 4. 5. 1904"
       ]
@@ -1135,6 +1161,14 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 12. 8. 1913",
         "Arthur Schnitzler an Gustav Schwarzkopf, 19. 8. [1913?]"
+      ]
+    },
+    {
+      "from": "pmb45264",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 16. 5. 1904"
       ]
     },
     {
@@ -1188,6 +1222,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler, Felix Salten und Ottilie Metzl an Gustav Schwarzkopf, 25. 5. 1900"
+      ]
+    },
+    {
+      "from": "pmb49312",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, [4?]. 7. 1900"
       ]
     },
     {
@@ -1709,8 +1751,9 @@
     {
       "from": "pmb909",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 19. 7. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 21. 7. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 27. 7. 1899"
       ]
