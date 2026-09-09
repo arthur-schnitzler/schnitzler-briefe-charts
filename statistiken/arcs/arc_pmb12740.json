@@ -82,6 +82,11 @@
       "count": 1
     },
     {
+      "id": "pmb246116",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb263",
       "name": "Florenz",
       "count": 3
@@ -172,6 +177,11 @@
       "count": 3
     },
     {
+      "id": "pmb39930",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb40260",
       "name": "Bozen",
       "count": 3
@@ -244,6 +254,11 @@
     {
       "id": "pmb44153",
       "name": "Verona",
+      "count": 1
+    },
+    {
+      "id": "pmb44156",
+      "name": "Padua",
       "count": 1
     },
     {
@@ -339,7 +354,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 427
+      "count": 434
     },
     {
       "id": "pmb506",
@@ -369,6 +384,11 @@
     {
       "id": "pmb54760",
       "name": "Böckstein",
+      "count": 1
+    },
+    {
+      "id": "pmb548",
+      "name": "Monte Generoso",
       "count": 1
     },
     {
@@ -462,14 +482,29 @@
       "count": 1
     },
     {
+      "id": "pmb867",
+      "name": "Innsbruck",
+      "count": 1
+    },
+    {
       "id": "pmb883",
       "name": "Wiesbaden",
       "count": 2
     },
     {
+      "id": "pmb885",
+      "name": "Lugano",
+      "count": 1
+    },
+    {
       "id": "pmb895",
       "name": "Strobl",
       "count": 2
+    },
+    {
+      "id": "pmb896",
+      "name": "Bologna",
+      "count": 1
     },
     {
       "id": "pmb90148",
@@ -755,6 +790,14 @@
       ]
     },
     {
+      "from": "pmb246116",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler und Olga und Elisabeth Gussmann an Gustav Schwarzkopf, 14. 8. 1901"
+      ]
+    },
+    {
       "from": "pmb263",
       "to": "pmb50",
       "weight": 3,
@@ -872,6 +915,14 @@
       ]
     },
     {
+      "from": "pmb39930",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, [zwischen 5. und 7. 9. 1902?]"
+      ]
+    },
+    {
       "from": "pmb40260",
       "to": "pmb50",
       "weight": 2,
@@ -984,6 +1035,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 5. 9. 1927"
+      ]
+    },
+    {
+      "from": "pmb44156",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 1. 9. 1898"
       ]
     },
     {
@@ -1404,6 +1463,14 @@
       ]
     },
     {
+      "from": "pmb548",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 11. 6. 1903"
+      ]
+    },
+    {
       "from": "pmb562",
       "to": "pmb50",
       "weight": 1,
@@ -1543,12 +1610,36 @@
       ]
     },
     {
+      "from": "pmb867",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler, Olga und Elisabeth Gussmann an Gustav Schwarzkopf, 12. 7. 1901"
+      ]
+    },
+    {
       "from": "pmb883",
       "to": "pmb50",
       "weight": 2,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 24. 9. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 29. 9. 1899"
+      ]
+    },
+    {
+      "from": "pmb885",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 9. 6. 1903"
+      ]
+    },
+    {
+      "from": "pmb896",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Louise Schnitzler an Gustav Schwarzkopf, 17. 4. 1901"
       ]
     },
     {

@@ -1,12 +1,12 @@
 Source,Target,Weight,Type
-"Schwarzkopf, Gustav","Wien",430,Directed
-"Schwarzkopf, Gustav","I., Innere Stadt",262,Directed
-"Schwarzkopf, Gustav","Tiefer Graben 23",178,Directed
+"Schwarzkopf, Gustav","Wien",437,Directed
+"Schwarzkopf, Gustav","I., Innere Stadt",268,Directed
+"Schwarzkopf, Gustav","Tiefer Graben 23",185,Directed
 "Schwarzkopf, Gustav","Tiefer Graben 17",100,Directed
 "Schwarzkopf, Gustav","XVIII., Währing",47,Directed
 "Schwarzkopf, Gustav","Bad Ischl",37,Directed
+"Schwarzkopf, Gustav","Österreich",33,Directed
 "Schwarzkopf, Gustav","Berlin",31,Directed
-"Schwarzkopf, Gustav","Österreich",31,Directed
 "Schwarzkopf, Gustav","Sternwartestraße 71",31,Directed
 "Schwarzkopf, Gustav","Salzburg",27,Directed
 "Schwarzkopf, Gustav","Edmund-Weiß-Gasse",24,Directed
@@ -19,17 +19,17 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Semmering",14,Directed
 "Schwarzkopf, Gustav","Venedig",13,Directed
 "Schwarzkopf, Gustav","Brijuni",13,Directed
-"Schwarzkopf, Gustav","Bozen",11,Directed
+"Schwarzkopf, Gustav","Bozen",12,Directed
 "Schwarzkopf, Gustav","Altaussee",11,Directed
 "Schwarzkopf, Gustav","Brühl",10,Directed
 "Schwarzkopf, Gustav","Südbahnhotel [Semmering]",9,Directed
 "Schwarzkopf, Gustav","Hotel und Pension Rudolfshöhe (Leopold Petter)",8,Directed
 "Schwarzkopf, Gustav","Volkstheater",8,Directed
 "Schwarzkopf, Gustav","Schweiz",8,Directed
+"Schwarzkopf, Gustav","Innsbruck",8,Directed
 "Schwarzkopf, Gustav","Mödling",7,Directed
 "Schwarzkopf, Gustav","Paris",7,Directed
 "Schwarzkopf, Gustav","Bad Gastein",7,Directed
-"Schwarzkopf, Gustav","Innsbruck",7,Directed
 "Schwarzkopf, Gustav","Sekirn",7,Directed
 "Schwarzkopf, Gustav","Celerina",7,Directed
 "Schwarzkopf, Gustav","Florenz",6,Directed
@@ -49,6 +49,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Frankfurt am Main",5,Directed
 "Schwarzkopf, Gustav","Nürnberg",5,Directed
 "Schwarzkopf, Gustav","Pontresina",5,Directed
+"Schwarzkopf, Gustav","Vahrn",5,Directed
 "Schwarzkopf, Gustav","Welsberg-Taisten",5,Directed
 "Schwarzkopf, Gustav","Wildbad Waldbrunn",5,Directed
 "Schwarzkopf, Gustav","Café Kaiserhof (Inh. Johann Wortner) [Wien]",4,Directed
@@ -59,7 +60,6 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Pension Pundschu",4,Directed
 "Schwarzkopf, Gustav","Toblach",4,Directed
 "Schwarzkopf, Gustav","Marienbad",4,Directed
-"Schwarzkopf, Gustav","Vahrn",4,Directed
 "Schwarzkopf, Gustav","Hamburg",4,Directed
 "Schwarzkopf, Gustav","Dänemark",4,Directed
 "Schwarzkopf, Gustav","Pension Wiener Heim",4,Directed
@@ -86,6 +86,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Genua",3,Directed
 "Schwarzkopf, Gustav","Rom",3,Directed
 "Schwarzkopf, Gustav","Rodaun",3,Directed
+"Schwarzkopf, Gustav","Lugano",3,Directed
 "Schwarzkopf, Gustav","Neapel",3,Directed
 "Schwarzkopf, Gustav","Niederlande",3,Directed
 "Schwarzkopf, Gustav","St. Gilgen",3,Directed
@@ -149,9 +150,9 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Pustertal",2,Directed
 "Schwarzkopf, Gustav","Strobl",2,Directed
 "Schwarzkopf, Gustav","Linz",2,Directed
+"Schwarzkopf, Gustav","Monte Generoso",2,Directed
 "Schwarzkopf, Gustav","Ottakringer Bräu",2,Directed
 "Schwarzkopf, Gustav","Madonna di Campiglio",2,Directed
-"Schwarzkopf, Gustav","Lugano",2,Directed
 "Schwarzkopf, Gustav","Prag",2,Directed
 "Schwarzkopf, Gustav","Palermo",2,Directed
 "Schwarzkopf, Gustav","Rathauspark",2,Directed
@@ -244,6 +245,8 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Montreux",1,Directed
 "Schwarzkopf, Gustav","Mürren",1,Directed
 "Schwarzkopf, Gustav","Furka Pass",1,Directed
+"Schwarzkopf, Gustav","Padua",1,Directed
+"Schwarzkopf, Gustav","Basilica di Sant’Antonio di Padova",1,Directed
 "Schwarzkopf, Gustav","Café Pfob",1,Directed
 "Schwarzkopf, Gustav","II., Leopoldstadt",1,Directed
 "Schwarzkopf, Gustav","Budapest-Orpheum",1,Directed
@@ -313,6 +316,8 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Palazzo Doria Spinola",1,Directed
 "Schwarzkopf, Gustav","Kolosseum [Rom]",1,Directed
 "Schwarzkopf, Gustav","Cattedrale di Santa Maria del Fiore",1,Directed
+"Schwarzkopf, Gustav","Bologna",1,Directed
+"Schwarzkopf, Gustav","Piazza Maggiore [Bologna]",1,Directed
 "Schwarzkopf, Gustav","Residenzplatz",1,Directed
 "Schwarzkopf, Gustav","St. Anton am Arlberg",1,Directed
 "Schwarzkopf, Gustav","Arlberg",1,Directed
@@ -323,16 +328,23 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Tierser Tal",1,Directed
 "Schwarzkopf, Gustav","Karersee",1,Directed
 "Schwarzkopf, Gustav","Pension Powolny",1,Directed
+"Schwarzkopf, Gustav","Ritten",1,Directed
+"Schwarzkopf, Gustav","Castel Roncolo",1,Directed
 "Schwarzkopf, Gustav","Stock im Eisen",1,Directed
 "Schwarzkopf, Gustav","?? [Unterkunft von Olga Schnitzler, Dezember 1901 – 3.2.1902, Garnisonsgasse?]",1,Directed
 "Schwarzkopf, Gustav","Hotel Kursalon Mödling",1,Directed
 "Schwarzkopf, Gustav","Matrei am Brenner",1,Directed
+"Schwarzkopf, Gustav","Windischgarsten",1,Directed
 "Schwarzkopf, Gustav","Sigmundstor",1,Directed
 "Schwarzkopf, Gustav","Potsdamer Platz",1,Directed
 "Schwarzkopf, Gustav","Palasthotel Berlin",1,Directed
 "Schwarzkopf, Gustav","Jihlava",1,Directed
 "Schwarzkopf, Gustav","Kunsthistorisches Museum",1,Directed
 "Schwarzkopf, Gustav","Zirkus Renz",1,Directed
+"Schwarzkopf, Gustav","Melide",1,Directed
+"Schwarzkopf, Gustav","Bissone",1,Directed
+"Schwarzkopf, Gustav","Monte Viso",1,Directed
+"Schwarzkopf, Gustav","Lago di Varese",1,Directed
 "Schwarzkopf, Gustav","Zum silbernen Brunnen",1,Directed
 "Schwarzkopf, Gustav","Bahnhof Hochschneeberg",1,Directed
 "Schwarzkopf, Gustav","Station Hengsttal",1,Directed

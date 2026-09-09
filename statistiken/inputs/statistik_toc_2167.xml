@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-08Z</date>
+            <date>2026-09-09Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2167.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -5978,7 +5978,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01179">Seligmann an Schnitzler, 1. 10. 1901</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01178">Bahr an Schnitzler, Oktober 1901</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01180">Bahr an Schnitzler, 7. 10. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -6717,7 +6717,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03333">Salten an Schnitzler, 2. 9. 1902</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03224">Goldmann an Schnitzler, 16. 9. [1902]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04434">Schnitzler an Schwarzkopf, [zwischen 5. und 7. 9. 1902?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -9436,7 +9436,6 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_10986">Brahm, Otto</ref>
-                     <ref type="belongsToCorrespondence" target="correspondence_null">Bettelheim, Anton</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03243">Goldmann an Schnitzler, 16. 4. [1906]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03244">Goldmann an Schnitzler, 20. 4. [1906]</ref>
                      <ref subtype="previous_letter"
@@ -9454,14 +9453,6 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10986"
-                          target="L02578">Salten, Brahm, Brahm, Wassermann an Schnitzler, 21. 12. [1907?]</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_null"
-                          target="L02866">Brahm, Hauptmann, Marschalk an Schnitzler, 21. 6. 1903</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_null"
                           target="L02578">Salten, Brahm, Brahm, Wassermann an Schnitzler, 21. 12. [1907?]</ref>
                   </correspContext>
                </correspDesc>
@@ -10750,7 +10741,6 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
                      <ref type="belongsToCorrespondence" target="correspondence_10986">Brahm, Otto</ref>
-                     <ref type="belongsToCorrespondence" target="correspondence_null">Bettelheim, Anton</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01743">Schnitzler an Bahr, 20. 12. 1907</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01744">Bahr an Schnitzler, 23. 12. 1907</ref>
                      <ref subtype="previous_letter"
@@ -10764,10 +10754,6 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10986"
-                          target="L03419">Salten, Salten, Brahm, Jonas, Heilbut, Fischer, Fischer, Jonas an Schnitzler, 19. 4. 1906</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_null"
                           target="L03419">Salten, Salten, Brahm, Jonas, Heilbut, Fischer, Fischer, Jonas an Schnitzler, 19. 4. 1906</ref>
                   </correspContext>
                </correspDesc>
