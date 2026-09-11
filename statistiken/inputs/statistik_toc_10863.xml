@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-09Z</date>
+            <date>2026-09-11Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10863.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,6 +71,14 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1891-05-23" n="02">23. 5. 1891</date>
                      <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1891-05-23">23. 5. 1891</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1891-05-24">24. 5. 1891</date>
+                     <placeName ref="#pmb833">Brünn</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
@@ -159,6 +167,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1891-06-06" n="01">6. 6. 1891</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1891-06-06">6. 6. 1891</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -16873,7 +16885,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03444">Goldmann an Schnitzler, 26. 5. [1904]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04394">Schnitzler, Schnitzler an Schwarzkopf, 28. 4. 1904</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03397">Salten an Schnitzler, 3. 6. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -17995,7 +18007,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01506">Schnitzler an Hofmannsthal, 11. 3. 1905</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04380">Schnitzler an Schwarzkopf, 11. 3. 1905</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01508">Hofmannsthal an Schnitzler, 14. 3. 1905</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -18807,18 +18819,22 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01613">Schnitzler an Beer-Hofmann, 17. 7. 1906</ref>
+                          target="L01613">Schnitzler an Beer-Hofmann, 1[7?]. 7. 1906</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
                <measure unit="zeichenanzahl" quantity="194"/>
             </item>
             <item corresp="L01613">
-               <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 17. 7. 1906</title>
+               <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 1[7?]. 7. 1906</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1906-07-17" n="01">17. 7. 1906</date>
+                     <date when="1906-07-17" n="01">1[7?]. 7. 1906</date>
+                     <placeName ref="#pmb726">Helsingør</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-07-17">17. 7. 1906</date>
                      <placeName ref="#pmb726">Helsingør</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -18830,7 +18846,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04273">Schwarzkopf, Schwarzkopf an Schnitzler, 14. 7. 1906</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03431">Salten an Schnitzler, 17. 7. 1906</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04377">Schnitzler an Schwarzkopf, 1[7?]. 7. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -18866,7 +18882,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01613">Schnitzler an Beer-Hofmann, 17. 7. 1906</ref>
+                          target="L01613">Schnitzler an Beer-Hofmann, 1[7?]. 7. 1906</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -20098,7 +20114,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03492">Salten an Schnitzler, 8. 2. 1908</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04391">Schnitzler, Schnitzler, Schnitzler an Schwarzkopf, 9. 2. 1908</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01761">Schnitzler an Beer-Hofmann, 18. 2. 1908</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -20258,7 +20274,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01767">Schnitzler, Schnitzler an Bahr, 29. 4. 1908</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01769">Schnitzler an Beer-Hofmann, Beer-Hofmann, 11. 5. 1908</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04376">Schnitzler, Schnitzler an Schwarzkopf, 29. 4. 1908</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -20289,7 +20305,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01768">Schnitzler, Schnitzler an Beer-Hofmann, 29. 4. 1908</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04376">Schnitzler, Schnitzler an Schwarzkopf, 29. 4. 1908</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01770">Schnitzler, Schnitzler an Bahr, 6. 5. 1908</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -20457,7 +20473,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03465">Goldmann an Schnitzler, 17. 8. 1908</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01789">Hofmannsthal an Schnitzler, 14. 9. 1908</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04382">Schnitzler, Schnitzler an Schwarzkopf, 4. 9. 1908</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -21069,7 +21085,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01844">Hofmannsthal an Schnitzler, [11. 6. 1909]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01846">Bahr an Schnitzler, 18. 6. 1909</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04402">Schnitzler, Schnitzler an Schwarzkopf, 18. 6. 1909</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -22183,6 +22199,10 @@
                      <date when="1910-05-21" n="01">21. 5. 1910</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-05-21">21. 5. 1910</date>
+                     <placeName ref="#pmb49170">Morschach</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
@@ -22193,7 +22213,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02556">Schnitzler, Schnitzler an Beer-Hofmann, Beer-Hofmann, 18. 5. 1910</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01933">Schnitzler, Schnitzler an Beer-Hofmann, 22. 5. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04372">Schnitzler, Schnitzler an Schwarzkopf, 21. 5. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -22224,7 +22244,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02559">Schnitzler, Schnitzler an Beer-Hofmann, Beer-Hofmann, 21. 5. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04372">Schnitzler, Schnitzler an Schwarzkopf, 21. 5. 1910</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L04533">Schnitzler, Schnitzler an Schwarzkopf, 24. 5. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -25119,7 +25139,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04251">Schwarzkopf an Schnitzler, 9. 8. 1916</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04404">Schnitzler an Schwarzkopf, 14. 8. 1916</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02238">Schnitzler an Hofmannsthal, 22. 8. 1916</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

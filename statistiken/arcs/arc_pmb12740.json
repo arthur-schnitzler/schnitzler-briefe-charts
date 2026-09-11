@@ -22,6 +22,11 @@
       "count": 4
     },
     {
+      "id": "pmb1277",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb146",
       "name": "Frankfurt am Main",
       "count": 2
@@ -44,7 +49,7 @@
     {
       "id": "pmb189",
       "name": "Semmering",
-      "count": 11
+      "count": 12
     },
     {
       "id": "pmb20650",
@@ -104,7 +109,7 @@
     {
       "id": "pmb33",
       "name": "St. Gilgen",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb332",
@@ -119,7 +124,7 @@
     {
       "id": "pmb334803",
       "name": "Mautern in Steiermark",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb334808",
@@ -139,7 +144,7 @@
     {
       "id": "pmb34401",
       "name": "Altaussee",
-      "count": 5
+      "count": 7
     },
     {
       "id": "pmb34946",
@@ -244,7 +249,7 @@
     {
       "id": "pmb43520",
       "name": "Meran",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb43991",
@@ -292,6 +297,11 @@
       "count": 1
     },
     {
+      "id": "pmb44311",
+      "name": "San Martino di Castrozza",
+      "count": 1
+    },
+    {
       "id": "pmb44374",
       "name": "St. Moritz",
       "count": 2
@@ -310,6 +320,11 @@
       "id": "pmb445",
       "name": "Rom",
       "count": 3
+    },
+    {
+      "id": "pmb44521",
+      "name": "Ancona",
+      "count": 1
     },
     {
       "id": "pmb45258",
@@ -337,6 +352,11 @@
       "count": 5
     },
     {
+      "id": "pmb465",
+      "name": "Riva del Garda",
+      "count": 1
+    },
+    {
       "id": "pmb470",
       "name": "Edlach an der Rax",
       "count": 5
@@ -350,6 +370,11 @@
       "id": "pmb48761",
       "name": "Puchberg am Schneeberg",
       "count": 2
+    },
+    {
+      "id": "pmb49170",
+      "name": "Morschach",
+      "count": 1
     },
     {
       "id": "pmb49312",
@@ -369,7 +394,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 441
+      "count": 456
     },
     {
       "id": "pmb506",
@@ -447,6 +472,11 @@
       "count": 1
     },
     {
+      "id": "pmb652",
+      "name": "Prag",
+      "count": 1
+    },
+    {
       "id": "pmb662",
       "name": "Baden bei Wien",
       "count": 6
@@ -460,6 +490,11 @@
       "id": "pmb723",
       "name": "Wildbad Waldbrunn",
       "count": 2
+    },
+    {
+      "id": "pmb726",
+      "name": "Helsingør",
+      "count": 1
     },
     {
       "id": "pmb75",
@@ -484,6 +519,11 @@
     {
       "id": "pmb842",
       "name": "Karlsbad",
+      "count": 1
+    },
+    {
+      "id": "pmb847",
+      "name": "Ajaccio",
       "count": 1
     },
     {
@@ -587,6 +627,11 @@
       "count": 1
     },
     {
+      "id": "pmb91944",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb946",
       "name": "Vahrn",
       "count": 4
@@ -669,6 +714,14 @@
       ]
     },
     {
+      "from": "pmb1277",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 11. 3. 1905"
+      ]
+    },
+    {
       "from": "pmb146",
       "to": "pmb50",
       "weight": 2,
@@ -717,7 +770,7 @@
     {
       "from": "pmb189",
       "to": "pmb50",
-      "weight": 10,
+      "weight": 11,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 6. 11. 190[3]",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, [11. 1. 1904?]",
@@ -725,6 +778,7 @@
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 2[5]. 9. 1905",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 18. 9. 1906",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 14. 11. 1906",
+        "Arthur, Olga und Louise Schnitzler an Gustav Schwarzkopf, 9. 2. 1908",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 8. 8. 1911",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 12. 8. 1911",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 6. 10. 1911",
@@ -858,10 +912,11 @@
     {
       "from": "pmb33",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
         "Arthur, Olga Schnitzler und Emilie Sigmund an Gustav Schwarzkopf, 13. 9. 1904",
-        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 29. 12. 1904"
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 29. 12. 1904",
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 18. 6. 1909"
       ]
     },
     {
@@ -875,9 +930,11 @@
     {
       "from": "pmb34401",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 4,
       "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, XXXX",
         "Arthur Schnitzler an Gustav Schwarzkopf, 21. 9. 1916",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 2. 9. 1920",
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 8. 1921"
       ]
     },
@@ -1033,9 +1090,10 @@
     {
       "from": "pmb43520",
       "to": "pmb50",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler und Felix Salten an Gustav Schwarzkopf, 29. 8. 1900"
+        "Arthur Schnitzler und Felix Salten an Gustav Schwarzkopf, 29. 8. 1900",
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, [5?]. 9. 1907"
       ]
     },
     {
@@ -1112,6 +1170,14 @@
       ]
     },
     {
+      "from": "pmb44311",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 4. 9. 1908"
+      ]
+    },
+    {
       "from": "pmb44374",
       "to": "pmb50",
       "weight": 1,
@@ -1125,6 +1191,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler, Elisabeth Steinruck, Olga Schnitzler und Heinrich Mann an Gustav Schwarzkopf, 7. 9. [1912?]"
+      ]
+    },
+    {
+      "from": "pmb44521",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 28. 4. 1904"
       ]
     },
     {
@@ -1190,6 +1264,14 @@
       ]
     },
     {
+      "from": "pmb465",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 29. 4. 1908"
+      ]
+    },
+    {
       "from": "pmb470",
       "to": "pmb50",
       "weight": 5,
@@ -1225,6 +1307,14 @@
       ]
     },
     {
+      "from": "pmb49170",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Olga und Arthur Schnitzler an Gustav Schwarzkopf, 21. 5. 1910"
+      ]
+    },
+    {
       "from": "pmb49312",
       "to": "pmb50",
       "weight": 1,
@@ -1246,6 +1336,14 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 7. 11. 1911"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb334803",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 18. 7. 1911"
       ]
     },
     {
@@ -1577,6 +1675,14 @@
       ]
     },
     {
+      "from": "pmb652",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, [5. 11. 1905?]"
+      ]
+    },
+    {
       "from": "pmb682",
       "to": "pmb50",
       "weight": 1,
@@ -1591,6 +1697,14 @@
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 8. 7. 1907",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 10. 8. 1907"
+      ]
+    },
+    {
+      "from": "pmb726",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 1[7?]. 7. 1906"
       ]
     },
     {
@@ -1632,6 +1746,14 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 28. 5. 1911"
+      ]
+    },
+    {
+      "from": "pmb847",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 7. 3. 1905"
       ]
     },
     {
@@ -1772,6 +1894,14 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, [28. 8.?] 1907"
+      ]
+    },
+    {
+      "from": "pmb91944",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 3. 1900"
       ]
     },
     {
