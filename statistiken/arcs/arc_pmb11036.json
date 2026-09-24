@@ -7,6 +7,11 @@
       "count": 2
     },
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
       "id": "pmb33",
       "name": "St. Gilgen",
       "count": 13
@@ -24,7 +29,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 49
+      "count": 48
     },
     {
       "id": "pmb677",
@@ -61,6 +66,14 @@
     },
     {
       "from": "pmb33",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Max Burckhard an Arthur Schnitzler, 12. 7. 1909"
+      ]
+    },
+    {
+      "from": "pmb33",
       "to": "pmb33",
       "weight": 1,
       "titles": [
@@ -78,7 +91,7 @@
     {
       "from": "pmb33",
       "to": "pmb50",
-      "weight": 10,
+      "weight": 9,
       "titles": [
         "Max Burckhard an Arthur Schnitzler, 24. [12. 1904]",
         "Max Burckhard an Arthur Schnitzler, 30. 11. 1905",
@@ -86,7 +99,6 @@
         "Max Burckhard: Widmungsexemplar Quer durch das Leben für Arthur Schnitzler, 14. 11. 1907",
         "Max Burckhard an Arthur Schnitzler, 23. 11. 1907",
         "Max Burckhard an Arthur Schnitzler, 7. 6. 1908",
-        "Max Burckhard an Arthur Schnitzler, 12. 7. 1909",
         "Max Burckhard an Arthur Schnitzler, 15. 9. 1909",
         "Max Burckhard an Arthur Schnitzler, 8. 4. 1910",
         "Max Burckhard an Arthur Schnitzler, 23. 8. 1911"

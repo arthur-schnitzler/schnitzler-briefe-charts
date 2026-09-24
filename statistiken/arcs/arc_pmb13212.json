@@ -2,9 +2,19 @@
   "correspondent": "Zweig, Stefan",
   "nodes": [
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 43
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 2
+    },
+    {
       "id": "pmb182",
       "name": "Paris",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb197",
@@ -12,23 +22,63 @@
       "count": 1
     },
     {
-      "id": "pmb30",
-      "name": "Salzburg",
-      "count": 51
+      "id": "pmb20",
+      "name": "Volkstheater",
+      "count": 1
     },
     {
-      "id": "pmb34005",
-      "name": "Zermatt",
+      "id": "pmb245351",
+      "name": "Parkhotel Beau Site",
       "count": 1
+    },
+    {
+      "id": "pmb249577",
+      "name": "Kochgasse 8",
+      "count": 18
+    },
+    {
+      "id": "pmb253003",
+      "name": "Paschinger Schlössl",
+      "count": 16
+    },
+    {
+      "id": "pmb292961",
+      "name": "Garnisongasse 10",
+      "count": 1
+    },
+    {
+      "id": "pmb293589",
+      "name": "Hotel du Cap",
+      "count": 1
+    },
+    {
+      "id": "pmb293686",
+      "name": "Hôtel Byron",
+      "count": 1
+    },
+    {
+      "id": "pmb294051",
+      "name": "Hôtel de Beaujolais",
+      "count": 1
+    },
+    {
+      "id": "pmb296105",
+      "name": "Rathausstraße 17",
+      "count": 1
+    },
+    {
+      "id": "pmb297",
+      "name": "Kapuzinerberg",
+      "count": 2
+    },
+    {
+      "id": "pmb30",
+      "name": "Salzburg",
+      "count": 33
     },
     {
       "id": "pmb39944",
       "name": "Havanna",
-      "count": 1
-    },
-    {
-      "id": "pmb40482",
-      "name": "Montreux",
       "count": 1
     },
     {
@@ -39,12 +89,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 149
+      "count": 100
     },
     {
       "id": "pmb506",
       "name": "Hamburg",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb555",
@@ -62,9 +112,14 @@
       "count": 2
     },
     {
+      "id": "pmb774",
+      "name": "Hotel Atlantic",
+      "count": 1
+    },
+    {
       "id": "pmb88767",
       "name": "Antibes",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb95201",
@@ -79,11 +134,80 @@
   ],
   "links_from_schnitzler": [
     {
-      "from": "pmb506",
-      "to": "pmb50",
+      "from": "pmb168815",
+      "to": "pmb249577",
+      "weight": 9,
+      "titles": [
+        "Arthur Schnitzler an Stefan Zweig, 11. 2. 1911",
+        "Arthur Schnitzler an Stefan Zweig, 12. 6. 1911",
+        "Arthur Schnitzler an Stefan Zweig, [7. oder 8]. 7. 1911",
+        "Arthur Schnitzler an Stefan Zweig, 4. 9. 1914",
+        "Arthur Schnitzler an Stefan Zweig, 5. 12. 1914",
+        "Arthur Schnitzler an Stefan Zweig, 15. 2. 1915",
+        "Arthur Schnitzler an Stefan Zweig, 12. 11. 1915",
+        "Arthur Schnitzler an Stefan Zweig, 16. 2. 1916",
+        "Arthur Schnitzler an Stefan Zweig, 10. 4. 1919"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb253003",
+      "weight": 13,
+      "titles": [
+        "Arthur Schnitzler an Stefan Zweig, 29. 11. 1922",
+        "Arthur Schnitzler an Stefan Zweig, 29. 5. 1923",
+        "Arthur Schnitzler an Stefan Zweig, 25. 6. 1923",
+        "Arthur Schnitzler an Stefan Zweig, 27. 7. 1923",
+        "Arthur Schnitzler an Stefan Zweig, 30. 7. 1923",
+        "Arthur Schnitzler an Stefan Zweig, 1. 8. 1923",
+        "Arthur Schnitzler an Stefan Zweig, 4. 5. 1925",
+        "Arthur Schnitzler an Stefan Zweig, 21. 2. 1927",
+        "Arthur Schnitzler an Stefan Zweig, 15. 10. 1927",
+        "Arthur Schnitzler an Stefan Zweig, 10. 5. 1928",
+        "Arthur Schnitzler an Stefan Zweig, 16. 5. 1928",
+        "Arthur Schnitzler an Stefan Zweig, 5. 12. 1929",
+        "Arthur Schnitzler an Stefan Zweig, 23. 12. 1929"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb292961",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Stefan Zweig, 9. 11. 1911"
+        "Arthur Schnitzler an Stefan Zweig, 5. 4. 1930"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb297",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Stefan Zweig, 18. 8. [1920]",
+        "Arthur Schnitzler an Stefan Zweig, 3. 1. 1921"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb88767",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Stefan Zweig, 19. 2. 1931"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb249577",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Stefan Zweig, 2. 6. 1909"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb296105",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Stefan Zweig, 17. 10. 1904"
       ]
     },
     {
@@ -97,48 +221,31 @@
     {
       "from": "pmb50",
       "to": "pmb30",
-      "weight": 27,
+      "weight": 12,
       "titles": [
-        "Arthur Schnitzler an Stefan Zweig, 18. 8. [1920]",
         "Arthur Schnitzler an Stefan Zweig, 20. 8. 1920",
-        "Arthur Schnitzler an Stefan Zweig, 3. 1. 1921",
-        "Arthur Schnitzler an Stefan Zweig, 29. 11. 1922",
         "Arthur Schnitzler an Stefan Zweig, 22. 1. 1923",
-        "Arthur Schnitzler an Stefan Zweig, 29. 5. 1923",
-        "Arthur Schnitzler an Stefan Zweig, 25. 6. 1923",
-        "Arthur Schnitzler an Stefan Zweig, 27. 7. 1923",
-        "Arthur Schnitzler an Stefan Zweig, 30. 7. 1923",
-        "Arthur Schnitzler an Stefan Zweig, 1. 8. 1923",
         "Arthur Schnitzler an Stefan Zweig, 6. 11. 1924",
-        "Arthur Schnitzler an Stefan Zweig, 4. 5. 1925",
         "Arthur Schnitzler an Stefan Zweig, 2. 10. 1926",
         "Arthur Schnitzler an Stefan Zweig, 7. 11. 1926",
-        "Arthur Schnitzler an Stefan Zweig, 21. 2. 1927",
         "Arthur Schnitzler an Stefan Zweig, 28. 5. 1927",
         "Arthur Schnitzler an Stefan Zweig, 12. 10. 1927",
-        "Arthur Schnitzler an Stefan Zweig, 15. 10. 1927",
         "Arthur Schnitzler an Stefan Zweig, 16. 1. 1928",
-        "Arthur Schnitzler an Stefan Zweig, 10. 5. 1928",
-        "Arthur Schnitzler an Stefan Zweig, 16. 5. 1928",
         "Arthur Schnitzler an Stefan Zweig, 4. 7. 1929",
         "Arthur Schnitzler an Stefan Zweig, 3[1?]. 7. 1929",
         "Arthur Schnitzler an Stefan Zweig, 4. 11. 1929",
-        "Arthur Schnitzler an Stefan Zweig, 5. 12. 1929",
-        "Arthur Schnitzler an Stefan Zweig, 23. 12. 1929",
         "Arthur Schnitzler an Stefan Zweig, 28. 4. 1930"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 43,
+      "weight": 31,
       "titles": [
-        "Arthur Schnitzler an Stefan Zweig, 17. 10. 1904",
         "Arthur Schnitzler an Stefan Zweig, 22. 1. 1908",
         "Arthur Schnitzler an Stefan Zweig, 23. 3. 1908",
         "Arthur Schnitzler an Stefan Zweig, 22. 10. 1908",
         "Arthur Schnitzler an Stefan Zweig, 29. 10. 1908",
-        "Arthur Schnitzler an Stefan Zweig, 2. 6. 1909",
         "Arthur Schnitzler an Stefan Zweig, 30. 11. 1909",
         "Arthur Schnitzler an Stefan Zweig, [zwischen 14. und 16. 12. 1909?]",
         "Arthur Schnitzler an Stefan Zweig, 22. 12. 1909",
@@ -148,9 +255,6 @@
         "Arthur Schnitzler an Stefan Zweig, 7. 10. 1910",
         "Arthur Schnitzler an Stefan Zweig, 29. 11. 1910",
         "Arthur Schnitzler an Stefan Zweig, 17. 1. 1911",
-        "Arthur Schnitzler an Stefan Zweig, 11. 2. 1911",
-        "Arthur Schnitzler an Stefan Zweig, 12. 6. 1911",
-        "Arthur Schnitzler an Stefan Zweig, 8. 7. 1911",
         "Arthur Schnitzler an Stefan Zweig, 16. 10. 1911",
         "Arthur Schnitzler an Stefan Zweig, 26. [10.] 1911",
         "Arthur Schnitzler an Stefan Zweig, 1[1]. 1[2]. 1911",
@@ -159,44 +263,37 @@
         "Arthur Schnitzler an Stefan Zweig, 10. 11. 1912",
         "Arthur Schnitzler an Stefan Zweig, 14. 11. 1912",
         "Arthur Schnitzler an Stefan Zweig, 2[4?]. 5. 1913",
-        "Arthur Schnitzler an Stefan Zweig, 4. 9. 1914",
         "Arthur Schnitzler an Stefan Zweig, 9. 11. 1914",
         "Arthur Schnitzler an Stefan Zweig, 27. 11. 1914",
         "Arthur Schnitzler an Stefan Zweig, 2. 12. 1914",
-        "Arthur Schnitzler an Stefan Zweig, 5. 12. 1914",
         "Arthur Schnitzler an Stefan Zweig, 15. 1. 1915",
         "Arthur Schnitzler an Stefan Zweig, 11. 2. 1915",
-        "Arthur Schnitzler an Stefan Zweig, 15. 2. 1915",
         "Arthur Schnitzler an Stefan Zweig, 9. 4. 1915",
         "Arthur Schnitzler an Stefan Zweig, 25. 4. 1915",
         "Arthur Schnitzler an Stefan Zweig, 5. 5. 1915",
-        "Arthur Schnitzler an Stefan Zweig, 12. 11. 1915",
-        "Arthur Schnitzler an Stefan Zweig, 16. 2. 1916",
         "Arthur Schnitzler an Stefan Zweig, 18. 8. 1917",
-        "Arthur Schnitzler an Stefan Zweig, 9. 10. 1917",
-        "Arthur Schnitzler an Stefan Zweig, 10. 4. 1919",
-        "Arthur Schnitzler an Stefan Zweig, 5. 4. 1930"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb88767",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Stefan Zweig, 19. 2. 1931"
+        "Arthur Schnitzler an Stefan Zweig, 9. 10. 1917"
       ]
     },
     {
       "from": "pmb75",
-      "to": "pmb50",
+      "to": "pmb249577",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Stefan Zweig, 5. 6. 1908"
       ]
     },
     {
+      "from": "pmb774",
+      "to": "pmb249577",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Stefan Zweig, 9. 11. 1911"
+      ]
+    },
+    {
       "from": "pmb988",
-      "to": "pmb50",
+      "to": "pmb249577",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Stefan Zweig, 5. 7. 1908"
@@ -206,38 +303,109 @@
   "links_to_schnitzler": [
     {
       "from": "pmb182",
-      "to": "pmb50",
-      "weight": 3,
+      "to": "pmb168815",
+      "weight": 1,
       "titles": [
-        "Stefan Zweig an Arthur Schnitzler, 21. 2. 1911",
-        "Stefan Zweig an Arthur Schnitzler, 15. 3. 1913",
-        "Stefan Zweig an Arthur Schnitzler, 20. 3. 1913"
+        "Stefan Zweig an Arthur Schnitzler, [20. oder 21]. 2. 1911"
+      ]
+    },
+    {
+      "from": "pmb182",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, 15. 3. 1913"
       ]
     },
     {
       "from": "pmb197",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
-        "Stefan Zweig an Arthur Schnitzler, 29. 8. 1911"
+        "Stefan Zweig an Arthur Schnitzler, [28. oder 29]. 8. 1911"
+      ]
+    },
+    {
+      "from": "pmb249577",
+      "to": "pmb168815",
+      "weight": 4,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, [27. oder 28. 5. 1913?]",
+        "Stefan Zweig an Arthur Schnitzler, [12. oder 13.?] 6. [1913?]",
+        "Stefan Zweig an Arthur Schnitzler, [6. oder 7]. 12. 1914",
+        "Stefan Zweig an Arthur Schnitzler, 25. 11. 1915"
+      ]
+    },
+    {
+      "from": "pmb249577",
+      "to": "pmb506",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, 6. [11.?] 1911"
+      ]
+    },
+    {
+      "from": "pmb253003",
+      "to": "pmb168815",
+      "weight": 3,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, [11. oder 12]. 7. 1923",
+        "Stefan Zweig an Arthur Schnitzler, [31. 7. oder 1. 8.]. 1923",
+        "Stefan Zweig an Arthur Schnitzler, [4.] 10. [1926?]"
+      ]
+    },
+    {
+      "from": "pmb293589",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Stefan und Friderike Zweig an Arthur Schnitzler, [17. oder 18. 2. 1931?]"
+      ]
+    },
+    {
+      "from": "pmb293686",
+      "to": "pmb245351",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, [20. oder 21]. 8. 1926"
+      ]
+    },
+    {
+      "from": "pmb294051",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, [19. oder 20]. 3. 1913"
+      ]
+    },
+    {
+      "from": "pmb30",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, 15. 5. [1922]"
+      ]
+    },
+    {
+      "from": "pmb30",
+      "to": "pmb20",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, 21. 12. [1929]"
       ]
     },
     {
       "from": "pmb30",
       "to": "pmb50",
-      "weight": 24,
+      "weight": 19,
       "titles": [
         "Stefan Zweig an Arthur Schnitzler, 14. 8. 1920",
         "Stefan Zweig an Arthur Schnitzler, 18. 8. 1920",
-        "Stefan Zweig an Arthur Schnitzler, 15. 5. [1922]",
         "Stefan Zweig an Arthur Schnitzler, 13. 5. 1923",
-        "Stefan Zweig an Arthur Schnitzler, 12. 7. 1923",
         "Stefan Zweig an Arthur Schnitzler, 23. 7. 1923",
         "Stefan Zweig an Arthur Schnitzler, 28. 7. 1923",
-        "Stefan Zweig an Arthur Schnitzler, 1. 8. 1923",
         "Stefan Zweig an Arthur Schnitzler, 4. 11. 1924",
         "Stefan Zweig an Arthur Schnitzler, 2. 1. 1925",
-        "Stefan Zweig an Arthur Schnitzler, [4.] 10. [1926?]",
         "Stefan Zweig an Arthur Schnitzler, 10. 11. 1926",
         "Stefan Zweig an Arthur Schnitzler, 4. 2. 1927",
         "Stefan Zweig an Arthur Schnitzler, 18. 5. 1927",
@@ -249,29 +417,20 @@
         "Stefan Zweig an Arthur Schnitzler, 26. 7. 1929",
         "Stefan Zweig an Arthur Schnitzler, 2. 11. 1929",
         "Stefan Zweig an Arthur Schnitzler, 6. 11. 1929",
-        "Stefan Zweig an Arthur Schnitzler, 21. 12. [1929]",
         "Stefan Zweig an Arthur Schnitzler, 2. 4. 1930"
       ]
     },
     {
       "from": "pmb39944",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
-        "Stefan Zweig an Arthur Schnitzler, [4.] 4. 1911"
-      ]
-    },
-    {
-      "from": "pmb40482",
-      "to": "pmb34005",
-      "weight": 1,
-      "titles": [
-        "Stefan Zweig an Arthur Schnitzler, 21. 8. 1926"
+        "Stefan Zweig an Arthur Schnitzler, [3. oder 4]. 4. 1911"
       ]
     },
     {
       "from": "pmb48345",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Stefan Zweig an Arthur Schnitzler, [17. 7. 1915?]"
@@ -279,8 +438,16 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, [zwischen 5. und 12. 6. 1911?]"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb50",
-      "weight": 33,
+      "weight": 28,
       "titles": [
         "Stefan Zweig an Arthur Schnitzler, 15. 1. 190[8]",
         "Stefan Zweig an Arthur Schnitzler, [22. 10. 1908?]",
@@ -289,40 +456,27 @@
         "Stefan Zweig an Arthur Schnitzler, [zwischen 18. und 24. 10.? 1910]",
         "Stefan Zweig an Arthur Schnitzler, 27. 11. 1910",
         "Stefan Zweig an Arthur Schnitzler, 4. 2. 191[1]",
-        "Stefan Zweig an Arthur Schnitzler, [zwischen 5. und 12. 6. 1911?]",
         "Stefan Zweig an Arthur Schnitzler, [24. 6. 1911?]",
         "Stefan Zweig an Arthur Schnitzler, 27. 10. 1911",
         "Stefan Zweig an Arthur Schnitzler, [27. 10. 1912?]",
         "Stefan Zweig an Arthur Schnitzler, 12. 11. 1912",
         "Stefan Zweig an Arthur Schnitzler, 23. 5. 1913",
-        "Stefan Zweig an Arthur Schnitzler, [28. 5. 1913?]",
-        "Stefan Zweig an Arthur Schnitzler, [12. oder 13.?] 6. [1913?]",
         "Stefan Zweig an Arthur Schnitzler, 20. 2. 1914",
         "Stefan Zweig an Arthur Schnitzler, [26. 11. 1914?]",
         "Stefan Zweig an Arthur Schnitzler, [29. 11. 1914]",
         "Stefan Zweig an Arthur Schnitzler, 3. 12. 1914",
-        "Stefan Zweig an Arthur Schnitzler, [7.?] 12. 1914",
         "Stefan Zweig an Arthur Schnitzler, 12. 12. [1914?]",
         "Stefan Zweig an Arthur Schnitzler, 16. 1. 1915",
         "Stefan Zweig an Arthur Schnitzler, [zwischen 7. und 10. 2. 1915?]",
         "Stefan Zweig an Arthur Schnitzler, [zwischen 7. 4. 1915 und 9. 4. 1915?]",
         "Stefan Zweig an Arthur Schnitzler, [26. 4. 1915]",
         "Stefan Zweig an Arthur Schnitzler, 13. 10. 1915",
-        "Stefan Zweig an Arthur Schnitzler, 25. 11. 1915",
         "Stefan Zweig an Arthur Schnitzler, 18. 1. 1916",
         "Stefan Zweig an Arthur Schnitzler, 26. 4. 1916",
         "Stefan Zweig an Arthur Schnitzler, 25. 9. 1916",
         "Stefan Zweig an Arthur Schnitzler, 25. 8. 1917",
         "Stefan Zweig an Arthur Schnitzler, 12. 10. 1917",
         "Stefan Zweig an Arthur Schnitzler, 14. 4. 1919"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb506",
-      "weight": 1,
-      "titles": [
-        "Stefan Zweig an Arthur Schnitzler, 6. [11.?] 1911"
       ]
     },
     {
@@ -343,26 +497,18 @@
     },
     {
       "from": "pmb5836",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
-        "Stefan Zweig an Arthur Schnitzler, 6. 7. 1911"
-      ]
-    },
-    {
-      "from": "pmb88767",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Stefan und Friderike Zweig an Arthur Schnitzler, [18. 2. 1931?]"
+        "Stefan Zweig an Arthur Schnitzler, [5. oder 6]. 7. 1911"
       ]
     },
     {
       "from": "pmb95201",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
-        "Stefan Zweig an Arthur Schnitzler, 19. 11. 1911"
+        "Stefan Zweig an Arthur Schnitzler, [18. oder 19]. 11. 1911"
       ]
     }
   ]

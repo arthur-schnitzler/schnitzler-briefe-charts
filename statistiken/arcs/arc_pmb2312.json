@@ -7,9 +7,24 @@
       "count": 1
     },
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 2
+    },
+    {
       "id": "pmb182",
       "name": "Paris",
-      "count": 24
+      "count": 23
+    },
+    {
+      "id": "pmb235784",
+      "name": "Oppolzergasse 6",
+      "count": 1
+    },
+    {
+      "id": "pmb298841",
+      "name": "12, Avenue d’Eylau",
+      "count": 1
     },
     {
       "id": "pmb36456",
@@ -29,7 +44,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 64
+      "count": 61
     },
     {
       "id": "pmb52051",
@@ -138,7 +153,7 @@
     },
     {
       "from": "pmb966",
-      "to": "pmb50",
+      "to": "pmb235784",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Berta Zuckerkandl, 23. 4. 1928"
@@ -148,7 +163,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb1223",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, 25. 2. 1917"
@@ -157,9 +172,16 @@
     {
       "from": "pmb182",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Berta Zuckerkandl an Arthur Schnitzler, [23. 6. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [23. 6. 1911?]"
+      ]
+    },
+    {
+      "from": "pmb298841",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, 27. 2. 192[3?]"
       ]
     },

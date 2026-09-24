@@ -7,6 +7,16 @@
       "count": 1
     },
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 2
+    },
+    {
       "id": "pmb189",
       "name": "Semmering",
       "count": 1
@@ -15,11 +25,6 @@
       "id": "pmb34528",
       "name": "Szklarska Poręba",
       "count": 1
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 3
     }
   ],
   "links_from_schnitzler": [
@@ -27,7 +32,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb168",
-      "to": "pmb50",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Felix Salten u. a. an Arthur Schnitzler, 19. 4. 1906"
@@ -35,7 +40,7 @@
     },
     {
       "from": "pmb189",
-      "to": "pmb50",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Felix Salten, Jakob Wassermann, Otto Brahm, Ludwig Brahm an Arthur Schnitzler, 21. 12. [1907?]"
@@ -43,7 +48,7 @@
     },
     {
       "from": "pmb34528",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
         "Otto Brahm, Gerhart Hauptmann und Margarete Marschalk an Arthur Schnitzler, 21. 6. 1903"

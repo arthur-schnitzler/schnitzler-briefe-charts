@@ -2,6 +2,11 @@
   "correspondent": "Sosnosky, Theodor von",
   "nodes": [
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
+    },
+    {
       "id": "pmb48393",
       "name": "Kremsmünster",
       "count": 8
@@ -9,7 +14,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 16
+      "count": 15
     },
     {
       "id": "pmb90217",
@@ -19,19 +24,19 @@
   ],
   "links_from_schnitzler": [
     {
+      "from": "pmb168934",
+      "to": "pmb90217",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Theodor von Sosnosky, 10. 10. 1901"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb48393",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Theodor von Sosnosky, [zwischen 26. 1. 1901 und 29. 1. 1901?], Fragment"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb90217",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Theodor von Sosnosky, 10. 10. 1901"
       ]
     }
   ],

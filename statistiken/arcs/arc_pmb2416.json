@@ -2,9 +2,19 @@
   "correspondent": "David, Jakob Julius",
   "nodes": [
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 4
+    },
+    {
+      "id": "pmb333976",
+      "name": "Obere Donaustraße 59",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 10
+      "count": 9
     }
   ],
   "links_from_schnitzler": [
@@ -19,17 +29,31 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb333976",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Jakob Julius David an Arthur Schnitzler, 4. 11. 1895"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168934",
+      "weight": 3,
+      "titles": [
+        "Jakob Julius David an Arthur Schnitzler, 27. 2. 1899",
+        "Jakob Julius David an Arthur Schnitzler, 28. 2. 1899",
+        "Jakob Julius David an Arthur Schnitzler, 3. 3. 1899"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 9,
+      "weight": 5,
       "titles": [
         "Jakob Julius David an Arthur Schnitzler, 23. 12. 1894",
         "Jakob Julius David an Arthur Schnitzler, [27. 3. 1895]",
         "Jakob Julius David an Arthur Schnitzler, [5. 10. 1895]",
-        "Jakob Julius David an Arthur Schnitzler, 4. 11. 1895",
-        "Jakob Julius David an Arthur Schnitzler, 27. 2. 1899",
-        "Jakob Julius David an Arthur Schnitzler, 28. 2. 1899",
-        "Jakob Julius David an Arthur Schnitzler, 3. 3. 1899",
         "Jakob Julius David an Arthur Schnitzler, [8. 3. 1899?]",
         "Jakob Julius David an Arthur Schnitzler, 13. 5. 1901"
       ]

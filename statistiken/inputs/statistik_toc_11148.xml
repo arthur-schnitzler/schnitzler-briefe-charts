@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11148.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -46,12 +46,20 @@
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1894-02-10" n="01">10. 2. 1894</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb262">Café Central</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1894-02-11">11. 2. 1894</date>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1894-02-12">12. 2. 1894</date>
+                     <placeName ref="#pmb17871">Berlin-Pankow</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11148">Dehmel, Richard</persName>
                      <date when="1894-02-12">12. 2. 1894</date>
-                     <placeName ref="#pmb17871">Berlin-Pankow</placeName>
+                     <placeName ref="#pmb43459">Parkstraße</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11148">Dehmel, Richard</ref>
@@ -64,7 +72,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="kartenbrief"/>
-               <measure unit="zeichenanzahl" quantity="477"/>
+               <measure unit="zeichenanzahl" quantity="478"/>
             </item>
             <item corresp="L02550">
                <title level="a">Arthur Schnitzler: Widmungsexemplar Der Schleier der Beatrice für
@@ -152,24 +160,32 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11148"
-                          target="L01202">Dehmel an Schnitzler, 14. 2. 1902</ref>
+                          target="L01202">Dehmel an Schnitzler, [13. oder 14]. 2. 1902</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="451"/>
             </item>
             <item corresp="L01202">
-               <title level="a">Richard Dehmel an Arthur Schnitzler, 14. 2. 1902</title>
+               <title level="a">Richard Dehmel an Arthur Schnitzler, [13. oder 14]. 2. 1902</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11148">Dehmel, Richard</persName>
-                     <date when="1902-02-14" n="01">14. 2. 1902</date>
+                     <date n="01" notBefore="1902-02-13" notAfter="1902-02-14">[13. oder 14]. 2. 1902</date>
                      <placeName ref="#pmb1226">Blankenese</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1902-02-14">14. 2. 1902</date>
+                     <placeName ref="#pmb1226">Blankenese</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1902-02-16">16. 2. 1902</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1902-02-16">16. 2. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11148">Dehmel, Richard</ref>
@@ -204,12 +220,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11148">Dehmel, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01202">Dehmel an Schnitzler, 14. 2. 1902</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01202">Dehmel an Schnitzler, [13. oder 14]. 2. 1902</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03323">Salten an Schnitzler, [19. 2. 1902]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11148"
-                          target="L01202">Dehmel an Schnitzler, 14. 2. 1902</ref>
+                          target="L01202">Dehmel an Schnitzler, [13. oder 14]. 2. 1902</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11148"
@@ -349,7 +365,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1908-11-14">14. 11. 1908</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11148">Dehmel, Richard</ref>
@@ -449,7 +465,7 @@
                      <date when="1912-08-14" n="01">14. 8. 1912</date>
                      <placeName ref="#pmb506">Hamburg</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -486,7 +502,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11148">Dehmel, Richard</persName>
                      <date when="1912-08-19">19. 8. 1912</date>
-                     <placeName ref="#pmb506">Hamburg</placeName>
+                     <placeName ref="#pmb1226">Blankenese</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11148">Dehmel, Richard</ref>

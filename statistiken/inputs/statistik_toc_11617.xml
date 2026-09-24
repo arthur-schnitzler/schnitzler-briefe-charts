@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11617.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -45,7 +45,7 @@
                      <date when="1899-07-15" n="01">15. 7. 1899</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <persName ref="#pmb10986">Brahm, Otto</persName>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
@@ -200,7 +200,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date when="1903-03-08">8. 3. 1903</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11617">Hauptmann, Gerhart</ref>
@@ -230,10 +230,14 @@
                      <date when="1903-06-21" n="01">21. 6. 1903</date>
                      <placeName ref="#pmb34528">Szklarska Poręba</placeName>
                   </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1903-06-22">22. 6. 1903</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1903-06-22">22. 6. 1903</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10986">Brahm, Otto</ref>
@@ -273,7 +277,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date when="1904-09-10">1<unclear>0</unclear>. 9. 04</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11617">Hauptmann, Gerhart</ref>
@@ -300,10 +304,18 @@
                      <date when="1904-10-24" n="01">24. 10. 1904</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-10-24">24. 10. 1904</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1904-10-24">24. 10. 1904</date>
+                     <placeName ref="#pmb168">Berlin</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date when="1904-10-24">24. 10. 1904</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <placeName ref="#pmb216">Unter den Linden</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11617">Hauptmann, Gerhart</ref>
@@ -358,7 +370,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date when="1905-01-24" n="01">24. 1. 1905</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -389,7 +401,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date when="1905-01-29" n="01">[29. 1. 1905?]</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -423,13 +435,13 @@
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <persName ref="#pmb11621">Hauptmann, Margarete</persName>
                      <date when="1905-01-29" n="02">29. 1. 1905</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1905-01-30" notAfter="1905-02-03">[30. 1. 1905
                   – 3. 2. 1905?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -493,7 +505,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date when="1906-12-18" n="01">18. 12. 1906</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -576,7 +588,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11617">Hauptmann, Gerhart</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03595">Salten an Schnitzler, [22. 2. 1922?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03576">Salten an Schnitzler, 29. 3. 1922</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03576">Salten an Schnitzler, [28. oder 29]. 3. 1922</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11617"
@@ -595,12 +607,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date when="1922-05-15" n="04">15. 5. 1922</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1922-05-15">15. 5. 1922</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11617">Hauptmann, Gerhart</ref>
@@ -631,7 +643,7 @@
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date evidence="conjecture" notBefore="1922-06-07" notAfter="1922-06-11">[7. 6. 1922
                   – 11. 6. 1922?]</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11617">Hauptmann, Gerhart</ref>
@@ -661,7 +673,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <date when="1922-11-14">14. 11. 1922</date>
-                     <placeName ref="#pmb735">Agnetendorf</placeName>
+                     <placeName ref="#pmb735">Jagniątków</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11617">Hauptmann, Gerhart</ref>

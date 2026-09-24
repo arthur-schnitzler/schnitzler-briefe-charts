@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12176.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -201,7 +201,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12176">Mann, Thomas</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04454">Schnitzler, Schnitzler an Schwarzkopf, [13.?] 5. 1912</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04454">Schnitzler, Schnitzler an Schwarzkopf, [13.] 5. 1912</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02064">Blumenthal an Schnitzler, 14. 5. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -444,7 +444,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12176">Mann, Thomas</persName>
                      <date evidence="conjecture" notBefore="1923-11-19" notAfter="1923-11-23">[19. 11. 1923 – 23. 11. 1923?]</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb1213">Poschingerstraße</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12176">Mann, Thomas</ref>
@@ -657,11 +657,11 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1926-05-24" notAfter="1926-05-28">[24. 5. 1926
                   – 28. 5. 1926?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12176">Mann, Thomas</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04480">Schnitzler an Schwarzkopf, [8]. 5. 1926</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04480">Schnitzler an Schwarzkopf, [5.?]. 5. 1926</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03890">Freud an Schnitzler, 24. 5. 1926</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -687,7 +687,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1927-12-26" notAfter="1927-12-30">[26. 12. 1927 – 30. 12. 1927?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12176">Mann, Thomas</ref>
@@ -810,7 +810,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12176">Mann, Thomas</persName>
                      <date evidence="conjecture" notBefore="1929-11-19" notAfter="1929-11-23">[19. 11. 1929 – 23. 11. 1929?]</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb1213">Poschingerstraße</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12176">Mann, Thomas</ref>
@@ -898,13 +898,13 @@
                      <persName ref="#pmb5295">Goldstein, Franz</persName>
                      <persName ref="#pmb12176">Mann, Thomas</persName>
                      <date when="1931-08-19" n="01">19. 8. 1931</date>
-                     <placeName ref="#pmb298432">Nida</placeName>
+                     <placeName ref="#pmb298436">Hotel Hermann Blode</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1931-08-20">20. 8. 1931</date>
                      <placeName ref="#pmb298432">Nida</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <date when="1931-08-22">22. 8. 1931</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
@@ -912,7 +912,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1931-08-23" notAfter="1931-08-25">[23. 8. 1931
                   – 25. 8. 1931?]</date>
-                     <placeName ref="#pmb874">Gmunden</placeName>
+                     <placeName ref="#pmb245236">Hotel Austria [Gmunden]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12176">Mann, Thomas</ref>

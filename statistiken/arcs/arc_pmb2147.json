@@ -2,9 +2,14 @@
   "correspondent": "Altenberg, Peter",
   "nodes": [
     {
+      "id": "pmb1270",
+      "name": "Nussdorfer Straße",
+      "count": 2
+    },
+    {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 3
+      "count": 2
     },
     {
       "id": "pmb189",
@@ -20,6 +25,11 @@
       "id": "pmb50",
       "name": "Wien",
       "count": 25
+    },
+    {
+      "id": "pmb545",
+      "name": "Hotel Savoy [Berlin]",
+      "count": 1
     },
     {
       "id": "pmb874",
@@ -38,13 +48,20 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 4,
+      "to": "pmb1270",
+      "weight": 2,
       "titles": [
         "Arthur Schnitzler an Georg Engländer, 20. 4. 1913",
-        "Arthur Schnitzler an Peter Altenberg, 22. 4. 1913",
-        "Arthur Schnitzler an Georg Engländer, 10. 1. 1919",
         "Arthur Schnitzler an Georg Engländer, 3. 3. 1919"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Peter Altenberg, 22. 4. 1913",
+        "Arthur Schnitzler an Georg Engländer, 10. 1. 1919"
       ]
     }
   ],
@@ -70,14 +87,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb168",
-      "weight": 1,
-      "titles": [
-        "Felix Salten u. a. an Arthur Schnitzler, 30. 4. 1899"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb50",
       "weight": 11,
       "titles": [
@@ -92,6 +101,14 @@
         "Georg Engländer an Arthur Schnitzler, 25. 4. 1913",
         "Peter Altenberg an Arthur Schnitzler, [26. 4. 1913]",
         "Georg Engländer an Arthur Schnitzler, 27. 2. 1919"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb545",
+      "weight": 1,
+      "titles": [
+        "Felix Salten u. a. an Arthur Schnitzler, 30. 4. 1899"
       ]
     },
     {

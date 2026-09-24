@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10986.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -48,10 +48,14 @@
                      <date when="1903-06-21" n="01">21. 6. 1903</date>
                      <placeName ref="#pmb34528">Szklarska Poręba</placeName>
                   </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1903-06-22">22. 6. 1903</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1903-06-22">22. 6. 1903</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10986">Brahm, Otto</ref>
@@ -98,7 +102,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1906-04-21" notAfter="1906-04-25">[21. 4. 1906
                   – 25. 4. 1906?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
@@ -141,7 +145,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1907-12-22" notAfter="1907-12-26">[22. 12. 1907 – 26. 12. 1907?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>

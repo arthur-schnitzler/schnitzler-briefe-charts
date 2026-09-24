@@ -2,14 +2,29 @@
   "correspondent": "Conrad, Michael Georg",
   "nodes": [
     {
+      "id": "pmb1231",
+      "name": "Steinsdorfstraße",
+      "count": 2
+    },
+    {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 2
+    },
+    {
+      "id": "pmb167805",
+      "name": "Kärntnerring 12/Bösendorferstraße 11",
+      "count": 1
+    },
+    {
       "id": "pmb45258",
       "name": "München",
-      "count": 6
+      "count": 4
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 6
+      "count": 3
     },
     {
       "id": "pmb59",
@@ -20,7 +35,7 @@
   "links_from_schnitzler": [
     {
       "from": "pmb50",
-      "to": "pmb45258",
+      "to": "pmb1231",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Michael Georg Conrad, 24. 1. 1904"
@@ -29,13 +44,34 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb1231",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Michael Georg Conrad an Arthur Schnitzler, 28. 3. 1893"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Michael Georg Conrad an Arthur Schnitzler, 21. 6. 1893"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb167805",
+      "weight": 1,
+      "titles": [
+        "Michael Georg Conrad an Arthur Schnitzler, 14. 11. 1890"
+      ]
+    },
+    {
       "from": "pmb45258",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 1,
       "titles": [
-        "Michael Georg Conrad an Arthur Schnitzler, 14. 11. 1890",
-        "Michael Georg Conrad an Arthur Schnitzler, 28. 3. 1893",
-        "Michael Georg Conrad an Arthur Schnitzler, 21. 6. 1893",
         "Michael Georg Conrad an Arthur Schnitzler, 26. 5. 1906"
       ]
     },

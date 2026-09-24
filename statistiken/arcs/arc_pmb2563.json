@@ -2,6 +2,16 @@
   "correspondent": "Kafka, Eduard Michael",
   "nodes": [
     {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 1
+    },
+    {
+      "id": "pmb167789",
+      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "count": 2
+    },
+    {
       "id": "pmb42561",
       "name": "Kreiensen",
       "count": 1
@@ -9,7 +19,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 9
+      "count": 7
     },
     {
       "id": "pmb652",
@@ -45,11 +55,18 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 2,
+      "to": "pmb167789",
+      "weight": 1,
       "titles": [
-        "Jaques Joachim an Arthur Schnitzler, 31. 1. 1890",
         "Jaques Joachim und Eduard Michael Kafka an Arthur Schnitzler, 6. 7. 1891"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Jaques Joachim an Arthur Schnitzler, 31. 1. 1890"
       ]
     },
     {
@@ -70,17 +87,24 @@
     },
     {
       "from": "pmb833",
-      "to": "pmb50",
-      "weight": 3,
+      "to": "pmb167789",
+      "weight": 1,
       "titles": [
-        "Michael Konstantin an Arthur Schnitzler, 22. 5. 1890",
+        "Michael Konstantin an Arthur Schnitzler, 22. 5. 1890"
+      ]
+    },
+    {
+      "from": "pmb833",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
         "Eduard Michael Kafka an Arthur Schnitzler, 30. 8. 1891",
         "Eduard Michael Kafka an Arthur Schnitzler, 12. 1. 1893"
       ]
     },
     {
       "from": "pmb864",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Eduard Michael Kafka an Arthur Schnitzler, 11. 2. 1893"

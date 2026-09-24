@@ -2,6 +2,11 @@
   "correspondent": "Mataja, Emilie",
   "nodes": [
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 2
+    },
+    {
       "id": "pmb339388",
       "name": "Brodzany",
       "count": 1
@@ -9,7 +14,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 7
+      "count": 5
     },
     {
       "id": "pmb968",
@@ -22,7 +27,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb339388",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
         "Emil Marriot an Arthur Schnitzler, 20. 6. 1902"
@@ -42,7 +47,7 @@
     },
     {
       "from": "pmb968",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
         "Emil Marriot, Rudolf Kobatsch und Anton Peter [?] Mataja an Arthur Schnitzler, 20. 7. 1902"

@@ -2,8 +2,23 @@
   "correspondent": "Mann, Thomas",
   "nodes": [
     {
-      "id": "pmb298432",
-      "name": "Nida",
+      "id": "pmb1213",
+      "name": "Poschingerstraße",
+      "count": 2
+    },
+    {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 2
+    },
+    {
+      "id": "pmb245236",
+      "name": "Hotel Austria [Gmunden]",
+      "count": 1
+    },
+    {
+      "id": "pmb298436",
+      "name": "Hotel Hermann Blode",
       "count": 1
     },
     {
@@ -24,7 +39,7 @@
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 19
+      "count": 17
     },
     {
       "id": "pmb45260",
@@ -34,15 +49,19 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 27
-    },
-    {
-      "id": "pmb874",
-      "name": "Gmunden",
-      "count": 1
+      "count": 25
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb50",
+      "to": "pmb1213",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Thomas Mann, 18. 11. 1923",
+        "Arthur Schnitzler an Thomas Mann, 18. 11. 1929"
+      ]
+    },
     {
       "from": "pmb50",
       "to": "pmb42768",
@@ -54,20 +73,18 @@
     {
       "from": "pmb50",
       "to": "pmb45258",
-      "weight": 5,
+      "weight": 3,
       "titles": [
         "Arthur Schnitzler an Thomas Mann, 26. 6. 1922",
         "Arthur Schnitzler an Thomas Mann, 28. 12. 1922",
-        "Arthur Schnitzler an Thomas Mann, 18. 11. 1923",
-        "Arthur Schnitzler an Thomas Mann, 30. 1. 1929",
-        "Arthur Schnitzler an Thomas Mann, 18. 11. 1929"
+        "Arthur Schnitzler an Thomas Mann, 30. 1. 1929"
       ]
     }
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb298432",
-      "to": "pmb874",
+      "from": "pmb298436",
+      "to": "pmb245236",
       "weight": 1,
       "titles": [
         "Franz Goldstein und Thomas Mann an Arthur Schnitzler, 19. 8. 1931"
@@ -94,10 +111,18 @@
     },
     {
       "from": "pmb43995",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Thomas und Katia Mann an Arthur Schnitzler, 23. 5. 1926"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 25. 12. 1927"
       ]
     },
     {
@@ -111,7 +136,7 @@
     {
       "from": "pmb45258",
       "to": "pmb50",
-      "weight": 13,
+      "weight": 12,
       "titles": [
         "Thomas Mann an Arthur Schnitzler, 15. 2. 1904",
         "Thomas Mann an Arthur Schnitzler, 22. 11. 1910",
@@ -121,7 +146,6 @@
         "Thomas Mann an Arthur Schnitzler, 20. 2. 1923",
         "Thomas Mann an Arthur Schnitzler, 22. 11. 1923",
         "Thomas Mann an Arthur Schnitzler, 9. 1. 1925",
-        "Thomas Mann an Arthur Schnitzler, 25. 12. 1927",
         "Thomas Mann an Arthur Schnitzler, 28. 5. 1928",
         "Thomas Mann an Arthur Schnitzler, 1. 2. 1929",
         "Thomas Mann an Arthur Schnitzler, [nach dem 18. 11. 1929]",

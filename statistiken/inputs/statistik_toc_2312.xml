@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -111,7 +111,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04446">Schnitzler, Schnitzler an Schwarzkopf, 18. 4. 1911</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04448">Schnitzler an Schwarzkopf, 23. [4. 1911?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04448">Schnitzler an Schwarzkopf, [22. oder 23. 4. 1911]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2312"
@@ -387,7 +387,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03629">Zweig an Schnitzler, 19. 11. 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02047">Schnitzler an Bahr, 18. 11. 1911</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02565">Schnitzler an Beer-Hofmann, [30. 11. 1911?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -565,10 +565,25 @@
                      <date when="1917-02-25" n="01">25. 2. 1917</date>
                      <placeName ref="#pmb1223">Bern</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1917-02-25">25. 2. 1917</date>
+                     <placeName ref="#pmb1223">Bern Briefaufgabe</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <placeName ref="#pmb44368">Feldkirch</placeName>
+                  </correspAction>
+                  <correspAction type="arrived">
+                     <date when="1917-03-03">3. 3. 1917</date>
+                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1917-03-03">3. 3. 1917</date>
+                     <placeName ref="#pmb68">18/1 Wien 111</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" when="1917-03-03">[3. 3. 1917?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
@@ -655,8 +670,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date when="1920-07-30" n="02">30. 7. 1920</date>
-                     <placeName ref="#pmb36503" evidence="conjecture">Breitenstein am
-                  Semmering</placeName>
+                     <placeName ref="#pmb36503" evidence="conjecture">Breitenstein am Semmering</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -718,13 +732,17 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date when="1923-02-27" n="01">27. 2. 192[3?]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb298841">12, Avenue d’Eylau</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1923-02-27">27. 2. 1923</date>
+                     <placeName ref="#pmb300244">place Chopin</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1923-02-28" notAfter="1923-03-04">[28. 2. 1923
                   – 4. 3. 1923?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
@@ -875,7 +893,10 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <date evidence="conjecture" notBefore="1924-01-17" notAfter="1924-01-21">[17. 1. 1924 – 21. 1. 1924?]</date>
+                     <date evidence="conjecture"
+                           notBefore="1924-01-17"
+                           error="Zeitabfolge Fehler 1"
+                           notAfter="1924-01-21">[17. 1. 1924 – 21. 1. 1924?]</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspContext>
@@ -1430,7 +1451,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03967">Schnitzler an Zuckerkandl, 25. 1. 1926</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04481">Schnitzler an Schwarzkopf, 1[2]. 2. 1926</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04481">Schnitzler an Schwarzkopf, [11. oder 12]. 2. 1926</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2312"
@@ -1454,7 +1475,10 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <date evidence="conjecture" notBefore="1926-02-05" notAfter="1926-02-09">[5. 2. 1926
+                     <date evidence="conjecture"
+                           notBefore="1926-02-05"
+                           error="Zeitabfolge Fehler 1"
+                           notAfter="1926-02-09">[5. 2. 1926
                   – 9. 2. 1926?]</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
@@ -1665,10 +1689,14 @@
                      <date when="1928-04-23" n="02">23. 4. 1928</date>
                      <placeName ref="#pmb966">Istanbul</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1928-04-23">23. 4. 1928</date>
+                     <placeName ref="#pmb966">Stamboul</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date evidence="conjecture" notBefore="1928-04-24" notAfter="1928-04-28">[24. 4. 1928 – 28. 4. 1928?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb235784">Oppolzergasse 6</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>

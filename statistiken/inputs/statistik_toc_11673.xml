@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +69,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1885-08-14" n="01">14. 8. 1885</date>
-                     <placeName ref="#pmb63056">Kammer am Attersee</placeName>
+                     <placeName ref="#pmb63056">Kammer</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -738,7 +738,7 @@
                <measure unit="zeichenanzahl" quantity="391"/>
             </item>
             <item corresp="L03905">
-               <title level="a">Arthur Schnitzler an Theodor Herzl, 19. 9. 1893</title>
+               <title level="a">Arthur Schnitzler und Paul Goldmann an Theodor Herzl, 19. 9. 1893</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -754,7 +754,7 @@
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1893-09-20" notAfter="1893-09-24">[20. 9. 1893
                   – 24. 9. 1893?]</date>
-                     <placeName ref="#pmb662">Baden bei Wien</placeName>
+                     <placeName ref="#pmb298935">Helenenstraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1058,6 +1058,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1894-11-18" notAfter="1894-11-22">[18. 11. 1894 – 22. 11. 1894?]</date>
                      <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
                   </correspAction>
                   <correspContext>
@@ -1086,6 +1087,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1894-11-17" notAfter="1894-11-20">[17. 11. 1894 – 20. 11. 1894?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1144,6 +1146,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1894-11-30" notAfter="1894-12-03">[30. 11. 1894 – 3. 12. 1894?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1202,6 +1205,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1894-12-15" notAfter="1894-12-18">[15. 12. 1894 – 18. 12. 1894?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1260,6 +1264,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1894-12-19" notAfter="1894-12-22">[19. 12. 1894 – 22. 12. 1894?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1318,6 +1323,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1894-12-26" notAfter="1894-12-29">[26. 12. 1894 – 29. 12. 1894?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1468,6 +1474,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-01-07" notAfter="1895-01-10">[7. 1. 1895 – 10. 1. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1526,6 +1533,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-01-14" notAfter="1895-01-17">[14. 1. 1895 – 17. 1. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1554,7 +1562,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <date evidence="conjecture" notBefore="1895-01-20" notAfter="1895-01-24">[20. 1. 1895 – 24. 1. 1895?]</date>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1650,6 +1659,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-01-30" notAfter="1895-02-02">[30. 1. 1895 – 2. 2. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1685,7 +1695,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03921">Schnitzler an Herzl, 30. 1. 1895</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00419">Schnitzler an Beer-Hofmann, 6. 2. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02728">Goldmann an Schnitzler, 6. 2. [1895]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -1740,6 +1750,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-02-18" notAfter="1895-02-21">[18. 2. 1895 – 21. 2. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1768,6 +1779,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-02-18" notAfter="1895-02-21">[18. 2. 1895 – 21. 2. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1950,6 +1962,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-03-09" notAfter="1895-03-12">[9. 3. 1895 – 12. 3. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2072,6 +2085,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-04-06" notAfter="1895-04-09">[6. 4. 1895 – 9. 4. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2107,7 +2121,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03926">Schnitzler an Herzl, 6. 4. 1895</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00428">Hofmannsthal an Schnitzler, 10. 4. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00428">Hofmannsthal an Schnitzler, [9. oder 10]. 4. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -2136,7 +2150,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00428">Hofmannsthal an Schnitzler, 10. 4. 1895</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00428">Hofmannsthal an Schnitzler, [9. oder 10]. 4. 1895</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00429">Marholm an Schnitzler, 16. 4. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -2161,6 +2175,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-04-26" notAfter="1895-04-29">[26. 4. 1895 – 29. 4. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2219,6 +2234,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-04-27" notAfter="1895-04-30">[27. 4. 1895 – 30. 4. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2247,6 +2263,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-05-01" notAfter="1895-05-04">[1. 5. 1895 – 4. 5. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2306,6 +2323,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-05-13" notAfter="1895-05-16">[13. 5. 1895 – 16. 5. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2364,6 +2382,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-05-16" notAfter="1895-05-19">[16. 5. 1895 – 19. 5. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2423,6 +2442,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-06-21" notAfter="1895-06-24">[21. 6. 1895 – 24. 6. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2482,6 +2502,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1895-06-30" notAfter="1895-07-03">[30. 6. 1895 – 3. 7. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2568,9 +2589,16 @@
                      <date when="1895-08-25" n="01">25. 8. 1895</date>
                      <placeName ref="#pmb415">Bad Aussee</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1895-08-26">26. 8. 1895</date>
+                     <placeName ref="#pmb415">Aussee in Steiermark</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1895-08-26">26. 8. 1895</date>
+                  </correspAction>
                   <correspAction type="redirected">
-                     <date when="1895-08-26">1895-08-26</date>
-                     <placeName ref="#pmb213" evidence="conjecture">Bad Ischl</placeName>
+                     <date notBefore="1895-08-26" notAfter="1895-08-28">[26. 8. 1895 – 28. 8. 1895?]</date>
+                     <placeName ref="#pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2693,6 +2721,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1896-04-24" notAfter="1896-04-27">[24. 4. 1896 – 27. 4. 1896?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2933,6 +2962,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1900-11-15" notAfter="1900-11-18">[15. 11. 1900 – 18. 11. 1900?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -2991,6 +3021,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1900-11-17" notAfter="1900-11-20">[17. 11. 1900 – 20. 11. 1900?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -3019,6 +3050,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1900-12-03" notAfter="1900-12-06">[3. 12. 1900 – 6. 12. 1900?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -3138,6 +3170,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1900-12-22" notAfter="1900-12-25">[22. 12. 1900 – 25. 12. 1900?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -3172,7 +3205,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01088">Hofmannsthal an Schnitzler, 22. 12. 1900</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03939">Schnitzler an Herzl, 24. 12. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04087">Schnitzler an Schwarzkopf, [23. oder 24]. 12. 1900</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -3196,12 +3229,13 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
+                     <date evidence="conjecture" notBefore="1900-12-24" notAfter="1900-12-27">[24. 12. 1900 – 27. 12. 1900?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03877">Herzl an Schnitzler, 23. 12. 1900</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04087">Schnitzler an Schwarzkopf, 24. 12. 1900</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04087">Schnitzler an Schwarzkopf, [23. oder 24]. 12. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02946">Goldmann an Schnitzler, 27. 12. [1900]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -3228,8 +3262,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03538">Goldmann an Gussmann, Gussmann, 28. 12. [1900?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04086">Schnitzler an Schwarzkopf, 31. 12. 1900</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04086">Schnitzler an Schwarzkopf, [30. oder 31]. 12. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02947">Goldmann an Schnitzler, 31. 12. [1900]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
@@ -3348,9 +3382,9 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03530">Goldmann an Gussmann, 29. 4. [1901]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04538">Rilke an Schnitzler, [zwischen 5. und
-                  16.? 5. 1901]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04538">Rilke an Schnitzler, [zwischen 3. und
+                  17.? 5. 1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03065">Goldmann an Schnitzler, 7. 5. [1901]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"

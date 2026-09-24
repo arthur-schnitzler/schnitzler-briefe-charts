@@ -4,12 +4,22 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 6
+      "count": 5
+    },
+    {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
+    },
+    {
+      "id": "pmb293081",
+      "name": "Friedrich Wilhelm-Strasse 6",
+      "count": 1
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 3
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
@@ -41,8 +51,8 @@
       ]
     },
     {
-      "from": "pmb168",
-      "to": "pmb50",
+      "from": "pmb293081",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
         "Karl Emil Franzos an Arthur Schnitzler, 8. 9. 1900"

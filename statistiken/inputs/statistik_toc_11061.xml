@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11061.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -42,14 +42,14 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1890-09-01" n="01">[Anfang September] 1890</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date notBefore="1890-09-01" notAfter="1890-09-10" n="01">[Anfang September] 1890</date>
+                     <placeName ref="#pmb167789">Ordination Arthur Schnitzler [Bösendorferstraße 11]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
-                     <date evidence="conjecture" notBefore="1890-09-02" notAfter="1890-09-06">[2. 9. 1890
-                  – 6. 9. 1890?]</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <date evidence="conjecture" notBefore="1890-09-02" notAfter="1890-09-17">[2. 9. 1890
+                  – 17. 9. 1890?]</date>
+                     <placeName ref="#pmb364699">Linkstraße 25</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11061">Bölsche, Wilhelm</ref>
@@ -70,13 +70,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
                      <date when="1890-09-17" n="01">17. 9. 1890</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <placeName ref="#pmb364699">Linkstraße 25</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1890-09-18" notAfter="1890-09-22">[18. 9. 1890
                   – 22. 9. 1890?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167789">Ordination Arthur Schnitzler [Bösendorferstraße 11]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11061">Bölsche, Wilhelm</ref>
@@ -277,7 +277,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="407"/>
+               <measure unit="zeichenanzahl" quantity="408"/>
             </item>
             <item corresp="L00055">
                <title level="a">Arthur Schnitzler an Wilhelm Bölsche, 19. 12. 1891</title>
@@ -532,7 +532,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-04-10" n="01">10. 4. 1893</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
@@ -542,7 +542,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11061">Bölsche, Wilhelm</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00195">Schnitzler an Beer-Hofmann, 3. 4. 1893</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00195">Schnitzler an Beer-Hofmann, 2. 4. 1893</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00197">Schnitzler an Beer-Hofmann, 12. 4. 1893</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -573,7 +573,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11061">Bölsche, Wilhelm</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04101">Schnitzler an Schwarzkopf, 31. 5. 1893</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04101">Schnitzler an Schwarzkopf, [30. oder 31]. 5. 1893</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02709">Goldmann an Schnitzler, 3. 6. 1893</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -779,12 +779,20 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
                      <date when="1893-11-16" n="01">16. 11. 1893</date>
-                     <placeName ref="#pmb484">Zürich</placeName>
+                     <placeName ref="#pmb34218">Seewartstraße</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1893-11-16">16. 11. 1893</date>
+                     <placeName ref="#pmb34215">Enge [Zürich]</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1893-11-18">18. 11. 1893</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-11-18">18 11 93</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11061">Bölsche, Wilhelm</ref>

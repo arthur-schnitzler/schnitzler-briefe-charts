@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_4223.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -79,8 +79,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03205">Goldmann an Schnitzler, 29. 4. [1902]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01217">Schnitzler an Beer-Hofmann, 2. [5.?] 1902</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01217">Schnitzler an Beer-Hofmann, [1. oder 2.] [5.?] 1902</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03206">Goldmann an Schnitzler, 2. 5. [1902]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_4223"
@@ -169,13 +169,12 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-06-25">25. 6. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb59">9/3 Wien 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date notBefore="1902-06-25" notAfter="1902-06-26">[25. 6. 1902 –
-                  26. 6. 1902]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date when="1902-06-25">25. 6. 1902</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
@@ -211,12 +210,12 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-07-21">21. 7. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb59">9/3 Wien 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1902-07-21">21. 7. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12071.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -43,7 +43,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12071">Liliencron, Detlev von</persName>
                      <date when="1894-05-07" n="01">7. 5. 1894</date>
-                     <placeName ref="#pmb506">Hamburg</placeName>
+                     <placeName ref="#pmb365128">Palmaille 5</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -72,12 +72,20 @@
                      <persName ref="#pmb12071">Liliencron, Detlev von</persName>
                      <persName ref="#pmb12614">Salzer, Marcell</persName>
                      <date when="1896-12-07" n="01">7. 12. 1896</date>
-                     <placeName ref="#pmb506">Hamburg</placeName>
+                     <placeName ref="#pmb365128">Hamburg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1896-12-07">7. 12. 1896</date>
+                     <placeName ref="#pmb1259">Altona (Elbe)</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1896-12-09">9. 12. 1896</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1896-12-09">9. 12. 1896</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12071">Liliencron, Detlev von</ref>
@@ -102,12 +110,20 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1896-12-10" n="01">10. 12. 1896</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1896-12-10">10. 12. 1896</date>
+                     <placeName ref="#pmb59">Wien 9/3</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1896-12-11">11. 12. 1896</date>
+                     <placeName ref="#pmb1259">Altona</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12071">Liliencron, Detlev von</persName>
                      <date when="1896-12-11">11. 12. 1896</date>
-                     <placeName ref="#pmb506">Hamburg</placeName>
+                     <placeName ref="#pmb365128">Palmaille</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12071">Liliencron, Detlev von</ref>
@@ -200,7 +216,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1907-11-27" notAfter="1907-11-29">[27. 11. 1907 – 1. 12. 1907?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12071">Liliencron, Detlev von</ref>
@@ -225,12 +241,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1909-07-24" n="02">24. 7. 1909</date>
-                     <placeName ref="#pmb470">Edlach</placeName>
+                     <placeName ref="#pmb470">Edlach an der Rax</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb5822">Liliencron, Anna von</persName>
                      <date when="1909-07-24">24. 7. 1909</date>
-                     <placeName ref="#pmb506">Hamburg</placeName>
+                     <placeName ref="#pmb61082">Rahlstedt</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12071">Liliencron, Detlev von</ref>

@@ -1,7 +1,7 @@
 Source,Target,Weight,Type
-"Schwarzkopf, Gustav","Wien",459,Directed
-"Schwarzkopf, Gustav","I., Innere Stadt",286,Directed
-"Schwarzkopf, Gustav","Tiefer Graben 23",204,Directed
+"Schwarzkopf, Gustav","Wien",465,Directed
+"Schwarzkopf, Gustav","I., Innere Stadt",287,Directed
+"Schwarzkopf, Gustav","Tiefer Graben 23",211,Directed
 "Schwarzkopf, Gustav","Tiefer Graben 17",101,Directed
 "Schwarzkopf, Gustav","XVIII., Währing",48,Directed
 "Schwarzkopf, Gustav","Österreich",38,Directed
@@ -9,14 +9,14 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Berlin",31,Directed
 "Schwarzkopf, Gustav","Sternwartestraße 71",31,Directed
 "Schwarzkopf, Gustav","Salzburg",27,Directed
-"Schwarzkopf, Gustav","Edmund-Weiß-Gasse",24,Directed
+"Schwarzkopf, Gustav","Frankgasse 1",25,Directed
+"Schwarzkopf, Gustav","Edmund-Weiß-Gasse",25,Directed
 "Schwarzkopf, Gustav","IX., Alsergrund",20,Directed
-"Schwarzkopf, Gustav","Frankgasse 1",19,Directed
 "Schwarzkopf, Gustav","München",19,Directed
 "Schwarzkopf, Gustav","Reichenau an der Rax",16,Directed
+"Schwarzkopf, Gustav","Edmund-Weiß-Gasse 7",16,Directed
 "Schwarzkopf, Gustav","Semmering",16,Directed
 "Schwarzkopf, Gustav","Baden bei Wien",15,Directed
-"Schwarzkopf, Gustav","Edmund-Weiß-Gasse 7",15,Directed
 "Schwarzkopf, Gustav","Venedig",13,Directed
 "Schwarzkopf, Gustav","Altaussee",13,Directed
 "Schwarzkopf, Gustav","Brijuni",13,Directed
@@ -56,6 +56,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Vahrn",5,Directed
 "Schwarzkopf, Gustav","Welsberg-Taisten",5,Directed
 "Schwarzkopf, Gustav","Wildbad Waldbrunn",5,Directed
+"Schwarzkopf, Gustav","Café Arkaden",4,Directed
 "Schwarzkopf, Gustav","Café Kaiserhof (Inh. Johann Wortner) [Wien]",4,Directed
 "Schwarzkopf, Gustav","London",4,Directed
 "Schwarzkopf, Gustav","Villa Dr. Wassing",4,Directed
@@ -72,7 +73,6 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Weißenbach am Attersee",4,Directed
 "Schwarzkopf, Gustav","Cresta Palace",4,Directed
 "Schwarzkopf, Gustav","Dresden",3,Directed
-"Schwarzkopf, Gustav","Café Arkaden",3,Directed
 "Schwarzkopf, Gustav","VIII., Josefstadt",3,Directed
 "Schwarzkopf, Gustav","Zum goldenen Stern",3,Directed
 "Schwarzkopf, Gustav","Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",3,Directed
@@ -92,6 +92,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Schruns",3,Directed
 "Schwarzkopf, Gustav","Genua",3,Directed
 "Schwarzkopf, Gustav","Rodaun",3,Directed
+"Schwarzkopf, Gustav","Strobl",3,Directed
 "Schwarzkopf, Gustav","Linz",3,Directed
 "Schwarzkopf, Gustav","Lugano",3,Directed
 "Schwarzkopf, Gustav","Prag",3,Directed
@@ -149,6 +150,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Hôtel du Parc & Bristol",2,Directed
 "Schwarzkopf, Gustav","Polná",2,Directed
 "Schwarzkopf, Gustav","Deutschland",2,Directed
+"Schwarzkopf, Gustav","Hotel Edlacherhof",2,Directed
 "Schwarzkopf, Gustav","Puchberg am Schneeberg",2,Directed
 "Schwarzkopf, Gustav","Hochschneeberg",2,Directed
 "Schwarzkopf, Gustav","Gesäuse",2,Directed
@@ -160,7 +162,6 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Thusis",2,Directed
 "Schwarzkopf, Gustav","Gasthof und Pension Waldsacker",2,Directed
 "Schwarzkopf, Gustav","Pustertal",2,Directed
-"Schwarzkopf, Gustav","Strobl",2,Directed
 "Schwarzkopf, Gustav","Windischgarsten",2,Directed
 "Schwarzkopf, Gustav","Monte Generoso",2,Directed
 "Schwarzkopf, Gustav","Ottakringer Bräu",2,Directed
@@ -202,7 +203,6 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Zürich",2,Directed
 "Schwarzkopf, Gustav","Freiburg im Breisgau",2,Directed
 "Schwarzkopf, Gustav","Las Palmas de Gran Canaria",2,Directed
-"Schwarzkopf, Gustav","Mittelmeer",2,Directed
 "Schwarzkopf, Gustav","Nevada Palace",2,Directed
 "Schwarzkopf, Gustav","Adelboden",2,Directed
 "Schwarzkopf, Gustav","Verona Arena",2,Directed
@@ -282,13 +282,13 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Pragser Tal",1,Directed
 "Schwarzkopf, Gustav","Dürrenstein",1,Directed
 "Schwarzkopf, Gustav","Altprags",1,Directed
+"Schwarzkopf, Gustav","Husarentempel",1,Directed
 "Schwarzkopf, Gustav","Predazzo",1,Directed
 "Schwarzkopf, Gustav","Latemar",1,Directed
 "Schwarzkopf, Gustav","Passo di Giau",1,Directed
 "Schwarzkopf, Gustav","Caprile",1,Directed
 "Schwarzkopf, Gustav","Fedaia",1,Directed
 "Schwarzkopf, Gustav","Vigo di Fassa",1,Directed
-"Schwarzkopf, Gustav","Husarentempel",1,Directed
 "Schwarzkopf, Gustav","Predazzo",1,Directed
 "Schwarzkopf, Gustav","Madrid",1,Directed
 "Schwarzkopf, Gustav","?? [Wohnung von Ida und Max Hiller, Brühl, 1899]",1,Directed
@@ -313,9 +313,9 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Riedhof",1,Directed
 "Schwarzkopf, Gustav","Triest",1,Directed
 "Schwarzkopf, Gustav","Canal Grande di Trieste",1,Directed
-"Schwarzkopf, Gustav","Basilika urbana",1,Directed
 "Schwarzkopf, Gustav","Split",1,Directed
 "Schwarzkopf, Gustav","Solin",1,Directed
+"Schwarzkopf, Gustav","Basilika urbana",1,Directed
 "Schwarzkopf, Gustav","Admont",1,Directed
 "Schwarzkopf, Gustav","Iseosee",1,Directed
 "Schwarzkopf, Gustav","Kaprunertal",1,Directed
@@ -437,7 +437,6 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Cavallazza",1,Directed
 "Schwarzkopf, Gustav","Johann Strauß-Theater",1,Directed
 "Schwarzkopf, Gustav","Cabaret Fledermaus",1,Directed
-"Schwarzkopf, Gustav","Hotel Edlacherhof",1,Directed
 "Schwarzkopf, Gustav","Hotel Rax",1,Directed
 "Schwarzkopf, Gustav","Pötzleinsdorf",1,Directed
 "Schwarzkopf, Gustav","Morschach",1,Directed
@@ -624,6 +623,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Kanarische Inseln",1,Directed
 "Schwarzkopf, Gustav","Gran Canaria",1,Directed
 "Schwarzkopf, Gustav","Santa Brígida",1,Directed
+"Schwarzkopf, Gustav","?? [Atlantik, westlich von Frankreich]",1,Directed
 "Schwarzkopf, Gustav","Wildstrubel",1,Directed
 "Schwarzkopf, Gustav","Steghorn",1,Directed
 "Schwarzkopf, Gustav","Thunersee",1,Directed
@@ -641,6 +641,7 @@ Source,Target,Weight,Type
 "Schwarzkopf, Gustav","Lido",1,Directed
 "Schwarzkopf, Gustav","Schlosspark Schönbrunn",1,Directed
 "Schwarzkopf, Gustav","Tempelhofer Feld",1,Directed
+"Schwarzkopf, Gustav","Mittelmeer",1,Directed
 "Schwarzkopf, Gustav","Piraeus",1,Directed
 "Schwarzkopf, Gustav","Katákolo",1,Directed
 "Schwarzkopf, Gustav","Trieste",1,Directed

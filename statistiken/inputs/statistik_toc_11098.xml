@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11098.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -56,7 +56,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1890-11-15">15. 11. 1890</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167805">Kärntnerring 12/Bösendorferstraße 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11098">Conrad, Michael Georg</ref>
@@ -107,18 +107,25 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11098">Conrad, Michael Georg</persName>
                      <date when="1893-03-28" n="01">28. 3. 1893</date>
+                     <placeName ref="#pmb1231">Steinsdorfstraße</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1893-03-28">28. [3]. 1893</date>
                      <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1893-03-29" notAfter="1893-04-02">[29. 3. 1893 –
             2. 4. 1893?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11098">Conrad, Michael Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00193">Widmann an Schnitzler, 26. 3. 1893</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00195">Schnitzler an Beer-Hofmann, 3. 4. 1893</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00195">Schnitzler an Beer-Hofmann, 2. 4. 1893</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11098"
@@ -130,7 +137,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="412"/>
+               <measure unit="zeichenanzahl" quantity="411"/>
             </item>
             <item corresp="L00224">
                <title level="a">Michael Georg Conrad an Arthur Schnitzler, 21. 6. 1893</title>
@@ -140,10 +147,18 @@
                      <date when="1893-06-21" n="02">21. 6. 1893</date>
                      <placeName ref="#pmb45258">München</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1893-06-21">21. 6. [1893]</date>
+                     <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1893-06-22">22. 6. 1893</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-06-22">22. 6. 1893</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11098">Conrad, Michael Georg</ref>
@@ -203,7 +218,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11098">Conrad, Michael Georg</persName>
                      <date when="1904-01-25">25. 1. 1904</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb1231">Steinsdorfstraße</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11098">Conrad, Michael Georg</ref>
@@ -239,7 +254,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11098">Conrad, Michael Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03006">Schnitzler an Salten, 26. 5. 1906</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03246">Goldmann an Schnitzler, 3. 6. [1906]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03426">Salten, Salten, Fischer, Fischer,  an Schnitzler, [3. oder 4]. 6. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11098"

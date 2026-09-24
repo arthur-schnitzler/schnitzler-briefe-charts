@@ -2,6 +2,21 @@
   "correspondent": "Liliencron, Detlev von",
   "nodes": [
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 2
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
+      "id": "pmb365128",
+      "name": "Palmaille 5",
+      "count": 3
+    },
+    {
       "id": "pmb470",
       "name": "Edlach an der Rax",
       "count": 1
@@ -9,49 +24,63 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 5
+      "count": 3
     },
     {
-      "id": "pmb506",
-      "name": "Hamburg",
-      "count": 4
+      "id": "pmb61082",
+      "name": "Rahlstedt",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
     {
-      "from": "pmb470",
-      "to": "pmb506",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Anna von Liliencron, 24. 7. 1909"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb506",
+      "from": "pmb168934",
+      "to": "pmb365128",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Detlev von Liliencron, 10. 12. 1896"
+      ]
+    },
+    {
+      "from": "pmb470",
+      "to": "pmb61082",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Anna von Liliencron, 24. 7. 1909"
       ]
     }
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb506",
-      "to": "pmb50",
-      "weight": 2,
+      "from": "pmb365128",
+      "to": "pmb168934",
+      "weight": 1,
       "titles": [
-        "Detlev von Liliencron an Arthur Schnitzler, 7. 5. 1894",
         "Detlev von Liliencron und Marcell Salzer an Arthur Schnitzler, 7. 12. 1896"
+      ]
+    },
+    {
+      "from": "pmb365128",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Detlev von Liliencron an Arthur Schnitzler, 7. 5. 1894"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Wilhelm von Wymetal u. a. an Arthur Schnitzler, 27. 11. [1907]"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904",
-        "Wilhelm von Wymetal u. a. an Arthur Schnitzler, 27. 11. [1907]"
+        "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904"
       ]
     }
   ]

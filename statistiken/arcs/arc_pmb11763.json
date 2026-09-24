@@ -7,9 +7,14 @@
       "count": 4
     },
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 4
+      "count": 3
     }
   ],
   "links_from_schnitzler": [
@@ -25,12 +30,19 @@
   "links_to_schnitzler": [
     {
       "from": "pmb168",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Arno Holz an Arthur Schnitzler, 29. 5. 1923"
+      ]
+    },
+    {
+      "from": "pmb168",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 2,
       "titles": [
         "Arno Holz an Arthur Schnitzler, 26. 4. 1913",
-        "Arno Holz an Arthur Schnitzler, 11. 2. 1917",
-        "Arno Holz an Arthur Schnitzler, 29. 5. 1923"
+        "Arno Holz an Arthur Schnitzler, 11. 2. 1917"
       ]
     }
   ]

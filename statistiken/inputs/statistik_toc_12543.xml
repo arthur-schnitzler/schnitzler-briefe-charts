@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12543.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -43,12 +43,20 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1914-12-14" n="01">14. 12. 1914</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1914-12-14">14. 12. 1914</date>
+                     <placeName ref="#pmb68">9/3 Wien 72</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1914-12-16">16. 12. 1914</date>
+                     <placeName ref="#pmb562">Genève</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12543">Rolland, Romain</persName>
                      <date when="1914-12-16">16. 12. 1914</date>
-                     <placeName ref="#pmb562">Genf</placeName>
+                     <placeName ref="#pmb294001">Hôtel Beau-Séjour</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
@@ -99,13 +107,17 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1915-01-07" n="01">7. 1. 1915</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1915-01-07">7. 1. 1915</date>
+                     <placeName ref="#pmb51">1/1 Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12543">Rolland, Romain</persName>
                      <date evidence="external" notBefore="1915-01-08" notAfter="1915-01-11">[8. 1. 1915 –
                   11. 1. 1915?]</date>
-                     <placeName ref="#pmb562">Genf</placeName>
+                     <placeName ref="#pmb294001">Hôtel Beau-Séjour</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
@@ -130,16 +142,20 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1915-02-11" n="01">11. 2. 1915</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1915-02-12">12. 2. 1915</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb59">9/1 Wien 65</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1915-02-15">15. 2. 1915</date>
+                     <placeName ref="#pmb562">Genève</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12543">Rolland, Romain</persName>
                      <date when="1915-02-15">15. 2. 1915</date>
-                     <placeName ref="#pmb562">Genf</placeName>
+                     <placeName ref="#pmb294001">Hôtel Beau-Séjour</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>
@@ -164,12 +180,16 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1916-01-29" n="01">[29. 1.?] 1916</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1916-02-06">6. 2. 1916</date>
+                     <placeName ref="#pmb562">Genève Bureau des Télégrammes</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12543">Rolland, Romain</persName>
                      <date when="1916-02-06">6. 2. 1916</date>
-                     <placeName ref="#pmb562">Genf</placeName>
+                     <placeName ref="#pmb294001">Hôtel Beau-Séjour</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12543">Rolland, Romain</ref>

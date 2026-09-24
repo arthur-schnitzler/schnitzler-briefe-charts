@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2416.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -131,12 +131,24 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2416">David, Jakob Julius</persName>
                      <date when="1895-11-04" n="01">4. 11. 1895</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb333976">Obere Donaustraße 59</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1895-11-04">4. 11. 1895</date>
+                     <placeName ref="#pmb53">Wien 3/1</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1895-11-04">4. 11. 1895</date>
+                     <placeName ref="#pmb59">Wien 9/2</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1895-11-05">5. 11. 1895</date>
+                     <placeName ref="#pmb59">Wien 9/3</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1895-11-05">5. 11. 1895</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2416">David, Jakob Julius</ref>
@@ -166,7 +178,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-02-27">27. 2. 1899</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2416">David, Jakob Julius</ref>
@@ -193,15 +205,19 @@
                      <date when="1899-02-28" n="01">28. 2. 1899</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1899-02-28">28. 2. 1899</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-02-28">28. 2. 1899</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2416">David, Jakob Julius</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00894">David an Schnitzler, 27. 2. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00896">Schnitzler an Bahr, [2. – 6.?] 3. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04177">Schnitzler an Schwarzkopf, [zwischen März 1899 und 1931?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2416"
@@ -226,7 +242,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-03-03">3. 3. 1899</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2416">David, Jakob Julius</ref>

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11666.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -43,9 +43,9 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date when="1896-08-07" n="03">7. 8. 1896</date>
-                     <placeName ref="#pmb46000">Grundlsee</placeName>
+                     <placeName ref="#pmb46000">Grundlsee [Gemeinde]</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -75,8 +75,12 @@
                      <placeName ref="#pmb958">Skodsborg</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1896-08-19">19. 8. 1896</date>
-                     <placeName ref="#pmb36300">Kopenhagen</placeName>
+                     <date when="1896-08-19" evidence="conjecture">[19. 8. 1896]</date>
+                     <placeName ref="#pmb958">Skodsborg</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1896-08-19">19. 8. 96</date>
+                     <placeName ref="#pmb36300">Kjobenhavn</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1896-08-27">27. 8. 1896</date>
@@ -275,7 +279,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11666">Herzfeld, Marie</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03644">Zweig an Schnitzler, 20. 3. 1913</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03644">Zweig an Schnitzler, [19. oder 20]. 3. 1913</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02117">Adam an Schnitzler, 2. 4. 1913</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

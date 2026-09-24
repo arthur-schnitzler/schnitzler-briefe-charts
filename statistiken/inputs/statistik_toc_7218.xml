@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_7218.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -192,17 +192,25 @@
                   <correspAction type="sent">
                      <persName ref="#pmb7218">Franzos, Karl Emil</persName>
                      <date when="1900-09-08" n="02">8. 9. 1900</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <placeName ref="#pmb293081">Friedrich Wilhelm-Strasse 6</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1900-09-08">8. 9. 1900</date>
+                     <placeName ref="#pmb168">Berlin 10</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1900-09-10">10. 9. 1900</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1900-09-10">10. 9. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_7218">Franzos, Karl Emil</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01071">Beer-Hofmann an Schnitzler, 6. 9. 1900</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01072">Schnitzler an Beer-Hofmann, 9. 9. 1900</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01072">Schnitzler an Beer-Hofmann, [8. oder 9]. 9. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04091">Schnitzler an Schwarzkopf, [10. oder 11]. 9. 1900</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_7218"

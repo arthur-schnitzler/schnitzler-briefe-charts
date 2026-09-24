@@ -4,11 +4,21 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 50
+      "count": 49
     },
     {
       "id": "pmb213",
       "name": "Bad Ischl",
+      "count": 1
+    },
+    {
+      "id": "pmb296731",
+      "name": "8, rue de Monceau",
+      "count": 1
+    },
+    {
+      "id": "pmb298935",
+      "name": "Helenenstraße 71",
       "count": 1
     },
     {
@@ -44,7 +54,7 @@
     {
       "id": "pmb662",
       "name": "Baden bei Wien",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb867",
@@ -55,16 +65,16 @@
   "links_from_schnitzler": [
     {
       "from": "pmb30",
-      "to": "pmb662",
+      "to": "pmb298935",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Theodor Herzl, 19. 9. 1893"
+        "Arthur Schnitzler und Paul Goldmann an Theodor Herzl, 19. 9. 1893"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb182",
-      "weight": 11,
+      "weight": 10,
       "titles": [
         "Arthur Schnitzler an Theodor Herzl, 25. 7. 1892",
         "Arthur Schnitzler an Theodor Herzl, 5. 8. 1892",
@@ -75,7 +85,14 @@
         "Arthur Schnitzler an Theodor Herzl, 21. 6. 1893",
         "Arthur Schnitzler an Theodor Herzl, 4. 8. 1893",
         "Arthur Schnitzler an Theodor Herzl, 10. 12. 1893",
-        "Arthur Schnitzler an Theodor Herzl, [17. 11. 1894?]",
+        "Arthur Schnitzler an Theodor Herzl, [17. 11. 1894?]"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb296731",
+      "weight": 1,
+      "titles": [
         "Arthur Schnitzler an Theodor Herzl, 19. 1. 1895"
       ]
     },

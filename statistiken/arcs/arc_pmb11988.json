@@ -2,29 +2,54 @@
   "correspondent": "Kraus, Karl",
   "nodes": [
     {
+      "id": "pmb100",
+      "name": "Café Luitpold",
+      "count": 1
+    },
+    {
+      "id": "pmb1176",
+      "name": "Schultheiß",
+      "count": 1
+    },
+    {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 7
+    },
+    {
       "id": "pmb168",
       "name": "Berlin",
+      "count": 1
+    },
+    {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
       "count": 2
     },
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 4
+      "count": 3
     },
     {
-      "id": "pmb38096",
-      "name": "Opatija",
-      "count": 1
+      "id": "pmb232296",
+      "name": "Mahlerstraße 13",
+      "count": 5
     },
     {
-      "id": "pmb45258",
-      "name": "München",
+      "id": "pmb416",
+      "name": "Café Walther",
       "count": 1
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 22
+      "count": 13
+    },
+    {
+      "id": "pmb756",
+      "name": "Pension Quisisana",
+      "count": 1
     },
     {
       "id": "pmb936",
@@ -36,56 +61,84 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb168",
-      "to": "pmb38096",
-      "weight": 1,
-      "titles": [
-        "Karl Kraus an Arthur Schnitzler, 4. 3. 1893"
-      ]
-    },
-    {
-      "from": "pmb168",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Karl Kraus an Arthur Schnitzler, 27. 2. 1893"
-      ]
-    },
-    {
-      "from": "pmb213",
-      "to": "pmb50",
-      "weight": 4,
-      "titles": [
-        "Karl Kraus an Arthur Schnitzler, 21. 7. 1893",
-        "Karl Kraus an Arthur Schnitzler, 27. 7. 1893",
-        "Karl Kraus an Arthur Schnitzler, 12. 8. 1893",
-        "Karl Kraus an Arthur Schnitzler, 8. 7. 1894"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb50",
+      "from": "pmb100",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Karl Kraus u. a. an Arthur Schnitzler, 30. 9. 1893"
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 15,
+      "from": "pmb1176",
+      "to": "pmb167782",
+      "weight": 1,
       "titles": [
-        "Karl Kraus an Arthur Schnitzler, 31. 10. 1892",
+        "Karl Kraus an Arthur Schnitzler, 27. 2. 1893"
+      ]
+    },
+    {
+      "from": "pmb168",
+      "to": "pmb756",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, 4. 3. 1893"
+      ]
+    },
+    {
+      "from": "pmb213",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, [26. oder 27]. 7. 1893"
+      ]
+    },
+    {
+      "from": "pmb213",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, 21. 7. 1893",
+        "Karl Kraus an Arthur Schnitzler, 12. 8. 1893"
+      ]
+    },
+    {
+      "from": "pmb232296",
+      "to": "pmb167782",
+      "weight": 4,
+      "titles": [
         "Karl Kraus an Arthur Schnitzler, 22. 11. 1892",
         "Karl Kraus an Arthur Schnitzler, 31. 12. 1892",
+        "Karl Kraus an Arthur Schnitzler, 26. 1. 1893",
+        "Karl Kraus an Arthur Schnitzler, 22. 3. 1893"
+      ]
+    },
+    {
+      "from": "pmb232296",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, 22. 3. 1894"
+      ]
+    },
+    {
+      "from": "pmb416",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, 8. 7. 1894"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 10,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, 31. 10. 1892",
         "Karl Kraus an Arthur Schnitzler, 11. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 22. 1. 1893",
-        "Karl Kraus an Arthur Schnitzler, 26. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 19. 3. 1893",
-        "Karl Kraus an Arthur Schnitzler, 22. 3. 1893",
         "Karl Kraus an Arthur Schnitzler, 2. 5. 1893",
         "Karl Kraus an Arthur Schnitzler, 5. 5. 1893",
-        "Karl Kraus an Arthur Schnitzler, 22. 3. 1894",
         "Karl Kraus an Arthur Schnitzler, 25. 4. 1895",
         "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904",
         "Karl Kraus an Arthur Schnitzler, 20. 1. 1908",

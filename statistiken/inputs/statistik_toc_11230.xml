@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11230.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -355,6 +355,10 @@
                      <date when="1906-06-06">6. 6. 1906</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-06-06">6. 6. 1906</date>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11230">Ehrenstein, Albert</persName>
                      <date when="1906-06-06">6. 6. 1906</date>
@@ -362,7 +366,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03426">Salten, Salten, Fischer, Fischer,  an Schnitzler, 4. 6. 1906</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03246">Goldmann an Schnitzler, 3. 6. [1906]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03424">Salten an Schnitzler, 9. 6. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -447,7 +451,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11230">Ehrenstein, Albert</persName>
                      <date when="1906-12-20">20. 12. 1906</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb237241">Ottakringer Straße 114</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
@@ -901,14 +905,14 @@
                      <date when="1909-07-01" n="01">1. 7. 1909</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1909-07-03" notAfter="1909-07-07">[3. 7. 1909
                   – 7. 7. 1909?]</date>
-                     <placeName evidence="conjecture" ref="#pmb470">Edlach</placeName>
+                     <placeName evidence="conjecture" ref="#pmb470">Edlach an der Rax</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
@@ -933,7 +937,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1909-07-07" n="01">7. 7. 1909</date>
-                     <placeName ref="#pmb470">Edlach</placeName>
+                     <placeName ref="#pmb470">Edlach an der Rax</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11230">Ehrenstein, Albert</persName>
@@ -969,7 +973,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1909-07-14" notAfter="1909-07-24">[14. 7. 1909
                   – 24. 7. 1909?]</date>
-                     <placeName evidence="conjecture" ref="#pmb470">Edlach</placeName>
+                     <placeName evidence="conjecture" ref="#pmb470">Edlach an der Rax</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
@@ -994,7 +998,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1909-07-24" n="01">24. 7. 1909</date>
-                     <placeName ref="#pmb470">Edlach</placeName>
+                     <placeName ref="#pmb470">Edlach an der Rax</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11230">Ehrenstein, Albert</persName>
@@ -1218,7 +1222,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03544">Salten an Schnitzler, 29. 1. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03544">Salten an Schnitzler, 2[9?]. 1. 1910</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01913">Schnitzler an Ehrenstein, 12. 2. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -1341,7 +1345,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01964">Schnitzler an Beer-Hofmann, 9. 10. 1910</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04168">Schnitzler an Schwarzkopf, 11. 10. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04168">Schnitzler an Schwarzkopf, [10. oder 11]. 10. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11230"
@@ -1493,7 +1497,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04448">Schnitzler an Schwarzkopf, 23. [4. 1911?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04448">Schnitzler an Schwarzkopf, [22. oder 23. 4. 1911]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02018">Schnitzler an Brandes, 29. 4. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

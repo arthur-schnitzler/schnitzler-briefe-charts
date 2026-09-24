@@ -7,6 +7,11 @@
       "count": 1
     },
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 5
+    },
+    {
       "id": "pmb212",
       "name": "St. Anton am Arlberg",
       "count": 2
@@ -14,7 +19,17 @@
     {
       "id": "pmb258929",
       "name": "Westerwede",
-      "count": 10
+      "count": 7
+    },
+    {
+      "id": "pmb341236",
+      "name": "Weißer Hirsch",
+      "count": 1
+    },
+    {
+      "id": "pmb364288",
+      "name": "Westerweder Straße 12",
+      "count": 4
     },
     {
       "id": "pmb462",
@@ -24,7 +39,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 17
+      "count": 12
     },
     {
       "id": "pmb61048",
@@ -35,14 +50,17 @@
       "id": "pmb652",
       "name": "Prag",
       "count": 3
-    },
-    {
-      "id": "pmb866",
-      "name": "Dresden",
-      "count": 2
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168934",
+      "to": "pmb364288",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 18. 5. und 20. 6. 1901?]"
+      ]
+    },
     {
       "from": "pmb212",
       "to": "pmb258929",
@@ -75,14 +93,6 @@
       "titles": [
         "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899"
       ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb866",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 20. 5. und 20. 6. 1901?]"
-      ]
     }
   ],
   "links_to_schnitzler": [
@@ -97,13 +107,28 @@
     {
       "from": "pmb258929",
       "to": "pmb50",
-      "weight": 6,
+      "weight": 3,
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
         "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]",
+        "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]"
+      ]
+    },
+    {
+      "from": "pmb341236",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Rainer Maria Rilke an Arthur Schnitzler, [zwischen 3. und 17.? 5. 1901]"
+      ]
+    },
+    {
+      "from": "pmb364288",
+      "to": "pmb168934",
+      "weight": 3,
+      "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, [Ende 1901]",
         "Rainer Maria Rilke an Arthur Schnitzler, 14. 1. 1902",
-        "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]",
         "Rainer Maria Rilke an Arthur Schnitzler, 19. 1. 1902"
       ]
     },
@@ -132,14 +157,6 @@
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, [Anfang?] April 1896",
         "Rainer Maria Rilke: Widmungsexemplar Lieder am Volke geschenkt für Arthur Schnitzler, 1. 4. 1896"
-      ]
-    },
-    {
-      "from": "pmb866",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, [zwischen 5. und 16.? 5. 1901]"
       ]
     }
   ]

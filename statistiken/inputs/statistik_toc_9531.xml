@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_9531.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -236,31 +236,33 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04538">Rilke an Schnitzler, [zwischen 5. und
-                  16.? 5. 1901]</ref>
+                          target="L04538">Rilke an Schnitzler, [zwischen 3. und
+                  17.? 5. 1901]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
                <measure unit="zeichenanzahl" quantity="67"/>
             </item>
             <item corresp="L04538">
-               <title level="a">Rainer Maria Rilke an Arthur Schnitzler, [zwischen 5. und
-               16.? 5. 1901]</title>
+               <title level="a">Rainer Maria Rilke an Arthur Schnitzler, [zwischen 3. und
+               17.? 5. 1901]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
-                     <date notBefore="1901-05-05" notAfter="1901-05-16" n="01">[zwischen 5. und
-                  16.? 5. 1901]</date>
-                     <placeName ref="#pmb866">Dresden</placeName>
+                     <date notBefore="1901-05-03" notAfter="1901-05-17" n="01">[zwischen 3. und
+                  17.? 5. 1901]</date>
+                     <placeName ref="#pmb341236">Weißer Hirsch</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date notBefore="1901-05-03" notAfter="1901-05-17">[zwischen 3. und
+                  17.? 5. 1901]</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03828">Herzl an Schnitzler, 3. 5. 1901</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03065">Goldmann an Schnitzler, 7. 5. [1901]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03530">Goldmann an Gussmann, 29. 4. [1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03828">Herzl an Schnitzler, 3. 5. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
@@ -268,7 +270,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04346">Schnitzler an Rilke, [zwischen 20. 5. und
+                          target="L04346">Schnitzler an Rilke, [zwischen 18. 5. und
                   20. 6. 1901?]</ref>
                   </correspContext>
                </correspDesc>
@@ -276,30 +278,30 @@
                <measure unit="zeichenanzahl" quantity="2879"/>
             </item>
             <item corresp="L04346">
-               <title level="a">Arthur Schnitzler an Rainer Maria Rilke, [zwischen 20. 5. und
+               <title level="a">Arthur Schnitzler an Rainer Maria Rilke, [zwischen 18. 5. und
                20. 6. 1901?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date notBefore="1901-05-20" notAfter="1901-06-20" n="02">[zwischen 20. 5. und
+                     <date notBefore="1901-05-18" notAfter="1901-06-20" n="02">[zwischen 18. 5. und
                   20. 6. 1901?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
-                     <date notBefore="1901-05-21" notAfter="1901-06-21">[zwischen 21. 5. und
+                     <date notBefore="1901-05-27" notAfter="1901-06-21">[zwischen 27. 5. und
                   21. 6. 1901?]</date>
-                     <placeName ref="#pmb866" evidence="conjecture">Dresden</placeName>
+                     <placeName ref="#pmb364288" evidence="conjecture">?? [Bauernhaus von Clara und Rainer Maria Rilke in Westerwede]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01122">Schnitzler an Bahr, [20.?] 5. 1901</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01123">Brandes an Schnitzler, 22. 5. 1901</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01121">Brandes an Schnitzler, 17. 5. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01122">Schnitzler an Bahr, [20.?] 5. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04538">Rilke an Schnitzler, [zwischen 5. und
-                  16.? 5. 1901]</ref>
+                          target="L04538">Rilke an Schnitzler, [zwischen 3. und
+                  17.? 5. 1901]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
@@ -317,7 +319,7 @@
                      <date when="1901-06-24" n="02">24. 6. 1901</date>
                      <placeName ref="#pmb258929">Westerwede</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -332,7 +334,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
-                          target="L04346">Schnitzler an Rilke, [zwischen 20. 5. und
+                          target="L04346">Schnitzler an Rilke, [zwischen 18. 5. und
                   20. 6. 1901?]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
@@ -450,7 +452,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03094">Goldmann an Schnitzler, 6. 12. [1901]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04347">d’Albert, Olden, Goldmann, Friedmann, Friedmann,  an Schnitzler, [8. 12. 1901]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04347">d’Albert, Olden, Goldmann, Friedmann, Friedmann,  an Schnitzler, [7. oder 8]. 12. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_9531"
@@ -470,13 +472,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
                      <date when="1901-12-31" n="02">[31. 12. 1901]</date>
-                     <placeName ref="#pmb258929" evidence="conjecture">Westerwede</placeName>
+                     <placeName ref="#pmb364288" evidence="conjecture">?? [Bauernhaus von Clara und Rainer Maria Rilke in Westerwede]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1901-12-04" notAfter="1901-12-07">[4. 12. 1901
-                  – 7. 12. 1901?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="conjecture" when="1902-01-07">[7. 1. 1902?]</date>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
@@ -492,7 +493,8 @@
                           target="L04542">Rilke an Schnitzler, 14. 1. 1902</ref>
                   </correspContext>
                </correspDesc>
-               <measure unit="zeichenanzahl" quantity="270"/>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="271"/>
             </item>
             <item corresp="L04542">
                <title level="a">Rainer Maria Rilke an Arthur Schnitzler, 14. 1. 1902</title>
@@ -500,13 +502,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
                      <date when="1902-01-14" n="02">14. 1. 1902</date>
-                     <placeName ref="#pmb258929">Westerwede</placeName>
+                     <placeName ref="#pmb364288">?? [Bauernhaus von Clara und Rainer Maria Rilke in Westerwede]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="external" notBefore="1902-01-15" notAfter="1902-01-17">[15. 1. 1902 –
                   17. 1. 1902?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
@@ -591,12 +593,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb9531">Rilke, Rainer Maria</persName>
                      <date when="1902-01-19" n="02">19. 1. 1902</date>
-                     <placeName ref="#pmb258929">Westerwede</placeName>
+                     <placeName ref="#pmb364288">Westerwede</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1902-01-20" notAfter="1902-01-25">[20. 1. 1902 – 25. 1. 1902?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="conjecture" notBefore="1902-01-20" notAfter="1902-01-25">[20. 1. 1902
+                  – 25. 1. 1902?]</date>
+                     <placeName ref="#pmb168934" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_9531">Rilke, Rainer Maria</ref>
@@ -612,7 +615,8 @@
                           target="L04546">Rilke an Schnitzler, 15. 5. 1912</ref>
                   </correspContext>
                </correspDesc>
-               <measure unit="zeichenanzahl" quantity="1524"/>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1539"/>
             </item>
             <item corresp="L04546">
                <title level="a">Rainer Maria Rilke: Widmungsexemplar Die Liebe der Magdalena für Arthur

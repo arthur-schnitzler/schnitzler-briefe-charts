@@ -4,7 +4,7 @@
     {
       "id": "pmb1226",
       "name": "Blankenese",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb168",
@@ -12,8 +12,23 @@
       "count": 2
     },
     {
-      "id": "pmb17871",
-      "name": "Berlin-Pankow",
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
+      "id": "pmb262",
+      "name": "Café Central",
+      "count": 1
+    },
+    {
+      "id": "pmb43459",
+      "name": "Parkstraße",
       "count": 1
     },
     {
@@ -29,12 +44,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 14
+      "count": 12
     },
     {
       "id": "pmb506",
       "name": "Hamburg",
-      "count": 3
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
@@ -47,8 +62,16 @@
       ]
     },
     {
+      "from": "pmb262",
+      "to": "pmb43459",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus u. a. an Richard Dehmel, 10. 2. 1894"
+      ]
+    },
+    {
       "from": "pmb45260",
-      "to": "pmb506",
+      "to": "pmb1226",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Dehmel, 19. 8. 1912"
@@ -65,14 +88,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb17871",
-      "weight": 1,
-      "titles": [
-        "Karl Kraus u. a. an Richard Dehmel, 10. 2. 1894"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb50",
       "weight": 1,
       "titles": [
@@ -83,11 +98,18 @@
   "links_to_schnitzler": [
     {
       "from": "pmb1226",
-      "to": "pmb50",
-      "weight": 2,
+      "to": "pmb168934",
+      "weight": 1,
       "titles": [
-        "Richard Dehmel an Arthur Schnitzler, 1. 1. 1902",
-        "Richard Dehmel an Arthur Schnitzler, 14. 2. 1902"
+        "Richard Dehmel an Arthur Schnitzler, [13. oder 14]. 2. 1902"
+      ]
+    },
+    {
+      "from": "pmb1226",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 1. 1. 1902"
       ]
     },
     {
@@ -124,7 +146,7 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Richard Dehmel an Arthur Schnitzler, 14. 11. 1908"

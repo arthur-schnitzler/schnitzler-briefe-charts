@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-11Z</date>
+            <date>2026-09-24Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10992.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -47,9 +47,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1894-05-27" notAfter="1894-05-31">[27. 5. 1894
-                  – 31. 5. 1894?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date evidence="external" when="1894-05-29">29. 5. 1894</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -223,14 +222,22 @@
                      <date when="1896-10-06" n="01">6. 10. 1896</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1896-10-06">6. 10. 1896</date>
+                     <placeName ref="#pmb36300">Kjobenhavn</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1896-10-08">8. 10. 1896</date>
+                     <placeName ref="#pmb53">Wien 3/3</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1896-10-08">8. 10. 1896</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00599">Schnitzler an Beer-Hofmann, 29. 9. 1896</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00599">Schnitzler an Beer-Hofmann, 28. 9. 1896</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00601">Hofmannsthal an Schnitzler, 6. 10. 1896</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -531,7 +538,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1898-01-25" notAfter="1898-01-27">[25. 1. 1898
                   – 29. 1. 1898?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -742,10 +749,14 @@
                      <date when="1899-01-22" n="01">22. 1. 1899</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1899-01-24">24. 1. 1899</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-01-24">24. 1. 1899</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -957,7 +968,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-06-14">14. 6. 1899</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -1114,7 +1125,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01028">Brandes an Schnitzler, [3. 4. 1900?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01030">Schnitzler an Beer-Hofmann, 4. 4. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01031">Schnitzler an Hofmannsthal, 9. 4. 1900</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -1358,7 +1369,8 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03067">Goldmann an Schnitzler, 16. 5. [1901]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01122">Schnitzler an Bahr, [20.?] 5. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04346">Schnitzler an Rilke, [zwischen 18. 5. und
+                  20. 6. 1901?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -1380,15 +1392,22 @@
                      <date when="1901-05-22" n="01">22. 5. 1901</date>
                      <placeName ref="#pmb38096">Opatija</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1901-05-23">23. 5. [1901]</date>
+                     <placeName ref="#pmb38096">Opatija</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1901-05-23">23. 5. 1901</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1901-05-23">23. 5. 1901</date>
-                     <placeName evidence="conjecture" ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04346">Schnitzler an Rilke, [zwischen 20. 5. und
-                  20. 6. 1901?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01122">Schnitzler an Bahr, [20.?] 5. 1901</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L04230">Sosnosky an Schnitzler, 23. 5. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -1441,7 +1460,7 @@
                      <date when="1901-06-16" n="01">16. 6. 1901</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -1452,8 +1471,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01128">Hofmannsthal an Schnitzler, 14. 6. 1901</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04502">Schnitzler, Gussmann an Schwarzkopf, 17. 6. 1901</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01128">Hofmannsthal an Schnitzler, [13. oder 14]. 6. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04502">Schnitzler, Gussmann an Schwarzkopf, [16. oder 17]. 6. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -1475,7 +1494,7 @@
                      <date when="1901-06-26" n="02">26. 6. 1901</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -1539,7 +1558,7 @@
                      <date when="1901-07-15" n="01">15. 7. 1901</date>
                      <placeName ref="#pmb958">Skodsborg</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -1551,7 +1570,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04427">Schnitzler, Schnitzler, Steinrück an Schwarzkopf, 12. 7. 1901</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01148">Schnitzler an Beer-Hofmann, 1[7?]. 7. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01148">Schnitzler an Beer-Hofmann, [16. oder 17.] 7. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -1602,7 +1621,7 @@
                      <persName ref="#pmb4395">Brandes, Edith</persName>
                      <date when="1901-07-31" n="01">31. 7. 1901</date>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -1636,10 +1655,17 @@
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1901-08-21" n="01">21. 8. 1901</date>
+                     <placeName ref="#pmb723">Wildbad Waldbrunn</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1901-08-22">22. 8. 1901</date>
                      <placeName ref="#pmb428">Welsberg-Taisten</placeName>
                   </correspAction>
                   <correspAction type="redirected">
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1901-08-25">25. 8. [1901]</date>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
@@ -1885,7 +1911,7 @@
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date evidence="conjecture" notBefore="1906-07-26" notAfter="1906-07-30">[26. 7. 1906
                   – 30. 7. 1906?]</date>
-                     <placeName ref="#pmb36300">Kopenhagen</placeName>
+                     <placeName ref="#pmb1111">Havnegade</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -1912,7 +1938,7 @@
                      <date when="1908-06-25" n="01">[25. 6. 1908]</date>
                      <placeName ref="#pmb44205">Pallanza</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -1979,13 +2005,13 @@
                      <date when="1909-07-26" n="01">26. 7. 1909</date>
                      <placeName ref="#pmb842">Karlsbad</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1909-07-27">27. 7. 1909</date>
-                     <placeName ref="#pmb470">Edlach</placeName>
+                     <placeName ref="#pmb470">Edlach an der Rax</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -2089,7 +2115,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03631">Zweig an Schnitzler, [4.] 4. 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03631">Zweig an Schnitzler, [3. oder 4]. 4. 1911</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03998">Zuckerkandl an Schnitzler, [14. 4. 1911?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -2116,7 +2142,7 @@
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date evidence="conjecture" notBefore="1911-04-30" notAfter="1911-05-04">[30. 4. 1911
                   – 4. 5. 1911?]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb1095">Hôtel Lutetia</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2271,7 +2297,7 @@
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date evidence="conjecture" notBefore="1912-02-04" notAfter="1912-02-08">[4. 2. 1912
                   – 8. 2. 1912?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2302,7 +2328,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1912-09-27" notAfter="1912-10-01">[27. 9. 1912
                   – 1. 10. 1912?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2454,7 +2480,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1913-03-06" notAfter="1913-03-10">[6. 3. 1913
                   – 10. 3. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2546,7 +2572,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1914-10-19" notAfter="1914-10-23">[19. 10. 1914 – 23. 10. 1914?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2635,7 +2661,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1914-12-24" notAfter="1914-12-28">[24. 12. 1914 – 28. 12. 1914?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2660,6 +2686,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1915-01-08" n="01">8. 1. 1915</date>
+                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1915-01-09">9. 1. 1915</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -2817,7 +2847,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1917-09-29" notAfter="1917-10-03">[29. 9. 1917
                   – 3. 10. 1917?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2847,7 +2877,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="external" when="1918-01-01">1. 1. 1918</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -3033,7 +3063,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1920-08-18" notAfter="1920-08-22">[18. 8. 1920
                   – 22. 8. 1920?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -3278,7 +3308,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1923-06-12" notAfter="1923-06-16">[12. 6. 1923
                   – 16. 6. 1923?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -3345,7 +3375,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02412">Hofmannsthal, Hofmannsthal, Hofmannsthal an Schnitzler, 8. 5. 1924</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04524">Schnitzler an Schwarzkopf, [13. 8. 1924]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04524">Schnitzler an Schwarzkopf, [12. oder 13]. 8. 1924</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -3646,7 +3676,7 @@
                      <persName ref="#pmb5558">Rung, Gertrud</persName>
                      <date evidence="conjecture" notBefore="1925-06-03" notAfter="1925-06-07">[3. 6. 1925
                   – 7. 6. 1925?]</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb230">Österreichischer Hof</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -3886,7 +3916,7 @@
                      <date when="1926-04-21" n="01">21. 4. 1926</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
-                  <correspAction type="forwarded">
+                  <correspAction type="in_transit">
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -3957,7 +3987,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03671">Zweig an Schnitzler, 21. 8. 1926</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03671">Zweig an Schnitzler, [20. oder 21]. 8. 1926</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L04472">Schnitzler an Schwarzkopf, 9. 9. 1926</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
