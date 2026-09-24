@@ -1,12 +1,17 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:csv="csv:csv"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:local="local-functions" version="3.0">
     <xsl:output method="text" encoding="utf-8"/>
 
     <xsl:mode on-no-match="shallow-skip"/>
 
-    <!-- this template creates a csv file for network analysis 
-         containing all mailing routes with weights, directions and coordinates -->
+    <!-- this template creates a csv file for network analysis
+         containing all mailing routes with weights, directions and coordinates.
+         Ein Brief kann heute in mehreren Etappen dokumentiert sein
+         (sent -> transmitted -> arrived -> redirected -> delivered -> received);
+         jede aufeinanderfolgende Etappe wird als eigene Kante gezählt, nicht nur
+         die Strecke vom ersten zum letzten correspAction. -->
 
     <xsl:variable name="quote" select="'&quot;'"/>
     <xsl:variable name="separator" select="','"/>
@@ -20,11 +25,22 @@
     <xsl:variable name="listplace"
         select="document('../../data/indices/listplace.xml')"/>
 
-    <xsl:key name="placeKey" match="tei:correspDesc"
-        use="concat(tei:correspAction[@type = 'sent']/tei:placeName[1]/@ref, '|', tei:correspAction[@type = 'received']/tei:placeName[1]/@ref)"/>
+    <!-- Liefert für einen Brief die Kanten (als "vonRef|nachRef") zwischen allen
+         aufeinanderfolgenden Stationen seines Postwegs, in Dokumentreihenfolge. -->
+    <xsl:function name="local:route-edges" as="xs:string*">
+        <xsl:param name="correspDesc" as="element(tei:correspDesc)"/>
+        <xsl:variable name="stations"
+            select="$correspDesc/tei:correspAction[tei:placeName[1]/@ref]"/>
+        <xsl:sequence
+            select="
+                for $i in 1 to (count($stations) - 1)
+                return
+                    concat($stations[$i]/tei:placeName[1]/@ref, '|', $stations[$i + 1]/tei:placeName[1]/@ref)"
+        />
+    </xsl:function>
 
     <xsl:template match="/">
-        
+
         <xsl:result-document indent="false"
             href="../../netzwerke/postwege_weights_directed/postwege_weights_directed.csv">
 
@@ -47,8 +63,11 @@
         <xsl:text>Weight</xsl:text>
         <xsl:value-of select="$newline"/>
 
-        <xsl:for-each
-            select="distinct-values($editions//tei:correspDesc/concat(tei:correspAction[@type = 'sent']/tei:placeName[1]/@ref, '|', tei:correspAction[@type = 'received']/tei:placeName[1]/@ref))">
+        <!-- alle Kanten aller Briefe, jede Etappe einzeln -->
+        <xsl:variable name="all-edges" as="xs:string*"
+            select="$editions//tei:correspDesc ! local:route-edges(.)"/>
+
+        <xsl:for-each select="distinct-values($all-edges)">
 
             <xsl:variable name="sendeort-pmb" select="substring-before(., '|')"/>
 
@@ -97,8 +116,9 @@
                 </xsl:choose>
             </xsl:variable>
 
-            <xsl:variable name="weight"
-                select="count($editions//tei:correspDesc[concat(tei:correspAction[@type = 'sent']/tei:placeName[1]/@ref, '|', tei:correspAction[@type = 'received']/tei:placeName[1]/@ref) = current()])"/>
+            <!-- Gewicht: wie oft kommt genau diese Kante (Von-Ort -> Nach-Ort) über alle
+                 Briefe und alle Etappen hinweg vor -->
+            <xsl:variable name="weight" select="count($all-edges[. = current()])"/>
 
             <!-- source -->
             <xsl:value-of select="$quote"/>
