@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-24Z</date>
+            <date>2026-09-25Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10992.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -224,11 +224,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1896-10-06">6. 10. 1896</date>
-                     <placeName ref="#pmb36300">Kjobenhavn</placeName>
+                     <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1896-10-08">8. 10. 1896</date>
-                     <placeName ref="#pmb53">Wien 3/3</placeName>
+                     <placeName ref="#pmb53">III., Landstraße</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -532,12 +532,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date when="1898-01-25" n="01">25. 1. 1898</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1106">Residenzhotel</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1898-01-25">25. 1. 1898</date>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1898-01-25" notAfter="1898-01-27">[25. 1. 1898
-                  – 29. 1. 1898?]</date>
+                     <date when="1898-01-25" evidence="external">25. 1. 1898</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -739,7 +742,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4515"/>
+               <measure unit="zeichenanzahl" quantity="4516"/>
             </item>
             <item corresp="L00882">
                <title level="a">Georg Brandes an Arthur Schnitzler, 22. 1. 1899</title>
@@ -749,9 +752,13 @@
                      <date when="1899-01-22" n="01">22. 1. 1899</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1899-01-22">22. 1. 1899</date>
+                     <placeName ref="#pmb36300">Kopenhagen</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-01-24">24. 1. 1899</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -964,6 +971,14 @@
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date when="1899-06-12" n="01">12. 6. 1899</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1899-06-12">12. 6. 1899</date>
+                     <placeName ref="#pmb36300">Kopenhagen</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1899-06-14">14. 6. [1899]</date>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1198,7 +1213,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4265"/>
+               <measure unit="zeichenanzahl" quantity="4267"/>
             </item>
             <item corresp="L01114">
                <title level="a">Arthur Schnitzler an Georg Brandes, 25. 4. 1901</title>
@@ -1398,7 +1413,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-05-23">23. 5. 1901</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1805,7 +1820,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="364"/>
+               <measure unit="zeichenanzahl" quantity="363"/>
             </item>
             <item corresp="L01609">
                <title level="a">Georg Brandes an Arthur Schnitzler, 11. 7. 1906</title>
@@ -2067,7 +2082,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1524"/>
+               <measure unit="zeichenanzahl" quantity="1523"/>
             </item>
             <item corresp="L02000">
                <title level="a">Arthur Schnitzler an Georg Brandes, 19. 1. 1911</title>
@@ -2097,7 +2112,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3541"/>
+               <measure unit="zeichenanzahl" quantity="3539"/>
             </item>
             <item corresp="L02016">
                <title level="a">Georg Brandes an Arthur Schnitzler, 11. 4. 1911</title>
@@ -2466,7 +2481,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2334"/>
+               <measure unit="zeichenanzahl" quantity="2335"/>
             </item>
             <item corresp="L02116">
                <title level="a">Georg Brandes an Arthur Schnitzler, 5. 3. 1913</title>
@@ -2559,7 +2574,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2896"/>
+               <measure unit="zeichenanzahl" quantity="2894"/>
             </item>
             <item corresp="L02198">
                <title level="a">Georg Brandes an Arthur Schnitzler, 18. 10. 1914</title>
@@ -2618,7 +2633,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4633"/>
+               <measure unit="zeichenanzahl" quantity="4634"/>
             </item>
             <item corresp="L02200">
                <title level="a">Arthur Schnitzler an Georg Brandes, 18. 12. 1914</title>
@@ -2648,7 +2663,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="467"/>
+               <measure unit="zeichenanzahl" quantity="466"/>
             </item>
             <item corresp="L02201">
                <title level="a">Georg Brandes an Arthur Schnitzler, 23. 12. 1914</title>
@@ -2713,7 +2728,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="1043"/>
+               <measure unit="zeichenanzahl" quantity="1042"/>
             </item>
             <item corresp="L02221">
                <title level="a">Georg Brandes an Arthur Schnitzler, 4. 12. 1915</title>
@@ -2925,7 +2940,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3323"/>
+               <measure unit="zeichenanzahl" quantity="3322"/>
             </item>
             <item corresp="L02303">
                <title level="a">Georg Brandes an Arthur Schnitzler, 18. 9. 1918</title>
@@ -3018,7 +3033,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3190"/>
+               <measure unit="zeichenanzahl" quantity="3189"/>
             </item>
             <item corresp="L02353">
                <title level="a">Arthur Schnitzler an Georg Brandes, 16. 8. 1920</title>
@@ -3049,7 +3064,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="6838"/>
+               <measure unit="zeichenanzahl" quantity="6837"/>
             </item>
             <item corresp="L02354">
                <title level="a">Georg Brandes an Arthur Schnitzler, 17. 8. 1920</title>
@@ -3996,7 +4011,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="1087"/>
+               <measure unit="zeichenanzahl" quantity="1083"/>
             </item>
          </list>
       </body>

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-24Z</date>
+            <date>2026-09-25Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,7 +68,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1892-05-15" n="01">[15. 5. 1892?]</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -90,7 +90,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="visitenkarte"/>
-               <measure unit="zeichenanzahl" quantity="132"/>
+               <measure unit="zeichenanzahl" quantity="134"/>
             </item>
             <item corresp="L04096">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 26. 7. 1892</title>
@@ -102,11 +102,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-07-26">26. 7. 1892</date>
-                     <placeName ref="#pmb51">Wien 1/1 15</placeName>
+                     <placeName ref="#pmb365220">1/1 Post- und Telegraphenamt 15</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1892-07-26">26. 7. 1892</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -140,11 +140,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-08-02">2. 8. 1892</date>
-                     <placeName ref="#pmb51">Wien 1/1 15</placeName>
+                     <placeName ref="#pmb365220">1/1 Post- und Telegraphenamt 15</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1892-08-02">2. 8. 1892</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -234,12 +234,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1893-05-30" notAfter="1893-05-31">[30. oder 31]. 5. 1893</date>
+                     <date notBefore="1893-05-30" notAfter="1893-05-31" n="01">[30. oder 31]. 5. 1893</date>
                      <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-05-31">31. 5. 1893</date>
-                     <placeName ref="#pmb58">Wien 8/1 64</placeName>
+                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -274,7 +274,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-06-10">10. 6. 1893</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -388,7 +388,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="938"/>
+               <measure unit="zeichenanzahl" quantity="939"/>
             </item>
             <item corresp="L04281">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 8. 7. 1893</title>
@@ -460,11 +460,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-08-12">12. 8. 1893</date>
-                     <placeName ref="#pmb59">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-08-12">12. 8. 1893</date>
-                     <placeName ref="#pmb968">Mödling Stadt</placeName>
+                     <placeName ref="#pmb968">Mödling</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -500,7 +500,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-08-27">27. 8. 1893</date>
-                     <placeName ref="#pmb44278">Pörtschach am See</placeName>
+                     <placeName ref="#pmb44278">Pörtschach am Wörthersee</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-08-28">28. 8. 1893</date>
@@ -535,7 +535,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1893-09-08" n="01">[8.? 9. 1893]</date>
-                     <placeName ref="#pmb207296" evidence="internal">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="internal">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -565,7 +565,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb24651">Schwarzkopf, Rudolf</persName>
                      <date when="1893-09-25" n="02">25. 9. 1893</date>
-                     <placeName ref="#pmb334857">Hotel <c rendition="#kaufmannsund"/> Pension Passerhof</placeName>
+                     <placeName ref="#pmb334857">Hotel &amp; Pension Passerhof</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-09-25">[25]. 9. 1893</date>
@@ -607,15 +607,15 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-09-28">28. 9. 1893</date>
-                     <placeName ref="#pmb51">Wien 1/1 10</placeName>
+                     <placeName ref="#pmb365217">1/1 Post- und Telegraphenamt 10</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
                      <date when="1893-09-28">28. 9. 1893</date>
-                     <placeName ref="#pmb51">Wien 1/1 10</placeName>
+                     <placeName ref="#pmb365217">1/1 Post- und Telegraphenamt 10</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-09-28">28. 9. 1893</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -680,11 +680,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-11-28">28. 11. 1893</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-11-28">28. 11. 1893</date>
-                     <placeName ref="#pmb59">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -718,7 +718,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-11-28">28. 11. 1893</date>
-                     <placeName ref="#pmb51">Wien</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -804,7 +804,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="263"/>
+               <measure unit="zeichenanzahl" quantity="247"/>
             </item>
             <item corresp="L04320">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 14. 4. 1894</title>
@@ -812,7 +812,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1894-04-14" n="02">14. 4. 1894</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -938,7 +938,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1894-11-25" n="02">25. 11. 1894</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -972,7 +972,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1894-12-08">8. 12. 1894</date>
-                     <placeName ref="#pmb59">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1894-12-08">8. 12. 1894</date>
@@ -1010,7 +1010,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-03-25">25. 3. 1895</date>
-                     <placeName ref="#pmb59">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-03-25">25. 3. 1895</date>
@@ -1074,7 +1074,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1895-07-24" n="01">24. 7. 1895</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1134,7 +1134,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1895-08-10" n="02">10. 8. 1895</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1253,12 +1253,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1896-07-01" notAfter="1896-07-02">[1. oder 2]. 7. 1896</date>
+                     <date notBefore="1896-07-01" notAfter="1896-07-02" n="02">[1. oder 2]. 7. 1896</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1896-07-02">2. 7. [1896]</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1896-07-02">2. 7. 1896</date>
@@ -1300,7 +1300,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1896-07-25">25. 7. 1896</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -1330,7 +1330,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1896-07-31" n="02">31. 7. 1896</date>
-                     <placeName ref="#pmb207296" evidence="internal">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="internal">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
@@ -1364,7 +1364,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1896-12-06" n="01">6. 12. 1896</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1428,11 +1428,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-01-12">12. 1. 1897</date>
-                     <placeName ref="#pmb59">Wien 9/1 66</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-01-12">12. 1. 1897</date>
-                     <placeName ref="#pmb59">Wien 9/1 66</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1468,11 +1468,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-01-23">23. 1. 1897</date>
-                     <placeName ref="#pmb59">Wien 9/1 66</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-01-23">23. 1. 1897</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -1533,11 +1533,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-04-26" n="04">26. 4. 1897</date>
-                     <placeName ref="#pmb592">5, rue de Mauberge</placeName>
+                     <placeName ref="#pmb592">5, rue de Maubeuge</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-04-26">26. 4. 1897</date>
-                     <placeName ref="#pmb186">Paris R. Lafayette</placeName>
+                     <placeName ref="#pmb186">Lueg</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-04-28">28. 4. 1897</date>
@@ -1571,7 +1571,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1897-05-03" n="01">3. 5. 1897</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1623,7 +1623,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3198"/>
+               <measure unit="zeichenanzahl" quantity="3173"/>
             </item>
             <item corresp="L04284">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 14. 5. 1897</title>
@@ -1635,7 +1635,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-05-14">14. 5. 1897</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1699,11 +1699,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-06-25">25. 6. 1897</date>
-                     <placeName ref="#pmb58">Wien 8/1</placeName>
+                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-06-25">25. 6. 1897</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -1828,11 +1828,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-05-03">3. 5. 1898</date>
-                     <placeName ref="#pmb58">Wien 8/1 64</placeName>
+                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-05-03">3. 5. 1898</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -1929,12 +1929,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1898-07-14" notAfter="1898-07-15">[14. oder 15]. 7. 1898</date>
+                     <date notBefore="1898-07-14" notAfter="1898-07-15" n="01">[14. oder 15]. 7. 1898</date>
                      <placeName ref="#pmb860">Graz</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-07-15">15. 7. 1898</date>
-                     <placeName ref="#pmb860">Graz Murvorstadt</placeName>
+                     <placeName ref="#pmb860">Graz</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-07-16">16. 7. 1898</date>
@@ -1967,12 +1967,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1898-07-14" notAfter="1898-07-15">[14. oder 15]. 7. 1898</date>
+                     <date notBefore="1898-07-14" notAfter="1898-07-15" n="02">[14. oder 15]. 7. 1898</date>
                      <placeName ref="#pmb860">Graz</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-07-15">15. 7. 1898</date>
-                     <placeName ref="#pmb860">Graz Murvorstadt</placeName>
+                     <placeName ref="#pmb860">Graz</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2003,11 +2003,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1898-07-18" n="03">18. 7. 1898</date>
-                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-07-18">18. 7. 1898</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-07-19">19. 7. 1898</date>
@@ -2054,7 +2054,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1898-07-21">1. 7. 1898</date>
-                     <placeName ref="#pmb207296">I. Tiefer Graben 23</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -2083,7 +2083,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-07-21">21. 7. 1898</date>
-                     <placeName ref="#pmb521">Badgastein</placeName>
+                     <placeName ref="#pmb521">Bad Gastein</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2113,11 +2113,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1898-07-22" n="01">22. 7. 1898</date>
-                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-07-23">23. 7. 1898</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-07-24">24. 7. 1898</date>
@@ -2155,11 +2155,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-08-04">4. 8. 1898</date>
-                     <placeName ref="#pmb18135">Kreuth (Wildbad)</placeName>
+                     <placeName ref="#pmb18135">Wildbad Kreuth</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-08-05">5. 8. 1898</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2181,7 +2181,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="224"/>
+               <measure unit="zeichenanzahl" quantity="225"/>
             </item>
             <item corresp="L04507">
                <title level="a">Arthur Schnitzler, Hugo von Hofmannsthal, Gisela und Markus Hajek an
@@ -2227,12 +2227,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1898-08-23" notAfter="1898-08-24">[23. oder 24]. 8. 1898</date>
+                     <date notBefore="1898-08-23" notAfter="1898-08-24" n="01">[23. oder 24]. 8. 1898</date>
                      <placeName ref="#pmb200956">Hotel St. Gotthard Luzern</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-08-24">24. 8. 1898</date>
-                     <placeName ref="#pmb967">Luzern Brf. Aufg.</placeName>
+                     <placeName ref="#pmb967">Luzern</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-08-28">28. 8. 1898</date>
@@ -2270,7 +2270,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-09-02">2. 9. 1898</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2362,7 +2362,7 @@
                      <persName ref="#pmb24700">Chiavacci, Malvine</persName>
                      <persName ref="#pmb2154">Chiavacci, Vincenz</persName>
                      <date when="1899-02-20" n="01">20. 2. 1899</date>
-                     <placeName ref="#pmb335089">Nürnberger Bratwurst Glöckl am Dom, München</placeName>
+                     <placeName ref="#pmb335089">Nürnberger Bratwurst Glöckl am Dom</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-02-20">20. 2. 1899</date>
@@ -2467,7 +2467,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-04-20">20. 4. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2490,7 +2490,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="217"/>
+               <measure unit="zeichenanzahl" quantity="215"/>
             </item>
             <item corresp="L04122">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 24. 4. 1899</title>
@@ -2540,7 +2540,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-04-26">26. 4. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2574,7 +2574,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-04-28">28. 4. 1899</date>
-                     <placeName ref="#pmb168">Berlin N. W.</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2603,12 +2603,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1899-04-29" notAfter="1899-04-30">30. 4. 1899</date>
+                     <date notBefore="1899-04-29" notAfter="1899-04-30" n="01">30. 4. 1899</date>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-04-30">30. 4. 1899</date>
-                     <placeName ref="#pmb168">Berlin N. W.</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-05-01">1. 5. 1899</date>
@@ -2646,7 +2646,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-05-10">10. 5. 189[9?]</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2680,11 +2680,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-05-16">16. 5. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 15</placeName>
+                     <placeName ref="#pmb365220">1/1 Post- und Telegraphenamt 15</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-05-16">16. 5. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2751,7 +2751,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-05-28">28. 5. 1899</date>
-                     <placeName ref="#pmb364392">Rosenburg Bahnhof</placeName>
+                     <placeName ref="#pmb364392">Bahnhof Rosenburg</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2814,7 +2814,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1899-06-25" notAfter="1899-06-26">[25. oder 26]. 6. 1899</date>
+                     <date notBefore="1899-06-25" notAfter="1899-06-26" n="02">[25. oder 26]. 6. 1899</date>
                      <placeName ref="#pmb42960">Orahovica</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -2823,7 +2823,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-06-27">27. 6. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2857,7 +2857,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-07-11">11. 7. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2895,7 +2895,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-07-20">20. 7. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -2959,11 +2959,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-07-21">21. 7. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-07-22">22. 7. 1899</date>
-                     <placeName ref="#pmb909">Velden am Wörtersee</placeName>
+                     <placeName ref="#pmb909">Velden am Wörthersee</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3023,7 +3023,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1899-07-29" n="02">29. 7. 1899</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3053,12 +3053,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-08-01" n="02">1. 8. 1899</date>
-                     <placeName ref="#pmb987">Toblach</placeName>
+                     <placeName ref="#pmb36284">Südbahnhotel [Toblach]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date evidence="conjecture" notBefore="1899-08-02" notAfter="1899-08-06">[2. 8. 1899 – 6. 8. 1899?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb213" evidence="conjecture">Bad Ischl</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -3093,7 +3093,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-08-08">8. 8. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3115,19 +3115,19 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="245"/>
+               <measure unit="zeichenanzahl" quantity="244"/>
             </item>
             <item corresp="L04296">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, [8. oder 9]. 8. 1899</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date n="02" notBefore="1899-08-08" notAfter="1899-08-09">[8. oder 9]. 8. 1899</date>
+                     <date notBefore="1899-08-08" notAfter="1899-08-09" n="02">[8. oder 9]. 8. 1899</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-08-09">9. 8. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-08-11">11. 8. 1899</date>
@@ -3170,7 +3170,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-08-11">11. 8. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3204,7 +3204,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-08-13">13. 8. 1899</date>
-                     <placeName ref="#pmb40260">Bozen 1</placeName>
+                     <placeName ref="#pmb40260">Bozen</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <placeName ref="#pmb50">Wien</placeName>
@@ -3241,11 +3241,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-08-16">16. 8. 1899</date>
-                     <placeName ref="#pmb213">Ischl</placeName>
+                     <placeName ref="#pmb213">Bad Ischl</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-08-17">17. 8. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3275,7 +3275,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1899-08-17" n="03">17. 8. 1899</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3335,7 +3335,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1899-08-20" n="02">20. 8. 1899</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-08-21">21. 8. 1899</date>
@@ -3404,7 +3404,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1899-08-31" n="02">31. 8. 1899</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3456,7 +3456,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2898"/>
+               <measure unit="zeichenanzahl" quantity="2899"/>
             </item>
             <item corresp="L04292">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 12. 9. 1899</title>
@@ -3494,8 +3494,8 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" when="1899-09-15">15. 9. 1899</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <date when="1899-09-15" n="02">15. 9. 1899</date>
+                     <placeName ref="#pmb806">Hotel Rheinischer Hof München</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-09-15">15. 9. 1899</date>
@@ -3503,7 +3503,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-09-18">18. 9. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3575,7 +3575,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-09-20">20. 9. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3597,7 +3597,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="71"/>
+               <measure unit="zeichenanzahl" quantity="70"/>
             </item>
             <item corresp="L04418">
                <title level="a">Arthur Schnitzler und Paul Goldmann an Gustav Schwarzkopf, 19. 9. 1899</title>
@@ -3614,7 +3614,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-09-22">22. 9. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3652,11 +3652,11 @@
                   </correspAction>
                   <correspAction type="in_transit">
                      <date when="1899-09-27">27. 9. 1899</date>
-                     <placeName ref="#pmb993">Bucuresci Cursa</placeName>
+                     <placeName ref="#pmb993">Bukarest</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-09-29">29. 9. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3712,7 +3712,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="4268"/>
+               <measure unit="zeichenanzahl" quantity="4263"/>
             </item>
             <item corresp="L04291">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 3. 10. 1899</title>
@@ -3720,7 +3720,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1899-10-03" n="04">3. 10. 1899</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3742,7 +3742,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1540"/>
+               <measure unit="zeichenanzahl" quantity="1542"/>
             </item>
             <item corresp="L04082">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 8. 10. 1899</title>
@@ -3784,7 +3784,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-11-08">8. 11. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3818,7 +3818,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-11-10">10. 11. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -3950,11 +3950,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-12-07">7. 12. 1899</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-12-08">8. 12. 1899</date>
-                     <placeName ref="#pmb59">Wien 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3988,11 +3988,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-12-11">11. 12. 1899</date>
-                     <placeName ref="#pmb59">Wien 9/1 66</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-12-11">11. 12. 1899</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4058,7 +4058,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-02-01">1. 2. 1900</date>
-                     <placeName ref="#pmb59">Wien 9/3</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4092,7 +4092,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-02-09">9. 2. 1900</date>
-                     <placeName ref="#pmb59">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-02-09">9. 2. 1900</date>
@@ -4130,11 +4130,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-02-11">11. 2. 1900</date>
-                     <placeName ref="#pmb59">Wien 9/1 66</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-02-11">11. 2. 1900</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4163,7 +4163,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1900-03-03" notAfter="1900-03-04">[3. oder 4]. 3. 1900</date>
+                     <date notBefore="1900-03-03" notAfter="1900-03-04" n="01">[3. oder 4]. 3. 1900</date>
                      <placeName ref="#pmb714">Hotel Edlacherhof</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -4210,7 +4210,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-03-30">30. 3. 1900</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4278,7 +4278,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-05-07">7. 5. 1900</date>
-                     <placeName ref="#pmb59">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-05-07">7. 5. 1900</date>
@@ -4361,7 +4361,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-06-27">27. 6. 1900</date>
-                     <placeName ref="#pmb59">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4429,7 +4429,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-07-06">6. 7. 1900</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4489,7 +4489,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1900-07-12" n="02">12. 7. 1900</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4550,7 +4550,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1900-08-04" n="02">4. 8. 1900</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4621,7 +4621,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-08-15">15. 8. 1900</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4660,7 +4660,7 @@
                      <placeName ref="#pmb38711">Schruns</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4815,7 +4815,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-09-05">5. 9. 1900</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4844,12 +4844,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1900-09-10" notAfter="1900-09-11">[10. oder 11]. 9. 1900</date>
+                     <date notBefore="1900-09-10" notAfter="1900-09-11" n="01">[10. oder 11]. 9. 1900</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-09-11">11. 9. 1900</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4916,7 +4916,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-09-28">28. 9. 1900</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -4950,7 +4950,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-10-29">29. 10. 1900</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5009,12 +5009,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1900-12-23" notAfter="1900-12-24">[23. oder 24]. 12. 1900</date>
+                     <date notBefore="1900-12-23" notAfter="1900-12-24" n="02">[23. oder 24]. 12. 1900</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-12-24">24. 12. 1900</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5082,11 +5082,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1901-02-04" n="01">4. 2. 1901</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-02-04">4. 2. 1901</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-02-05">5. 2. 1901</date>
@@ -5166,7 +5166,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-04-05">5. 4. 1901</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5188,7 +5188,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="120"/>
+               <measure unit="zeichenanzahl" quantity="118"/>
             </item>
             <item corresp="L04500">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 9. 4. 1901</title>
@@ -5226,7 +5226,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="114"/>
+               <measure unit="zeichenanzahl" quantity="116"/>
             </item>
             <item corresp="L04519">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 14. 4. 1901</title>
@@ -5281,7 +5281,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-04-19">19. 4. 1901</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5311,7 +5311,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Gussmann, Olga</persName>
-                     <date n="01" notBefore="1901-06-16" notAfter="1901-06-17">[16. oder 17]. 6. 1901</date>
+                     <date notBefore="1901-06-16" notAfter="1901-06-17" n="01">[16. oder 17]. 6. 1901</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -5384,7 +5384,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1901-07-06" n="01">6. 7. 1901</date>
-                     <placeName ref="#pmb207296" evidence="internal">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="internal">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5424,7 +5424,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-07-14">14. 7. 1901</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5489,7 +5489,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-07-29">29. 7. 1901</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-07-30">30. 7. 1901</date>
@@ -5595,7 +5595,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-08-15">15. 8. 1901</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5651,14 +5651,14 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="428"/>
+               <measure unit="zeichenanzahl" quantity="424"/>
             </item>
             <item corresp="L04529">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, [1. 10. 1901?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1901-10-01" n="01" evidence="conjecture">[1. 10. 1901?]</date>
+                     <date when="1901-10-01" evidence="conjecture" n="01">[1. 10. 1901?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -5681,6 +5681,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="visitenkarte"/>
+               <measure unit="zeichenanzahl" quantity="82"/>
             </item>
             <item corresp="L04449">
                <title level="a">Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 12. 11. 1901</title>
@@ -5731,7 +5732,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-12-29">29. 12. 1901</date>
-                     <placeName ref="#pmb168">Berlin, N.W.</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-12-30">30. 12. 1901</date>
@@ -5770,7 +5771,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1902-01-15">15. 1. 1902</date>
-                     <placeName ref="#pmb59">Wien 9/ 1 66</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5835,7 +5836,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1902-01-20">20. 1. 1902</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365217">1/1 Post- und Telegraphenamt 10</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-01-20">20. 1. 1902</date>
@@ -5905,7 +5906,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1902-06-30">30. [6. 1902]</date>
-                     <placeName ref="#pmb50792">Salzburg Bahnhof</placeName>
+                     <placeName ref="#pmb50792">Hauptbahnhof Salzburg</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5940,7 +5941,7 @@
                      <placeName ref="#pmb591">Matrei am Brenner</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <placeName ref="#pmb591">Deutsch-Matrei</placeName>
+                     <placeName ref="#pmb591">Matrei am Brenner</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -6132,7 +6133,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-09-07">7. 9. 1902</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -6162,12 +6163,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1902-09-25" n="01">[25. 9. 1902?]</date>
-                     <placeName ref="#pmb168934">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1902-09-25" evidence="conjecture">[25. 9. 1902?]</date>
-                     <placeName evidence="conjecture" ref="#pmb207296">I. Tiefer Graben 23</placeName>
+                     <placeName evidence="conjecture" ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -6223,7 +6224,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1902-10-03" n="02">[3. 10. 1902?]</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -6385,7 +6386,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1903-02-27" n="02">27. 2. 1903</date>
-                     <placeName ref="#pmb88" evidence="conjecture">Berlin</placeName>
+                     <placeName ref="#pmb88" evidence="conjecture">Palasthotel Berlin</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1903-02-27">27. 2. 1903</date>
@@ -6393,7 +6394,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-02-28">28. 2. 1903</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -6506,7 +6507,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="610"/>
+               <measure unit="zeichenanzahl" quantity="607"/>
             </item>
             <item corresp="L04062">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 28. 3. 1903</title>
@@ -6634,7 +6635,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="326"/>
+               <measure unit="zeichenanzahl" quantity="327"/>
             </item>
             <item corresp="L04151">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf,
@@ -6647,7 +6648,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1903-04-14">[14]. 4. 1903</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -6716,7 +6717,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-06-12">12. 6. 1903</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -6738,7 +6739,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="159"/>
+               <measure unit="zeichenanzahl" quantity="151"/>
             </item>
             <item corresp="L04431">
                <title level="a">Arthur Schnitzler und Olga Gussmann an Gustav Schwarzkopf, 11. 6. 1903</title>
@@ -6755,7 +6756,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-06-13">12. 6. 1903</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -6785,12 +6786,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1903-06-19" n="02">[19. 6. 1903]</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1903-06-19" evidence="conjecture">[19. 6. 1903?]</date>
-                     <placeName ref="#pmb168934" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -6823,7 +6824,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-07-30">30. 7. 1903</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -6916,7 +6917,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1903-08-16" notAfter="1903-08-17">[16. oder 17]. 8. 1903</date>
+                     <date notBefore="1903-08-16" notAfter="1903-08-17" n="01">[16. oder 17]. 8. 1903</date>
                      <placeName ref="#pmb41083">Mendelpass</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -6962,7 +6963,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-08-20">20. 8. 1903</date>
-                     <placeName ref="#pmb51">Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -6995,7 +6996,7 @@
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date notBefore="1903-08-23" notAfter="1903-10-25" n="03">[zwischen 23. 8. und
                   25. 10. 1903?]</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7063,11 +7064,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1903-09-12">12. 9. 1903</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-09-12">12. 9. 1903</date>
-                     <placeName ref="#pmb61">Wien 1/1 110</placeName>
+                     <placeName ref="#pmb61">XI., Simmering</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7105,7 +7106,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-10-05">5. 10. 1903</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7157,7 +7158,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="375"/>
+               <measure unit="zeichenanzahl" quantity="374"/>
             </item>
             <item corresp="L04379">
                <title level="a">Arthur und Olga Schnitzler an Gustav Schwarzkopf, 6. 11. 190[3]</title>
@@ -7174,7 +7175,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-11-07">7. 11. 1903</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7238,11 +7239,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1903-12-24">24. 12. 1903</date>
-                     <placeName ref="#pmb68">Wien</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-12-24">24. 12. 1903</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7276,11 +7277,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1903-12-24">24. 12. 1903</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-12-25">25. 12. 1903</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7319,7 +7320,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-01-13">13. [1. 1904?]</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7353,11 +7354,11 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-09-22">22. 9. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date when="1904-01-22">22. 1. 1904</date>
+                     <date when="1904-01-22" error="Zeitabfolge Fehler 1">22. 1. 1904</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -7411,7 +7412,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="126"/>
+               <measure unit="zeichenanzahl" quantity="125"/>
             </item>
             <item corresp="L04055">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 19. 2. 1904</title>
@@ -7461,7 +7462,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-02-27">27. 2. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7499,7 +7500,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-02-27">27. 2. 1904</date>
-                     <placeName ref="#pmb68">Wien 18</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7533,7 +7534,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-03-20">20. 3. 1904</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7571,7 +7572,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-04-11">11. 4. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7610,7 +7611,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-05-06">6. 5. 1904</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7632,7 +7633,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="186"/>
+               <measure unit="zeichenanzahl" quantity="192"/>
             </item>
             <item corresp="L04315">
                <title level="a">Gustav und Max Schwarzkopf an Arthur Schnitzler, 6. 5. 1904</title>
@@ -7645,7 +7646,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-05-06">6. 5. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-05-08">8. 5. 1904</date>
@@ -7671,7 +7672,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="401"/>
+               <measure unit="zeichenanzahl" quantity="402"/>
             </item>
             <item corresp="L04071">
                <title level="a">Arthur und Olga Schnitzler an Gustav Schwarzkopf, 9. 5. 1904</title>
@@ -7711,7 +7712,7 @@
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <persName ref="#pmb24648">Schwarzkopf, Max</persName>
                      <date when="1904-05-11" n="01">11. 5. 1904</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7734,7 +7735,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="2277"/>
+               <measure unit="zeichenanzahl" quantity="2276"/>
             </item>
             <item corresp="L04415">
                <title level="a">Arthur und Olga Schnitzler an Gustav Schwarzkopf, 16. 5. 1904</title>
@@ -7751,7 +7752,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-05-19">19. 5. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7790,7 +7791,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-05-25">25. 5. 1904</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7824,7 +7825,7 @@
                      <placeName ref="#pmb44521">Ancona</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7858,11 +7859,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-06-18">18. 6. 1904</date>
-                     <placeName ref="#pmb51">1/1 Wien 9</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-06-18">18. 6. 1904</date>
-                     <placeName ref="#pmb68">Wien, XVIII. Währing</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7896,15 +7897,15 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-09-21">21. 9. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-09-21">21. 9. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date when="1904-06-21">21. 6. 1904</date>
+                     <date when="1904-06-21" error="Zeitabfolge Fehler 1">21. 6. 1904</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -7964,7 +7965,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-07-20">20. 7. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8007,7 +8008,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-07-25">25. 7. 1904</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8029,7 +8030,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="246"/>
+               <measure unit="zeichenanzahl" quantity="267"/>
             </item>
             <item corresp="L04026">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 29. 7. 1904</title>
@@ -8041,7 +8042,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-07-30">30. 7. 1904</date>
-                     <placeName ref="#pmb68">18/1 Wien</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8105,12 +8106,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1904-08-24" notAfter="1904-08-25">[24. oder 25]. 8. 1904</date>
+                     <date notBefore="1904-08-24" notAfter="1904-08-25" n="01">[24. oder 25]. 8. 1904</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-08-25">25. 8. 1904</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8132,7 +8133,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="259"/>
+               <measure unit="zeichenanzahl" quantity="258"/>
             </item>
             <item corresp="L04532">
                <title level="a">Arthur, Olga Schnitzler und Emilie Sigmund an Gustav Schwarzkopf,
@@ -8192,7 +8193,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-09-21">21. 9. 1904</date>
-                     <placeName ref="#pmb51">Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8230,7 +8231,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-09-21">21. 9. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8298,7 +8299,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-10-18">18. 10. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8332,7 +8333,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-10-21">21. 10. 1904</date>
-                     <placeName ref="#pmb59">9/4 Wien 38</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8361,12 +8362,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1904-11-07" notAfter="1904-11-08">[7. oder 8]. 11. 1904</date>
+                     <date notBefore="1904-11-07" notAfter="1904-11-08" n="02">[7. oder 8]. 11. 1904</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-11-08">8. 11. 1904</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8400,11 +8401,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-12-05">5. 12. 1904</date>
-                     <placeName ref="#pmb68">Wien 18/1</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-12-05">5. 12. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8438,11 +8439,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-12-08">8. 12. 1904</date>
-                     <placeName ref="#pmb68">18/1 Wien 111</placeName>
+                     <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-12-08">8. 12. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8482,7 +8483,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-12-30">30. 12. 1904</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8516,7 +8517,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-02-21">21. 2. 1905</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8550,11 +8551,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-03-02">2. 3. 1905</date>
-                     <placeName ref="#pmb51">1/ Wien 10</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-03-02">2. 3. 1905</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8583,7 +8584,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1905-03-06" notAfter="1905-03-07">[6. oder 7]. 3. 1905</date>
+                     <date notBefore="1905-03-06" notAfter="1905-03-07" n="02">[6. oder 7]. 3. 1905</date>
                      <placeName ref="#pmb847">Ajaccio</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -8626,7 +8627,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-03-14">14. 3. 1905</date>
-                     <placeName ref="#pmb51">1/1 Wien</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8662,11 +8663,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-03-15">15. 3. 1905</date>
-                     <placeName ref="#pmb90757">Gruž Gravosa</placeName>
+                     <placeName ref="#pmb90757">Gruž</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-03-17">17. 3. 1905</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8688,7 +8689,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="101"/>
+               <measure unit="zeichenanzahl" quantity="102"/>
             </item>
             <item corresp="L04386">
                <title level="a">Arthur und Olga Schnitzler an Gustav Schwarzkopf, 4. 5. 1905</title>
@@ -8705,7 +8706,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-05-05">5. 5. 1905</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8769,7 +8770,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-06-07">7. 6. 1905</date>
-                     <placeName ref="#pmb68">18/1 Wien</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8835,7 +8836,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-06-30">30. 6. 1905</date>
-                     <placeName ref="#pmb57">7/2 Wien</placeName>
+                     <placeName ref="#pmb57">VII., Neubau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8875,7 +8876,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-07-08">8. 7. [1905]</date>
-                     <placeName ref="#pmb51">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -8935,7 +8936,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1905-07-20" n="02">20. 7. 1905</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date evidence="conjecture" notBefore="1905-07-21" notAfter="1905-07-23">[21. 7. 1905 – 23. 7. 1905?]</date>
@@ -8973,7 +8974,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-07-23">23. 7. 1905</date>
-                     <placeName ref="#pmb483">Reichenau bei Payerbach</placeName>
+                     <placeName ref="#pmb483">Reichenau an der Rax</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9007,7 +9008,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-08-12">12. 8. 1905</date>
-                     <placeName ref="#pmb68">Wien 18</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9041,11 +9042,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-09-01">1. 9. [1905]</date>
-                     <placeName ref="#pmb68">18/1 Wien</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-09-01">1. 9. 1905</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9079,11 +9080,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-09-05">5. 9. 1905</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-09-05">5. 9. 1905</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9117,11 +9118,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-09-16">16. 9. 1905</date>
-                     <placeName ref="#pmb68">Wien 18/1 111</placeName>
+                     <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-09-16">16. 9. 1905</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9151,7 +9152,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
-                     <date n="01" notBefore="1905-09-24" notAfter="1905-09-25">[24. oder 25]. 9. 1905</date>
+                     <date notBefore="1905-09-24" notAfter="1905-09-25" n="01">[24. oder 25]. 9. 1905</date>
                      <placeName ref="#pmb189">Semmering</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -9198,7 +9199,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-10-06">6. 10. 1905</date>
-                     <placeName ref="#pmb51">Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9232,11 +9233,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-10-07">7. 10. 1905</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-10-07">7. 10. 1905</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9258,7 +9259,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="316"/>
+               <measure unit="zeichenanzahl" quantity="317"/>
             </item>
             <item corresp="L04195">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, [10. 10. 1905?]</title>
@@ -9330,11 +9331,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-10-13">13. 10. 1905</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-10-13">13. 10. 1905</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb24648">Schwarzkopf, Max</persName>
@@ -9372,7 +9373,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-11-06">6. [11. 1905?]</date>
-                     <placeName ref="#pmb51">Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9403,7 +9404,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1905-11-16" n="01">[16. 11. 1905]</date>
-                     <placeName ref="#pmb207296" evidence="external">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="external">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -9436,7 +9437,7 @@
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date notBefore="1905-12-14" notAfter="1905-12-18" n="01">[14. 12. 1905 –
                   18. 12. 1905?]</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -9470,7 +9471,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-03-08">8. 3. 1906</date>
-                     <placeName ref="#pmb59">9/1 Wien 66</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9505,11 +9506,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-03-11">11. 3. 1906</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-03-11">11. 3. 1906</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9531,7 +9532,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="204"/>
+               <measure unit="zeichenanzahl" quantity="200"/>
             </item>
             <item corresp="L04040">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 12. 4. 1906</title>
@@ -9543,11 +9544,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-04-13">13. 4. 1906</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-04-13">13. 4. 1906</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9585,7 +9586,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-04-14">14. 4. 1906</date>
-                     <placeName ref="#pmb68">18/1 Wien 111</placeName>
+                     <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -9607,7 +9608,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="569"/>
+               <measure unit="zeichenanzahl" quantity="570"/>
             </item>
             <item corresp="L04042">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 14. 4. 1906</title>
@@ -9619,11 +9620,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-04-14">14. 4. 1906</date>
-                     <placeName ref="#pmb68">Wien 18</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-04-14">14. 4. 1906</date>
-                     <placeName ref="#pmb51">Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9722,15 +9723,15 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-05-21">21. 5. 1906</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
                      <date when="1906-05-21">21. 5. 1906</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-05-21">21. 5. 1906</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9764,11 +9765,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-06-23">23. 6. 1906</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-06-23">23. 6. 1906</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -9877,7 +9878,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-07-14">14. 7. 1906</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-07-16">16. 7. 06</date>
@@ -9911,7 +9912,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1906-07-16" notAfter="1906-07-17">[16. oder 17]. 7. 1906</date>
+                     <date notBefore="1906-07-16" notAfter="1906-07-17" n="02">[16. oder 17]. 7. 1906</date>
                      <placeName ref="#pmb41010">Kurhotellet</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -9974,14 +9975,14 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="173"/>
+               <measure unit="zeichenanzahl" quantity="172"/>
             </item>
             <item corresp="L04202">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, [23. oder 24]. 8. 1906</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1906-08-23" notAfter="1906-08-24">[23. oder 24]. 8. 1906</date>
+                     <date notBefore="1906-08-23" notAfter="1906-08-24" n="02">[23. oder 24]. 8. 1906</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -9991,7 +9992,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-08-25">25. 8. 1906</date>
-                     <placeName ref="#pmb51">Wien</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -10013,7 +10014,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="121"/>
+               <measure unit="zeichenanzahl" quantity="122"/>
             </item>
             <item corresp="L04027">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 24. 8. 1906</title>
@@ -10025,7 +10026,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-08-24">24. 8. 1906</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-08-24">24. 8. 1906</date>
@@ -10063,11 +10064,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-08-27">27. 8. 1906</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-08-27">27. 8. 1906</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -10142,7 +10143,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-11-15">15. 11. 1906</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -10234,7 +10235,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
-                     <date notBefore="1907-06-28" notAfter="1907-06-29" n="1">[28. oder 29. 6. 1907]</date>
+                     <date notBefore="1907-06-28" notAfter="1907-06-29" n="01">[28. oder 29. 6. 1907]</date>
                      <placeName ref="#pmb51794">St. Johann am Wocheiner See</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -10262,14 +10263,14 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="74"/>
+               <measure unit="zeichenanzahl" quantity="73"/>
             </item>
             <item corresp="L04451">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, [7. oder 8]. 7. 1907</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1907-07-07" notAfter="1907-07-08">[7. oder 8]. 7. 1907</date>
+                     <date notBefore="1907-07-07" notAfter="1907-07-08" n="01">[7. oder 8]. 7. 1907</date>
                      <placeName ref="#pmb723">Wildbad Waldbrunn</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -10312,12 +10313,12 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1907-07-18">18. 7. 1907</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1907-07-18" notAfter="1907-07-22">[18. 7. 1907 – 22. 7. 1907?]</date>
-                     <placeName ref="#pmb723">Bad Waldbrunn</placeName>
+                     <placeName ref="#pmb723">Wildbad Waldbrunn</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -10415,7 +10416,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
-                     <date n="01" notBefore="1907-09-04" notAfter="1907-09-05">[4. oder 5]. 9. 1907</date>
+                     <date notBefore="1907-09-04" notAfter="1907-09-05" n="01">[4. oder 5]. 9. 1907</date>
                      <placeName ref="#pmb43520" evidence="conjecture">Meran</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -10522,11 +10523,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1908-03-06">6. 3. 1908</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1908-03-06">6. 3. 1908</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -10560,7 +10561,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1908-03-06">6. 3. 1908</date>
-                     <placeName ref="#pmb51">1/1 Wien 9</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -10594,11 +10595,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1908-03-16">16. 3. 1908</date>
-                     <placeName ref="#pmb68">18/1 Wien 111</placeName>
+                     <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1908-03-16">16. 3. 1908</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -10627,16 +10628,16 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1908-04-17" notAfter="1908-04-18">17. 4. 1908</date>
+                     <date notBefore="1908-04-17" notAfter="1908-04-18" n="02">17. 4. 1908</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1908-04-17">17. 4. 1908</date>
-                     <placeName ref="#pmb68">18/1 Wien 111</placeName>
+                     <date when="1908-04-17" error="Zeitabfolge Fehler 1">17. 4. 1908</date>
+                     <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1908-04-17">17. 4. 1908</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -10666,7 +10667,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1908-04-24" n="01">[24. 4. 1908?]</date>
-                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -10734,7 +10735,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1908-05-26">26. 5. 1908</date>
-                     <placeName ref="#pmb68">Wien 18/1 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1908-05-26">26. 5. 1908</date>
@@ -10941,7 +10942,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-01-11">11. 1. 1909</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11035,12 +11036,12 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-05-19">19. 5. 1909</date>
-                     <placeName ref="#pmb51">1/1 Wien 1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1909-05-19" notAfter="1909-05-22">[19. 5. 1909 – 22. 5. 1909?]</date>
-                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -11199,7 +11200,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="267"/>
+               <measure unit="zeichenanzahl" quantity="269"/>
             </item>
             <item corresp="L04069">
                <title level="a">Arthur und Olga Schnitzler an Gustav Schwarzkopf, 20. 8. 1909</title>
@@ -11212,7 +11213,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-08-20">20. 8. 1909</date>
-                     <placeName ref="#pmb470">Edlach b. Reichenau</placeName>
+                     <placeName ref="#pmb470">Edlach an der Rax</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -11241,7 +11242,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1909-08-28" notAfter="1909-08-29">[28. oder 29]. 8. 1909</date>
+                     <date notBefore="1909-08-28" notAfter="1909-08-29" n="01">[28. oder 29]. 8. 1909</date>
                      <placeName ref="#pmb45258">München</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -11307,7 +11308,7 @@
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <persName ref="#pmb24648">Schwarzkopf, Max</persName>
                      <date when="1909-09-15" n="03">15. 9. 1909</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11408,7 +11409,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-10-31">31. 10. 1909</date>
-                     <placeName ref="#pmb59">9/4 Wien 68</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -11468,7 +11469,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1910-01-19" n="01">19. 1. 1910</date>
-                     <placeName ref="#pmb207296" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb207296" evidence="conjecture">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date notBefore="1910-01-19" notAfter="1910-01-24">19. 1. 1910</date>
@@ -11532,7 +11533,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date notBefore="1910-04-14" notAfter="1910-04-15" n="02">[14. oder 15.? 4. 1910]</date>
-                     <placeName ref="#pmb207296">Wien</placeName>
+                     <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11590,7 +11591,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="258"/>
+               <measure unit="zeichenanzahl" quantity="259"/>
             </item>
             <item corresp="L04533">
                <title level="a">Arthur und, Olga Schnitzler an Gustav Schwarzkopf, 24. 5. 1910</title>
@@ -11703,11 +11704,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1910-06-26">26. 6. 1910</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1910-06-26">26. 6. 1910</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -11800,12 +11801,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1910-10-10" notAfter="1910-10-11">[10. oder 11]. 10. 1910</date>
+                     <date notBefore="1910-10-10" notAfter="1910-10-11" n="01">[10. oder 11]. 10. 1910</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1910-10-11">11. 10. 1910</date>
-                     <placeName ref="#pmb59">9/1Wien</placeName>
+                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -11834,12 +11835,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1910-11-22" notAfter="1910-11-23">[22. oder 23]. 11. 1910</date>
+                     <date notBefore="1910-11-22" notAfter="1910-11-23" n="01">[22. oder 23]. 11. 1910</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1910-11-23">23. 11. 1910</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -11898,12 +11899,12 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1910-11-27" notAfter="1910-11-28">[27. oder 28]. 11. 1910</date>
+                     <date notBefore="1910-11-27" notAfter="1910-11-28" n="01">[27. oder 28]. 11. 1910</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1910-11-28">28. 11. 1910</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -11937,14 +11938,14 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1911-01-24">24. 1. 1911</date>
-                     <placeName ref="#pmb65">Wien 101</placeName>
+                     <placeName ref="#pmb65">XV., Rudolfsheim-Fünfhaus</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
-                     <placeName ref="#pmb51">1/1 Wien 2</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1911-01-24">24. 1. 1911</date>
-                     <placeName ref="#pmb51">Wien</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -12118,7 +12119,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1911-07-18">18. 7. 1911</date>
-                     <placeName ref="#pmb68">1/18 Wien</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -12187,7 +12188,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1911-08-10">10. 8. 1911</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12292,7 +12293,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1911-10-13">13. 10. 1911</date>
-                     <placeName ref="#pmb51">1/1 Wien</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -12314,7 +12315,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="291"/>
+               <measure unit="zeichenanzahl" quantity="290"/>
             </item>
             <item corresp="L04515">
                <title level="a">Arthur und Olga Schnitzler an Gustav Schwarzkopf,
@@ -12393,7 +12394,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1911-12-19" notAfter="1911-12-20">[19. oder 20]. 12. 1911</date>
+                     <date notBefore="1911-12-19" notAfter="1911-12-20" n="01">[19. oder 20]. 12. 1911</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -12572,7 +12573,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1912-07-13">13. 7. 1912</date>
-                     <placeName ref="#pmb334808">Reifnitz am Wörthersee</placeName>
+                     <placeName ref="#pmb334808">Reifnitz [Maria Wörth]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12602,11 +12603,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1912-07-19" n="02">19. 7. 1912</date>
-                     <placeName ref="#pmb168815">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1912-07-19">19. 7. 1912</date>
-                     <placeName ref="#pmb68">18/1 Wien</placeName>
+                     <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -12788,7 +12789,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-06-03">3. 6. 1913</date>
-                     <placeName ref="#pmb662">Baden</placeName>
+                     <placeName ref="#pmb662">Baden bei Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12810,7 +12811,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="534"/>
+               <measure unit="zeichenanzahl" quantity="535"/>
             </item>
             <item corresp="L04511">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 3. 6. 1913</title>
@@ -12856,7 +12857,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-06-05">[5]. 6. [1913]</date>
-                     <placeName ref="#pmb662">Baden</placeName>
+                     <placeName ref="#pmb662">Baden bei Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12878,7 +12879,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="405"/>
+               <measure unit="zeichenanzahl" quantity="403"/>
             </item>
             <item corresp="L04259">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 4. 7. 1913</title>
@@ -12886,11 +12887,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1913-07-04" n="01">4. 7. 1913</date>
-                     <placeName ref="#pmb334003">Abbazia. Wiener Heim</placeName>
+                     <placeName ref="#pmb334003">Pension Wiener Heim</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-07-04">4. 7. 1913</date>
-                     <placeName ref="#pmb38096">Abbazia</placeName>
+                     <placeName ref="#pmb38096">Opatija</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12924,7 +12925,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-07-07">7. 7. 1913</date>
-                     <placeName ref="#pmb51">Wien 11</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -12946,7 +12947,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="429"/>
+               <measure unit="zeichenanzahl" quantity="430"/>
             </item>
             <item corresp="L04247">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, 14. 7. [1913?]</title>
@@ -12957,7 +12958,7 @@
                      <placeName ref="#pmb334746">Rab [Stadt]</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <placeName ref="#pmb334746">Arbe Rab</placeName>
+                     <placeName ref="#pmb334746">Rab [Stadt]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12996,7 +12997,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date evidence="conjecture" notBefore="1913-07-19" notAfter="1913-07-23">[19. 7. 1913 – 23. 7. 1913?]</date>
-                     <placeName ref="#pmb334003">Wiener Heim</placeName>
+                     <placeName ref="#pmb334003">Pension Wiener Heim</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -13060,7 +13061,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1913-08-05" n="01">5. 8. 1913</date>
-                     <placeName ref="#pmb207301">Wien</placeName>
+                     <placeName ref="#pmb207301">Tiefer Graben 17</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13095,11 +13096,14 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1914-08-07">7. 8. 1914</date>
-                     <placeName ref="#pmb45260">Brioni</placeName>
+                     <placeName ref="#pmb45260">Brijuni</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture" notBefore="1913-08-08" notAfter="1913-08-12">[8. 8. 1913
+                     <date evidence="conjecture"
+                           notBefore="1913-08-08"
+                           error="Zeitabfolge Fehler 1"
+                           notAfter="1913-08-12">[8. 8. 1913
                   – 12. 8. 1913?]</date>
                      <placeName ref="#pmb207301">Tiefer Graben 17</placeName>
                   </correspAction>
@@ -13118,7 +13122,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="kartenbrief"/>
-               <measure unit="zeichenanzahl" quantity="659"/>
+               <measure unit="zeichenanzahl" quantity="658"/>
             </item>
             <item corresp="L04512">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 12. 8. 1913</title>
@@ -13165,7 +13169,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-08-13">13. 8. 1913</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13187,7 +13191,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="538"/>
+               <measure unit="zeichenanzahl" quantity="537"/>
             </item>
             <item corresp="L04443">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 19. 8. 1913</title>
@@ -13234,11 +13238,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-08-22">22. 8. 1913</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1913-08-23">23. 8. 1913</date>
-                     <placeName ref="#pmb462">Venezia Centro</placeName>
+                     <placeName ref="#pmb462">Venedig</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13260,7 +13264,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="680"/>
+               <measure unit="zeichenanzahl" quantity="679"/>
             </item>
             <item corresp="L04513">
                <title level="a">Arthur und Olga Schnitzler und Stefanie Bachrach an Gustav Schwarzkopf,
@@ -13345,7 +13349,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-08-29">29. 8. 1913</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13449,7 +13453,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1914-01-26">26. 1. 1914</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13729,7 +13733,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1914-07-03">3. 7. 1914</date>
-                     <placeName ref="#pmb34344">Weissenbach am Attersee</placeName>
+                     <placeName ref="#pmb34344">Weißenbach am Attersee</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13759,7 +13763,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1914-07-05" notAfter="1914-07-06">[5. oder 6]. 7. 1914</date>
+                     <date notBefore="1914-07-05" notAfter="1914-07-06" n="01">[5. oder 6]. 7. 1914</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -13889,14 +13893,14 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1914-08-06">6. 8. 1914</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="redirected">
                      <date when="1914-08-11">11. 8. 1914</date>
                      <placeName ref="#pmb1138">Cresta Palace</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <placeName ref="#pmb49990">Ragaz</placeName>
+                     <placeName ref="#pmb49990">Bad Ragaz</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13918,7 +13922,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="658"/>
+               <measure unit="zeichenanzahl" quantity="660"/>
             </item>
             <item corresp="L04488">
                <title level="a">Arthur und Olga Schnitzler an Gustav Schwarzkopf, 20. 8. 1914</title>
@@ -14069,7 +14073,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1915-08-10">10. 8. 1915</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14240,7 +14244,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1916-08-09">9. 8. 1916</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14263,19 +14267,19 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="611"/>
+               <measure unit="zeichenanzahl" quantity="612"/>
             </item>
             <item corresp="L04404">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, [13. oder 14]. 8. 1916</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1916-08-13" notAfter="1916-08-14">[13. oder 14]. 8. 1916</date>
+                     <date notBefore="1916-08-13" notAfter="1916-08-14" n="01">[13. oder 14]. 8. 1916</date>
                      <placeName ref="#pmb34401">Altaussee</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1916-08-14">14. 8. 1916</date>
-                     <placeName ref="#pmb34401">Alt Aussee</placeName>
+                     <placeName ref="#pmb34401">Altaussee</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -14375,7 +14379,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
-                     <date n="02" notBefore="1917-06-10" notAfter="1917-06-11">[10. oder 11]. 6. 1917</date>
+                     <date notBefore="1917-06-10" notAfter="1917-06-11" n="02">[10. oder 11]. 6. 1917</date>
                      <placeName ref="#pmb521">Bad Gastein</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -14410,7 +14414,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1917-06-18" n="01">18. 6. 1917</date>
-                     <placeName ref="#pmb364330">Valeriehaus Nassfeld</placeName>
+                     <placeName ref="#pmb364330">Valeriehaus</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <placeName ref="#pmb54760">Böckstein</placeName>
@@ -14480,7 +14484,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1918-08-31">31. 8. 1918</date>
-                     <placeName ref="#pmb667">Garmisch Partenkirchen</placeName>
+                     <placeName ref="#pmb667">Garmisch-Partenkirchen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -14608,7 +14612,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1920-02-20" n="01">20. 2. 1920</date>
-                     <placeName ref="#pmb334794">Städti<c rendition="#langesS">s</c>che Curan<c rendition="#langesS">s</c>talt</placeName>
+                     <placeName ref="#pmb334794">Städtische Kuranstalt</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1920-02-21">20. 2. 1920</date>
@@ -14643,12 +14647,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1920-02-24" n="01">24. 2. 1920</date>
-                     <placeName ref="#pmb168815">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date evidence="conjecture" notBefore="1920-02-25" notAfter="1920-02-29">[25. 2. 1920 – 29. 2. 1920?]</date>
-                     <placeName ref="#pmb334794" evidence="internal">Baden bei Wien</placeName>
+                     <placeName ref="#pmb334794" evidence="internal">Städtische Kuranstalt</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -14937,7 +14941,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="432"/>
+               <measure unit="zeichenanzahl" quantity="430"/>
             </item>
             <item corresp="L04363">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 26. 10. 1922</title>
@@ -15217,7 +15221,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1924-08-12" notAfter="1924-08-13">[12. oder 13]. 8. 1924</date>
+                     <date notBefore="1924-08-12" notAfter="1924-08-13" n="01">[12. oder 13]. 8. 1924</date>
                      <placeName ref="#pmb12589">Celerina</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -15292,7 +15296,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1925-01-05">5. 1. 1925</date>
-                     <placeName ref="#pmb68">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -15355,7 +15359,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="02" notBefore="1925-01-22" notAfter="1925-01-23">[22. oder 23.] 1. 1925</date>
+                     <date notBefore="1925-01-22" notAfter="1925-01-23" n="02">[22. oder 23.] 1. 1925</date>
                      <placeName ref="#pmb44374">St. Moritz</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -15536,7 +15540,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1925-09-17">17. 9. 1925</date>
-                     <placeName ref="#pmb52725">Firenze Ferrovia</placeName>
+                     <placeName ref="#pmb52725">Bahnhof Firenze Santa Maria Novella</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -15566,7 +15570,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1926-02-11" notAfter="1926-02-12">[11. oder 12]. 2. 1926</date>
+                     <date notBefore="1926-02-11" notAfter="1926-02-12" n="01">[11. oder 12]. 2. 1926</date>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -15594,7 +15598,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="65"/>
+               <measure unit="zeichenanzahl" quantity="66"/>
             </item>
             <item corresp="L04475">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 25. 4. 1926</title>
@@ -15742,12 +15746,12 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1926-08-09">9. 8. 1926</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1926-08-10" notAfter="1926-08-13">[10. 8. 1926 – 13. 8. 1926?]</date>
-                     <placeName ref="#pmb251023">Hotel Melada</placeName>
+                     <placeName ref="#pmb251023">Nevada Palace</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -15764,7 +15768,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="1089"/>
+               <measure unit="zeichenanzahl" quantity="1094"/>
             </item>
             <item corresp="L04462">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 12. 8. 1926</title>
@@ -15910,7 +15914,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1927-08-14" notAfter="1927-08-15">[14. oder 15]. 8. 1927</date>
+                     <date notBefore="1927-08-14" notAfter="1927-08-15" n="01">[14. oder 15]. 8. 1927</date>
                      <placeName ref="#pmb427">Madonna di Campiglio</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -15937,7 +15941,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="75"/>
+               <measure unit="zeichenanzahl" quantity="76"/>
             </item>
             <item corresp="L04467">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 18. 8. 1927</title>
@@ -16040,19 +16044,19 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="182"/>
+               <measure unit="zeichenanzahl" quantity="181"/>
             </item>
             <item corresp="L04242">
                <title level="a">Gustav Schwarzkopf an Arthur Schnitzler, [10?]. 9. 1927</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date n="01" when="1927-09-10">[10?]. 9. 1927</date>
+                     <date when="1927-09-10" n="01">[10?]. 9. 1927</date>
                      <placeName ref="#pmb207301">Tiefer Graben 17</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1927-09-12">12. 9. 1927</date>
-                     <placeName ref="#pmb51">1/1 Wien 9</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -16191,7 +16195,7 @@
                      <placeName ref="#pmb966">Istanbul</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1928-04-23">23. 4. 1928</date>
+                     <date when="1928-04-23" error="Zeitabfolge Fehler 1">23. 4. 1928</date>
                      <placeName ref="#pmb966">Istanbul</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -16260,7 +16264,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1928-06-16">16. 6. 1928</date>
-                     <placeName ref="#pmb51">1/1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -16324,7 +16328,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1928-08-18" n="01">18. 8. 1928</date>
-                     <placeName ref="#pmb248986">Hotel Alpenrose</placeName>
+                     <placeName ref="#pmb248986">Hotel Alpenrose [Hohenschwangau]</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1928-08-18">18. [8]. 1928</date>
@@ -16358,7 +16362,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1929-01-02" n="01">2. 1. 1929</date>
-                     <placeName ref="#pmb245" evidence="conjecture">Hotel Esplanade</placeName>
+                     <placeName ref="#pmb245" evidence="conjecture">Hotel Esplanade [Berlin]</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1929-01-02">2. 1. 1929</date>
@@ -16392,16 +16396,16 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date when="1929-08-27" n="01">27. 8. 1929</date>
-                     <placeName ref="#pmb207301">Wien</placeName>
+                     <placeName ref="#pmb207301">Tiefer Graben 17</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1929-08-27">27. 8. 1929</date>
-                     <placeName ref="#pmb51">1 Wien 8</placeName>
+                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1929-08-28" notAfter="1929-09-01">[28. 8. 1929 – 1. 9. 1929?]</date>
-                     <placeName ref="#pmb90460">Caux (Schweiz)</placeName>
+                     <placeName ref="#pmb90460">Caux</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>

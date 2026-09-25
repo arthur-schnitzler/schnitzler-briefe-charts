@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-24Z</date>
+            <date>2026-09-25Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_3557.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -46,7 +46,7 @@
                      <placeName ref="#pmb1223">Bern</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1893-03-25">25. 3. 1893</date>
+                     <date when="1893-03-25" error="Zeitabfolge Fehler 1">25. 3. 1893</date>
                      <placeName ref="#pmb1223">Bern</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -240,7 +240,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-05-11">11. 5. 1903</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>

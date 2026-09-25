@@ -7,6 +7,11 @@
       "count": 1
     },
     {
+      "id": "pmb1106",
+      "name": "Residenzhotel",
+      "count": 1
+    },
+    {
       "id": "pmb1111",
       "name": "Havnegade",
       "count": 1
@@ -109,7 +114,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 85
+      "count": 84
     },
     {
       "id": "pmb667",
@@ -287,6 +292,14 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb1106",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur Schnitzler, 25. 1. 1898"
+      ]
+    },
+    {
       "from": "pmb182",
       "to": "pmb168815",
       "weight": 1,
@@ -455,14 +468,6 @@
       "weight": 1,
       "titles": [
         "Georg Brandes an Arthur Schnitzler, 26. 9. 1912"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb168934",
-      "weight": 1,
-      "titles": [
-        "Georg Brandes an Arthur Schnitzler, 25. 1. 1898"
       ]
     },
     {

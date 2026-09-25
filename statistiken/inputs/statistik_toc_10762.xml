@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-24Z</date>
+            <date>2026-09-25Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10762.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -232,11 +232,11 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-08-10">10. 8. 1895</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1895-08-11" evidence="conjecture">11. 8. 1895</date>
+                     <date when="1895-08-11" evidence="external">11. 8. 1895</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -322,15 +322,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-11-22" n="01">22. 11. 1895</date>
-                     <placeName ref="#pmb1101">Wien</placeName>
+                     <placeName ref="#pmb1101">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-11-22">22. 11. 1895</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-11-23">23. 11. 1895</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -352,7 +352,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="400"/>
+               <measure unit="zeichenanzahl" quantity="399"/>
             </item>
             <item corresp="L00515">
                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [24.? 11. 1895]</title>
@@ -382,7 +382,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="327"/>
+               <measure unit="zeichenanzahl" quantity="326"/>
             </item>
             <item corresp="L00516">
                <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [25. 11. 1895]</title>
@@ -480,16 +480,16 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
-                     <date n="01" notBefore="1895-12-07" notAfter="1895-12-08">[7. oder 8]. 12. 1895</date>
+                     <date notBefore="1895-12-07" notAfter="1895-12-08" n="01">[7. oder 8]. 12. 1895</date>
                      <placeName ref="#pmb1101">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-12-08">8. 12. 1895</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-12-08">8. 12. 1895</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -519,15 +519,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-12-15" n="01">15. 12. 1895</date>
-                     <placeName ref="#pmb1101">Wien</placeName>
+                     <placeName ref="#pmb1101">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-12-15">15. 12. 1895</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-12-16">16. 12. 1895</date>
-                     <placeName ref="#pmb59">Wien 9/3</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -556,16 +556,16 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
-                     <date n="01" notBefore="1895-12-26" notAfter="1895-12-27">[26. oder 27]. 12. 1895</date>
+                     <date notBefore="1895-12-26" notAfter="1895-12-27" n="01">[26. oder 27]. 12. 1895</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-12-27">27. 12. 1895</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-12-27">27. 12. 1895</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -630,11 +630,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1896-01-18">18. 1. 1896</date>
-                     <placeName ref="#pmb51">Wien 1/1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1896-01-18">18. 1. 1896</date>
-                     <placeName ref="#pmb59">Wien 9/3</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -676,7 +676,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1896-01-28">29. 1. 1896</date>
+                     <date when="1896-01-28" error="Zeitabfolge Fehler 1">29. 1. 1896</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
