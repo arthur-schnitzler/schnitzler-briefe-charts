@@ -232,11 +232,11 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-08-10">10. 8. 1895</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1895-08-11" evidence="conjecture">11. 8. 1895</date>
+                     <date when="1895-08-11" evidence="external">11. 8. 1895</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -326,11 +326,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-11-22">22. 11. 1895</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-11-23">23. 11. 1895</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -485,11 +485,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-12-08">8. 12. 1895</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-12-08">8. 12. 1895</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -523,7 +523,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-12-15">15. 12. 1895</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-12-16">16. 12. 1895</date>
@@ -561,11 +561,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-12-27">27. 12. 1895</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-12-27">27. 12. 1895</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -630,7 +630,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1896-01-18">18. 1. 1896</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1896-01-18">18. 1. 1896</date>
@@ -676,7 +676,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1896-01-28">29. 1. 1896</date>
+                     <date when="1896-01-28" error="Zeitabfolge Fehler 1">29. 1. 1896</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>

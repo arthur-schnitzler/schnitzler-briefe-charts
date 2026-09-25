@@ -3053,12 +3053,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-08-01" n="02">1. 8. 1899</date>
-                     <placeName ref="#pmb987">Toblach</placeName>
+                     <placeName ref="#pmb36284">Südbahnhotel [Toblach]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
                      <date evidence="conjecture" notBefore="1899-08-02" notAfter="1899-08-06">[2. 8. 1899 – 6. 8. 1899?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb213" evidence="conjecture">Bad Ischl</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
@@ -3495,7 +3495,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1899-09-15" n="02">15. 9. 1899</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb806">Hotel Rheinischer Hof München</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-09-15">15. 9. 1899</date>
@@ -7358,7 +7358,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date when="1904-01-22">22. 1. 1904</date>
+                     <date when="1904-01-22" error="Zeitabfolge Fehler 1">22. 1. 1904</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -7905,7 +7905,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date when="1904-06-21">21. 6. 1904</date>
+                     <date when="1904-06-21" error="Zeitabfolge Fehler 1">21. 6. 1904</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -10632,7 +10632,7 @@
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1908-04-17">17. 4. 1908</date>
+                     <date when="1908-04-17" error="Zeitabfolge Fehler 1">17. 4. 1908</date>
                      <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="delivered">
@@ -13100,7 +13100,10 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture" notBefore="1913-08-08" notAfter="1913-08-12">[8. 8. 1913
+                     <date evidence="conjecture"
+                           notBefore="1913-08-08"
+                           error="Zeitabfolge Fehler 1"
+                           notAfter="1913-08-12">[8. 8. 1913
                   – 12. 8. 1913?]</date>
                      <placeName ref="#pmb207301">Tiefer Graben 17</placeName>
                   </correspAction>
@@ -16192,7 +16195,7 @@
                      <placeName ref="#pmb966">Istanbul</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1928-04-23">23. 4. 1928</date>
+                     <date when="1928-04-23" error="Zeitabfolge Fehler 1">23. 4. 1928</date>
                      <placeName ref="#pmb966">Istanbul</placeName>
                   </correspAction>
                   <correspAction type="received">

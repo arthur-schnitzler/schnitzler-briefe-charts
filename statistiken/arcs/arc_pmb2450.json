@@ -22,6 +22,16 @@
       "count": 1
     },
     {
+      "id": "pmb42505",
+      "name": "Schifflände",
+      "count": 1
+    },
+    {
+      "id": "pmb43437",
+      "name": "Café Metropol",
+      "count": 1
+    },
+    {
       "id": "pmb43520",
       "name": "Meran",
       "count": 5
@@ -29,7 +39,7 @@
     {
       "id": "pmb484",
       "name": "Zürich",
-      "count": 6
+      "count": 4
     },
     {
       "id": "pmb50",
@@ -74,6 +84,22 @@
       ]
     },
     {
+      "from": "pmb42505",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Friedrich M. Fels an Arthur Schnitzler, 16. 10. 1895"
+      ]
+    },
+    {
+      "from": "pmb43437",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Friedrich M. Fels und Jenny Nordegg an Arthur Schnitzler, [14. oder 15]. 10. 1895"
+      ]
+    },
+    {
       "from": "pmb43520",
       "to": "pmb50",
       "weight": 5,
@@ -83,15 +109,6 @@
         "Friedrich M. Fels an Arthur Schnitzler, 23. 2. 1893",
         "Friedrich M. Fels an Arthur Schnitzler, 20. 4. 1893",
         "Friedrich M. Fels an Arthur Schnitzler, [29. 4. 1893?]"
-      ]
-    },
-    {
-      "from": "pmb484",
-      "to": "pmb168934",
-      "weight": 2,
-      "titles": [
-        "Friedrich M. Fels und Jenny Nordegg an Arthur Schnitzler, [14. oder 15]. 10. 1895",
-        "Friedrich M. Fels an Arthur Schnitzler, 16. 10. 1895"
       ]
     },
     {

@@ -667,11 +667,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-12-30">30. 12. 1893</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-12-31">31. 12. 1893</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -771,7 +771,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1894-04-21">21. 4. 1894</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2628,11 +2628,11 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-08-28">28. 8. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1898-08-29">29. 8. 1898</date>
+                     <date when="1898-09-03" evidence="conjecture">3. 9. 1898</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -3340,11 +3340,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1900-10-12" n="01">12. 10. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-10-12">12. 10. 1900</date>
-                     <placeName ref="#pmb63">XIII., Hietzing</placeName>
+                     <placeName ref="#pmb365275">13/7 Post- und Telegraphenamt 94</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-10-12">12. 10. 1900</date>
@@ -3354,7 +3354,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1900-10-12" notAfter="1900-10-14">[12. 10. 1900 – 16. 10. 1900?]</date>
+                     <date when="1900-10-12">12. 10. 1900</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -4657,14 +4657,18 @@
                      <date when="1902-07-03" n="01">3. 7. 1902</date>
                      <placeName ref="#pmb591">Matrei am Brenner</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1902-07-03">3. 7. [1902]</date>
+                     <placeName ref="#pmb591">Matrei am Brenner</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-07-04">4. 7. 1902</date>
-                     <placeName ref="#pmb63">XIII., Hietzing</placeName>
+                     <placeName ref="#pmb365275">13/7 Post- und Telegraphenamt 94</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1902-07-04">4. 7. 02</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -4812,9 +4816,17 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1902-10-15" n="01">15. 10. 1902</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <placeName ref="#pmb127">Hotel Bristol Berlin</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
+                     <date when="1902-10-15">15. 10. 1902</date>
+                     <placeName ref="#pmb168">Berlin</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1902-10-15">15. 10. 1902</date>
+                     <placeName ref="#pmb168">Berlin</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
                      <date when="1902-10-15">15. 10. 1902</date>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
@@ -4941,7 +4953,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1903-02-22" n="01">22. 2. 1903</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5253,7 +5265,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-05-22">22. 5. 1903</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5289,7 +5301,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1903-06-09" notAfter="1903-06-13">[9. 6. 1903
                   – 13. 6. 1903?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -5443,7 +5455,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1903-08-21">21[. 8. 1903]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -5505,7 +5517,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1903-10-09" notAfter="1903-10-11">[9. 10. 1903
                   – 13. 10. 1903?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -5657,7 +5669,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1903-11-10" notAfter="1903-11-12">[10. 11. 1903 – 14. 11. 1903?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -5717,7 +5729,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1903-11-11" notAfter="1903-11-13">[11. 11. 1903 – 15. 11. 1903?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -5882,7 +5894,7 @@
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1903-12-14" n="02">14. 12. 1903</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb449">Auhofstraße</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-12-15">15. 12. 1903</date>
@@ -5891,7 +5903,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1903-12-15">15. 12. 03</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -6632,7 +6644,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1904-08-18">18. 8. 1904</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -6668,7 +6680,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1904-09-08">
                         <unclear>8. 9. 0</unclear>4</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -6944,7 +6956,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1905-01-01" notAfter="1905-01-03">[1. 1. 1905
                   – 5. 1. 1905?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -7099,7 +7111,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1905-03-11">11. 3. 05</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -7125,7 +7137,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date when="1905-05-05" n="01">5. 5. 1905</date>
-                     <placeName ref="#pmb189">Semmering</placeName>
+                     <placeName ref="#pmb413">Südbahnhotel [Semmering]</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-05-05">5. 5. 1905</date>
@@ -7135,7 +7147,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1905-05-06" notAfter="1905-05-10">[6. 5. 1905
                   – 10. 5. 1905?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -7411,7 +7423,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1905-09-19">19. 9. 05</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -7537,7 +7549,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1905-10-04">4. X. 05</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -7976,7 +7988,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1906-09-18" notAfter="1906-09-22">[18. 9. 1906
                   – 22. 9. 1906?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -8097,7 +8109,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1907-01-10">10. 1. 1907</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -8475,7 +8487,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1907-05-18" notAfter="1907-05-20">[18. 5. 1907
                   – 22. 5. 1907?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -8536,7 +8548,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1907-05-21">21. V. 07</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -8841,7 +8853,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1908-04-30">30. IV. [1908]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -8873,7 +8885,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1908-05-07" notAfter="1908-05-11">[7. 5. 1908
                   – 11. 5. 1908?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -8936,7 +8948,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1908-07-07" notAfter="1908-07-11">[7. 7. 1908
                   – 11. 7. 1908?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -9130,7 +9142,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1909-01-16" notAfter="1909-01-18">[16. 1. 1909
                   – 20. 1. 1909?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -9625,7 +9637,7 @@
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1910-09-19" notAfter="1910-09-23">[19. 9. 1910
                   – 23. 9. 1910?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -10052,7 +10064,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date evidence="conjecture" notBefore="1911-11-18" notAfter="1911-11-20">[18. 11. 1911 – 22. 11. 1911?]</date>
-                     <placeName ref="#pmb220">Veitlissengasse</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
