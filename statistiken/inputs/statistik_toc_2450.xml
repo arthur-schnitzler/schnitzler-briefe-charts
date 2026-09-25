@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-24Z</date>
+            <date>2026-09-25Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2450.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -880,12 +880,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2450">Fels, Friedrich M.</persName>
                      <persName ref="#pmb42508">Nordegg, Jenny</persName>
-                     <date n="02" notBefore="1895-10-14" notAfter="1895-10-15">[14. oder 15]. 10. 1895</date>
+                     <date notBefore="1895-10-14" notAfter="1895-10-15" n="02">[14. oder 15]. 10. 1895</date>
                      <placeName ref="#pmb484">Zürich</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-10-15">15. 10. 1895</date>
-                     <placeName ref="#pmb484">Zürich Bhf. Exp.</placeName>
+                     <placeName ref="#pmb484">Zürich</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-10-17">17. 10. 1895</date>
@@ -911,7 +911,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="307"/>
+               <measure unit="zeichenanzahl" quantity="308"/>
             </item>
             <item corresp="L00507">
                <title level="a">Friedrich M. Fels an Arthur Schnitzler, 16. 10. 1895</title>
@@ -923,7 +923,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-10-16">16. 10. 1895</date>
-                     <placeName ref="#pmb42503">Zürich 5 Limmatq.</placeName>
+                     <placeName ref="#pmb42503">Limmatquai</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-10-18">18. 10. 1895</date>

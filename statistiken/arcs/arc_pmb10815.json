@@ -39,7 +39,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 8
+      "count": 9
     },
     {
       "id": "pmb168940",
@@ -65,6 +65,11 @@
       "id": "pmb195184",
       "name": "Lammgasse 3",
       "count": 1
+    },
+    {
+      "id": "pmb199581",
+      "name": "Porzellangasse 37",
+      "count": 2
     },
     {
       "id": "pmb207274",
@@ -137,11 +142,6 @@
       "count": 1
     },
     {
-      "id": "pmb436",
-      "name": "Porzellangasse",
-      "count": 2
-    },
-    {
       "id": "pmb44317",
       "name": "Carbonin",
       "count": 1
@@ -194,7 +194,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 305
+      "count": 304
     },
     {
       "id": "pmb505",
@@ -305,10 +305,18 @@
   "links_from_schnitzler": [
     {
       "from": "pmb1022",
-      "to": "pmb436",
+      "to": "pmb199581",
       "weight": 1,
       "titles": [
         "Fritz Schlesinger u. a. an Hermann Bahr, 21. 4. 1898"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb199581",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 10. 12. 1898"
       ]
     },
     {
@@ -499,14 +507,6 @@
         "Arthur Schnitzler an Hermann Bahr, 19. 7. 1913",
         "Arthur Schnitzler an Hermann Bahr, 9. 2. 1915",
         "Arthur Schnitzler an Hermann Bahr, 24. 8. 1918"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb436",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 10. 12. 1898"
       ]
     },
     {

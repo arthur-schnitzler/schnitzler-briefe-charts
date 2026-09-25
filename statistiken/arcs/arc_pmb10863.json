@@ -74,7 +74,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 127
+      "count": 148
     },
     {
       "id": "pmb168940",
@@ -99,7 +99,7 @@
     {
       "id": "pmb190427",
       "name": "Wollzeile 15 (»Berthahof«)",
-      "count": 149
+      "count": 151
     },
     {
       "id": "pmb197",
@@ -175,6 +175,16 @@
       "id": "pmb33978",
       "name": "Znaim",
       "count": 2
+    },
+    {
+      "id": "pmb34014",
+      "name": "Villa Dr. Wassing",
+      "count": 1
+    },
+    {
+      "id": "pmb34018",
+      "name": "Hotel Elefant [Graz]",
+      "count": 1
     },
     {
       "id": "pmb34067",
@@ -679,7 +689,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 406
+      "count": 383
     },
     {
       "id": "pmb50112",
@@ -724,7 +734,7 @@
     {
       "id": "pmb521",
       "name": "Bad Gastein",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb52575",
@@ -884,7 +894,7 @@
     {
       "id": "pmb860",
       "name": "Graz",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb864",
@@ -1176,7 +1186,7 @@
     {
       "from": "pmb168934",
       "to": "pmb190427",
-      "weight": 45,
+      "weight": 59,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 21. 3. 1894",
         "Arthur Schnitzler an Richard Beer-Hofmann, [27. oder 28]. 4. 1894",
@@ -1222,7 +1232,21 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, 17. 12. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 27. 12. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 30. 12. 1897",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 7. 1. 1898"
+        "Arthur Schnitzler an Richard Beer-Hofmann, 7. 1. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 25. 1. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 29. 1. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 7. 2. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 25. 2. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 26. 2. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 5.. 3. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 12. 3. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 22. 3. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 1. 4. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 19. 4. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 16. 5. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 28. 11. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 16. 12. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 5. 1. 1899"
       ]
     },
     {
@@ -1239,6 +1263,18 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 26. 10. 1894"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb34860",
+      "weight": 5,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 2. 6. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 4. 6. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 28. 6. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 6. 7. 1898",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 10. 7. 1898"
       ]
     },
     {
@@ -1607,6 +1643,22 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, 6. 9. 1904",
         "Arthur Schnitzler an Richard Beer-Hofmann, 10. 9. 1904",
         "Arthur Schnitzler an Richard Beer-Hofmann, 14. 9. 1904"
+      ]
+    },
+    {
+      "from": "pmb34014",
+      "to": "pmb34860",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 2[3?]. 7. 1898"
+      ]
+    },
+    {
+      "from": "pmb34018",
+      "to": "pmb34860",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 15. 7. 1898"
       ]
     },
     {
@@ -2210,7 +2262,7 @@
     {
       "from": "pmb50",
       "to": "pmb190427",
-      "weight": 56,
+      "weight": 42,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 24. 9. 1892 und 1. 5. 1901]",
         "Arthur Schnitzler an Richard Beer-Hofmann, 1. 12. 1892",
@@ -2231,21 +2283,7 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 21. 1. und 3. 12. 1897?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, [17. 9. 1897?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, 4. 1. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 25. 1. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 29. 1. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 7. 2. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 25. 2. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 26. 2. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 6. 3. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 12. 3. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 22. 3. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 1. 4. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 19. 4. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 16. 5. 1898",
         "Arthur Schnitzler an Richard Beer-Hofmann, [18. 11. 1898?]",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 28. 11. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 16. 12. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 5. 1. 1899",
         "Arthur Schnitzler an Richard Beer-Hofmann, 7. 2. 1899",
         "Arthur Schnitzler an Richard Beer-Hofmann, 21. 10. 1899",
         "Arthur Schnitzler an Richard Beer-Hofmann, 15. 11. 1899",
@@ -2371,14 +2409,9 @@
     {
       "from": "pmb50",
       "to": "pmb34860",
-      "weight": 6,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 2. 6. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 4. 6. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 17. 6. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 28. 6. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 6. 7. 1898",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 10. 7. 1898"
+        "Arthur Schnitzler an Richard Beer-Hofmann, 17. 6. 1898"
       ]
     },
     {
@@ -2701,14 +2734,6 @@
     },
     {
       "from": "pmb521",
-      "to": "pmb34860",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 24. 7. 1898"
-      ]
-    },
-    {
-      "from": "pmb521",
       "to": "pmb383",
       "weight": 1,
       "titles": [
@@ -2868,14 +2893,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 10. und 28. 8.] 1922"
-      ]
-    },
-    {
-      "from": "pmb860",
-      "to": "pmb34860",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 15. 7. 1898"
       ]
     },
     {
@@ -3129,7 +3146,7 @@
     {
       "from": "pmb190427",
       "to": "pmb168934",
-      "weight": 7,
+      "weight": 9,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, 14. 11. 1894",
         "Richard Beer-Hofmann an Arthur Schnitzler, 28. 1. 1895",
@@ -3137,7 +3154,9 @@
         "Richard Beer-Hofmann an Arthur Schnitzler, 14. 5. 1896",
         "Richard Beer-Hofmann an Arthur Schnitzler, [20. 10. 1897]",
         "Richard Beer-Hofmann an Arthur Schnitzler, 27. 10. 1897",
-        "Richard Beer-Hofmann an Arthur Schnitzler, [25. 12. 1897]"
+        "Richard Beer-Hofmann an Arthur Schnitzler, [25. 12. 1897]",
+        "Richard Beer-Hofmann an Arthur Schnitzler, 3. 4. 1898",
+        "Richard Beer-Hofmann an Arthur Schnitzler, 4. 11. 1898"
       ]
     },
     {
@@ -3430,14 +3449,21 @@
     },
     {
       "from": "pmb34860",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 3. 7. 1898",
+        "Richard Beer-Hofmann an Arthur Schnitzler, 4. 7. 1898"
+      ]
+    },
+    {
+      "from": "pmb34860",
       "to": "pmb50",
-      "weight": 5,
+      "weight": 3,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, 2. 6. 1898",
         "Richard Beer-Hofmann an Arthur Schnitzler, 15. 6. 1898",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 18. 6. 1898",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 3. 7. 1898",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 4. 7. 1898"
+        "Richard Beer-Hofmann an Arthur Schnitzler, 18. 6. 1898"
       ]
     },
     {
@@ -3924,10 +3950,8 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 6,
+      "weight": 4,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 3. 4. 1898",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 4. 11. 1898",
         "Richard Beer-Hofmann an Arthur Schnitzler, 15. 11. 1899",
         "Richard Beer-Hofmann an Arthur Schnitzler, 24. 11. 1899",
         "Richard Beer-Hofmann an Arthur Schnitzler, 14. 12. 1899",
