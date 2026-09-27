@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-25Z</date>
+            <date>2026-09-27Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2147.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -297,7 +297,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, 30. 4. 1899</ref>
+                          target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, [29. oder 30]. 4. 1899</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
@@ -404,7 +404,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, 30. 4. 1899</ref>
+                          target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, [29. oder 30]. 4. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
@@ -613,7 +613,10 @@
                      <persName ref="#pmb2147">Altenberg, Peter</persName>
                      <persName ref="#pmb2260">Engländer, Georg</persName>
                      <date when="1913-04-15" n="02">[Mitte April] 1913</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb153">Otto-Wagner-Spital</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365290">Seidlgasse 23</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
                      <placeName ref="#pmb50">Wien</placeName>
@@ -647,7 +650,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2260">Engländer, Georg</persName>
                      <date when="1913-04-18" n="02">18. 4. 1913</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365290">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -833,7 +836,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2260">Engländer, Georg</persName>
                      <date when="1913-04-25" n="01">25. 4. 1913</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365290">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>

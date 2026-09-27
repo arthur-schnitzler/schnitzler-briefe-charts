@@ -7,6 +7,11 @@
       "count": 2
     },
     {
+      "id": "pmb153",
+      "name": "Otto-Wagner-Spital",
+      "count": 1
+    },
+    {
       "id": "pmb168",
       "name": "Berlin",
       "count": 2
@@ -20,6 +25,11 @@
       "id": "pmb213",
       "name": "Bad Ischl",
       "count": 1
+    },
+    {
+      "id": "pmb365290",
+      "name": "",
+      "count": 2
     },
     {
       "id": "pmb50",
@@ -67,6 +77,14 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb153",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Peter Altenberg und Georg Engländer an Arthur Schnitzler, [Mitte April] 1913"
+      ]
+    },
+    {
       "from": "pmb189",
       "to": "pmb189",
       "weight": 1,
@@ -86,19 +104,25 @@
       ]
     },
     {
+      "from": "pmb365290",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Georg Engländer an Arthur Schnitzler, 18. 4. 1913",
+        "Georg Engländer an Arthur Schnitzler, 25. 4. 1913"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 11,
+      "weight": 8,
       "titles": [
         "Peter Altenberg an Arthur Schnitzler, [24. 3. 1897]",
         "Peter Altenberg an Arthur Schnitzler, 30. 11. 1898",
         "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904",
-        "Peter Altenberg und Georg Engländer an Arthur Schnitzler, [Mitte April] 1913",
-        "Georg Engländer an Arthur Schnitzler, 18. 4. 1913",
         "Peter Altenberg an Arthur Schnitzler, [19.? 4. 1913]",
         "Peter Altenberg an Arthur Schnitzler, [20.?] 4. 1913",
         "Peter Altenberg an Arthur Schnitzler, [20.? 4. 1913]",
-        "Georg Engländer an Arthur Schnitzler, 25. 4. 1913",
         "Peter Altenberg an Arthur Schnitzler, [26. 4. 1913]",
         "Georg Engländer an Arthur Schnitzler, 27. 2. 1919"
       ]

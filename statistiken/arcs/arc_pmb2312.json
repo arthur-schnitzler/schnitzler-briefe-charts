@@ -9,7 +9,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb182",
@@ -44,7 +44,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 61
+      "count": 59
     },
     {
       "id": "pmb52051",
@@ -74,6 +74,15 @@
   ],
   "links_from_schnitzler": [
     {
+      "from": "pmb168815",
+      "to": "pmb182",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Berta Zuckerkandl, 26. 1. 1924",
+        "Arthur Schnitzler an Berta Zuckerkandl, 27. 5. 1926"
+      ]
+    },
+    {
       "from": "pmb36456",
       "to": "pmb50",
       "weight": 1,
@@ -84,12 +93,11 @@
     {
       "from": "pmb50",
       "to": "pmb182",
-      "weight": 22,
+      "weight": 20,
       "titles": [
         "Arthur Schnitzler an Berta Zuckerkandl, 20. 6. 1911",
         "Arthur Schnitzler an Berta Zuckerkandl, 19. 3. 1923",
         "Arthur Schnitzler an Berta Zuckerkandl, 29. 10. 1923",
-        "Arthur Schnitzler an Berta Zuckerkandl, 26. 1. 1924",
         "Arthur Schnitzler an Berta Zuckerkandl, 31. 1. 1924",
         "Arthur Schnitzler an Berta Zuckerkandl, 24. 11. 1924",
         "Arthur Schnitzler: Widmungsexemplar von Fräulein Else an Berta Zuckerkandl, [28. 11. 1924?]",
@@ -101,7 +109,6 @@
         "Arthur Schnitzler an Berta Zuckerkandl, 11. 1. 1926",
         "Arthur Schnitzler an Berta Zuckerkandl, 25. 1. 1926",
         "Arthur Schnitzler an Berta Zuckerkandl, 25. 1. 1926",
-        "Arthur Schnitzler an Berta Zuckerkandl, 27. 5. 1926",
         "Arthur Schnitzler an Berta Zuckerkandl, 20. 11. 1926",
         "Arthur Schnitzler an Berta Zuckerkandl, 19. 11. 1927",
         "Arthur Schnitzler an Berta Zuckerkandl, 21. 11. 1927",

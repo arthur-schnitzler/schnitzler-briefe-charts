@@ -27,8 +27,8 @@
       "count": 9
     },
     {
-      "id": "pmb167805",
-      "name": "Kärntnerring 12/Bösendorferstraße 11",
+      "id": "pmb167789",
+      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
       "count": 9
     },
     {
@@ -140,6 +140,11 @@
       "id": "pmb33996",
       "name": "Neubeuern",
       "count": 3
+    },
+    {
+      "id": "pmb34014",
+      "name": "Villa Dr. Wassing",
+      "count": 1
     },
     {
       "id": "pmb34022",
@@ -389,7 +394,7 @@
     {
       "id": "pmb45274",
       "name": "Tschortkiw",
-      "count": 8
+      "count": 9
     },
     {
       "id": "pmb45896",
@@ -430,11 +435,6 @@
       "id": "pmb513",
       "name": "Hôtel du Parc",
       "count": 5
-    },
-    {
-      "id": "pmb521",
-      "name": "Bad Gastein",
-      "count": 1
     },
     {
       "id": "pmb54",
@@ -569,7 +569,7 @@
     {
       "id": "pmb968",
       "name": "Mödling",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb987",
@@ -727,6 +727,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 16. 9. 1904"
+      ]
+    },
+    {
+      "from": "pmb34014",
+      "to": "pmb45274",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 7. 1898"
       ]
     },
     {
@@ -1049,14 +1057,6 @@
       ]
     },
     {
-      "from": "pmb521",
-      "to": "pmb968",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 7. 1898"
-      ]
-    },
-    {
       "from": "pmb682",
       "to": "pmb173",
       "weight": 1,
@@ -1327,7 +1327,7 @@
     },
     {
       "from": "pmb192623",
-      "to": "pmb167805",
+      "to": "pmb167789",
       "weight": 3,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 1. 1892",
@@ -1985,7 +1985,7 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb167805",
+      "to": "pmb167789",
       "weight": 5,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, [3. oder 4]. 12. 1891",
@@ -2334,7 +2334,7 @@
     },
     {
       "from": "pmb895",
-      "to": "pmb167805",
+      "to": "pmb167789",
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 12. 8. 1891"

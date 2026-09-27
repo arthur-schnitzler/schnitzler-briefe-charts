@@ -49,12 +49,7 @@
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 1
-    },
-    {
-      "id": "pmb167805",
-      "name": "Kärntnerring 12/Bösendorferstraße 11",
-      "count": 6
+      "count": 7
     },
     {
       "id": "pmb168",
@@ -1152,14 +1147,6 @@
     },
     {
       "from": "pmb167789",
-      "to": "pmb730",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 24. 6. 1891"
-      ]
-    },
-    {
-      "from": "pmb167805",
       "to": "pmb1220",
       "weight": 4,
       "titles": [
@@ -1170,7 +1157,7 @@
       ]
     },
     {
-      "from": "pmb167805",
+      "from": "pmb167789",
       "to": "pmb190427",
       "weight": 1,
       "titles": [
@@ -1178,10 +1165,11 @@
       ]
     },
     {
-      "from": "pmb167805",
+      "from": "pmb167789",
       "to": "pmb730",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 24. 6. 1891",
         "Arthur Schnitzler an Richard Beer-Hofmann, 24. 4. 1892"
       ]
     },

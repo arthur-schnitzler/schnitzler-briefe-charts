@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-25Z</date>
+            <date>2026-09-27Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -98,7 +98,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-07-26" n="01">26. 7. 1892</date>
-                     <placeName ref="#pmb167805">Kärntnerring 12/Bösendorferstraße 11</placeName>
+                     <placeName ref="#pmb167789">Ordination Kärntnerring 12/Bösendorferstraße 11</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-07-26">26. 7. 1892</date>
@@ -136,7 +136,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-08-02" n="01">2. 8. 1892</date>
-                     <placeName ref="#pmb167805">Kärntnerring 12/Bösendorferstraße 11</placeName>
+                     <placeName ref="#pmb167789">Ordination Kärntnerring 12/Bösendorferstraße 11</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-08-02">2. 8. 1892</date>
@@ -504,11 +504,11 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-08-28">28. 8. 1893</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date when="1893-08-27" error="Zeitabfolge Fehler 1">28. 8. 1893</date>
+                     <date when="1893-08-28">28. 8. 1893</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -1393,7 +1393,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date notBefore="1897-01-01" notAfter="1898-06-30" n="01">[zwischen 1897 und Mitte 1898?]</date>
+                     <date notBefore="1897-01-01" notAfter="1898-06-30" n="02">[zwischen 1897 und Mitte 1898?]</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -2131,7 +2131,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02853">Goldmann an Schnitzler, 21. 7. [1898]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00826">Schnitzler an Hofmannsthal, 23. 7. 1898</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00827">Schnitzler an Beer-Hofmann, 2[3?]. 7. 1898</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -2622,7 +2622,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02873">Goldmann an Schnitzler, 29. 4. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, 30. 4. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, [29. oder 30]. 4. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -2693,7 +2693,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03292">Salten an Schnitzler, 13. 5. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03292">Salten an Schnitzler, 1[3]. 5. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00917">Schnitzler an Brandes, 19. 5. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -2795,7 +2795,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03293">Salten an Schnitzler, 21. 6. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04422">Schnitzler an Schwarzkopf, [25. oder 26]. 6. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00930">Schnitzler an Beer-Hofmann, [25. oder 26.] 6. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -2832,8 +2832,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04437">Schnitzler an Schwarzkopf, 23. 6. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00930">Schnitzler an Beer-Hofmann, 2[6]. 6. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00930">Schnitzler an Beer-Hofmann, [25. oder 26.] 6. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00931">Hofmannsthal an Schnitzler, 26. 6. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -3140,8 +3140,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02883">Goldmann an Schnitzler, 8. 8. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03296">Salten an Schnitzler, 8. 8. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03296">Salten an Schnitzler, 8. 8. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04435">Schnitzler, Beer-Hofmann an Schwarzkopf, 9. 8. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -3179,7 +3179,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03296">Salten an Schnitzler, 8. 8. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04296">Schwarzkopf an Schnitzler, [8. oder 9]. 8. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L04135">Schnitzler an Schwarzkopf, 13. 8. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -3444,7 +3444,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00971">Schnitzler an Beer-Hofmann, 9. 9. 1899</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00972">Schnitzler an Beer-Hofmann, 10. 9. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00972">Schnitzler an Beer-Hofmann, 9. 9. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -3475,7 +3475,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02886">Goldmann an Schnitzler, 12. 9. [1899]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00974">Schnitzler an Beer-Hofmann, 1[5]. 9. 1899</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00974">Schnitzler an Beer-Hofmann, 15. 9. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -3512,7 +3512,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00974">Schnitzler an Beer-Hofmann, 1[5]. 9. 1899</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00974">Schnitzler an Beer-Hofmann, 15. 9. 1899</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00975">Schnitzler an Beer-Hofmann, 17. 9. 1899</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -4710,8 +4710,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03311">Salten an Schnitzler, 18. 8. 1900</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03312">Salten an Schnitzler, 20. 8. 1900</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03312">Salten an Schnitzler, [19. oder 20]. 8. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04506">Schnitzler, Beer-Hofmann, Goldmann an Schwarzkopf, 23. 8. 1900</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -4751,7 +4751,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03312">Salten an Schnitzler, 20. 8. 1900</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04523">Schnitzler, Beer-Hofmann, Kerr, Goldmann an Schwarzkopf, [19.] 8. 1900</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01068">Schnitzler, Goldmann an Beer-Hofmann, 26. 8. 1900</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -5200,11 +5200,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-04-09">9. 4. 1901</date>
-                     <placeName ref="#pmb445">Rom</placeName>
+                     <placeName ref="#pmb148287">Rom</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-04-11">1[1]. 4. 1901</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5237,11 +5237,11 @@
                      <placeName ref="#pmb263">Florenz</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <placeName ref="#pmb263">Florenz</placeName>
+                     <placeName ref="#pmb52725">Florenz</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <date when="1901-04-10" error="Zeitabfolge Fehler 1">16. 4. 1901</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <date when="1901-04-16">16. 4. 1901</date>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -5277,7 +5277,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-04-18">18. 4. 1901</date>
-                     <placeName ref="#pmb896">Bologna</placeName>
+                     <placeName ref="#pmb364532">Bologna</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-04-19">19. 4. 1901</date>
@@ -6828,10 +6828,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture"
-                           notBefore="1903-07-29"
-                           error="Zeitabfolge Fehler 1"
-                           notAfter="1903-08-02">[29. 7. 1903 – 2. 8. 1903?]</date>
+                     <date when="1903-07-30">30. 7. 1903</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -7330,7 +7327,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01361">Hofmannsthal an Schnitzler, [8. – 9. 1. 1904]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03439">Goldmann an Schnitzler, 18. 1. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03439">Goldmann an Schnitzler, 16. 1. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -7352,13 +7349,17 @@
                      <date when="1904-01-22" n="01">22. 1. 1904</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-01-22">22 I 04</date>
+                     <placeName ref="#pmb365402">10/2 Post- und Telegraphenamt 66</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
-                     <date when="1904-09-22">22. 9. 1904</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <date when="1904-01-22">22. 1. 1904</date>
+                     <placeName ref="#pmb365357">1/1 Telegraphen-Central-Station C.R.</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date when="1904-01-22" error="Zeitabfolge Fehler 1">22. 1. 1904</date>
+                     <date when="1904-01-22">22. 1. 1904</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -7607,11 +7608,11 @@
                      <placeName ref="#pmb445">Rom</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <placeName ref="#pmb445">Rom</placeName>
+                     <placeName ref="#pmb148287">Rom</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-05-06">6. 5. 1904</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -7896,16 +7897,16 @@
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1904-09-21">21. 9. 1904</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <date when="1904-06-21">21. 6. 1904</date>
+                     <placeName ref="#pmb365217">1/1 Post- und Telegraphenamt 10</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <date when="1904-09-21">21. 9. 1904</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <date when="1904-06-21">21. 6. 1904</date>
+                     <placeName ref="#pmb365357">1/1 Telegraphen-Central-Station C.R.</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date when="1904-06-21" error="Zeitabfolge Fehler 1">21. 6. 1904</date>
+                     <date when="1904-06-21">21. 6. 1904</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -9170,8 +9171,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01551">Schnitzler an Bahr, 21. 9. 1905</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02579">Van-Jung, Mütter, Beer-Hofmann an Schnitzler, Schnitzler, [24. 9.?] 1905</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02579">Van-Jung, Mütter, Beer-Hofmann an Schnitzler, Schnitzler, [24. 9.?] 1905</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01552">Schnitzler an Bahr, 28. 9. 1905</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -10250,8 +10251,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01686">Schnitzler an Hofmannsthal, 25. 6. 1907</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01687">Schnitzler, Schnitzler an Beer-Hofmann, 28. 6. 1907</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01687">Schnitzler, Schnitzler an Beer-Hofmann, 28. 6. 1907</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04451">Schnitzler an Schwarzkopf, [7. oder 8]. 7. 1907</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -10288,7 +10289,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01687">Schnitzler, Schnitzler an Beer-Hofmann, 28. 6. 1907</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04444">Schnitzler, Schnitzler an Schwarzkopf, [28. oder 29. 6. 1907]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03254">Goldmann an Schnitzler, 7. 7. 1907</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -10628,11 +10629,11 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date notBefore="1908-04-17" notAfter="1908-04-18" n="02">17. 4. 1908</date>
+                     <date when="1908-04-17" n="02">17. 4. 1908</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1908-04-17" error="Zeitabfolge Fehler 1">17. 4. 1908</date>
+                     <date when="1908-04-17">17. 4. 1908</date>
                      <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="delivered">
@@ -11256,8 +11257,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03507">Salten an Schnitzler, 26. 8. 1909</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01869">Schnitzler an Bahr, 28. 8. 1909</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01869">Schnitzler an Bahr, 28. 8. 1909</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01870">Schnitzler an Beer-Hofmann, 28. 8. 1909</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -11368,7 +11369,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1909-10-27" n="02">27. 10. 1909</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-10-28">28. 10. 1909</date>
@@ -11376,10 +11377,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture"
-                           notBefore="1909-10-27"
-                           error="Zeitabfolge Fehler 1"
-                           notAfter="1909-10-30">[27. 10. 1909 – 30. 10. 1909?]</date>
+                     <date evidence="conjecture" notBefore="1909-10-28" notAfter="1909-10-31">[27. 10. 1909 – 31. 10. 1909?]</date>
                      <placeName ref="#pmb207296">Tiefer Graben 23</placeName>
                   </correspAction>
                   <correspContext>
@@ -11913,8 +11911,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01987">Burckhard an Schnitzler, 25. 11. 1910</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03628">Zweig an Schnitzler, 27. 11. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03628">Zweig an Schnitzler, 27. 11. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03797">Schnitzler an Zweig, 29. 11. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -12539,7 +12537,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1912-05-17">17. 5. 1912</date>
-                     <placeName ref="#pmb462">Venedig</placeName>
+                     <placeName ref="#pmb365444">Venedig</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -12652,9 +12650,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03575">Salten, Salten, Wollf, Járosy, Metzl an Schnitzler, Schnitzler, [Ende Juli –
-                  24. 8. 1912?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02080">Schnitzler, Schnitzler an Beer-Hofmann, 30. 7. 1912</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02080">Schnitzler, Schnitzler an Beer-Hofmann, 30. 7. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02081">Beer-Hofmann an Schnitzler, 2. 8. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -13095,15 +13092,12 @@
                      <placeName ref="#pmb45260">Brijuni</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1914-08-07">7. 8. 1914</date>
+                     <date when="1913-08-07">7. 8. 1913</date>
                      <placeName ref="#pmb45260">Brijuni</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture"
-                           notBefore="1913-08-08"
-                           error="Zeitabfolge Fehler 1"
-                           notAfter="1913-08-12">[8. 8. 1913
+                     <date evidence="conjecture" notBefore="1913-08-08" notAfter="1913-08-12">[8. 8. 1913
                   – 12. 8. 1913?]</date>
                      <placeName ref="#pmb207301">Tiefer Graben 17</placeName>
                   </correspAction>
@@ -13279,7 +13273,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-08-24">24. 8. 1913</date>
-                     <placeName ref="#pmb462">Venedig</placeName>
+                     <placeName ref="#pmb365444">Venedig</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -13594,7 +13588,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1914-05-13">13. 5. 1914</date>
-                     <placeName ref="#pmb994">Genua</placeName>
+                     <placeName ref="#pmb52288">Genua</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -15885,7 +15879,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1927-04-22">22. 4. 1927</date>
-                     <placeName ref="#pmb462">Venedig</placeName>
+                     <placeName ref="#pmb365444">Venedig</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -16021,7 +16015,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1927-09-05">5. 9. 1927</date>
-                     <placeName ref="#pmb44153">Verona</placeName>
+                     <placeName ref="#pmb365444">Verona</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
@@ -16143,11 +16137,48 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04465">Schnitzler an Schwarzkopf, 26. 4. 1928</ref>
+                          target="L04460">Schnitzler, Cappellini, Cappellini an Schwarzkopf, 23. 4. 1928</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
                <measure unit="zeichenanzahl" quantity="182"/>
+            </item>
+            <item corresp="L04460">
+               <title level="a">Arthur Schnitzler, Lili und Arnoldo Cappellini an Gustav Schwarzkopf,
+               23. 4. 1928</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <persName ref="#pmb2238">Cappellini, Lili</persName>
+                     <persName ref="#pmb14850">Cappellini, Arnoldo</persName>
+                     <date when="1928-04-23" n="01">23. 4. 1928</date>
+                     <placeName ref="#pmb966">Istanbul</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1928-04-23">23. 4. 1928</date>
+                     <placeName ref="#pmb966">Istanbul</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
+                     <date evidence="conjecture" notBefore="1928-04-24" notAfter="1928-05-03">[24. 4. 1928 – 3. 5. 1928?]</date>
+                     <placeName ref="#pmb207301">Tiefer Graben 17</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02499">Schnitzler an Beer-Hofmann, 23. 4. 1928</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03986">Schnitzler an Zuckerkandl, 23. 4. 1928</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04461">Schnitzler an Schwarzkopf, 17. 4. 1928</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_12740"
+                          target="L04465">Schnitzler an Schwarzkopf, 26. 4. 1928</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="130"/>
             </item>
             <item corresp="L04465">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 26. 4. 1928</title>
@@ -16169,48 +16200,11 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03986">Schnitzler an Zuckerkandl, 23. 4. 1928</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04460">Schnitzler, Cappellini, Cappellini an Schwarzkopf, 23. 4. 1928</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_12740"
-                          target="L04461">Schnitzler an Schwarzkopf, 17. 4. 1928</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_12740"
-                          target="L04460">Schnitzler, Cappellini, Cappellini an Schwarzkopf, 23. 4. 1928</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="321"/>
-            </item>
-            <item corresp="L04460">
-               <title level="a">Arthur Schnitzler, Lili und Arnoldo Cappellini an Gustav Schwarzkopf,
-               23. 4. 1928</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <persName ref="#pmb2238">Cappellini, Lili</persName>
-                     <persName ref="#pmb14850">Cappellini, Arnoldo</persName>
-                     <date when="1928-04-28" n="01">23. 4. 1928</date>
-                     <placeName ref="#pmb966">Istanbul</placeName>
-                  </correspAction>
-                  <correspAction type="transmitted">
-                     <date when="1928-04-23" error="Zeitabfolge Fehler 1">23. 4. 1928</date>
-                     <placeName ref="#pmb966">Istanbul</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb12740">Schwarzkopf, Gustav</persName>
-                     <date evidence="conjecture" notBefore="1928-04-24" notAfter="1928-05-03">[24. 4. 1928 – 3. 5. 1928?]</date>
-                     <placeName ref="#pmb207301">Tiefer Graben 17</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_12740">Schwarzkopf, Gustav</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04465">Schnitzler an Schwarzkopf, 26. 4. 1928</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03516">Goldmann an Schnitzler, 3. 5. 1928</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04465">Schnitzler an Schwarzkopf, 26. 4. 1928</ref>
+                          target="L04460">Schnitzler, Cappellini, Cappellini an Schwarzkopf, 23. 4. 1928</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
@@ -16218,7 +16212,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="130"/>
+               <measure unit="zeichenanzahl" quantity="321"/>
             </item>
             <item corresp="L04479">
                <title level="a">Arthur Schnitzler an Gustav Schwarzkopf, 13. 6. 1928</title>
@@ -16244,7 +16238,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"
-                          target="L04460">Schnitzler, Cappellini, Cappellini an Schwarzkopf, 23. 4. 1928</ref>
+                          target="L04465">Schnitzler an Schwarzkopf, 26. 4. 1928</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12740"

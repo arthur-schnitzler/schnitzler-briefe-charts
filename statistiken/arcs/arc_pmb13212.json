@@ -39,7 +39,7 @@
     {
       "id": "pmb253003",
       "name": "Paschinger Schlössl",
-      "count": 16
+      "count": 17
     },
     {
       "id": "pmb292961",
@@ -74,7 +74,7 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 33
+      "count": 32
     },
     {
       "id": "pmb39944",
@@ -355,6 +355,14 @@
       ]
     },
     {
+      "from": "pmb253003",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Stefan Zweig an Arthur Schnitzler, 18. 5. 1927"
+      ]
+    },
+    {
       "from": "pmb293589",
       "to": "pmb168815",
       "weight": 1,
@@ -397,7 +405,7 @@
     {
       "from": "pmb30",
       "to": "pmb50",
-      "weight": 19,
+      "weight": 18,
       "titles": [
         "Stefan Zweig an Arthur Schnitzler, 14. 8. 1920",
         "Stefan Zweig an Arthur Schnitzler, 18. 8. 1920",
@@ -408,7 +416,6 @@
         "Stefan Zweig an Arthur Schnitzler, 2. 1. 1925",
         "Stefan Zweig an Arthur Schnitzler, 10. 11. 1926",
         "Stefan Zweig an Arthur Schnitzler, 4. 2. 1927",
-        "Stefan Zweig an Arthur Schnitzler, 18. 5. 1927",
         "Stefan Zweig an Arthur Schnitzler, 14. 10. 1927",
         "Stefan Zweig an Arthur Schnitzler, 7. 1. 192[8?]",
         "Stefan Zweig an Arthur Schnitzler, 18. 1. 1928",

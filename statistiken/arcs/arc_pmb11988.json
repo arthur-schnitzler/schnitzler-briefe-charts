@@ -34,7 +34,12 @@
     {
       "id": "pmb232296",
       "name": "Mahlerstraße 13",
-      "count": 5
+      "count": 4
+    },
+    {
+      "id": "pmb365220",
+      "name": "1/1 Post- und Telegraphenamt 15",
+      "count": 1
     },
     {
       "id": "pmb416",
@@ -104,9 +109,8 @@
     {
       "from": "pmb232296",
       "to": "pmb167782",
-      "weight": 4,
+      "weight": 3,
       "titles": [
-        "Karl Kraus an Arthur Schnitzler, 22. 11. 1892",
         "Karl Kraus an Arthur Schnitzler, 31. 12. 1892",
         "Karl Kraus an Arthur Schnitzler, 26. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 22. 3. 1893"
@@ -118,6 +122,14 @@
       "weight": 1,
       "titles": [
         "Karl Kraus an Arthur Schnitzler, 22. 3. 1894"
+      ]
+    },
+    {
+      "from": "pmb365220",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, 22. 11. 1892"
       ]
     },
     {

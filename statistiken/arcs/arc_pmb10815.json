@@ -27,8 +27,8 @@
       "count": 1
     },
     {
-      "id": "pmb167805",
-      "name": "Kärntnerring 12/Bösendorferstraße 11",
+      "id": "pmb167789",
+      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
       "count": 2
     },
     {
@@ -44,7 +44,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 9
+      "count": 10
     },
     {
       "id": "pmb168940",
@@ -975,7 +975,7 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb167805",
+      "to": "pmb167789",
       "weight": 2,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 21. 2. 1892",
@@ -988,6 +988,14 @@
       "weight": 1,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 5. 11. 1896"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 4. 9. 1896"
       ]
     },
     {
@@ -1016,7 +1024,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 126,
+      "weight": 125,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, [22. 12. 1891]",
         "Hermann Bahr an Arthur Schnitzler, [1.? 2. 1892]",
@@ -1045,7 +1053,6 @@
         "Hermann Bahr an Arthur Schnitzler, 14. 3. 1896",
         "Hermann Bahr an Arthur Schnitzler, [18. 6. 1896]",
         "Hermann Bahr an Arthur Schnitzler, 2. 9. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 4. 9. 1896",
         "Hermann Bahr an Arthur Schnitzler, [19.? 9. 1896]",
         "Hermann Bahr an Arthur Schnitzler, 24. 9. 1896",
         "Hermann Bahr an Arthur Schnitzler, 8. 10. 1896",

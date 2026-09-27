@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-25Z</date>
+            <date>2026-09-27Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11988.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,11 +69,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11988">Kraus, Karl</persName>
                      <date when="1892-11-22" n="01">22. 11. 1892</date>
-                     <placeName ref="#pmb232296">Mahlerstraße 13</placeName>
+                     <placeName ref="#pmb365220">1/1 Post- und Telegraphenamt 15</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-11-22">22. 11. 1892</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365220">1/1 Post- und Telegraphenamt 15</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -107,7 +107,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-12-31">31. 12. 1892</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -203,11 +203,10 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-01-26">26. 1. [1893]</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365220">1/1 Post- und Telegraphenamt 15</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <date when="1893-01-26">26. 1. 1893</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -245,7 +244,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-02-28">28. 2. 1893</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -350,7 +349,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-03-22">22. 3. 1893</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -361,7 +360,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11988">Kraus, Karl</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00191">Kraus an Schnitzler, 19. 3. 1893</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00193">Widmann an Schnitzler, 26. 3. 1893</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00193">Widmann an Schnitzler, [25. oder 26.] 3. 1893</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11988"
@@ -581,11 +580,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1894-03-22">22. 3. 1894</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365284">1/1 Post- und Telegraphenamt 11</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1894-03-23">23. 3. 1894</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -757,7 +756,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, 30. 4. 1899</ref>
+                          target="L03289">Salten, Hirschfeld, Wassermann, Altenberg, Gold, Hirschfeld, Metzl an Schnitzler, [29. oder 30]. 4. 1899</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"

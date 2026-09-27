@@ -70,10 +70,10 @@
         "ref": "pmb12740"
       },
       "from": {
-        "name": "Kärntnerring 12/Bösendorferstraße 11",
-        "ref": "pmb167805",
-        "lat": 48.20143,
-        "lon": 16.37196
+        "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+        "ref": "pmb167789",
+        "lat": 48.2012,
+        "lon": 16.37188
       },
       "to": {
         "name": "Tiefer Graben 23",
@@ -96,10 +96,10 @@
         "ref": "pmb12740"
       },
       "from": {
-        "name": "Kärntnerring 12/Bösendorferstraße 11",
-        "ref": "pmb167805",
-        "lat": 48.20143,
-        "lon": 16.37196
+        "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+        "ref": "pmb167789",
+        "lat": 48.2012,
+        "lon": 16.37188
       },
       "to": {
         "name": "Tiefer Graben 23",
@@ -7912,7 +7912,7 @@
       "id": "L04030",
       "title": "Arthur Schnitzler an Gustav Schwarzkopf, 17. 4. 1908",
       "type": "von schnitzler",
-      "date": null,
+      "date": "1908-04-17",
       "sender": {
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
@@ -8494,10 +8494,10 @@
         "ref": "pmb12740"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       },
       "to": {
         "name": "Tiefer Graben 23",
@@ -12064,6 +12064,32 @@
       }
     },
     {
+      "id": "L04460",
+      "title": "Arthur Schnitzler, Lili und Arnoldo Cappellini an Gustav Schwarzkopf, 23. 4. 1928",
+      "type": "von schnitzler",
+      "date": "1928-04-23",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Schwarzkopf, Gustav",
+        "ref": "pmb12740"
+      },
+      "from": {
+        "name": "Istanbul",
+        "ref": "pmb966",
+        "lat": 41.01384,
+        "lon": 28.94966
+      },
+      "to": {
+        "name": "Tiefer Graben 17",
+        "ref": "pmb207301",
+        "lat": 48.212284,
+        "lon": 16.367725
+      }
+    },
+    {
       "id": "L04465",
       "title": "Arthur Schnitzler an Gustav Schwarzkopf, 26. 4. 1928",
       "type": "von schnitzler",
@@ -12081,32 +12107,6 @@
         "ref": "pmb44292",
         "lat": 36.43556,
         "lon": 28.22199
-      },
-      "to": {
-        "name": "Tiefer Graben 17",
-        "ref": "pmb207301",
-        "lat": 48.212284,
-        "lon": 16.367725
-      }
-    },
-    {
-      "id": "L04460",
-      "title": "Arthur Schnitzler, Lili und Arnoldo Cappellini an Gustav Schwarzkopf, 23. 4. 1928",
-      "type": "von schnitzler",
-      "date": "1928-04-28",
-      "sender": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "receiver": {
-        "name": "Schwarzkopf, Gustav",
-        "ref": "pmb12740"
-      },
-      "from": {
-        "name": "Istanbul",
-        "ref": "pmb966",
-        "lat": 41.01384,
-        "lon": 28.94966
       },
       "to": {
         "name": "Tiefer Graben 17",
