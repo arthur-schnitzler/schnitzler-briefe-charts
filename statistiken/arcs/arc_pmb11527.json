@@ -7,6 +7,16 @@
       "count": 13
     },
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
+      "id": "pmb365446",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb45258",
       "name": "München",
       "count": 1
@@ -14,7 +24,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 34
+      "count": 33
     }
   ],
   "links_from_schnitzler": [
@@ -61,6 +71,14 @@
       ]
     },
     {
+      "from": "pmb365446",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Stefan Großmann an Arthur Schnitzler, 2. 4. 1910"
+      ]
+    },
+    {
       "from": "pmb45258",
       "to": "pmb50",
       "weight": 1,
@@ -71,7 +89,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 14,
+      "weight": 13,
       "titles": [
         "Stefan Großmann an Arthur Schnitzler, 16. 9. 1898",
         "Stefan Großmann an Arthur Schnitzler, 30. 8. 1900",
@@ -81,7 +99,6 @@
         "Stefan Großmann an Arthur Schnitzler, 7. 10. 1907",
         "Stefan Großmann an Arthur Schnitzler, 12. 10. 1907",
         "Stefan Großmann an Arthur Schnitzler, 31. 3. 1910",
-        "Stefan Großmann an Arthur Schnitzler, 2. 4. 1910",
         "Stefan Großmann an Arthur Schnitzler, [7.] 2. 1911",
         "Engelbert Pernerstorfer und Stefan Großmann an Arthur Schnitzler, 14. 3. 1911",
         "Stefan Großmann an Arthur Schnitzler, 19. 2. 1912",

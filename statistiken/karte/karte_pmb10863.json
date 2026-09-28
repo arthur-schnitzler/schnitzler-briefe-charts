@@ -7671,10 +7671,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wollzeile 15 (»Berthahof«)",
-        "ref": "pmb190427",
-        "lat": 48.208656,
-        "lon": 16.375924
+        "name": "",
+        "ref": "pmb365483",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Café Arkaden",
@@ -10158,10 +10158,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
         "name": "Vahrn",
@@ -10673,10 +10673,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Wollzeile 15 (»Berthahof«)",
@@ -10725,10 +10725,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Wollzeile 15 (»Berthahof«)",
@@ -10751,10 +10751,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Wollzeile 15 (»Berthahof«)",
@@ -11206,32 +11206,6 @@
       }
     },
     {
-      "id": "L01030",
-      "title": "Arthur Schnitzler an Richard Beer-Hofmann, [3.] 4. 1900",
-      "type": "von schnitzler",
-      "date": "1900-04-03",
-      "sender": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "receiver": {
-        "name": "Beer-Hofmann, Richard",
-        "ref": "pmb10863"
-      },
-      "from": {
-        "name": "Solin",
-        "ref": "pmb453",
-        "lat": 43.5,
-        "lon": 16.5
-      },
-      "to": {
-        "name": "Wollzeile 15 (»Berthahof«)",
-        "ref": "pmb190427",
-        "lat": 48.208656,
-        "lon": 16.375924
-      }
-    },
-    {
       "id": "L01026",
       "title": "Arthur Schnitzler an Richard Beer-Hofmann, 3. 4. 1900",
       "type": "von schnitzler",
@@ -11249,6 +11223,32 @@
         "ref": "pmb4231",
         "lat": 43.5,
         "lon": 16.433333
+      },
+      "to": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      }
+    },
+    {
+      "id": "L01030",
+      "title": "Arthur Schnitzler an Richard Beer-Hofmann, [3.] 4. 1900",
+      "type": "von schnitzler",
+      "date": "1900-04-03",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Beer-Hofmann, Richard",
+        "ref": "pmb10863"
+      },
+      "from": {
+        "name": "Solin",
+        "ref": "pmb453",
+        "lat": 43.5,
+        "lon": 16.5
       },
       "to": {
         "name": "Wollzeile 15 (»Berthahof«)",
@@ -13320,10 +13320,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Willergasse 2",
@@ -13346,10 +13346,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Salzburg",
-        "ref": "pmb30",
-        "lat": 47.80067,
-        "lon": 13.04532
+        "name": "Österreichischer Hof",
+        "ref": "pmb230",
+        "lat": 47.802045,
+        "lon": 13.043401
       },
       "to": {
         "name": "Willergasse 2",
@@ -13378,10 +13378,10 @@
         "lon": 13.1
       },
       "to": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       }
     },
     {
@@ -13440,10 +13440,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Willergasse 2",
@@ -13480,9 +13480,9 @@
     },
     {
       "id": "L01279",
-      "title": "Richard Beer-Hofmann an Arthur Schnitzler, 26. 3.  1903",
+      "title": "Richard Beer-Hofmann an Arthur Schnitzler, [25. oder 26]. 3. 1903",
       "type": "von partner",
-      "date": "1903-03-26",
+      "date": null,
       "sender": {
         "name": "Beer-Hofmann, Richard",
         "ref": "pmb10863"
@@ -13518,10 +13518,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Willergasse 2",
@@ -13544,10 +13544,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Westbahnhof",
+        "ref": "pmb184918",
+        "lat": 48.196667,
+        "lon": 16.337778
       },
       "to": {
         "name": "Frankgasse 1",
@@ -13622,10 +13622,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Willergasse 2",
@@ -13674,10 +13674,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Burgtheater",
+        "ref": "pmb14",
+        "lat": 48.210333,
+        "lon": 16.361139
       },
       "to": {
         "name": "Willergasse 2",
@@ -13726,10 +13726,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Riva del Garda",
-        "ref": "pmb465",
-        "lat": 45.88576,
-        "lon": 10.84118
+        "name": "Palast Hotel Lido",
+        "ref": "pmb40808",
+        "lat": 45.883272,
+        "lon": 10.846236
       },
       "to": {
         "name": "Willergasse 2",
@@ -13778,10 +13778,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Willergasse 2",
@@ -13870,9 +13870,9 @@
     },
     {
       "id": "L01323",
-      "title": "Richard Beer-Hofmann an Arthur Schnitzler, 7. 10. 1903",
+      "title": "Richard Beer-Hofmann an Arthur Schnitzler, [6. oder 7]. 10. 1903",
       "type": "von partner",
-      "date": "1903-10-07",
+      "date": null,
       "sender": {
         "name": "Beer-Hofmann, Richard",
         "ref": "pmb10863"
@@ -14168,10 +14168,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       },
       "to": {
         "name": "Villa Frühling",
@@ -19083,10 +19083,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
       },
       "to": {
         "name": "Hasenauerstraße 59",

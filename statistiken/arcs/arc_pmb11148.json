@@ -22,6 +22,11 @@
       "count": 1
     },
     {
+      "id": "pmb205",
+      "name": "Hotel Bristol Wien",
+      "count": 1
+    },
+    {
       "id": "pmb262",
       "name": "Café Central",
       "count": 1
@@ -44,7 +49,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 12
+      "count": 11
     },
     {
       "id": "pmb506",
@@ -121,6 +126,14 @@
       ]
     },
     {
+      "from": "pmb205",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 14. 11. 1908"
+      ]
+    },
+    {
       "from": "pmb44880",
       "to": "pmb50",
       "weight": 1,
@@ -142,14 +155,6 @@
       "weight": 1,
       "titles": [
         "Richard Dehmel an Arthur Schnitzler, [18. 11. 1913?]"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb168940",
-      "weight": 1,
-      "titles": [
-        "Richard Dehmel an Arthur Schnitzler, 14. 11. 1908"
       ]
     }
   ]

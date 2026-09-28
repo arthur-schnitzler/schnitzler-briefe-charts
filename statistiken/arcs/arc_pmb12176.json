@@ -9,7 +9,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb245236",
@@ -49,7 +49,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 25
+      "count": 24
     }
   ],
   "links_from_schnitzler": [
@@ -120,8 +120,9 @@
     {
       "from": "pmb45258",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Thomas Mann an Arthur Schnitzler, 22. 11. 1910",
         "Thomas Mann an Arthur Schnitzler, 25. 12. 1927"
       ]
     },
@@ -136,10 +137,9 @@
     {
       "from": "pmb45258",
       "to": "pmb50",
-      "weight": 12,
+      "weight": 11,
       "titles": [
         "Thomas Mann an Arthur Schnitzler, 15. 2. 1904",
-        "Thomas Mann an Arthur Schnitzler, 22. 11. 1910",
         "Thomas Mann an Arthur Schnitzler, 16. 10. 1911",
         "Thomas Mann an Arthur Schnitzler, 8. 12. 1912",
         "Thomas Mann an Arthur Schnitzler, 4. 9. 1922",

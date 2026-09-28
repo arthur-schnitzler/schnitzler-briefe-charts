@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-27Z</date>
+            <date>2026-09-28Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -364,11 +364,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-06-02">2. 6. 1909</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1909-06-02">2. 6. 1909</date>
-                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
+                     <placeName ref="#pmb365450">Wien 8/1 64</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
@@ -709,7 +709,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date when="1910-11-27" n="01">27. 11. 1910</date>
+                     <date when="1910-11-27" n="02">27. 11. 1910</date>
                      <placeName ref="#pmb50" evidence="internal">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -719,8 +719,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01987">Burckhard an Schnitzler, 25. 11. 1910</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04169">Schnitzler an Schwarzkopf, [27. oder 28]. 11. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04169">Schnitzler an Schwarzkopf, [27. oder 28]. 11. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03797">Schnitzler an Zweig, 29. 11. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -750,7 +750,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04169">Schnitzler an Schwarzkopf, [27. oder 28]. 11. 1910</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03628">Zweig an Schnitzler, 27. 11. 1910</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01988">Suttner an Schnitzler, Dezember 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -1302,7 +1302,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
-                     <date notBefore="1911-11-18" notAfter="1911-11-19" n="01">[18. oder 19]. 11. 1911</date>
+                     <date notBefore="1911-11-18" notAfter="1911-11-19" n="02">[18. oder 19]. 11. 1911</date>
                      <placeName ref="#pmb95201">Mals</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -2266,7 +2266,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1915-02-16">16. 2. 1915</date>
-                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
+                     <placeName ref="#pmb365450">Wien 8/1 64</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
@@ -4027,7 +4027,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
                      <date when="1927-05-18" n="01">18. 5. 1927</date>
-                     <placeName ref="#pmb253003">Salzburg</placeName>
+                     <placeName ref="#pmb253003">Paschinger Schlössl</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4797,7 +4797,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
                      <persName ref="#pmb4829">Zweig, Friderike</persName>
-                     <date notBefore="1931-02-17" notAfter="1931-02-18" n="01">[17. oder 18. 2. 1931?]</date>
+                     <date notBefore="1931-02-17" notAfter="1931-02-18" n="02">[17. oder 18. 2. 1931?]</date>
                      <placeName ref="#pmb293589">Hotel du Cap</placeName>
                   </correspAction>
                   <correspAction type="transmitted">

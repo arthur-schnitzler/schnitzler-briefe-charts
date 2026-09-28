@@ -14,7 +14,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb168940",
@@ -49,7 +49,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 15
+      "count": 14
     },
     {
       "id": "pmb735",
@@ -58,6 +58,14 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168934",
+      "to": "pmb34528",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 15. 7. 1899"
+      ]
+    },
     {
       "from": "pmb168",
       "to": "pmb735",
@@ -88,14 +96,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gerhart Hauptmann, 24. 10. 1904"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb34528",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Gerhart Hauptmann, 15. 7. 1899"
       ]
     },
     {

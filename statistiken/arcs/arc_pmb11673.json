@@ -2,6 +2,11 @@
   "correspondent": "Herzl, Theodor",
   "nodes": [
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
+    },
+    {
       "id": "pmb182",
       "name": "Paris",
       "count": 49
@@ -210,8 +215,16 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Theodor Herzl an Arthur Schnitzler, 3. 5. 1901"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb50",
-      "weight": 22,
+      "weight": 21,
       "titles": [
         "Theodor Herzl an Arthur Schnitzler, 29. 5. 1885",
         "Theodor Herzl an Arthur Schnitzler, 2. 10. 1886",
@@ -232,7 +245,6 @@
         "Theodor Herzl an Arthur Schnitzler, 23. 12. 1900",
         "Theodor Herzl an Arthur Schnitzler, 5. 3. 1901",
         "Theodor Herzl an Arthur Schnitzler, 11. 4. 1901",
-        "Theodor Herzl an Arthur Schnitzler, 3. 5. 1901",
         "Theodor Herzl an Arthur Schnitzler, 25. 11. 1901",
         "Theodor Herzl an Arthur Schnitzler, 28. 2. 1902"
       ]

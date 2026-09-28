@@ -10,11 +10,11 @@ Source,Target,Weight,Type
 "Salten, Felix","Salzburg",29,Directed
 "Salten, Felix","München",24,Directed
 "Salten, Felix","Berghof",19,Directed
-"Salten, Felix","I., Innere Stadt",16,Directed
 "Salten, Felix","Semmering",16,Directed
 "Salten, Felix","Leipzig",15,Directed
-"Salten, Felix","IX., Alsergrund",15,Directed
+"Salten, Felix","I., Innere Stadt",15,Directed
 "Salten, Felix","Paris",15,Directed
+"Salten, Felix","IX., Alsergrund",14,Directed
 "Salten, Felix","Frankgasse 1",14,Directed
 "Salten, Felix","9/3 Post- und Telegraphenamt 72",13,Directed
 "Salten, Felix","Dresden",12,Directed
@@ -43,6 +43,7 @@ Source,Target,Weight,Type
 "Salten, Felix","Europa",7,Directed
 "Salten, Felix","Italien",6,Directed
 "Salten, Felix","Café Kremser",6,Directed
+"Salten, Felix","1/1 Post- und Telegraphenamt 1",6,Directed
 "Salten, Felix","Volkstheater",6,Directed
 "Salten, Felix","Bad Aussee",6,Directed
 "Salten, Felix","Dölsach",6,Directed
@@ -58,7 +59,6 @@ Source,Target,Weight,Type
 "Salten, Felix","Miskolc",5,Directed
 "Salten, Felix","Mödling",5,Directed
 "Salten, Felix","Prater",5,Directed
-"Salten, Felix","1/1 Post- und Telegraphenamt 1",5,Directed
 "Salten, Felix","Lienz",5,Directed
 "Salten, Felix","Höhlenstein",5,Directed
 "Salten, Felix","Heringsdorf",5,Directed
@@ -160,6 +160,7 @@ Source,Target,Weight,Type
 "Salten, Felix","Frankreich",2,Directed
 "Salten, Felix","5, rue de Maubeuge",2,Directed
 "Salten, Felix","Riva del Garda",2,Directed
+"Salten, Felix","Hauptbahnhof Salzburg",2,Directed
 "Salten, Felix","Sensengasse",2,Directed
 "Salten, Felix","Bad Reichenhall",2,Directed
 "Salten, Felix","Hotel Savoy [Berlin]",2,Directed
@@ -314,7 +315,6 @@ Source,Target,Weight,Type
 "Salten, Felix","Ponte Adige",1,Directed
 "Salten, Felix","Köln",1,Directed
 "Salten, Felix","Wörthersee",1,Directed
-"Salten, Felix","Hauptbahnhof Salzburg",1,Directed
 "Salten, Felix","Hotel Castiglione",1,Directed
 "Salten, Felix","Versailles",1,Directed
 "Salten, Felix","Jardin de Versailles",1,Directed
@@ -481,10 +481,10 @@ Source,Target,Weight,Type
 "Salten, Felix","Fischerndorf",1,Directed
 "Salten, Felix","Hotel Imperial",1,Directed
 "Salten, Felix","Böhmen",1,Directed
-"Salten, Felix","Hannover",1,Directed
-"Salten, Felix","Klostergang",1,Directed
 "Salten, Felix","Hildesheim",1,Directed
 "Salten, Felix","Tempelhaus [Hildesheim]",1,Directed
+"Salten, Felix","Hannover",1,Directed
+"Salten, Felix","Klostergang",1,Directed
 "Salten, Felix","Hotel am See",1,Directed
 "Salten, Felix","Vereinigte Staaten von Amerika [USA]",1,Directed
 "Salten, Felix","Piazza San Marco",1,Directed

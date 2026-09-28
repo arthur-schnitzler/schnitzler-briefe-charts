@@ -2,9 +2,19 @@
   "correspondent": "Freud, Sigmund",
   "nodes": [
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
+      "id": "pmb253790",
+      "name": "Berggasse 19",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 14
+      "count": 13
     }
   ],
   "links_from_schnitzler": [
@@ -19,11 +29,18 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb253790",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Sigmund Freud an Arthur Schnitzler, 8. 5. 1906"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 11,
+      "weight": 10,
       "titles": [
-        "Sigmund Freud an Arthur Schnitzler, 8. 5. 1906",
         "Sigmund Freud an Arthur Schnitzler, 14. 5. 1912",
         "Sigmund Freud an Arthur Schnitzler, Oktober 1924",
         "Sigmund Freud: Widmungsexemplar von Psychoanalytische Studien an Werken der Dichtung und Kunst, [erste Hälfte] November 1924",

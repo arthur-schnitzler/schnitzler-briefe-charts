@@ -92,6 +92,11 @@
       "count": 3
     },
     {
+      "id": "pmb167789",
+      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "count": 1
+    },
+    {
       "id": "pmb168",
       "name": "Berlin",
       "count": 39
@@ -99,7 +104,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 25
+      "count": 26
     },
     {
       "id": "pmb168934",
@@ -135,6 +140,11 @@
       "id": "pmb197",
       "name": "Weimar",
       "count": 1
+    },
+    {
+      "id": "pmb199347",
+      "name": "Hörlgasse 16",
+      "count": 2
     },
     {
       "id": "pmb20650",
@@ -182,6 +192,11 @@
       "count": 5
     },
     {
+      "id": "pmb237630",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb263",
       "name": "Florenz",
       "count": 3
@@ -202,8 +217,8 @@
       "count": 1
     },
     {
-      "id": "pmb34402",
-      "name": "Fischerndorf",
+      "id": "pmb34387",
+      "name": "Villa Annerl",
       "count": 1
     },
     {
@@ -264,7 +279,7 @@
     {
       "id": "pmb428",
       "name": "Welsberg-Taisten",
-      "count": 3
+      "count": 2
     },
     {
       "id": "pmb431",
@@ -359,7 +374,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 342
+      "count": 337
     },
     {
       "id": "pmb51650",
@@ -397,6 +412,11 @@
       "count": 1
     },
     {
+      "id": "pmb59722",
+      "name": "Sensengasse",
+      "count": 1
+    },
+    {
       "id": "pmb63834",
       "name": "Cottagegasse",
       "count": 1
@@ -404,7 +424,7 @@
     {
       "id": "pmb723",
       "name": "Wildbad Waldbrunn",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb758",
@@ -1074,6 +1094,22 @@
       ]
     },
     {
+      "from": "pmb199347",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 23. 5. 1894"
+      ]
+    },
+    {
+      "from": "pmb199347",
+      "to": "pmb414",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, [26. oder 27]. 7. 1895"
+      ]
+    },
+    {
       "from": "pmb213",
       "to": "pmb1091",
       "weight": 1,
@@ -1181,6 +1217,14 @@
       "titles": [
         "Felix Salten an Arthur Schnitzler, 15. 7. 1907",
         "Felix und Ottilie Salten an Arthur Schnitzler, 3. 8. 1907"
+      ]
+    },
+    {
+      "from": "pmb237630",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, [29. oder 30]. 4. 1893"
       ]
     },
     {
@@ -1360,7 +1404,7 @@
       "to": "pmb168934",
       "weight": 1,
       "titles": [
-        "Felix Salten an Arthur Schnitzler, 30. 6. 1895"
+        "Felix Salten an Arthur Schnitzler, [29. oder 30]. 6. 1895"
       ]
     },
     {
@@ -1429,14 +1473,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 30. 4. 1893"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb168",
       "weight": 7,
       "titles": [
@@ -1451,12 +1487,18 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, [22. 11. 1910?]"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb168934",
-      "weight": 5,
+      "weight": 3,
       "titles": [
         "Felix Salten an Arthur Schnitzler, [27. 4. 1894?]",
-        "Felix Salten an Arthur Schnitzler, 23. 5. 1894",
-        "Felix Salten an Arthur Schnitzler, 2. 4. 1898",
         "Felix Salten an Arthur Schnitzler, 8. 7. 1897",
         "Felix Salten an Arthur Schnitzler, 1[3]. 5. 1899"
       ]
@@ -1540,12 +1582,11 @@
     {
       "from": "pmb50",
       "to": "pmb414",
-      "weight": 5,
+      "weight": 4,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 30. 8. 1894",
-        "Felix Salten an Arthur Schnitzler, 27. 7. 1895",
-        "Felix Salten an Arthur Schnitzler, 15. 8. 1895",
-        "Felix Salten an Arthur Schnitzler, 17. 7. 1897",
+        "Felix Salten an Arthur Schnitzler, [14. oder 15]. 8. 1895",
+        "Felix Salten an Arthur Schnitzler, [16. oder 17]. 7. 1897",
         "Felix Salten an Arthur Schnitzler, 22. 7. 1897"
       ]
     },
@@ -1569,7 +1610,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 148,
+      "weight": 147,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 18. 5. 1891",
         "Felix Salten an Arthur Schnitzler, [23. 5. 1891]",
@@ -1702,7 +1743,6 @@
         "Felix Salten an Arthur Schnitzler, [zwischen 19. und 21. 4. 1908]",
         "Felix Salten: Widmungsexemplar Olga Frohgemuth für Olga und Arthur Schnitzler, 26. 9. 1910",
         "Felix Salten an Arthur Schnitzler, 14. 10. 1910",
-        "Felix Salten an Arthur Schnitzler, [22. 11. 1910?]",
         "Felix Salten an Arthur Schnitzler, 22. 10. 1911",
         "Felix Salten: Widmungsexemplar Wurstelprater für Arthur Schnitzler, 12. 12. 1911",
         "Felix Salten an Arthur Schnitzler, [26. 1. 1912]",
@@ -1794,6 +1834,14 @@
       ]
     },
     {
+      "from": "pmb59722",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, [1. oder 2]. 4. 1898"
+      ]
+    },
+    {
       "from": "pmb758",
       "to": "pmb470",
       "weight": 2,
@@ -1804,18 +1852,11 @@
     },
     {
       "from": "pmb772",
-      "to": "pmb428",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 15. 8. 1907"
-      ]
-    },
-    {
-      "from": "pmb772",
       "to": "pmb723",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Felix und Ottilie Salten an Arthur Schnitzler, [11. oder 12]. 8. 1907"
+        "Felix und Ottilie Salten an Arthur Schnitzler, [11. oder 12]. 8. 1907",
+        "Felix Salten an Arthur Schnitzler, 15. 8. 1907"
       ]
     },
     {
@@ -1876,6 +1917,14 @@
     },
     {
       "from": "pmb877",
+      "to": "pmb167789",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 10. 8. 1892"
+      ]
+    },
+    {
+      "from": "pmb877",
       "to": "pmb189",
       "weight": 1,
       "titles": [
@@ -1892,7 +1941,7 @@
     },
     {
       "from": "pmb877",
-      "to": "pmb34402",
+      "to": "pmb34387",
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, [30. oder 31]. 7. 1916"
@@ -1926,10 +1975,9 @@
     {
       "from": "pmb877",
       "to": "pmb50",
-      "weight": 10,
+      "weight": 9,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 8. 8. 1892",
-        "Felix Salten an Arthur Schnitzler, 10. 8. 1892",
         "Felix Salten an Arthur Schnitzler, 17. 8. 1892",
         "Felix Salten an Arthur Schnitzler, 23. 8. 1892",
         "Felix Salten an Arthur Schnitzler, [25.? 8. 1892]",

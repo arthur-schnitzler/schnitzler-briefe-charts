@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-27Z</date>
+            <date>2026-09-28Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10992.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1099,7 +1099,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
-                     <date when="1900-04-03" n="04">[3. 4. 1900?]</date>
+                     <date when="1900-04-03" n="05">[3. 4. 1900?]</date>
                      <placeName ref="#pmb43471">Budapest</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -1129,7 +1129,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
-                     <date when="1900-04-03" n="05">3. 4. [1900]</date>
+                     <date when="1900-04-03" n="06">3. 4. [1900]</date>
                      <placeName ref="#pmb43471">Budapest</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -1472,7 +1472,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
-                     <date when="1901-06-16" n="01">16. 6. 1901</date>
+                     <date when="1901-06-16" n="02">16. 6. 1901</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
@@ -1486,8 +1486,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01128">Hofmannsthal an Schnitzler, [13. oder 14]. 6. 1901</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04502">Schnitzler, Gussmann an Schwarzkopf, [16. oder 17]. 6. 1901</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04502">Schnitzler, Gussmann an Schwarzkopf, [16. oder 17]. 6. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01130">Saar an Schnitzler, 19. 6. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -2018,7 +2018,7 @@
                      <persName ref="#pmb17164">Goldmann, Eva Marie</persName>
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date when="1909-07-26" n="01">26. 7. 1909</date>
-                     <placeName ref="#pmb842">Karlsbad</placeName>
+                     <placeName ref="#pmb842">Karlovy Vary</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
                      <placeName ref="#pmb50">Wien</placeName>

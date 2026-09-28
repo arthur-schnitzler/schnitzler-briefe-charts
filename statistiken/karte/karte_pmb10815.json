@@ -4264,10 +4264,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Edlach an der Rax",
-        "ref": "pmb470",
-        "lat": 47.69255,
-        "lon": 15.80915
+        "name": "Kuranstalt Dr. Konried",
+        "ref": "pmb80",
+        "lat": 47.691299,
+        "lon": 15.808343
       },
       "to": {
         "name": "Frankgasse 1",
@@ -4415,10 +4415,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Lavarone",
-        "ref": "pmb461",
-        "lat": 45.93632,
-        "lon": 11.27206
+        "name": "Grand Hotel Lavarone",
+        "ref": "pmb147028",
+        "lat": 45.9398,
+        "lon": 11.273789
       },
       "to": {
         "name": "Haus Bahr",
@@ -4467,10 +4467,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       },
       "to": {
         "name": "Haus Bahr",
@@ -4558,6 +4558,32 @@
       }
     },
     {
+      "id": "L01339",
+      "title": "Arthur Schnitzler an Hermann Bahr, [9. oder 10.] 11. [1903]",
+      "type": "von schnitzler",
+      "date": null,
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Bahr, Hermann",
+        "ref": "pmb10815"
+      },
+      "from": {
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
+      },
+      "to": {
+        "name": "Haus Bahr",
+        "ref": "pmb207274",
+        "lat": 48.186771,
+        "lon": 16.261305
+      }
+    },
+    {
       "id": "L01338",
       "title": "Arthur Schnitzler an Hermann Bahr, 10. 11. 1903",
       "type": "von schnitzler",
@@ -4581,32 +4607,6 @@
         "ref": "pmb50",
         "lat": 48.208333,
         "lon": 16.373056
-      }
-    },
-    {
-      "id": "L01339",
-      "title": "Arthur Schnitzler an Hermann Bahr, 10. 11. [1903]",
-      "type": "von schnitzler",
-      "date": "1903-11-10",
-      "sender": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "receiver": {
-        "name": "Bahr, Hermann",
-        "ref": "pmb10815"
-      },
-      "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      },
-      "to": {
-        "name": "Haus Bahr",
-        "ref": "pmb207274",
-        "lat": 48.186771,
-        "lon": 16.261305
       }
     },
     {
@@ -4649,10 +4649,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       },
       "to": {
         "name": "Haus Bahr",
@@ -4675,10 +4675,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Haus Bahr",
+        "ref": "pmb207274",
+        "lat": 48.186771,
+        "lon": 16.261305
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -8074,10 +8074,10 @@
         "lon": 7.14816
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
       }
     },
     {
@@ -8167,10 +8167,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
       },
       "to": {
         "name": "Haus Bahr",
