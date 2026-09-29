@@ -2,6 +2,11 @@
   "correspondent": "Hauptmann, Gerhart",
   "nodes": [
     {
+      "id": "pmb1052",
+      "name": "Haus Wiesenstein",
+      "count": 1
+    },
+    {
       "id": "pmb168",
       "name": "Berlin",
       "count": 2
@@ -54,7 +59,7 @@
     {
       "id": "pmb735",
       "name": "Jagniątków",
-      "count": 9
+      "count": 8
     }
   ],
   "links_from_schnitzler": [
@@ -84,7 +89,7 @@
     },
     {
       "from": "pmb33",
-      "to": "pmb735",
+      "to": "pmb1052",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler u. a. an Gerhart Hauptmann, 7. 9. 1904"

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-28Z</date>
+            <date>2026-09-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11485.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -539,7 +539,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1891-01-08">8. 1. 1891</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365357">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -634,7 +634,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-05-14">14. 5. 1891</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -730,7 +730,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-07-02">2. 7. 1891</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -740,7 +740,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02953">Schnitzler an Salten, [27. 6. 1891?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02666">Goldmann an Schnitzler, 5. 7. 1891</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03183">Salten an Schnitzler, [5. 7. 1891]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -748,23 +748,27 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02666">Goldmann an Schnitzler, 5. 7. 1891</ref>
+                          target="L02666">Goldmann an Schnitzler, 6. 7. 1891</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
                <measure unit="zeichenanzahl" quantity="82"/>
             </item>
             <item corresp="L02666">
-               <title level="a">Paul Goldmann an Arthur Schnitzler, 5. 7. 1891</title>
+               <title level="a">Paul Goldmann an Arthur Schnitzler, 6. 7. 1891</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
-                     <date when="1891-07-05" n="01">5. 7. 1891</date>
+                     <date when="1891-07-06" n="01">6. 7. 1891</date>
+                     <placeName ref="#pmb58810">Den Haag</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1891-07-06">6. 7. 1891</date>
                      <placeName ref="#pmb58810">Den Haag</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-07-07">7. 7. 1891</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -773,8 +777,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02665">Goldmann an Schnitzler, 30. 6. 1891</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03183">Salten an Schnitzler, [5. 7. 1891]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00022">Joachim, Kafka an Schnitzler, 6. 7. 1891</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00023">Hofmannsthal an Schnitzler, 13. 7. [1891]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -796,9 +800,13 @@
                      <date when="1891-07-25" n="01">25. 7. 1891</date>
                      <placeName ref="#pmb145">Köln</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1891-07-25">25. 7. 1891</date>
+                     <placeName ref="#pmb145">Cöln (Rheinland)</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-07-27">27. 7. 1891</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -812,7 +820,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02666">Goldmann an Schnitzler, 5. 7. 1891</ref>
+                          target="L02666">Goldmann an Schnitzler, 6. 7. 1891</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -951,9 +959,13 @@
                      <date when="1891-11-29" n="01">29. 11. 1891</date>
                      <placeName ref="#pmb40709">Amsterdam</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1891-11-30">30. 11. 1891</date>
+                     <placeName ref="#pmb40709">Amsterdam</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-12-02">2. 12. 1891</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365214">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -983,7 +995,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1891-12-03" n="02">3. 12. 1891</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb40415">rue Vivienne</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1891-12-03">3. 12. 1891</date>
+                     <placeName ref="#pmb87780">place de la Bourse</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1891-12-05">5. 12. 1891</date>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1261,10 +1281,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-08-10">10. 8. 1892</date>
+                     <placeName ref="#pmb40165">San Sebastian</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1892-08-13">13. 8. 1892</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1770,6 +1791,14 @@
                      <date when="1893-09-12" n="01">12. 9. 1893</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1893-12-09">9. 12. 1893</date>
+                     <placeName ref="#pmb30">Salzburg Stadt</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1893-09-13">13. 9. 1893</date>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-09-13">13. 9. 1893</date>
@@ -2141,9 +2170,12 @@
                      <date when="1893-12-28" n="01">[28./29.?] 12. 1893</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb87780">Paris Pl. de la Bourse</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-12-31">31. 12. 1893</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3459,7 +3491,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02737">Goldmann an Schnitzler, 24. 6. [1895]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03932">Schnitzler an Herzl, 30. 6. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03157">Salten an Schnitzler, [29. oder 30]. 6. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -3489,7 +3521,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03157">Salten an Schnitzler, 30. 6. 1895</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03932">Schnitzler an Herzl, 30. 6. 1895</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00460">Beer-Hofmann an Schnitzler, 9. 7. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -3551,7 +3583,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00466">Schnitzler an Beer-Hofmann, [25. 7. 1895?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03131">Salten an Schnitzler, 27. 7. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03131">Salten an Schnitzler, [26. oder 27]. 7. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -3644,7 +3676,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00472">Schnitzler an Andreas-Salomé, 11. 8. 1895</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03163">Salten an Schnitzler, 15. 8. 1895</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03163">Salten an Schnitzler, [14. oder 15]. 8. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -6104,19 +6136,27 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02821">Goldmann an Schnitzler, 11. 8. 1897</ref>
+                          target="L02821">Goldmann an Schnitzler, [10. oder 11]. 8. 1897</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="620"/>
             </item>
             <item corresp="L02821">
-               <title level="a">Paul Goldmann an Arthur Schnitzler, 11. 8. 1897</title>
+               <title level="a">Paul Goldmann an Arthur Schnitzler, [10. oder 11]. 8. 1897</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
-                     <date when="1897-08-11" n="01">11. 8. 1897</date>
+                     <date n="01" notBefore="1897-08-10" notAfter="1897-08-11">[10. oder 11]. 8. 1897</date>
                      <placeName ref="#pmb734">Bayreuth</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1897-08-11">11. 8. 1897</date>
+                     <placeName ref="#pmb734">Bayreuth 1.</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1897-08-12">12. 8. 1897</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -6163,12 +6203,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02821">Goldmann an Schnitzler, 11. 8. 1897</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02821">Goldmann an Schnitzler, [10. oder 11]. 8. 1897</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L00716">Schnitzler an Beer-Hofmann, 14. 8. 1897</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02821">Goldmann an Schnitzler, 11. 8. 1897</ref>
+                          target="L02821">Goldmann an Schnitzler, [10. oder 11]. 8. 1897</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -6184,11 +6224,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-09-04" n="01">4. 9. 1897</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb401">Hotel Marienbad [München]</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1897-09-04">4. 9. [1897]</date>
+                     <placeName ref="#pmb45258">Muenchen 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-09-05">5. 9. 1897</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -6957,9 +7001,13 @@
                      <date when="1898-04-10" n="01">10. 4. 1898</date>
                      <placeName ref="#pmb118675">Port Said</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1898-04-10">10. 4. [1898]</date>
+                     <placeName ref="#pmb118675">Port-Said</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-04-17">17. 4. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7026,9 +7074,13 @@
                      <date when="1898-04-27" n="01">27. 4. 1898</date>
                      <placeName ref="#pmb118677">Singapur</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1898-04-27">27. 4. 1898</date>
+                     <placeName ref="#pmb118677">Singapore</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-05-21">21. 5. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7064,9 +7116,12 @@
                      <date when="1898-05-06">6. 5. 1898</date>
                      <placeName ref="#pmb44086">Hong Kong</placeName>
                   </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1898-05-07">7. 5. 1898</date>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-06-07">7. 6. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7222,9 +7277,13 @@
                      <date when="1898-08-05" n="02">5. 8. 1898</date>
                      <placeName ref="#pmb118680">Qingdao</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1898-08-05">5. 8. 1898</date>
+                     <placeName ref="#pmb118680">Tsintau China</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-09-19">19. 9. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7242,53 +7301,11 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="109"/>
-            </item>
-            <item corresp="L02856">
-               <title level="a">Paul Goldmann an Arthur Schnitzler, 24. 8. 1898</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb11485">Goldmann, Paul</persName>
-                     <date when="1898-08-24" n="02">24. 8. 1898</date>
-                     <placeName ref="#pmb118678">Yantai</placeName>
-                  </correspAction>
-                  <correspAction type="transmitted">
-                     <date when="1898-08-25">25. 8. 1898</date>
-                     <placeName ref="#pmb118678">Yantai</placeName>
-                  </correspAction>
-                  <correspAction type="transmitted">
-                     <date when="1898-09-04">4. 9. 1898</date>
-                     <placeName ref="#pmb44086">Hong Kong</placeName>
-                  </correspAction>
-                  <correspAction type="delivered">
-                     <date when="1898-10-08">8. 10. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1898-10-08">8. 10. 1898</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04127">Schnitzler an Schwarzkopf, [23. oder 24]. 8. 1898</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_11485"
-                          target="L02855">Goldmann an Schnitzler, 5. 8. 1898</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_11485"
                           target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="239"/>
+               <measure unit="zeichenanzahl" quantity="109"/>
             </item>
             <item corresp="L02854">
                <title level="a">Paul Goldmann an Arthur Schnitzler, 24. 8. [1898]</title>
@@ -7311,7 +7328,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
+                          target="L02855">Goldmann an Schnitzler, 5. 8. 1898</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -7329,9 +7346,13 @@
                      <date when="1898-09-10" n="01">10. 9. 1898</date>
                      <placeName ref="#pmb118682">Tianjin</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1898-09-10">10. 9. 1898</date>
+                     <placeName ref="#pmb118682">Tientsin</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-10-22">22. 10. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7404,7 +7425,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-11-10">10. 11. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 3/9 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7440,11 +7461,15 @@
                      <date when="1898-10-14">14. 10. 1898</date>
                      <placeName ref="#pmb118369">Peking</placeName>
                   </correspAction>
-                  <correspAction type="transmitted">
+                  <correspAction type="in_transit">
                      <date when="1898-10-18">18. 10. 1898</date>
                      <placeName ref="#pmb37885">Shanghai</placeName>
                   </correspAction>
-                  <correspAction type="transmitted">
+                  <correspAction type="in_transit">
+                     <date when="1898-10-20">20. 10. 1898</date>
+                     <placeName ref="#pmb37885">Shanghai</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
                      <date when="1898-10-27">27. 10. 1898</date>
                      <placeName ref="#pmb44086">Hong Kong</placeName>
                   </correspAction>
@@ -7539,8 +7564,24 @@
                      <placeName ref="#pmb118678">Yantai</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
+                     <date when="1898-10-21">21. 10. 1898</date>
+                     <placeName ref="#pmb118678">Yantai</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
                      <date when="1898-10-23">23. 10. 1898</date>
                      <placeName ref="#pmb37885">Shanghai</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1898-10-24">24. 10. 1898</date>
+                     <placeName ref="#pmb37885">Shanghai</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1898-10-27">27. 10. 1898</date>
+                     <placeName ref="#pmb44086">Hong Kong</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1898-11-26">26. 11. 1898</date>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7603,9 +7644,13 @@
                      <date when="1898-11-13" n="02">13. 11. 1898</date>
                      <placeName ref="#pmb53977">Yokohama</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1898-11-13">13. 11. 1898</date>
+                     <placeName ref="#pmb53977">武蔵 横浜 [Musashi Yokohama]</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-01-02">2. 1. 1899</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7790,9 +7835,12 @@
                      <date when="1899-03-20" n="01">20. 3. 1899</date>
                      <placeName ref="#pmb146">Frankfurt am Main</placeName>
                   </correspAction>
+                  <correspAction type="arrived">
+                     <date when="1899-03-20">20. 3. 1899</date>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-03-20">20. 3. 1899</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365211">Wien 9/2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8256,14 +8304,18 @@
                      <date when="1899-08-08" n="01">8. 8. 1899</date>
                      <placeName ref="#pmb55293">Rennes</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1899-08-08">8. 8. 1899</date>
+                     <placeName ref="#pmb55293">Rennes</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-08-11">11. 8. 1899</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" when="1899-08-15">[15. 8. 1899?]</date>
-                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                     <placeName ref="#pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -8289,6 +8341,14 @@
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1899-08-20" n="01">20. 8. 1899</date>
                      <placeName ref="#pmb134981">Le Mont-Saint-Michel</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1899-08-20">20. 8. 1899</date>
+                     <placeName ref="#pmb134981">Le Mont-S t-Michel Manche</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1899-08-23">23. 8. 1899</date>
+                     <placeName ref="#pmb213">Ischl</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8320,10 +8380,17 @@
                      <date when="1899-08-30" n="01">30. 8. 1899</date>
                      <placeName ref="#pmb55293">Rennes</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1899-08-30">30. 8. 1899</date>
+                     <placeName ref="#pmb55293">Rennes Ille-et-Vilaine</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1899-09-02">2. 9. [1899]</date>
+                     <placeName ref="#pmb213">Ischl</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1899-08-31" notAfter="1899-09-04">[31. 8. 1899
-                  – 4. 9. 1899?]</date>
+                     <date when="1899-09-02">2. 9. 1899</date>
                      <placeName ref="#pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspContext>
@@ -8901,12 +8968,19 @@
                      <persName ref="#pmb14948">Chlum, Auguste</persName>
                      <persName ref="#pmb28645">Coschell, Moritz</persName>
                      <date when="1900-01-11" n="01">11. 1. 1900</date>
+                     <placeName ref="#pmb365593">Passauerstraße 37</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1900-01-13">13. 1. 1900</date>
                      <placeName ref="#pmb168">Berlin</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1900-01-14">14. 1. 1900</date>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1900-01-12" notAfter="1900-01-16">[12. 1. 1900
-                  – 16. 1. 1900?]</date>
+                     <date when="1900-01-14">14. 1. 1900</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -9807,9 +9881,13 @@
                      <date when="1900-09-02" n="01">2. 9. 1900</date>
                      <placeName ref="#pmb91918">Trafoi</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1900-09-02">2. 9. 1900</date>
+                     <placeName ref="#pmb91918">Trafoi</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-09-04">4. 9. 1900</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -9932,11 +10010,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1900-09-22" n="01">22. 9. 1900</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <placeName ref="#pmb40583">Dessauer Straße</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1900-09-22">22. 9. 1900</date>
+                     <placeName ref="#pmb168">Berlin, S.W.</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-09-23">23. 9. 1900</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -10711,7 +10793,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01103">Schnitzler an Bahr, [14. 3.? 1901]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03061">Goldmann, Christians, Christians an Schnitzler, 24. 3. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03061">Goldmann, Christians, Christians an Schnitzler, [23. oder 24]. 3. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -10719,7 +10801,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L03061">Goldmann, Christians, Christians an Schnitzler, 24. 3. 1901</ref>
+                          target="L03061">Goldmann, Christians, Christians an Schnitzler, [23. oder 24]. 3. 1901</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
@@ -10727,18 +10809,22 @@
             </item>
             <item corresp="L03061">
                <title level="a">Paul Goldmann, Bertha und Rudolf Christians an Arthur
-               Schnitzler, 24. 3. 1901</title>
+               Schnitzler, [23. oder 24]. 3. 1901</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <persName ref="#pmb11093">Christians, Rudolf</persName>
                      <persName ref="#pmb144060">Christians, Bertha</persName>
-                     <date when="1901-03-24" n="01">24. 3. 1901</date>
+                     <date n="01" notBefore="1901-03-23" notAfter="1901-03-24">[23. oder 24]. 3. 1901</date>
+                     <placeName ref="#pmb144055">Lanzsch &amp; Co.</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1901-03-24">24. 3. 1901</date>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-03-25">25. 3. 1901</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -10782,7 +10868,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L03061">Goldmann, Christians, Christians an Schnitzler, 24. 3. 1901</ref>
+                          target="L03061">Goldmann, Christians, Christians an Schnitzler, [23. oder 24]. 3. 1901</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -15043,7 +15129,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01354">Bahr, Trebitsch an Schnitzler, 2[8?]. 12. 1903</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01354">Bahr, Trebitsch an Schnitzler, 28. 12. 1903</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01355">Burckhard an Schnitzler, 2. 1. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -15113,8 +15199,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01382">Hofmannsthal an Schnitzler, 14. 3. 1904</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01383">Hofmannsthal an Schnitzler, [zwischen 15. und
-                  20. 3.? 1904]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01385">Bahr an Schnitzler, [15. oder 16]. 3. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -15374,7 +15459,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01416">Hofmannsthal an Schnitzler, 10. 7. 1904</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04206">Schnitzler an Schwarzkopf, [10. 7. 1904?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L04212">Schnitzler an Schwarzkopf, 20. 7. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -15509,7 +15594,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04057">Schnitzler an Schwarzkopf, 15. 8. 1904</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01427">Schnitzler an Bahr, 17. 8. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01428">Beer-Hofmann an Schnitzler, [16. oder 17]. 8. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -17743,7 +17828,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1927-04-25" n="01">25. 4. 1927</date>
-                     <placeName ref="#pmb462">Venedig</placeName>
+                     <placeName ref="#pmb260">Hotel Bonvecchiati</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1927-04-25">25. 4. 1927</date>
+                     <placeName ref="#pmb365444">Verona Porta Nuova</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>

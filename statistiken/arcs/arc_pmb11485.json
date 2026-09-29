@@ -34,7 +34,7 @@
     {
       "id": "pmb118678",
       "name": "Yantai",
-      "count": 3
+      "count": 2
     },
     {
       "id": "pmb118680",
@@ -64,6 +64,11 @@
     {
       "id": "pmb144000",
       "name": "Hel",
+      "count": 1
+    },
+    {
+      "id": "pmb144055",
+      "name": "Lanzsch & Co.",
       "count": 1
     },
     {
@@ -119,7 +124,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 194
+      "count": 191
     },
     {
       "id": "pmb168815",
@@ -129,7 +134,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 39
+      "count": 38
     },
     {
       "id": "pmb168940",
@@ -139,7 +144,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 162
+      "count": 161
     },
     {
       "id": "pmb186",
@@ -159,7 +164,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 18
+      "count": 17
     },
     {
       "id": "pmb224",
@@ -175,6 +180,11 @@
       "id": "pmb255",
       "name": "Grand Hotel Wien",
       "count": 2
+    },
+    {
+      "id": "pmb260",
+      "name": "",
+      "count": 1
     },
     {
       "id": "pmb263",
@@ -207,6 +217,11 @@
       "count": 1
     },
     {
+      "id": "pmb365593",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb37885",
       "name": "Shanghai",
       "count": 3
@@ -214,6 +229,11 @@
     {
       "id": "pmb399",
       "name": "Hotel Continental [Berlin]",
+      "count": 1
+    },
+    {
+      "id": "pmb401",
+      "name": "Hotel Marienbad [München]",
       "count": 1
     },
     {
@@ -232,6 +252,11 @@
       "count": 1
     },
     {
+      "id": "pmb40415",
+      "name": "rue Vivienne",
+      "count": 1
+    },
+    {
       "id": "pmb40454",
       "name": "Villach",
       "count": 1
@@ -244,7 +269,7 @@
     {
       "id": "pmb40583",
       "name": "Dessauer Straße",
-      "count": 18
+      "count": 19
     },
     {
       "id": "pmb40694",
@@ -264,7 +289,7 @@
     {
       "id": "pmb414",
       "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb415",
@@ -324,7 +349,7 @@
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb46000",
@@ -339,7 +364,7 @@
     {
       "id": "pmb462",
       "name": "Venedig",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb465",
@@ -587,6 +612,14 @@
       ]
     },
     {
+      "from": "pmb260",
+      "to": "pmb63858",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Paul Goldmann, 25. 4. 1927"
+      ]
+    },
+    {
       "from": "pmb415",
       "to": "pmb168",
       "weight": 1,
@@ -600,14 +633,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Paul Goldmann, 1. 7. 1900"
-      ]
-    },
-    {
-      "from": "pmb462",
-      "to": "pmb63858",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Paul Goldmann, 25. 4. 1927"
       ]
     },
     {
@@ -697,9 +722,8 @@
     {
       "from": "pmb118678",
       "to": "pmb168934",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 24. 8. 1898",
         "Paul Goldmann an Arthur Schnitzler, 21. 10. 1898"
       ]
     },
@@ -766,6 +790,14 @@
       "weight": 1,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 11. 9. 1901"
+      ]
+    },
+    {
+      "from": "pmb144055",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann, Bertha und Rudolf Christians an Arthur Schnitzler, [23. oder 24]. 3. 1901"
       ]
     },
     {
@@ -952,11 +984,8 @@
     {
       "from": "pmb168",
       "to": "pmb168934",
-      "weight": 7,
+      "weight": 4,
       "titles": [
-        "Paul Goldmann, Marie Glümer, Auguste Chlum und Moritz Coschell an Arthur Schnitzler, 11. 1. 1900",
-        "Paul Goldmann an Arthur Schnitzler, 22. 9. 1900",
-        "Paul Goldmann, Bertha und Rudolf Christians an Arthur Schnitzler, 24. 3. 1901",
         "Ida Fulda u. a. an Arthur Schnitzler, [7. oder 8]. 12. 1901",
         "Paul Goldmann an Arthur Schnitzler, 26. 4. 1902",
         "Paul Goldmann an Arthur Schnitzler, 27. 4. [1902?]",
@@ -1239,14 +1268,6 @@
       "weight": 1,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 11. 1. [1896]"
-      ]
-    },
-    {
-      "from": "pmb182",
-      "to": "pmb167789",
-      "weight": 1,
-      "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 3. 12. 1891"
       ]
     },
     {
@@ -1554,6 +1575,14 @@
       ]
     },
     {
+      "from": "pmb365593",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann, Marie Glümer, Auguste Chlum und Moritz Coschell an Arthur Schnitzler, 11. 1. 1900"
+      ]
+    },
+    {
       "from": "pmb37885",
       "to": "pmb30",
       "weight": 1,
@@ -1579,11 +1608,27 @@
       ]
     },
     {
+      "from": "pmb401",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 4. 9. 1897"
+      ]
+    },
+    {
       "from": "pmb40371",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 6. 9. 1907"
+      ]
+    },
+    {
+      "from": "pmb40415",
+      "to": "pmb167789",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 3. 12. 1891"
       ]
     },
     {
@@ -1613,8 +1658,9 @@
     {
       "from": "pmb40583",
       "to": "pmb168934",
-      "weight": 3,
+      "weight": 4,
       "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 22. 9. 1900",
         "Paul Goldmann an Arthur Schnitzler, 21. 3. 1902",
         "Paul Goldmann an Arthur Schnitzler, 29. 6. 1903",
         "Paul Goldmann an Arthur Schnitzler, 6. 8. 1903"
@@ -1791,10 +1837,9 @@
     {
       "from": "pmb45258",
       "to": "pmb168934",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 14. 8. 1897",
-        "Paul Goldmann an Arthur Schnitzler, 4. 9. 1897"
+        "Paul Goldmann an Arthur Schnitzler, 14. 8. 1897"
       ]
     },
     {
@@ -1973,17 +2018,10 @@
     },
     {
       "from": "pmb55293",
-      "to": "pmb213",
-      "weight": 1,
-      "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 8. 8. 1899"
-      ]
-    },
-    {
-      "from": "pmb55293",
       "to": "pmb414",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 8. 8. 1899",
         "Paul Goldmann an Arthur Schnitzler, 30. 8. 1899"
       ]
     },
@@ -1992,7 +2030,7 @@
       "to": "pmb167789",
       "weight": 1,
       "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 5. 7. 1891"
+        "Paul Goldmann an Arthur Schnitzler, 6. 7. 1891"
       ]
     },
     {
@@ -2048,7 +2086,7 @@
       "to": "pmb168934",
       "weight": 1,
       "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 11. 8. 1897"
+        "Paul Goldmann an Arthur Schnitzler, [10. oder 11]. 8. 1897"
       ]
     },
     {

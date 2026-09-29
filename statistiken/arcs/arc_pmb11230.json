@@ -2,6 +2,11 @@
   "correspondent": "Ehrenstein, Albert",
   "nodes": [
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
       "id": "pmb189",
       "name": "Semmering",
       "count": 1
@@ -9,7 +14,7 @@
     {
       "id": "pmb237241",
       "name": "Ottakringer Straße 114",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb34498",
@@ -29,10 +34,18 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 49
+      "count": 48
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168940",
+      "to": "pmb237241",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Albert Ehrenstein, 5. 6. 1906"
+      ]
+    },
     {
       "from": "pmb189",
       "to": "pmb50",
@@ -52,10 +65,9 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 10,
+      "weight": 9,
       "titles": [
         "Arthur Schnitzler an Charlotte Ehrenstein, [vor dem 21. 5.? 1906]",
-        "Arthur Schnitzler an Albert Ehrenstein, 5. 6. 1906",
         "Arthur Schnitzler an Albert Ehrenstein, 20. 10. 1908",
         "Arthur Schnitzler an Albert Ehrenstein, 9. 11. 1908",
         "Arthur Schnitzler an Albert Ehrenstein, 20. 1. 1909",

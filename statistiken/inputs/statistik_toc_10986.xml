@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-28Z</date>
+            <date>2026-09-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10986.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -48,9 +48,13 @@
                      <date when="1903-06-21" n="01">21. 6. 1903</date>
                      <placeName ref="#pmb34528">Szklarska Poręba</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1903-06-21">21. 6. 1903</date>
+                     <placeName ref="#pmb34528">Schreiberhau</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-06-22">22. 6. 1903</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365208">9/3 Wien 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>

@@ -4,7 +4,7 @@
     {
       "id": "pmb1231",
       "name": "Steinsdorfstraße",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb167782",
@@ -17,24 +17,29 @@
       "count": 1
     },
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
       "id": "pmb45258",
       "name": "München",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 3
-    },
-    {
-      "id": "pmb59",
-      "name": "IX., Alsergrund",
-      "count": 1
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
     {
-      "from": "pmb50",
+      "from": "pmb168940",
       "to": "pmb1231",
       "weight": 1,
       "titles": [
@@ -49,6 +54,14 @@
       "weight": 1,
       "titles": [
         "Michael Georg Conrad an Arthur Schnitzler, 28. 3. 1893"
+      ]
+    },
+    {
+      "from": "pmb1231",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Michael Georg Conrad an Arthur Schnitzler, 22. 1. 1904"
       ]
     },
     {
@@ -73,14 +86,6 @@
       "weight": 1,
       "titles": [
         "Michael Georg Conrad an Arthur Schnitzler, 26. 5. 1906"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb59",
-      "weight": 1,
-      "titles": [
-        "Michael Georg Conrad an Arthur Schnitzler, 22. 1. 1904"
       ]
     }
   ]

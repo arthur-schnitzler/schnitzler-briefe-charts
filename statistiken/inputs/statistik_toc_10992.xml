@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-28Z</date>
+            <date>2026-09-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10992.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -978,7 +978,6 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-06-14">14. 6. [1899]</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1717,7 +1716,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04314">Schwarzkopf an Schnitzler, 27. 2. 1904</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01377">Bahr an Schnitzler, [5.] 3. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01377">Bahr an Schnitzler, [4. oder 5]. 3. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -2641,7 +2640,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1914-12-18" n="01">18. 12. 1914</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb365590">1/1 Telegrafenamt 4</placeName>
+                     <date when="1914-12-18">18. 12. 1914</date>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10992">Brandes, Georg</persName>

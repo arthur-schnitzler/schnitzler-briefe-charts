@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-28Z</date>
+            <date>2026-09-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11098.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -183,12 +183,24 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11098">Conrad, Michael Georg</persName>
                      <date when="1904-01-22" n="02">22. 1. 1904</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb1231">Steinsdorf<c rendition="#langesS">s</c>tr. 7</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-01-22">22. 1. 1904</date>
+                     <placeName ref="#pmb45258">München 20</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <date when="1904-01-23">23. 1. 1904</date>
+                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1904-01-23">23. 1. 1904</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1904-01-23">23. 1. 1904</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11098">Conrad, Michael Georg</ref>
@@ -213,7 +225,14 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1904-01-24" n="01">24. 1. 1904</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb50">/2 Wien</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1904-01-25">25. 1. 1904</date>
+                     <placeName ref="#pmb45258">München 2. B.Z.</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11098">Conrad, Michael Georg</persName>

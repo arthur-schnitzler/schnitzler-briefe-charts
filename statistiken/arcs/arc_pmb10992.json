@@ -29,7 +29,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 9
+      "count": 10
     },
     {
       "id": "pmb168934",
@@ -114,7 +114,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 84
+      "count": 83
     },
     {
       "id": "pmb667",
@@ -167,6 +167,14 @@
       ]
     },
     {
+      "from": "pmb168815",
+      "to": "pmb36300",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Georg Brandes, 18. 12. 1914"
+      ]
+    },
+    {
       "from": "pmb212",
       "to": "pmb36300",
       "weight": 1,
@@ -210,7 +218,7 @@
     {
       "from": "pmb50",
       "to": "pmb36300",
-      "weight": 26,
+      "weight": 25,
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 11. 1. 1897",
         "Arthur Schnitzler an Georg Brandes, 4. 1. 1899",
@@ -221,7 +229,6 @@
         "Arthur Schnitzler an Georg Brandes, 3. 5. 1900",
         "Arthur Schnitzler an Georg Brandes, 12. 10. 1911",
         "Arthur Schnitzler an Georg Brandes, 27. 2. 1913",
-        "Arthur Schnitzler an Georg Brandes, 18. 12. 1914",
         "Arthur Schnitzler an Georg Brandes, 8. 1. 1915",
         "Arthur Schnitzler an Georg Brandes, 2. 8. 1918",
         "Arthur Schnitzler an Georg Brandes, 30. 11. 1918",

@@ -2,24 +2,29 @@
   "correspondent": "Adam, Robert",
   "nodes": [
     {
-      "id": "pmb1036",
-      "name": "Gutenstein",
-      "count": 1
-    },
-    {
-      "id": "pmb1239",
-      "name": "Meidlinger Hauptstraße",
-      "count": 46
-    },
-    {
       "id": "pmb1248",
       "name": "Andorf",
       "count": 2
     },
     {
+      "id": "pmb1263",
+      "name": "Erholungsheim der Bundesbeamten",
+      "count": 1
+    },
+    {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 19
+    },
+    {
       "id": "pmb34401",
       "name": "Altaussee",
       "count": 2
+    },
+    {
+      "id": "pmb365563",
+      "name": "",
+      "count": 47
     },
     {
       "id": "pmb41069",
@@ -39,7 +44,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 108
+      "count": 89
     },
     {
       "id": "pmb521",
@@ -48,6 +53,38 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168815",
+      "to": "pmb1263",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Robert Adam, 20. 7. 192[0]"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb365563",
+      "weight": 17,
+      "titles": [
+        "Arthur und Olga Schnitzler an Robert Adam, 2[2?]. 9. 1911",
+        "Arthur Schnitzler an Robert Adam, 15. 5. 1916",
+        "Arthur Schnitzler an Robert Adam, 23. 11. 1916",
+        "Arthur Schnitzler an Robert Adam, 21. 12. 1916",
+        "Arthur Schnitzler an Robert Adam, 15. 6. 1918",
+        "Arthur Schnitzler an Robert Adam, 6. 8. 1918",
+        "Arthur Schnitzler an Robert Adam, 19. 8. 1918",
+        "Arthur Schnitzler an Robert Adam, 5. 10. 1918",
+        "Arthur Schnitzler an Robert Adam, 4. 11. 1918",
+        "Arthur Schnitzler an Robert Adam, 20. 12. [1918]",
+        "Arthur Schnitzler an Robert Adam, 21. 1. 1919",
+        "Arthur Schnitzler an Robert Adam, 28. 10. 1919",
+        "Arthur Schnitzler an Robert Adam, 12. 6. 1920",
+        "Arthur Schnitzler an Robert Adam, 25. 6. 1920",
+        "Arthur Schnitzler an Robert Adam, 28. 10. 1920",
+        "Arthur Schnitzler an Robert Adam, 20. 11. 1920",
+        "Arthur Schnitzler an Robert Adam, 9. 4. 1927"
+      ]
+    },
     {
       "from": "pmb34401",
       "to": "pmb34401",
@@ -59,16 +96,16 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb1036",
+      "to": "pmb1248",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Robert Adam, 20. 7. 192[0]"
+        "Arthur Schnitzler an Robert Adam, 24. 7. 1918"
       ]
     },
     {
       "from": "pmb50",
-      "to": "pmb1239",
-      "weight": 45,
+      "to": "pmb365563",
+      "weight": 28,
       "titles": [
         "Arthur Schnitzler an Robert Adam, 20. 3. 1909",
         "Arthur Schnitzler an Robert Adam, 31. 10. 1910",
@@ -76,17 +113,13 @@
         "Arthur Schnitzler an Robert Adam, 8. 1. 1911",
         "Arthur Schnitzler an Robert Adam, 7. 2. 1911",
         "Arthur Schnitzler an Robert Adam, 11. 2. 1911",
-        "Arthur und Olga Schnitzler an Robert Adam, 2[2?]. 9. 1911",
-        "Arthur Schnitzler an Robert Adam, 15. 5. 1916",
         "Arthur Schnitzler an Robert Adam, 18. 5. 1916",
         "Arthur Schnitzler an Robert Adam, 29. 6. 1916",
         "Arthur Schnitzler an Robert Adam, 9. 10. 1916",
         "Arthur Schnitzler an Robert Adam, 11. 10. 1916",
         "Arthur Schnitzler an Robert Adam, 16. 11. 1916",
-        "Arthur Schnitzler an Robert Adam, 23. 11. 1916",
         "Arthur Schnitzler an Robert Adam, 11. 12. 1916",
         "Arthur Schnitzler an Robert Adam, 12. 12. 1916",
-        "Arthur Schnitzler an Robert Adam, 21. 12. 1916",
         "Arthur Schnitzler an Robert Adam, 22. 1. 1917",
         "Arthur Schnitzler an Robert Adam, 28. 5. 1917",
         "Arthur Schnitzler an Robert Adam, 27. 8. 1917",
@@ -94,35 +127,14 @@
         "Arthur Schnitzler an Robert Adam, 22. 10. 1917",
         "Arthur Schnitzler an Robert Adam, 27. 10. 1917",
         "Arthur Schnitzler an Robert Adam, 11. 6. 1918",
-        "Arthur Schnitzler an Robert Adam, 15. 6. 1918",
-        "Arthur Schnitzler an Robert Adam, 6. 8. 1918",
-        "Arthur Schnitzler an Robert Adam, 19. 8. 1918",
-        "Arthur Schnitzler an Robert Adam, 5. 10. 1918",
-        "Arthur Schnitzler an Robert Adam, 4. 11. 1918",
         "Arthur Schnitzler an Robert Adam, 13. 11. 1918",
-        "Arthur Schnitzler an Robert Adam, 20. 12. [1918]",
-        "Arthur Schnitzler an Robert Adam, 21. 1. 1919",
         "Arthur Schnitzler an Robert Adam, 5. 8. 1919",
-        "Arthur Schnitzler an Robert Adam, 28. 10. 1919",
-        "Arthur Schnitzler an Robert Adam, 12. 6. 1920",
-        "Arthur Schnitzler an Robert Adam, 25. 6. 1920",
-        "Arthur Schnitzler an Robert Adam, 28. 10. 1920",
-        "Arthur Schnitzler an Robert Adam, 20. 11. 1920",
         "Arthur Schnitzler an Robert Adam, 30. 3. 1921",
         "Arthur Schnitzler an Robert Adam, 29. 5. 1921",
-        "Arthur Schnitzler an Robert Adam, 9. 4. 1927",
         "Arthur Schnitzler an Robert Adam, 10. 4. 1928",
         "Arthur Schnitzler an Robert Adam, 14. 6. 1929",
         "Arthur Schnitzler an Robert Adam, 23. 12. 1929",
         "Arthur Schnitzler an Robert Adam, 12. 6. 1930"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb1248",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Robert Adam, 24. 7. 1918"
       ]
     },
     {
@@ -159,7 +171,7 @@
     },
     {
       "from": "pmb521",
-      "to": "pmb1239",
+      "to": "pmb365563",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Robert Adam, 15. 6. 1917"
@@ -173,6 +185,14 @@
       "weight": 1,
       "titles": [
         "Robert Adam an Arthur Schnitzler, 17. 7. 1918"
+      ]
+    },
+    {
+      "from": "pmb365563",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Robert Adam an Arthur Schnitzler, 10. 5. 1916"
       ]
     },
     {
@@ -200,7 +220,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 41,
+      "weight": 40,
       "titles": [
         "Robert Adam an Arthur Schnitzler, 25. 2. 1909",
         "Robert Adam an Arthur Schnitzler, 29. 10. 1910",
@@ -208,7 +228,6 @@
         "Robert Adam an Arthur Schnitzler, 9. 2. 1911",
         "Robert Adam an Arthur Schnitzler, 26. 9. 1915",
         "Robert Adam an Arthur Schnitzler, 21. 10. 1915",
-        "Robert Adam an Arthur Schnitzler, 10. 5. 1916",
         "Robert Adam an Arthur Schnitzler, 21. 5. 1916",
         "Robert Adam an Arthur Schnitzler, 24. 9. 1916",
         "Robert Adam an Arthur Schnitzler, 20. 11. 1916",
