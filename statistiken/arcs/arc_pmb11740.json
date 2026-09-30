@@ -8,7 +8,7 @@
     },
     {
       "id": "pmb145165",
-      "name": "Hauptstraße 56",
+      "name": "Hauptstraße 56 [Hinterbrühl]",
       "count": 1
     },
     {
@@ -34,7 +34,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 31
+      "count": 32
     },
     {
       "id": "pmb168934",
@@ -99,6 +99,11 @@
     {
       "id": "pmb234089",
       "name": "Grand Hotel San Domenico",
+      "count": 1
+    },
+    {
+      "id": "pmb244901",
+      "name": "",
       "count": 1
     },
     {
@@ -367,11 +372,6 @@
       "count": 2
     },
     {
-      "id": "pmb44531",
-      "name": "Mozartgasse",
-      "count": 1
-    },
-    {
       "id": "pmb44686",
       "name": "Sládkovičovo",
       "count": 1
@@ -434,7 +434,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 438
+      "count": 437
     },
     {
       "id": "pmb513",
@@ -604,6 +604,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo Hofmannsthal, 3. 9. 1923"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb244901",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerty Hofmannsthal, 17. 2. 1931"
       ]
     },
     {
@@ -969,14 +977,6 @@
         "Arthur Schnitzler an Hugo Hofmannsthal, 16. 11. 1925",
         "Arthur Schnitzler an Gerty Hofmannsthal, 2. 8. 1929",
         "Arthur Schnitzler an Gerty von Hofmannsthal, 12. 8. 1929"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb44531",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Gerty Hofmannsthal, 17. 2. 1931"
       ]
     },
     {

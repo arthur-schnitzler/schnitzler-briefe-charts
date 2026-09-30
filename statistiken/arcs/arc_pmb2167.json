@@ -67,6 +67,11 @@
       "count": 1
     },
     {
+      "id": "pmb146054",
+      "name": "Linzer Gasse",
+      "count": 1
+    },
+    {
       "id": "pmb147362",
       "name": "Mendelgebirge",
       "count": 1
@@ -199,16 +204,16 @@
     {
       "id": "pmb237626",
       "name": "Armbrustergasse 6",
-      "count": 5
+      "count": 7
     },
     {
       "id": "pmb237630",
-      "name": "",
+      "name": "Währinger Straße 14",
       "count": 1
     },
     {
       "id": "pmb255105",
-      "name": "",
+      "name": "Berggasse 13",
       "count": 2
     },
     {
@@ -219,7 +224,7 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 10
+      "count": 9
     },
     {
       "id": "pmb34199",
@@ -389,7 +394,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 329
+      "count": 328
     },
     {
       "id": "pmb51650",
@@ -432,11 +437,6 @@
       "count": 1
     },
     {
-      "id": "pmb722",
-      "name": "Armbrustergasse",
-      "count": 1
-    },
-    {
       "id": "pmb723",
       "name": "Wildbad Waldbrunn",
       "count": 4
@@ -468,7 +468,7 @@
     },
     {
       "id": "pmb842",
-      "name": "Karlsbad",
+      "name": "Karlovy Vary",
       "count": 1
     },
     {
@@ -628,18 +628,18 @@
     },
     {
       "from": "pmb168940",
-      "to": "pmb411",
+      "to": "pmb237626",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Felix Salten, 27. 6. 1910"
+        "Arthur Schnitzler an Felix Salten, 18. 1. 1907"
       ]
     },
     {
       "from": "pmb168940",
-      "to": "pmb722",
+      "to": "pmb411",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Felix Salten, 18. 1. 1907"
+        "Arthur Schnitzler an Felix Salten, 27. 6. 1910"
       ]
     },
     {
@@ -998,6 +998,14 @@
       ]
     },
     {
+      "from": "pmb146054",
+      "to": "pmb414",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 21. 8. 1897"
+      ]
+    },
+    {
       "from": "pmb147362",
       "to": "pmb168940",
       "weight": 1,
@@ -1114,7 +1122,7 @@
       "to": "pmb168940",
       "weight": 1,
       "titles": [
-        "Felix Salten, Jakob Wassermann, Otto Brahm, Ludwig Brahm an Arthur Schnitzler, 21. 12. [1907?]"
+        "Felix Salten, Jakob Wassermann, Otto Brahm, Ludwig Brahm an Arthur Schnitzler, [20. oder 21]. 12. [1907?]"
       ]
     },
     {
@@ -1244,11 +1252,12 @@
     {
       "from": "pmb237626",
       "to": "pmb168940",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 5. 9. 1907",
         "Felix Salten an Arthur Schnitzler, 1. 10. 1907",
-        "Felix Salten an Arthur Schnitzler, 16. 1. 1908"
+        "Felix Salten an Arthur Schnitzler, 16. 1. 1908",
+        "Felix Salten an Arthur Schnitzler, 24. 3. 1908"
       ]
     },
     {
@@ -1307,14 +1316,6 @@
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 2[3]. 6. 1901"
-      ]
-    },
-    {
-      "from": "pmb30",
-      "to": "pmb414",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 21. 8. 1897"
       ]
     },
     {
@@ -1546,10 +1547,9 @@
     {
       "from": "pmb50",
       "to": "pmb168940",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Felix Salten an Arthur Schnitzler, [22. 12. 1904?]",
-        "Felix Salten an Arthur Schnitzler, 24. 3. 1908"
+        "Felix Salten an Arthur Schnitzler, [22. 12. 1904?]"
       ]
     },
     {

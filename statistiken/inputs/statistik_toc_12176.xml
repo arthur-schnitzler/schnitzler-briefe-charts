@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-29Z</date>
+            <date>2026-09-30Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12176.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -653,10 +653,14 @@
                      <date when="1926-05-23" n="01">23. 5. 1926</date>
                      <placeName ref="#pmb43995">Arosa</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1926-05-24">24. 5. 1926</date>
+                     <placeName ref="#pmb43995">Arosa</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1926-05-24" notAfter="1926-05-28">[24. 5. 1926
-                  – 28. 5. 1926?]</date>
+                     <date evidence="conjecture" notBefore="1926-05-25" notAfter="1926-05-29">[25. 5. 1926
+                  – 29. 5. 1926?]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
@@ -682,6 +686,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12176">Mann, Thomas</persName>
                      <date when="1927-12-25" n="02">25. 12. 1927</date>
+                     <placeName ref="#pmb1213">Poschingerstr. 1</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1927-12-25">25. 12. 1927</date>
                      <placeName ref="#pmb45258">München</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -805,7 +813,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1929-11-18" n="01">18. 11. 1929</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1929-11-18">18. 11. 1929</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12176">Mann, Thomas</persName>

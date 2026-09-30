@@ -27,6 +27,11 @@
       "count": 2
     },
     {
+      "id": "pmb127",
+      "name": "Hotel Bristol Berlin",
+      "count": 1
+    },
+    {
       "id": "pmb1277",
       "name": "Messina",
       "count": 1
@@ -59,7 +64,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 9
+      "count": 8
     },
     {
       "id": "pmb168815",
@@ -713,7 +718,7 @@
     },
     {
       "id": "pmb806",
-      "name": "",
+      "name": "Hotel Rheinischer Hof München",
       "count": 1
     },
     {
@@ -728,7 +733,7 @@
     },
     {
       "id": "pmb842",
-      "name": "Karlsbad",
+      "name": "Karlovy Vary",
       "count": 1
     },
     {
@@ -936,6 +941,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 11. 3. 1905"
+      ]
+    },
+    {
+      "from": "pmb127",
+      "to": "pmb207296",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 12. 1901"
       ]
     },
     {
@@ -1173,11 +1186,10 @@
     {
       "from": "pmb168",
       "to": "pmb207296",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 28. 4. 1899",
         "Arthur Schnitzler an Gustav Schwarzkopf, 30. 4. 1899",
-        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 12. 1901",
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 12. 2. 1904"
       ]
     },

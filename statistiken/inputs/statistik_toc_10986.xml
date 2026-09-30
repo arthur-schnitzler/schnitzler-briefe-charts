@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-29Z</date>
+            <date>2026-09-30Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10986.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -136,14 +136,18 @@
             </item>
             <item corresp="L02578">
                <title level="a">Felix Salten, Jakob Wassermann, Otto Brahm, Ludwig Brahm an Arthur
-               Schnitzler, 21. 12. [1907?]</title>
+               Schnitzler, [20. oder 21]. 12. [1907?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <persName ref="#pmb5187">Brahm, Otto</persName>
                      <persName ref="#pmb10986">Brahm, Ludwig</persName>
                      <persName ref="#pmb13055">Wassermann, Jakob</persName>
-                     <date when="1907-12-21" n="01">21. 12. [1907?]</date>
+                     <date n="01" notBefore="1907-12-20" notAfter="1907-12-21">[20. oder 21]. 12. [1907?]</date>
+                     <placeName ref="#pmb189">Semmering</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-12-21">21. 12. 1907</date>
                      <placeName ref="#pmb189">Semmering</placeName>
                   </correspAction>
                   <correspAction type="received">

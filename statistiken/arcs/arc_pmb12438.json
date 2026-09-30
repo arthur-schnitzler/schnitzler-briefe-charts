@@ -14,7 +14,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 19
+      "count": 23
     },
     {
       "id": "pmb34401",
@@ -22,18 +22,18 @@
       "count": 2
     },
     {
+      "id": "pmb34435",
+      "name": "Meran Haus",
+      "count": 1
+    },
+    {
       "id": "pmb365563",
-      "name": "",
+      "name": "Meidlinger Hauptstraße 56",
       "count": 47
     },
     {
       "id": "pmb41069",
       "name": "Millstatt am See",
-      "count": 1
-    },
-    {
-      "id": "pmb415",
-      "name": "Bad Aussee",
       "count": 1
     },
     {
@@ -44,7 +44,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 89
+      "count": 85
     },
     {
       "id": "pmb521",
@@ -63,8 +63,16 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb34435",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Robert Adam, 14. 8. 1929"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb365563",
-      "weight": 17,
+      "weight": 20,
       "titles": [
         "Arthur und Olga Schnitzler an Robert Adam, 2[2?]. 9. 1911",
         "Arthur Schnitzler an Robert Adam, 15. 5. 1916",
@@ -82,7 +90,10 @@
         "Arthur Schnitzler an Robert Adam, 25. 6. 1920",
         "Arthur Schnitzler an Robert Adam, 28. 10. 1920",
         "Arthur Schnitzler an Robert Adam, 20. 11. 1920",
-        "Arthur Schnitzler an Robert Adam, 9. 4. 1927"
+        "Arthur Schnitzler an Robert Adam, 9. 4. 1927",
+        "Arthur Schnitzler an Robert Adam, 14. 6. 1929",
+        "Arthur Schnitzler an Robert Adam, 23. 12. 1929",
+        "Arthur Schnitzler an Robert Adam, 12. 6. 1930"
       ]
     },
     {
@@ -105,7 +116,7 @@
     {
       "from": "pmb50",
       "to": "pmb365563",
-      "weight": 28,
+      "weight": 25,
       "titles": [
         "Arthur Schnitzler an Robert Adam, 20. 3. 1909",
         "Arthur Schnitzler an Robert Adam, 31. 10. 1910",
@@ -131,18 +142,7 @@
         "Arthur Schnitzler an Robert Adam, 5. 8. 1919",
         "Arthur Schnitzler an Robert Adam, 30. 3. 1921",
         "Arthur Schnitzler an Robert Adam, 29. 5. 1921",
-        "Arthur Schnitzler an Robert Adam, 10. 4. 1928",
-        "Arthur Schnitzler an Robert Adam, 14. 6. 1929",
-        "Arthur Schnitzler an Robert Adam, 23. 12. 1929",
-        "Arthur Schnitzler an Robert Adam, 12. 6. 1930"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb415",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Robert Adam, 14. 8. 1929"
+        "Arthur Schnitzler an Robert Adam, 10. 4. 1928"
       ]
     },
     {

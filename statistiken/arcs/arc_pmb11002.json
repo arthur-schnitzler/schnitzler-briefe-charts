@@ -9,7 +9,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb30",
@@ -24,20 +24,27 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 17
+      "count": 16
     }
   ],
   "links_from_schnitzler": [
     {
+      "from": "pmb168815",
+      "to": "pmb1092",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Felix Braun, 28. 5. 1927"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb1092",
-      "weight": 5,
+      "weight": 4,
       "titles": [
         "Arthur Schnitzler an Felix Braun, 19. 10. 1924",
         "Arthur Schnitzler an Felix Braun, 28. 12. 1924",
         "Arthur Schnitzler an Felix Braun, 26. 12. 1925",
-        "Arthur Schnitzler an Felix Braun, [nach dem 15. 3. 1926?]",
-        "Arthur Schnitzler an Felix Braun, 28. 5. 1927"
+        "Arthur Schnitzler an Felix Braun, [nach dem 15. 3. 1926?]"
       ]
     },
     {

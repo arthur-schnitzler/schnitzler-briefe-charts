@@ -78,7 +78,7 @@
     },
     {
       "id": "pmb145165",
-      "name": "Hauptstraße 56",
+      "name": "Hauptstraße 56 [Hinterbrühl]",
       "count": 1
     },
     {
@@ -124,7 +124,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 191
+      "count": 189
     },
     {
       "id": "pmb168815",
@@ -183,7 +183,7 @@
     },
     {
       "id": "pmb260",
-      "name": "",
+      "name": "Hotel Bonvecchiati",
       "count": 1
     },
     {
@@ -199,7 +199,7 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 8
+      "count": 7
     },
     {
       "id": "pmb34401",
@@ -218,7 +218,7 @@
     },
     {
       "id": "pmb365593",
-      "name": "",
+      "name": "Passauerstraße 37",
       "count": 1
     },
     {
@@ -269,7 +269,7 @@
     {
       "id": "pmb40583",
       "name": "Dessauer Straße",
-      "count": 19
+      "count": 21
     },
     {
       "id": "pmb40694",
@@ -379,7 +379,7 @@
     {
       "id": "pmb470",
       "name": "Edlach an der Rax",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb483",
@@ -452,6 +452,11 @@
       "count": 1
     },
     {
+      "id": "pmb714",
+      "name": "Hotel Edlacherhof",
+      "count": 1
+    },
+    {
       "id": "pmb723",
       "name": "Wildbad Waldbrunn",
       "count": 3
@@ -483,7 +488,7 @@
     },
     {
       "id": "pmb842",
-      "name": "Karlsbad",
+      "name": "Karlovy Vary",
       "count": 1
     },
     {
@@ -569,6 +574,11 @@
     {
       "id": "pmb92294",
       "name": "Hotel Tegetthoff",
+      "count": 1
+    },
+    {
+      "id": "pmb93043",
+      "name": "Hotel Goldenes Horn",
       "count": 1
     },
     {
@@ -984,11 +994,9 @@
     {
       "from": "pmb168",
       "to": "pmb168934",
-      "weight": 4,
+      "weight": 2,
       "titles": [
         "Ida Fulda u. a. an Arthur Schnitzler, [7. oder 8]. 12. 1901",
-        "Paul Goldmann an Arthur Schnitzler, 26. 4. 1902",
-        "Paul Goldmann an Arthur Schnitzler, 27. 4. [1902?]",
         "Ludwig Fulda u. a. an Arthur Schnitzler, 18. 9. 1902"
       ]
     },
@@ -1560,14 +1568,6 @@
     },
     {
       "from": "pmb30",
-      "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 12. 9. 1893"
-      ]
-    },
-    {
-      "from": "pmb30",
       "to": "pmb50",
       "weight": 1,
       "titles": [
@@ -1658,10 +1658,12 @@
     {
       "from": "pmb40583",
       "to": "pmb168934",
-      "weight": 4,
+      "weight": 6,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 22. 9. 1900",
         "Paul Goldmann an Arthur Schnitzler, 21. 3. 1902",
+        "Paul Goldmann an Arthur Schnitzler, 26. 4. 1902",
+        "Paul Goldmann an Arthur Schnitzler, 27. 4. [1902?]",
         "Paul Goldmann an Arthur Schnitzler, 29. 6. 1903",
         "Paul Goldmann an Arthur Schnitzler, 6. 8. 1903"
       ]
@@ -2116,7 +2118,7 @@
     },
     {
       "from": "pmb842",
-      "to": "pmb470",
+      "to": "pmb714",
       "weight": 1,
       "titles": [
         "Paul Goldmann, Eva Goldmann und Georg Brandes an Arthur Schnitzler, 26. 7. 1909"
@@ -2135,7 +2137,7 @@
       "to": "pmb167789",
       "weight": 1,
       "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 30. 6. 1891"
+        "Paul Goldmann an Arthur Schnitzler, [29. oder 30]. 6. 1891"
       ]
     },
     {
@@ -2255,6 +2257,14 @@
       "weight": 1,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 7. 10. 1907"
+      ]
+    },
+    {
+      "from": "pmb93043",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 12. 9. 1893"
       ]
     },
     {

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-29Z</date>
+            <date>2026-09-30Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_4408.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,6 +69,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1916-11-08" n="01">8. 11. 1916</date>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1916-11-08">8. 11. 1916</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="in_transit">

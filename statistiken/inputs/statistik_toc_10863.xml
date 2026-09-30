@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-29Z</date>
+            <date>2026-09-30Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10863.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -2702,12 +2702,12 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-07-23">23. 7. 1893</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1893-07-23">23. 7. 1893</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Salzburg</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -3109,7 +3109,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-09-18">18. 9. 1893</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="redirected">
                      <date when="1893-09-25">25. 9. 1893</date>
@@ -4331,7 +4331,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1894-08-19">19. 8. 1894</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1894-08-19">[19]. 8. 1894</date>
@@ -7661,7 +7661,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1896-06-26">26. 6. 1896</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="arrived">
                      <date when="1896-06-27">27. 6. 1896</date>
@@ -10295,11 +10295,11 @@
                   </correspAction>
                   <correspAction type="arrived">
                      <date when="1897-08-18">18. 8. 1897</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="redirected">
                      <date when="1897-08-18">18. 8. 1897</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-08-18">18. 8. 1897</date>
@@ -15816,7 +15816,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-07-18">18. 7. 1900</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-07-19">19. 7. 1900</date>
@@ -24388,13 +24388,17 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date when="1910-01-23" n="01">23. 1. 1910</date>
+                     <placeName ref="#pmb53107">Hotel Bellevue [Dresden]</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-01-23">23. 1. 1910</date>
                      <placeName ref="#pmb866">Dresden</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
                      <date evidence="conjecture" notBefore="1910-01-24" notAfter="1910-01-28">[24. 1. 1910
                   – 28. 1. 1910?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb235251">Hasenauerstrasse 59</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -24631,18 +24635,22 @@
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1910-05-18" n="01">18. 5. 1910</date>
-                     <placeName ref="#pmb484">Zürich</placeName>
+                     <placeName ref="#pmb53124">Grand Hotel Bellevue [Zürich]</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
+                     <date when="1910-05-19">19. 5. 1910</date>
+                     <placeName ref="#pmb53124">Grand Hotel Bellevue [Zürich]</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
                      <date when="1910-05-19">19. 5. 1910</date>
                      <placeName ref="#pmb484">Zürich</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
-                     <date evidence="conjecture" notBefore="1910-05-19" notAfter="1910-05-23">[19. 5. 1910
+                     <date evidence="conjecture" notBefore="1910-05-20" notAfter="1910-05-23">[20. 5. 1910
                   – 23. 5. 1910?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb235251">Hasenauerstrasse 59</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -24669,7 +24677,7 @@
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1910-05-21" n="01">21. 5. 1910</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb53227">Axenstein</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1910-05-21">21. 5. 1910</date>
@@ -24678,8 +24686,8 @@
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
-                     <date evidence="conjecture" notBefore="1910-05-21" notAfter="1910-05-23">[21. 5. 1910
-                  – 25. 5. 1910?]</date>
+                     <date evidence="conjecture" notBefore="1910-05-22" notAfter="1910-05-26">[22. 5. 1910
+                  – 26. 5. 1910?]</date>
                      <placeName ref="#pmb235251">Hasenauerstraße 59</placeName>
                   </correspAction>
                   <correspContext>
@@ -24775,23 +24783,31 @@
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1910-05-27" n="01">27. 5. 1910</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb53208">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-05-27">27. 5. 1910</date>
+                     <placeName ref="#pmb52051">Territet</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
-                     <date evidence="conjecture" notBefore="1910-05-27" notAfter="1910-05-29">[27. 5. 1910
+                     <date evidence="conjecture" notBefore="1910-05-28" notAfter="1910-05-31">[28. 5. 1910
                   – 31. 5. 1910?]</date>
                      <placeName ref="#pmb235251">Hasenauerstraße 59</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01934">Schnitzler, Schnitzler an Beer-Hofmann, 25. 5. 1910</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01935">Schnitzler, Schnitzler an Beer-Hofmann, 30. 5. 1910</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann,
+                  Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01934">Schnitzler,
+                  Schnitzler an Beer-Hofmann, 25. 5. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01935">Schnitzler,
+                  Schnitzler an Beer-Hofmann, 30. 5. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L01934">Schnitzler, Schnitzler an Beer-Hofmann, 25. 5. 1910</ref>
+                          target="L01934">Schnitzler, Schnitzler an
+                  Beer-Hofmann, 25. 5. 1910</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -25156,18 +25172,18 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date when="1910-09-11" n="01">11. 9. 1910</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1910-09-12">12. 9. 1910</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365266">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
-                     <date evidence="conjecture" notBefore="1910-09-12" notAfter="1910-09-15">[12. 9. 1910
+                     <date evidence="conjecture" notBefore="1910-09-13" notAfter="1910-09-15">[13. 9. 1910
                   – 15. 9. 1910?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb405">Steinfeld 6</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -26424,13 +26440,17 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date when="1913-04-22" n="03">22. 4. 1913</date>
+                     <placeName ref="#pmb53850">Grüner Baum</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1913-04-22">22. 4. 1913</date>
                      <placeName ref="#pmb662">Baden bei Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
                      <date evidence="conjecture" notBefore="1913-04-23" notAfter="1913-04-27">[23. 4. 1913
                   – 27. 4. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb235251">Hasenauerstrasse 59</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -26931,14 +26951,13 @@
                      <date when="1914-05-19" n="01">[19. 5. 1914]</date>
                      <placeName evidence="conjecture" ref="#pmb252268">?? [Atlantik, westlich von Frankreich]</placeName>
                   </correspAction>
-                  <correspAction type="delivered">
-                     <date when="1914-05-20">20. 5. 1914</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                  <correspAction type="transmitted">
+                     <date when="1914-05-20">20. 5. [1914]</date>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
-                     <date when="1914-05-20">20. 5. 1914</date>
+                     <date evidence="conjecture" notBefore="1914-05-22" notAfter="1914-05-29">[22. 5. 1914 – 29. 5. 1914?]</date>
                      <placeName ref="#pmb235251">Hasenauerstraße 59</placeName>
                   </correspAction>
                   <correspContext>
@@ -27000,7 +27019,7 @@
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1914-05-24" n="01">24. 5. 1914</date>
-                     <placeName ref="#pmb40709">Amsterdam</placeName>
+                     <placeName ref="#pmb245732">Amstelhotel</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1914-05-25">25. 5. 1914</date>
@@ -27009,8 +27028,8 @@
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
-                     <date evidence="conjecture" notBefore="1914-05-25" notAfter="1914-05-29">[25. 5. 1914
-                  – 29. 5. 1914?]</date>
+                     <date evidence="conjecture" notBefore="1914-05-26" notAfter="1914-05-30">[26. 5. 1914
+                  – 30. 5. 1914?]</date>
                      <placeName ref="#pmb235251">Hasenauerstraße 59</placeName>
                   </correspAction>
                   <correspContext>
@@ -28882,7 +28901,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1927-08-31" n="01">31. 8. 1927</date>
-                     <placeName ref="#pmb374">Gardone Riviera</placeName>
+                     <placeName ref="#pmb248229">Hotel Du Lac Gardone Riviera</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1927-08-31">31. 8. 1927</date>
+                     <placeName ref="#pmb374">Gardone Riviera Brescia</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
@@ -28915,10 +28938,14 @@
                      <date when="1928-04-23" n="01">23. 4. 1928</date>
                      <placeName ref="#pmb966">Istanbul</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1928-04-30">[30]. 4. 1928</date>
+                     <placeName ref="#pmb966">Stamboul</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-                     <date evidence="conjecture" notBefore="1928-04-24" notAfter="1928-04-28">[24. 4. 1928
-                  – 28. 4. 1928?]</date>
+                     <date evidence="conjecture" notBefore="1928-05-01" notAfter="1928-05-10">[1. 5. 1928
+                  – 10. 5. 1928?]</date>
                      <placeName ref="#pmb235251">Hasenauerstraße 59</placeName>
                   </correspAction>
                   <correspContext>
@@ -28977,6 +29004,10 @@
                      <date when="1930-06-13" n="01">13. 6. 1930</date>
                      <placeName ref="#pmb431">Mariazell</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1930-06-13">13. 6. 1930</date>
+                     <placeName ref="#pmb431">Mariazell</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1930-06-14" notAfter="1930-06-18">[14. 6. 1930
@@ -29008,11 +29039,15 @@
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <persName ref="#pmb10860">Beer-Hofmann, Paula</persName>
                      <date when="1930-09-11" n="01">11. 9. 1930</date>
-                     <placeName ref="#pmb521">Bad Gastein</placeName>
+                     <placeName ref="#pmb52554">Kurhaus Rohrbacher</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1930-09-12">12. 9. 1930</date>
+                     <placeName ref="#pmb521">Badgastein</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1930-09-12" notAfter="1930-09-16">[12. 9. 1930
+                     <date evidence="conjecture" notBefore="1930-09-13" notAfter="1930-09-16">[13. 9. 1930
                   – 16. 9. 1930?]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
@@ -29073,12 +29108,12 @@
                      <placeName ref="#pmb213">Bad Ischl</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1931-09-14">14. 9. 1931</date>
+                     <date when="1931-09-15">15. 9. 1931</date>
                      <placeName ref="#pmb213">Bad Ischl</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1931-09-15" notAfter="1931-09-19">[15. 9. 1931
+                     <date evidence="conjecture" notBefore="1931-09-16" notAfter="1931-09-19">[16. 9. 1931
                   – 19. 9. 1931?]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>

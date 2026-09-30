@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-29Z</date>
+            <date>2026-09-30Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11002.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -498,11 +498,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1927-05-28" n="01">28. 5. 1927</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1927-05-30">30. 5. 1927</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11002">Braun, Felix</persName>
-                     <date evidence="conjecture" notBefore="1927-05-28" notAfter="1927-05-30">[28. 5. 1927
+                     <date evidence="conjecture" notBefore="1927-05-30" notAfter="1927-06-01">[30. 5. 1927
                   – 1. 6. 1927?]</date>
                      <placeName ref="#pmb1092">Sieveringer Straße</placeName>
                   </correspAction>

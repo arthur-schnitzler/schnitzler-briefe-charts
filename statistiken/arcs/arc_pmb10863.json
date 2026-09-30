@@ -69,7 +69,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 19
+      "count": 20
     },
     {
       "id": "pmb168934",
@@ -139,7 +139,17 @@
     {
       "id": "pmb235251",
       "name": "Hasenauerstraße 59",
-      "count": 67
+      "count": 70
+    },
+    {
+      "id": "pmb245732",
+      "name": "Amstelhotel",
+      "count": 1
+    },
+    {
+      "id": "pmb248229",
+      "name": "",
+      "count": 1
     },
     {
       "id": "pmb252268",
@@ -159,7 +169,7 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 15
+      "count": 14
     },
     {
       "id": "pmb310",
@@ -298,13 +308,18 @@
     },
     {
       "id": "pmb365483",
+      "name": "Kolingasse 9",
+      "count": 1
+    },
+    {
+      "id": "pmb365625",
       "name": "",
       "count": 1
     },
     {
       "id": "pmb374",
       "name": "Gardone Riviera",
-      "count": 3
+      "count": 2
     },
     {
       "id": "pmb38096",
@@ -374,7 +389,7 @@
     {
       "id": "pmb405",
       "name": "Steinfeld",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb40705",
@@ -384,7 +399,7 @@
     {
       "id": "pmb40709",
       "name": "Amsterdam",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb40788",
@@ -473,7 +488,7 @@
     },
     {
       "id": "pmb41463",
-      "name": "Schulgasse",
+      "name": "Schulgasse 8 [Bad Ischl]",
       "count": 7
     },
     {
@@ -682,11 +697,6 @@
       "count": 5
     },
     {
-      "id": "pmb484",
-      "name": "Zürich",
-      "count": 1
-    },
-    {
       "id": "pmb48761",
       "name": "Puchberg am Schneeberg",
       "count": 1
@@ -709,7 +719,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 354
+      "count": 348
     },
     {
       "id": "pmb50112",
@@ -754,11 +764,26 @@
     {
       "id": "pmb521",
       "name": "Bad Gastein",
-      "count": 3
+      "count": 2
+    },
+    {
+      "id": "pmb52554",
+      "name": "Kurhaus Rohrbacher",
+      "count": 1
     },
     {
       "id": "pmb52575",
       "name": "Gartengasse",
+      "count": 1
+    },
+    {
+      "id": "pmb53107",
+      "name": "Hotel Bellevue [Dresden]",
+      "count": 1
+    },
+    {
+      "id": "pmb53124",
+      "name": "Grand Hotel Bellevue [Zürich]",
       "count": 1
     },
     {
@@ -767,8 +792,23 @@
       "count": 1
     },
     {
+      "id": "pmb53208",
+      "name": "Hôtel des Alpes-Grand Hôtel",
+      "count": 1
+    },
+    {
+      "id": "pmb53227",
+      "name": "Axenstein",
+      "count": 1
+    },
+    {
       "id": "pmb53548",
       "name": "Mallnitz",
+      "count": 1
+    },
+    {
+      "id": "pmb53850",
+      "name": "Grüner Baum",
       "count": 1
     },
     {
@@ -829,7 +869,7 @@
     {
       "id": "pmb662",
       "name": "Baden bei Wien",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb667",
@@ -908,7 +948,7 @@
     },
     {
       "id": "pmb806",
-      "name": "",
+      "name": "Hotel Rheinischer Hof München",
       "count": 1
     },
     {
@@ -934,11 +974,6 @@
     {
       "id": "pmb864",
       "name": "Leipzig",
-      "count": 1
-    },
-    {
-      "id": "pmb866",
-      "name": "Dresden",
       "count": 1
     },
     {
@@ -1150,14 +1185,6 @@
     },
     {
       "from": "pmb167782",
-      "to": "pmb30",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 22. 7. 1893"
-      ]
-    },
-    {
-      "from": "pmb167782",
       "to": "pmb338",
       "weight": 1,
       "titles": [
@@ -1170,6 +1197,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 13. 9. 1893"
+      ]
+    },
+    {
+      "from": "pmb167782",
+      "to": "pmb365625",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 22. 7. 1893"
       ]
     },
     {
@@ -1607,6 +1642,22 @@
       ]
     },
     {
+      "from": "pmb245732",
+      "to": "pmb235251",
+      "weight": 1,
+      "titles": [
+        "Olga und Arthur Schnitzler an Richard und Paula Beer-Hofmann, 24. 5. 1914"
+      ]
+    },
+    {
+      "from": "pmb248229",
+      "to": "pmb235251",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 31. 8. 1927"
+      ]
+    },
+    {
       "from": "pmb252268",
       "to": "pmb235251",
       "weight": 2,
@@ -1783,14 +1834,6 @@
       ]
     },
     {
-      "from": "pmb374",
-      "to": "pmb235251",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 31. 8. 1927"
-      ]
-    },
-    {
       "from": "pmb39752",
       "to": "pmb34860",
       "weight": 2,
@@ -1822,14 +1865,6 @@
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 30. 7. 1896",
         "Arthur Schnitzler an Richard Beer-Hofmann, 31. 7. 1896"
-      ]
-    },
-    {
-      "from": "pmb40709",
-      "to": "pmb235251",
-      "weight": 1,
-      "titles": [
-        "Olga und Arthur Schnitzler an Richard und Paula Beer-Hofmann, 24. 5. 1914"
       ]
     },
     {
@@ -2268,14 +2303,6 @@
       ]
     },
     {
-      "from": "pmb484",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Olga und Arthur Schnitzler an Richard und Paula Beer-Hofmann, 18. 5. 1910"
-      ]
-    },
-    {
       "from": "pmb48761",
       "to": "pmb190427",
       "weight": 1,
@@ -2438,7 +2465,7 @@
     {
       "from": "pmb50",
       "to": "pmb235251",
-      "weight": 23,
+      "weight": 21,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, [Mitte Januar 1907?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, 20. 2. 1907",
@@ -2457,8 +2484,6 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, 27. 10. 1909",
         "Arthur Schnitzler an Richard Beer-Hofmann, 20. 3. 1910",
         "Arthur Schnitzler an Richard Beer-Hofmann, [17. 5. 1910?]",
-        "Olga und Arthur Schnitzler an Richard und Paula Beer-Hofmann, 21. 5. 1910",
-        "Olga und Arthur Schnitzler an Richard und Paula Beer-Hofmann, 25. 5. 1910",
         "Arthur Schnitzler an Richard Beer-Hofmann, 26. 6. 1910",
         "Arthur Schnitzler an Richard Beer-Hofmann, 3. 11. 1910",
         "Arthur Schnitzler an Richard Beer-Hofmann, 12. 4. 1918",
@@ -2802,11 +2827,35 @@
       ]
     },
     {
+      "from": "pmb53124",
+      "to": "pmb235251",
+      "weight": 1,
+      "titles": [
+        "Olga und Arthur Schnitzler an Richard und Paula Beer-Hofmann, 18. 5. 1910"
+      ]
+    },
+    {
       "from": "pmb53150",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 28. 7. 1922"
+      ]
+    },
+    {
+      "from": "pmb53208",
+      "to": "pmb235251",
+      "weight": 1,
+      "titles": [
+        "Olga und Arthur Schnitzler an Richard und Paula Beer-Hofmann, 25. 5. 1910"
+      ]
+    },
+    {
+      "from": "pmb53227",
+      "to": "pmb235251",
+      "weight": 1,
+      "titles": [
+        "Olga und Arthur Schnitzler an Richard und Paula Beer-Hofmann, 21. 5. 1910"
       ]
     },
     {
@@ -4175,7 +4224,7 @@
       ]
     },
     {
-      "from": "pmb521",
+      "from": "pmb52554",
       "to": "pmb168815",
       "weight": 1,
       "titles": [
