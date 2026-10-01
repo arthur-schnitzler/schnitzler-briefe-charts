@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-30Z</date>
+            <date>2026-10-01Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_13212.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1238,7 +1238,10 @@
                   <correspAction type="transmitted">
                      <date evidence="conjecture" notBefore="1911-11-06" notAfter="1911-11-07">[6. 11. 1911
                   – 7. 11. 1911?]</date>
-                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
+                     <placeName ref="#pmb365450">VIII., Josefstadt</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1713,7 +1716,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1913-05-28">28. [5. 1913]</date>
-                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
+                     <placeName ref="#pmb365450">VIII., Josefstadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1751,7 +1754,7 @@
                   <correspAction type="transmitted">
                      <date notBefore="1913-06-12" notAfter="1913-06-13">[12. oder
                13.?] 6. [1913?]</date>
-                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
+                     <placeName ref="#pmb365450">VIII., Josefstadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2262,7 +2265,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1915-02-15">15. 2. 1915</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365615">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1915-02-16">16. 2. 1915</date>
@@ -2552,7 +2555,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1915-11-26">26. 11. 1915</date>
-                     <placeName ref="#pmb57">VII., Neubau</placeName>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2899,7 +2902,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02268">Adam an Schnitzler, 23. 8. 1917</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02269">Schnitzler an Adam, 27. 8. 1917</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02269">Schnitzler an Adam, [26. oder 27]. 8. 1917</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -3348,8 +3351,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04495">Schnitzler an Schwarzkopf, 18. 5. 1923</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02400">Holz an Schnitzler, 29. 5. 1923</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02400">Holz an Schnitzler, 26. 5. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02401">Brandes an Schnitzler, 11. 6. 1923</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"
@@ -3609,7 +3612,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1923-08-01">1. 8. 1923</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365615">IX., Alsergrund</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb13212">Zweig, Stefan</persName>
@@ -3681,7 +3684,7 @@
                      <ref type="belongsToCorrespondence" target="correspondence_13212">Zweig, Stefan</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03897">Freud an Schnitzler, [erste Hälfte] November
                   1924</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02419">Schnitzler an Hofmannsthal, [5?.] 11. 1924</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02419">Schnitzler an Hofmannsthal, 6. 11. 1924</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_13212"

@@ -17,6 +17,11 @@
       "count": 1
     },
     {
+      "id": "pmb1158",
+      "name": "Villa Iris",
+      "count": 1
+    },
+    {
       "id": "pmb12589",
       "name": "Celerina",
       "count": 1
@@ -29,7 +34,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 12
+      "count": 19
     },
     {
       "id": "pmb168934",
@@ -64,7 +69,7 @@
     {
       "id": "pmb36300",
       "name": "Kopenhagen",
-      "count": 70
+      "count": 69
     },
     {
       "id": "pmb36456",
@@ -109,7 +114,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 81
+      "count": 74
     },
     {
       "id": "pmb667",
@@ -177,9 +182,15 @@
     {
       "from": "pmb168815",
       "to": "pmb36300",
-      "weight": 1,
+      "weight": 7,
       "titles": [
-        "Arthur Schnitzler an Georg Brandes, 18. 12. 1914"
+        "Arthur Schnitzler an Georg Brandes, 18. 12. 1914",
+        "Arthur Schnitzler an Georg Brandes, 21. 8. 1920",
+        "Arthur Schnitzler an Georg Brandes, 4. 1. 1924",
+        "Arthur Schnitzler an Georg Brandes, 23. 6. 1924",
+        "Arthur Schnitzler an Georg Brandes, 22. 2. 1925",
+        "Arthur Schnitzler an Gertrud Rung, 9. 3. 1925",
+        "Arthur Schnitzler an Georg Brandes, 2[7?]. 7. 1925"
       ]
     },
     {
@@ -218,7 +229,7 @@
     {
       "from": "pmb50",
       "to": "pmb36300",
-      "weight": 25,
+      "weight": 19,
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 11. 1. 1897",
         "Arthur Schnitzler an Georg Brandes, 4. 1. 1899",
@@ -233,17 +244,11 @@
         "Arthur Schnitzler an Georg Brandes, 2. 8. 1918",
         "Arthur Schnitzler an Georg Brandes, 30. 11. 1918",
         "Arthur Schnitzler an Georg Brandes, 16. 8. 1920",
-        "Arthur Schnitzler an Georg Brandes, 21. 8. 1920",
         "Arthur Schnitzler an Georg Brandes, 28. 12. 1921",
         "Arthur Schnitzler an Georg Brandes, 30. 1. 1922",
         "Arthur Schnitzler an Georg Brandes, 7. 6. 1922",
-        "Arthur Schnitzler an Georg Brandes, 4. 1. 1924",
-        "Arthur Schnitzler an Georg Brandes, 23. 6. 1924",
         "Arthur Schnitzler an Georg Brandes, 11. 2. 1925",
-        "Arthur Schnitzler an Georg Brandes, 22. 2. 1925",
-        "Arthur Schnitzler an Gertrud Rung, 9. 3. 1925",
         "Arthur Schnitzler an Georg Brandes, 7. 7. 1925",
-        "Arthur Schnitzler an Georg Brandes, 2[7?]. 7. 1925",
         "Arthur Schnitzler an Georg Brandes, 3. 1. 1926"
       ]
     },
@@ -307,6 +312,14 @@
       ]
     },
     {
+      "from": "pmb1158",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur Schnitzler, 11. 6. 1923"
+      ]
+    },
+    {
       "from": "pmb182",
       "to": "pmb168815",
       "weight": 1,
@@ -340,7 +353,7 @@
         "Georg Brandes an Arthur Schnitzler, 28. 9. 1917",
         "Georg Brandes an Arthur Schnitzler, 19. 12. 1917",
         "Georg Brandes an Arthur Schnitzler, 17. 8. 1920",
-        "Georg Brandes an Arthur Schnitzler, 11. 6. 1923",
+        "Gertrud Rung an Arthur Schnitzler, 30. 12. 1925",
         "Georg Brandes an Arthur Schnitzler, 28. 8. 1926"
       ]
     },
@@ -391,7 +404,7 @@
     {
       "from": "pmb36300",
       "to": "pmb50",
-      "weight": 16,
+      "weight": 15,
       "titles": [
         "Georg Brandes an Arthur Schnitzler, 22. 4. 1896",
         "Georg Brandes an Arthur Schnitzler, 28. 12. 1897",
@@ -407,8 +420,7 @@
         "Gertrud Rung an Arthur Schnitzler, 1. 3. 1925",
         "Georg Brandes an Arthur Schnitzler, 21. 6. 1925",
         "Georg Brandes an Arthur Schnitzler, 12. 7. 1925",
-        "Georg Brandes an Arthur Schnitzler, 30. 12. 1925",
-        "Gertrud Rung an Arthur Schnitzler, 30. 12. 1925"
+        "Georg Brandes an Arthur Schnitzler, 30. 12. 1925"
       ]
     },
     {

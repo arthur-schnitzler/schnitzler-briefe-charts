@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-30Z</date>
+            <date>2026-10-01Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11061.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -106,7 +106,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
                      <date evidence="conjecture" notBefore="1890-10-15" notAfter="1890-10-19">[15. 10. 1890 – 19. 10. 1890?]</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <placeName ref="#pmb364699">Linkstraße 25</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11061">Bölsche, Wilhelm</ref>
@@ -131,12 +131,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
                      <date when="1890-10-25" n="01">25. 10. 1890</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <placeName ref="#pmb364699">Linkstraße 25</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1890-10-26" notAfter="1890-10-30">[26. 10. 1890 – 30. 10. 1890?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167789">Ordination Arthur Schnitzler [Bösendorferstraße 11]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11061">Bölsche, Wilhelm</ref>

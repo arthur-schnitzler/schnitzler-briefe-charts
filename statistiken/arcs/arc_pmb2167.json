@@ -129,7 +129,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 41
+      "count": 42
     },
     {
       "id": "pmb169",
@@ -184,6 +184,11 @@
     {
       "id": "pmb231623",
       "name": "Kochgasse 32",
+      "count": 1
+    },
+    {
+      "id": "pmb231941",
+      "name": "",
       "count": 1
     },
     {
@@ -394,7 +399,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 328
+      "count": 327
     },
     {
       "id": "pmb51650",
@@ -1215,6 +1220,14 @@
       ]
     },
     {
+      "from": "pmb231941",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 3. 6. 1904"
+      ]
+    },
+    {
       "from": "pmb231945",
       "to": "pmb168940",
       "weight": 4,
@@ -1650,7 +1663,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 147,
+      "weight": 146,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 18. 5. 1891",
         "Felix Salten an Arthur Schnitzler, [23. 5. 1891]",
@@ -1762,7 +1775,6 @@
         "Felix Salten an Arthur Schnitzler, 19. 1. 1904",
         "Felix Salten an Arthur Schnitzler, 1. 2. 1904",
         "Felix Salten an Arthur Schnitzler, [14. 4. 1904]",
-        "Felix Salten an Arthur Schnitzler, 3. 6. 1904",
         "Felix Salten an Arthur Schnitzler, 2. 7. 1904",
         "Felix Salten: Widmungsexemplar Der Schrei der Liebe für Arthur Schnitzler, 22. 10. 1904",
         "Felix Salten an Arthur Schnitzler, 27. 11. 1904",

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-30Z</date>
+            <date>2026-10-01Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10815.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -805,11 +805,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1894-05-02">2. 5. 1894</date>
-                     <placeName ref="#pmb53">III., Landstraße</placeName>
+                     <placeName ref="#pmb365294">III., Landstraße</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1894-05-02">2. 5. 1894</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365211">Wien 9/2 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -976,7 +976,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1894-07-29">29. 7. 1894</date>
-                     <placeName ref="#pmb58">VIII., Josefstadt</placeName>
+                     <placeName ref="#pmb365450">VIII., Josefstadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2589,7 +2589,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-04-22">22. 4. 1898</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365211">Wien 9/2 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
@@ -2909,7 +2909,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-12-11">11. [12. 1898]</date>
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365211">Wien 9/2 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
@@ -3914,7 +3914,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-07-05">5. 7. 1901</date>
-                     <placeName ref="#pmb63">XIII., Hietzing</placeName>
+                     <placeName ref="#pmb365275">XIII., Hietzing</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
@@ -4282,10 +4282,10 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-10-30">30. 10. 1901</date>
-                     <placeName ref="#pmb63">XIII., Hietzing</placeName>
+                     <placeName ref="#pmb365275">XIII., Hietzing</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <placeName ref="#pmb59">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365211">Wien 9/2 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -6582,11 +6582,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-04-27">27. 4. 1904</date>
-                     <placeName ref="#pmb365604">XIII., Hietzing</placeName>
+                     <placeName ref="#pmb365604">13/5 Post- und Telegraphenamt 100</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
                      <date when="1904-04-27">27. 4. 1904</date>
-                     <placeName ref="#pmb62">XII., Meidling</placeName>
+                     <placeName ref="#pmb365607">12/1 Post- und Telegraphenamt 82</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-04-27">27. [4]. 1904</date>
@@ -6868,7 +6868,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-10-20">20. 10. 1904</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7547,7 +7547,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1905-09-18" n="01">18. 9. 1905</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
@@ -7577,16 +7577,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1905-09-20" n="01">20. 9. 1905</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
-                  <correspAction type="delivered">
-                     <date when="1905-09-20">20. 9. 1905</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1905-09-20">20. 9. 1905</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
@@ -7673,7 +7669,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1905-10-03" n="01">3. 10. 1905</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
@@ -7703,11 +7699,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1905-10-04" n="01">4. 10. 1905</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-10-04">4. 10. 1905</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8044,13 +8040,9 @@
                      <date when="1906-07-04" n="02">4. 7. 1906</date>
                      <placeName ref="#pmb462">Venedig</placeName>
                   </correspAction>
-                  <correspAction type="in_transit">
-                     <date when="1906-07-06">6. VII. 06</date>
-                     <placeName ref="#pmb50">Wien</placeName>
-                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-07-06">6. 7. 1906</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8427,7 +8419,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1907-03-18">18. 3. 1907</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8488,7 +8480,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1907-04-15" n="01">15. 4. 1907</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb207274">Haus Bahr</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8580,7 +8572,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1907-04-27" n="01">27. 4. 1907</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb132">Südbahnhof</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8610,7 +8602,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1907-05-18" n="01">18. 5. 1907</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
@@ -8833,7 +8825,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01742">Bahr an Schnitzler, 18. 12. 1907</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02578">Salten, Brahm, Brahm, Wassermann an Schnitzler, 21. 12. [1907?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02578">Salten, Brahm, Brahm, Wassermann an Schnitzler, [20. oder 21]. 12. [1907?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -8862,7 +8854,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02578">Salten, Brahm, Brahm, Wassermann an Schnitzler, 21. 12. [1907?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02578">Salten, Brahm, Brahm, Wassermann an Schnitzler, [20. oder 21]. 12. [1907?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01745">Hofmannsthal an Schnitzler, 24. 12. 1907</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -11016,7 +11008,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1918-08-25" n="01">25. 8. 1918</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb160">Schloss Arenberg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1918-08-25">25. 8. 1918</date>
+                     <placeName ref="#pmb30">Salzburg 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11169,11 +11165,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1921-02-09" n="01">9. 2. 1921</date>
+                     <placeName ref="#pmb160">Schloss Arenberg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1921-02-10">10. [2]. 1921</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1921-02-10">10. II. [1921]</date>
+                     <date evidence="conjecture" notBefore="1921-02-11" notAfter="1921-02-13">[11. 2. 1921 – 13. 2. 1921?]</date>
                      <placeName ref="#pmb68">XVIII., Währing</placeName>
                   </correspAction>
                   <correspContext>
@@ -11259,11 +11259,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1922-06-06" n="01">6. 6. 1922</date>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1922-06-07">7. 6. 1922</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
-                     <date when="1922-06-07">7. VI. 22</date>
+                     <date evidence="conjecture" notBefore="1922-06-07" notAfter="1922-06-09">[7. 6. 1922 – 9. 6. 1922]</date>
                      <placeName ref="#pmb161">Barerstraße</placeName>
                   </correspAction>
                   <correspContext>
@@ -11289,11 +11293,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10815">Bahr, Hermann</persName>
                      <date when="1922-06-09" n="01">9. 6. 1922</date>
+                     <placeName ref="#pmb161">Barerstraße</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1922-06-10">10. 6. 1922</date>
                      <placeName ref="#pmb45258">München</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1922-06-10">10 6 22</date>
+                     <date evidence="conjecture" notBefore="1922-06-11" notAfter="1922-06-15">[11. 6. 1922 – 15. 6. 1922?]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-30Z</date>
+            <date>2026-10-01Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11763.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -120,7 +120,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11763"
-                          target="L02400">Holz an Schnitzler, 29. 5. 1923</ref>
+                          target="L02400">Holz an Schnitzler, 26. 5. 1923</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
@@ -131,7 +131,11 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11763">Holz, Arno</persName>
-                     <date when="1923-05-29" n="02">29. 5. 1923</date>
+                     <date when="1923-05-26" n="02">26. 5. 1923</date>
+                     <placeName ref="#pmb168">Berlin</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1923-05-29">29. 5. 1923</date>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -142,8 +146,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11763">Holz, Arno</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03758">Schnitzler an Zweig, 29. 5. 1923</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02401">Brandes an Schnitzler, 11. 6. 1923</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04495">Schnitzler an Schwarzkopf, 18. 5. 1923</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03758">Schnitzler an Zweig, 29. 5. 1923</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11763"

@@ -12,6 +12,16 @@
       "count": 2
     },
     {
+      "id": "pmb167805",
+      "name": "Kärntnerring 12/Bösendorferstraße 11",
+      "count": 1
+    },
+    {
+      "id": "pmb403915",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb42561",
       "name": "Kreiensen",
       "count": 1
@@ -19,7 +29,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 7
+      "count": 6
     },
     {
       "id": "pmb652",
@@ -46,6 +56,14 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb403915",
+      "to": "pmb167805",
+      "weight": 1,
+      "titles": [
+        "Jaques Joachim an Arthur Schnitzler, 31. 1. 1890"
+      ]
+    },
+    {
       "from": "pmb42561",
       "to": "pmb50",
       "weight": 1,
@@ -59,14 +77,6 @@
       "weight": 1,
       "titles": [
         "Jaques Joachim und Eduard Michael Kafka an Arthur Schnitzler, 6. 7. 1891"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Jaques Joachim an Arthur Schnitzler, 31. 1. 1890"
       ]
     },
     {

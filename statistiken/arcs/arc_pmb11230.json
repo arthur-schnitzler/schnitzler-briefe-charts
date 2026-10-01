@@ -4,7 +4,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb189",
@@ -34,16 +34,17 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 48
+      "count": 47
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168940",
       "to": "pmb237241",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Albert Ehrenstein, 5. 6. 1906"
+        "Arthur Schnitzler an Albert Ehrenstein, 5. 6. 1906",
+        "Arthur Schnitzler an Albert Ehrenstein, 19. 12. 1906"
       ]
     },
     {
@@ -52,14 +53,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Albert Ehrenstein, 26. 1. 1909"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb237241",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Albert Ehrenstein, 19. 12. 1906"
       ]
     },
     {
