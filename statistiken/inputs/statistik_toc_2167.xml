@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-01Z</date>
+            <date>2026-10-02Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2167.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -139,7 +139,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L02665">Goldmann an Schnitzler, [29. oder 30]. 6. 1891</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00022">Joachim, Kafka an Schnitzler, 6. 7. 1891</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02666">Goldmann an Schnitzler, 6. 7. 1891</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -660,7 +660,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1892-08-11" notAfter="1892-08-15">[11. 8. 1892
                   – 15. 8. 1892?]</date>
-                     <placeName ref="#pmb167789">I. Kärntnerring 12</placeName>
+                     <placeName ref="#pmb167789">Ordination Arthur Schnitzler [Bösendorferstraße 11]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
@@ -959,7 +959,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L03121">Salten an Schnitzler, [29. oder 30]. 4. 1893</ref>
+                          target="L03121">Salten an Schnitzler, [30]. 4. 1893</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
@@ -970,16 +970,16 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2167">Salten, Felix</persName>
-                     <date n="02" notBefore="1893-04-29" notAfter="1893-04-30">[29. oder 30]. 4. 1893</date>
+                     <date n="02" when="1893-04-30">[30]. 4. 1893</date>
                      <placeName ref="#pmb237630">Währinger Straße 14</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-04-30">30. 4. 1893</date>
-                     <placeName ref="#pmb290824">Wien 1/1 C.R.</placeName>
+                     <placeName ref="#pmb290824">1/1 Telegraphen-Central-Station C.R.</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-04-30">30. 4. 1893</date>
-                     <placeName ref="#pmb365217">Wien 1/1 10</placeName>
+                     <placeName ref="#pmb365217">1/1 Post- und Telegraphenamt 10</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -988,8 +988,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00204">Schnitzler an Beer-Hofmann, [29. 4. 1893?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00205">Schnitzler an Beer-Hofmann, 30. 4. 1893</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00205">Schnitzler an Beer-Hofmann, 30. 4. 1893</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00206">Kraus an Schnitzler, 2. 5. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -1024,7 +1024,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L03121">Salten an Schnitzler, [29. oder 30]. 4. 1893</ref>
+                          target="L03121">Salten an Schnitzler, [30]. 4. 1893</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -1119,27 +1119,28 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L02959">Schnitzler an Salten, [8. oder 9]. 7. 1893</ref>
+                          target="L02959">Schnitzler an Salten, 9. 7. 1893</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="2616"/>
             </item>
             <item corresp="L02959">
-               <title level="a">Arthur Schnitzler an Felix Salten, [8. oder 9]. 7. 1893</title>
+               <title level="a">Arthur Schnitzler an Felix Salten, 9. 7. 1893</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1893-07-08" notAfter="1893-07-09">[8. oder 9]. 7. 1893</date>
-                     <placeName ref="#pmb414">Bad Ischl</placeName>
+                     <date n="02" when="1893-07-09">9. 7. 1893</date>
+                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                     <!-- bei Flegmanns -->
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-07-09">9. 7. 1893</date>
-                     <placeName ref="#pmb213">Ischl</placeName>
+                     <placeName ref="#pmb213">Bad Ischl</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-07-10">10. 7. 1893</date>
-                     <placeName ref="#pmb365266">Wien 9/1 66</placeName>
+                     <placeName ref="#pmb365266">9/1 Post- und Telegraphenamt 66</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
@@ -1148,8 +1149,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00234">Schnitzler an Bölsche, 8. 7. 1893</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00235">Hofmannsthal an Schnitzler, Beer-Hofmann, 8. 7. 1893</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04281">Schwarzkopf an Schnitzler, 8. 7. 1893</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00236">Schnitzler an Hofmannsthal, 12. 7. 1893</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -1185,7 +1186,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L02959">Schnitzler an Salten, [8. oder 9]. 7. 1893</ref>
+                          target="L02959">Schnitzler an Salten, 9. 7. 1893</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -2035,11 +2036,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1894-08-30">30. 8. 1894</date>
-                     <placeName ref="#pmb365503">Wien 3/1 66</placeName>
+                     <placeName ref="#pmb365503">3/1 Post- und Telegraphenamt 44</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1894-08-31">31. 8. 1894</date>
-                     <placeName ref="#pmb213">Ischl</placeName>
+                     <placeName ref="#pmb213">Bad Ischl</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2526,11 +2527,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-06-30">30. 6. 1895</date>
-                     <placeName ref="#pmb45258">Muenchen</placeName>
+                     <placeName ref="#pmb45258">München</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1895-07-01">1. 7. 1895</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3747,11 +3748,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-05-29">29. 5. 1897</date>
-                     <placeName ref="#pmb43409">Forest-Hill S.E.</placeName>
+                     <placeName ref="#pmb43409">Forest Hill</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-06-01">1. 6. 1897</date>
-                     <placeName ref="#pmb365266">Wien 9/1 66</placeName>
+                     <placeName ref="#pmb365266">9/1 Post- und Telegraphenamt 66</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
@@ -3885,7 +3886,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-07-23">23. 7. 1897</date>
-                     <placeName ref="#pmb365450">VIII., Josefstadt</placeName>
+                     <placeName ref="#pmb365450">8/1 Post- und Telegraphenamt 64</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <placeName ref="#pmb213">Bad Ischl</placeName>
@@ -3956,11 +3957,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <date when="1897-08-21" n="01">21. 8. 1897</date>
-                     <placeName ref="#pmb146054">Salzburg</placeName>
+                     <placeName ref="#pmb146054">Linzer Gasse</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-08-21">21. 8. 1897</date>
-                     <placeName ref="#pmb365625">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Postamt Salzburg Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-08-21">21. 8. 1897</date>
@@ -4348,11 +4349,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-07-08">8. 7. 1898</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-07-08">8. 7. 1898</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4791,7 +4792,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-04-30">30. 4. 1899</date>
-                     <placeName ref="#pmb365630">XIII., Hietzing</placeName>
+                     <placeName ref="#pmb365630">13/1 Post- und Telegraphenamt 88</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-05-01">1. 5. 1899</date>
@@ -4900,11 +4901,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-05-13">[13]. 5. 1899</date>
-                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-05-14">14. 5. 1899</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5324,7 +5325,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-12-25">25. 12. 1899</date>
-                     <placeName ref="#pmb365625">Salzburg</placeName>
+                     <placeName ref="#pmb365625">Postamt Salzburg Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
@@ -6866,7 +6867,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1902-07-01" n="01">[1.] 7. 1902</date>
-                     <placeName ref="#pmb142878">Lofer</placeName>
+                     <placeName ref="#pmb142878">Gasthof zur Post</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1902-07-01">1. 7. [1902]</date>
@@ -6879,7 +6880,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <date when="1902-07-02">2. 7. 1902</date>
-                     <placeName ref="#pmb93742">Anstalt Winternitz</placeName>
+                     <placeName ref="#pmb93742">Kaltwasserheilanstalt Winternitz</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
@@ -7829,7 +7830,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01336">Hofmannsthal an Schnitzler, 6. 11. 1903</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01337">Bahr an Schnitzler, 9. 11. 1903</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01339">Schnitzler an Bahr, [9. oder 10.] 11. [1903]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -7848,17 +7849,17 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2167">Salten, Felix</persName>
-                     <date when="1903-11-09" n="02">[9. 11. 1903]</date>
+                     <date when="1903-11-09" n="03">[9. 11. 1903]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1903-11-10">[10. 11. 1903]</date>
-                     <placeName ref="#pmb50" evidence="external">Wien</placeName>
+                     <placeName ref="#pmb168940" evidence="external">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01339">Schnitzler an Bahr, [9. oder 10.] 11. [1903]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01337">Bahr an Schnitzler, 9. 11. 1903</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01338">Schnitzler an Bahr, 10. 11. 1903</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -8256,7 +8257,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-03-30">30. 3. 1904</date>
-                     <placeName ref="#pmb365357">Wien 1/1 C.R.</placeName>
+                     <placeName ref="#pmb365357">1/1 Telegraphen-Central-Station C.R.</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-03-30">30. 3. 1904</date>
@@ -8389,7 +8390,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <date when="1904-06-03" n="01">3. 6. 1904</date>
-                     <placeName ref="#pmb231941">Wien</placeName>
+                     <placeName ref="#pmb231941">Starkfriedgasse 12</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8493,11 +8494,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-08-18">18. 8. 1904</date>
-                     <placeName ref="#pmb365459">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365459">1/1 Post- und Telegraphenamt 6</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-08-18">18. 8. 1904</date>
-                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8876,7 +8877,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-01-12">12. 1. 1905</date>
-                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
@@ -8911,7 +8912,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-01-20">20. 1. 1905</date>
-                     <placeName ref="#pmb365266">IX., Alsergrund</placeName>
+                     <placeName ref="#pmb365266">9/1 Post- und Telegraphenamt 66</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-01-21">21. 1. 1905</date>
@@ -9773,7 +9774,7 @@
                      <placeName ref="#pmb9925">Charlottenburg</placeName>
                   </correspAction>
                   <correspAction type="arrived">
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb405263">Postbestellbezirk 1/1</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-04-21">21. 4. [1906]</date>
@@ -10449,7 +10450,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1907-01-18">18. 1. 1907</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1907-01-19">19. 1. 1907</date>
@@ -10458,7 +10459,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <date when="1907-01-19">19. 1. 1907</date>
-                     <placeName ref="#pmb237626">Armbrustergasse</placeName>
+                     <placeName ref="#pmb237626">Armbrustergasse 6</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
@@ -10712,7 +10713,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1907-07-15">15. 7. 1907</date>
-                     <placeName ref="#pmb69">XIX., Döbling</placeName>
+                     <placeName ref="#pmb405258">19/2 Post- und Telegraphenamt 119</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1907-07-16">16. 7. 1907</date>
@@ -10751,7 +10752,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1907-08-03">3. 8. 1907</date>
-                     <placeName ref="#pmb365241">1/1 Wien 13</placeName>
+                     <placeName ref="#pmb365241">1/1 Telegraphenamt 13</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1907-08-04">4. 8. 1907</date>
@@ -10887,7 +10888,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1907-09-05">5. 9. 1907</date>
-                     <placeName ref="#pmb365555">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365555">1/1 Post- und Telegraphenamt 8</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1907-09-06">6. 9. 1907</date>
@@ -10925,7 +10926,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1907-10-02">2. 10. 1907</date>
-                     <placeName ref="#pmb365459">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365459">1/1 Post- und Telegraphenamt 6</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1907-10-02">2. 10. 1907</date>
@@ -11126,7 +11127,7 @@
                      <persName ref="#pmb5187">Brahm, Otto</persName>
                      <persName ref="#pmb10986">Brahm, Ludwig</persName>
                      <persName ref="#pmb13055">Wassermann, Jakob</persName>
-                     <date n="01" notBefore="1907-12-20" notAfter="1907-12-21">[20. oder 21]. 12. [1907?]</date>
+                     <date n="02" notBefore="1907-12-20" notAfter="1907-12-21">[20. oder 21]. 12. [1907?]</date>
                      <placeName ref="#pmb189">Semmering</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -11201,7 +11202,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1908-01-18">18. 1. 1908</date>
-                     <placeName ref="#pmb69">XIX., Döbling</placeName>
+                     <placeName ref="#pmb405258">19/2 Post- und Telegraphenamt 119</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11328,11 +11329,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <date when="1908-03-24" n="01">24. 3. 1908</date>
-                     <placeName ref="#pmb237626">Wien</placeName>
+                     <placeName ref="#pmb237626">Armbrustergasse 6</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1908-03-24">24. 3. [1908]</date>
-                     <placeName ref="#pmb365459">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365459">1/1 Post- und Telegraphenamt 6</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11564,7 +11565,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1908-07-22">22. 7. 1908</date>
-                     <placeName ref="#pmb960">Noordwijk 1</placeName>
+                     <placeName ref="#pmb960">Noordwijk</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
@@ -12149,7 +12150,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1910-06-27">27. 6. 1910</date>
-                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
@@ -12247,7 +12248,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1910-08-08" n="01">8. 8. 191[0]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2167">Salten, Felix</persName>
@@ -14617,7 +14618,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1930-06-30">30. 6. 1930</date>
-                     <placeName ref="#pmb143783">Omaha, Nebr. Burlington Sta. 3</placeName>
+                     <placeName ref="#pmb143783">Omaha</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>

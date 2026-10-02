@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-01Z</date>
+            <date>2026-10-02Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11485.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -539,11 +539,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1891-01-08">8. 1. 1891</date>
-                     <placeName ref="#pmb365357">Wien</placeName>
+                     <placeName ref="#pmb365357">1/1 Telegraphen-Central-Station C.R.</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-01-08">8. 1. 1891</date>
-                     <placeName ref="#pmb501">Wien Kärntnerring</placeName>
+                     <placeName ref="#pmb501">Kärntnerring</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -638,11 +638,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1891-05-11">11. 5. 1891</date>
-                     <placeName ref="#pmb272">Liege</placeName>
+                     <placeName ref="#pmb272">Lüttich</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-05-14">14. 5. 1891</date>
-                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -738,11 +738,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1891-06-30">30. 6. 1891</date>
-                     <placeName ref="#pmb862">Bruxelles</placeName>
+                     <placeName ref="#pmb862">Brüssel</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-07-02">2. 7. 1891</date>
-                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -789,8 +789,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00022">Joachim, Kafka an Schnitzler, 6. 7. 1891</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00023">Hofmannsthal an Schnitzler, 13. 7. [1891]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03183">Salten an Schnitzler, [5. 7. 1891]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00022">Joachim, Kafka an Schnitzler, 6. 7. 1891</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -814,11 +814,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1891-07-25">25. 7. 1891</date>
-                     <placeName ref="#pmb145">Cöln (Rheinland)</placeName>
+                     <placeName ref="#pmb145">Köln</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-07-27">27. 7. 1891</date>
-                     <placeName ref="#pmb365214">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -977,7 +977,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1891-12-02">2. 12. 1891</date>
-                     <placeName ref="#pmb365214">Wien</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1297,7 +1297,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1892-08-13">13. 8. 1892</date>
-                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1801,15 +1801,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1893-09-12" n="01">12. 9. 1893</date>
-                     <placeName ref="#pmb93043">Salzburg</placeName>
+                     <placeName ref="#pmb93043">Hotel Goldenes Horn</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <date when="1893-12-09">9. 12. 1893</date>
-                     <placeName ref="#pmb365625">Salzburg Stadt</placeName>
+                     <date when="1893-09-12">12. 9. 1893</date>
+                     <placeName ref="#pmb365625">Postamt Salzburg Stadt</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-09-13">13. 9. 1893</date>
-                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2183,11 +2183,11 @@
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <placeName ref="#pmb87780">Paris Pl. de la Bourse</placeName>
+                     <placeName ref="#pmb87780">place de la Bourse</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1893-12-31">31. 12. 1893</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2600,11 +2600,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1894-07-03">3. 7. 1894</date>
-                     <placeName ref="#pmb87780">Paris Pl. de la Bourse</placeName>
+                     <placeName ref="#pmb87780">place de la Bourse</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1894-07-05">5. 7. 1894</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -6176,11 +6176,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-08-11">11. 8. 1897</date>
-                     <placeName ref="#pmb734">Bayreuth 1.</placeName>
+                     <placeName ref="#pmb734">Bayreuth</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-08-12">12. 8. 1897</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -6252,11 +6252,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-09-04">4. 9. [1897]</date>
-                     <placeName ref="#pmb45258">Muenchen 1</placeName>
+                     <placeName ref="#pmb45258">München</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1897-09-05">5. 9. 1897</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7027,11 +7027,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-04-10">10. 4. [1898]</date>
-                     <placeName ref="#pmb118675">Port-Said</placeName>
+                     <placeName ref="#pmb118675">Port Said</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-04-17">17. 4. 1898</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7100,11 +7100,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-04-27">27. 4. 1898</date>
-                     <placeName ref="#pmb118677">Singapore</placeName>
+                     <placeName ref="#pmb118677">Singapur</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-05-21">21. 5. 1898</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7145,7 +7145,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-06-07">7. 6. 1898</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7303,11 +7303,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-08-05">5. 8. 1898</date>
-                     <placeName ref="#pmb118680">Tsintau China</placeName>
+                     <placeName ref="#pmb118680">Qingdao</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-09-19">19. 9. 1898</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7325,11 +7325,53 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
+                          target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
                <measure unit="zeichenanzahl" quantity="109"/>
+            </item>
+            <item corresp="L02856">
+               <title level="a">Paul Goldmann an Arthur Schnitzler, 24. 8. 1898</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb11485">Goldmann, Paul</persName>
+                     <date when="1898-08-24" n="02">24. 8. 1898</date>
+                     <placeName ref="#pmb141925">Beach Hotel</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1898-08-25">25. 8. 1898</date>
+                     <placeName ref="#pmb118678">Yantai</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1898-09-04">4. 9. 1898</date>
+                     <placeName ref="#pmb44086">Hong Kong</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1898-10-08">8. 10. 1898</date>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1898-10-08">8. 10. 1898</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04127">Schnitzler an Schwarzkopf, [23. oder 24]. 8. 1898</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11485"
+                          target="L02855">Goldmann an Schnitzler, 5. 8. 1898</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11485"
+                          target="L02854">Goldmann an Schnitzler, 24. 8. [1898]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="bildpostkarte"/>
+               <measure unit="zeichenanzahl" quantity="239"/>
             </item>
             <item corresp="L02854">
                <title level="a">Paul Goldmann an Arthur Schnitzler, 24. 8. [1898]</title>
@@ -7352,7 +7394,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
-                          target="L02855">Goldmann an Schnitzler, 5. 8. 1898</ref>
+                          target="L02856">Goldmann an Schnitzler, 24. 8. 1898</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11485"
@@ -7372,11 +7414,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-09-10">10. 9. 1898</date>
-                     <placeName ref="#pmb118682">Tientsin</placeName>
+                     <placeName ref="#pmb118682">Tianjin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-10-22">22. 10. 1898</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7449,7 +7491,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1898-11-10">10. 11. 1898</date>
-                     <placeName ref="#pmb365208">Wien 3/9 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7670,11 +7712,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1898-11-13">13. 11. 1898</date>
-                     <placeName ref="#pmb53977">武蔵 横浜 [Musashi Yokohama]</placeName>
+                     <placeName ref="#pmb53977">Yokohama</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-01-02">2. 1. 1899</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7864,7 +7906,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-03-20">20. 3. 1899</date>
-                     <placeName ref="#pmb365211">Wien 9/2</placeName>
+                     <placeName ref="#pmb365211">9/2 Post- und Telegraphenamt 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8368,11 +8410,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-08-20">20. 8. 1899</date>
-                     <placeName ref="#pmb134981">Le Mont-S t-Michel Manche</placeName>
+                     <placeName ref="#pmb134981">Le Mont-Saint-Michel</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-08-23">23. 8. 1899</date>
-                     <placeName ref="#pmb213">Ischl</placeName>
+                     <placeName ref="#pmb213">Bad Ischl</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -8406,11 +8448,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1899-08-30">30. 8. 1899</date>
-                     <placeName ref="#pmb55293">Rennes Ille-et-Vilaine</placeName>
+                     <placeName ref="#pmb55293">Rennes</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1899-09-02">2. 9. [1899]</date>
-                     <placeName ref="#pmb213">Ischl</placeName>
+                     <placeName ref="#pmb213">Bad Ischl</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -9652,7 +9694,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-07-01">1. 7. 1900</date>
-                     <placeName ref="#pmb46000">Grundlsee</placeName>
+                     <placeName ref="#pmb46000">Grundlsee [Gemeinde]</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-07-08">8. 7. 1900</date>
@@ -9911,7 +9953,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-09-04">4. 9. 1900</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -10038,11 +10080,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1900-09-22">22. 9. 1900</date>
-                     <placeName ref="#pmb168">Berlin, S.W.</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1900-09-23">23. 9. 1900</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -10848,7 +10890,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-03-25">25. 3. 1901</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11413,11 +11455,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-07-21">21. 7. 1901</date>
-                     <placeName ref="#pmb168">Berlin, W. 9</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-07-22">22. 7. [19]01</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="redirected">
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
@@ -11599,7 +11641,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-08-07">[7. 8]. 1901</date>
-                     <placeName ref="#pmb758">Landro Höhlenstein</placeName>
+                     <placeName ref="#pmb758">Höhlenstein</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11707,7 +11749,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1901-09-11">11. 9. 1901</date>
-                     <placeName ref="#pmb365208">Wien 9/3 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -11741,7 +11783,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1901-09-11">11. 9. 1901</date>
-                     <placeName ref="#pmb144000">Hela</placeName>
+                     <placeName ref="#pmb144000">Hel</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <placeName ref="#pmb50">Wien</placeName>
@@ -12779,11 +12821,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1902-03-21">21. 3. 1902</date>
-                     <placeName ref="#pmb168">Berlin S. W. 46 a</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-03-22">22. 3. 1902</date>
-                     <placeName ref="#pmb365208">9/3 Wien 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12817,11 +12859,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1902-03-29">29. 3. 1902</date>
-                     <placeName ref="#pmb652">Praha 1 * Prag 1</placeName>
+                     <placeName ref="#pmb652">Prag</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-03-30">30. 3. 1902</date>
-                     <placeName ref="#pmb365208">9/3 Wien 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12921,11 +12963,11 @@
                   </correspAction>
                   <correspAction type="arrived">
                      <date when="1902-04-26">26. 4. 1902</date>
-                     <placeName ref="#pmb50">wien</placeName>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-04-26">26. 4. 1902</date>
-                     <placeName ref="#pmb365211">Wien 71</placeName>
+                     <placeName ref="#pmb365211">9/2 Post- und Telegraphenamt 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -12959,7 +13001,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-04-27">27. 4. [1902?]</date>
-                     <placeName ref="#pmb365211">Wien 9/2</placeName>
+                     <placeName ref="#pmb365211">9/2 Post- und Telegraphenamt 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13245,7 +13287,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-06-25">25. 6. 1902</date>
-                     <placeName ref="#pmb365208">9/3 Wien</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13403,11 +13445,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1902-07-31">31. 7. 1902</date>
-                     <placeName ref="#pmb854">Basel 1 Fil. S. B.</placeName>
+                     <placeName ref="#pmb854">Basel</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-08-02">2. 8. 1902</date>
-                     <placeName ref="#pmb365208">9/3 Wien 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13445,7 +13487,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-08-08">8. 8. 1902</date>
-                     <placeName ref="#pmb365208">9/3 Wien 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13483,7 +13525,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-08-12">12. 8. 1902</date>
-                     <placeName ref="#pmb365208">9/3 Wien 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13617,11 +13659,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1902-08-16">16. 8. 1902</date>
-                     <placeName ref="#pmb145560">Leuk-Bad Loëche-Bains</placeName>
+                     <placeName ref="#pmb145560">Leukerbad</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-08-18">18. 8. 1902</date>
-                     <placeName ref="#pmb365208">9/3 Wien 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13659,7 +13701,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1902-08-22">22. 8. 1902</date>
-                     <placeName ref="#pmb365208">9/3 Wien 72</placeName>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15051,7 +15093,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1903-09-17">17. 9. [1903]</date>
-                     <placeName ref="#pmb365220">1/1 Wien 15</placeName>
+                     <placeName ref="#pmb365220">1/1 Post- und Telegraphenamt 15</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1903-09-17">17. 9. [1903]</date>
@@ -15864,11 +15906,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-05-12">12. 5. 1905</date>
-                     <placeName ref="#pmb168">Berlin SW 11</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-05-13">13. 5. 1905</date>
-                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                     <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15933,7 +15975,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-08-26">26. 8. 1905</date>
-                     <placeName ref="#pmb44374">St. Moritz Bad</placeName>
+                     <placeName ref="#pmb44374">St. Moritz</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15968,7 +16010,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-09-08">8. 9. 1905</date>
-                     <placeName ref="#pmb91936">Tremezzo (Como)</placeName>
+                     <placeName ref="#pmb91936">Tremezzo</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -16003,20 +16045,20 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-11-20">20. 11. 1905</date>
-                     <placeName ref="#pmb168">Berlin S. W. 11</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
                      <date when="1905-11-20">20. 11. 1905</date>
-                     <placeName ref="#pmb168">Berlin N. W. 7</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-11-20">20. 11. 1905</date>
-                     <placeName ref="#pmb399">Continental Hotel</placeName>
+                     <placeName ref="#pmb399">Hotel Continental [Berlin]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1905-11-20">20. 11. 1905</date>
-                     <placeName ref="#pmb399">Continental Hotel</placeName>
+                     <placeName ref="#pmb399">Hotel Continental [Berlin]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -16045,7 +16087,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-11-20">20. 11. 1905</date>
-                     <placeName ref="#pmb399">Continental Hotel Berlin</placeName>
+                     <placeName ref="#pmb399">Hotel Continental [Berlin]</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -16113,7 +16155,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-02-08">8. 2. 1906</date>
-                     <placeName ref="#pmb405253">XVIII., Währing</placeName>
+                     <placeName ref="#pmb405253">Postbestellbezirk 18/1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -16302,7 +16344,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1906-05-15">15. 5. 1906</date>
-                     <placeName ref="#pmb168">Berlin, W 9</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -16489,7 +16531,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1906-09-15">15. 9. 1906</date>
-                     <placeName ref="#pmb405253">XVIII., Währing</placeName>
+                     <placeName ref="#pmb405253">Postbestellbezirk 18/1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -17148,11 +17190,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-04-12">12. 4. 1909</date>
-                     <placeName ref="#pmb365454">IV., Wieden</placeName>
+                     <placeName ref="#pmb365454">4/1 Post- und Telegraphenamt 50</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1909-04-12">12. 4. 1909</date>
-                     <placeName ref="#pmb365226">XVIII., Währing</placeName>
+                     <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -17220,7 +17262,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-07-26">26. 7. 1909</date>
-                     <placeName ref="#pmb842">Karlsbad 1</placeName>
+                     <placeName ref="#pmb842">Karlovy Vary</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
                      <placeName ref="#pmb50">Wien</placeName>
@@ -17307,7 +17349,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-10-01">1. 10. [1909]</date>
-                     <placeName ref="#pmb365613">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb365613">1/1 Post- und Telegraphenamt 3</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -17373,7 +17415,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1910-12-26">26. 12. 1910</date>
-                     <placeName ref="#pmb51">I., Innere Stadt</placeName>
+                     <placeName ref="#pmb405263">Postbestellbezirk 1/1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -17834,7 +17876,7 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1927-04-22">22. 4. 1927</date>
-                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
+                     <placeName ref="#pmb365214">1/1 Post- und Telegraphenamt 1</placeName>
                   </correspAction>
                   <correspAction type="in_transit">
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>

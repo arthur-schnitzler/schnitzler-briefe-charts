@@ -14,7 +14,12 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 46
+      "count": 58
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
     },
     {
       "id": "pmb34014",
@@ -49,7 +54,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 62
+      "count": 50
     }
   ],
   "links_from_schnitzler": [
@@ -80,15 +85,20 @@
     {
       "from": "pmb168815",
       "to": "pmb365563",
-      "weight": 39,
+      "weight": 45,
       "titles": [
+        "Arthur Schnitzler an Robert Adam, 31. 10. 1910",
         "Arthur Schnitzler an Robert Adam, 3. 12. 1910",
+        "Arthur Schnitzler an Robert Adam, 8. 1. 1911",
         "Arthur Schnitzler an Robert Adam, 7. 2. 1911",
+        "Arthur Schnitzler an Robert Adam, 11. 2. 1911",
         "Arthur und Olga Schnitzler an Robert Adam, 2[2?]. 9. 1911",
         "Arthur Schnitzler an Robert Adam, 15. 5. 1916",
         "Arthur Schnitzler an Robert Adam, 18. 5. 1916",
+        "Arthur Schnitzler an Robert Adam, 29. 6. 1916",
         "Arthur Schnitzler an Robert Adam, 9. 10. 1916",
         "Arthur Schnitzler an Robert Adam, 11. 10. 1916",
+        "Arthur Schnitzler an Robert Adam, 16. 11. 1916",
         "Arthur Schnitzler an Robert Adam, 23. 11. 1916",
         "Arthur Schnitzler an Robert Adam, 11. 12. 1916",
         "Arthur Schnitzler an Robert Adam, 12. 12. 1916",
@@ -118,6 +128,7 @@
         "Arthur Schnitzler an Robert Adam, 25. 5. 1921",
         "Arthur Schnitzler an Robert Adam, 29. 5. 1921",
         "Arthur Schnitzler an Robert Adam, 9. 4. 1927",
+        "Arthur Schnitzler an Robert Adam, 10. 4. 1928",
         "Arthur Schnitzler an Robert Adam, 14. 6. 1929",
         "Arthur Schnitzler an Robert Adam, 23. 12. 1929",
         "Arthur Schnitzler an Robert Adam, 12. 6. 1930"
@@ -126,11 +137,32 @@
     {
       "from": "pmb168815",
       "to": "pmb44400",
-      "weight": 3,
+      "weight": 8,
       "titles": [
         "Arthur Schnitzler an Robert Adam, 4. 6. 1912",
         "Arthur Schnitzler an Robert Adam, 5. 4. 1913",
-        "Arthur Schnitzler an Robert Adam, 5. 5. 1913"
+        "Arthur Schnitzler an Robert Adam, 5. 5. 1913",
+        "Arthur Schnitzler an Robert Adam, 13. 5. 1913",
+        "Arthur Schnitzler an Robert Adam, 18. 6. 1915",
+        "Arthur Schnitzler an Robert Adam, 11. 7. 1915",
+        "Arthur Schnitzler an Robert Adam, 13. [7. 1915?]",
+        "Arthur Schnitzler an Robert Adam, 20. 7. 1915"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Robert Adam, 14. 7. 1920"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb365563",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Robert Adam, 20. 3. 1909"
       ]
     },
     {
@@ -148,40 +180,6 @@
       "titles": [
         "Arthur Schnitzler an Robert Adam, 10. 7. 1916",
         "Arthur Schnitzler an Robert Adam, 14. 7. 1916"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb365563",
-      "weight": 7,
-      "titles": [
-        "Arthur Schnitzler an Robert Adam, 20. 3. 1909",
-        "Arthur Schnitzler an Robert Adam, 31. 10. 1910",
-        "Arthur Schnitzler an Robert Adam, 8. 1. 1911",
-        "Arthur Schnitzler an Robert Adam, 11. 2. 1911",
-        "Arthur Schnitzler an Robert Adam, 29. 6. 1916",
-        "Arthur Schnitzler an Robert Adam, 16. 11. 1916",
-        "Arthur Schnitzler an Robert Adam, 10. 4. 1928"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb44400",
-      "weight": 5,
-      "titles": [
-        "Arthur Schnitzler an Robert Adam, 13. 5. 1913",
-        "Arthur Schnitzler an Robert Adam, 18. 6. 1915",
-        "Arthur Schnitzler an Robert Adam, 11. 7. 1915",
-        "Arthur Schnitzler an Robert Adam, 13. [7. 1915?]",
-        "Arthur Schnitzler an Robert Adam, 20. 7. 1915"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Robert Adam, 14. 7. 1920"
       ]
     }
   ],

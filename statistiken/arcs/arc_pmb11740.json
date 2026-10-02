@@ -34,7 +34,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 34
+      "count": 39
     },
     {
       "id": "pmb168934",
@@ -74,7 +74,7 @@
     {
       "id": "pmb192623",
       "name": "Salesianergasse 12",
-      "count": 33
+      "count": 34
     },
     {
       "id": "pmb197",
@@ -103,7 +103,7 @@
     },
     {
       "id": "pmb244901",
-      "name": "",
+      "name": "Mozartgasse 4",
       "count": 1
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "id": "pmb266172",
-      "name": "",
+      "name": "Stallburggasse 2",
       "count": 1
     },
     {
@@ -439,7 +439,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 429
+      "count": 426
     },
     {
       "id": "pmb513",
@@ -626,6 +626,14 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb33996",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1910"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb40297",
       "weight": 2,
       "titles": [
@@ -639,6 +647,16 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo Hofmannsthal, 6. 11. 1924"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 10. 11. 1910",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 3. 1911",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 21. 12. 1912"
       ]
     },
     {
@@ -979,14 +997,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb33996",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1910"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb40297",
       "weight": 1,
       "titles": [
@@ -1015,7 +1025,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 73,
+      "weight": 70,
       "titles": [
         "Arthur Schnitzler: Widmungsexemplar Alkandi’s Lied für Hugo von Hofmannsthal, [5.? 5. 1891]",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 7. 1891",
@@ -1077,11 +1087,8 @@
         "Arthur Schnitzler an Hugo von Hofmannsthal, 25. 1. 1908",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 25. 3. 1909",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 21. 2. 1910",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 10. 11. 1910",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 3. 1911",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 22. 10. 1911",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 1[3?]. 6. 1912",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 21. 12. 1912",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 28. 3. 1914",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 19. 2. 1917",
         "Arthur Schnitzler an Hugo Hofmannsthal, 26. 12. 1925",
@@ -1356,9 +1363,10 @@
     {
       "from": "pmb192623",
       "to": "pmb167782",
-      "weight": 7,
+      "weight": 8,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 15. 10. 1892",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 2. 1893",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 2. 1893",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 22. 2. 1893",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 22. 4. 1893",
@@ -2054,14 +2062,6 @@
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 8. [1895]"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 2. 1893"
       ]
     },
     {

@@ -7,17 +7,30 @@
       "count": 1
     },
     {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 9
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
     },
     {
-      "id": "pmb50603",
-      "name": "Schwarzspanierstraße",
+      "id": "pmb341379",
+      "name": "Schwarzspanierhof",
       "count": 1
+    },
+    {
+      "id": "pmb50",
+      "name": "Wien",
+      "count": 8
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168940",
+      "to": "pmb341379",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Adalbert Seligmann, 12. 2. 1909"
+      ]
+    },
     {
       "from": "pmb50",
       "to": "pmb50",
@@ -25,14 +38,6 @@
       "titles": [
         "Arthur Schnitzler an Adalbert Seligmann, 15. 6. 1897",
         "Arthur Schnitzler an Adalbert Seligmann, 15. 10. 1905"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50603",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Adalbert Seligmann, 12. 2. 1909"
       ]
     }
   ],

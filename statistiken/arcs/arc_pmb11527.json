@@ -7,6 +7,11 @@
       "count": 13
     },
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 1
+    },
+    {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
       "count": 1
@@ -29,6 +34,14 @@
   ],
   "links_from_schnitzler": [
     {
+      "from": "pmb168815",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Stefan Großmann, 8. 2. 1911"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb168",
       "weight": 5,
@@ -43,12 +56,11 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 6,
+      "weight": 5,
       "titles": [
         "Arthur Schnitzler an Stefan Großmann, 28. 9. 1907",
         "Arthur Schnitzler an Stefan Großmann, 9. 10. 1907",
         "Arthur Schnitzler an Stefan Großmann, [8. 2. 1911]",
-        "Arthur Schnitzler an Stefan Großmann, 8. 2. 1911",
         "Arthur Schnitzler an Stefan Großmann, 12. 2. 1912",
         "Arthur Schnitzler an Stefan Großmann, 2. 12. 1913"
       ]

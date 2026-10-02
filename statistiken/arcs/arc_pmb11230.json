@@ -2,6 +2,11 @@
   "correspondent": "Ehrenstein, Albert",
   "nodes": [
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 4
+    },
+    {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
       "count": 2
@@ -34,10 +39,20 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 47
+      "count": 46
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168815",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Arthur Schnitzler an Albert Ehrenstein, 31. 1. 1911",
+        "Arthur Schnitzler an Albert Ehrenstein, 9. 2. 1911",
+        "Arthur Schnitzler an Albert Ehrenstein, 6. 5. 1911"
+      ]
+    },
     {
       "from": "pmb168940",
       "to": "pmb237241",
@@ -58,16 +73,13 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 9,
+      "weight": 6,
       "titles": [
         "Arthur Schnitzler an Charlotte Ehrenstein, [vor dem 21. 5.? 1906]",
         "Arthur Schnitzler an Albert Ehrenstein, 20. 10. 1908",
         "Arthur Schnitzler an Albert Ehrenstein, 9. 11. 1908",
         "Arthur Schnitzler an Albert Ehrenstein, 20. 1. 1909",
         "Arthur Schnitzler an Albert Ehrenstein, 25. 12. 1910",
-        "Arthur Schnitzler an Albert Ehrenstein, 31. 1. 1911",
-        "Arthur Schnitzler an Albert Ehrenstein, 9. 2. 1911",
-        "Arthur Schnitzler an Albert Ehrenstein, 6. 5. 1911",
         "Arthur Schnitzler an Albert Ehrenstein, [zwischen 23. und 25.] 5. 1912"
       ]
     }

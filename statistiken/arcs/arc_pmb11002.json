@@ -2,14 +2,9 @@
   "correspondent": "Braun, Felix",
   "nodes": [
     {
-      "id": "pmb1092",
-      "name": "Sieveringer Straße",
-      "count": 3
-    },
-    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 5
+      "count": 11
     },
     {
       "id": "pmb30",
@@ -18,8 +13,8 @@
     },
     {
       "id": "pmb365643",
-      "name": "",
-      "count": 3
+      "name": "Sieveringer Straße 191",
+      "count": 10
     },
     {
       "id": "pmb45258",
@@ -29,38 +24,24 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 12
+      "count": 6
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168815",
-      "to": "pmb1092",
-      "weight": 2,
+      "to": "pmb365643",
+      "weight": 5,
       "titles": [
+        "Arthur Schnitzler an Felix Braun, 19. 10. 1924",
+        "Arthur Schnitzler an Felix Braun, 28. 12. 1924",
         "Arthur Schnitzler an Felix Braun, 26. 12. 1925",
+        "Arthur Schnitzler an Felix Braun, [nach dem 15. 3. 1926?]",
         "Arthur Schnitzler an Felix Braun, 28. 5. 1927"
       ]
     },
     {
       "from": "pmb168815",
-      "to": "pmb365643",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Felix Braun, 19. 10. 1924",
-        "Arthur Schnitzler an Felix Braun, 28. 12. 1924"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb1092",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Felix Braun, [nach dem 15. 3. 1926?]"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb45258",
       "weight": 1,
       "titles": [
@@ -80,9 +61,13 @@
     {
       "from": "pmb365643",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 5,
       "titles": [
-        "Felix Braun an Arthur Schnitzler, 31. 12. 1924"
+        "Felix Braun an Arthur Schnitzler, 13. 5. 1922",
+        "Felix Braun an Arthur Schnitzler, 27. 3. 1924",
+        "Felix Braun an Arthur Schnitzler, 2. 10. 1924",
+        "Felix Braun an Arthur Schnitzler, 31. 12. 1924",
+        "Felix Braun an Arthur Schnitzler, 25. 12. 1927"
       ]
     },
     {
@@ -96,16 +81,12 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 8,
+      "weight": 4,
       "titles": [
-        "Felix Braun an Arthur Schnitzler, 13. 5. 1922",
-        "Felix Braun an Arthur Schnitzler, 27. 3. 1924",
-        "Felix Braun an Arthur Schnitzler, 2. 10. 1924",
         "Felix Braun an Arthur Schnitzler, 26. 12. 1924",
         "Felix Braun an Arthur Schnitzler, 14. 12. 1925",
         "Felix Braun an Arthur Schnitzler, 15. 3. 1926",
-        "Felix Braun an Arthur Schnitzler, 10. 5. 1927",
-        "Felix Braun an Arthur Schnitzler, 25. 12. 1927"
+        "Felix Braun an Arthur Schnitzler, 10. 5. 1927"
       ]
     }
   ]
