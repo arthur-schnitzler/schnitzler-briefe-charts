@@ -27,6 +27,11 @@
       "count": 1
     },
     {
+      "id": "pmb34387",
+      "name": "Villa Annerl",
+      "count": 1
+    },
+    {
       "id": "pmb34401",
       "name": "Altaussee",
       "count": 2
@@ -92,7 +97,7 @@
         "Arthur Schnitzler an Robert Adam, 8. 1. 1911",
         "Arthur Schnitzler an Robert Adam, 7. 2. 1911",
         "Arthur Schnitzler an Robert Adam, 11. 2. 1911",
-        "Arthur und Olga Schnitzler an Robert Adam, 2[2?]. 9. 1911",
+        "Arthur und Olga Schnitzler an Robert Adam, [20. oder 21?]. 9. 1911",
         "Arthur Schnitzler an Robert Adam, 15. 5. 1916",
         "Arthur Schnitzler an Robert Adam, 18. 5. 1916",
         "Arthur Schnitzler an Robert Adam, 29. 6. 1916",
@@ -139,7 +144,7 @@
       "to": "pmb44400",
       "weight": 8,
       "titles": [
-        "Arthur Schnitzler an Robert Adam, 4. 6. 1912",
+        "Arthur Schnitzler an Robert Adam, [23. oder 24]. 5. 1912",
         "Arthur Schnitzler an Robert Adam, 5. 4. 1913",
         "Arthur Schnitzler an Robert Adam, 5. 5. 1913",
         "Arthur Schnitzler an Robert Adam, 13. 5. 1913",
@@ -174,11 +179,18 @@
       ]
     },
     {
+      "from": "pmb34387",
+      "to": "pmb34401",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Robert Adam, [9. oder 10]. 7. 1916"
+      ]
+    },
+    {
       "from": "pmb34401",
       "to": "pmb34401",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Robert Adam, 10. 7. 1916",
         "Arthur Schnitzler an Robert Adam, 14. 7. 1916"
       ]
     }

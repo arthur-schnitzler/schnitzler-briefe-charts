@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-02Z</date>
+            <date>2026-10-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12225.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -229,6 +229,10 @@
                      <persName ref="#pmb5765">Mell, Mary</persName>
                      <date when="1907-08-03" n="01">3. 8. 1907</date>
                      <placeName ref="#pmb50963">Deutschfeistritz</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-08-03">3. 8. 1907</date>
+                     <placeName ref="#pmb54762">Peggau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>

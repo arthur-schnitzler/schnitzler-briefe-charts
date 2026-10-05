@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-02Z</date>
+            <date>2026-10-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10762.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -720,19 +720,26 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10762"
-                          target="L01585">Andreas-Salomé an Schnitzler, 19. 2. 1906</ref>
+                          target="L01585">Andreas-Salomé an Schnitzler, [18. oder 19]. 2. 1906</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
                <measure unit="zeichenanzahl" quantity="715"/>
             </item>
             <item corresp="L01585">
-               <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, 19. 2. 1906</title>
+               <title level="a">Lou Andreas-Salomé an Arthur Schnitzler, [18. oder 19]. 2. 1906</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
-                     <date when="1906-02-19" n="01">19. 2. 1906</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <date n="01" notBefore="1906-02-18" notAfter="1906-02-19">[18. oder 19]. 2. 1906</date>
+                     <placeName ref="#pmb1104">Berlin</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-02-19">19. 2. 1906</date>
+                     <placeName ref="#pmb168">Berlin W 50</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-02-20">20. 2. 1906</date>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -774,7 +781,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10762"
-                          target="L01585">Andreas-Salomé an Schnitzler, 19. 2. 1906</ref>
+                          target="L01585">Andreas-Salomé an Schnitzler, [18. oder 19]. 2. 1906</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10762"

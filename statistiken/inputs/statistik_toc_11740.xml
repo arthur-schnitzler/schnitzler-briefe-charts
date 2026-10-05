@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-02Z</date>
+            <date>2026-10-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -9558,10 +9558,12 @@
                      <date when="1901-06-14">14. 6. 1901</date>
                      <placeName ref="#pmb259">Lido</placeName>
                   </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1901-06-16">16. 6. 1901</date>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1901-06-15" notAfter="1901-06-19">[15. 6. 1901
-                  – 19. 6. 1901?]</date>
+                     <date when="1901-06-16">16. 6. 1901</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -12092,7 +12094,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03442">Goldmann an Schnitzler, 8. 4. [1904]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04052">Schnitzler an Schwarzkopf, 11 4. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04052">Schnitzler an Schwarzkopf, 11. 4. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -13111,6 +13113,10 @@
                      <date when="1904-10-08" n="01">8. 10. 1904</date>
                      <placeName ref="#pmb968">Mödling</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-10-08">8. 10. 1904</date>
+                     <placeName ref="#pmb968">Mödling 1</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-10-09">9. 10. 1904</date>
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
@@ -13220,19 +13226,27 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01457">Hofmannsthal an Schnitzler, 18. 10. 1904</ref>
+                          target="L01457">Hofmannsthal an Schnitzler, [17. oder 18]. 10. 1904</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="183"/>
             </item>
             <item corresp="L01457">
-               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 18. 10. 1904</title>
+               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [17. oder 18]. 10. 1904</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <date when="1904-10-18" n="01">18. 10. 1904</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date notBefore="1904-10-17" notAfter="1904-10-17" n="1">[17. oder 18]. 10. 1904</date>
+                     <placeName ref="#pmb365409">Wien 7/3 63</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-10-18">18. 10. 1904</date>
+                     <placeName ref="#pmb365407">10/2 Wien 78</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1904-10-19">19. 10. 1904</date>
+                     <placeName ref="#pmb365409">Wien 7/3 63</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-10-19">19. 10. 1904</date>
@@ -13245,8 +13259,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03804">Schnitzler an Zweig, 17. 10. 1904</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01458">Bahr an Schnitzler, 19. [10. 1904]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04048">Schnitzler an Schwarzkopf, 17. 10. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03804">Schnitzler an Zweig, 17. 10. 1904</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -13268,6 +13282,14 @@
                      <date when="1904-12-01" n="01">1. 12. 1904</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-12-01">1. 12. 1904</date>
+                     <placeName ref="#pmb365214">Wien 1/1 1</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1904-12-01">1. 12. 1904</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1904-12-01">1. 12. 1904</date>
@@ -13280,7 +13302,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01457">Hofmannsthal an Schnitzler, 18. 10. 1904</ref>
+                          target="L01457">Hofmannsthal an Schnitzler, [17. oder 18]. 10. 1904</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -13328,6 +13350,10 @@
                      <date when="1904-12-14" n="03">14. 12. 1904</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-12-14">14. 12. 1904</date>
+                     <placeName ref="#pmb365459">Wien 1/1 6</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
                      <date when="1904-12-14">14. 12. 1904</date>
                      <placeName ref="#pmb68">XVIII., Währing</placeName>
@@ -13360,6 +13386,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1904-12-16" n="01">16. 12. 1904</date>
+                     <placeName ref="#pmb173">Rodaun</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-12-16">16. 12. 1904</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="delivered">
@@ -13396,7 +13426,14 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date when="1904-12-28" n="01">28. 12. 1904</date>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
+                     <placeName ref="#pmb824">Hotel und Pension Lueg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb30">St. Gilgen</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1904-12-29">29. 12. 1904</date>
+                     <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
@@ -13426,15 +13463,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1904-12-29" n="02">29. 12. 1904</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1904-12-29">29. 12. 1904</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <date when="1904-12-30">30. 12. 1904</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date when="1904-12-30">30. 12. 04</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13464,6 +13501,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1904-12-30" n="01">30. 12. 1904</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1904-12-31">31. 12. 1904</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="delivered">
@@ -13532,7 +13573,11 @@
                      <persName ref="#pmb11617">Hauptmann, Gerhart</persName>
                      <persName ref="#pmb11621">Hauptmann, Margarete</persName>
                      <date when="1905-01-29" n="02">29. 1. 1905</date>
-                     <placeName ref="#pmb735">Jagniątków</placeName>
+                     <placeName ref="#pmb1052">Haus Wiesenstein</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1905-01-30">30. 1. 1905</date>
+                     <placeName ref="#pmb735">Agnetendorf</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13572,15 +13617,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1905-02-16" n="01">16. 2. 1905</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1905-02-17">17. 2. 1905</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <date when="1905-02-17">17. 2. 1905</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <date when="1905-02-17">17. 2. 05</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13618,7 +13663,7 @@
                   </correspAction>
                   <correspAction type="delivered">
                      <date when="1905-03-14">14. 3. 1905</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1006">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
@@ -13683,6 +13728,13 @@
                      <date when="1905-03-15" n="01">15. 3. 1905</date>
                      <placeName ref="#pmb682">Dubrovnik</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb44246">Gravosa</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1905-03-17">17. 3. 1905</date>
+                     <placeName ref="#pmb173">Rodaun</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
                      <date evidence="conjecture" notBefore="1905-03-16" notAfter="1905-03-20">[16. 3. 1905
@@ -13713,6 +13765,14 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1905-04-19" n="01">19. 4. 1905</date>
                      <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1905-04-19">19. 4. 1905</date>
+                     <placeName ref="#pmb365220">Wien 1/1 15</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1905-04-19">19. 4. 1905</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -13746,11 +13806,15 @@
                      <date when="1905-05-11" n="02">11. 5. 1905</date>
                      <placeName ref="#pmb36549">Versailles</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1905-05-12">12. 5. 1905</date>
+                     <placeName ref="#pmb36549">Versailles à Paris</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1905-05-12" notAfter="1905-05-16">[12. 5. 1905
                   – 16. 5. 1905?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -13775,6 +13839,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1905-05-29" n="01">29. 5. 1905</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1905-05-29">29. 5. 1905</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="delivered">
@@ -13966,6 +14034,14 @@
                      <date when="1905-08-11" n="01">11. [8.?] 1905</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1905-08-11">11. 8. 1905</date>
+                     <placeName ref="#pmb290824">Wien 1/1 C.R.</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1905-08-11">11. 8. 1905</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1905-08-11">11. [8.?] 1905</date>
@@ -14055,6 +14131,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1905-09-30" n="01">30. 9. 1905</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1905-10-01">1. 10. 1905</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="delivered">
@@ -14120,11 +14200,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1905-10-06" n="02">6. 10. 1905</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1905-10-06">6. 10. 1905</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1905-10-07" notAfter="1905-10-11">[7. 10. 1905
+                     <date evidence="conjecture" notBefore="1905-10-06" notAfter="1905-10-11">[6. 10. 1905
                   – 11. 10. 1905?]</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
@@ -14139,18 +14223,22 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01560">Hofmannsthal an Schnitzler, 11. 10. 1905</ref>
+                          target="L01560">Hofmannsthal an Schnitzler, [10. oder 11]. 10. 1905</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
                <measure unit="zeichenanzahl" quantity="367"/>
             </item>
             <item corresp="L01560">
-               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 11. 10. 1905</title>
+               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [10. oder 11]. 10. 1905</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <date when="1905-10-11" n="01">11. 10. 1905</date>
+                     <date n="01" notBefore="1905-10-10" notAfter="1905-10-11">[10. oder 11]. 10. 1905</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1905-10-11">11. 10. [1905]</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="delivered">
@@ -14164,8 +14252,8 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04195">Schnitzler an Schwarzkopf, [10. 10. 1905?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L04020">Schnitzler an Schwarzkopf, 12. 10. 1905</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01559">Schnitzler an Beer-Hofmann, 7. 10. 1905</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04195">Schnitzler an Schwarzkopf, [10. 10. 1905?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -14199,7 +14287,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01560">Hofmannsthal an Schnitzler, 11. 10. 1905</ref>
+                          target="L01560">Hofmannsthal an Schnitzler, [10. oder 11]. 10. 1905</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -14216,6 +14304,14 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1906-01-02" n="01">2. 1. 1906</date>
                      <placeName ref="#pmb44102">Kaltenleutgeben</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-01-02">2. 1. [1906]</date>
+                     <placeName ref="#pmb44102">Kaltenleutgeben</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-01-03">3. 1. 1906</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14307,18 +14403,18 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1906-03-06" n="01">6. 3. 1906</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <date evidence="conjecture" notBefore="1906-03-06" notAfter="1906-03-08">[6. 3. 1906
-                  – 10. 3. 1906?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date evidence="external" notBefore="1906-03-06" notAfter="1906-03-07">[6. 3. 1906
+                  – 7. 3. 1906?]</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01586">Hofmannsthal an Schnitzler, [4. 3. 1906]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01588">Hofmannsthal an Schnitzler, 7. 3. 1906</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01588">Hofmannsthal an Schnitzler, [6. oder 7]. 3. 1906</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -14326,19 +14422,27 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01588">Hofmannsthal an Schnitzler, 7. 3. 1906</ref>
+                          target="L01588">Hofmannsthal an Schnitzler, [6. oder 7]. 3. 1906</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="3107"/>
             </item>
             <item corresp="L01588">
-               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7. 3. 1906</title>
+               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [6. oder 7]. 3. 1906</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <date when="1906-03-07" n="01">7. 3. 1906</date>
+                     <date n="02" notBefore="1906-03-06" notAfter="1906-03-07">[6. oder 7]. 3. 1906</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-03-07">[7. 3]. 1906</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-03-07">7. 3. 1906</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14383,7 +14487,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01588">Hofmannsthal an Schnitzler, 7. 3. 1906</ref>
+                          target="L01588">Hofmannsthal an Schnitzler, [6. oder 7]. 3. 1906</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -14399,11 +14503,14 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1906-05-07" n="02">7. 5. 1906</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <date when="1906-05-08">8. 5. 1906</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <date when="1906-05-08">8. V. 06</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14433,6 +14540,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1906-06-23" n="02">23. 6. 1906</date>
+                     <placeName ref="#pmb189">Semmering</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-06-23">23. 6. 1906</date>
                      <placeName ref="#pmb189">Semmering</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -14496,12 +14607,19 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1906-07-27" n="01">27. 7. 1906</date>
+                     <placeName ref="#pmb824">Hotel und Pension Lueg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
                      <placeName ref="#pmb33">St. Gilgen</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-07-29">29. 7. 1906</date>
+                     <placeName ref="#pmb726">Helsingør</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1906-07-29">29. 7. 1906</date>
-                     <placeName ref="#pmb726">Helsingør</placeName>
+                     <placeName ref="#pmb41010">Kurhotellet</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -14529,12 +14647,20 @@
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
                      <persName ref="#pmb24239">Schlesinger, Hans</persName>
                      <date when="1906-07-29" n="01">29. 7. 1906</date>
+                     <placeName ref="#pmb41187">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-07-29">29. 7. [1906]</date>
                      <placeName ref="#pmb30">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-07-31">31. 7. 1906</date>
+                     <placeName ref="#pmb726">Helsingør</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1906-07-31">31. 7. 1906</date>
-                     <placeName ref="#pmb726">Helsingør</placeName>
+                     <placeName ref="#pmb41010">Kurhaus</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -14561,13 +14687,17 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <date when="1906-08-03" n="01">3. 8. 1906</date>
+                     <placeName ref="#pmb1284">Schloss Kronborg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-08-03">3. 8. [1906]</date>
                      <placeName ref="#pmb726">Helsingør</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date evidence="conjecture" notBefore="1906-08-04" notAfter="1906-08-08">[4. 8. 1906
                   – 8. 8. 1906?]</date>
-                     <placeName ref="#pmb186">Lueg</placeName>
+                     <placeName ref="#pmb824">Lueg</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -14755,8 +14885,8 @@
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="delivered">
-                     <date when="1906-10-15">15. 10. 1906</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <date when="1906-10-15">15. X. 06</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14818,9 +14948,13 @@
                      <date when="1906-11-29" n="01">29. 11. 1906</date>
                      <placeName ref="#pmb45258">München</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-11-29">29. 11. 1906</date>
+                     <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
                   <correspAction type="delivered">
-                     <date when="1906-11-30">30. 11. 1906</date>
-                     <placeName ref="#pmb68">XVIII., Währing</placeName>
+                     <date when="1906-11-30">30. XI. 06</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14850,7 +14984,19 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1906-12-28" n="01">28. 12. 1906</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-12-29">29. 12. 1906</date>
+                     <placeName ref="#pmb365561">14/2 Wien 127</placeName>
+                  </correspAction>
+                  <correspAction type="arrived">
+                     <date when="1906-12-29">29. 12. 1906</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-12-29">29. 12. 1906</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14911,7 +15057,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1907-01-19" n="01">19. 1. 1907</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-01-19">19. 1. 1907</date>
+                     <placeName ref="#pmb365561">14/2 Wien 127</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1907-01-19">19. 1. 1907</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -14976,6 +15130,10 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1907-02-23" n="01">23. 2. 1907</date>
                      <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1907-02-23">23. 2. 1907</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15068,7 +15226,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1907-04-13" n="01">13. 4. 1907</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb257071">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-04-13">13. 4. 1907</date>
+                     <placeName ref="#pmb365220">1/1 Wien 15</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1907-04-14">14. 4. 1907</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15223,6 +15389,14 @@
                      <date when="1907-06-08" n="01">8. 6. 1907</date>
                      <placeName ref="#pmb263">Florenz</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-06-08">8. 6. 1907</date>
+                     <placeName ref="#pmb52725">Firenze Ferrovia</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1907-06-10">10. 6. 1907</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1907-06-10">10. 6. 1907</date>
@@ -15252,6 +15426,10 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1907-06-15" n="01">15. 6. 1907</date>
                      <placeName ref="#pmb462">Venedig</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-06-15">15. 6. 1907</date>
+                     <placeName ref="#pmb462">Sezioni Riunite Venezia</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15283,6 +15461,10 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1907-06-23" n="01">23. 6. 1907</date>
                      <placeName ref="#pmb259">Lido</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-06-23">23. 6. 1907</date>
+                     <placeName ref="#pmb462">Venezia Sezioni Riunite</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15346,10 +15528,18 @@
                      <date when="1907-07-09" n="01">9. 7. 1907</date>
                      <placeName ref="#pmb34199">Cortina d’Ampezzo</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-07-09">9. 7. 1907</date>
+                     <placeName ref="#pmb34199">Cortina</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1907-07-09">9. 7. 1907</date>
+                     <placeName ref="#pmb428">Welsberg</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1907-07-09">9. 7. 1907</date>
-                     <placeName ref="#pmb428">Welsberg-Taisten</placeName>
+                     <placeName ref="#pmb723">Pension Waldbrunn</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -15375,6 +15565,14 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1907-07-11" n="02">11. 7. 1907</date>
                      <placeName ref="#pmb34199">Cortina d’Ampezzo</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-07-11">11. 7. 1907</date>
+                     <placeName ref="#pmb34199">Cortina</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1907-07-12">12. [7. 1907]</date>
+                     <placeName ref="#pmb428">Welsberg</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15505,7 +15703,11 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
                      <date when="1907-09-20" n="01">20. 9. 1907</date>
-                     <placeName ref="#pmb415">Bad Aussee</placeName>
+                     <placeName ref="#pmb51799">Gasthof–Gosauschmied Gosau Salzkammergut</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1907-09-20">20. 9. 1907</date>
+                     <placeName ref="#pmb415">Aussee in Steiermark</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15569,6 +15771,17 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1907-11-12" n="01">12. 11. 1907</date>
                      <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb365486">1/1 Telegrafenamt 18</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1907-11-12">12. 11. 1907</date>
+                     <placeName ref="#pmb405251">17/1 Wien 105</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1907-11-12">12. 11. 1907</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15658,6 +15871,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1907-11-16" n="02">16. [11. 1907?]</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1907-11-16">16. 11. [1907]</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -15718,6 +15935,10 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1908-01-08" n="01">8. 1. 190[8?]</date>
                      <placeName ref="#pmb44686">Sládkovičovo</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1908-01-10">10. [1]. 1908</date>
+                     <placeName ref="#pmb44686">Diószeg</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15809,6 +16030,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1908-02-04" n="01">4. 2. 1908</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1908-02-04">4. 2. 1908</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -15840,7 +16065,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1908-04-07" n="01">7. 4. 1908</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1908-04-07">7. 4. 1908</date>
+                     <placeName ref="#pmb365220">1/1 Wien 15</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1908-04-07">7. 4. 1908</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15858,18 +16091,22 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01776">Hofmannsthal an Schnitzler, 12. 6. 1908</ref>
+                          target="L01776">Hofmannsthal an Schnitzler, [11. oder 12]. 6. 1908</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
                <measure unit="zeichenanzahl" quantity="299"/>
             </item>
             <item corresp="L01776">
-               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 12. 6. 1908</title>
+               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [11. oder 12]. 6. 1908</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <date when="1908-06-12" n="01">12. 6. 1908</date>
+                     <date n="01" notBefore="1908-06-11" notAfter="1908-06-12">[11. oder 12]. 6. 1908</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1908-06-12">12. 6. 1908</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -15901,7 +16138,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1908-07-11" n="01">11. 7. 1908</date>
-                     <placeName ref="#pmb30">Salzburg</placeName>
+                     <placeName ref="#pmb41187">Salzburg</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1908-07-11">11. 7. 1908</date>
+                     <placeName ref="#pmb30">Salzburg 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -15911,12 +16152,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01781">Beer-Hofmann an Schnitzler, 6. [7. 1908]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01780">Schnitzler, Schnitzler an Bahr, 6. 7. 1908</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01783">Burckhard an Schnitzler, 14. 7. 1908</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01776">Hofmannsthal an Schnitzler, 12. 6. 1908</ref>
+                          target="L01776">Hofmannsthal an Schnitzler, [11. oder 12]. 6. 1908</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -15941,7 +16182,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01784">Schnitzler, Schnitzler an Beer-Hofmann, 20. 7. 1908</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03013">Schnitzler, Brahm an Salten, 19. 7. 1908</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03463">Goldmann an Schnitzler, 29. 7. 1908</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -16025,6 +16266,10 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1908-10-03" n="01">3. 10. 1908</date>
                      <placeName ref="#pmb189">Semmering</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1908-10-03">3. 10. 1908</date>
+                     <placeName ref="#pmb189">Semmering 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -16320,19 +16565,23 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01871">Hofmannsthal an Schnitzler, 13. [9.] 1909</ref>
+                          target="L01871">Hofmannsthal an Schnitzler, [12. oder 13. 9.] 1909</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="262"/>
             </item>
             <item corresp="L01871">
-               <title level="a">Gerty von Hofmannsthal an Olga Schnitzler, 13. [9.] 1909</title>
+               <title level="a">Gerty von Hofmannsthal an Olga Schnitzler, [12. oder 13. 9.] 1909</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
-                     <date when="1909-09-13" n="01">13. [9.] 1909</date>
+                     <date n="01" notBefore="1909-09-12" notAfter="1909-09-13">[12. oder 13. 9.] 1909</date>
                      <placeName ref="#pmb415">Bad Aussee</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1909-09-13">13. [9]. 1909</date>
+                     <placeName ref="#pmb415">Aussee in der Steiermark</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
@@ -16378,7 +16627,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L01871">Hofmannsthal an Schnitzler, 13. [9.] 1909</ref>
+                          target="L01871">Hofmannsthal an Schnitzler, [12. oder 13. 9.] 1909</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -16486,6 +16735,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1909-11-09" n="01">9. 11. [1909]</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1909-11-10">10. 11. [1909]</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -16518,10 +16771,14 @@
                      <date when="1909-12-13" n="02">13. 12. 1909</date>
                      <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1909-12-13">13. 12. [1909]</date>
+                     <placeName ref="#pmb168">B 41</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1909-12-13">13. 12. 1909</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -16606,6 +16863,9 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1910-03-01" n="01">1. 3. 1910</date>
+                     <placeName ref="#pmb197">Weimar</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
                      <placeName ref="#pmb197">Weimar</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -16733,6 +16993,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1910-04-22" n="01">22. 4. 1910</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-04-22">22. 4. 1910</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -16794,7 +17058,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1910-05-15" n="01">5. 5. 1910</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-05-15">15. 5. 1910</date>
+                     <placeName ref="#pmb365615">9/4 Wien 68</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1910-05-16">16. 5. 1910</date>
+                     <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
@@ -16828,6 +17100,10 @@
                      <date when="1910-06-25" n="03">25. 6. 1910</date>
                      <placeName ref="#pmb259">Lido</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-06-25">25. 6. 1910</date>
+                     <placeName ref="#pmb843">S. Elisabetta d/Lido (Venezia)</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date evidence="conjecture" notBefore="1910-06-26" notAfter="1910-06-30">[26. 6. 1910
@@ -16837,7 +17113,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04171">Schnitzler an Schwarzkopf, 25. 6. 1910</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01939">Schnitzler an Beer-Hofmann, 26. 6. 1910</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03016">Schnitzler an Salten, 27. 6. 1910</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -16891,6 +17167,10 @@
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
                      <persName ref="#pmb16670">Friedmann, Rose</persName>
                      <date when="1910-07-23" n="02">23. 7. 1910</date>
+                     <placeName ref="#pmb45258">München</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-07-23">23. 7. 1910</date>
                      <placeName ref="#pmb45258">München</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -16958,7 +17238,10 @@
                      <persName ref="#pmb3223">Auernheimer, Irene</persName>
                      <persName ref="#pmb10788">Auernheimer, Raoul</persName>
                      <date when="1910-09-20" n="01">20. 9. 1910</date>
-                     <placeName ref="#pmb415">Bad Aussee</placeName>
+                     <placeName ref="#pmb51799">Gasthof–Gosauschmied Gosau Salzkammergut</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-09-20">20. 9. 1910</date>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -17470,19 +17753,22 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L02031">Hofmannsthal an Schnitzler, 23. [9. 1911]</ref>
+                          target="L02031">Hofmannsthal an Schnitzler, [22. oder 23. 9. 1911]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1807"/>
             </item>
             <item corresp="L02031">
-               <title level="a">Gerty von Hofmannsthal an Olga Schnitzler, 23. [9. 1911]</title>
+               <title level="a">Gerty von Hofmannsthal an Olga Schnitzler, [22. oder 23. 9. 1911]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
-                     <date when="1911-09-23" n="01">23. [9. 1911]</date>
+                     <date n="01" notBefore="1911-09-22" notAfter="1911-09-23">[22. oder 23. 9. 1911]</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1911-09-23">23. [9. 1911]</date>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
@@ -17492,7 +17778,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02030">Schnitzler, Schnitzler an Adam, 2[2?]. 9. 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03540">Goldmann an Schnitzler, 21. 9. 1911</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02032">Mann an Schnitzler, 25. 9.  1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -17527,7 +17813,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L02031">Hofmannsthal an Schnitzler, 23. [9. 1911]</ref>
+                          target="L02031">Hofmannsthal an Schnitzler, [22. oder 23. 9. 1911]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -17727,7 +18013,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
-                     <date when="1912-05-23" n="03">23. 5. 1912</date>
+                     <date when="1912-05-23" n="04">23. 5. 1912</date>
+                     <placeName ref="#pmb40302">Sterzing</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
                      <placeName ref="#pmb40302">Sterzing</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -17769,7 +18058,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02073">Schnitzler an Adam, 4. 6. 1912</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02072">Bahr an Schnitzler, 2. 6. 1912</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02075">Schnitzler an Hofmannsthal, 1[3?]. 6. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -17862,7 +18151,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02082">Schnitzler an Beer-Hofmann, 5. 8. 1912</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02082">Schnitzler an Beer-Hofmann, [4. oder 5]. 8. 1912</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02084">Dehmel an Schnitzler, 14. 8. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -17883,7 +18172,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1912-09-21" n="01">21. 9. 1912</date>
-                     <placeName ref="#pmb36485">Eppan an der Weinstraße</placeName>
+                     <placeName ref="#pmb36482">Schloss Gandegg</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1912-09-21">22. 9. 1912</date>
@@ -17898,7 +18187,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04456">Schnitzler, Steinrück, Schnitzler, Mann an Schwarzkopf, 7. 9. [1912?]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02090">Schnitzler an Bahr, [25./26.] 9. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02090">Schnitzler an Bahr, [25. oder 26.] 9. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -17948,6 +18237,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1912-11-13" n="01">13. 11. 1912</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1912-11-14">14. 11. 1912</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -17983,7 +18276,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1912-11-15" notAfter="1912-11-17">[15. 11. 1912 – 19. 11. 1912?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -18009,6 +18302,14 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1912-11-21" n="01">21. 11. 1912</date>
                      <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1912-11-21">21. 11. 1912</date>
+                     <placeName ref="#pmb365284">1/1 Post- und Telegraphenamt 11</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1912-11-21">21. 11. 1912</date>
+                     <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -18056,18 +18357,22 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L02109">Hofmannsthal an Schnitzler, 1[7?]. 12. 1912</ref>
+                          target="L02109">Hofmannsthal an Schnitzler, 17. 12. 1912</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="telegramm"/>
                <measure unit="zeichenanzahl" quantity="115"/>
             </item>
             <item corresp="L02109">
-               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1[7?]. 12. 1912</title>
+               <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 17. 12. 1912</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
-                     <date when="1912-12-17" n="01">1[7?]. 12. 1912</date>
+                     <date when="1912-12-17" n="01">17. 12. 1912</date>
+                     <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1912-12-17">17. 12. 1912</date>
                      <placeName ref="#pmb173">Rodaun</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -18107,12 +18412,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02109">Hofmannsthal an Schnitzler, 1[7?]. 12. 1912</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02109">Hofmannsthal an Schnitzler, 17. 12. 1912</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03988">Salten an Schnitzler, Oktober 1913</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L02109">Hofmannsthal an Schnitzler, 1[7?]. 12. 1912</ref>
+                          target="L02109">Hofmannsthal an Schnitzler, 17. 12. 1912</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -18320,6 +18625,9 @@
                      <date when="1914-07-15" n="02">15. [7. 1914]</date>
                      <placeName ref="#pmb34344">Weißenbach am Attersee</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb34344">Weißenbach am Attersee</placeName>
+                  </correspAction>
                   <correspAction type="redirected">
                      <placeName ref="#pmb941">Lunz am See</placeName>
                   </correspAction>
@@ -18327,7 +18635,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1914-07-16" notAfter="1914-07-20">[16. 7. 1914
                   – 20. 7. 1914?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
@@ -18530,6 +18838,10 @@
                      <date when="1916-05-05" n="01">5. 5. [1916?]</date>
                      <placeName ref="#pmb34031">Dürnstein</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1916-05-05">5. 5. [1916]</date>
+                     <placeName ref="#pmb34031">Dürnstein</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
@@ -18570,7 +18882,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02233">Beer-Hofmann an Schnitzler, 19. 7. 1916</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02233">Beer-Hofmann an Schnitzler, [18. oder 19]. 7. 1916</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02235">Schnitzler an Beer-Hofmann, 30. 7. 1916</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

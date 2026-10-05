@@ -1,11 +1,11 @@
 Source,Target,Weight,Type
-"Beer-Hofmann, Richard","Wien",584,Directed
+"Beer-Hofmann, Richard","Wien",583,Directed
 "Beer-Hofmann, Richard","Frankgasse 1",174,Directed
 "Beer-Hofmann, Richard","Wollzeile 15 (»Berthahof«)",154,Directed
 "Beer-Hofmann, Richard","Bad Ischl",133,Directed
 "Beer-Hofmann, Richard","1/1 Post- und Telegraphenamt 1",101,Directed
-"Beer-Hofmann, Richard","XVIII., Währing",87,Directed
 "Beer-Hofmann, Richard","9/3 Post- und Telegraphenamt 72",86,Directed
+"Beer-Hofmann, Richard","XVIII., Währing",86,Directed
 "Beer-Hofmann, Richard","Hasenauerstraße 59",86,Directed
 "Beer-Hofmann, Richard","Rodaun",81,Directed
 "Beer-Hofmann, Richard","Edmund-Weiß-Gasse 7",76,Directed
@@ -61,6 +61,7 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","Ordination Arthur Schnitzler [Bösendorferstraße 11]",10,Directed
 "Beer-Hofmann, Richard","Seidlgasse 30",10,Directed
 "Beer-Hofmann, Richard","Paris",10,Directed
+"Beer-Hofmann, Richard","Österreichischer Hof",10,Directed
 "Beer-Hofmann, Richard","Neapel",10,Directed
 "Beer-Hofmann, Richard","Kaiser-Franz-Ring 54",10,Directed
 "Beer-Hofmann, Richard","Frankfurt am Main",10,Directed
@@ -76,7 +77,6 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","Seidlgasse",8,Directed
 "Beer-Hofmann, Richard","Steiermark",8,Directed
 "Beer-Hofmann, Richard","Schweiz",8,Directed
-"Beer-Hofmann, Richard","Österreichischer Hof",8,Directed
 "Beer-Hofmann, Richard","Čáslav",8,Directed
 "Beer-Hofmann, Richard","Stockholm",8,Directed
 "Beer-Hofmann, Richard","Villach",8,Directed
@@ -137,9 +137,10 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","Spittal an der Drau",5,Directed
 "Beer-Hofmann, Richard","Niederösterreich",5,Directed
 "Beer-Hofmann, Richard","Wörthersee",5,Directed
+"Beer-Hofmann, Richard","Südbahnhotel [Semmering]",5,Directed
 "Beer-Hofmann, Richard","Marienlyst",5,Directed
 "Beer-Hofmann, Richard","Santa Maria Elisabetta",5,Directed
-"Beer-Hofmann, Richard","Fischerndorf",5,Directed
+"Beer-Hofmann, Richard","Hotel Waldhaus am See",5,Directed
 "Beer-Hofmann, Richard","Kärntnerring 12/Bösendorferstraße 11",4,Directed
 "Beer-Hofmann, Richard","1/1 Post- und Telegraphenamt 15",4,Directed
 "Beer-Hofmann, Richard","Pension Quisisana",4,Directed
@@ -163,15 +164,14 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","Sanremo",4,Directed
 "Beer-Hofmann, Richard","Kurhaus Rudolfsbad",4,Directed
 "Beer-Hofmann, Richard","Palast Hotel Lido",4,Directed
-"Beer-Hofmann, Richard","Südbahnhotel [Semmering]",4,Directed
 "Beer-Hofmann, Richard","Amsterdam",4,Directed
 "Beer-Hofmann, Richard","Hotel Bristol Berlin",4,Directed
 "Beer-Hofmann, Richard","9/4 Post- und Telegraphenamt 68",4,Directed
 "Beer-Hofmann, Richard","Helsingør",4,Directed
 "Beer-Hofmann, Richard","Maria Schutz",4,Directed
 "Beer-Hofmann, Richard","Große Dolomitenstraße",4,Directed
-"Beer-Hofmann, Richard","Hotel Waldhaus am See",4,Directed
 "Beer-Hofmann, Richard","Restaurant Sonnenschein",4,Directed
+"Beer-Hofmann, Richard","Villa Annerl",4,Directed
 "Beer-Hofmann, Richard","Haus Tannenberg",4,Directed
 "Beer-Hofmann, Richard","Hotel Neuhauser",3,Directed
 "Beer-Hofmann, Richard","Frankreich",3,Directed
@@ -215,7 +215,6 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","New York City",3,Directed
 "Beer-Hofmann, Richard","Kurhotellet",3,Directed
 "Beer-Hofmann, Richard","Pordoijoch",3,Directed
-"Beer-Hofmann, Richard","Garmisch-Partenkirchen",3,Directed
 "Beer-Hofmann, Richard","Val Catena",3,Directed
 "Beer-Hofmann, Richard","Tutzing",3,Directed
 "Beer-Hofmann, Richard","Dachstein",3,Directed
@@ -328,6 +327,7 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","Etablissement Ernst Wahliss",2,Directed
 "Beer-Hofmann, Richard","Ponte Gardena",2,Directed
 "Beer-Hofmann, Richard","Palasthotel Meran",2,Directed
+"Beer-Hofmann, Richard","Garmisch-Partenkirchen",2,Directed
 "Beer-Hofmann, Richard","Villa Heufler",2,Directed
 "Beer-Hofmann, Richard","Hotel am See",2,Directed
 "Beer-Hofmann, Richard","Pichl am See",2,Directed
@@ -348,7 +348,9 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","Antwerpen",2,Directed
 "Beer-Hofmann, Richard","Mariazell",2,Directed
 "Beer-Hofmann, Richard","Lunz am See",2,Directed
+"Beer-Hofmann, Richard","Villa Viola",2,Directed
 "Beer-Hofmann, Richard","Loser",2,Directed
+"Beer-Hofmann, Richard","Fischerndorf",2,Directed
 "Beer-Hofmann, Richard","Las Palmas de Gran Canaria",2,Directed
 "Beer-Hofmann, Richard","Kärntnerring",1,Directed
 "Beer-Hofmann, Richard","Bösendorferstraße",1,Directed
@@ -787,6 +789,7 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","Neubeuern",1,Directed
 "Beer-Hofmann, Richard","Alster",1,Directed
 "Beer-Hofmann, Richard","Hotel Atlantic",1,Directed
+"Beer-Hofmann, Richard","Villa Döllgast",1,Directed
 "Beer-Hofmann, Richard","Hasenauerstraße 46",1,Directed
 "Beer-Hofmann, Richard","Hotel Regina [Wien]",1,Directed
 "Beer-Hofmann, Richard","Bodensee",1,Directed
@@ -822,8 +825,6 @@ Source,Target,Weight,Type
 "Beer-Hofmann, Richard","Festung Hohensalzburg",1,Directed
 "Beer-Hofmann, Richard","Unterach am Attersee",1,Directed
 "Beer-Hofmann, Richard","Lazaristengasse",1,Directed
-"Beer-Hofmann, Richard","Doktor-Sterz-Weg",1,Directed
-"Beer-Hofmann, Richard","Villa Annerl",1,Directed
 "Beer-Hofmann, Richard","Hoher Koppen",1,Directed
 "Beer-Hofmann, Richard","Pötschenpass",1,Directed
 "Beer-Hofmann, Richard","Hotel zum goldenen Kreuz [Bad Ischl]",1,Directed

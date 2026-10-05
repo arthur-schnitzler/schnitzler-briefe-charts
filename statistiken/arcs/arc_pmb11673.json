@@ -17,6 +17,11 @@
       "count": 1
     },
     {
+      "id": "pmb296548",
+      "name": "Hotel Kammer",
+      "count": 1
+    },
+    {
       "id": "pmb296731",
       "name": "8, rue de Monceau",
       "count": 1
@@ -49,11 +54,6 @@
     {
       "id": "pmb63049",
       "name": "Houlgate",
-      "count": 1
-    },
-    {
-      "id": "pmb63056",
-      "name": "Kammer",
       "count": 1
     },
     {
@@ -198,6 +198,14 @@
       ]
     },
     {
+      "from": "pmb296548",
+      "to": "pmb867",
+      "weight": 1,
+      "titles": [
+        "Theodor Herzl an Arthur Schnitzler, 14. 8. 1885"
+      ]
+    },
+    {
       "from": "pmb415",
       "to": "pmb213",
       "weight": 1,
@@ -255,14 +263,6 @@
       "weight": 1,
       "titles": [
         "Theodor Herzl an Arthur Schnitzler, 29. 7. 1892"
-      ]
-    },
-    {
-      "from": "pmb63056",
-      "to": "pmb867",
-      "weight": 1,
-      "titles": [
-        "Theodor Herzl an Arthur Schnitzler, 14. 8. 1885"
       ]
     },
     {

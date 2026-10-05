@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-02Z</date>
+            <date>2026-10-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11036.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1385,7 +1385,14 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
                      <date when="1909-07-12" n="02">12. 7. 1909</date>
-                     <placeName ref="#pmb33">St. Gilgen</placeName>
+                     <placeName ref="#pmb234399">Franzosenschanze 4</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb186">Lueg</placeName>
+                  </correspAction>
+                  <correspAction type="in_transit">
+                     <date when="1909-07-12">12. 7. 1909</date>
+                     <placeName ref="#pmb30">Salzburg</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1408,7 +1415,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="356"/>
+               <measure unit="zeichenanzahl" quantity="355"/>
             </item>
             <item corresp="L01861">
                <title level="a">Max Burckhard an Arthur Schnitzler, 29. 7. 1909</title>
@@ -1416,6 +1423,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11036">Burckhard, Max</persName>
                      <date when="1909-07-29" n="01">29. 7. 1909</date>
+                     <placeName ref="#pmb234399">St. Gilgen</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1909-07-29">29. 7. 1909</date>
                      <placeName ref="#pmb33">St. Gilgen</placeName>
                   </correspAction>
                   <correspAction type="received">

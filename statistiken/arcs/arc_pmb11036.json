@@ -12,9 +12,14 @@
       "count": 1
     },
     {
+      "id": "pmb234399",
+      "name": "",
+      "count": 2
+    },
+    {
       "id": "pmb33",
       "name": "St. Gilgen",
-      "count": 13
+      "count": 11
     },
     {
       "id": "pmb45258",
@@ -65,11 +70,19 @@
       ]
     },
     {
-      "from": "pmb33",
+      "from": "pmb234399",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Max Burckhard an Arthur Schnitzler, 12. 7. 1909"
+      ]
+    },
+    {
+      "from": "pmb234399",
+      "to": "pmb470",
+      "weight": 1,
+      "titles": [
+        "Max Burckhard an Arthur Schnitzler, 29. 7. 1909"
       ]
     },
     {
@@ -78,14 +91,6 @@
       "weight": 1,
       "titles": [
         "Max Burckhard: Widmungsexemplar Gottfried Wunderlich für Arthur Schnitzler, 20. 6. 1909"
-      ]
-    },
-    {
-      "from": "pmb33",
-      "to": "pmb470",
-      "weight": 1,
-      "titles": [
-        "Max Burckhard an Arthur Schnitzler, 29. 7. 1909"
       ]
     },
     {

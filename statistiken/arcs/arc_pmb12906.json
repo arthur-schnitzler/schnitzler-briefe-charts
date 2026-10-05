@@ -7,6 +7,11 @@
       "count": 6
     },
     {
+      "id": "pmb255506",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb49283",
       "name": "Harmannsdorf",
       "count": 2
@@ -14,7 +19,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 14
+      "count": 13
     }
   ],
   "links_from_schnitzler": [
@@ -33,20 +38,20 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb255506",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Bertha von Suttner an Arthur Schnitzler, 4. 11. 1913"
+      ]
+    },
+    {
       "from": "pmb49283",
       "to": "pmb50",
       "weight": 2,
       "titles": [
         "Arthur von Suttner an Arthur Schnitzler, 3. 5. 1893",
         "Bertha von Suttner an Arthur Schnitzler, 3. 5. 1893"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Bertha von Suttner an Arthur Schnitzler, 4. 11. 1913"
       ]
     },
     {

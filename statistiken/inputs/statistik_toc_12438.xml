@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-02Z</date>
+            <date>2026-10-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12438.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,6 +71,10 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1909-03-20" n="01">20. 3. 1909</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1909-03-20">20. 3. 1909</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
@@ -133,6 +137,10 @@
                      <date when="1910-10-31" n="01">31. 10. 1910</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1910-10-31">31. 10. 1910</date>
+                     <placeName ref="#pmb365266">9/1 Wien 66</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1910-10-31" notAfter="1910-11-02">[31. 10. 1910 – 4. 11. 1910?]</date>
@@ -162,6 +170,9 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1910-12-03" n="01">3. 12. 1910</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb365266">9/1 Wien 66</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
@@ -256,6 +267,10 @@
                      <date when="1911-02-07" n="01">7. 2. 1911</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1911-02-07">7. [2. 1911]</date>
+                     <placeName ref="#pmb365266">9/1 Wien 66</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1911-02-07" notAfter="1911-02-09">[7. 2. 1911
@@ -318,6 +333,9 @@
                      <date when="1911-02-11" n="01">11. 2. 1911</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <placeName ref="#pmb365459">1/1 Wien 6</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1911-02-11" notAfter="1911-02-13">[11. 2. 1911
@@ -335,31 +353,35 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02030">Schnitzler, Schnitzler an Adam, 2[2?]. 9. 1911</ref>
+                          target="L02030">Schnitzler, Schnitzler an Adam, [20. oder 21?]. 9. 1911</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="585"/>
             </item>
             <item corresp="L02030">
-               <title level="a">Arthur und Olga Schnitzler an Robert Adam, 2[2?]. 9. 1911</title>
+               <title level="a">Arthur und Olga Schnitzler an Robert Adam, [20. oder 21?]. 9. 1911</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
-                     <date when="1911-09-22" n="01">2[2?]. 9. 1911</date>
+                     <date n="01" notBefore="1911-09-21" notAfter="1911-09-22">[20. oder 21?]. 9. 1911</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1911-09-21">2[1?]. 9. 1911</date>
+                     <placeName ref="#pmb365284">1/1 Wien 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
-                     <date evidence="conjecture" notBefore="1911-09-22" notAfter="1911-09-24">[22. 9. 1911
+                     <date evidence="conjecture" notBefore="1911-09-21" notAfter="1911-09-24">[21. 9. 1911
                   – 26. 9. 1911?]</date>
                      <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L03540">Goldmann an Schnitzler, 21. 9. 1911</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02031">Hofmannsthal an Schnitzler, 23. [9. 1911]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02029">Bahr an Schnitzler, 17. 9. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03540">Goldmann an Schnitzler, 21. 9. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
@@ -367,34 +389,36 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02073">Schnitzler an Adam, 4. 6. 1912</ref>
+                          target="L02073">Schnitzler an Adam, [23. oder 24]. 5. 1912</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
                <measure unit="zeichenanzahl" quantity="57"/>
             </item>
             <item corresp="L02073">
-               <title level="a">Arthur Schnitzler an Robert Adam, 4. 6. 1912</title>
+               <title level="a">Arthur Schnitzler an Robert Adam, [23. oder 24]. 5. 1912</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1912-06-04" n="01">4. 6. 1912</date>
+                     <date n="01" notBefore="1912-05-23" notAfter="1912-05-24">[23. oder 24]. 5. 1912</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1912-05-24">24. 5. [1912]</date>
+                     <placeName ref="#pmb405253">Postbestellbezirk 18/1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
-                     <date evidence="conjecture" notBefore="1912-06-05" notAfter="1912-06-09">[5. 6. 1912
-                  – 9. 6. 1912?]</date>
                      <placeName ref="#pmb44400">Zistersdorf</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02072">Bahr an Schnitzler, 2. 6. 1912</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02074">Hofmannsthal an Schnitzler, 12. 6. 1912</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04453">Schnitzler, Schnitzler an Schwarzkopf, 1[7?]. 5. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02068">Schnitzler an Ehrenstein, [zwischen 23. und 25.] 5. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02030">Schnitzler, Schnitzler an Adam, 2[2?]. 9. 1911</ref>
+                          target="L02030">Schnitzler, Schnitzler an Adam, [20. oder 21?]. 9. 1911</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
@@ -425,7 +449,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02073">Schnitzler an Adam, 4. 6. 1912</ref>
+                          target="L02073">Schnitzler an Adam, [23. oder 24]. 5. 1912</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
@@ -442,6 +466,10 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1913-04-05" n="01">5. 4. 1913</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1913-04-05">5. 4. 1913</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
@@ -505,6 +533,10 @@
                      <date when="1913-05-05" n="01">5. 5. 1913</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1913-05-05">5. 5. 1913</date>
+                     <placeName ref="#pmb365555">1/1 Wien 8</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1913-05-06" notAfter="1913-05-10">[6. 5. 1913
@@ -566,6 +598,9 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1913-05-13" n="01">13. 5. 1913</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1913-05-13">13. [5]. 1913</date>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
@@ -661,9 +696,13 @@
                      <date when="1915-06-18" n="01">18. 6. 1915</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1915-06-19">19. 6. 1915</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
-                     <date evidence="conjecture" notBefore="1915-06-19" notAfter="1915-06-23">[19. 6. 1915
+                     <date evidence="conjecture" notBefore="1915-06-20" notAfter="1915-06-23">[20. 6. 1915
                   – 23. 6. 1915?]</date>
                      <placeName ref="#pmb44400">Zistersdorf</placeName>
                   </correspAction>
@@ -723,9 +762,13 @@
                      <date when="1915-07-11" n="01">11. 7. 1915</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1915-07-12">12. 7. 1915</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
-                     <date evidence="conjecture" notBefore="1915-07-12" notAfter="1915-07-16">[12. 7. 1915
+                     <date evidence="conjecture" notBefore="1915-07-13" notAfter="1915-07-16">[13. 7. 1915
                   – 16. 7. 1915?]</date>
                      <placeName ref="#pmb44400">Zistersdorf</placeName>
                   </correspAction>
@@ -753,6 +796,10 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1915-07-13" n="01">13. [7. 1915?]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1915-07-13">13. 7. [1915]</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
@@ -816,9 +863,13 @@
                      <date when="1915-07-20" n="01">20. 7. 1915</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1915-07-21">21. 7. 1915</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
-                     <date evidence="conjecture" notBefore="1915-07-21" notAfter="1915-07-25">[21. 7. 1915
+                     <date evidence="conjecture" notBefore="1915-07-22" notAfter="1915-07-25">[22. 7. 1915
                   – 25. 7. 1915?]</date>
                      <placeName ref="#pmb44400">Zistersdorf</placeName>
                   </correspAction>
@@ -939,6 +990,10 @@
                      <date when="1916-05-15" n="01">15. 5. 1916</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1916-05-15">15. 5. 1916</date>
+                     <placeName ref="#pmb365266">9/1 Wien 66</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-05-15" notAfter="1916-05-17">[15. 5. 1916
@@ -969,6 +1024,10 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1916-05-18" n="01">18. 5. 1916</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1916-05-18">18. 5. 1916</date>
+                     <placeName ref="#pmb365226">18/1 Wien 111</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
@@ -1032,10 +1091,14 @@
                      <date when="1916-06-29" n="01">29. 6. 1916</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1916-07-01">1. 7. [1916]</date>
+                     <placeName ref="#pmb365223">18/1 Wien 110</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
-                     <date evidence="conjecture" notBefore="1916-06-29" notAfter="1916-07-01">[29. 6. 1916
-                  – 3. 7. 1916?]</date>
+                     <date evidence="conjecture" notBefore="1916-07-01" notAfter="1916-07-04">[1. 7. 1916
+                  – 4. 7. 1916?]</date>
                      <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
                   </correspAction>
                   <correspContext>
@@ -1049,19 +1112,23 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02230">Schnitzler an Adam, 10. 7. 1916</ref>
+                          target="L02230">Schnitzler an Adam, [9. oder 10]. 7. 1916</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
                <measure unit="zeichenanzahl" quantity="901"/>
             </item>
             <item corresp="L02230">
-               <title level="a">Arthur Schnitzler an Robert Adam, 10. 7. 1916</title>
+               <title level="a">Arthur Schnitzler an Robert Adam, [9. oder 10]. 7. 1916</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1916-07-10" n="01">10. 7. 1916</date>
-                     <placeName ref="#pmb34401">Altaussee</placeName>
+                     <date n="01" notBefore="1916-07-09" notAfter="1916-07-10">[9. oder 10]. 7. 1916</date>
+                     <placeName ref="#pmb34387">Villa Annerl</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1916-07-10">10. 7. 1916</date>
+                     <placeName ref="#pmb34401" evidence="conjecture">Altaussee</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
@@ -1101,12 +1168,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02230">Schnitzler an Adam, 10. 7. 1916</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02230">Schnitzler an Adam, [9. oder 10]. 7. 1916</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02232">Schnitzler an Beer-Hofmann, 14. 7. 1916</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"
-                          target="L02230">Schnitzler an Adam, 10. 7. 1916</ref>
+                          target="L02230">Schnitzler an Adam, [9. oder 10]. 7. 1916</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_12438"

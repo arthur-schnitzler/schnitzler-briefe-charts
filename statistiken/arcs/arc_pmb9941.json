@@ -7,6 +7,11 @@
       "count": 1
     },
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
       "id": "pmb48393",
       "name": "Kremsmünster",
       "count": 8
@@ -14,7 +19,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 15
+      "count": 14
     },
     {
       "id": "pmb90217",
@@ -57,13 +62,20 @@
     },
     {
       "from": "pmb90217",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Theodor von Sosnosky an Arthur Schnitzler, 3. 3. 1902"
+      ]
+    },
+    {
+      "from": "pmb90217",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Theodor von Sosnosky an Arthur Schnitzler, 21. 6. 1901",
         "Theodor von Sosnosky an Arthur Schnitzler, 9. 10. 1901",
-        "Theodor von Sosnosky an Arthur Schnitzler, 14. 10. 1901",
-        "Theodor von Sosnosky an Arthur Schnitzler, 3. 2. 1902"
+        "Theodor von Sosnosky an Arthur Schnitzler, 14. 10. 1901"
       ]
     }
   ]

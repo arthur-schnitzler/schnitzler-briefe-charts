@@ -22,6 +22,11 @@
       "count": 2
     },
     {
+      "id": "pmb144",
+      "name": "Villa Mauthner-Markhof",
+      "count": 2
+    },
+    {
       "id": "pmb147028",
       "name": "Grand Hotel Lavarone",
       "count": 1
@@ -34,7 +39,7 @@
     {
       "id": "pmb160",
       "name": "Schloss Arenberg",
-      "count": 4
+      "count": 5
     },
     {
       "id": "pmb167789",
@@ -49,7 +54,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 27
+      "count": 28
     },
     {
       "id": "pmb168934",
@@ -59,7 +64,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 39
+      "count": 40
     },
     {
       "id": "pmb182",
@@ -69,7 +74,7 @@
     {
       "id": "pmb189",
       "name": "Semmering",
-      "count": 6
+      "count": 2
     },
     {
       "id": "pmb192623",
@@ -122,6 +127,11 @@
       "count": 2
     },
     {
+      "id": "pmb259",
+      "name": "Lido",
+      "count": 1
+    },
+    {
       "id": "pmb3",
       "name": "Deutsches Theater Berlin",
       "count": 1
@@ -129,7 +139,7 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 14
+      "count": 13
     },
     {
       "id": "pmb304",
@@ -144,7 +154,7 @@
     {
       "id": "pmb305",
       "name": "Casa Petrarca",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb306",
@@ -167,9 +177,19 @@
       "count": 4
     },
     {
+      "id": "pmb40812",
+      "name": "Hotel du Lac",
+      "count": 1
+    },
+    {
+      "id": "pmb41010",
+      "name": "Kurhotellet",
+      "count": 2
+    },
+    {
       "id": "pmb413",
       "name": "Südbahnhotel [Semmering]",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb414",
@@ -184,7 +204,7 @@
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 9
+      "count": 6
     },
     {
       "id": "pmb453",
@@ -199,16 +219,21 @@
     {
       "id": "pmb462",
       "name": "Venedig",
-      "count": 4
+      "count": 2
     },
     {
-      "id": "pmb465",
-      "name": "Riva del Garda",
+      "id": "pmb466",
+      "name": "Hofgarten [München]",
       "count": 1
     },
     {
-      "id": "pmb470",
-      "name": "Edlach an der Rax",
+      "id": "pmb467",
+      "name": "Villa Heufler",
+      "count": 1
+    },
+    {
+      "id": "pmb469",
+      "name": "Parsifalstraße",
       "count": 1
     },
     {
@@ -222,9 +247,14 @@
       "count": 1
     },
     {
+      "id": "pmb485",
+      "name": "Hotel Vier Jahreszeiten",
+      "count": 2
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 262
+      "count": 260
     },
     {
       "id": "pmb505",
@@ -257,13 +287,8 @@
       "count": 2
     },
     {
-      "id": "pmb726",
-      "name": "Helsingør",
-      "count": 1
-    },
-    {
-      "id": "pmb734",
-      "name": "Bayreuth",
+      "id": "pmb714",
+      "name": "Hotel Edlacherhof",
       "count": 1
     },
     {
@@ -312,18 +337,8 @@
       "count": 1
     },
     {
-      "id": "pmb959",
-      "name": "Marienlyst",
-      "count": 1
-    },
-    {
       "id": "pmb986",
       "name": "Lindau am Bodensee",
-      "count": 1
-    },
-    {
-      "id": "pmb988",
-      "name": "Seis am Schlern",
       "count": 1
     },
     {
@@ -363,6 +378,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 8. 10. 1910"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb160",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 19. 7. [1913]"
       ]
     },
     {
@@ -428,12 +451,13 @@
     {
       "from": "pmb168940",
       "to": "pmb207274",
-      "weight": 9,
+      "weight": 10,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 9. 10. 1903",
         "Arthur Schnitzler an Hermann Bahr, [9. oder 10.] 11. [1903]",
         "Arthur Schnitzler an Hermann Bahr, 11. 11. 1903",
         "Arthur Schnitzler an Hermann Bahr, 17. 8. 1904",
+        "Arthur Schnitzler an Hermann Bahr, 1. 1. 1905",
         "Arthur Schnitzler an Hermann Bahr, 18. 9. 1905",
         "Arthur Schnitzler an Hermann Bahr, 3. 10. 1905",
         "Arthur Schnitzler an Hermann Bahr, 18. 5. 1907",
@@ -474,14 +498,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 22. 4. 1897"
-      ]
-    },
-    {
-      "from": "pmb189",
-      "to": "pmb207274",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 17. 9. 1906"
       ]
     },
     {
@@ -526,31 +542,7 @@
       ]
     },
     {
-      "from": "pmb413",
-      "to": "pmb207274",
-      "weight": 1,
-      "titles": [
-        "Arthur und Olga Schnitzler an Hermann Bahr, 5. 5. 1905"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb134",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 28. 8. 1909"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb207274",
-      "weight": 1,
-      "titles": [
-        "Arthur und Olga Schnitzler an Hermann Bahr, 6. 5. 1908"
-      ]
-    },
-    {
-      "from": "pmb465",
+      "from": "pmb40812",
       "to": "pmb207274",
       "weight": 1,
       "titles": [
@@ -558,11 +550,59 @@
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb160",
+      "from": "pmb41010",
+      "to": "pmb305",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Hermann Bahr, 14. 7. 1906"
+      ]
+    },
+    {
+      "from": "pmb413",
+      "to": "pmb207274",
       "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 19. 7. [1913]",
+        "Arthur und Olga Schnitzler an Hermann Bahr, 5. 5. 1905",
+        "Arthur Schnitzler an Hermann Bahr, 17. 9. 1906"
+      ]
+    },
+    {
+      "from": "pmb466",
+      "to": "pmb207274",
+      "weight": 1,
+      "titles": [
+        "Arthur und Olga Schnitzler an Hermann Bahr, 6. 5. 1908"
+      ]
+    },
+    {
+      "from": "pmb467",
+      "to": "pmb207274",
+      "weight": 1,
+      "titles": [
+        "Olga und Arthur Schnitzler an Hermann Bahr, 6. 7. 1908"
+      ]
+    },
+    {
+      "from": "pmb485",
+      "to": "pmb134",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 28. 8. 1909"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb144",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, [25. oder 26.] 9. 1912"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb160",
+      "weight": 1,
+      "titles": [
         "Arthur Schnitzler an Hermann Bahr, 12. 10. 1913"
       ]
     },
@@ -576,18 +616,9 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb189",
+      "to": "pmb207274",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 25. 9. 1912"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb207274",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 1. 1. 1905",
         "Arthur Schnitzler an Hermann Bahr, 10. 1. 1907"
       ]
     },
@@ -712,14 +743,6 @@
       ]
     },
     {
-      "from": "pmb726",
-      "to": "pmb305",
-      "weight": 1,
-      "titles": [
-        "Arthur und Olga Schnitzler an Hermann Bahr, 14. 7. 1906"
-      ]
-    },
-    {
       "from": "pmb834",
       "to": "pmb207274",
       "weight": 1,
@@ -750,14 +773,6 @@
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 8. 6. 1903"
       ]
-    },
-    {
-      "from": "pmb988",
-      "to": "pmb207274",
-      "weight": 1,
-      "titles": [
-        "Olga und Arthur Schnitzler an Hermann Bahr, 6. 7. 1908"
-      ]
     }
   ],
   "links_to_schnitzler": [
@@ -771,17 +786,26 @@
     },
     {
       "from": "pmb134",
-      "to": "pmb45258",
+      "to": "pmb485",
       "weight": 1,
       "titles": [
         "Hermann Bahr und Anna Bahr-Mildenburg an Arthur Schnitzler, 25. 8. 1909"
       ]
     },
     {
-      "from": "pmb160",
+      "from": "pmb144",
       "to": "pmb168815",
       "weight": 1,
       "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 28. 9. 1912"
+      ]
+    },
+    {
+      "from": "pmb160",
+      "to": "pmb168815",
+      "weight": 2,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 16. 4. 1913",
         "Hermann Bahr an Arthur Schnitzler, 25. 8. 1918"
       ]
     },
@@ -827,19 +851,10 @@
     },
     {
       "from": "pmb189",
-      "to": "pmb168815",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 28. 9. 1912"
-      ]
-    },
-    {
-      "from": "pmb189",
-      "to": "pmb168940",
-      "weight": 2,
-      "titles": [
-        "Hermann Bahr und Siegfried Trebitsch an Arthur Schnitzler, 28. 12. 1903",
-        "Hermann Bahr an Arthur Schnitzler, 17. 4. 1908"
+        "Hermann Bahr und Siegfried Trebitsch an Arthur Schnitzler, 28. 12. 1903"
       ]
     },
     {
@@ -932,11 +947,27 @@
       ]
     },
     {
+      "from": "pmb259",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 2. 6. 1912"
+      ]
+    },
+    {
       "from": "pmb304404",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 2. 12. 1909"
+      ]
+    },
+    {
+      "from": "pmb305",
+      "to": "pmb41010",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 4. 7. 1906"
       ]
     },
     {
@@ -949,18 +980,10 @@
     },
     {
       "from": "pmb30",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 16. 4. 1913"
-      ]
-    },
-    {
-      "from": "pmb30",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
-        "Hermann Bahr an Arthur Schnitzler, [18.?] 8. 1905"
+        "Hermann Bahr an Arthur Schnitzler, [17. oder 18.?] 8. 1905"
       ]
     },
     {
@@ -983,6 +1006,14 @@
         "Hermann Bahr an Arthur Schnitzler, 9. 6. 1922",
         "Hermann Bahr an Arthur Schnitzler, 18. 2. 1930",
         "Hermann Bahr an Arthur Schnitzler, 20. 3. 1930"
+      ]
+    },
+    {
+      "from": "pmb413",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 17. 4. 1908"
       ]
     },
     {
@@ -1027,14 +1058,6 @@
     },
     {
       "from": "pmb462",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 2. 6. 1912"
-      ]
-    },
-    {
-      "from": "pmb462",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
@@ -1050,11 +1073,11 @@
       ]
     },
     {
-      "from": "pmb462",
-      "to": "pmb959",
+      "from": "pmb469",
+      "to": "pmb714",
       "weight": 1,
       "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 4. 7. 1906"
+        "Hermann Bahr an Arthur Schnitzler, 28. 6. 1909"
       ]
     },
     {
@@ -1263,14 +1286,6 @@
       ]
     },
     {
-      "from": "pmb734",
-      "to": "pmb470",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 28. 6. 1909"
-      ]
-    },
-    {
       "from": "pmb80",
       "to": "pmb168934",
       "weight": 1,
@@ -1283,7 +1298,7 @@
       "to": "pmb168940",
       "weight": 1,
       "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 20. 10. 1904"
+        "Hermann Bahr an Arthur Schnitzler, [19. oder 20]. 10. 1904"
       ]
     },
     {

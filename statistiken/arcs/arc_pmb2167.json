@@ -114,7 +114,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 39
+      "count": 38
     },
     {
       "id": "pmb168815",
@@ -419,7 +419,7 @@
     {
       "id": "pmb545",
       "name": "Hotel Savoy [Berlin]",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb55271",
@@ -1070,10 +1070,9 @@
     {
       "from": "pmb168",
       "to": "pmb168940",
-      "weight": 5,
+      "weight": 4,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 29. 1. 1906",
-        "Felix Salten u. a. an Arthur Schnitzler, 19. 4. 1906",
         "Felix Salten an Arthur Schnitzler, 15. 10. 1907",
         "Felix Salten an Arthur Schnitzler, [21. oder 22]. 10. 1907",
         "Felix Salten an Arthur Schnitzler, 17. 1. 1910"
@@ -1867,6 +1866,14 @@
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 29. 6. 1909"
+      ]
+    },
+    {
+      "from": "pmb545",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Felix Salten u. a. an Arthur Schnitzler, 19. 4. 1906"
       ]
     },
     {

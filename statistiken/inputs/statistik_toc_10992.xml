@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-02Z</date>
+            <date>2026-10-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10992.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1506,15 +1506,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb4395">Brandes, Edith</persName>
                      <date when="1901-06-26" n="02">26. 6. 1901</date>
-                     <placeName ref="#pmb36300">Kopenhagen</placeName>
-                  </correspAction>
-                  <correspAction type="in_transit">
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb238114">Kopenhagen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1901-06-26" notAfter="1901-06-30">[26. 6. 1901
                   – 30. 6. 1901?]</date>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -1891,10 +1889,18 @@
                      <date when="1906-07-24" n="02">24. 7. 1906</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1906-07-25">25. 7. 1906</date>
+                     <placeName ref="#pmb36300">Kobenhavn</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-07-25">25. 7. 1906</date>
+                     <placeName ref="#pmb959">Helsingør</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1906-07-25">25. 7.1906</date>
-                     <placeName ref="#pmb959">Marienlyst</placeName>
+                     <placeName ref="#pmb41010">Kurhotellet</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -1919,13 +1925,17 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1906-07-25" n="01">25. 7. 1906</date>
-                     <placeName ref="#pmb959">Marienlyst</placeName>
+                     <placeName ref="#pmb41010">Kurhotellet</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1906-07-25">25. 7. 1906</date>
+                     <placeName ref="#pmb36300">Kjøbenhavn</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date evidence="conjecture" notBefore="1906-07-26" notAfter="1906-07-30">[26. 7. 1906
                   – 30. 7. 1906?]</date>
-                     <placeName ref="#pmb1111">Havnegade</placeName>
+                     <placeName ref="#pmb238114">Havnegade</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2129,10 +2139,17 @@
                      <date when="1911-04-11" n="01">11. 4. 1911</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1911-04-11">11. 4. 1911</date>
+                     <placeName ref="#pmb36300">Kjøbenhavn</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1911-04-12" notAfter="1911-04-16">[12. 4. 1911
-                  – 16. 4. 1911?]</date>
+                     <date evidence="external" notBefore="1911-04-16" notAfter="1911-04-24">[16. 4. 1911
+                  – 24. 4. 1911?]</date>
                      <placeName ref="#pmb36456">Menton</placeName>
                   </correspAction>
                   <correspContext>
@@ -2159,6 +2176,10 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1911-04-29" n="01">29. 4. 1911</date>
                      <placeName ref="#pmb667">Garmisch-Partenkirchen</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1911-04-29">[29]. 4. [1911]</date>
+                     <placeName ref="#pmb667">Partenkirchen</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
@@ -2291,7 +2312,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04012">Wedekind an Schnitzler, [zwischen 1.
-                  und. 5.] 12. 1911</ref>
+                  und 5.] 12. 1911</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03951">Schnitzler an Zuckerkandl, 9. 12. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -2312,6 +2333,10 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date when="1912-02-03" n="02">3. 2. 1912</date>
+                     <placeName ref="#pmb1131">Hotel d’Jéna</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1912-02-03">3. 2. 1912</date>
                      <placeName ref="#pmb182">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -2346,6 +2371,10 @@
                      <date when="1912-09-26" n="01">26. 9. 1912</date>
                      <placeName ref="#pmb44328">Skagen</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1912-09-26">26. 9. 1912</date>
+                     <placeName ref="#pmb44328">Skagen</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1912-09-27" notAfter="1912-10-01">[27. 9. 1912
@@ -2354,7 +2383,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02090">Schnitzler an Bahr, [25./26.] 9. 1912</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02090">Schnitzler an Bahr, [25. oder 26.] 9. 1912</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02092">Bahr an Schnitzler, 28. 9. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -2467,11 +2496,15 @@
                      <date when="1913-02-27" n="01">27. 2. 1913</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb10992">Brandes, Georg</persName>
+                  <correspAction type="redirected">
                      <date evidence="conjecture" notBefore="1913-02-28" notAfter="1913-03-04">[28. 2. 1913
                   – 4. 3. 1913?]</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb10992">Brandes, Georg</persName>
+                     <date when="1913-03-05" evidence="external">5. 3. 1913</date>
+                     <placeName ref="#pmb1135">Grand Hotel Metropol</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
@@ -2496,12 +2529,16 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date when="1913-03-05" n="01">5. 3. 1913</date>
-                     <placeName ref="#pmb906">Taormina</placeName>
+                     <placeName ref="#pmb1135">Taormina</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1913-03-06">6. 3. 1913</date>
+                     <placeName ref="#pmb906">Taormina Messina</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1913-03-06" notAfter="1913-03-10">[6. 3. 1913
-                  – 10. 3. 1913?]</date>
+                     <date evidence="conjecture" notBefore="1913-03-07" notAfter="1913-03-12">[7. 3. 1913
+                  – 12. 3. 1913?]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
@@ -2527,7 +2564,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1914-08-03" n="01">3. 8. 1914</date>
-                     <placeName ref="#pmb12589">Celerina</placeName>
+                     <placeName ref="#pmb1138">Celerina</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
@@ -2591,6 +2628,10 @@
                      <date when="1914-10-18" n="01">18. 10. 1914</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1914-10-18">18. 10. 1914</date>
+                     <placeName ref="#pmb36300">Kjøbenhavn</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1914-10-19" notAfter="1914-10-23">[19. 10. 1914 – 23. 10. 1914?]</date>
@@ -2651,8 +2692,8 @@
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
-                     <placeName ref="#pmb365590">1/1 Telegrafenamt 4</placeName>
                      <date when="1914-12-18">18. 12. 1914</date>
+                     <placeName ref="#pmb365590">1/1 Telegrafenamt 4</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
@@ -2683,6 +2724,10 @@
                      <persName ref="#pmb10992">Brandes, Georg</persName>
                      <date when="1914-12-23" n="01">23. 12. 1914</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1914-12-23">23. 12. 1914</date>
+                     <placeName ref="#pmb36300">Kjøbenhavn</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2716,11 +2761,11 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1915-01-09">9. 1. 1915</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365223">Wien 110</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
-                     <date evidence="conjecture" notBefore="1915-01-09" notAfter="1915-01-13">[9. 1. 1915
+                     <date evidence="conjecture" notBefore="1915-01-10" notAfter="1915-01-13">[10. 1. 1915
                   – 13. 1. 1915?]</date>
                      <placeName ref="#pmb36300">Kopenhagen</placeName>
                   </correspAction>

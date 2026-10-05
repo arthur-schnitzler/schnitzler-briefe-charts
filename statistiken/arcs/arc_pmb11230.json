@@ -4,7 +4,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 4
+      "count": 5
     },
     {
       "id": "pmb168940",
@@ -12,19 +12,19 @@
       "count": 2
     },
     {
-      "id": "pmb189",
-      "name": "Semmering",
-      "count": 1
-    },
-    {
       "id": "pmb237241",
       "name": "Ottakringer Straße 114",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb34498",
       "name": "Vrádište",
       "count": 2
+    },
+    {
+      "id": "pmb413",
+      "name": "Südbahnhotel [Semmering]",
+      "count": 1
     },
     {
       "id": "pmb44146",
@@ -39,10 +39,18 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 46
+      "count": 44
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168815",
+      "to": "pmb237241",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Albert Ehrenstein, 25. 12. 1910"
+      ]
+    },
     {
       "from": "pmb168815",
       "to": "pmb50",
@@ -63,8 +71,8 @@
       ]
     },
     {
-      "from": "pmb189",
-      "to": "pmb50",
+      "from": "pmb413",
+      "to": "pmb237241",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Albert Ehrenstein, 26. 1. 1909"
@@ -73,13 +81,12 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 6,
+      "weight": 5,
       "titles": [
         "Arthur Schnitzler an Charlotte Ehrenstein, [vor dem 21. 5.? 1906]",
         "Arthur Schnitzler an Albert Ehrenstein, 20. 10. 1908",
         "Arthur Schnitzler an Albert Ehrenstein, 9. 11. 1908",
         "Arthur Schnitzler an Albert Ehrenstein, 20. 1. 1909",
-        "Arthur Schnitzler an Albert Ehrenstein, 25. 12. 1910",
         "Arthur Schnitzler an Albert Ehrenstein, [zwischen 23. und 25.] 5. 1912"
       ]
     }

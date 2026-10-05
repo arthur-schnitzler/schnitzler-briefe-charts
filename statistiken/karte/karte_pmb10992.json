@@ -1130,12 +1130,17 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Kopenhagen",
-        "ref": "pmb36300",
-        "lat": 55.67594,
-        "lon": 12.56553
+        "name": "",
+        "ref": "pmb238114",
+        "lat": null,
+        "lon": null
       },
-      "to": null
+      "to": {
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
+      }
     },
     {
       "id": "L01141",
@@ -1418,10 +1423,10 @@
         "lon": 12.56553
       },
       "to": {
-        "name": "Marienlyst",
-        "ref": "pmb959",
-        "lat": 56.042028,
-        "lon": 12.601917
+        "name": "Kurhotellet",
+        "ref": "pmb41010",
+        "lat": 56.044988,
+        "lon": 12.603924
       }
     },
     {
@@ -1438,16 +1443,16 @@
         "ref": "pmb10992"
       },
       "from": {
-        "name": "Marienlyst",
-        "ref": "pmb959",
-        "lat": 56.042028,
-        "lon": 12.601917
+        "name": "Kurhotellet",
+        "ref": "pmb41010",
+        "lat": 56.044988,
+        "lon": 12.603924
       },
       "to": {
-        "name": "Havnegade",
-        "ref": "pmb1111",
-        "lat": 55.67887,
-        "lon": 12.59262
+        "name": "",
+        "ref": "pmb238114",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -1740,10 +1745,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Paris",
-        "ref": "pmb182",
-        "lat": 48.85341,
-        "lon": 2.3488
+        "name": "Hotel d’Jéna",
+        "ref": "pmb1131",
+        "lat": 48.86364,
+        "lon": 2.29338
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -1871,10 +1876,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Kopenhagen",
-        "ref": "pmb36300",
-        "lat": 55.67594,
-        "lon": 12.56553
+        "name": "Grand Hotel Metropol",
+        "ref": "pmb1135",
+        "lat": 37.85139,
+        "lon": 15.28514
       }
     },
     {
@@ -1891,10 +1896,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Taormina",
-        "ref": "pmb906",
-        "lat": 37.85358,
-        "lon": 15.28851
+        "name": "Grand Hotel Metropol",
+        "ref": "pmb1135",
+        "lat": 37.85139,
+        "lon": 15.28514
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -1917,10 +1922,10 @@
         "ref": "pmb10992"
       },
       "from": {
-        "name": "Celerina",
-        "ref": "pmb12589",
-        "lat": 46.5146,
-        "lon": 9.8622
+        "name": "Cresta Palace",
+        "ref": "pmb1138",
+        "lat": 46.512179,
+        "lon": 9.85759
       },
       "to": {
         "name": "Kopenhagen",

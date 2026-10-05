@@ -5411,6 +5411,32 @@
       }
     },
     {
+      "id": "L01459",
+      "title": "Hermann Bahr an Arthur Schnitzler, [19. oder 20]. 10. 1904",
+      "type": "von partner",
+      "date": null,
+      "sender": {
+        "name": "Bahr, Hermann",
+        "ref": "pmb10815"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Pula",
+        "ref": "pmb851",
+        "lat": 44.86833,
+        "lon": 13.84806
+      },
+      "to": {
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
+      }
+    },
+    {
       "id": "L01458",
       "title": "Hermann Bahr an Arthur Schnitzler, 19. [10. 1904]",
       "type": "von partner",
@@ -5434,32 +5460,6 @@
         "ref": "pmb50",
         "lat": 48.208333,
         "lon": 16.373056
-      }
-    },
-    {
-      "id": "L01459",
-      "title": "Hermann Bahr an Arthur Schnitzler, 20. 10. 1904",
-      "type": "von partner",
-      "date": "1904-10-20",
-      "sender": {
-        "name": "Bahr, Hermann",
-        "ref": "pmb10815"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Pula",
-        "ref": "pmb851",
-        "lat": 44.86833,
-        "lon": 13.84806
-      },
-      "to": {
-        "name": "Edmund-Weiß-Gasse 7",
-        "ref": "pmb168940",
-        "lat": 48.2304,
-        "lon": 16.33472
       }
     },
     {
@@ -5622,10 +5622,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       },
       "to": {
         "name": "Haus Bahr",
@@ -5917,9 +5917,9 @@
     },
     {
       "id": "L01543",
-      "title": "Hermann Bahr an Arthur Schnitzler, [18.?] 8. 1905",
+      "title": "Hermann Bahr an Arthur Schnitzler, [17. oder 18.?] 8. 1905",
       "type": "von partner",
-      "date": "1905-08-18",
+      "date": null,
       "sender": {
         "name": "Bahr, Hermann",
         "ref": "pmb10815"
@@ -6413,16 +6413,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Venedig",
-        "ref": "pmb462",
-        "lat": 45.43713,
-        "lon": 12.33265
+        "name": "Casa Petrarca",
+        "ref": "pmb305",
+        "lat": 45.43507,
+        "lon": 12.33541
       },
       "to": {
-        "name": "Marienlyst",
-        "ref": "pmb959",
-        "lat": 56.042028,
-        "lon": 12.601917
+        "name": "Kurhotellet",
+        "ref": "pmb41010",
+        "lat": 56.044988,
+        "lon": 12.603924
       }
     },
     {
@@ -6439,10 +6439,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Helsingør",
-        "ref": "pmb726",
-        "lat": 56.03606,
-        "lon": 12.6136
+        "name": "Kurhotellet",
+        "ref": "pmb41010",
+        "lat": 56.044988,
+        "lon": 12.603924
       },
       "to": {
         "name": "Casa Petrarca",
@@ -6465,10 +6465,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Semmering",
-        "ref": "pmb189",
-        "lat": 47.64224,
-        "lon": 15.8241
+        "name": "Südbahnhotel [Semmering]",
+        "ref": "pmb413",
+        "lat": 47.647222,
+        "lon": 15.83
       },
       "to": {
         "name": "Haus Bahr",
@@ -7157,10 +7157,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Semmering",
-        "ref": "pmb189",
-        "lat": 47.64224,
-        "lon": 15.8241
+        "name": "Südbahnhotel [Semmering]",
+        "ref": "pmb413",
+        "lat": 47.647222,
+        "lon": 15.83
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -7183,10 +7183,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Riva del Garda",
-        "ref": "pmb465",
-        "lat": 45.88576,
-        "lon": 10.84118
+        "name": "Hotel du Lac",
+        "ref": "pmb40812",
+        "lat": 45.883097,
+        "lon": 10.852736
       },
       "to": {
         "name": "Haus Bahr",
@@ -7209,10 +7209,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
+        "name": "Hofgarten [München]",
+        "ref": "pmb466",
+        "lat": 48.142778,
+        "lon": 11.58
       },
       "to": {
         "name": "Haus Bahr",
@@ -7261,10 +7261,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Seis am Schlern",
-        "ref": "pmb988",
-        "lat": 46.54133,
-        "lon": 11.55868
+        "name": "Villa Heufler",
+        "ref": "pmb467",
+        "lat": 46.54555,
+        "lon": 11.560026
       },
       "to": {
         "name": "Haus Bahr",
@@ -7542,16 +7542,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bayreuth",
-        "ref": "pmb734",
-        "lat": 49.94782,
-        "lon": 11.57893
+        "name": "Parsifalstraße",
+        "ref": "pmb469",
+        "lat": 49.95877,
+        "lon": 11.57637
       },
       "to": {
-        "name": "Edlach an der Rax",
-        "ref": "pmb470",
-        "lat": 47.69255,
-        "lon": 15.80915
+        "name": "Hotel Edlacherhof",
+        "ref": "pmb714",
+        "lat": 47.689132,
+        "lon": 15.805582
       }
     },
     {
@@ -7574,10 +7574,10 @@
         "lon": 11.88535
       },
       "to": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
+        "name": "Hotel Vier Jahreszeiten",
+        "ref": "pmb485",
+        "lat": 48.138889,
+        "lon": 11.581667
       }
     },
     {
@@ -7594,10 +7594,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
+        "name": "Hotel Vier Jahreszeiten",
+        "ref": "pmb485",
+        "lat": 48.138889,
+        "lon": 11.581667
       },
       "to": {
         "name": "Zell am Ziller",
@@ -8292,10 +8292,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Venedig",
-        "ref": "pmb462",
-        "lat": 45.43713,
-        "lon": 12.33265
+        "name": "Lido",
+        "ref": "pmb259",
+        "lat": 45.38333,
+        "lon": 12.35
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -8306,9 +8306,9 @@
     },
     {
       "id": "L02090",
-      "title": "Arthur Schnitzler an Hermann Bahr, 25. 9. 1912",
+      "title": "Arthur Schnitzler an Hermann Bahr, [25. oder 26.] 9. 1912",
       "type": "von schnitzler",
-      "date": "1912-09-25",
+      "date": null,
       "sender": {
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
@@ -8324,10 +8324,10 @@
         "lon": 16.373056
       },
       "to": {
-        "name": "Semmering",
-        "ref": "pmb189",
-        "lat": 47.64224,
-        "lon": 15.8241
+        "name": "Villa Mauthner-Markhof",
+        "ref": "pmb144",
+        "lat": 47.65067,
+        "lon": 15.821452
       }
     },
     {
@@ -8344,10 +8344,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Semmering",
-        "ref": "pmb189",
-        "lat": 47.64224,
-        "lon": 15.8241
+        "name": "Villa Mauthner-Markhof",
+        "ref": "pmb144",
+        "lat": 47.65067,
+        "lon": 15.821452
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -8417,10 +8417,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Salzburg",
-        "ref": "pmb30",
-        "lat": 47.80067,
-        "lon": 13.04532
+        "name": "Schloss Arenberg",
+        "ref": "pmb160",
+        "lat": 47.80003,
+        "lon": 13.05858
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -8542,10 +8542,10 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
       },
       "to": {
         "name": "Schloss Arenberg",

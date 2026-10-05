@@ -12,18 +12,23 @@
       "count": 1
     },
     {
-      "id": "pmb1111",
-      "name": "Havnegade",
+      "id": "pmb1131",
+      "name": "Hotel d’Jéna",
+      "count": 1
+    },
+    {
+      "id": "pmb1135",
+      "name": "Grand Hotel Metropol",
+      "count": 2
+    },
+    {
+      "id": "pmb1138",
+      "name": "Cresta Palace",
       "count": 1
     },
     {
       "id": "pmb1158",
       "name": "Villa Iris",
-      "count": 1
-    },
-    {
-      "id": "pmb12589",
-      "name": "Celerina",
       "count": 1
     },
     {
@@ -39,12 +44,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 6
-    },
-    {
-      "id": "pmb182",
-      "name": "Paris",
-      "count": 1
+      "count": 7
     },
     {
       "id": "pmb212",
@@ -62,6 +62,11 @@
       "count": 1
     },
     {
+      "id": "pmb238114",
+      "name": "",
+      "count": 2
+    },
+    {
       "id": "pmb30",
       "name": "Salzburg",
       "count": 3
@@ -69,7 +74,7 @@
     {
       "id": "pmb36300",
       "name": "Kopenhagen",
-      "count": 69
+      "count": 67
     },
     {
       "id": "pmb36456",
@@ -80,6 +85,11 @@
       "id": "pmb38096",
       "name": "Opatija",
       "count": 3
+    },
+    {
+      "id": "pmb41010",
+      "name": "Kurhotellet",
+      "count": 2
     },
     {
       "id": "pmb41075",
@@ -139,7 +149,7 @@
     {
       "id": "pmb906",
       "name": "Taormina",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb946",
@@ -154,7 +164,7 @@
     {
       "id": "pmb959",
       "name": "Marienlyst",
-      "count": 5
+      "count": 3
     },
     {
       "id": "pmb988",
@@ -164,11 +174,19 @@
   ],
   "links_from_schnitzler": [
     {
-      "from": "pmb12589",
+      "from": "pmb1138",
       "to": "pmb36300",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 3. 8. 1914"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb1135",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Georg Brandes, 27. 2. 1913"
       ]
     },
     {
@@ -182,10 +200,9 @@
     {
       "from": "pmb168815",
       "to": "pmb36300",
-      "weight": 12,
+      "weight": 11,
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 12. 10. 1911",
-        "Arthur Schnitzler an Georg Brandes, 27. 2. 1913",
         "Arthur Schnitzler an Georg Brandes, 18. 12. 1914",
         "Arthur Schnitzler an Georg Brandes, 8. 1. 1915",
         "Arthur Schnitzler an Georg Brandes, 2. 8. 1918",
@@ -221,6 +238,14 @@
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 9. 7. 1897",
         "Arthur Schnitzler an Georg Brandes, 18. 7. 1897"
+      ]
+    },
+    {
+      "from": "pmb41010",
+      "to": "pmb238114",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Georg Brandes, 25. 7. 1906"
       ]
     },
     {
@@ -286,14 +311,6 @@
     },
     {
       "from": "pmb959",
-      "to": "pmb1111",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Georg Brandes, 25. 7. 1906"
-      ]
-    },
-    {
-      "from": "pmb959",
       "to": "pmb36300",
       "weight": 2,
       "titles": [
@@ -312,6 +329,22 @@
       ]
     },
     {
+      "from": "pmb1131",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur und Olga Schnitzler, 3. 2. 1912"
+      ]
+    },
+    {
+      "from": "pmb1135",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur Schnitzler, 5. 3. 1913"
+      ]
+    },
+    {
       "from": "pmb1158",
       "to": "pmb168815",
       "weight": 1,
@@ -320,11 +353,11 @@
       ]
     },
     {
-      "from": "pmb182",
-      "to": "pmb168815",
+      "from": "pmb238114",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
-        "Georg Brandes an Arthur und Olga Schnitzler, 3. 2. 1912"
+        "Edith Brandes an Arthur Schnitzler, 26. 6. 1901"
       ]
     },
     {
@@ -403,6 +436,14 @@
     },
     {
       "from": "pmb36300",
+      "to": "pmb41010",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur Schnitzler, 24. 7. 1906"
+      ]
+    },
+    {
+      "from": "pmb36300",
       "to": "pmb50",
       "weight": 15,
       "titles": [
@@ -426,10 +467,9 @@
     {
       "from": "pmb36300",
       "to": "pmb959",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Georg Brandes an Arthur Schnitzler, 11. 7. 1906",
-        "Georg Brandes an Arthur Schnitzler, 24. 7. 1906"
+        "Georg Brandes an Arthur Schnitzler, 11. 7. 1906"
       ]
     },
     {
@@ -504,14 +544,6 @@
       "weight": 1,
       "titles": [
         "Paul Goldmann, Eva Goldmann und Georg Brandes an Arthur Schnitzler, 26. 7. 1909"
-      ]
-    },
-    {
-      "from": "pmb906",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Georg Brandes an Arthur Schnitzler, 5. 3. 1913"
       ]
     },
     {
