@@ -4532,32 +4532,6 @@
       }
     },
     {
-      "id": "L01339",
-      "title": "Arthur Schnitzler an Hermann Bahr, [9. oder 10.] 11. [1903]",
-      "type": "von schnitzler",
-      "date": null,
-      "sender": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "receiver": {
-        "name": "Bahr, Hermann",
-        "ref": "pmb10815"
-      },
-      "from": {
-        "name": "Edmund-Weiß-Gasse 7",
-        "ref": "pmb168940",
-        "lat": 48.2304,
-        "lon": 16.33472
-      },
-      "to": {
-        "name": "Haus Bahr",
-        "ref": "pmb207274",
-        "lat": 48.186771,
-        "lon": 16.261305
-      }
-    },
-    {
       "id": "L01337",
       "title": "Hermann Bahr an Arthur Schnitzler, 9. 11. 1903",
       "type": "von partner",
@@ -4597,16 +4571,16 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Haus Bahr",
+        "ref": "pmb207274",
+        "lat": 48.186771,
+        "lon": 16.261305
       }
     },
     {
@@ -4737,6 +4711,32 @@
         "ref": "pmb168940",
         "lat": 48.2304,
         "lon": 16.33472
+      }
+    },
+    {
+      "id": "L01339",
+      "title": "Arthur Schnitzler an Hermann Bahr, [18. oder 19.] 11. [1903]",
+      "type": "von schnitzler",
+      "date": null,
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Bahr, Hermann",
+        "ref": "pmb10815"
+      },
+      "from": {
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
+      },
+      "to": {
+        "name": "Haus Bahr",
+        "ref": "pmb207274",
+        "lat": 48.186771,
+        "lon": 16.261305
       }
     },
     {
@@ -5411,32 +5411,6 @@
       }
     },
     {
-      "id": "L01459",
-      "title": "Hermann Bahr an Arthur Schnitzler, [19. oder 20]. 10. 1904",
-      "type": "von partner",
-      "date": null,
-      "sender": {
-        "name": "Bahr, Hermann",
-        "ref": "pmb10815"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Pula",
-        "ref": "pmb851",
-        "lat": 44.86833,
-        "lon": 13.84806
-      },
-      "to": {
-        "name": "Edmund-Weiß-Gasse 7",
-        "ref": "pmb168940",
-        "lat": 48.2304,
-        "lon": 16.33472
-      }
-    },
-    {
       "id": "L01458",
       "title": "Hermann Bahr an Arthur Schnitzler, 19. [10. 1904]",
       "type": "von partner",
@@ -5460,6 +5434,32 @@
         "ref": "pmb50",
         "lat": 48.208333,
         "lon": 16.373056
+      }
+    },
+    {
+      "id": "L01459",
+      "title": "Hermann Bahr an Arthur Schnitzler, 20. 10. 1904",
+      "type": "von partner",
+      "date": "1904-10-20",
+      "sender": {
+        "name": "Bahr, Hermann",
+        "ref": "pmb10815"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Pula",
+        "ref": "pmb851",
+        "lat": 44.86833,
+        "lon": 13.84806
+      },
+      "to": {
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       }
     },
     {

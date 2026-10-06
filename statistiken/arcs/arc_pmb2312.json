@@ -9,7 +9,12 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 5
+      "count": 6
+    },
+    {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
     },
     {
       "id": "pmb182",
@@ -17,19 +22,29 @@
       "count": 23
     },
     {
+      "id": "pmb232250",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb235784",
       "name": "Oppolzergasse 6",
       "count": 1
     },
     {
+      "id": "pmb238485",
+      "name": "Nusswaldgasse 22",
+      "count": 3
+    },
+    {
+      "id": "pmb251927",
+      "name": "Grand Hôtel National [Menton]",
+      "count": 2
+    },
+    {
       "id": "pmb298841",
       "name": "12, Avenue d’Eylau",
       "count": 1
-    },
-    {
-      "id": "pmb36456",
-      "name": "Menton",
-      "count": 2
     },
     {
       "id": "pmb36503",
@@ -44,7 +59,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 59
+      "count": 55
     },
     {
       "id": "pmb52051",
@@ -91,8 +106,8 @@
       ]
     },
     {
-      "from": "pmb36456",
-      "to": "pmb50",
+      "from": "pmb251927",
+      "to": "pmb238485",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Berta Zuckerkandl, 18. 4. 1911"
@@ -192,6 +207,30 @@
       ]
     },
     {
+      "from": "pmb232250",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Berta Zuckerkandl an Arthur Schnitzler, [29. 3. 1897?]"
+      ]
+    },
+    {
+      "from": "pmb238485",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 12. und 21. 5. 1911?]"
+      ]
+    },
+    {
+      "from": "pmb238485",
+      "to": "pmb251927",
+      "weight": 1,
+      "titles": [
+        "Berta Zuckerkandl an Arthur Schnitzler, [14. 4. 1911?]"
+      ]
+    },
+    {
       "from": "pmb298841",
       "to": "pmb168815",
       "weight": 1,
@@ -217,19 +256,9 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb36456",
-      "weight": 1,
-      "titles": [
-        "Berta Zuckerkandl an Arthur Schnitzler, [14. 4. 1911?]"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb50",
-      "weight": 10,
+      "weight": 8,
       "titles": [
-        "Berta Zuckerkandl an Arthur Schnitzler, [29. 3. 1897?]",
-        "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 12. und 21. 5. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [13. 6. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [10. 9. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [9. 10. 1911?]",

@@ -29,7 +29,7 @@
     {
       "id": "pmb1158",
       "name": "Villa Iris",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb168",
@@ -74,7 +74,7 @@
     {
       "id": "pmb36300",
       "name": "Kopenhagen",
-      "count": 67
+      "count": 66
     },
     {
       "id": "pmb36456",
@@ -191,6 +191,14 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb1158",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Georg Brandes, 23. 6. 1924"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb230",
       "weight": 1,
       "titles": [
@@ -200,7 +208,7 @@
     {
       "from": "pmb168815",
       "to": "pmb36300",
-      "weight": 11,
+      "weight": 10,
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 12. 10. 1911",
         "Arthur Schnitzler an Georg Brandes, 18. 12. 1914",
@@ -209,7 +217,6 @@
         "Arthur Schnitzler an Georg Brandes, 16. 8. 1920",
         "Arthur Schnitzler an Georg Brandes, 21. 8. 1920",
         "Arthur Schnitzler an Georg Brandes, 4. 1. 1924",
-        "Arthur Schnitzler an Georg Brandes, 23. 6. 1924",
         "Arthur Schnitzler an Georg Brandes, 22. 2. 1925",
         "Arthur Schnitzler an Gertrud Rung, 9. 3. 1925",
         "Arthur Schnitzler an Georg Brandes, 2[7?]. 7. 1925"

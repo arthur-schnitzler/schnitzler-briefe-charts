@@ -664,7 +664,7 @@
     {
       "id": "pmb445",
       "name": "Rom",
-      "count": 7
+      "count": 6
     },
     {
       "id": "pmb44699",
@@ -1034,7 +1034,7 @@
     {
       "id": "pmb769",
       "name": "Hotel Quirinale",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb772",
@@ -1653,14 +1653,6 @@
     },
     {
       "from": "pmb168934",
-      "to": "pmb445",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 5. 10. 1894"
-      ]
-    },
-    {
-      "from": "pmb168934",
       "to": "pmb759",
       "weight": 2,
       "titles": [
@@ -1682,8 +1674,9 @@
     {
       "from": "pmb168934",
       "to": "pmb769",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 5. 10. 1894",
         "Arthur Schnitzler an Richard Beer-Hofmann, 9. 10. 1894"
       ]
     },
