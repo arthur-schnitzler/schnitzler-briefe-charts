@@ -2,20 +2,20 @@
   "correspondent": "Holzer, Marie",
   "nodes": [
     {
-      "id": "pmb50",
-      "name": "Wien",
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
       "count": 3
     },
     {
-      "id": "pmb652",
-      "name": "Prag",
+      "id": "pmb333990",
+      "name": "Korunní 1153/78",
       "count": 3
     }
   ],
   "links_from_schnitzler": [
     {
-      "from": "pmb50",
-      "to": "pmb652",
+      "from": "pmb168934",
+      "to": "pmb333990",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Marie Holzer, 25. 4. 1908"
@@ -24,8 +24,8 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb652",
-      "to": "pmb50",
+      "from": "pmb333990",
+      "to": "pmb168934",
       "weight": 2,
       "titles": [
         "Marie Holzer an Arthur Schnitzler, 17. 1. 1908",

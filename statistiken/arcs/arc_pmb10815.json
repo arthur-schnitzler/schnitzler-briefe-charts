@@ -44,7 +44,7 @@
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 2
+      "count": 8
     },
     {
       "id": "pmb168",
@@ -75,6 +75,11 @@
       "id": "pmb189",
       "name": "Semmering",
       "count": 2
+    },
+    {
+      "id": "pmb190907",
+      "name": "",
+      "count": 6
     },
     {
       "id": "pmb192623",
@@ -254,7 +259,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 259
+      "count": 253
     },
     {
       "id": "pmb505",
@@ -866,6 +871,19 @@
       ]
     },
     {
+      "from": "pmb190907",
+      "to": "pmb167789",
+      "weight": 6,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, [22. 12. 1891]",
+        "Hermann Bahr an Arthur Schnitzler, [1.? 2. 1892]",
+        "Hermann Bahr an Arthur Schnitzler, [20. 2. 1892]",
+        "Hermann Bahr an Arthur Schnitzler, [13. 3. 1892]",
+        "Hermann Bahr an Arthur Schnitzler, 18. 3. 1892",
+        "Hermann Bahr an Arthur Schnitzler, 6. [5. 1892]"
+      ]
+    },
+    {
       "from": "pmb192623",
       "to": "pmb168934",
       "weight": 1,
@@ -1140,13 +1158,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 123,
+      "weight": 118,
       "titles": [
-        "Hermann Bahr an Arthur Schnitzler, [22. 12. 1891]",
-        "Hermann Bahr an Arthur Schnitzler, [1.? 2. 1892]",
-        "Hermann Bahr an Arthur Schnitzler, [20. 2. 1892]",
-        "Hermann Bahr an Arthur Schnitzler, [13. 3. 1892]",
-        "Hermann Bahr an Arthur Schnitzler, 6. [5. 1892]",
         "Hermann Bahr an Arthur Schnitzler, [24. 7. 1893]",
         "Hermann Bahr an Arthur Schnitzler, [12. 8. 1893]",
         "Hermann Bahr an Arthur Schnitzler, 17. 9. 1893",

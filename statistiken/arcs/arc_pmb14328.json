@@ -2,9 +2,24 @@
   "correspondent": "Blumenthal, Oskar",
   "nodes": [
     {
+      "id": "pmb167789",
+      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "count": 4
+    },
+    {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 9
+      "count": 4
+    },
+    {
+      "id": "pmb18",
+      "name": "Lessing-Theater",
+      "count": 5
+    },
+    {
+      "id": "pmb29",
+      "name": "Hotel Sacher",
+      "count": 1
     },
     {
       "id": "pmb35658",
@@ -14,7 +29,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 12
+      "count": 8
     }
   ],
   "links_from_schnitzler": [
@@ -23,17 +38,39 @@
     {
       "from": "pmb168",
       "to": "pmb50",
-      "weight": 9,
+      "weight": 4,
       "titles": [
-        "Oscar Blumenthal an Arthur Schnitzler, 15. 12. 1891",
-        "Oscar Blumenthal an Arthur Schnitzler, 16. 1. 1892",
-        "Oscar Blumenthal an Arthur Schnitzler, 1. 8. 1892",
         "Oscar Blumenthal an Arthur Schnitzler, 12. 8. 1893",
-        "Oscar Blumenthal an Arthur Schnitzler, 16. 1. 1894",
-        "Gerhard Wiese an Arthur Schnitzler, 21. 3. 1894",
         "Oscar Blumenthal an Arthur Schnitzler, 14. 11. 1896",
         "Oscar Blumenthal an Arthur Schnitzler, 19. 11. 1896",
         "Oscar Blumenthal an Arthur Schnitzler, [nach dem 13. 3. 1912]"
+      ]
+    },
+    {
+      "from": "pmb18",
+      "to": "pmb167789",
+      "weight": 3,
+      "titles": [
+        "Oscar Blumenthal an Arthur Schnitzler, 15. 12. 1891",
+        "Oscar Blumenthal an Arthur Schnitzler, 16. 1. 1892",
+        "Oscar Blumenthal an Arthur Schnitzler, 1. 8. 1892"
+      ]
+    },
+    {
+      "from": "pmb18",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Oscar Blumenthal an Arthur Schnitzler, 16. 1. 1894",
+        "Gerhard Wiese an Arthur Schnitzler, 21. 3. 1894"
+      ]
+    },
+    {
+      "from": "pmb29",
+      "to": "pmb167789",
+      "weight": 1,
+      "titles": [
+        "Oscar Blumenthal an Arthur Schnitzler, [6. 3. 1892]"
       ]
     },
     {
@@ -43,14 +80,6 @@
       "titles": [
         "Oscar Blumenthal an Arthur Schnitzler, 12. 5. 1897",
         "Oscar Blumenthal an Arthur Schnitzler, 14. 5. 1912"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Oscar Blumenthal an Arthur Schnitzler, [6. 3. 1892]"
       ]
     }
   ]

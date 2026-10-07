@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-06Z</date>
+            <date>2026-10-07Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_4223.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -43,13 +43,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb4223">Marriot, Emil</persName>
                      <date when="1902-04-27" n="02">27. 4. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb231967">Schüttelstraße 31</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1902-04-27" notAfter="1902-04-30">[27. 4. 1902
                   – 30. 4. 1902?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
@@ -70,12 +70,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb4223">Marriot, Emil</persName>
                      <date when="1902-05-01" n="02">1. 5. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb231967">Schüttelstraße 31</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1902-05-01" notAfter="1902-05-04">[1. 5. 1902 – 4. 5. 1902?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
@@ -100,12 +100,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb4223">Marriot, Emil</persName>
                      <date when="1902-05-07" n="01">7. 5. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb231967">Schüttelstraße 31</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1902-05-07" notAfter="1902-05-10">[7. 5. 1902 – 10. 5. 1902?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
@@ -130,13 +130,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb4223">Marriot, Emil</persName>
                      <date when="1902-05-09" n="01">9. 5. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb231967">Schüttelstraße 31</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1902-05-10" notAfter="1902-05-14">[10. 5. 1902
                   – 14. 5. 1902?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>
@@ -156,11 +156,11 @@
                <measure unit="zeichenanzahl" quantity="763"/>
             </item>
             <item corresp="L04336">
-               <title level="a">Emil Marriot an Arthur Schnitzler, 20. 6. 1902</title>
+               <title level="a">Emil Marriot an Arthur Schnitzler, 23. 6. 1902</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb4223">Marriot, Emil</persName>
-                     <date when="1902-06-20" n="01">20. 6. 1902</date>
+                     <date when="1902-06-23" n="01">23. 6. 1902</date>
                      <placeName ref="#pmb339388">Brodzany</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -232,7 +232,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="255"/>
+               <measure unit="zeichenanzahl" quantity="254"/>
             </item>
             <item corresp="L04338">
                <title level="a">Emil Marriot an Arthur Schnitzler, 9. 2. 1903</title>
@@ -240,12 +240,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb4223">Marriot, Emil</persName>
                      <date when="1903-02-09" n="01">9. 2. 1903</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb231967">Schüttelstraße 31</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1903-02-10" notAfter="1903-02-14">[10. 2. 1903 – 14. 2. 1903?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="conjecture" notBefore="1903-02-09" notAfter="1903-02-14">[09. 2. 1903 – 14. 2. 1903?]</date>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_4223">Mataja, Emilie</ref>

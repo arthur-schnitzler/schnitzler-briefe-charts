@@ -12,8 +12,18 @@
       "count": 1
     },
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
+    },
+    {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
+      "id": "pmb342560",
+      "name": "",
       "count": 1
     },
     {
@@ -29,7 +39,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 33
+      "count": 32
     }
   ],
   "links_from_schnitzler": [
@@ -83,6 +93,14 @@
       ]
     },
     {
+      "from": "pmb342560",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Stefan Großmann an Arthur Schnitzler, 16. 9. 1898"
+      ]
+    },
+    {
       "from": "pmb365446",
       "to": "pmb168940",
       "weight": 1,
@@ -101,9 +119,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 13,
+      "weight": 12,
       "titles": [
-        "Stefan Großmann an Arthur Schnitzler, 16. 9. 1898",
         "Stefan Großmann an Arthur Schnitzler, 30. 8. 1900",
         "Stefan Großmann an Arthur Schnitzler, 4. 5. 1906",
         "Stefan Großmann an Arthur Schnitzler, 27. 9. 1907",

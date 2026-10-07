@@ -9,7 +9,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 6
+      "count": 13
     },
     {
       "id": "pmb168934",
@@ -19,7 +19,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 23
+      "count": 21
     },
     {
       "id": "pmb232250",
@@ -34,7 +34,7 @@
     {
       "id": "pmb238485",
       "name": "Nusswaldgasse 22",
-      "count": 3
+      "count": 7
     },
     {
       "id": "pmb251927",
@@ -45,6 +45,11 @@
       "id": "pmb298841",
       "name": "12, Avenue d’Eylau",
       "count": 1
+    },
+    {
+      "id": "pmb300061",
+      "name": "84, rue de Longchamp",
+      "count": 2
     },
     {
       "id": "pmb36503",
@@ -59,7 +64,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 55
+      "count": 48
     },
     {
       "id": "pmb52051",
@@ -67,8 +72,8 @@
       "count": 1
     },
     {
-      "id": "pmb53227",
-      "name": "Axenstein",
+      "id": "pmb53636",
+      "name": "Hotel Axenstein",
       "count": 1
     },
     {
@@ -99,6 +104,14 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb300061",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Berta Zuckerkandl, 20. 6. 1911"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb50",
       "weight": 1,
       "titles": [
@@ -116,9 +129,8 @@
     {
       "from": "pmb50",
       "to": "pmb182",
-      "weight": 20,
+      "weight": 19,
       "titles": [
-        "Arthur Schnitzler an Berta Zuckerkandl, 20. 6. 1911",
         "Arthur Schnitzler an Berta Zuckerkandl, 19. 3. 1923",
         "Arthur Schnitzler an Berta Zuckerkandl, 29. 10. 1923",
         "Arthur Schnitzler an Berta Zuckerkandl, 31. 1. 1924",
@@ -199,14 +211,6 @@
       ]
     },
     {
-      "from": "pmb182",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Berta Zuckerkandl an Arthur Schnitzler, [23. 6. 1911?]"
-      ]
-    },
-    {
       "from": "pmb232250",
       "to": "pmb168934",
       "weight": 1,
@@ -217,9 +221,13 @@
     {
       "from": "pmb238485",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 5,
       "titles": [
-        "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 12. und 21. 5. 1911?]"
+        "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 12. und 21. 5. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [13. 6. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [10. 9. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [9. 10. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [7. 11. 1911?]"
       ]
     },
     {
@@ -236,6 +244,14 @@
       "weight": 1,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, 27. 2. 192[3?]"
+      ]
+    },
+    {
+      "from": "pmb300061",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Berta Zuckerkandl an Arthur Schnitzler, [23. 6. 1911?]"
       ]
     },
     {
@@ -257,12 +273,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 8,
+      "weight": 4,
       "titles": [
-        "Berta Zuckerkandl an Arthur Schnitzler, [13. 6. 1911?]",
-        "Berta Zuckerkandl an Arthur Schnitzler, [10. 9. 1911?]",
-        "Berta Zuckerkandl an Arthur Schnitzler, [9. 10. 1911?]",
-        "Berta Zuckerkandl an Arthur Schnitzler, [7. 11. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [25. 11. 1911]",
         "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 20. und 30. 5. 1913?]",
         "Berta Zuckerkandl an Arthur Schnitzler, 11. 10. 1924",
@@ -270,8 +282,8 @@
       ]
     },
     {
-      "from": "pmb53227",
-      "to": "pmb50",
+      "from": "pmb53636",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, 25. 7. [1911]"

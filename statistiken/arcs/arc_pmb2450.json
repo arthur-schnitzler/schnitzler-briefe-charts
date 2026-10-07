@@ -2,9 +2,19 @@
   "correspondent": "Fels, Friedrich M.",
   "nodes": [
     {
+      "id": "pmb167789",
+      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "count": 1
+    },
+    {
       "id": "pmb168934",
       "name": "Frankgasse 1",
       "count": 8
+    },
+    {
+      "id": "pmb339370",
+      "name": "Tuchlauben 7",
+      "count": 1
     },
     {
       "id": "pmb33993",
@@ -44,12 +54,20 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 22
+      "count": 21
     }
   ],
   "links_from_schnitzler": [
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb339370",
+      "to": "pmb167789",
+      "weight": 1,
+      "titles": [
+        "Friedrich M. Fels an Arthur Schnitzler, 18. 6. 1891"
+      ]
+    },
     {
       "from": "pmb33993",
       "to": "pmb168934",
@@ -134,9 +152,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 10,
+      "weight": 9,
       "titles": [
-        "Friedrich M. Fels an Arthur Schnitzler, 18. 6. 1891",
         "Friedrich M. Fels an Arthur Schnitzler, [Ende 1892?]",
         "Friedrich M. Fels an Arthur Schnitzler, [vor dem 1. 1. 1893?]",
         "Friedrich M. Fels an Arthur Schnitzler, [1. 1. 1893?]",

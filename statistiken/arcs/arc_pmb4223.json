@@ -4,17 +4,17 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 2
+      "count": 7
+    },
+    {
+      "id": "pmb231967",
+      "name": "Schüttelstraße 31",
+      "count": 5
     },
     {
       "id": "pmb339388",
       "name": "Brodzany",
       "count": 1
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 5
     },
     {
       "id": "pmb968",
@@ -26,16 +26,8 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb339388",
+      "from": "pmb231967",
       "to": "pmb168934",
-      "weight": 1,
-      "titles": [
-        "Emil Marriot an Arthur Schnitzler, 20. 6. 1902"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
       "weight": 5,
       "titles": [
         "Emil Marriot an Arthur Schnitzler, 27. 4. 1902",
@@ -43,6 +35,14 @@
         "Emil Marriot an Arthur Schnitzler, 7. 5. 1902",
         "Emil Marriot an Arthur Schnitzler, 9. 5. 1902",
         "Emil Marriot an Arthur Schnitzler, 9. 2. 1903"
+      ]
+    },
+    {
+      "from": "pmb339388",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Emil Marriot an Arthur Schnitzler, 23. 6. 1902"
       ]
     },
     {

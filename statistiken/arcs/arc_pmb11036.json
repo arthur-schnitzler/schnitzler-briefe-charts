@@ -2,6 +2,16 @@
   "correspondent": "Burckhard, Max Eugen",
   "nodes": [
     {
+      "id": "pmb14",
+      "name": "Burgtheater",
+      "count": 2
+    },
+    {
+      "id": "pmb167789",
+      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "count": 2
+    },
+    {
       "id": "pmb168",
       "name": "Berlin",
       "count": 2
@@ -34,7 +44,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 48
+      "count": 46
     },
     {
       "id": "pmb677",
@@ -49,11 +59,18 @@
   ],
   "links_from_schnitzler": [
     {
+      "from": "pmb167789",
+      "to": "pmb14",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Max Burckhard, [20.] 5. 1891"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
-        "Arthur Schnitzler an Max Burckhard, [20.] 5. 1891",
         "Arthur Schnitzler an Max Burckhard, 14. 1. 1894",
         "Arthur Schnitzler an Max Burckhard, [Mitte Februar 1894?]",
         "Arthur Schnitzler an Max Burckhard, 21. 11. 1894"
@@ -61,6 +78,14 @@
     }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb14",
+      "to": "pmb167789",
+      "weight": 1,
+      "titles": [
+        "Max Burckhard an Arthur Schnitzler, 14. 7. 1891"
+      ]
+    },
     {
       "from": "pmb168",
       "to": "pmb50",
@@ -136,9 +161,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 22,
+      "weight": 21,
       "titles": [
-        "Max Burckhard an Arthur Schnitzler, 14. 7. 1891",
         "Max Burckhard an Arthur Schnitzler, 12. 2. 1894",
         "Max Burckhard an Arthur Schnitzler, 2. 7. 1894",
         "Max Burckhard an Arthur Schnitzler, [31. 10. 1894]",

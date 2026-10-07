@@ -32,11 +32,6 @@
       "count": 2
     },
     {
-      "id": "pmb1220",
-      "name": "Grazer Straße [Bad Ischl]",
-      "count": 5
-    },
-    {
       "id": "pmb12589",
       "name": "Celerina",
       "count": 1
@@ -74,12 +69,7 @@
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 8
-    },
-    {
-      "id": "pmb167805",
-      "name": "Kärntnerring 12/Bösendorferstraße 11",
-      "count": 2
+      "count": 28
     },
     {
       "id": "pmb168",
@@ -144,7 +134,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 49
+      "count": 48
     },
     {
       "id": "pmb224",
@@ -334,7 +324,7 @@
     {
       "id": "pmb364746",
       "name": "Seidlgasse 30",
-      "count": 2
+      "count": 13
     },
     {
       "id": "pmb36477",
@@ -387,11 +377,6 @@
       "count": 2
     },
     {
-      "id": "pmb38096",
-      "name": "Opatija",
-      "count": 1
-    },
-    {
       "id": "pmb383",
       "name": "Hasenauerstraße",
       "count": 1
@@ -414,7 +399,7 @@
     {
       "id": "pmb40154",
       "name": "Hotel Neuhauser",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb40260",
@@ -450,6 +435,11 @@
       "id": "pmb40454",
       "name": "Villach",
       "count": 2
+    },
+    {
+      "id": "pmb405441",
+      "name": "",
+      "count": 5
     },
     {
       "id": "pmb40705",
@@ -779,7 +769,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 276
+      "count": 264
     },
     {
       "id": "pmb50112",
@@ -1002,11 +992,6 @@
       "count": 5
     },
     {
-      "id": "pmb730",
-      "name": "Seidlgasse",
-      "count": 8
-    },
-    {
       "id": "pmb734",
       "name": "Bayreuth",
       "count": 1
@@ -1019,7 +1004,7 @@
     {
       "id": "pmb756",
       "name": "Pension Quisisana",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb759",
@@ -1065,11 +1050,6 @@
       "id": "pmb824",
       "name": "Hotel und Pension Lueg",
       "count": 4
-    },
-    {
-      "id": "pmb833",
-      "name": "Brünn",
-      "count": 2
     },
     {
       "id": "pmb860",
@@ -1257,7 +1237,7 @@
     },
     {
       "from": "pmb140",
-      "to": "pmb730",
+      "to": "pmb364746",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, [21. oder 22]. 9. 1891"
@@ -1338,7 +1318,38 @@
     },
     {
       "from": "pmb167789",
-      "to": "pmb1220",
+      "to": "pmb190427",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 24. 9. 1892 und 1. 5. 1901]",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 2. 10. 1892"
+      ]
+    },
+    {
+      "from": "pmb167789",
+      "to": "pmb364746",
+      "weight": 6,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 24. 6. 1891",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 16. 9. 1891",
+        "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 7. 10. 1891 und Ende April 1892]",
+        "Arthur Schnitzler an Richard Beer-Hofmann, [31. 1.?] 1892",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 24. 4. 1892",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 3. 5. 1892"
+      ]
+    },
+    {
+      "from": "pmb167789",
+      "to": "pmb40154",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, [22. oder 23]. 5. 1891",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 6. 6. 1891"
+      ]
+    },
+    {
+      "from": "pmb167789",
+      "to": "pmb405441",
       "weight": 4,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 11. 8. 1892",
@@ -1349,36 +1360,28 @@
     },
     {
       "from": "pmb167789",
-      "to": "pmb190427",
-      "weight": 1,
+      "to": "pmb415",
+      "weight": 3,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 2. 10. 1892"
+        "Arthur Schnitzler an Richard Beer-Hofmann, 11. 8. 1891",
+        "Arthur Schnitzler an Richard Beer-Hofmann, [13. oder 14]. 8. 1891",
+        "Arthur Schnitzler an Richard Beer-Hofmann, [22.? 8. 1891]"
       ]
     },
     {
       "from": "pmb167789",
-      "to": "pmb364746",
+      "to": "pmb50",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, [31. 1.?] 1892"
+        "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 1892 und Mitte 1893?]"
       ]
     },
     {
       "from": "pmb167789",
-      "to": "pmb730",
-      "weight": 2,
+      "to": "pmb756",
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 24. 6. 1891",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 24. 4. 1892"
-      ]
-    },
-    {
-      "from": "pmb167805",
-      "to": "pmb40154",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, [22. oder 23]. 5. 1891",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 6. 6. 1891"
+        "Arthur Schnitzler an Richard Beer-Hofmann, 11. 3. 1892"
       ]
     },
     {
@@ -2113,7 +2116,7 @@
     },
     {
       "from": "pmb364779",
-      "to": "pmb1220",
+      "to": "pmb405441",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 13. 9. 1892"
@@ -2605,7 +2608,7 @@
       "to": "pmb190427",
       "weight": 33,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 24. 9. 1892 und 1. 5. 1901]",
+        "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen September 1892 und Ende 1901?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, 1. 12. 1892",
         "Arthur Schnitzler an Richard Beer-Hofmann, 31. 1. 1893",
         "Arthur Schnitzler an Richard Beer-Hofmann, [14. 3. 1893?]",
@@ -2745,8 +2748,11 @@
     {
       "from": "pmb50",
       "to": "pmb364746",
-      "weight": 1,
+      "weight": 4,
       "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, [20. oder 21]. 11. 1891",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 5. 12. 1891",
+        "Arthur Schnitzler an Richard Beer-Hofmann, [11. oder 12]. 12. 1891",
         "Arthur Schnitzler an Richard Beer-Hofmann, [11. oder 12]. 1. 1892"
       ]
     },
@@ -2786,16 +2792,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb415",
-      "weight": 3,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 11. 8. 1891",
-        "Arthur Schnitzler an Richard Beer-Hofmann, [13. oder 14]. 8. 1891",
-        "Arthur Schnitzler an Richard Beer-Hofmann, [22.? 8. 1891]"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb44053",
       "weight": 1,
       "titles": [
@@ -2821,10 +2817,9 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 26,
+      "weight": 25,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 1892 und Mitte 1893?]",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 3. 5. 1892",
+        "Arthur Schnitzler an Richard Beer-Hofmann, [Juni 1891 – 1900?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, [27. 12. 1892?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 5. 5. 1893 und 2. 5. 1894]",
         "Arthur Schnitzler an Richard Beer-Hofmann, [14. 10. 1893?]",
@@ -2865,26 +2860,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, [13. 9. 1896]"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb730",
-      "weight": 5,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 16. 9. 1891",
-        "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 7. 10. 1891 und Ende April 1892]",
-        "Arthur Schnitzler an Richard Beer-Hofmann, [20. oder 21]. 11. 1891",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 5. 12. 1891",
-        "Arthur Schnitzler an Richard Beer-Hofmann, [11. oder 12]. 12. 1891"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb756",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 11. 3. 1892"
       ]
     },
     {
@@ -3423,6 +3398,14 @@
     },
     {
       "from": "pmb213",
+      "to": "pmb167789",
+      "weight": 1,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 19. 8. 1892"
+      ]
+    },
+    {
+      "from": "pmb213",
       "to": "pmb168815",
       "weight": 2,
       "titles": [
@@ -3458,9 +3441,8 @@
     {
       "from": "pmb213",
       "to": "pmb50",
-      "weight": 16,
+      "weight": 15,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 19. 8. 1892",
         "Richard Beer-Hofmann an Arthur Schnitzler, [vor dem 22. 6. 1893?]",
         "Richard Beer-Hofmann an Arthur Schnitzler, 23. 6. 1893",
         "Richard Beer-Hofmann an Arthur Schnitzler, 18. 7. 1893",
@@ -3716,6 +3698,15 @@
       ]
     },
     {
+      "from": "pmb364746",
+      "to": "pmb167789",
+      "weight": 2,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 18. 1. 1892",
+        "Richard Beer-Hofmann an Arthur Schnitzler, [zwischen 8. und 28.? 2. 1892]"
+      ]
+    },
+    {
       "from": "pmb36485",
       "to": "pmb43055",
       "weight": 1,
@@ -3768,19 +3759,20 @@
       ]
     },
     {
-      "from": "pmb38096",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 10. 3. 1892"
-      ]
-    },
-    {
       "from": "pmb38897",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, 24. 9. 1895"
+      ]
+    },
+    {
+      "from": "pmb40154",
+      "to": "pmb167789",
+      "weight": 2,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 19. 5. 1891",
+        "Richard Beer-Hofmann an Arthur Schnitzler, 30. 5. 1891"
       ]
     },
     {
@@ -3942,6 +3934,15 @@
     },
     {
       "from": "pmb415",
+      "to": "pmb167789",
+      "weight": 2,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 12. 8. 1891",
+        "Richard Beer-Hofmann an Arthur Schnitzler, 21. 8. 1891"
+      ]
+    },
+    {
+      "from": "pmb415",
       "to": "pmb168815",
       "weight": 1,
       "titles": [
@@ -3960,9 +3961,8 @@
     {
       "from": "pmb415",
       "to": "pmb213",
-      "weight": 3,
+      "weight": 2,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 12. 8. 1891",
         "Richard Beer-Hofmann an Arthur Schnitzler, 3. 9. 1904",
         "Richard Beer-Hofmann an Arthur Schnitzler, 5. 9. 1904"
       ]
@@ -3980,9 +3980,8 @@
     {
       "from": "pmb415",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 21. 8. 1891",
         "Richard Beer-Hofmann und Arthur Kaufmann an Arthur Schnitzler, [23.? 7. 1904]",
         "Richard Beer-Hofmann an Arthur Schnitzler, [10.? 9. 1911]",
         "Richard Beer-Hofmann an Arthur Schnitzler, 12. 7. 1920"
@@ -4173,6 +4172,14 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb167789",
+      "weight": 1,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, [16. 12. 1891]"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb168",
       "weight": 3,
       "titles": [
@@ -4230,7 +4237,7 @@
       "to": "pmb50",
       "weight": 51,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, [16. 12. 1891]",
+        "Richard Beer-Hofmann an Arthur Schnitzler, [1892–1893?]",
         "Richard Beer-Hofmann an Arthur Schnitzler, 1. 10. 1892",
         "Richard Beer-Hofmann an Arthur Schnitzler, 14. 10. 1892",
         "Richard Beer-Hofmann an Arthur Schnitzler, 9. 11. 1892",
@@ -4413,6 +4420,14 @@
       ]
     },
     {
+      "from": "pmb756",
+      "to": "pmb167789",
+      "weight": 1,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 10. 3. 1892"
+      ]
+    },
+    {
       "from": "pmb759",
       "to": "pmb168934",
       "weight": 1,
@@ -4446,15 +4461,6 @@
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, 7. 10. 1894",
         "Richard Beer-Hofmann an Arthur Schnitzler, [11. oder 12]. 10. 1894"
-      ]
-    },
-    {
-      "from": "pmb833",
-      "to": "pmb50",
-      "weight": 2,
-      "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 19. 5. 1891",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 30. 5. 1891"
       ]
     },
     {

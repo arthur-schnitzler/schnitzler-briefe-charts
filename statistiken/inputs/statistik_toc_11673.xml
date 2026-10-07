@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-06Z</date>
+            <date>2026-10-07Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +69,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1885-08-14" n="01">14. 8. 1885</date>
-                     <placeName ref="#pmb296548">Kammer</placeName>
+                     <placeName ref="#pmb296548">Hotel Kammer</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1165,7 +1165,7 @@
                           target="L03838">Herzl an Schnitzler, 11. 12. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="3803"/>
             </item>
             <item corresp="L03838">
@@ -1225,7 +1225,7 @@
                           target="L03839">Herzl an Schnitzler, 17. 12. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1046"/>
             </item>
             <item corresp="L03839">
@@ -1285,7 +1285,7 @@
                           target="L03840">Herzl an Schnitzler, 23. 12. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="2149"/>
             </item>
             <item corresp="L03840">
@@ -1345,7 +1345,7 @@
                           target="L03841">Herzl an Schnitzler, 29. 12. 1894</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1009"/>
             </item>
             <item corresp="L03841">
@@ -1480,24 +1480,29 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
-                     <date evidence="conjecture" notBefore="1895-01-07" notAfter="1895-01-10">[7. 1. 1895 – 10. 1. 1895?]</date>
+                     <date evidence="conjecture" notBefore="1895-01-07" notAfter="1895-01-10">[7. 1. 1895
+                  – 10. 1. 1895?]</date>
                      <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02726">Goldmann an Schnitzler, 5. 1. [1895]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03845">Herzl an Schnitzler, 9. 1. 1895</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl,
+                  Theodor</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02726">Goldmann an
+                  Schnitzler, 5. 1. [1895]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03845">Herzl an
+                  Schnitzler, 9. 1. 1895</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
-                          target="L03844">Herzl an Schnitzler, 4. 1. 1895</ref>
+                          target="L03844">Herzl an Schnitzler,
+                  4. 1. 1895</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11673"
                           target="L03845">Herzl an Schnitzler, 9. 1. 1895</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="2687"/>
             </item>
             <item corresp="L03845">
@@ -1557,7 +1562,7 @@
                           target="L03920">Schnitzler an Herzl, 19. 1. 1895</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="1588"/>
             </item>
             <item corresp="L03920">
@@ -1588,7 +1593,7 @@
                   21. 1. 1895?]</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="karte" ana="briefkarte"/>
                <measure unit="zeichenanzahl" quantity="324"/>
             </item>
             <item corresp="L03893">
@@ -1686,7 +1691,7 @@
                           target="L03847">Herzl an Schnitzler, 1. 2. 1895</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="959"/>
             </item>
             <item corresp="L03847">
@@ -2760,7 +2765,7 @@
                           target="L03867">Herzl an Schnitzler, 9. 12. 1898</ref>
                   </correspContext>
                </correspDesc>
-               <objectType corresp="xbrief"/>
+               <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="789"/>
             </item>
             <item corresp="L03867">

@@ -9,7 +9,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 5
+      "count": 7
     },
     {
       "id": "pmb212",
@@ -20,6 +20,16 @@
       "id": "pmb258929",
       "name": "Westerwede",
       "count": 7
+    },
+    {
+      "id": "pmb34050",
+      "name": "Hotel de l’Europe [Venedig]",
+      "count": 1
+    },
+    {
+      "id": "pmb340535",
+      "name": "Villa Waldfrieden",
+      "count": 1
     },
     {
       "id": "pmb341236",
@@ -39,12 +49,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 12
+      "count": 10
     },
     {
       "id": "pmb61048",
       "name": "Schmargendorf",
-      "count": 3
+      "count": 2
     },
     {
       "id": "pmb652",
@@ -98,6 +108,14 @@
   "links_to_schnitzler": [
     {
       "from": "pmb258929",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]"
+      ]
+    },
+    {
+      "from": "pmb258929",
       "to": "pmb212",
       "weight": 1,
       "titles": [
@@ -107,11 +125,18 @@
     {
       "from": "pmb258929",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 2,
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
-        "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]",
-        "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]"
+        "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]"
+      ]
+    },
+    {
+      "from": "pmb340535",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Rainer Maria Rilke: Widmungsexemplar Lieder der Mädchen für Arthur Schnitzler, 14. 7. 1899"
       ]
     },
     {
@@ -134,7 +159,7 @@
     },
     {
       "from": "pmb462",
-      "to": "pmb462",
+      "to": "pmb34050",
       "weight": 1,
       "titles": [
         "Rainer Maria Rilke: Widmungsexemplar Die Liebe der Magdalena für Arthur Schnitzler, 15. 5. 1912"
@@ -143,11 +168,10 @@
     {
       "from": "pmb61048",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 2,
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, 30. 3. 1899",
-        "Rainer Maria Rilke an Arthur Schnitzler, 15. 4. 1899",
-        "Rainer Maria Rilke: Widmungsexemplar Lieder der Mädchen für Arthur Schnitzler, 14. 7. 1899"
+        "Rainer Maria Rilke an Arthur Schnitzler, 15. 4. 1899"
       ]
     },
     {

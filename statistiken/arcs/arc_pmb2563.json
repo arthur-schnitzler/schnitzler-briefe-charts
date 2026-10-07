@@ -9,12 +9,7 @@
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 2
-    },
-    {
-      "id": "pmb167805",
-      "name": "Kärntnerring 12/Bösendorferstraße 11",
-      "count": 1
+      "count": 4
     },
     {
       "id": "pmb403915",
@@ -29,7 +24,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 6
+      "count": 5
     },
     {
       "id": "pmb652",
@@ -57,7 +52,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb403915",
-      "to": "pmb167805",
+      "to": "pmb167789",
       "weight": 1,
       "titles": [
         "Jaques Joachim an Arthur Schnitzler, 31. 1. 1890"
@@ -98,17 +93,17 @@
     {
       "from": "pmb833",
       "to": "pmb167789",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Michael Konstantin an Arthur Schnitzler, 22. 5. 1890"
+        "Michael Konstantin an Arthur Schnitzler, 22. 5. 1890",
+        "Eduard Michael Kafka an Arthur Schnitzler, 30. 8. 1891"
       ]
     },
     {
       "from": "pmb833",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Eduard Michael Kafka an Arthur Schnitzler, 30. 8. 1891",
         "Eduard Michael Kafka an Arthur Schnitzler, 12. 1. 1893"
       ]
     },

@@ -12,6 +12,11 @@
       "count": 1
     },
     {
+      "id": "pmb405355",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb49283",
       "name": "Harmannsdorf",
       "count": 2
@@ -46,6 +51,14 @@
       ]
     },
     {
+      "from": "pmb405355",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Bertha von Suttner an Arthur und Olga Schnitzler, 14. 5. 1914"
+      ]
+    },
+    {
       "from": "pmb49283",
       "to": "pmb50",
       "weight": 2,
@@ -57,12 +70,11 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Bertha von Suttner an Arthur Schnitzler, 22. 10. 1913",
         "Bertha von Suttner an Arthur Schnitzler, [20. 12. 1913?]",
-        "Bertha von Suttner an Arthur und Olga Schnitzler, 30. 3. 1914",
-        "Bertha von Suttner an Arthur und Olga Schnitzler, 14. 5. 1914"
+        "Bertha von Suttner an Arthur und Olga Schnitzler, 30. 3. 1914"
       ]
     }
   ]

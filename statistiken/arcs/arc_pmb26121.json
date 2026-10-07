@@ -2,6 +2,11 @@
   "correspondent": "Torresani, Carl von",
   "nodes": [
     {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 1
+    },
+    {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
       "count": 1
@@ -12,13 +17,13 @@
       "count": 1
     },
     {
-      "id": "pmb40294",
-      "name": "Torbole sul Garda",
+      "id": "pmb336768",
+      "name": "Piazza Montecitorio 121",
       "count": 1
     },
     {
-      "id": "pmb445",
-      "name": "Rom",
+      "id": "pmb40294",
+      "name": "Torbole sul Garda",
       "count": 1
     },
     {
@@ -29,7 +34,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 5
+      "count": 4
     }
   ],
   "links_from_schnitzler": [
@@ -44,19 +49,19 @@
       ]
     },
     {
+      "from": "pmb336768",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Carl von Torresani an Arthur Schnitzler, 9. 12. 1892"
+      ]
+    },
+    {
       "from": "pmb40294",
       "to": "pmb50",
       "weight": 1,
       "titles": [
         "Carl von Torresani an Arthur Schnitzler, [22. 4. 1906]"
-      ]
-    },
-    {
-      "from": "pmb445",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Carl von Torresani an Arthur Schnitzler, 9. 12. 1892"
       ]
     },
     {

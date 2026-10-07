@@ -4,7 +4,7 @@
     {
       "id": "pmb1231",
       "name": "Steinsdorfstraße 7",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb167782",
@@ -14,7 +14,7 @@
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb168934",
@@ -34,10 +34,18 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 2
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb167789",
+      "to": "pmb1231",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Michael Georg Conrad, 11. 3. 1891"
+      ]
+    },
     {
       "from": "pmb168940",
       "to": "pmb1231",
