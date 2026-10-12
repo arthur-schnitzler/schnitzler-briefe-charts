@@ -134,7 +134,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 3
+      "count": 5
     },
     {
       "id": "pmb168934",
@@ -394,7 +394,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 385
+      "count": 383
     },
     {
       "id": "pmb506",
@@ -619,6 +619,15 @@
   ],
   "links_from_schnitzler": [
     {
+      "from": "pmb168815",
+      "to": "pmb168",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Paul Goldmann, 1. 2. 1911",
+        "Arthur Schnitzler an Paul Goldmann, 9. 3. 1925"
+      ]
+    },
+    {
       "from": "pmb213",
       "to": "pmb364910",
       "weight": 1,
@@ -656,15 +665,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Paul Goldmann, 19. 3. 1899"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb168",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Paul Goldmann, 1. 2. 1911",
-        "Arthur Schnitzler an Paul Goldmann, 9. 3. 1925"
       ]
     },
     {

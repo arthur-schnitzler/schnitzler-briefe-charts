@@ -69,7 +69,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 25
+      "count": 29
     },
     {
       "id": "pmb168934",
@@ -564,7 +564,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 110
+      "count": 108
     },
     {
       "id": "pmb50232",
@@ -1027,6 +1027,14 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb264667",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 9. 7. 1915"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb299703",
       "weight": 1,
       "titles": [
@@ -1036,10 +1044,11 @@
     {
       "from": "pmb168815",
       "to": "pmb334003",
-      "weight": 2,
+      "weight": 3,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, 7. 7. 1913",
-        "Arthur Schnitzler an Gustav Schwarzkopf, 18. 7. 1913"
+        "Arthur Schnitzler an Gustav Schwarzkopf, 18. 7. 1913",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 2[3?]. 7. 1913"
       ]
     },
     {
@@ -1072,6 +1081,15 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, [5. oder 6]. 7. 1914"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, [3.?] 2. 1912",
+        "Arthur Schnitzler an Gustav Schwarzkopf, 12. 10. 1919"
       ]
     },
     {
@@ -1972,22 +1990,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb264667",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Gustav Schwarzkopf, 9. 7. 1915"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb334003",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Gustav Schwarzkopf, 2[3?]. 7. 1913"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb44413",
       "weight": 1,
       "titles": [
@@ -1997,7 +1999,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 62,
+      "weight": 60,
       "titles": [
         "Arthur Schnitzler an Gustav Schwarzkopf, [zwischen 21. 3. 1892 und 30. 3. 1892?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 10. 12. 1892",
@@ -2058,9 +2060,7 @@
         "Arthur Schnitzler an Gustav Schwarzkopf, [1. 10. 1909?]",
         "Arthur Schnitzler an Gustav Schwarzkopf, 10. 12. 1909",
         "Arthur Schnitzler an Gustav Schwarzkopf, 25. 1. 1910",
-        "Arthur Schnitzler an Gustav Schwarzkopf, 25. 6. 1910",
-        "Arthur Schnitzler an Gustav Schwarzkopf, [3.?] 2. 1912",
-        "Arthur Schnitzler an Gustav Schwarzkopf, 12. 10. 1919"
+        "Arthur Schnitzler an Gustav Schwarzkopf, 25. 6. 1910"
       ]
     },
     {

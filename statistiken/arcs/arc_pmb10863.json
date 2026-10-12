@@ -84,7 +84,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 38
+      "count": 44
     },
     {
       "id": "pmb168934",
@@ -769,7 +769,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 259
+      "count": 256
     },
     {
       "id": "pmb50112",
@@ -1414,6 +1414,14 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb263384",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, [30.? 6. 1915]"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb36456",
       "weight": 1,
       "titles": [
@@ -1434,12 +1442,23 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb44053",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gabriel Beer-Hofmann, 14. 1. 1931"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 6,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 15. 6. 1911",
+        "Olga und Arthur Schnitzler an Richard Beer-Hofmann, 1. 12. 1911",
         "Arthur Schnitzler an Richard Beer-Hofmann, 14. 2. 1912",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 14. 12. 1923"
+        "Arthur Schnitzler an Richard Beer-Hofmann, 14. 12. 1923",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 21. 1. 1924",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 27. 2. 1924"
       ]
     },
     {
@@ -2686,14 +2705,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb263384",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, [30.? 6. 1915]"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb338",
       "weight": 1,
       "titles": [
@@ -2792,14 +2803,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb44053",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Gabriel Beer-Hofmann, 14. 1. 1931"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb45279",
       "weight": 1,
       "titles": [
@@ -2817,7 +2820,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 25,
+      "weight": 22,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, [Juni 1891 – 1900?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, [27. 12. 1892?]",
@@ -2840,10 +2843,7 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, 9. 10. 1910",
         "Arthur Schnitzler an Richard Beer-Hofmann, 23. 10. 1910",
         "Arthur Schnitzler an Richard Beer-Hofmann, 22. 12. 1910",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 27. 12. 1910",
-        "Olga und Arthur Schnitzler an Richard Beer-Hofmann, 1. 12. 1911",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 21. 1. 1924",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 27. 2. 1924"
+        "Arthur Schnitzler an Richard Beer-Hofmann, 27. 12. 1910"
       ]
     },
     {

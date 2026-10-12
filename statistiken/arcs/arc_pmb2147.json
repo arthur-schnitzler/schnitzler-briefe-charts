@@ -19,7 +19,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb189",
@@ -63,20 +63,20 @@
       ]
     },
     {
-      "from": "pmb168",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Peter Altenberg, 29. 10. 1896"
-      ]
-    },
-    {
-      "from": "pmb50",
+      "from": "pmb168815",
       "to": "pmb50",
       "weight": 2,
       "titles": [
         "Arthur Schnitzler an Peter Altenberg, 22. 4. 1913",
         "Arthur Schnitzler an Georg Engländer, 10. 1. 1919"
+      ]
+    },
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Peter Altenberg, 29. 10. 1896"
       ]
     }
   ],

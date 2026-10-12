@@ -14,7 +14,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 2
+      "count": 5
     },
     {
       "id": "pmb168934",
@@ -54,7 +54,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 12
+      "count": 9
     },
     {
       "id": "pmb735",
@@ -66,9 +66,10 @@
     {
       "from": "pmb168815",
       "to": "pmb735",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Gerhart Hauptmann, 6. 6. 1922"
+        "Arthur Schnitzler an Gerhart Hauptmann, 6. 6. 1922",
+        "Arthur Schnitzler an Gerhart Hauptmann, 14. 11. 1922"
       ]
     },
     {
@@ -109,14 +110,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler u. a. an Gerhart Hauptmann, 7. 9. 1904"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb735",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Gerhart Hauptmann, 14. 11. 1922"
       ]
     }
   ],

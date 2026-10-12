@@ -59,7 +59,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 28
+      "count": 34
     },
     {
       "id": "pmb168934",
@@ -264,7 +264,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 252
+      "count": 247
     },
     {
       "id": "pmb505",
@@ -401,9 +401,10 @@
     {
       "from": "pmb168815",
       "to": "pmb160",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 19. 7. [1913]"
+        "Arthur Schnitzler an Hermann Bahr, 19. 7. [1913]",
+        "Arthur Schnitzler an Hermann Bahr, 12. 10. 1913"
       ]
     },
     {
@@ -425,10 +426,11 @@
     {
       "from": "pmb168815",
       "to": "pmb30",
-      "weight": 4,
+      "weight": 5,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 18. 4. 1913",
         "Arthur Schnitzler an Hermann Bahr, 22. 4. 1913",
+        "Arthur Schnitzler an Hermann Bahr, 19. 7. 1913",
         "Arthur Schnitzler an Hermann Bahr, 9. 2. 1915",
         "Arthur Schnitzler an Hermann Bahr, 24. 8. 1918"
       ]
@@ -444,16 +446,19 @@
     {
       "from": "pmb168815",
       "to": "pmb45258",
-      "weight": 1,
+      "weight": 3,
       "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 16. 2. 1930",
+        "Arthur Schnitzler an Hermann Bahr, 17. 3. 1930",
         "Arthur Schnitzler an Hermann Bahr, 5. 9. 1931"
       ]
     },
     {
       "from": "pmb168815",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
+        "Arthur Schnitzler: Widmungsexemplar Das weite Land für Hermann Bahr, 13. 10. 1911",
         "Arthur Schnitzler an Hermann Bahr, 14. 9. 1918",
         "Arthur Schnitzler an Hermann Bahr, 23. 9. 1918"
       ]
@@ -619,14 +624,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb160",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 12. 10. 1913"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb168",
       "weight": 1,
       "titles": [
@@ -651,25 +648,8 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb30",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 19. 7. 1913"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb45258",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 16. 2. 1930",
-        "Arthur Schnitzler an Hermann Bahr, 17. 3. 1930"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb50",
-      "weight": 70,
+      "weight": 69,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 3. 11. 1893",
         "Arthur Schnitzler an Hermann Bahr, 7. 11. 1893",
@@ -739,8 +719,7 @@
         "Arthur Schnitzler an Hermann Bahr, 22. 6. 1909",
         "Arthur Schnitzler an Hermann Bahr, 14. 9. 1909",
         "Arthur Schnitzler an Hermann Bahr, 22. 12. 1909",
-        "Arthur Schnitzler an Hermann Bahr, 27. 9. 1910",
-        "Arthur Schnitzler: Widmungsexemplar Das weite Land für Hermann Bahr, 13. 10. 1911"
+        "Arthur Schnitzler an Hermann Bahr, 27. 9. 1910"
       ]
     },
     {

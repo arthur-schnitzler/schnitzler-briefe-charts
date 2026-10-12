@@ -114,7 +114,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 28
+      "count": 41
     },
     {
       "id": "pmb168934",
@@ -394,7 +394,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 326
+      "count": 323
     },
     {
       "id": "pmb51650",
@@ -619,10 +619,51 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb50",
+      "weight": 10,
+      "titles": [
+        "Arthur Schnitzler an Felix Salten, 20. 10. 1911",
+        "Arthur Schnitzler und Ferdinand Schmutzer: Widmungsexemplar Der blinde Geronimo und sein Bruder für Felix Salten, [29. 5. 1915?]",
+        "Arthur Schnitzler: Widmungsexemplar Die Schwestern für Felix Salten, 2. 12. 1919",
+        "Arthur Schnitzler an Felix Salten, 13. 4. 1927",
+        "Arthur Schnitzler: Widmungsexemplar Buch der Sprüche und Bedenken für Felix Salten, 17. 12. 1927",
+        "Arthur Schnitzler an Felix Salten, 11. 4. 1928",
+        "Arthur Schnitzler an Felix Salten, 29. 7. 1929",
+        "Arthur Schnitzler an Felix Salten, 30. 12. 19[29?]",
+        "Arthur Schnitzler an Felix Salten, 1. 1. 1931",
+        "Arthur Schnitzler an Felix Salten, 30. 5. 1931"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb63834",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Felix Salten, 17. 5. 1917"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb866",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Felix Salten, 10. 2. 1927"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb877",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Felix Salten, 8. 8. 191[0]"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb976",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Felix Salten, 6. 5. 1925"
       ]
     },
     {
@@ -802,7 +843,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 68,
+      "weight": 58,
       "titles": [
         "Arthur Schnitzler an Felix Salten, [27. 6. 1891?]",
         "Arthur Schnitzler an Felix Salten, 21. 3. 1892",
@@ -861,33 +902,7 @@
         "Arthur Schnitzler an Felix Salten, 7. 11. 1907",
         "Arthur Schnitzler an Felix Salten, 30. 5. 1908",
         "Arthur Schnitzler an Felix Salten, [14. 4. 1910?]",
-        "Arthur Schnitzler an Felix Salten, 20. 10. 1911",
-        "Arthur Schnitzler und Ferdinand Schmutzer: Widmungsexemplar Der blinde Geronimo und sein Bruder für Felix Salten, [29. 5. 1915?]",
-        "Arthur Schnitzler: Widmungsexemplar Komödie der Worte für Felix Salten, [zwischen 18. und 20.?] 10. 1915",
-        "Arthur Schnitzler: Widmungsexemplar Die Schwestern für Felix Salten, 2. 12. 1919",
-        "Arthur Schnitzler an Felix Salten, 13. 4. 1927",
-        "Arthur Schnitzler: Widmungsexemplar Buch der Sprüche und Bedenken für Felix Salten, 17. 12. 1927",
-        "Arthur Schnitzler an Felix Salten, 11. 4. 1928",
-        "Arthur Schnitzler an Felix Salten, 29. 7. 1929",
-        "Arthur Schnitzler an Felix Salten, 30. 12. 19[29?]",
-        "Arthur Schnitzler an Felix Salten, 1. 1. 1931",
-        "Arthur Schnitzler an Felix Salten, 30. 5. 1931"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb63834",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Felix Salten, 17. 5. 1917"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb866",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Felix Salten, 10. 2. 1927"
+        "Arthur Schnitzler: Widmungsexemplar Komödie der Worte für Felix Salten, [zwischen 18. und 20.?] 10. 1915"
       ]
     },
     {
@@ -897,14 +912,6 @@
       "titles": [
         "Arthur Schnitzler an Felix Salten, [14. 8. 1893]",
         "Arthur Schnitzler an Felix Salten, 17. 8. 1893"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb976",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Felix Salten, 6. 5. 1925"
       ]
     },
     {
