@@ -9,7 +9,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 13
+      "count": 18
     },
     {
       "id": "pmb168934",
@@ -34,7 +34,7 @@
     {
       "id": "pmb238485",
       "name": "Nusswaldgasse 22",
-      "count": 7
+      "count": 12
     },
     {
       "id": "pmb251927",
@@ -64,7 +64,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 48
+      "count": 43
     },
     {
       "id": "pmb52051",
@@ -100,6 +100,15 @@
       "titles": [
         "Arthur Schnitzler an Berta Zuckerkandl, 26. 1. 1924",
         "Arthur Schnitzler an Berta Zuckerkandl, 27. 5. 1926"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb238485",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Berta Zuckerkandl, 9. 12. 1911",
+        "Arthur Schnitzler an Berta Zuckerkandl, 8. 1. 1912"
       ]
     },
     {
@@ -155,10 +164,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 17,
+      "weight": 15,
       "titles": [
-        "Arthur Schnitzler an Berta Zuckerkandl, 9. 12. 1911",
-        "Arthur Schnitzler an Berta Zuckerkandl, 8. 1. 1912",
         "Arthur Schnitzler: Widmungsexemplar von Fink und Fliederbusch an Berta Zuckerkandl, 11. 11. 1917",
         "Arthur Schnitzler: Widmungsexemplar von Casanovas Heimfahrt an Berta Zuckerkandl, Jänner 1919",
         "Arthur Schnitzler an Berta Zuckerkandl, 25. 10. 1923",
@@ -221,13 +228,15 @@
     {
       "from": "pmb238485",
       "to": "pmb168815",
-      "weight": 5,
+      "weight": 7,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 12. und 21. 5. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [13. 6. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [10. 9. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [9. 10. 1911?]",
-        "Berta Zuckerkandl an Arthur Schnitzler, [7. 11. 1911?]"
+        "Berta Zuckerkandl an Arthur Schnitzler, [7. 11. 1911?]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [25. 11. 1911]",
+        "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 20. und 25. 5. 1913?]"
       ]
     },
     {
@@ -273,10 +282,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 2,
       "titles": [
-        "Berta Zuckerkandl an Arthur Schnitzler, [25. 11. 1911]",
-        "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 20. und 30. 5. 1913?]",
         "Berta Zuckerkandl an Arthur Schnitzler, 11. 10. 1924",
         "Berta Zuckerkandl an Arthur Schnitzler, [23. 5. 1925?]"
       ]

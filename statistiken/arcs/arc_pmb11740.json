@@ -29,7 +29,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 9
+      "count": 15
     },
     {
       "id": "pmb167789",
@@ -82,9 +82,14 @@
       "count": 10
     },
     {
+      "id": "pmb190427",
+      "name": "Wollzeile 15 (»Berthahof«)",
+      "count": 1
+    },
+    {
       "id": "pmb192623",
       "name": "Salesianergasse 12",
-      "count": 56
+      "count": 61
     },
     {
       "id": "pmb197",
@@ -464,7 +469,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 380
+      "count": 374
     },
     {
       "id": "pmb513",
@@ -647,6 +652,15 @@
       "weight": 1,
       "titles": [
         "Felix Salten und Arthur Schnitzler an Hugo von Hofmannsthal, 3. 8. 1906"
+      ]
+    },
+    {
+      "from": "pmb167782",
+      "to": "pmb192623",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 9. 11. 1892",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 24. 11. 1892"
       ]
     },
     {
@@ -1098,10 +1112,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 54,
+      "weight": 52,
       "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 9. 11. 1892",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 24. 11. 1892",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 1. 1893",
         "Arthur Schnitzler an Hugo von Hofmannsthal, [1. 2. 1893]",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 18. 2. 1893",
@@ -1402,11 +1414,22 @@
       ]
     },
     {
+      "from": "pmb190427",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [23. 11. 1892?]"
+      ]
+    },
+    {
       "from": "pmb192623",
       "to": "pmb167782",
-      "weight": 8,
+      "weight": 11,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 15. 10. 1892",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [8. 11. 1892]",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [1. 12. 1892]",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 23. 12. [1892]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 2. 1893",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 2. 1893",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 22. 2. 1893",
@@ -2240,12 +2263,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 93,
+      "weight": 89,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [8. 11. 1892]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [23. 11. 1892?]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [1. 12. 1892]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 23. 12. [1892]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [13. 1. 1893]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 25. 1. [1893]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [30.? 1. 1893]",

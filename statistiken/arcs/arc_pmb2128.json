@@ -7,19 +7,39 @@
       "count": 1
     },
     {
-      "id": "pmb182",
-      "name": "Paris",
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 27
+    },
+    {
+      "id": "pmb295159",
+      "name": "Florianigasse 44",
       "count": 2
     },
     {
-      "id": "pmb224",
-      "name": "London",
-      "count": 1
+      "id": "pmb295164",
+      "name": "Fröschelgasse 6",
+      "count": 5
     },
     {
-      "id": "pmb43520",
-      "name": "Meran",
+      "id": "pmb295169",
+      "name": "Spiegelgasse 2",
+      "count": 6
+    },
+    {
+      "id": "pmb295211",
+      "name": "Bäckerstraße 1",
       "count": 8
+    },
+    {
+      "id": "pmb296017",
+      "name": "Hotel Meranerhof",
+      "count": 7
+    },
+    {
+      "id": "pmb296077",
+      "name": "Hotel Kaiserhof [Meran]",
+      "count": 1
     },
     {
       "id": "pmb45258",
@@ -29,7 +49,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 43
+      "count": 14
+    },
+    {
+      "id": "pmb592",
+      "name": "5, rue de Maubeuge",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
@@ -53,9 +78,64 @@
       ]
     },
     {
-      "from": "pmb43520",
-      "to": "pmb50",
+      "from": "pmb295159",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Elsa Plessner an Arthur Schnitzler, 23. 3. 1897",
+        "Elsa Plessner an Arthur Schnitzler, [Mitte April 1897]"
+      ]
+    },
+    {
+      "from": "pmb295164",
+      "to": "pmb168934",
+      "weight": 3,
+      "titles": [
+        "Elsa Plessner an Arthur Schnitzler, 7. 8. [1897]",
+        "Elsa Plessner an Arthur Schnitzler, 7. 8. [1897]",
+        "Elsa Plessner an Arthur Schnitzler, 9. 8. 1897"
+      ]
+    },
+    {
+      "from": "pmb295164",
+      "to": "pmb592",
+      "weight": 1,
+      "titles": [
+        "Elsa Plessner an Arthur Schnitzler, 15. 5. 1897"
+      ]
+    },
+    {
+      "from": "pmb295169",
+      "to": "pmb168934",
+      "weight": 6,
+      "titles": [
+        "Elsa Plessner an Arthur Schnitzler, 23. 10. 1897",
+        "Elsa Plessner an Arthur Schnitzler, 22. 10. 1898",
+        "Elsa Plessner an Arthur Schnitzler, 2. 1. 1899",
+        "Elsa Plessner an Arthur Schnitzler, 4. 1. 1899",
+        "Elsa Plessner an Arthur Schnitzler, 19. 1. 1899",
+        "Elsa Plessner an Arthur Schnitzler, 21. 1. 1899"
+      ]
+    },
+    {
+      "from": "pmb295211",
+      "to": "pmb168934",
       "weight": 8,
+      "titles": [
+        "Elsa Plessner an Arthur Schnitzler, 14. 3. 1896",
+        "Elsa Plessner an Arthur Schnitzler, 18. 3. 1896",
+        "Elsa Plessner an Arthur Schnitzler, 14. 4. 1896",
+        "Elsa Plessner an Arthur Schnitzler, 14. 9. 1896",
+        "Elsa Plessner an Arthur Schnitzler, 15. 9. 1896",
+        "Elsa Plessner an Arthur Schnitzler, 21. 9. 1896",
+        "Elsa Plessner an Arthur Schnitzler, 28. 9. 1896",
+        "Elsa Plessner an Arthur Schnitzler, 17. 10. 1896"
+      ]
+    },
+    {
+      "from": "pmb296017",
+      "to": "pmb168934",
+      "weight": 7,
       "titles": [
         "Elsa Plessner an Arthur Schnitzler, 17. 11. 1896",
         "Elsa Plessner an Arthur Schnitzler, 20. 11. 1896",
@@ -63,7 +143,14 @@
         "Elsa Plessner an Arthur Schnitzler, 23. 12. 1896",
         "Elsa Plessner an Arthur Schnitzler, 29. 12. 1896",
         "Elsa Plessner an Arthur Schnitzler, 9. 1. 1897",
-        "Elsa Plessner an Arthur Schnitzler, 13. 1. 1897",
+        "Elsa Plessner an Arthur Schnitzler, 13. 1. 1897"
+      ]
+    },
+    {
+      "from": "pmb296077",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
         "Elsa Plessner an Arthur Schnitzler, 18. 3. 1897"
       ]
     },
@@ -79,44 +166,9 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb182",
-      "weight": 2,
-      "titles": [
-        "Elsa Plessner an Arthur Schnitzler, [Mitte April 1897]",
-        "Elsa Plessner an Arthur Schnitzler, 15. 5. 1897"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb224",
-      "weight": 1,
-      "titles": [
-        "Elsa Plessner an Arthur Schnitzler, 30. 5. [1897]"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb50",
-      "weight": 26,
+      "weight": 8,
       "titles": [
-        "Elsa Plessner an Arthur Schnitzler, 14. 3. 1896",
-        "Elsa Plessner an Arthur Schnitzler, 18. 3. 1896",
-        "Elsa Plessner an Arthur Schnitzler, 14. 4. 1896",
-        "Elsa Plessner an Arthur Schnitzler, 14. 9. 1896",
-        "Elsa Plessner an Arthur Schnitzler, 15. 9. 1896",
-        "Elsa Plessner an Arthur Schnitzler, 21. 9. 1896",
-        "Elsa Plessner an Arthur Schnitzler, 28. 9. 1896",
-        "Elsa Plessner an Arthur Schnitzler, 17. 10. 1896",
-        "Elsa Plessner an Arthur Schnitzler, 23. 3. 1897",
-        "Elsa Plessner an Arthur Schnitzler, 7. 8. [1897]",
-        "Elsa Plessner an Arthur Schnitzler, 7. 8. [1897]",
-        "Elsa Plessner an Arthur Schnitzler, 9. 8. 1897",
-        "Elsa Plessner an Arthur Schnitzler, 23. 10. 1897",
-        "Elsa Plessner an Arthur Schnitzler, 22. 10. 1898",
-        "Elsa Plessner an Arthur Schnitzler, 2. 1. 1899",
-        "Elsa Plessner an Arthur Schnitzler, 4. 1. 1899",
-        "Elsa Plessner an Arthur Schnitzler, 19. 1. 1899",
-        "Elsa Plessner an Arthur Schnitzler, 21. 1. 1899",
         "Elsa Plessner an Arthur Schnitzler, 26. 1. 1899",
         "Elsa Plessner an Arthur Schnitzler, 9. 1. 1900",
         "Elsa Plessner an Arthur Schnitzler, 10. 1. 1900",

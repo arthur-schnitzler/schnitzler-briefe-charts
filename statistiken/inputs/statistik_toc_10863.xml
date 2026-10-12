@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-07Z</date>
+            <date>2026-10-12Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10863.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1274,7 +1274,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-09-19" n="01">19. 9. 1892</date>
-                     <placeName ref="#pmb462">Venedig</placeName>
+                     <placeName ref="#pmb310">Grand Hotel Bauer-Grünwald</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-09-19">19. [9. 1892]</date>
@@ -1347,13 +1347,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1892-10-01" n="01">1. 10. 1892</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1892-10-01" notAfter="1892-10-03">[1. 10. 1892
                   – 5. 10. 1892?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167789">Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -1418,12 +1418,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1892-10-14" n="01">14. 10. 1892</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1892-10-14" notAfter="1892-10-16">[14. 10. 1892 – 18. 10. 1892?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167789">Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -1483,13 +1483,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1892-11-09" n="02">9. 11. 1892</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1892-11-09" notAfter="1892-11-11">[9. 11. 1892
                   – 13. 11. 1892?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -1514,12 +1514,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date notAfter="1894-03-29" notBefore="1892-11-20" n="03">[1892–1894?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date notAfter="1894-03-29" notBefore="1892-11-20" evidence="conjecture">[1892–1894?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -1544,7 +1544,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-12-01" n="01">1. 12. 1892</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
@@ -1609,7 +1609,8 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-12-14" n="01">14. 12. 1892</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler
+                  Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-12-14">14. 12. 1892</date>
@@ -1625,13 +1626,17 @@
                      <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L00142">Schnitzler an Beer-Hofmann, 10. 12. 1892</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00144">Hofmannsthal an Schnitzler, 23. 12. [1892]</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann,
+                  Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00142">Schnitzler an
+                  Beer-Hofmann, 10. 12. 1892</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00144">Hofmannsthal an
+                  Schnitzler, 23. 12. [1892]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L00142">Schnitzler an Beer-Hofmann, 10. 12. 1892</ref>
+                          target="L00142">Schnitzler an Beer-Hofmann,
+                  10. 12. 1892</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
@@ -1647,7 +1652,8 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-12-25" n="01">25. 12. 1892</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler
+                  Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1892-12-25">25. 12. 1892</date>
@@ -1659,13 +1665,17 @@
                      <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02704">Goldmann an Schnitzler, 24. 12. [1892]</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00146">Schnitzler an Beer-Hofmann, 27. 12. 1892</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann,
+                  Richard</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02704">Goldmann an
+                  Schnitzler, 24. 12. [1892]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00146">Schnitzler an
+                  Beer-Hofmann, 27. 12. 1892</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"
-                          target="L00143">Schnitzler an Beer-Hofmann, 14. 12. 1892</ref>
+                          target="L00143">Schnitzler an Beer-Hofmann,
+                  14. 12. 1892</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10863"

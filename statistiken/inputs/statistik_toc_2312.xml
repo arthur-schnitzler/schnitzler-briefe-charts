@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-07Z</date>
+            <date>2026-10-12Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -397,12 +397,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date when="1911-11-25" n="01">[25. 11. 1911?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb238485" evidence="conjecture">Nusswaldgasse 22</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1911-11-25" notAfter="1911-11-28">[25. 11. 1911 – 28. 11. 1911?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
@@ -427,13 +427,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1911-12-09" n="01">9. 12. 1911</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date evidence="conjecture" notBefore="1911-12-09" notAfter="1911-12-12">[9. 12. 1911
                   – 12. 12. 1911?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb238485" evidence="conjecture">Nusswaldgasse 22</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
@@ -458,13 +458,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1912-01-08" n="01">8. 1. 1912</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <date evidence="conjecture" notBefore="1912-01-08" notAfter="1912-01-11">[8. 1. 1912 –
-            11. 1. 1912?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date evidence="conjecture" notBefore="1912-01-08" notAfter="1912-01-11">[8. 1. 1912
+                  – 11. 1. 1912?]</date>
+                     <placeName ref="#pmb238485" evidence="conjecture">Nusswaldgasse 22</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
@@ -482,21 +482,21 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="999"/>
+               <measure unit="zeichenanzahl" quantity="2149"/>
             </item>
             <item corresp="L04002">
                <title level="a">Berta Zuckerkandl an Arthur Schnitzler, [zwischen 20. und
-               30. 5. 1913?]</title>
+               25. 5. 1913?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <date notBefore="1913-05-20" notAfter="1913-05-30" n="01">[zwischen 20. und
-                  30. 5. 1913?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date notBefore="1913-05-20" notAfter="1913-05-25" n="01">[zwischen 20. und
+                  25. 5. 1913?]</date>
+                     <placeName ref="#pmb238485">Nusswaldgasse 22</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
@@ -521,12 +521,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date when="1914-01-21" n="01">[21. 1. 1914?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb238485">Nusswaldgasse 22</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date evidence="conjecture" notBefore="1914-01-21" notAfter="1914-01-24">[21. 1. 1914 – 24. 1. 1914?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>

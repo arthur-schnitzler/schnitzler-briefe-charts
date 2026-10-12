@@ -7,9 +7,14 @@
       "count": 3
     },
     {
+      "id": "pmb1243",
+      "name": "Thomas Mann Villa",
+      "count": 1
+    },
+    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 6
+      "count": 7
     },
     {
       "id": "pmb245236",
@@ -24,7 +29,7 @@
     {
       "id": "pmb424",
       "name": "Bad Tölz",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb42768",
@@ -49,7 +54,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 21
+      "count": 20
     }
   ],
   "links_from_schnitzler": [
@@ -91,6 +96,14 @@
       ]
     },
     {
+      "from": "pmb1243",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 22. 5. 1913"
+      ]
+    },
+    {
       "from": "pmb298436",
       "to": "pmb245236",
       "weight": 1,
@@ -101,11 +114,10 @@
     {
       "from": "pmb424",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Thomas Mann an Arthur Schnitzler, 7. 8. 1908",
         "Thomas Mann an Arthur Schnitzler, 25. 9. 1911",
-        "Thomas Mann an Arthur Schnitzler, 22. 5. 1913",
         "Thomas Mann an Arthur Schnitzler, 27. 8. 1917"
       ]
     },

@@ -42,6 +42,11 @@
       "count": 5
     },
     {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 1
+    },
+    {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
       "count": 8
@@ -79,7 +84,7 @@
     {
       "id": "pmb190907",
       "name": "",
-      "count": 6
+      "count": 7
     },
     {
       "id": "pmb192623",
@@ -259,7 +264,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 253
+      "count": 252
     },
     {
       "id": "pmb505",
@@ -375,6 +380,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 20. 8. 1903"
+      ]
+    },
+    {
+      "from": "pmb167782",
+      "to": "pmb190907",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler: Widmungsexemplar Anatol für Hermann Bahr, [29. 10.?] 1892"
       ]
     },
     {
@@ -656,9 +669,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 71,
+      "weight": 70,
       "titles": [
-        "Arthur Schnitzler: Widmungsexemplar Anatol für Hermann Bahr, [29. 10.?] 1892",
         "Arthur Schnitzler an Hermann Bahr, 3. 11. 1893",
         "Arthur Schnitzler an Hermann Bahr, 7. 11. 1893",
         "Arthur Schnitzler an Hermann Bahr, 2. 12. 1893",

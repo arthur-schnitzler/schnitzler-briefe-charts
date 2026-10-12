@@ -14,7 +14,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 7
+      "count": 8
     },
     {
       "id": "pmb168",
@@ -34,7 +34,7 @@
     {
       "id": "pmb232296",
       "name": "Mahlerstraße 13",
-      "count": 4
+      "count": 5
     },
     {
       "id": "pmb365220",
@@ -49,7 +49,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 13
+      "count": 12
     },
     {
       "id": "pmb756",
@@ -109,8 +109,9 @@
     {
       "from": "pmb232296",
       "to": "pmb167782",
-      "weight": 3,
+      "weight": 4,
       "titles": [
+        "Karl Kraus an Arthur Schnitzler, 31. 10. 1892",
         "Karl Kraus an Arthur Schnitzler, 31. 12. 1892",
         "Karl Kraus an Arthur Schnitzler, 26. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 22. 3. 1893"
@@ -143,9 +144,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 10,
+      "weight": 9,
       "titles": [
-        "Karl Kraus an Arthur Schnitzler, 31. 10. 1892",
         "Karl Kraus an Arthur Schnitzler, 11. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 22. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 19. 3. 1893",
