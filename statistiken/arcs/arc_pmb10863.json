@@ -84,7 +84,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 44
+      "count": 47
     },
     {
       "id": "pmb168934",
@@ -769,7 +769,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 256
+      "count": 255
     },
     {
       "id": "pmb50112",
@@ -3962,8 +3962,9 @@
     {
       "from": "pmb415",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, [10.? 9. 1911]",
         "Richard Beer-Hofmann an Arthur Schnitzler, 9. 7. 1920"
       ]
     },
@@ -3998,10 +3999,9 @@
     {
       "from": "pmb415",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 2,
       "titles": [
         "Richard Beer-Hofmann und Arthur Kaufmann an Arthur Schnitzler, [23.? 7. 1904]",
-        "Richard Beer-Hofmann an Arthur Schnitzler, [10.? 9. 1911]",
         "Richard Beer-Hofmann an Arthur Schnitzler, 12. 7. 1920"
       ]
     },
@@ -4209,9 +4209,11 @@
     {
       "from": "pmb50",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 3,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 9. 10. 1911"
+        "Richard Beer-Hofmann an Arthur Schnitzler, 15. 6. 1911",
+        "Richard Beer-Hofmann an Arthur Schnitzler, 9. 10. 1911",
+        "Richard Beer-Hofmann an Arthur Schnitzler, 17. 7. 1927"
       ]
     },
     {
@@ -4253,7 +4255,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 47,
+      "weight": 45,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, [1892–1893?]",
         "Richard Beer-Hofmann an Arthur Schnitzler, [28. 12. 1892?]",
@@ -4299,9 +4301,7 @@
         "Richard Beer-Hofmann an Arthur Schnitzler, [22. 12. 1910]",
         "Richard Beer-Hofmann an Arthur Schnitzler, [27. 12. 1910]",
         "Richard Beer-Hofmann an Arthur Schnitzler, 5. 2. 1911",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 15. 6. 1911",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 23. 5. 1912",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 17. 7. 1927"
+        "Richard Beer-Hofmann an Arthur Schnitzler, 23. 5. 1912"
       ]
     },
     {

@@ -49,7 +49,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 58
+      "count": 61
     },
     {
       "id": "pmb168934",
@@ -469,7 +469,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 367
+      "count": 365
     },
     {
       "id": "pmb513",
@@ -1280,6 +1280,14 @@
     },
     {
       "from": "pmb168",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 30. 11. [1911]"
+      ]
+    },
+    {
+      "from": "pmb168",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
@@ -1289,12 +1297,11 @@
     {
       "from": "pmb168",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, [23. 3. 1899]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 26. 3. 1899",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 3. 11. [1903]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 30. 11. [1911]"
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 3. 11. [1903]"
       ]
     },
     {
@@ -1649,10 +1656,17 @@
     },
     {
       "from": "pmb33996",
-      "to": "pmb50",
-      "weight": 2,
+      "to": "pmb168815",
+      "weight": 1,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 16. 10. [1911?]",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 16. 10. [1911?]"
+      ]
+    },
+    {
+      "from": "pmb33996",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 3. 1. 1913"
       ]
     },
@@ -2202,10 +2216,11 @@
     {
       "from": "pmb50",
       "to": "pmb168815",
-      "weight": 2,
+      "weight": 3,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, [15. 11. 1912]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 11. 1912"
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 11. 1912",
+        "Hugo Hofmannsthal an Arthur Schnitzler, 20. 4. 1919"
       ]
     },
     {
@@ -2256,7 +2271,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 89,
+      "weight": 88,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, [13. 1. 1893]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 25. 1. [1893]",
@@ -2336,7 +2351,6 @@
         "Hugo von Hofmannsthal an Arthur Schnitzler, [5. 2. 1917]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [Anfang Dezember 1918]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 12. [1918?]",
-        "Hugo Hofmannsthal an Arthur Schnitzler, 20. 4. 1919",
         "Hugo Hofmannsthal an Arthur Schnitzler, 31. 3. 1920",
         "Hugo Hofmannsthal an Arthur Schnitzler, [19. 3. 1921]",
         "Hugo Hofmannsthal an Arthur Schnitzler, 28. 1. 192[2]",

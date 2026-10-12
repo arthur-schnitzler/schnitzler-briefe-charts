@@ -19,7 +19,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 4
+      "count": 5
     },
     {
       "id": "pmb189",
@@ -39,7 +39,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 23
+      "count": 22
     },
     {
       "id": "pmb545",
@@ -91,6 +91,14 @@
     },
     {
       "from": "pmb189",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Peter Altenberg an Arthur Schnitzler, 1. 12. 191[2]"
+      ]
+    },
+    {
+      "from": "pmb189",
       "to": "pmb189",
       "weight": 1,
       "titles": [
@@ -100,12 +108,11 @@
     {
       "from": "pmb189",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Peter Altenberg an Arthur Schnitzler, [zwischen April und Oktober 1912]",
         "Peter Altenberg an Arthur Schnitzler, [7. 11. 1912]",
-        "Peter Altenberg an Arthur Schnitzler, [zwischen 9. und 15. 11. 1912?]",
-        "Peter Altenberg an Arthur Schnitzler, 1. 12. 191[2]"
+        "Peter Altenberg an Arthur Schnitzler, [zwischen 9. und 15. 11. 1912?]"
       ]
     },
     {
