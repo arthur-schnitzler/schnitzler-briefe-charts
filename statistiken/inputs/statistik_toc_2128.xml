@@ -634,6 +634,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1897-06-02" notAfter="1897-06-10">[2. 6. 1897 – 10. 6. 1897?]</date>
+                     <placeName evidence="conjecture" ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -995,13 +996,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1900-01-10" n="01">10. 1. 1900</date>
-                     <placeName ref="#pmb295173">Wien</placeName>
+                     <placeName ref="#pmb295173">Kärntner Straße 10</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1900-01-10" notAfter="1900-01-13">[10. 1. 1900
                   – 13. 1. 1900?]</date>
-                     <placeName ref="#pmb168934" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -1026,13 +1027,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1900-02-26" n="01">26. 2. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb295173">Kärntner Straße 10</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1900-02-26" notAfter="1900-03-01">[26. 2. 1900 –
             1. 3. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -1057,12 +1058,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1900-06-24" n="01">24. 6. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb295173">Kärntner Straße 10</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1900-06-24" notAfter="1900-06-27">[24. 6. 1900 – 27. 6. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -1087,13 +1088,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1900-10-08" n="01">8. 10. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb295173">Kärntner Straße 10</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1900-10-08" notAfter="1900-10-11">[8. 10. 1900
                   – 11. 10. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -1118,12 +1119,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1900-10-12" n="02">12. 10. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb295173">Kärntner Straße 10</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1900-10-12" notAfter="1900-10-15">[12. 10. 1900 – 15. 10. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -1148,12 +1149,16 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1912-05-10" n="02">10. 5. 1912</date>
-                     <placeName ref="#pmb140">Halle (Saale)</placeName>
+                     <placeName ref="#pmb300422">Lafontainestraße 36</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <date notBefore="1912-05-11" notAfter="1912-05-14" evidence="conjecture">[11. 5. 1912 – 14. 5. 1912?]</date>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1912-05-11" notAfter="1912-05-15">[11. 5. 1912 – 15. 5. 1912?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <date evidence="conjecture" when="1912-05-15">[15. 5. 1912?]</date>
+                     <placeName ref="#pmb34050" evidence="conjecture">Hotel de l’Europe [Venedig]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -1178,13 +1183,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1912-12-06" n="01">6. 12. 1912</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb405547" evidence="conjecture">Pötzleinsdorfer Straße 59</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1912-12-06" notAfter="1912-12-10">[6. 12. 1912
                   – 10. 12. 1912?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -1209,12 +1214,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1915-11-15" n="01">15. 11. 1915</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb295215">Pension Serno</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1915-11-16" notAfter="1915-11-20">[16. 11. 1915 – 20. 11. 1915?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>
@@ -1239,13 +1244,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2128">Plessner, Elsa</persName>
                      <date when="1916-01-09" n="01">9. 1. 1916</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb295215">Pension Serno</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="external" notBefore="1916-01-10" notAfter="1916-01-12">[10. 1. 1916 –
                   12. 1. 1916]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2128">Plessner, Elsa</ref>

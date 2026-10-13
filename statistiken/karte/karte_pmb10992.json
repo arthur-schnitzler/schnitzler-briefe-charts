@@ -269,10 +269,10 @@
         "ref": "pmb10992"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
         "name": "Kopenhagen",
@@ -796,16 +796,42 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Krantz",
+        "ref": "pmb1120",
+        "lat": 48.20576,
+        "lon": 16.37092
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
+      }
+    },
+    {
+      "id": "L01029",
+      "title": "Georg Brandes an Arthur Schnitzler, 3. 4. [1900]",
+      "type": "von partner",
+      "date": "1900-04-03",
+      "sender": {
+        "name": "Brandes, Georg",
+        "ref": "pmb10992"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Hotel Royal",
+        "ref": "pmb1121",
+        "lat": 47.50278,
+        "lon": 19.06686
+      },
+      "to": {
+        "name": "Opatija",
+        "ref": "pmb38096",
+        "lat": 45.33771,
+        "lon": 14.30515
       }
     },
     {
@@ -835,27 +861,6 @@
       }
     },
     {
-      "id": "L01029",
-      "title": "Georg Brandes an Arthur Schnitzler, 3. 4. [1900]",
-      "type": "von partner",
-      "date": "1900-04-03",
-      "sender": {
-        "name": "Brandes, Georg",
-        "ref": "pmb10992"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Budapest",
-        "ref": "pmb43471",
-        "lat": 47.49835,
-        "lon": 19.04045
-      },
-      "to": null
-    },
-    {
       "id": "L01033",
       "title": "Georg Brandes an Arthur Schnitzler, 30. 4. 1900",
       "type": "von partner",
@@ -868,12 +873,17 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Kommunehospitalet",
+        "ref": "pmb1109",
+        "lat": 55.684556,
+        "lon": 12.570783
+      },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       }
     },
     {

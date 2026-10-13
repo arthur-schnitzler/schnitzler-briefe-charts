@@ -2,19 +2,14 @@
   "correspondent": "Plessner, Elsa",
   "nodes": [
     {
-      "id": "pmb140",
-      "name": "Halle (Saale)",
-      "count": 1
-    },
-    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 2
+      "count": 5
     },
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 30
+      "count": 35
     },
     {
       "id": "pmb295159",
@@ -34,12 +29,17 @@
     {
       "id": "pmb295173",
       "name": "Kärntner Straße 10",
-      "count": 2
+      "count": 6
     },
     {
       "id": "pmb295211",
       "name": "Bäckerstraße 1",
       "count": 8
+    },
+    {
+      "id": "pmb295215",
+      "name": "Pension Serno",
+      "count": 2
     },
     {
       "id": "pmb296017",
@@ -52,14 +52,29 @@
       "count": 1
     },
     {
+      "id": "pmb300422",
+      "name": "Lafontainestraße 36",
+      "count": 1
+    },
+    {
+      "id": "pmb34050",
+      "name": "Hotel de l’Europe [Venedig]",
+      "count": 1
+    },
+    {
+      "id": "pmb405547",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb45258",
       "name": "München",
-      "count": 5
+      "count": 3
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 9
+      "count": 1
     },
     {
       "id": "pmb592",
@@ -80,14 +95,6 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb140",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 10. 5. 1912"
-      ]
-    },
-    {
       "from": "pmb295159",
       "to": "pmb168934",
       "weight": 2,
@@ -99,8 +106,9 @@
     {
       "from": "pmb295164",
       "to": "pmb168934",
-      "weight": 3,
+      "weight": 4,
       "titles": [
+        "Elsa Plessner an Arthur Schnitzler, 30. 5. [1897]",
         "Elsa Plessner an Arthur Schnitzler, 7. 8. [1897]",
         "Elsa Plessner an Arthur Schnitzler, 7. 8. [1897]",
         "Elsa Plessner an Arthur Schnitzler, 9. 8. 1897"
@@ -131,10 +139,14 @@
     {
       "from": "pmb295173",
       "to": "pmb168934",
-      "weight": 2,
+      "weight": 6,
       "titles": [
         "Elsa Plessner an Arthur Schnitzler, 9. 1. 1900",
-        "Elsa Plessner an Arthur Schnitzler, 10. 1. 1900"
+        "Elsa Plessner an Arthur Schnitzler, 10. 1. 1900",
+        "Elsa Plessner an Arthur Schnitzler, 26. 2. 1900",
+        "Elsa Plessner an Arthur Schnitzler, 24. 6. 1900",
+        "Elsa Plessner an Arthur Schnitzler, 8. 10. 1900",
+        "Elsa Plessner an Arthur Schnitzler, 12. 10. 1900"
       ]
     },
     {
@@ -150,6 +162,15 @@
         "Elsa Plessner an Arthur Schnitzler, 21. 9. 1896",
         "Elsa Plessner an Arthur Schnitzler, 28. 9. 1896",
         "Elsa Plessner an Arthur Schnitzler, 17. 10. 1896"
+      ]
+    },
+    {
+      "from": "pmb295215",
+      "to": "pmb168815",
+      "weight": 2,
+      "titles": [
+        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 15. 11. 1915",
+        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 9. 1. 1916"
       ]
     },
     {
@@ -175,25 +196,27 @@
       ]
     },
     {
-      "from": "pmb45258",
-      "to": "pmb50",
-      "weight": 3,
+      "from": "pmb300422",
+      "to": "pmb34050",
+      "weight": 1,
       "titles": [
-        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 15. 11. 1915",
-        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 9. 1. 1916",
-        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 13. 1. 1916"
+        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 10. 5. 1912"
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 5,
+      "from": "pmb405547",
+      "to": "pmb168815",
+      "weight": 1,
       "titles": [
-        "Elsa Plessner an Arthur Schnitzler, 26. 2. 1900",
-        "Elsa Plessner an Arthur Schnitzler, 24. 6. 1900",
-        "Elsa Plessner an Arthur Schnitzler, 8. 10. 1900",
-        "Elsa Plessner an Arthur Schnitzler, 12. 10. 1900",
         "Elsa Ginsberg-Plessner an Arthur Schnitzler, 6. 12. 1912"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 13. 1. 1916"
       ]
     }
   ]

@@ -29,7 +29,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 21
+      "count": 22
     },
     {
       "id": "pmb167789",
@@ -39,7 +39,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 14
+      "count": 12
     },
     {
       "id": "pmb168765",
@@ -54,7 +54,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 100
+      "count": 99
     },
     {
       "id": "pmb168940",
@@ -104,11 +104,16 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 19
+      "count": 17
     },
     {
       "id": "pmb230",
       "name": "Österreichischer Hof",
+      "count": 1
+    },
+    {
+      "id": "pmb231658",
+      "name": "",
       "count": 1
     },
     {
@@ -144,7 +149,7 @@
     {
       "id": "pmb3",
       "name": "Deutsches Theater Berlin",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb30",
@@ -154,7 +159,7 @@
     {
       "id": "pmb305739",
       "name": "Bad Fusch",
-      "count": 29
+      "count": 30
     },
     {
       "id": "pmb33",
@@ -162,9 +167,9 @@
       "count": 8
     },
     {
-      "id": "pmb33976",
-      "name": "Znojmo",
-      "count": 1
+      "id": "pmb33985",
+      "name": "Dobšice u Znojma",
+      "count": 2
     },
     {
       "id": "pmb33996",
@@ -174,7 +179,12 @@
     {
       "id": "pmb34014",
       "name": "Villa Dr. Wassing",
-      "count": 1
+      "count": 2
+    },
+    {
+      "id": "pmb34018",
+      "name": "Hotel Elefant [Graz]",
+      "count": 2
     },
     {
       "id": "pmb34022",
@@ -189,7 +199,7 @@
     {
       "id": "pmb34050",
       "name": "Hotel de l’Europe [Venedig]",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb34112",
@@ -224,6 +234,11 @@
     {
       "id": "pmb36232",
       "name": "Alpnachstad",
+      "count": 1
+    },
+    {
+      "id": "pmb36282",
+      "name": "Pension Pundschu",
       "count": 1
     },
     {
@@ -337,6 +352,16 @@
       "count": 1
     },
     {
+      "id": "pmb405571",
+      "name": "",
+      "count": 1
+    },
+    {
+      "id": "pmb40837",
+      "name": "Grand Hotel Britannia",
+      "count": 3
+    },
+    {
       "id": "pmb40903",
       "name": "Hotel Kongen af Danmark",
       "count": 1
@@ -359,7 +384,7 @@
     {
       "id": "pmb414",
       "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
-      "count": 3
+      "count": 9
     },
     {
       "id": "pmb415",
@@ -379,7 +404,7 @@
     {
       "id": "pmb43055",
       "name": "Hôtel du Parc & Bristol",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb43471",
@@ -419,7 +444,7 @@
     {
       "id": "pmb44982",
       "name": "Kurhaus Rudolfsbad",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb45258",
@@ -444,16 +469,11 @@
     {
       "id": "pmb462",
       "name": "Venedig",
-      "count": 9
+      "count": 5
     },
     {
       "id": "pmb467",
       "name": "Villa Heufler",
-      "count": 1
-    },
-    {
-      "id": "pmb483",
-      "name": "Reichenau an der Rax",
       "count": 1
     },
     {
@@ -464,12 +484,12 @@
     {
       "id": "pmb49823",
       "name": "Hodonín",
-      "count": 5
+      "count": 4
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 327
+      "count": 313
     },
     {
       "id": "pmb513",
@@ -485,6 +505,11 @@
       "id": "pmb54",
       "name": "IV., Wieden",
       "count": 1
+    },
+    {
+      "id": "pmb545",
+      "name": "Hotel Savoy [Berlin]",
+      "count": 3
     },
     {
       "id": "pmb608",
@@ -552,18 +577,8 @@
       "count": 4
     },
     {
-      "id": "pmb860",
-      "name": "Graz",
-      "count": 1
-    },
-    {
       "id": "pmb882",
       "name": "Heidelberg",
-      "count": 1
-    },
-    {
-      "id": "pmb883",
-      "name": "Wiesbaden",
       "count": 1
     },
     {
@@ -834,7 +849,7 @@
     {
       "from": "pmb168934",
       "to": "pmb50",
-      "weight": 21,
+      "weight": 20,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 1. 1894]",
         "Arthur Schnitzler an Hugo von Hofmannsthal, [18. 1. 1894]",
@@ -845,7 +860,6 @@
         "Arthur Schnitzler an Hugo von Hofmannsthal, 26. 11. 1895",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 6. 1896",
         "Arthur Schnitzler an Hugo von Hofmannsthal, [9. 2. 1897?]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 12. 3. 1897",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1897",
         "Arthur Schnitzler an Hugo von Hofmannsthal, [16. 11. 1897]",
         "Arthur Schnitzler an Hugo von Hofmannsthal, [29. 5. 1898?]",
@@ -961,19 +975,10 @@
     },
     {
       "from": "pmb168",
-      "to": "pmb462",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 8. 10. 1899"
-      ]
-    },
-    {
-      "from": "pmb168",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 2,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 31. 10. 1896",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1898",
         "Arthur Schnitzler: Widmungsexemplar Ruf des Lebens für Hugo von Hofmannsthal, [21.?] 2. 1906"
       ]
     },
@@ -1007,10 +1012,8 @@
     {
       "from": "pmb213",
       "to": "pmb305739",
-      "weight": 3,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 8. 7. 1897",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 7. 1897",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 21. 7. 1897"
       ]
     },
@@ -1043,6 +1046,14 @@
       ]
     },
     {
+      "from": "pmb231658",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 12. 3. 1897"
+      ]
+    },
+    {
       "from": "pmb234089",
       "to": "pmb40297",
       "weight": 1,
@@ -1072,6 +1083,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 7. 1898"
+      ]
+    },
+    {
+      "from": "pmb34018",
+      "to": "pmb45274",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 7. 1898"
       ]
     },
     {
@@ -1116,6 +1135,15 @@
     },
     {
       "from": "pmb414",
+      "to": "pmb305739",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 8. 7. 1897",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 7. 1897"
+      ]
+    },
+    {
+      "from": "pmb414",
       "to": "pmb641",
       "weight": 1,
       "titles": [
@@ -1139,6 +1167,14 @@
       ]
     },
     {
+      "from": "pmb43055",
+      "to": "pmb40837",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 9. 1899"
+      ]
+    },
+    {
       "from": "pmb44129",
       "to": "pmb40297",
       "weight": 1,
@@ -1155,8 +1191,16 @@
       ]
     },
     {
+      "from": "pmb44982",
+      "to": "pmb305739",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 17. 7. 1900"
+      ]
+    },
+    {
       "from": "pmb45258",
-      "to": "pmb49823",
+      "to": "pmb33985",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 1. 9. 1895"
@@ -1179,19 +1223,27 @@
       ]
     },
     {
-      "from": "pmb483",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 17. 7. 1900"
-      ]
-    },
-    {
       "from": "pmb50",
       "to": "pmb305739",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 5. – 6. 8. 1904"
+      ]
+    },
+    {
+      "from": "pmb545",
+      "to": "pmb34050",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1898"
+      ]
+    },
+    {
+      "from": "pmb545",
+      "to": "pmb40837",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 8. 10. 1899"
       ]
     },
     {
@@ -1216,22 +1268,6 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Hugo von Hofmannsthal, 28. 12. 1904"
-      ]
-    },
-    {
-      "from": "pmb860",
-      "to": "pmb45274",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 7. 1898"
-      ]
-    },
-    {
-      "from": "pmb883",
-      "to": "pmb462",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 9. 1899"
       ]
     },
     {
@@ -1615,16 +1651,30 @@
     },
     {
       "from": "pmb305739",
+      "to": "pmb414",
+      "weight": 3,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 6. 7. [1897]",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [12.? 7. 1897]",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [19. 7. 1897]"
+      ]
+    },
+    {
+      "from": "pmb305739",
+      "to": "pmb44982",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 15. 7. 1900"
+      ]
+    },
+    {
+      "from": "pmb305739",
       "to": "pmb50",
-      "weight": 9,
+      "weight": 5,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 19. 7. 1893",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 27. 6. [1896]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 6. 7. [1897]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [12.? 7. 1897]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [19. 7. 1897]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [20. 7. 1897]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 15. 7. 1900",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 27. 7. 1900",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [24./25.?] 7. 1904"
       ]
@@ -1654,8 +1704,8 @@
       ]
     },
     {
-      "from": "pmb33976",
-      "to": "pmb50",
+      "from": "pmb33985",
+      "to": "pmb405571",
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 21. [8. 1895]"
@@ -1702,6 +1752,14 @@
       "weight": 1,
       "titles": [
         "Gerty und Hugo von Hofmannsthal an Arthur und Olga Schnitzler, 5. 5. [1916?]"
+      ]
+    },
+    {
+      "from": "pmb34050",
+      "to": "pmb3",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 10. [1898]"
       ]
     },
     {
@@ -2001,6 +2059,14 @@
       ]
     },
     {
+      "from": "pmb40837",
+      "to": "pmb545",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 10. [1899]"
+      ]
+    },
+    {
       "from": "pmb41007",
       "to": "pmb168934",
       "weight": 1,
@@ -2141,11 +2207,18 @@
     },
     {
       "from": "pmb45274",
-      "to": "pmb50",
-      "weight": 2,
+      "to": "pmb34014",
+      "weight": 1,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 12. 7. [1898]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 19. [7. 1898]"
+      ]
+    },
+    {
+      "from": "pmb45274",
+      "to": "pmb34018",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 12. 7. [1898]"
       ]
     },
     {
@@ -2170,11 +2243,9 @@
     {
       "from": "pmb462",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 1,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 17. 10. [1895]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 10. [1898]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 10. [1899]"
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 17. 10. [1895]"
       ]
     },
     {
@@ -2195,7 +2266,7 @@
     },
     {
       "from": "pmb49823",
-      "to": "pmb50",
+      "to": "pmb414",
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 8. [1895]"
@@ -2506,11 +2577,18 @@
     },
     {
       "from": "pmb772",
-      "to": "pmb50",
-      "weight": 2,
+      "to": "pmb36282",
+      "weight": 1,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 7. [1899]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 20. 7. [1899]"
+      ]
+    },
+    {
+      "from": "pmb772",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 7. [1899]"
       ]
     },
     {
@@ -2605,7 +2683,7 @@
     },
     {
       "from": "pmb946",
-      "to": "pmb50",
+      "to": "pmb43055",
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal und Richard Beer-Hofmann an Arthur Schnitzler, 27. [9. 1899]"

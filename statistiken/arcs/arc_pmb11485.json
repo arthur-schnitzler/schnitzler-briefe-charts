@@ -139,7 +139,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 62
+      "count": 61
     },
     {
       "id": "pmb168940",
@@ -219,6 +219,11 @@
     {
       "id": "pmb364910",
       "name": "Eglmoosgasse 22",
+      "count": 1
+    },
+    {
+      "id": "pmb365208",
+      "name": "9/3 Post- und Telegraphenamt 72",
       "count": 1
     },
     {
@@ -645,14 +650,6 @@
       ]
     },
     {
-      "from": "pmb168934",
-      "to": "pmb42671",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Paul Goldmann, 21. 11. 1896"
-      ]
-    },
-    {
       "from": "pmb213",
       "to": "pmb364910",
       "weight": 1,
@@ -666,6 +663,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Paul Goldmann, 25. 4. 1927"
+      ]
+    },
+    {
+      "from": "pmb365208",
+      "to": "pmb42671",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Paul Goldmann, 21. 11. 1896"
       ]
     },
     {

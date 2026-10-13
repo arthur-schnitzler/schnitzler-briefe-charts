@@ -14,7 +14,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 5
+      "count": 4
     },
     {
       "id": "pmb168934",
@@ -47,6 +47,11 @@
       "count": 3
     },
     {
+      "id": "pmb365208",
+      "name": "9/3 Post- und Telegraphenamt 72",
+      "count": 1
+    },
+    {
       "id": "pmb45270",
       "name": "Insel Hiddensee",
       "count": 1
@@ -66,10 +71,9 @@
     {
       "from": "pmb168815",
       "to": "pmb735",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Gerhart Hauptmann, 6. 6. 1922",
-        "Arthur Schnitzler an Gerhart Hauptmann, 14. 11. 1922"
+        "Arthur Schnitzler an Gerhart Hauptmann, 6. 6. 1922"
       ]
     },
     {
@@ -110,6 +114,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler u. a. an Gerhart Hauptmann, 7. 9. 1904"
+      ]
+    },
+    {
+      "from": "pmb365208",
+      "to": "pmb735",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 14. 11. 1922"
       ]
     }
   ],

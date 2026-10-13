@@ -62,6 +62,11 @@
       "count": 2
     },
     {
+      "id": "pmb147147",
+      "name": "Grand Hotel Excelsior Regina",
+      "count": 1
+    },
+    {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
       "count": 36
@@ -89,7 +94,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 229
+      "count": 227
     },
     {
       "id": "pmb168940",
@@ -134,7 +139,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 48
+      "count": 45
     },
     {
       "id": "pmb224",
@@ -344,7 +349,7 @@
     {
       "id": "pmb364910",
       "name": "Eglmoosgasse 22",
-      "count": 20
+      "count": 22
     },
     {
       "id": "pmb364923",
@@ -360,6 +365,11 @@
       "id": "pmb365095",
       "name": "Kaiser-Franz-Ring 54",
       "count": 8
+    },
+    {
+      "id": "pmb365208",
+      "name": "9/3 Post- und Telegraphenamt 72",
+      "count": 2
     },
     {
       "id": "pmb365483",
@@ -419,7 +429,7 @@
     {
       "id": "pmb40290",
       "name": "Trondheim",
-      "count": 3
+      "count": 2
     },
     {
       "id": "pmb40332",
@@ -440,6 +450,11 @@
       "id": "pmb405441",
       "name": "",
       "count": 5
+    },
+    {
+      "id": "pmb405576",
+      "name": "",
+      "count": 1
     },
     {
       "id": "pmb40705",
@@ -539,7 +554,7 @@
     {
       "id": "pmb414",
       "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
-      "count": 9
+      "count": 12
     },
     {
       "id": "pmb41430",
@@ -599,7 +614,7 @@
     {
       "id": "pmb43055",
       "name": "Hôtel du Parc & Bristol",
-      "count": 3
+      "count": 5
     },
     {
       "id": "pmb43059",
@@ -664,7 +679,7 @@
     {
       "id": "pmb44982",
       "name": "Kurhaus Rudolfsbad",
-      "count": 2
+      "count": 5
     },
     {
       "id": "pmb45098",
@@ -739,7 +754,7 @@
     {
       "id": "pmb483",
       "name": "Reichenau an der Rax",
-      "count": 4
+      "count": 2
     },
     {
       "id": "pmb485",
@@ -769,7 +784,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 187
+      "count": 185
     },
     {
       "id": "pmb50112",
@@ -914,7 +929,7 @@
     {
       "id": "pmb545",
       "name": "Hotel Savoy [Berlin]",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb55166",
@@ -1072,11 +1087,6 @@
       "count": 1
     },
     {
-      "id": "pmb883",
-      "name": "Wiesbaden",
-      "count": 1
-    },
-    {
       "id": "pmb884",
       "name": "Lübeck",
       "count": 1
@@ -1120,11 +1130,6 @@
       "id": "pmb946",
       "name": "Vahrn",
       "count": 19
-    },
-    {
-      "id": "pmb948",
-      "name": "Payerbach",
-      "count": 1
     },
     {
       "id": "pmb958",
@@ -1676,14 +1681,6 @@
     },
     {
       "from": "pmb168934",
-      "to": "pmb34067",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 19. 10. 1900"
-      ]
-    },
-    {
-      "from": "pmb168934",
       "to": "pmb34401",
       "weight": 5,
       "titles": [
@@ -1718,12 +1715,11 @@
     {
       "from": "pmb168934",
       "to": "pmb364910",
-      "weight": 11,
+      "weight": 10,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 31. 5. 1894",
         "Arthur Schnitzler an Richard Beer-Hofmann, 2. 7. 1894",
         "Arthur Schnitzler an Richard Beer-Hofmann, 12. 7. 1894",
-        "Arthur Schnitzler an Richard Beer-Hofmann, [30. 7. 1894]",
         "Arthur Schnitzler an Richard Beer-Hofmann, 31. 7. 1894",
         "Arthur Schnitzler an Richard Beer-Hofmann, 9. 9. 1894",
         "Arthur Schnitzler an Richard Beer-Hofmann, 5. 6. 1897",
@@ -2340,6 +2336,22 @@
       ]
     },
     {
+      "from": "pmb365208",
+      "to": "pmb34067",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 19. 10. 1900"
+      ]
+    },
+    {
+      "from": "pmb365208",
+      "to": "pmb364910",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, [30. 7. 1894]"
+      ]
+    },
+    {
       "from": "pmb39752",
       "to": "pmb34860",
       "weight": 2,
@@ -2527,8 +2539,9 @@
     {
       "from": "pmb43055",
       "to": "pmb40832",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 29. 9. 1899",
         "Arthur Schnitzler an Richard Beer-Hofmann, 3. 10. 1899"
       ]
     },
@@ -2630,6 +2643,16 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 17. 7. 1905"
+      ]
+    },
+    {
+      "from": "pmb44982",
+      "to": "pmb34401",
+      "weight": 3,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 7. 7. 1900",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 14. 7. 1900",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 15. 7. 1900"
       ]
     },
     {
@@ -2736,15 +2759,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 2. 3. 1900"
-      ]
-    },
-    {
-      "from": "pmb483",
-      "to": "pmb34401",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 7. 7. 1900",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 14. 7. 1900"
       ]
     },
     {
@@ -3168,14 +3182,6 @@
       ]
     },
     {
-      "from": "pmb883",
-      "to": "pmb40832",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 29. 9. 1899"
-      ]
-    },
-    {
       "from": "pmb884",
       "to": "pmb33",
       "weight": 1,
@@ -3233,14 +3239,6 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, 26. 7. 1901",
         "Arthur Schnitzler an Richard Beer-Hofmann, 1. 8. 1901",
         "Arthur Schnitzler an Richard Beer-Hofmann, 10. 8. 1901"
-      ]
-    },
-    {
-      "from": "pmb948",
-      "to": "pmb34401",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 15. 7. 1900"
       ]
     },
     {
@@ -3436,17 +3434,8 @@
     },
     {
       "from": "pmb213",
-      "to": "pmb213",
-      "weight": 2,
-      "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, [18. 7. 1894]",
-        "Richard Beer-Hofmann an Arthur Schnitzler, [18. 7. 1894]"
-      ]
-    },
-    {
-      "from": "pmb213",
       "to": "pmb50",
-      "weight": 14,
+      "weight": 13,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, [vor dem 22. 6. 1893?]",
         "Richard Beer-Hofmann an Arthur Schnitzler, 23. 6. 1893",
@@ -3460,8 +3449,7 @@
         "Richard Beer-Hofmann an Arthur Schnitzler, 7. 9. 1894",
         "Richard Beer-Hofmann an Arthur Schnitzler, 5. 6. 1897",
         "Richard Beer-Hofmann an Arthur Schnitzler, 11. 6. 1897",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 13. 6. 1897",
-        "Richard Beer-Hofmann an Arthur Schnitzler, 25. 6. 1897"
+        "Richard Beer-Hofmann an Arthur Schnitzler, 13. 6. 1897"
       ]
     },
     {
@@ -3559,7 +3547,7 @@
     },
     {
       "from": "pmb30",
-      "to": "pmb40290",
+      "to": "pmb405576",
       "weight": 1,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, 22. 7. 1896"
@@ -3735,6 +3723,15 @@
       ]
     },
     {
+      "from": "pmb364910",
+      "to": "pmb414",
+      "weight": 2,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, [18. 7. 1894]",
+        "Richard Beer-Hofmann an Arthur Schnitzler, [18. 7. 1894]"
+      ]
+    },
+    {
       "from": "pmb364923",
       "to": "pmb168934",
       "weight": 1,
@@ -3862,6 +3859,14 @@
       ]
     },
     {
+      "from": "pmb40832",
+      "to": "pmb545",
+      "weight": 1,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 3. 10. 1899"
+      ]
+    },
+    {
       "from": "pmb40858",
       "to": "pmb168934",
       "weight": 2,
@@ -3934,6 +3939,14 @@
       "weight": 1,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, 28. 8. 1899"
+      ]
+    },
+    {
+      "from": "pmb414",
+      "to": "pmb414",
+      "weight": 1,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 25. 6. 1897"
       ]
     },
     {
@@ -4172,6 +4185,14 @@
       "weight": 1,
       "titles": [
         "Gabriel Beer-Hofmann an Arthur Schnitzler, 12. 10. 1926"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb147147",
+      "weight": 1,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 28. 8. 1929"
       ]
     },
     {
@@ -4535,18 +4556,18 @@
     },
     {
       "from": "pmb946",
-      "to": "pmb45258",
+      "to": "pmb43055",
       "weight": 1,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 12. 9. 1899"
+        "Hugo von Hofmannsthal und Richard Beer-Hofmann an Arthur Schnitzler, 27. [9. 1899]"
       ]
     },
     {
       "from": "pmb946",
-      "to": "pmb50",
+      "to": "pmb45258",
       "weight": 1,
       "titles": [
-        "Hugo von Hofmannsthal und Richard Beer-Hofmann an Arthur Schnitzler, 27. [9. 1899]"
+        "Richard Beer-Hofmann an Arthur Schnitzler, 12. 9. 1899"
       ]
     },
     {

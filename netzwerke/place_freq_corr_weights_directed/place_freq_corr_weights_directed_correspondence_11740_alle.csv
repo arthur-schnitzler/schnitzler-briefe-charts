@@ -1,9 +1,9 @@
 Source,Target,Weight,Type
-"Hofmannsthal, Hugo von","Wien",574,Directed
+"Hofmannsthal, Hugo von","Wien",567,Directed
 "Hofmannsthal, Hugo von","Rodaun",129,Directed
 "Hofmannsthal, Hugo von","Edmund-Weiß-Gasse 7",76,Directed
-"Hofmannsthal, Hugo von","Berlin",62,Directed
-"Hofmannsthal, Hugo von","Frankgasse 1",60,Directed
+"Hofmannsthal, Hugo von","Berlin",61,Directed
+"Hofmannsthal, Hugo von","Frankgasse 1",61,Directed
 "Hofmannsthal, Hugo von","Salzburg",49,Directed
 "Hofmannsthal, Hugo von","Bad Ischl",46,Directed
 "Hofmannsthal, Hugo von","Bad Aussee",45,Directed
@@ -18,7 +18,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Österreich",28,Directed
 "Hofmannsthal, Hugo von","3/3 Post- und Telegraphenamt 49",21,Directed
 "Hofmannsthal, Hugo von","XVIII., Währing",20,Directed
-"Hofmannsthal, Hugo von","Venedig",19,Directed
+"Hofmannsthal, Hugo von","Venedig",18,Directed
 "Hofmannsthal, Hugo von","Hinterbrühl",17,Directed
 "Hofmannsthal, Hugo von","Paris",17,Directed
 "Hofmannsthal, Hugo von","9/2 Post- und Telegraphenamt 71",15,Directed
@@ -29,6 +29,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Innsbruck",12,Directed
 "Hofmannsthal, Hugo von","Italien",12,Directed
 "Hofmannsthal, Hugo von","XIII., Hietzing",12,Directed
+"Hofmannsthal, Hugo von","Hotel und Pension Rudolfshöhe (Leopold Petter)",11,Directed
 "Hofmannsthal, Hugo von","Ordination Arthur Schnitzler [Bösendorferstraße 11]",11,Directed
 "Hofmannsthal, Hugo von","3/1 Post- und Telegraphenamt 40",11,Directed
 "Hofmannsthal, Hugo von","18/1 Post- und Telegraphenamt 111",11,Directed
@@ -45,7 +46,6 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Marienbad",9,Directed
 "Hofmannsthal, Hugo von","Rom",9,Directed
 "Hofmannsthal, Hugo von","Lueg",9,Directed
-"Hofmannsthal, Hugo von","Hotel und Pension Rudolfshöhe (Leopold Petter)",8,Directed
 "Hofmannsthal, Hugo von","Burgtheater",8,Directed
 "Hofmannsthal, Hugo von","Kopenhagen",8,Directed
 "Hofmannsthal, Hugo von","Dänemark",8,Directed
@@ -65,6 +65,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Frankreich",6,Directed
 "Hofmannsthal, Hugo von","Hodonín",6,Directed
 "Hofmannsthal, Hugo von","Reichenau an der Rax",6,Directed
+"Hofmannsthal, Hugo von","Deutsches Theater Berlin",6,Directed
 "Hofmannsthal, Hugo von","Tegernsee",6,Directed
 "Hofmannsthal, Hugo von","Dubrovnik",6,Directed
 "Hofmannsthal, Hugo von","Lido",6,Directed
@@ -77,7 +78,6 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Meran",5,Directed
 "Hofmannsthal, Hugo von","Toblach",5,Directed
 "Hofmannsthal, Hugo von","Mödling",5,Directed
-"Hofmannsthal, Hugo von","Deutsches Theater Berlin",5,Directed
 "Hofmannsthal, Hugo von","Bologna",5,Directed
 "Hofmannsthal, Hugo von","Florenz",5,Directed
 "Hofmannsthal, Hugo von","Südtirol",5,Directed
@@ -96,6 +96,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Basel",4,Directed
 "Hofmannsthal, Hugo von","Luzern",4,Directed
 "Hofmannsthal, Hugo von","Velden am Wörthersee",4,Directed
+"Hofmannsthal, Hugo von","Pension Pundschu",4,Directed
 "Hofmannsthal, Hugo von","Frankfurt am Main",4,Directed
 "Hofmannsthal, Hugo von","Vahrn",4,Directed
 "Hofmannsthal, Hugo von","Hôtel Hassler",4,Directed
@@ -117,12 +118,17 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Bayreuth",3,Directed
 "Hofmannsthal, Hugo von","Gießhüblerstraße",3,Directed
 "Hofmannsthal, Hugo von","Kärnten",3,Directed
+"Hofmannsthal, Hugo von","Villa Dr. Wassing",3,Directed
+"Hofmannsthal, Hugo von","Hôtel du Parc & Bristol",3,Directed
 "Hofmannsthal, Hugo von","Vicenza",3,Directed
+"Hofmannsthal, Hugo von","Hotel de l’Europe [Venedig]",3,Directed
+"Hofmannsthal, Hugo von","Hotel Savoy [Berlin]",3,Directed
 "Hofmannsthal, Hugo von","Thüringen",3,Directed
-"Hofmannsthal, Hugo von","Pension Pundschu",3,Directed
 "Hofmannsthal, Hugo von","Trient",3,Directed
 "Hofmannsthal, Hugo von","San Martino di Castrozza",3,Directed
+"Hofmannsthal, Hugo von","Grand Hotel Britannia",3,Directed
 "Hofmannsthal, Hugo von","Edlach",3,Directed
+"Hofmannsthal, Hugo von","Kurhaus Rudolfsbad",3,Directed
 "Hofmannsthal, Hugo von","Wildbad Waldbrunn",3,Directed
 "Hofmannsthal, Hugo von","Stubaital",3,Directed
 "Hofmannsthal, Hugo von","Madonna di Campiglio",3,Directed
@@ -172,18 +178,16 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Café Kaiserhof (Inh. Johann Wortner) [Wien]",2,Directed
 "Hofmannsthal, Hugo von","Steindorf am Ossiacher See",2,Directed
 "Hofmannsthal, Hugo von","Maloja",2,Directed
-"Hofmannsthal, Hugo von","Villa Dr. Wassing",2,Directed
+"Hofmannsthal, Hugo von","Hotel Elefant [Graz]",2,Directed
 "Hofmannsthal, Hugo von","Bad Gastein",2,Directed
 "Hofmannsthal, Hugo von","Ferleiten",2,Directed
 "Hofmannsthal, Hugo von","Hotel Weilguni",2,Directed
 "Hofmannsthal, Hugo von","Biel",2,Directed
 "Hofmannsthal, Hugo von","Genfer See",2,Directed
 "Hofmannsthal, Hugo von","Bregenz",2,Directed
-"Hofmannsthal, Hugo von","Hôtel du Parc & Bristol",2,Directed
 "Hofmannsthal, Hugo von","Padua",2,Directed
 "Hofmannsthal, Hugo von","Verona",2,Directed
 "Hofmannsthal, Hugo von","Le due Torri: Garisenda e degli Asinelli",2,Directed
-"Hofmannsthal, Hugo von","Hotel de l’Europe [Venedig]",2,Directed
 "Hofmannsthal, Hugo von","Ilmenau",2,Directed
 "Hofmannsthal, Hugo von","Hotel Windsor",2,Directed
 "Hofmannsthal, Hugo von","Kaltenleutgeben",2,Directed
@@ -191,14 +195,12 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Hotel Klinger",2,Directed
 "Hofmannsthal, Hugo von","Hotel am See",2,Directed
 "Hofmannsthal, Hugo von","Sankt Michael",2,Directed
-"Hofmannsthal, Hugo von","Grand Hotel Britannia",2,Directed
 "Hofmannsthal, Hugo von","Wiesbaden",2,Directed
 "Hofmannsthal, Hugo von","Genua",2,Directed
 "Hofmannsthal, Hugo von","Boulevard Haussmann",2,Directed
 "Hofmannsthal, Hugo von","Villennes-sur-Seine",2,Directed
 "Hofmannsthal, Hugo von","Dalmatien",2,Directed
 "Hofmannsthal, Hugo von","Opatija",2,Directed
-"Hofmannsthal, Hugo von","Kurhaus Rudolfsbad",2,Directed
 "Hofmannsthal, Hugo von","Postamt Salzburg Stadt",2,Directed
 "Hofmannsthal, Hugo von","Österreichischer Hof",2,Directed
 "Hofmannsthal, Hugo von","Glion",2,Directed
@@ -290,8 +292,8 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Franzensbad",1,Directed
 "Hofmannsthal, Hugo von","Alter Jüdischer Friedhof",1,Directed
 "Hofmannsthal, Hugo von","Venedig in Wien",1,Directed
-"Hofmannsthal, Hugo von","Znojmo",1,Directed
 "Hofmannsthal, Hugo von","Dobšice u Znojma",1,Directed
+"Hofmannsthal, Hugo von","Postamt München poste restante",1,Directed
 "Hofmannsthal, Hugo von","Glaspalast",1,Directed
 "Hofmannsthal, Hugo von","Münchener Secession",1,Directed
 "Hofmannsthal, Hugo von","Sedan",1,Directed
@@ -307,7 +309,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Göteborg",1,Directed
 "Hofmannsthal, Hugo von","Oslo",1,Directed
 "Hofmannsthal, Hugo von","Badehotellet",1,Directed
-"Hofmannsthal, Hugo von","Günthergasse",1,Directed
+"Hofmannsthal, Hugo von","Günthergasse 1",1,Directed
 "Hofmannsthal, Hugo von","Comédie française",1,Directed
 "Hofmannsthal, Hugo von","Alland",1,Directed
 "Hofmannsthal, Hugo von","Neuhaus",1,Directed
@@ -323,6 +325,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Honor Oak",1,Directed
 "Hofmannsthal, Hugo von","Riesengebirge",1,Directed
 "Hofmannsthal, Hugo von","Unterach am Attersee",1,Directed
+"Hofmannsthal, Hugo von","Berghof",1,Directed
 "Hofmannsthal, Hugo von","Liechtensteinstraße [Hinterbrühl]",1,Directed
 "Hofmannsthal, Hugo von","Bruck an der Großglocknerstraße",1,Directed
 "Hofmannsthal, Hugo von","Hirschbichl",1,Directed
@@ -334,7 +337,6 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Am Hof",1,Directed
 "Hofmannsthal, Hugo von","Café de l’Europe",1,Directed
 "Hofmannsthal, Hugo von","Residenzhotel",1,Directed
-"Hofmannsthal, Hugo von","Hotel Elefant [Graz]",1,Directed
 "Hofmannsthal, Hugo von","St. Johann im Pongau",1,Directed
 "Hofmannsthal, Hugo von","Liechtensteinklamm",1,Directed
 "Hofmannsthal, Hugo von","Steinach",1,Directed
@@ -375,7 +377,6 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Südbahnhotel [Toblach]",1,Directed
 "Hofmannsthal, Hugo von","Hallstatt",1,Directed
 "Hofmannsthal, Hugo von","Villa Gassner",1,Directed
-"Hofmannsthal, Hugo von","Hotel Savoy [Berlin]",1,Directed
 "Hofmannsthal, Hugo von","Hotel Victoria [Bozen]",1,Directed
 "Hofmannsthal, Hugo von","Hotel de la Ville [Genua]",1,Directed
 "Hofmannsthal, Hugo von","Bois de Boulogne",1,Directed

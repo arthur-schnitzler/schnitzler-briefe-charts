@@ -17,6 +17,21 @@
       "count": 1
     },
     {
+      "id": "pmb1109",
+      "name": "Kommunehospitalet",
+      "count": 1
+    },
+    {
+      "id": "pmb1120",
+      "name": "Hotel Krantz",
+      "count": 1
+    },
+    {
+      "id": "pmb1121",
+      "name": "Hotel Royal",
+      "count": 1
+    },
+    {
       "id": "pmb1131",
       "name": "Hotel d’Jéna",
       "count": 1
@@ -49,7 +64,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 29
+      "count": 31
     },
     {
       "id": "pmb168940",
@@ -64,7 +79,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb230",
@@ -94,7 +109,7 @@
     {
       "id": "pmb38096",
       "name": "Opatija",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb41010",
@@ -107,9 +122,14 @@
       "count": 2
     },
     {
+      "id": "pmb414",
+      "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+      "count": 1
+    },
+    {
       "id": "pmb43471",
       "name": "Budapest",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb43570",
@@ -134,7 +154,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 33
+      "count": 31
     },
     {
       "id": "pmb667",
@@ -280,9 +300,8 @@
     {
       "from": "pmb213",
       "to": "pmb36300",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Georg Brandes, 9. 7. 1897",
         "Arthur Schnitzler an Georg Brandes, 18. 7. 1897"
       ]
     },
@@ -292,6 +311,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Georg Brandes, 25. 7. 1906"
+      ]
+    },
+    {
+      "from": "pmb414",
+      "to": "pmb36300",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Georg Brandes, 9. 7. 1897"
       ]
     },
     {
@@ -343,6 +370,30 @@
       "weight": 1,
       "titles": [
         "Georg Brandes an Arthur Schnitzler, 25. 1. 1898"
+      ]
+    },
+    {
+      "from": "pmb1109",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur Schnitzler, 30. 4. 1900"
+      ]
+    },
+    {
+      "from": "pmb1120",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur Schnitzler, [18. 3. 1900]"
+      ]
+    },
+    {
+      "from": "pmb1121",
+      "to": "pmb38096",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur Schnitzler, 3. 4. [1900]"
       ]
     },
     {
@@ -549,9 +600,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Georg Brandes an Arthur Schnitzler, [18. 3. 1900]",
         "Georg Brandes an Arthur Schnitzler, 20. 11. 1912"
       ]
     },

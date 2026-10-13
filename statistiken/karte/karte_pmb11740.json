@@ -1916,7 +1916,12 @@
         "ref": "pmb2121"
       },
       "from": null,
-      "to": null
+      "to": {
+        "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+        "ref": "pmb167782",
+        "lat": 48.212477,
+        "lon": 16.357233
+      }
     },
     {
       "id": "L00233",
@@ -2989,10 +2994,10 @@
         "lon": 17.13244
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       }
     },
     {
@@ -3035,16 +3040,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Znojmo",
-        "ref": "pmb33976",
-        "lat": 48.85024,
-        "lon": 16.04869
+        "name": "Dobšice u Znojma",
+        "ref": "pmb33985",
+        "lat": 48.850556,
+        "lon": 16.083056
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb405571",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -3067,10 +3072,10 @@
         "lon": 11.57549
       },
       "to": {
-        "name": "Hodonín",
-        "ref": "pmb49823",
-        "lat": 48.84893,
-        "lon": 17.13244
+        "name": "Dobšice u Znojma",
+        "ref": "pmb33985",
+        "lat": 48.850556,
+        "lon": 16.083056
       }
     },
     {
@@ -3654,10 +3659,10 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Frankgasse 1",
-        "ref": "pmb168934",
-        "lat": 48.21533,
-        "lon": 16.35736
+        "name": "",
+        "ref": "pmb231658",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Wien",
@@ -3998,10 +4003,10 @@
         "lon": 12.85366
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       }
     },
     {
@@ -4018,10 +4023,10 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
         "name": "Bad Fusch",
@@ -4102,10 +4107,10 @@
         "lon": 12.85366
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       }
     },
     {
@@ -4122,10 +4127,10 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
         "name": "Bad Fusch",
@@ -4180,10 +4185,10 @@
         "lon": 12.85366
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       }
     },
     {
@@ -5033,10 +5038,10 @@
         "lon": 25.79808
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Elefant [Graz]",
+        "ref": "pmb34018",
+        "lat": 47.070941,
+        "lon": 15.432787
       }
     },
     {
@@ -5053,10 +5058,10 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Graz",
-        "ref": "pmb860",
-        "lat": 47.06667,
-        "lon": 15.43333
+        "name": "Hotel Elefant [Graz]",
+        "ref": "pmb34018",
+        "lat": 47.070941,
+        "lon": 15.432787
       },
       "to": {
         "name": "Tschortkiw",
@@ -5137,10 +5142,10 @@
         "lon": 25.79808
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Villa Dr. Wassing",
+        "ref": "pmb34014",
+        "lat": 47.119503,
+        "lon": 13.140375
       }
     },
     {
@@ -5469,16 +5474,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Venedig",
-        "ref": "pmb462",
-        "lat": 45.43713,
-        "lon": 12.33265
+        "name": "Hotel de l’Europe [Venedig]",
+        "ref": "pmb34050",
+        "lat": 45.432304,
+        "lon": 12.336899
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Deutsches Theater Berlin",
+        "ref": "pmb3",
+        "lat": 52.524444,
+        "lon": 13.382222
       }
     },
     {
@@ -5495,16 +5500,16 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "Hotel Savoy [Berlin]",
+        "ref": "pmb545",
+        "lat": 52.521572,
+        "lon": 13.388194
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel de l’Europe [Venedig]",
+        "ref": "pmb34050",
+        "lat": 45.432304,
+        "lon": 12.336899
       }
     },
     {
@@ -6437,10 +6442,10 @@
         "lon": 12.701944
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Pension Pundschu",
+        "ref": "pmb36282",
+        "lat": 46.610344,
+        "lon": 14.057955
       }
     },
     {
@@ -6666,10 +6671,10 @@
         "lon": 11.63749
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hôtel du Parc & Bristol",
+        "ref": "pmb43055",
+        "lat": 50.08161,
+        "lon": 8.24473
       }
     },
     {
@@ -6686,16 +6691,16 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Wiesbaden",
-        "ref": "pmb883",
-        "lat": 50.08258,
-        "lon": 8.24932
+        "name": "Hôtel du Parc & Bristol",
+        "ref": "pmb43055",
+        "lat": 50.08161,
+        "lon": 8.24473
       },
       "to": {
-        "name": "Venedig",
-        "ref": "pmb462",
-        "lat": 45.43713,
-        "lon": 12.33265
+        "name": "Grand Hotel Britannia",
+        "ref": "pmb40837",
+        "lat": 45.4321,
+        "lon": 12.33517
       }
     },
     {
@@ -6712,16 +6717,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Venedig",
-        "ref": "pmb462",
-        "lat": 45.43713,
-        "lon": 12.33265
+        "name": "Grand Hotel Britannia",
+        "ref": "pmb40837",
+        "lat": 45.4321,
+        "lon": 12.33517
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Savoy [Berlin]",
+        "ref": "pmb545",
+        "lat": 52.521572,
+        "lon": 13.388194
       }
     },
     {
@@ -6738,16 +6743,16 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "Hotel Savoy [Berlin]",
+        "ref": "pmb545",
+        "lat": 52.521572,
+        "lon": 13.388194
       },
       "to": {
-        "name": "Venedig",
-        "ref": "pmb462",
-        "lat": 45.43713,
-        "lon": 12.33265
+        "name": "Grand Hotel Britannia",
+        "ref": "pmb40837",
+        "lat": 45.4321,
+        "lon": 12.33517
       }
     },
     {
@@ -7082,10 +7087,10 @@
         "lon": 12.85366
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Kurhaus Rudolfsbad",
+        "ref": "pmb44982",
+        "lat": 47.69852,
+        "lon": 15.84453
       }
     },
     {
@@ -7102,16 +7107,16 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Reichenau an der Rax",
-        "ref": "pmb483",
-        "lat": 47.7,
-        "lon": 15.83333
+        "name": "Kurhaus Rudolfsbad",
+        "ref": "pmb44982",
+        "lat": 47.69852,
+        "lon": 15.84453
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Bad Fusch",
+        "ref": "pmb305739",
+        "lat": 47.19939,
+        "lon": 12.85366
       }
     },
     {

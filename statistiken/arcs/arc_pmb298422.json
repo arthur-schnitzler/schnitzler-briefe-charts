@@ -2,6 +2,11 @@
   "correspondent": "Sacher-Masoch, Wanda",
   "nodes": [
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
       "id": "pmb44376",
       "name": "Morges",
       "count": 1
@@ -10,5 +15,13 @@
   "links_from_schnitzler": [
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb44376",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Wanda Sacher-Masoch an Arthur Schnitzler, 9. 12. 1908"
+      ]
+    }
   ]
 }
