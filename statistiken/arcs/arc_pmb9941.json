@@ -4,7 +4,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 4
+      "count": 15
     },
     {
       "id": "pmb168940",
@@ -17,11 +17,6 @@
       "count": 8
     },
     {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 11
-    },
-    {
       "id": "pmb90217",
       "name": "Alland",
       "count": 5
@@ -30,25 +25,25 @@
   "links_from_schnitzler": [
     {
       "from": "pmb168934",
-      "to": "pmb90217",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Theodor von Sosnosky, 10. 10. 1901"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb48393",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Theodor von Sosnosky, [zwischen 26. 1. 1901 und 29. 1. 1901?], Fragment"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb90217",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Theodor von Sosnosky, 10. 10. 1901"
       ]
     }
   ],
   "links_to_schnitzler": [
     {
       "from": "pmb48393",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 7,
       "titles": [
         "Theodor von Sosnosky an Arthur Schnitzler, 27. 12. 1899",
@@ -62,20 +57,20 @@
     },
     {
       "from": "pmb90217",
-      "to": "pmb168940",
-      "weight": 1,
-      "titles": [
-        "Theodor von Sosnosky an Arthur Schnitzler, 3. 3. 1902"
-      ]
-    },
-    {
-      "from": "pmb90217",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 3,
       "titles": [
         "Theodor von Sosnosky an Arthur Schnitzler, 21. 6. 1901",
         "Theodor von Sosnosky an Arthur Schnitzler, 9. 10. 1901",
         "Theodor von Sosnosky an Arthur Schnitzler, 14. 10. 1901"
+      ]
+    },
+    {
+      "from": "pmb90217",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Theodor von Sosnosky an Arthur Schnitzler, 3. 3. 1902"
       ]
     }
   ]

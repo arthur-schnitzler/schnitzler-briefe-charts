@@ -4,7 +4,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 1
+      "count": 5
     },
     {
       "id": "pmb167789",
@@ -24,7 +24,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 5
+      "count": 1
     },
     {
       "id": "pmb652",
@@ -60,7 +60,7 @@
     },
     {
       "from": "pmb42561",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Eduard Michael Kafka an Arthur Schnitzler, 7. 3. 1893"
@@ -76,7 +76,7 @@
     },
     {
       "from": "pmb652",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Eduard Michael Kafka an Arthur Schnitzler, 24. 1. 1893"
@@ -84,10 +84,18 @@
     },
     {
       "from": "pmb677",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Eduard Michael Kafka an Arthur Schnitzler, 24. 2. 1893"
+      ]
+    },
+    {
+      "from": "pmb833",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Eduard Michael Kafka an Arthur Schnitzler, 12. 1. 1893"
       ]
     },
     {
@@ -97,14 +105,6 @@
       "titles": [
         "Michael Konstantin an Arthur Schnitzler, 22. 5. 1890",
         "Eduard Michael Kafka an Arthur Schnitzler, 30. 8. 1891"
-      ]
-    },
-    {
-      "from": "pmb833",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Eduard Michael Kafka an Arthur Schnitzler, 12. 1. 1893"
       ]
     },
     {

@@ -4,12 +4,12 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 5
+      "count": 10
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 14
+      "count": 36
     },
     {
       "id": "pmb237241",
@@ -39,7 +39,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 36
+      "count": 31
     }
   ],
   "links_from_schnitzler": [
@@ -54,11 +54,12 @@
     {
       "from": "pmb168815",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Arthur Schnitzler an Albert Ehrenstein, 31. 1. 1911",
         "Arthur Schnitzler an Albert Ehrenstein, 9. 2. 1911",
-        "Arthur Schnitzler an Albert Ehrenstein, 6. 5. 1911"
+        "Arthur Schnitzler an Albert Ehrenstein, 6. 5. 1911",
+        "Arthur Schnitzler an Albert Ehrenstein, [zwischen 23. und 25.] 5. 1912"
       ]
     },
     {
@@ -88,24 +89,23 @@
       "titles": [
         "Arthur Schnitzler an Albert Ehrenstein, 26. 1. 1909"
       ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Albert Ehrenstein, [zwischen 23. und 25.] 5. 1912"
-      ]
     }
   ],
   "links_to_schnitzler": [
     {
       "from": "pmb34498",
-      "to": "pmb50",
-      "weight": 2,
+      "to": "pmb168815",
+      "weight": 1,
       "titles": [
-        "Albert Ehrenstein an Arthur Schnitzler, 12. 7. 1910",
         "Albert Ehrenstein an Arthur Schnitzler, 18. 7. 1910"
+      ]
+    },
+    {
+      "from": "pmb34498",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Albert Ehrenstein an Arthur Schnitzler, 12. 7. 1910"
       ]
     },
     {
@@ -118,17 +118,17 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb470",
+      "to": "pmb168815",
       "weight": 2,
       "titles": [
-        "Albert Ehrenstein an Arthur Schnitzler, 1. 7. 1909",
-        "Albert Ehrenstein an Arthur Schnitzler, 13. 7. 1909"
+        "Albert Ehrenstein an Arthur Schnitzler, 31. 12. 1910",
+        "Albert Ehrenstein an Arthur Schnitzler, 27. 4. 1911"
       ]
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 21,
+      "to": "pmb168940",
+      "weight": 19,
       "titles": [
         "Albert Ehrenstein an Arthur Schnitzler, 3. 12. 1905",
         "Adolf Treibl an Arthur Schnitzler, 15. 1. 1906",
@@ -148,9 +148,16 @@
         "Albert Ehrenstein an Arthur Schnitzler, 6. 11. 1909",
         "Albert Ehrenstein an Arthur Schnitzler, 22. 11. 1909",
         "Albert Ehrenstein an Arthur Schnitzler, 25. 11. 1909",
-        "Albert Ehrenstein an Arthur Schnitzler, 10. 2. 1910",
-        "Albert Ehrenstein an Arthur Schnitzler, 31. 12. 1910",
-        "Albert Ehrenstein an Arthur Schnitzler, 27. 4. 1911"
+        "Albert Ehrenstein an Arthur Schnitzler, 10. 2. 1910"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb470",
+      "weight": 2,
+      "titles": [
+        "Albert Ehrenstein an Arthur Schnitzler, 1. 7. 1909",
+        "Albert Ehrenstein an Arthur Schnitzler, 13. 7. 1909"
       ]
     }
   ]

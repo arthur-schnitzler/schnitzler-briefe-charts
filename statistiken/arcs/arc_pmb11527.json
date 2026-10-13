@@ -9,17 +9,17 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 9
+      "count": 22
     },
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 3
+      "count": 9
     },
     {
       "id": "pmb342560",
@@ -39,7 +39,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 27
+      "count": 19
     }
   ],
   "links_from_schnitzler": [
@@ -79,17 +79,24 @@
   "links_to_schnitzler": [
     {
       "from": "pmb168",
-      "to": "pmb50",
-      "weight": 8,
+      "to": "pmb168815",
+      "weight": 7,
       "titles": [
         "Stefan Großmann an Arthur Schnitzler, 10. 2. 1921",
         "Stefan Großmann an Arthur Schnitzler, 26. 4. 1922",
         "Stefan Großmann an Arthur Schnitzler, 21. 9. 1925",
-        "Stefan Großmann an Arthur Schnitzler, [nach dem 25. 9. 1925]",
         "Stefan Großmann an Arthur Schnitzler, 23. 11. 1925",
         "Stefan Großmann an Arthur Schnitzler, 2. 1. 192[6?]",
         "Stefan Großmann an Arthur Schnitzler, 25. 5. 1926",
         "Stefan Großmann an Arthur Schnitzler, 2. 6. 1926"
+      ]
+    },
+    {
+      "from": "pmb168",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Stefan Großmann an Arthur Schnitzler, [nach dem 25. 9. 1925]"
       ]
     },
     {
@@ -110,7 +117,7 @@
     },
     {
       "from": "pmb45258",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Stefan Großmann an Arthur Schnitzler, 5. 2. 1912"
@@ -118,21 +125,35 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 12,
+      "to": "pmb168815",
+      "weight": 5,
       "titles": [
-        "Stefan Großmann an Arthur Schnitzler, 30. 8. 1900",
-        "Stefan Großmann an Arthur Schnitzler, 4. 5. 1906",
-        "Stefan Großmann an Arthur Schnitzler, 27. 9. 1907",
-        "Stefan Großmann an Arthur Schnitzler, 29. 9. 1907",
-        "Stefan Großmann an Arthur Schnitzler, 7. 10. 1907",
-        "Stefan Großmann an Arthur Schnitzler, 12. 10. 1907",
-        "Stefan Großmann an Arthur Schnitzler, 31. 3. 1910",
         "Stefan Großmann an Arthur Schnitzler, [7.] 2. 1911",
         "Engelbert Pernerstorfer und Stefan Großmann an Arthur Schnitzler, 14. 3. 1911",
         "Stefan Großmann an Arthur Schnitzler, 19. 2. 1912",
         "Stefan Großmann an Arthur Schnitzler, 30. 11. 1913",
         "Stefan Großmann an Arthur Schnitzler, 5. 12. 1913"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Stefan Großmann an Arthur Schnitzler, 30. 8. 1900"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168940",
+      "weight": 6,
+      "titles": [
+        "Stefan Großmann an Arthur Schnitzler, 4. 5. 1906",
+        "Stefan Großmann an Arthur Schnitzler, 27. 9. 1907",
+        "Stefan Großmann an Arthur Schnitzler, 29. 9. 1907",
+        "Stefan Großmann an Arthur Schnitzler, 7. 10. 1907",
+        "Stefan Großmann an Arthur Schnitzler, 12. 10. 1907",
+        "Stefan Großmann an Arthur Schnitzler, 31. 3. 1910"
       ]
     }
   ]

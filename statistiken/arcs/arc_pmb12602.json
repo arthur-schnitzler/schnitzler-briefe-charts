@@ -2,14 +2,29 @@
   "correspondent": "Saar, Ferdinand von",
   "nodes": [
     {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 1
+    },
+    {
       "id": "pmb168934",
       "name": "Frankgasse 1",
+      "count": 5
+    },
+    {
+      "id": "pmb30",
+      "name": "Salzburg",
+      "count": 1
+    },
+    {
+      "id": "pmb405592",
+      "name": "",
       "count": 1
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 7
+      "count": 4
     },
     {
       "id": "pmb50476",
@@ -21,8 +36,16 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb405592",
+      "to": "pmb30",
+      "weight": 1,
+      "titles": [
+        "Ferdinand von Saar an Arthur Schnitzler, 19. 6. 1901"
+      ]
+    },
+    {
       "from": "pmb50476",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 2,
       "titles": [
         "Ferdinand von Saar an Arthur Schnitzler, 5. 2. 1894",
@@ -31,19 +54,18 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb168934",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
-        "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1895"
+        "Ferdinand von Saar an Arthur Schnitzler, 15. 10. 1893"
       ]
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 4,
+      "to": "pmb168934",
+      "weight": 3,
       "titles": [
-        "Ferdinand von Saar an Arthur Schnitzler, 15. 10. 1893",
-        "Ferdinand von Saar an Arthur Schnitzler, 19. 6. 1901",
+        "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1895",
         "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1902",
         "Ferdinand von Saar an Arthur Schnitzler, 25. 10. 1902"
       ]

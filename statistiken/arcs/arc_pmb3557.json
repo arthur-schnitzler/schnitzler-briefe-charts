@@ -14,12 +14,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 4
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 2
+      "count": 6
     }
   ],
   "links_from_schnitzler": [
@@ -45,19 +40,12 @@
     {
       "from": "pmb1223",
       "to": "pmb168934",
-      "weight": 2,
+      "weight": 4,
       "titles": [
         "Joseph Victor Widmann an Arthur Schnitzler, 26. 2. 1894",
-        "Joseph Victor Widmann an Arthur Schnitzler, 9. 5. 1903"
-      ]
-    },
-    {
-      "from": "pmb1223",
-      "to": "pmb50",
-      "weight": 2,
-      "titles": [
         "Joseph Victor Widmann an Arthur Schnitzler, 28. 5. 1900",
-        "Joseph Victor Widmann an Arthur Schnitzler, [22.?] 2. 1902"
+        "Joseph Victor Widmann an Arthur Schnitzler, [22.?] 2. 1902",
+        "Joseph Victor Widmann an Arthur Schnitzler, 9. 5. 1903"
       ]
     }
   ]

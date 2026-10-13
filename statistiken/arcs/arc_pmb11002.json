@@ -4,7 +4,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 11
+      "count": 17
     },
     {
       "id": "pmb30",
@@ -24,7 +24,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 6
+      "count": 4
     }
   ],
   "links_from_schnitzler": [
@@ -52,7 +52,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb30",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Felix Braun an Arthur Schnitzler, 9. 12. 1924"
@@ -72,7 +72,7 @@
     },
     {
       "from": "pmb45258",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Felix Braun an Arthur Schnitzler, 21. 4. 1918"
@@ -80,7 +80,7 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 4,
       "titles": [
         "Felix Braun an Arthur Schnitzler, 26. 12. 1924",

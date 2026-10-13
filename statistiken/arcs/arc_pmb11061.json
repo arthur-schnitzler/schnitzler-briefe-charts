@@ -9,7 +9,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb167789",
@@ -40,11 +40,6 @@
       "id": "pmb414",
       "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
       "count": 2
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 1
     }
   ],
   "links_from_schnitzler": [
@@ -114,18 +109,18 @@
     },
     {
       "from": "pmb168",
-      "to": "pmb167789",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
-        "Wilhelm Bölsche an Arthur Schnitzler, 15. 12. 1891"
+        "Wilhelm Bölsche an Arthur Schnitzler, 12. 6. 1893"
       ]
     },
     {
       "from": "pmb168",
-      "to": "pmb50",
+      "to": "pmb167789",
       "weight": 1,
       "titles": [
-        "Wilhelm Bölsche an Arthur Schnitzler, 12. 6. 1893"
+        "Wilhelm Bölsche an Arthur Schnitzler, 15. 12. 1891"
       ]
     },
     {

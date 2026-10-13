@@ -14,7 +14,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 8
+      "count": 15
     },
     {
       "id": "pmb168",
@@ -24,7 +24,12 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 2
+      "count": 4
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 3
     },
     {
       "id": "pmb213",
@@ -49,7 +54,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 12
+      "count": 9
     },
     {
       "id": "pmb756",
@@ -92,17 +97,10 @@
     {
       "from": "pmb213",
       "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Karl Kraus an Arthur Schnitzler, [26. oder 27]. 7. 1893"
-      ]
-    },
-    {
-      "from": "pmb213",
-      "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
         "Karl Kraus an Arthur Schnitzler, 21. 7. 1893",
+        "Karl Kraus an Arthur Schnitzler, [26. oder 27]. 7. 1893",
         "Karl Kraus an Arthur Schnitzler, 12. 8. 1893"
       ]
     },
@@ -143,15 +141,29 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 9,
+      "to": "pmb167782",
+      "weight": 5,
       "titles": [
         "Karl Kraus an Arthur Schnitzler, 11. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 22. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 19. 3. 1893",
         "Karl Kraus an Arthur Schnitzler, 2. 5. 1893",
-        "Karl Kraus an Arthur Schnitzler, 5. 5. 1893",
-        "Karl Kraus an Arthur Schnitzler, 25. 4. 1895",
+        "Karl Kraus an Arthur Schnitzler, 5. 5. 1893"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, 25. 4. 1895"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168940",
+      "weight": 3,
+      "titles": [
         "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904",
         "Karl Kraus an Arthur Schnitzler, 20. 1. 1908",
         "Karl Kraus an Arthur Schnitzler, 22. 1. 1908"
@@ -159,7 +171,7 @@
     },
     {
       "from": "pmb936",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
         "Karl Kraus an Arthur Schnitzler, 2. 7. 1894"

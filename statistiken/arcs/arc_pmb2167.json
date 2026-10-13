@@ -99,12 +99,12 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 11
+      "count": 17
     },
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 16
+      "count": 27
     },
     {
       "id": "pmb168",
@@ -114,17 +114,17 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 43
+      "count": 67
     },
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 90
+      "count": 126
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 79
+      "count": 121
     },
     {
       "id": "pmb169",
@@ -404,7 +404,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 302
+      "count": 267
+    },
+    {
+      "id": "pmb50792",
+      "name": "Hauptbahnhof Salzburg",
+      "count": 1
     },
     {
       "id": "pmb51650",
@@ -668,10 +673,11 @@
     {
       "from": "pmb168815",
       "to": "pmb50",
-      "weight": 10,
+      "weight": 11,
       "titles": [
         "Arthur Schnitzler an Felix Salten, 20. 10. 1911",
         "Arthur Schnitzler und Ferdinand Schmutzer: Widmungsexemplar Der blinde Geronimo und sein Bruder für Felix Salten, [29. 5. 1915?]",
+        "Arthur Schnitzler: Widmungsexemplar Komödie der Worte für Felix Salten, [zwischen 18. und 20.?] 10. 1915",
         "Arthur Schnitzler: Widmungsexemplar Die Schwestern für Felix Salten, 2. 12. 1919",
         "Arthur Schnitzler an Felix Salten, 13. 4. 1927",
         "Arthur Schnitzler: Widmungsexemplar Buch der Sprüche und Bedenken für Felix Salten, 17. 12. 1927",
@@ -734,7 +740,7 @@
     {
       "from": "pmb168934",
       "to": "pmb50",
-      "weight": 29,
+      "weight": 30,
       "titles": [
         "Arthur Schnitzler an Felix Salten, [23. 1. 1894?]",
         "Arthur Schnitzler an Felix Salten, [2. 4. 1894?]",
@@ -752,6 +758,7 @@
         "Arthur Schnitzler an Felix Salten, 24. 9. 1898",
         "Arthur Schnitzler an Felix Salten, [14. 10. 1898?]",
         "Arthur Schnitzler: Widmungsexemplar Das Vermächtnis für Felix Salten, 8. 12. 1898",
+        "Arthur Schnitzler: Widmungsexemplar Der grüne Kakadu für Felix Salten, [zwischen 1. und 22.] 6. 1899",
         "Arthur Schnitzler an Felix Salten, 30. 12. [1899?]",
         "Arthur Schnitzler an Felix Salten, [31. 12. 1899?]",
         "Arthur Schnitzler: Widmungsexemplar Anatol für Felix Salten, 29. 9. 1900",
@@ -944,15 +951,6 @@
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler: Widmungsexemplar Der grüne Kakadu für Felix Salten, [zwischen 1. und 22.] 6. 1899",
-        "Arthur Schnitzler: Widmungsexemplar Komödie der Worte für Felix Salten, [zwischen 18. und 20.?] 10. 1915"
-      ]
-    },
-    {
       "from": "pmb946",
       "to": "pmb50",
       "weight": 1,
@@ -996,7 +994,7 @@
     },
     {
       "from": "pmb141909",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 18. 8. 1893"
@@ -1092,7 +1090,7 @@
     },
     {
       "from": "pmb148300",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Felix Salten und Amanda Zsolnay an Arthur Schnitzler, 15. 6. 1923"
@@ -1109,23 +1107,19 @@
     },
     {
       "from": "pmb168",
-      "to": "pmb168940",
-      "weight": 5,
+      "to": "pmb168934",
+      "weight": 2,
       "titles": [
-        "Felix Salten an Arthur Schnitzler, 29. 1. 1906",
-        "Felix Salten an Arthur Schnitzler, 14. 5. 1906",
-        "Felix Salten an Arthur Schnitzler, 15. 10. 1907",
-        "Felix Salten an Arthur Schnitzler, [21. oder 22]. 10. 1907",
-        "Felix Salten an Arthur Schnitzler, 17. 1. 1910"
+        "Felix Salten an Arthur Schnitzler, 21. 9. 1901",
+        "Felix Salten an Arthur Schnitzler, 9. 10. 1901"
       ]
     },
     {
       "from": "pmb168",
-      "to": "pmb50",
-      "weight": 11,
+      "to": "pmb168940",
+      "weight": 14,
       "titles": [
-        "Felix Salten an Arthur Schnitzler, 21. 9. 1901",
-        "Felix Salten an Arthur Schnitzler, 9. 10. 1901",
+        "Felix Salten an Arthur Schnitzler, 29. 1. 1906",
         "Felix Salten an Arthur Schnitzler, 9. 3. 1906",
         "Felix Salten an Arthur Schnitzler, 24. 3. 1906",
         "Felix Salten an Arthur Schnitzler, 28. 3. 1906",
@@ -1133,8 +1127,12 @@
         "Felix Salten an Arthur Schnitzler, 15. 4. 1906",
         "Felix Salten an Arthur Schnitzler, 22.–23. 4. 1906",
         "Felix Salten an Arthur Schnitzler, 1. 5. 1906",
+        "Felix Salten an Arthur Schnitzler, 14. 5. 1906",
         "Felix Salten an Arthur Schnitzler, 17. 5. 1906",
-        "Felix Salten an Arthur Schnitzler, 6. 7. 1906"
+        "Felix Salten an Arthur Schnitzler, 6. 7. 1906",
+        "Felix Salten an Arthur Schnitzler, 15. 10. 1907",
+        "Felix Salten an Arthur Schnitzler, [21. oder 22]. 10. 1907",
+        "Felix Salten an Arthur Schnitzler, 17. 1. 1910"
       ]
     },
     {
@@ -1164,16 +1162,9 @@
     {
       "from": "pmb189",
       "to": "pmb168940",
-      "weight": 1,
+      "weight": 3,
       "titles": [
-        "Felix Salten, Jakob Wassermann, Otto Brahm, Ludwig Brahm an Arthur Schnitzler, [20. oder 21]. 12. [1907?]"
-      ]
-    },
-    {
-      "from": "pmb189",
-      "to": "pmb50",
-      "weight": 2,
-      "titles": [
+        "Felix Salten, Jakob Wassermann, Otto Brahm, Ludwig Brahm an Arthur Schnitzler, [20. oder 21]. 12. [1907?]",
         "Felix Salten an Arthur Schnitzler, 26. 1. 1908",
         "Felix Salten an Arthur Schnitzler, 15. 2. 1909"
       ]
@@ -1332,25 +1323,19 @@
     {
       "from": "pmb263",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Felix Salten an Arthur Schnitzler, 22. 5. 1902",
         "Felix Salten an Arthur Schnitzler, 2[3]. 5. 1902"
-      ]
-    },
-    {
-      "from": "pmb263",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 22. 5. 1902"
       ]
     },
     {
       "from": "pmb30",
       "to": "pmb168934",
-      "weight": 2,
+      "weight": 3,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 31. 8. 1897",
+        "Felix Salten an Arthur Schnitzler, 3. 9. [1897]",
         "Felix Salten und Ottilie Metzl an Arthur Schnitzler, [24. oder 25]. 12. 1899"
       ]
     },
@@ -1364,26 +1349,10 @@
     },
     {
       "from": "pmb30",
-      "to": "pmb30",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 2[3]. 6. 1901"
-      ]
-    },
-    {
-      "from": "pmb30",
       "to": "pmb45258",
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 30. 8. 1895"
-      ]
-    },
-    {
-      "from": "pmb30",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 3. 9. [1897]"
       ]
     },
     {
@@ -1420,7 +1389,7 @@
     },
     {
       "from": "pmb40482",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 28. 12. 1902"
@@ -1470,17 +1439,10 @@
     {
       "from": "pmb44142",
       "to": "pmb167789",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, [10. 9. 1891]"
-      ]
-    },
-    {
-      "from": "pmb44142",
-      "to": "pmb50",
-      "weight": 2,
+      "weight": 3,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 2. 9. 1891",
+        "Felix Salten an Arthur Schnitzler, [10. 9. 1891]",
         "Felix Salten an Arthur Schnitzler, 12. 9. 1891"
       ]
     },
@@ -1511,8 +1473,9 @@
     {
       "from": "pmb45258",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Felix Salten an Arthur Schnitzler, 18. 2. 1895",
         "Felix Salten an Arthur Schnitzler, [29. oder 30]. 6. 1895"
       ]
     },
@@ -1525,16 +1488,8 @@
       ]
     },
     {
-      "from": "pmb45258",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 18. 2. 1895"
-      ]
-    },
-    {
       "from": "pmb46000",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 21. 9. 1929"
@@ -1581,27 +1536,45 @@
       ]
     },
     {
+      "from": "pmb50792",
+      "to": "pmb30",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 2[3]. 6. 1901"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb167782",
-      "weight": 4,
+      "weight": 8,
       "titles": [
         "Felix Salten an Arthur Schnitzler, [12. 11. 1892]",
+        "Felix Salten an Arthur Schnitzler, [zwischen 16. 11. 1892 und 3. 12. 1892]",
         "Felix Salten an Arthur Schnitzler, [7. 2. 1893?]",
+        "Felix Salten an Arthur Schnitzler, [2. 5. 1893]",
+        "Felix Salten an Arthur Schnitzler, [1. oder 3.? 8. 1893]",
         "Felix Salten an Arthur Schnitzler, [20. 9. 1893]",
-        "Felix Salten an Arthur Schnitzler, [24?. 10. 1893]"
+        "Felix Salten an Arthur Schnitzler, [24?. 10. 1893]",
+        "Hugo von Hofmannsthal und Felix Salten an Arthur Schnitzler, [27. 10. 1893]"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb167789",
-      "weight": 6,
+      "weight": 12,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 18. 5. 1891",
         "Felix Salten an Arthur Schnitzler, [23. 5. 1891]",
         "Felix Salten an Arthur Schnitzler, [5. 7. 1891]",
+        "Felix Salten an Arthur Schnitzler, [28. 9. 1891?]",
+        "Felix Salten an Arthur Schnitzler, [vor dem 24.? 1. 1892]",
+        "Felix Salten an Arthur Schnitzler, [31. 3. 1892]",
         "Felix Salten an Arthur Schnitzler, [13.? 4. 1892]",
         "Felix Salten an Arthur Schnitzler, [25. 5. 1892]",
-        "Felix Salten an Arthur Schnitzler, [30. 6. 1892]"
+        "Felix Salten an Arthur Schnitzler, [4. 6. 1892]",
+        "Felix Salten an Arthur Schnitzler, [30. 6. 1892]",
+        "Felix Salten an Arthur Schnitzler, [8. 10. 1892]",
+        "Felix Salten an Arthur Schnitzler, [13. 10. 1892]"
       ]
     },
     {
@@ -1621,16 +1594,33 @@
     {
       "from": "pmb50",
       "to": "pmb168815",
-      "weight": 2,
+      "weight": 19,
       "titles": [
+        "Felix Salten: Widmungsexemplar Olga Frohgemuth für Olga und Arthur Schnitzler, 26. 9. 1910",
+        "Felix Salten an Arthur Schnitzler, 14. 10. 1910",
         "Felix Salten an Arthur Schnitzler, [22. 11. 1910?]",
-        "Felix Salten an Arthur Schnitzler, 11. 4. 1928"
+        "Felix Salten an Arthur Schnitzler, 22. 10. 1911",
+        "Felix Salten: Widmungsexemplar Wurstelprater für Arthur Schnitzler, 12. 12. 1911",
+        "Felix Salten an Arthur Schnitzler, [26. 1. 1912]",
+        "Felix Salten an Arthur Schnitzler, [18. 2. 1912]",
+        "Felix Salten an Arthur Schnitzler, 15. 5. 1917",
+        "Felix Salten: Widmungsexemplar Schauen und Spielen für Arthur Schnitzler, 22. 9. 1921",
+        "Felix Salten an Arthur Schnitzler, [22. 2. 1922?]",
+        "Felix Salten: Widmungsexemplar Geister der Zeit für Arthur Schnitzler, Februar 1925",
+        "Felix Salten: Widmungsexemplar Neue Menschen auf alter Erde für Arthur Schnitzler, 30. 4. 1925",
+        "Felix Salten an Arthur Schnitzler, 23. 2. 1926",
+        "Ottilie und Felix Salten an Arthur Schnitzler, [Anfang April 1927?]",
+        "Felix Salten an Arthur Schnitzler, 11. 4. 1928",
+        "Felix Salten: Widmungsexemplar Der Schrei der Liebe für Arthur Schnitzler, Juli 1928",
+        "Felix Salten: Widmungsexemplar Simson für Arthur Schnitzler, 1. 10. 1928",
+        "Felix Salten an Arthur Schnitzler, [16. 11. 1929]",
+        "Felix Salten: Widmungsexemplar Fünf Minuten Amerika für Arthur Schnitzler, [zwischen 1. und 29.?] 5. 1931"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 48,
+      "weight": 73,
       "titles": [
         "Felix Salten an Arthur Schnitzler, [24. 1. 1894]",
         "Felix Salten an Arthur Schnitzler, [27. 4. 1894?]",
@@ -1640,7 +1630,9 @@
         "Felix Salten an Arthur Schnitzler, [23. 6. 1894]",
         "Felix Salten an Arthur Schnitzler, [29. 6.? 1894]",
         "Felix Salten an Arthur Schnitzler, [3. 7. 1894]",
+        "Felix Salten an Arthur Schnitzler, [28. 7. 1894]",
         "Felix Salten an Arthur Schnitzler, [6. 9. 1894]",
+        "Felix Salten an Arthur Schnitzler, [zwischen 7. und 12. 9.? 1894]",
         "Felix Salten an Arthur Schnitzler, [11. 9. 1894]",
         "Felix Salten an Arthur Schnitzler, [13. 9. 1894]",
         "Felix Salten an Arthur Schnitzler, 15. 9. 189[4?]",
@@ -1657,20 +1649,41 @@
         "Felix Salten an Arthur Schnitzler, [7. 9. 1895]",
         "Felix Salten an Arthur Schnitzler, [16. 11. 1895]",
         "Felix Salten an Arthur Schnitzler, [12?. 12. 1895]",
+        "Felix Salten an Arthur Schnitzler, [zwischen 12. – 29. 2. 1896]",
+        "Felix Salten an Arthur Schnitzler, [27. 4. 1896]",
         "Felix Salten an Arthur Schnitzler, [9. 6. 1896]",
         "Felix Salten an Arthur Schnitzler, [23. 6. 1896]",
         "Felix Salten an Arthur Schnitzler, [27. 8. 1896]",
         "Felix Salten an Arthur Schnitzler, [5. 9. 1896]",
         "Felix Salten an Arthur Schnitzler, [19. 9. 1896]",
+        "Felix Salten an Arthur Schnitzler, [6. 1. 1897]",
         "Felix Salten an Arthur Schnitzler, [10. 1. 1897]",
+        "Felix Salten an Arthur Schnitzler, [27. 2. 1897]",
+        "Felix Salten an Arthur Schnitzler, 5. 5. 1897",
         "Felix Salten an Arthur Schnitzler, 1. [6.] 1897",
+        "Felix Salten an Arthur Schnitzler, [21. 11. 1897]",
         "Felix Salten an Arthur Schnitzler, [30.? 11. 1897]",
         "Felix Salten an Arthur Schnitzler, [4. 1.? 1898]",
+        "Felix Salten an Arthur Schnitzler, [10. 7. 1898]",
+        "Felix Salten an Arthur Schnitzler, 5. 9. [1898]",
         "Felix Salten an Arthur Schnitzler, [8.? 9. 1898]",
+        "Felix Salten an Arthur Schnitzler, 13. 9. 1898",
+        "Felix Salten an Arthur Schnitzler, 23. 9. 1898",
+        "Felix Salten an Arthur Schnitzler, 10. 12. 1898",
+        "Felix Salten an Arthur Schnitzler, [28. 1. 1899]",
+        "Felix Salten an Arthur Schnitzler, [20. 3. 1899]",
+        "Felix Salten an Arthur Schnitzler, 4. 5. 1899",
         "Felix Salten an Arthur Schnitzler, 1[3]. 5. 1899",
+        "Felix Salten an Arthur Schnitzler, [27. 6. 1899]",
+        "Felix Salten an Arthur Schnitzler, [18. 11. 1899]",
         "Felix Salten: Widmungsexemplar Der Hinterbliebene für Arthur Schnitzler, 3. 1. 1900",
         "Felix Salten an Arthur Schnitzler, [3.? 1. 1900]",
         "Felix Salten an Arthur Schnitzler, [20. 6. 1900]",
+        "Felix Salten an Arthur Schnitzler, [12. 1. 1902]",
+        "Felix Salten an Arthur Schnitzler, [19. 2. 1902]",
+        "Felix Salten an Arthur Schnitzler, [10?. 3. 1902]",
+        "Felix Salten an Arthur Schnitzler, [11. 3. 1902]",
+        "Felix Salten an Arthur Schnitzler, 12. 3. 1902",
         "Felix Salten an Arthur Schnitzler, [24. 3. 1902]",
         "Felix Salten an Arthur Schnitzler, [11?. 4. 1902]",
         "Ottilie Salten an Arthur Schnitzler, [24. 5. 1902?]",
@@ -1678,22 +1691,54 @@
         "Felix Salten an Arthur Schnitzler, 2. 9. 1902",
         "Felix Salten an Arthur Schnitzler, 4. 9. 1902",
         "Felix Salten an Arthur Schnitzler, [24. 10. 1902]",
+        "Felix Salten an Arthur Schnitzler, [3. 12.? 1902]",
         "Felix Salten an Arthur Schnitzler, [19.? 3. 1903]",
-        "Felix Salten an Arthur Schnitzler, [1. 8. 1903]"
+        "Felix Salten an Arthur Schnitzler, [1. 8. 1903]",
+        "Felix Salten an Arthur Schnitzler, 11. 8. 1903"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb168940",
-      "weight": 7,
+      "weight": 37,
       "titles": [
+        "Felix Salten an Arthur Schnitzler, 17. 9. 1903",
+        "Felix Salten an Arthur Schnitzler, 19. 9. [1903]",
+        "Felix Salten an Arthur Schnitzler, 28. 9. 1903",
+        "Felix Salten an Arthur Schnitzler, 29. 9. 1903",
         "Felix Salten an Arthur Schnitzler, [12. 10. 1903]",
         "Felix Salten an Arthur Schnitzler, 14. [10. 1903]",
+        "Felix Salten an Arthur Schnitzler, [16.? 10. 1903]",
+        "Felix Salten an Arthur Schnitzler, [zwischen 26. und 30. 10. 1903]",
+        "Felix Salten an Arthur Schnitzler, [zwischen 27. und 31. 10. 1903]",
         "Felix Salten an Arthur Schnitzler, [9. 11. 1903]",
+        "Felix Salten an Arthur Schnitzler, [11. 11. 1903]",
         "Felix Salten an Arthur Schnitzler, [19?. 11. 1903]",
+        "Felix Salten an Arthur Schnitzler, 27. 11. 1903",
+        "Felix Salten an Arthur Schnitzler, 9. 12. 1903",
+        "Felix Salten an Arthur Schnitzler, 11. 12. 1903",
+        "Felix Salten an Arthur Schnitzler, 19. 1. 1904",
+        "Felix Salten an Arthur Schnitzler, 1. 2. 1904",
+        "Felix Salten an Arthur Schnitzler, [14. 4. 1904]",
+        "Felix Salten an Arthur Schnitzler, 2. 7. 1904",
+        "Felix Salten: Widmungsexemplar Der Schrei der Liebe für Arthur Schnitzler, 22. 10. 1904",
+        "Felix Salten an Arthur Schnitzler, 27. 11. 1904",
+        "Felix Salten an Arthur Schnitzler, [15. 12. 1904]",
         "Felix Salten an Arthur Schnitzler, [20. 12. 1904]",
         "Felix Salten an Arthur Schnitzler, [22. 12. 1904?]",
-        "Felix Salten an Arthur Schnitzler, [23?. 12. 1904]"
+        "Felix Salten an Arthur Schnitzler, [23?. 12. 1904]",
+        "Felix Salten an Arthur Schnitzler, 11. 1. 1905",
+        "Felix Salten an Arthur Schnitzler, 11. 4. 1905",
+        "Felix Salten: Widmungsexemplar Das Buch der Könige für Arthur Schnitzler, [zwischen 1. und 20. 12.] 1905",
+        "Felix Salten an Arthur Schnitzler, [18.? 10. 1906]",
+        "Felix Salten an Arthur Schnitzler, [20.? 10. 1906]",
+        "Felix Salten: Widmungsexemplar Herr Wenzel auf Rehberg für Arthur Schnitzler, 9. 3. 1907",
+        "Felix Salten an Arthur Schnitzler, 10. 3. 1907",
+        "Felix Salten an Arthur Schnitzler, 20. 4. 1907",
+        "Felix Salten an Arthur Schnitzler, [6. 11.? 1907]",
+        "Felix Salten an Arthur Schnitzler, [10. 12. 1907]",
+        "Felix Salten an Arthur Schnitzler, 15. 1. 1908",
+        "Felix Salten an Arthur Schnitzler, [zwischen 19. und 21. 4. 1908]"
       ]
     },
     {
@@ -1793,95 +1838,6 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 82,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, [28. 9. 1891?]",
-        "Felix Salten an Arthur Schnitzler, [vor dem 24.? 1. 1892]",
-        "Felix Salten an Arthur Schnitzler, [31. 3. 1892]",
-        "Felix Salten an Arthur Schnitzler, [4. 6. 1892]",
-        "Felix Salten an Arthur Schnitzler, [8. 10. 1892]",
-        "Felix Salten an Arthur Schnitzler, [13. 10. 1892]",
-        "Felix Salten an Arthur Schnitzler, [zwischen 16. 11. 1892 und 3. 12. 1892]",
-        "Felix Salten an Arthur Schnitzler, [2. 5. 1893]",
-        "Felix Salten an Arthur Schnitzler, [1. oder 3.? 8. 1893]",
-        "Hugo von Hofmannsthal und Felix Salten an Arthur Schnitzler, [27. 10. 1893]",
-        "Felix Salten an Arthur Schnitzler, [28. 7. 1894]",
-        "Felix Salten an Arthur Schnitzler, [zwischen 7. und 12. 9.? 1894]",
-        "Felix Salten an Arthur Schnitzler, [zwischen 12. – 29. 2. 1896]",
-        "Felix Salten an Arthur Schnitzler, [27. 4. 1896]",
-        "Felix Salten an Arthur Schnitzler, [6. 1. 1897]",
-        "Felix Salten an Arthur Schnitzler, [27. 2. 1897]",
-        "Felix Salten an Arthur Schnitzler, 5. 5. 1897",
-        "Felix Salten an Arthur Schnitzler, [21. 11. 1897]",
-        "Felix Salten an Arthur Schnitzler, [10. 7. 1898]",
-        "Felix Salten an Arthur Schnitzler, 5. 9. [1898]",
-        "Felix Salten an Arthur Schnitzler, 13. 9. 1898",
-        "Felix Salten an Arthur Schnitzler, 23. 9. 1898",
-        "Felix Salten an Arthur Schnitzler, 10. 12. 1898",
-        "Felix Salten an Arthur Schnitzler, [28. 1. 1899]",
-        "Felix Salten an Arthur Schnitzler, [20. 3. 1899]",
-        "Felix Salten an Arthur Schnitzler, 4. 5. 1899",
-        "Felix Salten an Arthur Schnitzler, [27. 6. 1899]",
-        "Felix Salten an Arthur Schnitzler, [18. 11. 1899]",
-        "Felix Salten an Arthur Schnitzler, [12. 1. 1902]",
-        "Felix Salten an Arthur Schnitzler, [19. 2. 1902]",
-        "Felix Salten an Arthur Schnitzler, [10?. 3. 1902]",
-        "Felix Salten an Arthur Schnitzler, [11. 3. 1902]",
-        "Felix Salten an Arthur Schnitzler, 12. 3. 1902",
-        "Felix Salten an Arthur Schnitzler, [3. 12.? 1902]",
-        "Felix Salten an Arthur Schnitzler, 11. 8. 1903",
-        "Felix Salten an Arthur Schnitzler, 17. 9. 1903",
-        "Felix Salten an Arthur Schnitzler, 19. 9. [1903]",
-        "Felix Salten an Arthur Schnitzler, 28. 9. 1903",
-        "Felix Salten an Arthur Schnitzler, 29. 9. 1903",
-        "Felix Salten an Arthur Schnitzler, [16.? 10. 1903]",
-        "Felix Salten an Arthur Schnitzler, [zwischen 26. und 30. 10. 1903]",
-        "Felix Salten an Arthur Schnitzler, [zwischen 27. und 31. 10. 1903]",
-        "Felix Salten an Arthur Schnitzler, [11. 11. 1903]",
-        "Felix Salten an Arthur Schnitzler, 27. 11. 1903",
-        "Felix Salten an Arthur Schnitzler, 9. 12. 1903",
-        "Felix Salten an Arthur Schnitzler, 11. 12. 1903",
-        "Felix Salten an Arthur Schnitzler, 19. 1. 1904",
-        "Felix Salten an Arthur Schnitzler, 1. 2. 1904",
-        "Felix Salten an Arthur Schnitzler, [14. 4. 1904]",
-        "Felix Salten an Arthur Schnitzler, 2. 7. 1904",
-        "Felix Salten: Widmungsexemplar Der Schrei der Liebe für Arthur Schnitzler, 22. 10. 1904",
-        "Felix Salten an Arthur Schnitzler, 27. 11. 1904",
-        "Felix Salten an Arthur Schnitzler, [15. 12. 1904]",
-        "Felix Salten an Arthur Schnitzler, 11. 1. 1905",
-        "Felix Salten an Arthur Schnitzler, 11. 4. 1905",
-        "Felix Salten: Widmungsexemplar Das Buch der Könige für Arthur Schnitzler, [zwischen 1. und 20. 12.] 1905",
-        "Felix Salten an Arthur Schnitzler, [18.? 10. 1906]",
-        "Felix Salten an Arthur Schnitzler, [20.? 10. 1906]",
-        "Felix Salten: Widmungsexemplar Herr Wenzel auf Rehberg für Arthur Schnitzler, 9. 3. 1907",
-        "Felix Salten an Arthur Schnitzler, 10. 3. 1907",
-        "Felix Salten an Arthur Schnitzler, 20. 4. 1907",
-        "Felix Salten an Arthur Schnitzler, [6. 11.? 1907]",
-        "Felix Salten an Arthur Schnitzler, [10. 12. 1907]",
-        "Felix Salten an Arthur Schnitzler, 15. 1. 1908",
-        "Felix Salten an Arthur Schnitzler, [zwischen 19. und 21. 4. 1908]",
-        "Felix Salten: Widmungsexemplar Olga Frohgemuth für Olga und Arthur Schnitzler, 26. 9. 1910",
-        "Felix Salten an Arthur Schnitzler, 14. 10. 1910",
-        "Felix Salten an Arthur Schnitzler, 22. 10. 1911",
-        "Felix Salten: Widmungsexemplar Wurstelprater für Arthur Schnitzler, 12. 12. 1911",
-        "Felix Salten an Arthur Schnitzler, [26. 1. 1912]",
-        "Felix Salten an Arthur Schnitzler, [18. 2. 1912]",
-        "Felix Salten an Arthur Schnitzler, 15. 5. 1917",
-        "Felix Salten: Widmungsexemplar Schauen und Spielen für Arthur Schnitzler, 22. 9. 1921",
-        "Felix Salten an Arthur Schnitzler, [22. 2. 1922?]",
-        "Felix Salten: Widmungsexemplar Geister der Zeit für Arthur Schnitzler, Februar 1925",
-        "Felix Salten: Widmungsexemplar Neue Menschen auf alter Erde für Arthur Schnitzler, 30. 4. 1925",
-        "Felix Salten an Arthur Schnitzler, 23. 2. 1926",
-        "Ottilie und Felix Salten an Arthur Schnitzler, [Anfang April 1927?]",
-        "Felix Salten: Widmungsexemplar Der Schrei der Liebe für Arthur Schnitzler, Juli 1928",
-        "Felix Salten: Widmungsexemplar Simson für Arthur Schnitzler, 1. 10. 1928",
-        "Felix Salten an Arthur Schnitzler, [16. 11. 1929]",
-        "Felix Salten: Widmungsexemplar Fünf Minuten Amerika für Arthur Schnitzler, [zwischen 1. und 29.?] 5. 1931"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb545",
       "weight": 1,
       "titles": [
@@ -1915,9 +1871,10 @@
     {
       "from": "pmb53379",
       "to": "pmb168940",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Felix und Ottilie Salten an Arthur Schnitzler, [20.?] 6. 1909"
+        "Felix und Ottilie Salten an Arthur Schnitzler, [20.?] 6. 1909",
+        "Felix Salten an Arthur Schnitzler, 29. 6. 1909"
       ]
     },
     {
@@ -1926,14 +1883,6 @@
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 12. 7. 1909"
-      ]
-    },
-    {
-      "from": "pmb53379",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 29. 6. 1909"
       ]
     },
     {
@@ -2046,18 +1995,25 @@
     {
       "from": "pmb877",
       "to": "pmb167789",
-      "weight": 2,
+      "weight": 5,
       "titles": [
+        "Felix Salten an Arthur Schnitzler, 8. 8. 1892",
         "Felix Salten an Arthur Schnitzler, 10. 8. 1892",
-        "Felix Salten an Arthur Schnitzler, 17. 8. 1892"
+        "Felix Salten an Arthur Schnitzler, 17. 8. 1892",
+        "Felix Salten an Arthur Schnitzler, 23. 8. 1892",
+        "Felix Salten an Arthur Schnitzler, [25.? 8. 1892]"
       ]
     },
     {
       "from": "pmb877",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 5,
       "titles": [
-        "Ottilie und Felix Salten an Arthur und Olga Schnitzler, [24. 7. 1910]"
+        "Ottilie und Felix Salten an Arthur und Olga Schnitzler, [24. 7. 1910]",
+        "Felix Salten an Arthur Schnitzler, 17. 8. 1910",
+        "Felix Salten an Arthur Schnitzler, 10. 8. 1914",
+        "Felix Salten an Arthur Schnitzler, 7. 9. 1919",
+        "Felix Salten an Arthur Schnitzler, 19. 7. 1921"
       ]
     },
     {
@@ -2107,20 +2063,6 @@
       "titles": [
         "Felix Salten an Arthur Schnitzler, 22. 7. 1912",
         "Felix Salten u. a. an Arthur und Olga Schnitzler, [Ende Juli – 24. 8. 1912?]"
-      ]
-    },
-    {
-      "from": "pmb877",
-      "to": "pmb50",
-      "weight": 7,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 8. 8. 1892",
-        "Felix Salten an Arthur Schnitzler, 23. 8. 1892",
-        "Felix Salten an Arthur Schnitzler, [25.? 8. 1892]",
-        "Felix Salten an Arthur Schnitzler, 17. 8. 1910",
-        "Felix Salten an Arthur Schnitzler, 10. 8. 1914",
-        "Felix Salten an Arthur Schnitzler, 7. 9. 1919",
-        "Felix Salten an Arthur Schnitzler, 19. 7. 1921"
       ]
     },
     {
@@ -2197,7 +2139,7 @@
     },
     {
       "from": "pmb945",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 12. 8. 1893"
@@ -2213,7 +2155,7 @@
     },
     {
       "from": "pmb955",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 2,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 16. 1. 1897",

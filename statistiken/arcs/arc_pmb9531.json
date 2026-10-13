@@ -9,7 +9,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 11
+      "count": 16
     },
     {
       "id": "pmb212",
@@ -49,7 +49,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 6
+      "count": 1
     },
     {
       "id": "pmb61048",
@@ -109,8 +109,10 @@
     {
       "from": "pmb258929",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 3,
       "titles": [
+        "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
+        "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]",
         "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]"
       ]
     },
@@ -120,15 +122,6 @@
       "weight": 1,
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, 24. 6. 1901"
-      ]
-    },
-    {
-      "from": "pmb258929",
-      "to": "pmb50",
-      "weight": 2,
-      "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
-        "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]"
       ]
     },
     {
@@ -167,7 +160,7 @@
     },
     {
       "from": "pmb61048",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 2,
       "titles": [
         "Rainer Maria Rilke an Arthur Schnitzler, 30. 3. 1899",
@@ -176,11 +169,18 @@
     },
     {
       "from": "pmb652",
-      "to": "pmb50",
-      "weight": 2,
+      "to": "pmb168934",
+      "weight": 1,
       "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, [Anfang?] April 1896",
         "Rainer Maria Rilke: Widmungsexemplar Lieder am Volke geschenkt für Arthur Schnitzler, 1. 4. 1896"
+      ]
+    },
+    {
+      "from": "pmb652",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Rainer Maria Rilke an Arthur Schnitzler, [Anfang?] April 1896"
       ]
     }
   ]

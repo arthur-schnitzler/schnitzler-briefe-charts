@@ -9,7 +9,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb167789",
@@ -24,12 +24,12 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 4
+      "count": 1
     },
     {
       "id": "pmb756",
@@ -43,9 +43,11 @@
     {
       "from": "pmb146",
       "to": "pmb167782",
-      "weight": 1,
+      "weight": 3,
       "titles": [
-        "Fedor Mamroth an Arthur Schnitzler, 17. 11. 1892"
+        "Fedor Mamroth an Arthur Schnitzler, 17. 11. 1892",
+        "Fedor Mamroth an Arthur Schnitzler, 4. 6. 1893",
+        "Paul Goldmann und Fedor Mamroth an Arthur Schnitzler, 4. 6. 1893"
       ]
     },
     {
@@ -66,11 +68,9 @@
     },
     {
       "from": "pmb146",
-      "to": "pmb50",
-      "weight": 3,
+      "to": "pmb168934",
+      "weight": 1,
       "titles": [
-        "Fedor Mamroth an Arthur Schnitzler, 4. 6. 1893",
-        "Paul Goldmann und Fedor Mamroth an Arthur Schnitzler, 4. 6. 1893",
         "Fedor Mamroth an Arthur Schnitzler, 4. 4. 1894"
       ]
     },

@@ -17,9 +17,14 @@
       "count": 1
     },
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 1
+    },
+    {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 10
+      "count": 20
     },
     {
       "id": "pmb182",
@@ -44,7 +49,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 14
+      "count": 12
     }
   ],
   "links_from_schnitzler": [
@@ -87,33 +92,24 @@
     {
       "from": "pmb182",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Lou Andreas-Salomé an Arthur Schnitzler, 15. 5. 1894"
-      ]
-    },
-    {
-      "from": "pmb182",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, 15. 5. 1894",
         "Lou Andreas-Salomé an Arthur Schnitzler, 25. 5. 1895"
       ]
     },
     {
       "from": "pmb50",
-      "to": "pmb168934",
-      "weight": 3,
+      "to": "pmb168815",
+      "weight": 1,
       "titles": [
-        "Lou Andreas-Salomé an Arthur Schnitzler, [26. oder 27]. 12. 1895",
-        "Lou Andreas-Salomé an Arthur Schnitzler, 18. 1. 1896",
-        "Lou Andreas-Salomé an Arthur Schnitzler, 28. 1. 1896"
+        "Lou Andreas-Salomé an Arthur Schnitzler, [vor dem 15. 11. 1912?]"
       ]
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 9,
+      "to": "pmb168934",
+      "weight": 11,
       "titles": [
         "Lou Andreas-Salomé an Arthur Schnitzler, 28. 4. 1895",
         "Lou Andreas-Salomé an Arthur Schnitzler, [1. 5. 1895]",
@@ -122,8 +118,10 @@
         "Lou Andreas-Salomé an Arthur Schnitzler, [25. 11. 1895]",
         "Lou Andreas-Salomé an Arthur Schnitzler, [25. –26.? 11. 1895]",
         "Lou Andreas-Salomé an Arthur Schnitzler, [1. 12. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [26. oder 27]. 12. 1895",
         "Lou Andreas-Salomé an Arthur Schnitzler, [9. 1. 1896]",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [vor dem 15. 11. 1912?]"
+        "Lou Andreas-Salomé an Arthur Schnitzler, 18. 1. 1896",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 28. 1. 1896"
       ]
     }
   ]

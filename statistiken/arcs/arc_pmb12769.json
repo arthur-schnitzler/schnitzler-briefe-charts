@@ -4,12 +4,12 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 2
+      "count": 6
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb341379",
@@ -52,20 +52,20 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 5,
       "titles": [
-        "Adalbert Seligmann an Arthur Schnitzler, 25. 5. 1900"
+        "Adalbert Seligmann an Arthur Schnitzler, [20. 5. 1900]",
+        "Adalbert Seligmann an Arthur Schnitzler, 25. 5. 1900",
+        "Adalbert Seligmann an Arthur Schnitzler, 1. 10. 1901",
+        "Adalbert Seligmann an Arthur Schnitzler, 30. 9. [1902?]",
+        "Adalbert Seligmann an Arthur Schnitzler, 21. 11. 1902"
       ]
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 5,
+      "to": "pmb168940",
+      "weight": 1,
       "titles": [
-        "Adalbert Seligmann an Arthur Schnitzler, [20. 5. 1900]",
-        "Adalbert Seligmann an Arthur Schnitzler, 1. 10. 1901",
-        "Adalbert Seligmann an Arthur Schnitzler, 30. 9. [1902?]",
-        "Adalbert Seligmann an Arthur Schnitzler, 21. 11. 1902",
         "Adalbert Seligmann an Arthur Schnitzler, 13. 10. 1905"
       ]
     }

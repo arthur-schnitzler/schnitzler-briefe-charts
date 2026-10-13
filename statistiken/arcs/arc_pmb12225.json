@@ -7,9 +7,14 @@
       "count": 1
     },
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 1
+    },
+    {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 4
+      "count": 10
     },
     {
       "id": "pmb50",
@@ -52,16 +57,23 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 7,
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Max Mell an Arthur Schnitzler, 14. 5. 1912"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168940",
+      "weight": 6,
       "titles": [
         "Max Mell an Arthur Schnitzler, 11. 10. 1906",
         "Max Mell an Arthur Schnitzler, 7. 11. 1906",
         "Max Mell an Arthur Schnitzler, 15. 7. 1907",
         "Max Mell an Arthur Schnitzler, 29. 7. 1907",
         "Max Mell an Arthur Schnitzler, 4. 11. 1907",
-        "Max Mell an Arthur Schnitzler, 8. 12. 1909",
-        "Max Mell an Arthur Schnitzler, 14. 5. 1912"
+        "Max Mell an Arthur Schnitzler, 8. 12. 1909"
       ]
     }
   ]

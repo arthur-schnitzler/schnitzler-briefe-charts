@@ -2,18 +2,18 @@
   "correspondent": "Blei, Franz",
   "nodes": [
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 1
+    },
+    {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 3
+      "count": 9
     },
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 7
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
       "count": 7
     }
   ],
@@ -30,22 +30,22 @@
   "links_to_schnitzler": [
     {
       "from": "pmb45258",
-      "to": "pmb168940",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
-        "Franz Blei an Arthur Schnitzler, 25. 11. 1903"
+        "Franz Blei an Arthur Schnitzler, [Anfang? Januar 1911]"
       ]
     },
     {
       "from": "pmb45258",
-      "to": "pmb50",
+      "to": "pmb168940",
       "weight": 5,
       "titles": [
         "Franz Blei an Arthur Schnitzler, 17. 10. 1903",
+        "Franz Blei an Arthur Schnitzler, 25. 11. 1903",
         "Franz Blei an Arthur Schnitzler, 4. 1. 1904",
         "Franz Blei an Arthur Schnitzler, 12. 12. 1907",
-        "Franz Blei an Arthur Schnitzler, [17. 12. 1909]",
-        "Franz Blei an Arthur Schnitzler, [Anfang? Januar 1911]"
+        "Franz Blei an Arthur Schnitzler, [17. 12. 1909]"
       ]
     }
   ]

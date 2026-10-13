@@ -14,7 +14,12 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 12
+      "count": 25
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 2
     },
     {
       "id": "pmb245236",
@@ -50,11 +55,6 @@
       "id": "pmb45260",
       "name": "Brijuni",
       "count": 1
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 15
     }
   ],
   "links_from_schnitzler": [
@@ -113,17 +113,24 @@
     },
     {
       "from": "pmb424",
-      "to": "pmb50",
-      "weight": 3,
+      "to": "pmb168815",
+      "weight": 2,
       "titles": [
-        "Thomas Mann an Arthur Schnitzler, 7. 8. 1908",
         "Thomas Mann an Arthur Schnitzler, 25. 9. 1911",
         "Thomas Mann an Arthur Schnitzler, 27. 8. 1917"
       ]
     },
     {
+      "from": "pmb424",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 7. 8. 1908"
+      ]
+    },
+    {
       "from": "pmb42768",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Thomas Mann an Arthur Schnitzler, 22. 10. 1924"
@@ -140,25 +147,9 @@
     {
       "from": "pmb45258",
       "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Thomas Mann an Arthur Schnitzler, 22. 11. 1910"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb45260",
-      "weight": 1,
-      "titles": [
-        "Thomas Mann an Arthur Schnitzler, 13. 5. [1912?]"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb50",
       "weight": 11,
       "titles": [
-        "Thomas Mann an Arthur Schnitzler, 15. 2. 1904",
+        "Thomas Mann an Arthur Schnitzler, 22. 11. 1910",
         "Thomas Mann an Arthur Schnitzler, 16. 10. 1911",
         "Thomas Mann an Arthur Schnitzler, 8. 12. 1912",
         "Thomas Mann an Arthur Schnitzler, 4. 9. 1922",
@@ -169,6 +160,22 @@
         "Thomas Mann an Arthur Schnitzler, 1. 2. 1929",
         "Thomas Mann an Arthur Schnitzler, [nach dem 18. 11. 1929]",
         "Thomas Mann an Arthur Schnitzler, [5. 12. 1930]"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 15. 2. 1904"
+      ]
+    },
+    {
+      "from": "pmb45258",
+      "to": "pmb45260",
+      "weight": 1,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 13. 5. [1912?]"
       ]
     }
   ]

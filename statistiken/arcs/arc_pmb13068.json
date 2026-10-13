@@ -4,12 +4,12 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 1
+      "count": 4
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb45258",
@@ -19,7 +19,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 4
+      "count": 1
     },
     {
       "id": "pmb60017",
@@ -32,24 +32,24 @@
   "links_to_schnitzler": [
     {
       "from": "pmb45258",
-      "to": "pmb168940",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
-        "Frank Wedekind an Arthur Schnitzler, 19. 6. 1910"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb50",
-      "weight": 2,
-      "titles": [
-        "Frank Wedekind an Arthur Schnitzler, 24. 12. 1909",
         "Frank Wedekind: Widmungsexemplar von Franziska für Arthur Schnitzler, [zwischen 1. und 5.] 12. 1911"
       ]
     },
     {
+      "from": "pmb45258",
+      "to": "pmb168940",
+      "weight": 2,
+      "titles": [
+        "Frank Wedekind an Arthur Schnitzler, 24. 12. 1909",
+        "Frank Wedekind an Arthur Schnitzler, 19. 6. 1910"
+      ]
+    },
+    {
       "from": "pmb50",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Frank Wedekind an Arthur Schnitzler, 11. 6. 1913"
@@ -57,7 +57,7 @@
     },
     {
       "from": "pmb60017",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Carl Sternheim u.a. an Arthur Schnitzler, 22. 12. 1911"

@@ -2,6 +2,11 @@
   "correspondent": "Freud, Sigmund",
   "nodes": [
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 10
+    },
+    {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
       "count": 2
@@ -38,7 +43,7 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 10,
       "titles": [
         "Sigmund Freud an Arthur Schnitzler, 14. 5. 1912",

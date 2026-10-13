@@ -17,6 +17,16 @@
       "count": 4
     },
     {
+      "id": "pmb168815",
+      "name": "Sternwartestraße 71",
+      "count": 2
+    },
+    {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 4
+    },
+    {
       "id": "pmb18",
       "name": "Lessing-Theater",
       "count": 5
@@ -37,11 +47,6 @@
       "count": 1
     },
     {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 6
-    },
-    {
       "id": "pmb592",
       "name": "5, rue de Maubeuge",
       "count": 1
@@ -60,12 +65,19 @@
     },
     {
       "from": "pmb168",
-      "to": "pmb50",
-      "weight": 3,
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Oscar Blumenthal an Arthur Schnitzler, [nach dem 13. 3. 1912]"
+      ]
+    },
+    {
+      "from": "pmb168",
+      "to": "pmb168934",
+      "weight": 2,
       "titles": [
         "Oscar Blumenthal an Arthur Schnitzler, 14. 11. 1896",
-        "Oscar Blumenthal an Arthur Schnitzler, 19. 11. 1896",
-        "Oscar Blumenthal an Arthur Schnitzler, [nach dem 13. 3. 1912]"
+        "Oscar Blumenthal an Arthur Schnitzler, 19. 11. 1896"
       ]
     },
     {
@@ -80,7 +92,7 @@
     },
     {
       "from": "pmb18",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 2,
       "titles": [
         "Oscar Blumenthal an Arthur Schnitzler, 16. 1. 1894",
@@ -105,7 +117,7 @@
     },
     {
       "from": "pmb35658",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Oscar Blumenthal an Arthur Schnitzler, 14. 5. 1912"

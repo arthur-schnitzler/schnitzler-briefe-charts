@@ -2,9 +2,14 @@
   "correspondent": "Suttner, Bertha",
   "nodes": [
     {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 2
+    },
+    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 6
+      "count": 12
     },
     {
       "id": "pmb255506",
@@ -24,7 +29,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 13
+      "count": 8
     }
   ],
   "links_from_schnitzler": [
@@ -52,7 +57,7 @@
     },
     {
       "from": "pmb405355",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Bertha von Suttner an Arthur und Olga Schnitzler, 14. 5. 1914"
@@ -60,7 +65,7 @@
     },
     {
       "from": "pmb49283",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 2,
       "titles": [
         "Arthur von Suttner an Arthur Schnitzler, 3. 5. 1893",
@@ -69,7 +74,7 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 3,
       "titles": [
         "Bertha von Suttner an Arthur Schnitzler, 22. 10. 1913",

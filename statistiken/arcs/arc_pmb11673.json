@@ -4,17 +4,17 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 8
+      "count": 16
     },
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 33
+      "count": 84
     },
     {
       "id": "pmb182",
@@ -59,7 +59,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 97
+      "count": 58
     },
     {
       "id": "pmb63049",
@@ -135,7 +135,7 @@
     {
       "from": "pmb168934",
       "to": "pmb50",
-      "weight": 29,
+      "weight": 31,
       "titles": [
         "Arthur Schnitzler an Theodor Herzl, 5. 7. 1894",
         "Arthur Schnitzler an Theodor Herzl, 10. 11. 1894",
@@ -158,6 +158,7 @@
         "Arthur Schnitzler an Theodor Herzl, 16. 5. 1895",
         "Arthur Schnitzler an Theodor Herzl, 21. 6. 1895",
         "Arthur Schnitzler an Theodor Herzl, 30. 6. 1895",
+        "Arthur Schnitzler an Theodor Herzl, [zwischen 5. und 7. 4. 1896?]",
         "Arthur Schnitzler an Theodor Herzl, 24. 4. 1896",
         "Arthur Schnitzler an Theodor Herzl, 10. 12. 1899",
         "Arthur Schnitzler an Theodor Herzl, 15. 11. 1900",
@@ -165,6 +166,7 @@
         "Arthur Schnitzler an Theodor Herzl, 3. 12. 1900",
         "Arthur Schnitzler an Theodor Herzl, 22. 12. 1900",
         "Arthur Schnitzler an Theodor Herzl, 24. 12. 1900",
+        "Arthur Schnitzler an Theodor Herzl, [zwischen 31. 12. 1900 und 7. 1. 1901?]",
         "Arthur Schnitzler an Theodor Herzl, 14. 1. 1901"
       ]
     },
@@ -187,11 +189,9 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Theodor Herzl, [23. oder 24. 4. 1889?]",
-        "Arthur Schnitzler an Theodor Herzl, [zwischen 5. und 7. 4. 1896?]",
-        "Arthur Schnitzler an Theodor Herzl, [zwischen 31. 12. 1900 und 7. 1. 1901?]"
+        "Arthur Schnitzler an Theodor Herzl, [23. oder 24. 4. 1889?]"
       ]
     }
   ],
@@ -199,22 +199,22 @@
     {
       "from": "pmb182",
       "to": "pmb167782",
-      "weight": 1,
+      "weight": 7,
       "titles": [
-        "Theodor Herzl an Arthur Schnitzler, 10. [11.?] 1892"
-      ]
-    },
-    {
-      "from": "pmb182",
-      "to": "pmb50",
-      "weight": 38,
-      "titles": [
+        "Theodor Herzl an Arthur Schnitzler, 10. [11.?] 1892",
         "Theodor Herzl an Arthur Schnitzler, 16. 11. 1892",
         "Theodor Herzl an Arthur Schnitzler, 2. 1. 1893",
         "Theodor Herzl an Arthur Schnitzler, 4. 5. 1893",
         "Theodor Herzl an Arthur Schnitzler, 19. 5. 1893",
         "Theodor Herzl an Arthur Schnitzler, 15. 6. 1893",
-        "Theodor Herzl an Arthur Schnitzler, 6. 8. 1893",
+        "Theodor Herzl an Arthur Schnitzler, 6. 8. 1893"
+      ]
+    },
+    {
+      "from": "pmb182",
+      "to": "pmb168934",
+      "weight": 30,
+      "titles": [
         "Theodor Herzl an Arthur Schnitzler, 8. 12. 1893",
         "Theodor Herzl an Arthur Schnitzler, 3. 7. 1894",
         "Theodor Herzl an Arthur Schnitzler, 8. 11. 1894",
@@ -229,14 +229,12 @@
         "Theodor Herzl an Arthur Schnitzler, 4. 1. 1895",
         "Theodor Herzl an Arthur Schnitzler, 9. 1. 1895",
         "Theodor Herzl an Arthur Schnitzler, [20. oder 21. 1. 1895?]",
-        "Theodor Herzl an Arthur Schnitzler, [zwischen dem 20.  und 23.?] 1. 1895",
         "Theodor Herzl an Arthur Schnitzler, 1. 2. 1895",
         "Theodor Herzl an Arthur Schnitzler, 16. 2. 1895",
         "Theodor Herzl an Arthur Schnitzler, 18. 2. 1895",
         "Theodor Herzl an Arthur Schnitzler, 20. [2. 1895?]",
         "Theodor Herzl an Arthur Schnitzler, 20. 2. 1895",
         "Theodor Herzl an Arthur Schnitzler, 4. 3. 1895",
-        "Theodor Herzl an Arthur Schnitzler, [zwischen 8. und 17. 3. 1895?]",
         "Theodor Herzl an Arthur Schnitzler, 21. 3. 1895",
         "Theodor Herzl an Arthur Schnitzler, 3. 4. 1895",
         "Theodor Herzl an Arthur Schnitzler, 8. 4. 1895",
@@ -247,6 +245,15 @@
         "Theodor Herzl an Arthur Schnitzler, 19. 5. 1895",
         "Theodor Herzl an Arthur Schnitzler, 23. 6. 1895",
         "Theodor Herzl an Arthur Schnitzler, 20. 7. 1895"
+      ]
+    },
+    {
+      "from": "pmb182",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Theodor Herzl an Arthur Schnitzler, [zwischen dem 20.  und 23.?] 1. 1895",
+        "Theodor Herzl an Arthur Schnitzler, [zwischen 8. und 17. 3. 1895?]"
       ]
     },
     {
@@ -267,7 +274,7 @@
     },
     {
       "from": "pmb49170",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Theodor Herzl an Arthur Schnitzler, 29. 6. 1893"
@@ -276,18 +283,8 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 20,
       "titles": [
-        "Theodor Herzl an Arthur Schnitzler, 3. 5. 1901"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 21,
-      "titles": [
-        "Theodor Herzl an Arthur Schnitzler, 29. 5. 1885",
-        "Theodor Herzl an Arthur Schnitzler, 2. 10. 1886",
         "Theodor Herzl an Arthur Schnitzler, 4. 9. 1894",
         "Theodor Herzl an Arthur Schnitzler, 30. 3. 1895",
         "Theodor Herzl an Arthur Schnitzler, [9. 11. 1895?]",
@@ -305,13 +302,23 @@
         "Theodor Herzl an Arthur Schnitzler, 23. 12. 1900",
         "Theodor Herzl an Arthur Schnitzler, 5. 3. 1901",
         "Theodor Herzl an Arthur Schnitzler, 11. 4. 1901",
+        "Theodor Herzl an Arthur Schnitzler, 3. 5. 1901",
         "Theodor Herzl an Arthur Schnitzler, 25. 11. 1901",
         "Theodor Herzl an Arthur Schnitzler, 28. 2. 1902"
       ]
     },
     {
-      "from": "pmb63049",
+      "from": "pmb50",
       "to": "pmb50",
+      "weight": 2,
+      "titles": [
+        "Theodor Herzl an Arthur Schnitzler, 29. 5. 1885",
+        "Theodor Herzl an Arthur Schnitzler, 2. 10. 1886"
+      ]
+    },
+    {
+      "from": "pmb63049",
+      "to": "pmb167789",
       "weight": 1,
       "titles": [
         "Theodor Herzl an Arthur Schnitzler, 29. 7. 1892"
@@ -319,7 +326,7 @@
     },
     {
       "from": "pmb662",
-      "to": "pmb50",
+      "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Theodor Herzl an Arthur Schnitzler, 12. 9. 1893"

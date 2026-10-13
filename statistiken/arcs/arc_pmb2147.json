@@ -12,6 +12,11 @@
       "count": 1
     },
     {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 1
+    },
+    {
       "id": "pmb168",
       "name": "Berlin",
       "count": 2
@@ -19,7 +24,17 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 5
+      "count": 15
+    },
+    {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 4
+    },
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 2
     },
     {
       "id": "pmb189",
@@ -39,7 +54,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 22
+      "count": 13
     },
     {
       "id": "pmb545",
@@ -83,7 +98,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb153",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Peter Altenberg und Georg Engländer an Arthur Schnitzler, [Mitte April] 1913"
@@ -92,8 +107,10 @@
     {
       "from": "pmb189",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 3,
       "titles": [
+        "Peter Altenberg an Arthur Schnitzler, [7. 11. 1912]",
+        "Peter Altenberg an Arthur Schnitzler, [zwischen 9. und 15. 11. 1912?]",
         "Peter Altenberg an Arthur Schnitzler, 1. 12. 191[2]"
       ]
     },
@@ -108,16 +125,14 @@
     {
       "from": "pmb189",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 1,
       "titles": [
-        "Peter Altenberg an Arthur Schnitzler, [zwischen April und Oktober 1912]",
-        "Peter Altenberg an Arthur Schnitzler, [7. 11. 1912]",
-        "Peter Altenberg an Arthur Schnitzler, [zwischen 9. und 15. 11. 1912?]"
+        "Peter Altenberg an Arthur Schnitzler, [zwischen April und Oktober 1912]"
       ]
     },
     {
       "from": "pmb365290",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 2,
       "titles": [
         "Georg Engländer an Arthur Schnitzler, 18. 4. 1913",
@@ -126,17 +141,31 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 8,
+      "to": "pmb168815",
+      "weight": 5,
       "titles": [
-        "Peter Altenberg an Arthur Schnitzler, [24. 3. 1897]",
-        "Peter Altenberg an Arthur Schnitzler, 30. 11. 1898",
-        "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904",
         "Peter Altenberg an Arthur Schnitzler, [19.? 4. 1913]",
         "Peter Altenberg an Arthur Schnitzler, [20.?] 4. 1913",
         "Peter Altenberg an Arthur Schnitzler, [20.? 4. 1913]",
         "Peter Altenberg an Arthur Schnitzler, [26. 4. 1913]",
         "Georg Engländer an Arthur Schnitzler, 27. 2. 1919"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Peter Altenberg an Arthur Schnitzler, [24. 3. 1897]",
+        "Peter Altenberg an Arthur Schnitzler, 30. 11. 1898"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904"
       ]
     },
     {
@@ -149,18 +178,18 @@
     },
     {
       "from": "pmb874",
-      "to": "pmb213",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
-        "Peter Altenberg an Arthur Schnitzler, [30. 7. 1895]"
+        "Peter Altenberg an Arthur Schnitzler, [10. 10. 1895]"
       ]
     },
     {
       "from": "pmb874",
-      "to": "pmb50",
+      "to": "pmb213",
       "weight": 1,
       "titles": [
-        "Peter Altenberg an Arthur Schnitzler, [10. 10. 1895]"
+        "Peter Altenberg an Arthur Schnitzler, [30. 7. 1895]"
       ]
     }
   ]

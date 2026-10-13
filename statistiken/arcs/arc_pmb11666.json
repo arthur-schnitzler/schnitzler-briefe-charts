@@ -4,12 +4,17 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
+      "count": 5
+    },
+    {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
       "count": 1
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb46000",
@@ -19,7 +24,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 10
+      "count": 8
     },
     {
       "id": "pmb65265",
@@ -70,19 +75,26 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 5,
+      "to": "pmb168815",
+      "weight": 3,
       "titles": [
-        "Marie Herzfeld an Arthur Schnitzler, 16. 1. 1908",
-        "Marie Herzfeld an Arthur Schnitzler, 19. 4. 1909",
         "Marie Herzfeld an Arthur Schnitzler, 30. 3. 1913",
         "Marie Herzfeld an Arthur Schnitzler, 5. 3. 1931",
         "Marie Herzfeld an Arthur Schnitzler, 10. 3. 1931"
       ]
     },
     {
+      "from": "pmb50",
+      "to": "pmb168940",
+      "weight": 2,
+      "titles": [
+        "Marie Herzfeld an Arthur Schnitzler, 16. 1. 1908",
+        "Marie Herzfeld an Arthur Schnitzler, 19. 4. 1909"
+      ]
+    },
+    {
       "from": "pmb65265",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
         "Marie Herzfeld an Arthur Schnitzler, 23. 8. 1899"

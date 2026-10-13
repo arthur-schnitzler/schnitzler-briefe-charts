@@ -14,12 +14,12 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 58
+      "count": 106
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb34014",
@@ -59,7 +59,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 50
+      "count": 41
     }
   ],
   "links_from_schnitzler": [
@@ -198,7 +198,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb1248",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Robert Adam an Arthur Schnitzler, 17. 7. 1918"
@@ -214,7 +214,7 @@
     },
     {
       "from": "pmb41069",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Robert Adam an Arthur Schnitzler, 13. 5. 1922"
@@ -222,7 +222,7 @@
     },
     {
       "from": "pmb44400",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 7,
       "titles": [
         "Robert Adam an Arthur Schnitzler, 2. 4. 1913",
@@ -236,10 +236,9 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
-      "weight": 40,
+      "to": "pmb168815",
+      "weight": 39,
       "titles": [
-        "Robert Adam an Arthur Schnitzler, 25. 2. 1909",
         "Robert Adam an Arthur Schnitzler, 29. 10. 1910",
         "Robert Adam an Arthur Schnitzler, 3. 2. 1911",
         "Robert Adam an Arthur Schnitzler, 9. 2. 1911",
@@ -279,6 +278,14 @@
         "Robert Adam an Arthur Schnitzler, 22. 12. 1929",
         "Robert Adam an Arthur Schnitzler, 5. 1. 1930",
         "Robert Adam an Arthur Schnitzler, 15. 6. 1930"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Robert Adam an Arthur Schnitzler, 25. 2. 1909"
       ]
     }
   ]

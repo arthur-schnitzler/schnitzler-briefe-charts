@@ -4,17 +4,12 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 4
+      "count": 6
     },
     {
       "id": "pmb294001",
       "name": "Hôtel Beau-Séjour",
       "count": 4
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 2
     },
     {
       "id": "pmb562",
@@ -38,7 +33,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb562",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 2,
       "titles": [
         "Romain Rolland an Arthur Schnitzler, 19. 12. 1914",

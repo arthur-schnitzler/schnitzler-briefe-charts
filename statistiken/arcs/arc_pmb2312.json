@@ -9,7 +9,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 54
+      "count": 59
     },
     {
       "id": "pmb168934",
@@ -64,7 +64,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 20
+      "count": 18
     },
     {
       "id": "pmb52051",
@@ -142,9 +142,10 @@
     {
       "from": "pmb168815",
       "to": "pmb50",
-      "weight": 14,
+      "weight": 15,
       "titles": [
         "Arthur Schnitzler: Widmungsexemplar von Fink und Fliederbusch an Berta Zuckerkandl, 11. 11. 1917",
+        "Arthur Schnitzler: Widmungsexemplar von Casanovas Heimfahrt an Berta Zuckerkandl, Jänner 1919",
         "Arthur Schnitzler an Berta Zuckerkandl, 25. 10. 1923",
         "Arthur Schnitzler an Berta Zuckerkandl, 1. 12. 1923",
         "Arthur Schnitzler an Berta Zuckerkandl, 20. 11. 1924",
@@ -174,14 +175,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Berta Zuckerkandl, 18. 4. 1911"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler: Widmungsexemplar von Casanovas Heimfahrt an Berta Zuckerkandl, Jänner 1919"
       ]
     },
     {
@@ -258,7 +251,7 @@
     },
     {
       "from": "pmb36503",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, 30. 7. 1920"
@@ -266,7 +259,7 @@
     },
     {
       "from": "pmb39792",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, 27. 7. [1931?]"
@@ -274,7 +267,7 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb50",
+      "to": "pmb168815",
       "weight": 2,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, 11. 10. 1924",

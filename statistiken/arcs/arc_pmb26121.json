@@ -4,12 +4,12 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb168940",
@@ -39,7 +39,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 3
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
@@ -47,7 +47,7 @@
   "links_to_schnitzler": [
     {
       "from": "pmb182",
-      "to": "pmb50",
+      "to": "pmb167789",
       "weight": 1,
       "titles": [
         "Carl von Torresani an Arthur Schnitzler, 6. 2. 1892"
@@ -71,6 +71,14 @@
     },
     {
       "from": "pmb462",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Carl von Torresani an Arthur Schnitzler, 8. 5. 1893"
+      ]
+    },
+    {
+      "from": "pmb462",
       "to": "pmb167789",
       "weight": 1,
       "titles": [
@@ -78,16 +86,8 @@
       ]
     },
     {
-      "from": "pmb462",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Carl von Torresani an Arthur Schnitzler, 8. 5. 1893"
-      ]
-    },
-    {
       "from": "pmb50",
-      "to": "pmb50",
+      "to": "pmb167789",
       "weight": 1,
       "titles": [
         "Carl von Torresani an Arthur Schnitzler, 8. 10. [1892]"
