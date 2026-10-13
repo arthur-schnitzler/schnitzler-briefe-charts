@@ -14,7 +14,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 27
+      "count": 30
     },
     {
       "id": "pmb295159",
@@ -29,7 +29,12 @@
     {
       "id": "pmb295169",
       "name": "Spiegelgasse 2",
-      "count": 6
+      "count": 7
+    },
+    {
+      "id": "pmb295173",
+      "name": "Kärntner Straße 10",
+      "count": 2
     },
     {
       "id": "pmb295211",
@@ -54,7 +59,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 12
+      "count": 9
     },
     {
       "id": "pmb592",
@@ -112,14 +117,24 @@
     {
       "from": "pmb295169",
       "to": "pmb168934",
-      "weight": 6,
+      "weight": 7,
       "titles": [
         "Elsa Plessner an Arthur Schnitzler, 23. 10. 1897",
         "Elsa Plessner an Arthur Schnitzler, 22. 10. 1898",
         "Elsa Plessner an Arthur Schnitzler, 2. 1. 1899",
         "Elsa Plessner an Arthur Schnitzler, 4. 1. 1899",
         "Elsa Plessner an Arthur Schnitzler, 19. 1. 1899",
-        "Elsa Plessner an Arthur Schnitzler, 21. 1. 1899"
+        "Elsa Plessner an Arthur Schnitzler, 21. 1. 1899",
+        "Elsa Plessner an Arthur Schnitzler, 26. 1. 1899"
+      ]
+    },
+    {
+      "from": "pmb295173",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Elsa Plessner an Arthur Schnitzler, 9. 1. 1900",
+        "Elsa Plessner an Arthur Schnitzler, 10. 1. 1900"
       ]
     },
     {
@@ -172,11 +187,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 8,
+      "weight": 5,
       "titles": [
-        "Elsa Plessner an Arthur Schnitzler, 26. 1. 1899",
-        "Elsa Plessner an Arthur Schnitzler, 9. 1. 1900",
-        "Elsa Plessner an Arthur Schnitzler, 10. 1. 1900",
         "Elsa Plessner an Arthur Schnitzler, 26. 2. 1900",
         "Elsa Plessner an Arthur Schnitzler, 24. 6. 1900",
         "Elsa Plessner an Arthur Schnitzler, 8. 10. 1900",

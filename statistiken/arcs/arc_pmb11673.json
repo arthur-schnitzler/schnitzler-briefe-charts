@@ -2,9 +2,19 @@
   "correspondent": "Herzl, Theodor",
   "nodes": [
     {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 8
+    },
+    {
+      "id": "pmb167789",
+      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "count": 2
+    },
+    {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 1
+      "count": 33
     },
     {
       "id": "pmb182",
@@ -49,7 +59,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 109
+      "count": 97
     },
     {
       "id": "pmb63049",
@@ -69,40 +79,19 @@
   ],
   "links_from_schnitzler": [
     {
-      "from": "pmb30",
-      "to": "pmb298935",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler und Paul Goldmann an Theodor Herzl, 19. 9. 1893"
-      ]
-    },
-    {
-      "from": "pmb50",
+      "from": "pmb167782",
       "to": "pmb182",
-      "weight": 10,
+      "weight": 5,
       "titles": [
-        "Arthur Schnitzler an Theodor Herzl, 25. 7. 1892",
-        "Arthur Schnitzler an Theodor Herzl, 5. 8. 1892",
-        "Arthur Schnitzler an Theodor Herzl, 12.–14. 11. 1892",
         "Arthur Schnitzler an Theodor Herzl, 30. 12. 1892",
         "Arthur Schnitzler an Theodor Herzl, 11. 5. 1893",
         "Arthur Schnitzler an Theodor Herzl, 13. 6. 1893",
         "Arthur Schnitzler an Theodor Herzl, 21. 6. 1893",
-        "Arthur Schnitzler an Theodor Herzl, 4. 8. 1893",
-        "Arthur Schnitzler an Theodor Herzl, 10. 12. 1893",
-        "Arthur Schnitzler an Theodor Herzl, [17. 11. 1894?]"
+        "Arthur Schnitzler an Theodor Herzl, 4. 8. 1893"
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb296731",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Theodor Herzl, 19. 1. 1895"
-      ]
-    },
-    {
-      "from": "pmb50",
+      "from": "pmb167782",
       "to": "pmb49170",
       "weight": 1,
       "titles": [
@@ -110,12 +99,44 @@
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb167782",
       "to": "pmb50",
-      "weight": 33,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Theodor Herzl, [23. oder 24. 4. 1889?]",
-        "Arthur Schnitzler an Theodor Herzl, 28. 9. 1893",
+        "Arthur Schnitzler an Theodor Herzl, 28. 9. 1893"
+      ]
+    },
+    {
+      "from": "pmb167789",
+      "to": "pmb182",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Theodor Herzl, 25. 7. 1892",
+        "Arthur Schnitzler an Theodor Herzl, 5. 8. 1892"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb182",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Theodor Herzl, 10. 12. 1893",
+        "Arthur Schnitzler an Theodor Herzl, [17. 11. 1894?]"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb296731",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Theodor Herzl, 19. 1. 1895"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb50",
+      "weight": 29,
+      "titles": [
         "Arthur Schnitzler an Theodor Herzl, 5. 7. 1894",
         "Arthur Schnitzler an Theodor Herzl, 10. 11. 1894",
         "Arthur Schnitzler an Theodor Herzl, 17. 11. 1894",
@@ -137,7 +158,6 @@
         "Arthur Schnitzler an Theodor Herzl, 16. 5. 1895",
         "Arthur Schnitzler an Theodor Herzl, 21. 6. 1895",
         "Arthur Schnitzler an Theodor Herzl, 30. 6. 1895",
-        "Arthur Schnitzler an Theodor Herzl, [zwischen 5. und 7. 4. 1896?]",
         "Arthur Schnitzler an Theodor Herzl, 24. 4. 1896",
         "Arthur Schnitzler an Theodor Herzl, 10. 12. 1899",
         "Arthur Schnitzler an Theodor Herzl, 15. 11. 1900",
@@ -145,18 +165,50 @@
         "Arthur Schnitzler an Theodor Herzl, 3. 12. 1900",
         "Arthur Schnitzler an Theodor Herzl, 22. 12. 1900",
         "Arthur Schnitzler an Theodor Herzl, 24. 12. 1900",
-        "Arthur Schnitzler an Theodor Herzl, [zwischen 31. 12. 1900 und 7. 1. 1901?]",
         "Arthur Schnitzler an Theodor Herzl, 14. 1. 1901"
+      ]
+    },
+    {
+      "from": "pmb30",
+      "to": "pmb298935",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler und Paul Goldmann an Theodor Herzl, 19. 9. 1893"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb182",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Theodor Herzl, 12.–14. 11. 1892"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
+        "Arthur Schnitzler an Theodor Herzl, [23. oder 24. 4. 1889?]",
+        "Arthur Schnitzler an Theodor Herzl, [zwischen 5. und 7. 4. 1896?]",
+        "Arthur Schnitzler an Theodor Herzl, [zwischen 31. 12. 1900 und 7. 1. 1901?]"
       ]
     }
   ],
   "links_to_schnitzler": [
     {
       "from": "pmb182",
-      "to": "pmb50",
-      "weight": 39,
+      "to": "pmb167782",
+      "weight": 1,
       "titles": [
-        "Theodor Herzl an Arthur Schnitzler, 10. [11.?] 1892",
+        "Theodor Herzl an Arthur Schnitzler, 10. [11.?] 1892"
+      ]
+    },
+    {
+      "from": "pmb182",
+      "to": "pmb50",
+      "weight": 38,
+      "titles": [
         "Theodor Herzl an Arthur Schnitzler, 16. 11. 1892",
         "Theodor Herzl an Arthur Schnitzler, 2. 1. 1893",
         "Theodor Herzl an Arthur Schnitzler, 4. 5. 1893",

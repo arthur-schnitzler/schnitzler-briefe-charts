@@ -2,6 +2,11 @@
   "correspondent": "Blei, Franz",
   "nodes": [
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 3
+    },
+    {
       "id": "pmb45258",
       "name": "München",
       "count": 7
@@ -9,12 +14,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 10
+      "count": 7
     }
   ],
   "links_from_schnitzler": [
     {
-      "from": "pmb50",
+      "from": "pmb168940",
       "to": "pmb45258",
       "weight": 1,
       "titles": [
@@ -25,11 +30,18 @@
   "links_to_schnitzler": [
     {
       "from": "pmb45258",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Franz Blei an Arthur Schnitzler, 25. 11. 1903"
+      ]
+    },
+    {
+      "from": "pmb45258",
       "to": "pmb50",
-      "weight": 6,
+      "weight": 5,
       "titles": [
         "Franz Blei an Arthur Schnitzler, 17. 10. 1903",
-        "Franz Blei an Arthur Schnitzler, 25. 11. 1903",
         "Franz Blei an Arthur Schnitzler, 4. 1. 1904",
         "Franz Blei an Arthur Schnitzler, 12. 12. 1907",
         "Franz Blei an Arthur Schnitzler, [17. 12. 1909]",

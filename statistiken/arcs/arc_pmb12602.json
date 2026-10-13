@@ -2,6 +2,11 @@
   "correspondent": "Saar, Ferdinand von",
   "nodes": [
     {
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
+      "count": 1
+    },
+    {
       "id": "pmb50",
       "name": "Wien",
       "count": 7
@@ -26,11 +31,18 @@
     },
     {
       "from": "pmb50",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1895"
+      ]
+    },
+    {
+      "from": "pmb50",
       "to": "pmb50",
-      "weight": 5,
+      "weight": 4,
       "titles": [
         "Ferdinand von Saar an Arthur Schnitzler, 15. 10. 1893",
-        "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1895",
         "Ferdinand von Saar an Arthur Schnitzler, 19. 6. 1901",
         "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1902",
         "Ferdinand von Saar an Arthur Schnitzler, 25. 10. 1902"

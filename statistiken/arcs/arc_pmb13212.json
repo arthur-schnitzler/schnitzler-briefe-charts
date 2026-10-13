@@ -9,7 +9,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 2
+      "count": 8
     },
     {
       "id": "pmb182",
@@ -263,17 +263,24 @@
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb168940",
       "to": "pmb50",
-      "weight": 8,
+      "weight": 6,
       "titles": [
         "Arthur Schnitzler an Stefan Zweig, 22. 1. 1908",
         "Arthur Schnitzler an Stefan Zweig, 23. 3. 1908",
         "Arthur Schnitzler an Stefan Zweig, 22. 10. 1908",
         "Arthur Schnitzler an Stefan Zweig, 29. 10. 1908",
         "Arthur Schnitzler an Stefan Zweig, 30. 11. 1909",
+        "Arthur Schnitzler an Stefan Zweig, 22. 12. 1909"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 2,
+      "titles": [
         "Arthur Schnitzler an Stefan Zweig, [zwischen 14. und 16. 12. 1909?]",
-        "Arthur Schnitzler an Stefan Zweig, 22. 12. 1909",
         "Arthur Schnitzler an Stefan Zweig, [zwischen 25. und 31.?] 5. 1912"
       ]
     },

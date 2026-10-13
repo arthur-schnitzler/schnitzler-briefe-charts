@@ -2,6 +2,11 @@
   "correspondent": "Fels, Friedrich M.",
   "nodes": [
     {
+      "id": "pmb167782",
+      "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
+      "count": 2
+    },
+    {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
       "count": 1
@@ -9,7 +14,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 8
+      "count": 9
     },
     {
       "id": "pmb339370",
@@ -44,7 +49,7 @@
     {
       "id": "pmb43520",
       "name": "Meran",
-      "count": 5
+      "count": 4
     },
     {
       "id": "pmb484",
@@ -54,7 +59,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 21
+      "count": 18
+    },
+    {
+      "id": "pmb809",
+      "name": "Hotel Erzherzog Rainer [Meran]",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
@@ -119,23 +129,36 @@
     },
     {
       "from": "pmb43520",
-      "to": "pmb50",
-      "weight": 5,
+      "to": "pmb167782",
+      "weight": 1,
       "titles": [
-        "Friedrich M. Fels an Arthur Schnitzler, 1[6]. 2. 1893",
+        "Friedrich M. Fels an Arthur Schnitzler, [29. 4. 1893?]"
+      ]
+    },
+    {
+      "from": "pmb43520",
+      "to": "pmb50",
+      "weight": 3,
+      "titles": [
         "Friedrich M. Fels an Arthur Schnitzler, 1[7]. 2. 1893",
         "Friedrich M. Fels an Arthur Schnitzler, 23. 2. 1893",
-        "Friedrich M. Fels an Arthur Schnitzler, 20. 4. 1893",
-        "Friedrich M. Fels an Arthur Schnitzler, [29. 4. 1893?]"
+        "Friedrich M. Fels an Arthur Schnitzler, 20. 4. 1893"
+      ]
+    },
+    {
+      "from": "pmb484",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Friedrich M. Fels an Arthur Schnitzler, 19. 9. 1895"
       ]
     },
     {
       "from": "pmb484",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Friedrich M. Fels an Arthur Schnitzler, [1. Hälfte Juni 1895]",
-        "Friedrich M. Fels an Arthur Schnitzler, 19. 9. 1895",
         "Friedrich M. Fels an Arthur Schnitzler, 28. 9. 1895",
         "Friedrich M. Fels an Arthur Schnitzler, 4. 10. 1895"
       ]
@@ -163,6 +186,14 @@
         "Friedrich M. Fels an Arthur Schnitzler, 6. 11. 1894",
         "Friedrich M. Fels an Arthur Schnitzler, [12. 11. 1894]",
         "Friedrich M. Fels an Arthur Schnitzler, [26. 11. 1894]"
+      ]
+    },
+    {
+      "from": "pmb809",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Friedrich M. Fels an Arthur Schnitzler, 1[6]. 2. 1893"
       ]
     }
   ]

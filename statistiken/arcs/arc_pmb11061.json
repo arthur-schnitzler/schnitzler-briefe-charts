@@ -9,12 +9,12 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 1
+      "count": 5
     },
     {
       "id": "pmb167789",
       "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
-      "count": 15
+      "count": 16
     },
     {
       "id": "pmb168",
@@ -44,16 +44,20 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 7
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb167782",
       "to": "pmb168",
-      "weight": 1,
+      "weight": 5,
       "titles": [
-        "Arthur Schnitzler an Wilhelm Bölsche, 10. 4. 1893"
+        "Arthur Schnitzler an Wilhelm Bölsche, 10. 4. 1893",
+        "Arthur Schnitzler an Wilhelm Bölsche, 1. 6. 1893",
+        "Arthur Schnitzler an Wilhelm Bölsche, 11. 6. 1893",
+        "Arthur Schnitzler an Wilhelm Bölsche, 14. 6. 1893",
+        "Arthur Schnitzler an Wilhelm Bölsche, [12.? 11. 1893]"
       ]
     },
     {
@@ -71,11 +75,12 @@
     {
       "from": "pmb167789",
       "to": "pmb364699",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Arthur Schnitzler an Wilhelm Bölsche, [Anfang September] 1890",
         "Arthur Schnitzler an Wilhelm Bölsche, 14. 10. 1890",
-        "Arthur Schnitzler an Wilhelm Bölsche, [5. 5. 1891]"
+        "Arthur Schnitzler an Wilhelm Bölsche, [5. 5. 1891]",
+        "Arthur Schnitzler an Wilhelm Bölsche, 3. 8. 1891"
       ]
     },
     {
@@ -84,25 +89,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Wilhelm Bölsche, 8. 7. 1893"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb168",
-      "weight": 4,
-      "titles": [
-        "Arthur Schnitzler an Wilhelm Bölsche, 1. 6. 1893",
-        "Arthur Schnitzler an Wilhelm Bölsche, 11. 6. 1893",
-        "Arthur Schnitzler an Wilhelm Bölsche, 14. 6. 1893",
-        "Arthur Schnitzler an Wilhelm Bölsche, [12.? 11. 1893]"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb364699",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Wilhelm Bölsche, 3. 8. 1891"
       ]
     }
   ],

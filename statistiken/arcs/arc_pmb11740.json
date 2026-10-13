@@ -29,7 +29,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 15
+      "count": 21
     },
     {
       "id": "pmb167789",
@@ -49,17 +49,17 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 61
+      "count": 63
     },
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 59
+      "count": 100
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 65
+      "count": 101
     },
     {
       "id": "pmb173",
@@ -469,7 +469,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 365
+      "count": 327
     },
     {
       "id": "pmb513",
@@ -664,6 +664,19 @@
       ]
     },
     {
+      "from": "pmb167782",
+      "to": "pmb50",
+      "weight": 6,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 1. 1893",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [1. 2. 1893]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 18. 2. 1893",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [21. 4. 1893?]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 2. 8. 1893",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 11. 8. 1893"
+      ]
+    },
+    {
       "from": "pmb167789",
       "to": "pmb192623",
       "weight": 11,
@@ -785,6 +798,24 @@
     },
     {
       "from": "pmb168934",
+      "to": "pmb168",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 22. 3. 1899",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 24. 3. 1899"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb182",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 3. 1900",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 9. 4. 1900"
+      ]
+    },
+    {
+      "from": "pmb168934",
       "to": "pmb34401",
       "weight": 1,
       "titles": [
@@ -794,9 +825,38 @@
     {
       "from": "pmb168934",
       "to": "pmb45274",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 5. 7. 1898"
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 5. 7. 1898",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 10. 7. 1898"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb50",
+      "weight": 21,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 1. 1894]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [18. 1. 1894]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [9. 3. 1894]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 5. 1894?]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 6. 1894?]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 3. 1895",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 26. 11. 1895",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 6. 1896",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [9. 2. 1897?]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 12. 3. 1897",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1897",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [16. 11. 1897]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [29. 5. 1898?]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [10. 1. 1899]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [18. 11. 1899?]",
+        "Arthur Schnitzler: Widmungsexemplar Der Schleier der Beatrice für Hugo von Hofmannsthal, 28. 2. 1901",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 6. 1901",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 3. 1902",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [25.? 11. 1902]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 1. 1903",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 5. 1903"
       ]
     },
     {
@@ -809,11 +869,54 @@
       ]
     },
     {
+      "from": "pmb168934",
+      "to": "pmb636",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 5. 1896"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb75",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [4. 6. 1898]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 14. 10. 1898"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb772",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 6. 7. 1899",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 14. 7. 1899"
+      ]
+    },
+    {
       "from": "pmb168940",
       "to": "pmb173",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 30. 6. 1904"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb259",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 25. 6. 1907"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb33",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 11. 9. 1905",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 8. 9. 1906"
       ]
     },
     {
@@ -832,6 +935,28 @@
         "Arthur Schnitzler an Hugo von Hofmannsthal, 2. 10. 1904",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 6. 3. 1906",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 5. 1910"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb50",
+      "weight": 15,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 11. 1903",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 10. 12. 1903",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [19.? 6. 1904]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 6. 1904",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 10. 1904",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 31. 12. 1904",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 8. 1905",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 3. 10. 1905",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 11. 1906",
+        "Arthur Schnitzler: Widmungsexemplar Dämmerseelen für Hugo von Hofmannsthal, [2.?] 3. 1907",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 16. 9. 1907",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 11. [1907]",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 25. 1. 1908",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 25. 3. 1909",
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 21. 2. 1910"
       ]
     },
     {
@@ -1063,128 +1188,10 @@
     },
     {
       "from": "pmb50",
-      "to": "pmb168",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 22. 3. 1899",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 24. 3. 1899"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb182",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 3. 1900",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 9. 4. 1900"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb259",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 25. 6. 1907"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb305739",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 5. – 6. 8. 1904"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb33",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 11. 9. 1905",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 8. 9. 1906"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb45274",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 10. 7. 1898"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb50",
-      "weight": 42,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 1. 1893",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [1. 2. 1893]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 18. 2. 1893",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [21. 4. 1893?]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 2. 8. 1893",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 11. 8. 1893",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 1. 1894]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [18. 1. 1894]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [9. 3. 1894]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 5. 1894?]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [15. 6. 1894?]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 3. 1895",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 26. 11. 1895",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 6. 1896",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [9. 2. 1897?]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 12. 3. 1897",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 10. 1897",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [16. 11. 1897]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [29. 5. 1898?]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [10. 1. 1899]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [18. 11. 1899?]",
-        "Arthur Schnitzler: Widmungsexemplar Der Schleier der Beatrice für Hugo von Hofmannsthal, 28. 2. 1901",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 6. 1901",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 3. 1902",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [25.? 11. 1902]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 1. 1903",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 5. 1903",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 4. 11. 1903",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 10. 12. 1903",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [19.? 6. 1904]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 6. 1904",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 10. 1904",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 31. 12. 1904",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 7. 8. 1905",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 3. 10. 1905",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 27. 11. 1906",
-        "Arthur Schnitzler: Widmungsexemplar Dämmerseelen für Hugo von Hofmannsthal, [2.?] 3. 1907",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 16. 9. 1907",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 15. 11. [1907]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 25. 1. 1908",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 25. 3. 1909",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 21. 2. 1910"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb636",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 23. 5. 1896"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb75",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [4. 6. 1898]",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 14. 10. 1898"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb772",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 6. 7. 1899",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 14. 7. 1899"
       ]
     },
     {
@@ -1324,15 +1331,17 @@
     {
       "from": "pmb173",
       "to": "pmb168940",
-      "weight": 1,
+      "weight": 3,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 16. 12. 1904"
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 16. 12. 1904",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [3. 8. 1905?]",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [27. 10. 1909]"
       ]
     },
     {
       "from": "pmb173",
       "to": "pmb50",
-      "weight": 34,
+      "weight": 32,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 12. 8. [1901]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 6. 9. [1901]",
@@ -1344,7 +1353,6 @@
         "Hugo von Hofmannsthal an Arthur Schnitzler, 1[9?]. 6. [1904]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 14. 10. 1904",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [1. 6. 1905]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [3. 8. 1905?]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 29. 4. 1907",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 11. [1907]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 16. 11. 1907",
@@ -1352,7 +1360,6 @@
         "Hugo von Hofmannsthal an Arthur Schnitzler, [23. 11. 1908]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 19. 3. [1909]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 4. [1909]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [27. 10. 1909]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 13. 7. [1910]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 20. 10. [1910]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 12. 1910",
@@ -1372,7 +1379,7 @@
     },
     {
       "from": "pmb182",
-      "to": "pmb50",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 15. 3. [1900]"
@@ -1632,18 +1639,18 @@
     },
     {
       "from": "pmb30",
-      "to": "pmb44982",
+      "to": "pmb168934",
       "weight": 1,
       "titles": [
-        "Hugo von Hofmannsthal und Richard Beer-Hofmann an Arthur Schnitzler, [17. oder 18]. 7. 1900"
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [9. 8. 1897]"
       ]
     },
     {
       "from": "pmb30",
-      "to": "pmb50",
+      "to": "pmb44982",
       "weight": 1,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [9. 8. 1897]"
+        "Hugo von Hofmannsthal und Richard Beer-Hofmann an Arthur Schnitzler, [17. oder 18]. 7. 1900"
       ]
     },
     {
@@ -1933,7 +1940,7 @@
     {
       "from": "pmb40297",
       "to": "pmb168940",
-      "weight": 23,
+      "weight": 24,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 30. 9. 1903",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 6. 11. 1903",
@@ -1952,6 +1959,7 @@
         "Hugo von Hofmannsthal an Arthur Schnitzler, 6. 10. 1905",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [10. oder 11]. 10. 1905",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [6. oder 7]. 3. 1906",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 5. 1906",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 28. 12. 1906",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 19. 1. 1907",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 4. 1908",
@@ -1979,9 +1987,8 @@
     {
       "from": "pmb40297",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 5. 1906",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 16. [11. 1907?]"
       ]
     },
@@ -2068,7 +2075,7 @@
     },
     {
       "from": "pmb43471",
-      "to": "pmb50",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, [9. 5. 1910]"
@@ -2152,9 +2159,10 @@
     {
       "from": "pmb462",
       "to": "pmb168940",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 26. 1. 1904",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 28. 1. 1904",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 22. 9. 1904",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 15. 6. 1907"
       ]
@@ -2162,12 +2170,11 @@
     {
       "from": "pmb462",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 17. 10. [1895]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 10. [1898]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 10. [1899]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 28. 1. 1904"
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 2. 10. [1899]"
       ]
     },
     {
@@ -2216,8 +2223,9 @@
     {
       "from": "pmb50",
       "to": "pmb168815",
-      "weight": 3,
+      "weight": 4,
       "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 11. 1910",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [15. 11. 1912]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 11. 1912",
         "Hugo Hofmannsthal an Arthur Schnitzler, 20. 4. 1919"
@@ -2226,8 +2234,9 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 11,
+      "weight": 13,
       "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [16. 1. 1894]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [9. oder 10]. 4. 1895",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 23. 11. 1896",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 3. 1898",
@@ -2238,18 +2247,21 @@
         "Hugo von Hofmannsthal an Arthur Schnitzler, [27. oder 28]. 5. 1900",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 27. 10. 1900",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 31. 3. 1902",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [17. 12. 1902]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [26. oder 27]. 12. 1902"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb168940",
-      "weight": 10,
+      "weight": 12,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 10. 1903",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 4. 1. 1904",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 20. 2. 1904",
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [18. 3. 1904]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 1. 12. 1904",
+        "Hugo August von Hofmannsthal an Arthur Schnitzler, 5. 12. 1904",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 14. 12. 1904",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 19. 4. 1905",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 11. [8.?] 1905",
@@ -2271,7 +2283,7 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 88,
+      "weight": 83,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, [13. 1. 1893]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 25. 1. [1893]",
@@ -2283,7 +2295,6 @@
         "Hugo von Hofmannsthal an Arthur Schnitzler, [6. 6.? 1893]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [12. 10. 1893]",
         "Hugo von Hofmannsthal und Felix Salten an Arthur Schnitzler, [27. 10. 1893]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [16. 1. 1894]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [17. 2. 1894]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 9. 3. 1894",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [7. 4. 1894]",
@@ -2330,16 +2341,12 @@
         "Hugo von Hofmannsthal an Arthur Schnitzler, [5. 2. 1902?]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [30. 3. 1902]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [30. 9. 1902]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [17. 12. 1902]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 1. [1903]",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [18. 3. 1904]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 3. 1904",
-        "Hugo August von Hofmannsthal an Arthur Schnitzler, 5. 12. 1904",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [7. 8. 1905]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [4. 3. 1906]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [14. 1. 1907]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 11. 1909",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 11. 1910",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [21. 11. 1910]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [2. 3. 1911]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [4. 3. 1911]",

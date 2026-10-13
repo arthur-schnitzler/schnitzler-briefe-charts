@@ -9,7 +9,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 2
+      "count": 14
     },
     {
       "id": "pmb237241",
@@ -39,7 +39,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 44
+      "count": 36
     }
   ],
   "links_from_schnitzler": [
@@ -71,6 +71,17 @@
       ]
     },
     {
+      "from": "pmb168940",
+      "to": "pmb50",
+      "weight": 4,
+      "titles": [
+        "Arthur Schnitzler an Charlotte Ehrenstein, [vor dem 21. 5.? 1906]",
+        "Arthur Schnitzler an Albert Ehrenstein, 20. 10. 1908",
+        "Arthur Schnitzler an Albert Ehrenstein, 9. 11. 1908",
+        "Arthur Schnitzler an Albert Ehrenstein, 20. 1. 1909"
+      ]
+    },
+    {
       "from": "pmb413",
       "to": "pmb237241",
       "weight": 1,
@@ -81,12 +92,8 @@
     {
       "from": "pmb50",
       "to": "pmb50",
-      "weight": 5,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Charlotte Ehrenstein, [vor dem 21. 5.? 1906]",
-        "Arthur Schnitzler an Albert Ehrenstein, 20. 10. 1908",
-        "Arthur Schnitzler an Albert Ehrenstein, 9. 11. 1908",
-        "Arthur Schnitzler an Albert Ehrenstein, 20. 1. 1909",
         "Arthur Schnitzler an Albert Ehrenstein, [zwischen 23. und 25.] 5. 1912"
       ]
     }
@@ -103,7 +110,7 @@
     },
     {
       "from": "pmb44146",
-      "to": "pmb50",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Albert Ehrenstein an Arthur Schnitzler, 24. 8. 1909"

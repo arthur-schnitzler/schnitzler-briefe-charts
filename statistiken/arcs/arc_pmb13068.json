@@ -7,6 +7,11 @@
       "count": 1
     },
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
       "id": "pmb45258",
       "name": "München",
       "count": 3
@@ -14,7 +19,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 5
+      "count": 4
     },
     {
       "id": "pmb60017",
@@ -27,11 +32,18 @@
   "links_to_schnitzler": [
     {
       "from": "pmb45258",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Frank Wedekind an Arthur Schnitzler, 19. 6. 1910"
+      ]
+    },
+    {
+      "from": "pmb45258",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 2,
       "titles": [
         "Frank Wedekind an Arthur Schnitzler, 24. 12. 1909",
-        "Frank Wedekind an Arthur Schnitzler, 19. 6. 1910",
         "Frank Wedekind: Widmungsexemplar von Franziska für Arthur Schnitzler, [zwischen 1. und 5.] 12. 1911"
       ]
     },

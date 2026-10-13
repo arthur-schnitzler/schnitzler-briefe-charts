@@ -19,12 +19,12 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 2
+      "count": 5
     },
     {
       "id": "pmb213",
@@ -54,7 +54,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 9
+      "count": 5
     },
     {
       "id": "pmb735",
@@ -164,11 +164,18 @@
     },
     {
       "from": "pmb735",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Gerhart Hauptmann an Arthur Schnitzler, 29. [1. 1905?]"
+      ]
+    },
+    {
+      "from": "pmb735",
       "to": "pmb50",
-      "weight": 3,
+      "weight": 2,
       "titles": [
         "Gerhart Hauptmann an Arthur Schnitzler, 24. 1. 1905",
-        "Gerhart Hauptmann an Arthur Schnitzler, 29. [1. 1905?]",
         "Gerhart Hauptmann an Arthur Schnitzler, 18. 12. 1906"
       ]
     }

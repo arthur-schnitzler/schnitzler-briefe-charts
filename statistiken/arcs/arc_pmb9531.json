@@ -9,7 +9,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 7
+      "count": 11
     },
     {
       "id": "pmb212",
@@ -49,7 +49,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 10
+      "count": 6
     },
     {
       "id": "pmb61048",
@@ -65,22 +65,6 @@
   "links_from_schnitzler": [
     {
       "from": "pmb168934",
-      "to": "pmb364288",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 18. 5. und 20. 6. 1901?]"
-      ]
-    },
-    {
-      "from": "pmb212",
-      "to": "pmb258929",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, 4. 7. 1901"
-      ]
-    },
-    {
-      "from": "pmb50",
       "to": "pmb168",
       "weight": 1,
       "titles": [
@@ -88,7 +72,7 @@
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb168934",
       "to": "pmb258929",
       "weight": 2,
       "titles": [
@@ -97,11 +81,27 @@
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb168934",
+      "to": "pmb364288",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 18. 5. und 20. 6. 1901?]"
+      ]
+    },
+    {
+      "from": "pmb168934",
       "to": "pmb652",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899"
+      ]
+    },
+    {
+      "from": "pmb212",
+      "to": "pmb258929",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Rainer Maria Rilke, 4. 7. 1901"
       ]
     }
   ],

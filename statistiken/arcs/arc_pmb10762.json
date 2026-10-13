@@ -19,7 +19,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 7
+      "count": 10
     },
     {
       "id": "pmb182",
@@ -44,12 +44,12 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 17
+      "count": 14
     }
   ],
   "links_from_schnitzler": [
     {
-      "from": "pmb50",
+      "from": "pmb168934",
       "to": "pmb182",
       "weight": 1,
       "titles": [
@@ -86,10 +86,17 @@
     },
     {
       "from": "pmb182",
-      "to": "pmb50",
-      "weight": 2,
+      "to": "pmb168934",
+      "weight": 1,
       "titles": [
-        "Lou Andreas-Salomé an Arthur Schnitzler, 15. 5. 1894",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 15. 5. 1894"
+      ]
+    },
+    {
+      "from": "pmb182",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
         "Lou Andreas-Salomé an Arthur Schnitzler, 25. 5. 1895"
       ]
     },
