@@ -339,7 +339,7 @@
     {
       "id": "pmb40297",
       "name": "Hofmannsthal-Schlössl",
-      "count": 56
+      "count": 58
     },
     {
       "id": "pmb40302",
@@ -489,7 +489,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 200
+      "count": 198
     },
     {
       "id": "pmb513",
@@ -995,10 +995,10 @@
     },
     {
       "from": "pmb212",
-      "to": "pmb50",
+      "to": "pmb40297",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, [4.? 7. 1901]"
+        "Arthur Schnitzler an Hugo von Hofmannsthal, [30. 6.? 1901]"
       ]
     },
     {
@@ -1979,8 +1979,9 @@
     {
       "from": "pmb40297",
       "to": "pmb168934",
-      "weight": 5,
+      "weight": 6,
       "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 18. 7. [1901]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 18. 12. 1902",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [18. oder 19]. 12. 1902",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 26. 1. 1903",
@@ -2321,7 +2322,7 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 60,
+      "weight": 59,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, [16. 1. 1894]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [17. 2. 1894]",
@@ -2375,7 +2376,6 @@
         "Hugo von Hofmannsthal an Arthur Schnitzler, 27. 10. 1900",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 21. 12. 1900",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 6. 1901",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 18. 7. [1901]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [5. 2. 1902?]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [30. 3. 1902]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 31. 3. 1902",

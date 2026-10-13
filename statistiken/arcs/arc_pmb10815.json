@@ -64,7 +64,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 128
+      "count": 127
     },
     {
       "id": "pmb168940",
@@ -104,12 +104,12 @@
     {
       "id": "pmb207274",
       "name": "Haus Bahr",
-      "count": 38
+      "count": 40
     },
     {
       "id": "pmb212",
       "name": "St. Anton am Arlberg",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb213",
@@ -279,7 +279,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 167
+      "count": 165
     },
     {
       "id": "pmb505",
@@ -657,17 +657,10 @@
     {
       "from": "pmb212",
       "to": "pmb207274",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 1. 7. 1901",
         "Arthur Schnitzler an Hermann Bahr, 3. 7. 1901"
-      ]
-    },
-    {
-      "from": "pmb212",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 1. 7. 1901"
       ]
     },
     {
@@ -936,6 +929,14 @@
         "Hermann Bahr an Arthur Schnitzler, 20. 9. 1905",
         "Hermann Bahr an Arthur Schnitzler, 4. 10. 1905",
         "Hermann Bahr an Arthur Schnitzler, 15. 4. 1907"
+      ]
+    },
+    {
+      "from": "pmb207274",
+      "to": "pmb212",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 5. 7. 1901"
       ]
     },
     {
@@ -1247,7 +1248,7 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 31,
+      "weight": 30,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 2. 4. 1894",
         "Hermann Bahr an Arthur Schnitzler, [20. 4. 1894]",
@@ -1262,7 +1263,6 @@
         "Hermann Bahr an Arthur Schnitzler, 20. 2. [1901]",
         "Hermann Bahr an Arthur Schnitzler, [13. 3.? 1901]",
         "Hermann Bahr an Arthur Schnitzler, 25. 4. [1901]",
-        "Hermann Bahr an Arthur Schnitzler, 5. 7. 1901",
         "Hermann Bahr an Arthur Schnitzler, 12. 9. 1901",
         "Hermann Bahr an Arthur Schnitzler, 7. 10. [1901]",
         "Hermann Bahr an Arthur Schnitzler, 21. 10. [1901]",
