@@ -22,13 +22,18 @@
       "count": 1
     },
     {
-      "id": "pmb50",
-      "name": "Wien",
+      "id": "pmb42598",
+      "name": "Grand Hotel Prag",
       "count": 1
     },
     {
-      "id": "pmb652",
-      "name": "Prag",
+      "id": "pmb42639",
+      "name": "Wienerhof",
+      "count": 1
+    },
+    {
+      "id": "pmb50",
+      "name": "Wien",
       "count": 1
     },
     {
@@ -39,7 +44,7 @@
     {
       "id": "pmb833",
       "name": "Brünn",
-      "count": 3
+      "count": 2
     },
     {
       "id": "pmb864",
@@ -67,6 +72,22 @@
       ]
     },
     {
+      "from": "pmb42598",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Eduard Michael Kafka an Arthur Schnitzler, 24. 1. 1893"
+      ]
+    },
+    {
+      "from": "pmb42639",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Eduard Michael Kafka an Arthur Schnitzler, 12. 1. 1893"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb167789",
       "weight": 1,
@@ -75,27 +96,11 @@
       ]
     },
     {
-      "from": "pmb652",
-      "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Eduard Michael Kafka an Arthur Schnitzler, 24. 1. 1893"
-      ]
-    },
-    {
       "from": "pmb677",
       "to": "pmb167782",
       "weight": 1,
       "titles": [
         "Eduard Michael Kafka an Arthur Schnitzler, 24. 2. 1893"
-      ]
-    },
-    {
-      "from": "pmb833",
-      "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Eduard Michael Kafka an Arthur Schnitzler, 12. 1. 1893"
       ]
     },
     {

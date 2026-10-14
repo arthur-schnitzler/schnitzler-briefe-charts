@@ -1272,10 +1272,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -1292,10 +1292,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -1370,10 +1370,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -1422,10 +1422,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -3322,10 +3322,10 @@
         "lon": 13.61893
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       }
     },
     {
@@ -13022,10 +13022,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Frankgasse 1",
@@ -13140,9 +13140,9 @@
     },
     {
       "id": "L01193",
-      "title": "Arthur Schnitzler an Richard Beer-Hofmann, [16. 6. 1902?]",
+      "title": "Arthur Schnitzler an Richard Beer-Hofmann, [16. oder 17. 6. 1902?]",
       "type": "von schnitzler",
-      "date": "1902-06-16",
+      "date": null,
       "sender": {
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
@@ -13158,10 +13158,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Semmering",
-        "ref": "pmb189",
-        "lat": 47.64224,
-        "lon": 15.8241
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       }
     },
     {
@@ -13282,10 +13282,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Frankgasse 1",
@@ -13334,10 +13334,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Frankgasse 1",
@@ -13438,12 +13438,17 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
-      "to": null
+      "to": {
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
+      }
     },
     {
       "id": "L01269",
@@ -13740,10 +13745,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Frankgasse 1",
@@ -13844,10 +13849,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Frankgasse 1",
@@ -14110,10 +14115,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       }
     },
     {
@@ -14344,10 +14349,10 @@
         "lon": 13.78243
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Lueg",
+        "ref": "pmb824",
+        "lat": 47.753992,
+        "lon": 13.372111
       }
     },
     {
@@ -14598,10 +14603,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -14676,10 +14681,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -14728,10 +14733,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -14780,10 +14785,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -15098,10 +15103,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       }
     },
     {
@@ -15196,10 +15201,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -15378,10 +15383,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       },
       "to": {
         "name": "Reichenau an der Rax",
@@ -15410,10 +15415,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       }
     },
     {
@@ -15816,10 +15821,10 @@
         "lon": 12.621806
       },
       "to": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Willergasse 2",
+        "ref": "pmb231810",
+        "lat": 48.139276,
+        "lon": 16.257741
       }
     },
     {
@@ -16362,10 +16367,10 @@
         "lon": 14.03129
       },
       "to": {
-        "name": "Karersee",
-        "ref": "pmb40371",
-        "lat": 46.409167,
-        "lon": 11.575
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       }
     },
     {

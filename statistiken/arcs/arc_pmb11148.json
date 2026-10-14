@@ -4,7 +4,7 @@
     {
       "id": "pmb1226",
       "name": "Blankenese",
-      "count": 6
+      "count": 3
     },
     {
       "id": "pmb168",
@@ -24,7 +24,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb205",
@@ -37,9 +37,14 @@
       "count": 1
     },
     {
+      "id": "pmb405602",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb43459",
       "name": "Parkstraße",
-      "count": 1
+      "count": 6
     },
     {
       "id": "pmb44880",
@@ -54,12 +59,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 2
-    },
-    {
-      "id": "pmb506",
-      "name": "Hamburg",
-      "count": 2
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
@@ -105,7 +105,7 @@
     },
     {
       "from": "pmb45260",
-      "to": "pmb1226",
+      "to": "pmb43459",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Dehmel, 19. 8. 1912"
@@ -113,15 +113,6 @@
     }
   ],
   "links_to_schnitzler": [
-    {
-      "from": "pmb1226",
-      "to": "pmb168934",
-      "weight": 2,
-      "titles": [
-        "Richard Dehmel an Arthur Schnitzler, 1. 1. 1902",
-        "Richard Dehmel an Arthur Schnitzler, [13. oder 14]. 2. 1902"
-      ]
-    },
     {
       "from": "pmb168",
       "to": "pmb168940",
@@ -139,15 +130,7 @@
       ]
     },
     {
-      "from": "pmb44880",
-      "to": "pmb168940",
-      "weight": 1,
-      "titles": [
-        "Richard Dehmel an Arthur Schnitzler, 8. 6. 1908"
-      ]
-    },
-    {
-      "from": "pmb506",
+      "from": "pmb405602",
       "to": "pmb168815",
       "weight": 1,
       "titles": [
@@ -155,11 +138,36 @@
       ]
     },
     {
-      "from": "pmb506",
+      "from": "pmb43459",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 1. 1. 1902",
+        "Richard Dehmel an Arthur Schnitzler, [13. oder 14]. 2. 1902"
+      ]
+    },
+    {
+      "from": "pmb43459",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, [1907]"
+      ]
+    },
+    {
+      "from": "pmb43459",
       "to": "pmb45260",
       "weight": 1,
       "titles": [
         "Richard Dehmel an Arthur Schnitzler, 14. 8. 1912"
+      ]
+    },
+    {
+      "from": "pmb44880",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 8. 6. 1908"
       ]
     }
   ]

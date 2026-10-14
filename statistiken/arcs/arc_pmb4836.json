@@ -4,7 +4,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 10
+      "count": 11
     },
     {
       "id": "pmb47503",
@@ -14,7 +14,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 10
+      "count": 9
     }
   ],
   "links_from_schnitzler": [
@@ -31,17 +31,10 @@
     {
       "from": "pmb47503",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Therese Rie-Andro an Arthur Schnitzler, [Anfang Juli 1923]",
         "Therese Rie-Andro an Arthur Schnitzler, 23. 7. 1923"
-      ]
-    },
-    {
-      "from": "pmb47503",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Therese Rie-Andro an Arthur Schnitzler, [Anfang Juli 1923]"
       ]
     },
     {

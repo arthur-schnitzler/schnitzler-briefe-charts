@@ -9,7 +9,7 @@
     {
       "id": "pmb1243",
       "name": "Thomas Mann Villa",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb168815",
@@ -19,7 +19,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb245236",
@@ -34,7 +34,7 @@
     {
       "id": "pmb424",
       "name": "Bad Tölz",
-      "count": 3
+      "count": 1
     },
     {
       "id": "pmb42768",
@@ -54,6 +54,11 @@
     {
       "id": "pmb45260",
       "name": "Brijuni",
+      "count": 1
+    },
+    {
+      "id": "pmb467",
+      "name": "Villa Heufler",
       "count": 1
     }
   ],
@@ -98,9 +103,18 @@
     {
       "from": "pmb1243",
       "to": "pmb168815",
+      "weight": 2,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 25. 9. 1911",
+        "Thomas Mann an Arthur Schnitzler, 22. 5. 1913"
+      ]
+    },
+    {
+      "from": "pmb1243",
+      "to": "pmb467",
       "weight": 1,
       "titles": [
-        "Thomas Mann an Arthur Schnitzler, 22. 5. 1913"
+        "Thomas Mann an Arthur Schnitzler, 7. 8. 1908"
       ]
     },
     {
@@ -114,18 +128,9 @@
     {
       "from": "pmb424",
       "to": "pmb168815",
-      "weight": 2,
-      "titles": [
-        "Thomas Mann an Arthur Schnitzler, 25. 9. 1911",
-        "Thomas Mann an Arthur Schnitzler, 27. 8. 1917"
-      ]
-    },
-    {
-      "from": "pmb424",
-      "to": "pmb168940",
       "weight": 1,
       "titles": [
-        "Thomas Mann an Arthur Schnitzler, 7. 8. 1908"
+        "Thomas Mann an Arthur Schnitzler, 27. 8. 1917"
       ]
     },
     {

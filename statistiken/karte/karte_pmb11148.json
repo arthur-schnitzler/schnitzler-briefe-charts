@@ -70,10 +70,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Blankenese",
-        "ref": "pmb1226",
-        "lat": 53.5652,
-        "lon": 9.7972
+        "name": "Parkstraße",
+        "ref": "pmb43459",
+        "lat": 52.57279,
+        "lon": 13.40334
       },
       "to": {
         "name": "Frankgasse 1",
@@ -117,10 +117,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Blankenese",
-        "ref": "pmb1226",
-        "lat": 53.5652,
-        "lon": 9.7972
+        "name": "Parkstraße",
+        "ref": "pmb43459",
+        "lat": 52.57279,
+        "lon": 13.40334
       },
       "to": {
         "name": "Frankgasse 1",
@@ -210,12 +210,17 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Parkstraße",
+        "ref": "pmb43459",
+        "lat": 52.57279,
+        "lon": 13.40334
+      },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       }
     },
     {
@@ -336,10 +341,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Hamburg",
-        "ref": "pmb506",
-        "lat": 53.55055,
-        "lon": 9.993333
+        "name": "Parkstraße",
+        "ref": "pmb43459",
+        "lat": 52.57279,
+        "lon": 13.40334
       },
       "to": {
         "name": "Brijuni",
@@ -368,10 +373,10 @@
         "lon": 13.76222
       },
       "to": {
-        "name": "Blankenese",
-        "ref": "pmb1226",
-        "lat": 53.5652,
-        "lon": 9.7972
+        "name": "Parkstraße",
+        "ref": "pmb43459",
+        "lat": 52.57279,
+        "lon": 13.40334
       }
     },
     {
@@ -388,10 +393,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Hamburg",
-        "ref": "pmb506",
-        "lat": 53.55055,
-        "lon": 9.993333
+        "name": "",
+        "ref": "pmb405602",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Sternwartestraße 71",

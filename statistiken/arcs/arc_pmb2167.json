@@ -144,7 +144,7 @@
     {
       "id": "pmb189",
       "name": "Semmering",
-      "count": 6
+      "count": 5
     },
     {
       "id": "pmb197",
@@ -289,7 +289,7 @@
     {
       "id": "pmb413",
       "name": "Südbahnhotel [Semmering]",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb414",
@@ -886,14 +886,6 @@
       ]
     },
     {
-      "from": "pmb189",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Felix Salten, 7. 11. 1903"
-      ]
-    },
-    {
       "from": "pmb213",
       "to": "pmb255105",
       "weight": 1,
@@ -924,6 +916,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Felix Salten, 29. 5. 1897"
+      ]
+    },
+    {
+      "from": "pmb413",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Felix Salten, 7. 11. 1903"
       ]
     },
     {

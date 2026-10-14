@@ -9,7 +9,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 16
+      "count": 17
     },
     {
       "id": "pmb212",
@@ -27,9 +27,14 @@
       "count": 1
     },
     {
+      "id": "pmb340520",
+      "name": "Vodičkova 15B",
+      "count": 2
+    },
+    {
       "id": "pmb340535",
       "name": "Villa Waldfrieden",
-      "count": 1
+      "count": 4
     },
     {
       "id": "pmb341236",
@@ -45,21 +50,6 @@
       "id": "pmb462",
       "name": "Venedig",
       "count": 1
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 1
-    },
-    {
-      "id": "pmb61048",
-      "name": "Schmargendorf",
-      "count": 2
-    },
-    {
-      "id": "pmb652",
-      "name": "Prag",
-      "count": 3
     }
   ],
   "links_from_schnitzler": [
@@ -82,18 +72,18 @@
     },
     {
       "from": "pmb168934",
-      "to": "pmb364288",
+      "to": "pmb340535",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 18. 5. und 20. 6. 1901?]"
+        "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899"
       ]
     },
     {
       "from": "pmb168934",
-      "to": "pmb652",
+      "to": "pmb364288",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899"
+        "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 18. 5. und 20. 6. 1901?]"
       ]
     },
     {
@@ -125,10 +115,21 @@
       ]
     },
     {
+      "from": "pmb340520",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Rainer Maria Rilke an Arthur Schnitzler, [Anfang?] April 1896",
+        "Rainer Maria Rilke: Widmungsexemplar Lieder am Volke geschenkt für Arthur Schnitzler, 1. 4. 1896"
+      ]
+    },
+    {
       "from": "pmb340535",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 3,
       "titles": [
+        "Rainer Maria Rilke an Arthur Schnitzler, 30. 3. 1899",
+        "Rainer Maria Rilke an Arthur Schnitzler, 15. 4. 1899",
         "Rainer Maria Rilke: Widmungsexemplar Lieder der Mädchen für Arthur Schnitzler, 14. 7. 1899"
       ]
     },
@@ -156,31 +157,6 @@
       "weight": 1,
       "titles": [
         "Rainer Maria Rilke: Widmungsexemplar Die Liebe der Magdalena für Arthur Schnitzler, 15. 5. 1912"
-      ]
-    },
-    {
-      "from": "pmb61048",
-      "to": "pmb168934",
-      "weight": 2,
-      "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, 30. 3. 1899",
-        "Rainer Maria Rilke an Arthur Schnitzler, 15. 4. 1899"
-      ]
-    },
-    {
-      "from": "pmb652",
-      "to": "pmb168934",
-      "weight": 1,
-      "titles": [
-        "Rainer Maria Rilke: Widmungsexemplar Lieder am Volke geschenkt für Arthur Schnitzler, 1. 4. 1896"
-      ]
-    },
-    {
-      "from": "pmb652",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, [Anfang?] April 1896"
       ]
     }
   ]

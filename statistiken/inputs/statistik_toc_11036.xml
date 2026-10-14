@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-13Z</date>
+            <date>2026-10-14Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11036.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -623,11 +623,11 @@
                      <persName ref="#pmb11036">Burckhard, Max</persName>
                      <date notBefore="1898-01-18" notAfter="1898-12-31" n="01">[nach dem
                   18. 1. 1898]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>
@@ -871,7 +871,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date notBefore="1905-06-10" notAfter="1912-12-31">[nach dem
+                  10. 6. 1905]</date>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11036">Burckhard, Max Eugen</ref>

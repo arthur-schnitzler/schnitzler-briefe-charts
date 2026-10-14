@@ -1454,10 +1454,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Salesianergasse 12",
+        "ref": "pmb192623",
+        "lat": 48.198484,
+        "lon": 16.380905
       }
     },
     {
@@ -1474,10 +1474,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Salesianergasse 12",
+        "ref": "pmb192623",
+        "lat": 48.198484,
+        "lon": 16.380905
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -1500,10 +1500,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Salesianergasse 12",
+        "ref": "pmb192623",
+        "lat": 48.198484,
+        "lon": 16.380905
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -1558,10 +1558,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Salesianergasse 12",
+        "ref": "pmb192623",
+        "lat": 48.198484,
+        "lon": 16.380905
       }
     },
     {
@@ -7654,16 +7654,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Hofmannsthal-Schlössl",
+        "ref": "pmb40297",
+        "lat": 48.133611,
+        "lon": 16.255556
       },
       "to": {
-        "name": "Frankgasse 1",
-        "ref": "pmb168934",
-        "lat": 48.21533,
-        "lon": 16.35736
+        "name": "Wildbad Waldbrunn",
+        "ref": "pmb723",
+        "lat": 46.751211,
+        "lon": 12.101269
       }
     },
     {
@@ -7680,16 +7680,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Rodaun",
-        "ref": "pmb173",
-        "lat": 48.132793312328,
-        "lon": 16.256152195922
+        "name": "Heiligenkreuz",
+        "ref": "pmb939",
+        "lat": 48.04261,
+        "lon": 16.15292
       },
       "to": {
-        "name": "Frankgasse 1",
-        "ref": "pmb168934",
-        "lat": 48.21533,
-        "lon": 16.35736
+        "name": "Wildbad Waldbrunn",
+        "ref": "pmb723",
+        "lat": 46.751211,
+        "lon": 12.101269
       }
     },
     {
@@ -7851,7 +7851,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Hofmannsthal-Schlössl",
+        "ref": "pmb40297",
+        "lat": 48.133611,
+        "lon": 16.255556
+      },
       "to": {
         "name": "Frankgasse 1",
         "ref": "pmb168934",
@@ -7872,7 +7877,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Hofmannsthal-Schlössl",
+        "ref": "pmb40297",
+        "lat": 48.133611,
+        "lon": 16.255556
+      },
       "to": {
         "name": "Frankgasse 1",
         "ref": "pmb168934",
@@ -7900,10 +7910,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hofmannsthal-Schlössl",
+        "ref": "pmb40297",
+        "lat": 48.133611,
+        "lon": 16.255556
       }
     },
     {
@@ -7920,10 +7930,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hofmannsthal-Schlössl",
+        "ref": "pmb40297",
+        "lat": 48.133611,
+        "lon": 16.255556
       },
       "to": {
         "name": "Frankgasse 1",
@@ -9296,10 +9306,10 @@
       },
       "from": null,
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       }
     },
     {
@@ -9791,10 +9801,10 @@
         "lon": 12.85366
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       }
     },
     {
@@ -9811,10 +9821,10 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       },
       "to": {
         "name": "Bad Fusch",
@@ -10733,10 +10743,10 @@
         "lon": 14.12842
       },
       "to": {
-        "name": "Edmund-Weiß-Gasse 7",
-        "ref": "pmb168940",
-        "lat": 48.2304,
-        "lon": 16.33472
+        "name": "Kurhaus Rudolfsbad",
+        "ref": "pmb44982",
+        "lat": 47.69852,
+        "lon": 15.84453
       }
     },
     {
@@ -11174,15 +11184,15 @@
     {
       "id": "L01596",
       "title": "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 5. 1906",
-      "type": "von partner",
+      "type": "umfeld schnitzler",
       "date": "1906-05-07",
       "sender": {
         "name": "Hofmannsthal, Hugo von",
         "ref": "pmb11740"
       },
       "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
+        "name": "",
+        "ref": ""
       },
       "from": {
         "name": "Hofmannsthal-Schlössl",
@@ -11190,12 +11200,7 @@
         "lat": 48.133611,
         "lon": 16.255556
       },
-      "to": {
-        "name": "Edmund-Weiß-Gasse 7",
-        "ref": "pmb168940",
-        "lat": 48.2304,
-        "lon": 16.33472
-      }
+      "to": null
     },
     {
       "id": "L01602",
@@ -14803,10 +14808,10 @@
         "lon": 16.373056
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
       }
     },
     {

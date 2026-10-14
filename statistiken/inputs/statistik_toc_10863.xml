@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-13Z</date>
+            <date>2026-10-14Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10863.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1724,7 +1724,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date evidence="conjecture" notBefore="1892-12-27" notAfter="1892-12-29">[27. 12. 1892 – 31. 12. 1892?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -1749,7 +1749,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1892-12-28" n="01">[28. 12. 1892?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1851,7 +1851,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1893-01-31" n="01">[31.? 1. 1893]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1913,7 +1913,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1893-01-31" n="03">31. 1. 1893</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4450,7 +4450,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date notBefore="1894-09-06" notAfter="1894-09-10">[6. 9. 1894 – 10. 9. 1894]</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -17786,13 +17787,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1902-03-08" n="02">8. 3. 1902</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1902-03-09" notAfter="1902-03-13">[9. 3. 1902
                   – 13. 3. 1902?]</date>
-                     <placeName evidence="conjecture" ref="#pmb168934">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -17965,18 +17966,18 @@
                <measure unit="zeichenanzahl" quantity="274"/>
             </item>
             <item corresp="L01193">
-               <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [16. 6. 1902?]</title>
+               <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [16. oder 17. 6. 1902?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1902-06-16" n="01">[16. 6. 1902?]</date>
+                     <date notBefore="1902-06-16" notAfter="1902-06-17" n="01">[16. oder 17. 6. 1902?]</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
-                     <date evidence="conjecture" notBefore="1902-06-17" notAfter="1902-06-21">[17. 6. 1902
+                     <date evidence="conjecture" notBefore="1902-06-15" notAfter="1902-06-21">[17. 6. 1902
                   – 21. 6. 1902?]</date>
-                     <placeName ref="#pmb189">Semmering</placeName>
+                     <placeName ref="#pmb231810" evidence="conjecture">Willergasse 2</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -17993,7 +17994,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="34"/>
+               <measure unit="zeichenanzahl" quantity="33"/>
             </item>
             <item corresp="L01226">
                <title level="a">Hugo von Hofmannsthal und Arthur Schnitzler an Richard Beer-Hofmann,
@@ -18157,13 +18158,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1902-11-04" n="01">4. 11. 1902</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1902-11-05" notAfter="1902-11-09">[5. 11. 1902
                   – 9. 11. 1902?]</date>
-                     <placeName evidence="conjecture" ref="#pmb168934">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -18226,12 +18227,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1902-12-24" n="01">[24. 12. 1902]</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1902-12-25" notAfter="1902-12-29">[25. 12. 1902 – 29. 12. 1902?]</date>
-                     <placeName evidence="conjecture" ref="#pmb168934">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -18372,12 +18373,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1903-01-18" n="01">18. 1. 1903</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1903-01-18" notAfter="1903-01-22">[18. 1. 1903
                   – 22. 1. 1903?]</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -18818,13 +18820,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1903-08-07" n="02">7. 8. 1903</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1903-08-08" notAfter="1903-08-12">[8. 8. 1903
                   – 12. 8. 1903?]</date>
-                     <placeName ref="#pmb168934">Wien</placeName>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -18953,7 +18955,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1903-08-24" n="01">24. 8. [1903]</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -19325,7 +19327,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1904-06-09">9. 6. 1904</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -19644,7 +19646,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1904-09-06" notAfter="1904-09-10">[6. 9. 1904
                   – 10. 9. 1904?]</date>
-                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                     <placeName ref="#pmb824">Hotel und Pension Lueg</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -19969,12 +19971,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1904-10-30" n="01">30. 10. 1904</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1904-10-31" notAfter="1904-11-04">[31. 10. 1904 – 4. 11. 1904?]</date>
-                     <placeName ref="#pmb168940">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -20067,13 +20069,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1904-11-04" n="01">4. 11. 1904</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1904-11-05" notAfter="1904-11-09">[5. 11. 1904
                   – 9. 11. 1904?]</date>
-                     <placeName ref="#pmb168940">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -20135,12 +20137,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1904-11-09" n="01">9. 11. 1904</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1904-11-10" notAfter="1904-11-14">[10. 11. 1904 – 14. 11. 1904?]</date>
-                     <placeName ref="#pmb168940">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -20203,12 +20205,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1904-11-12" n="01">12. 11. 1904</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1904-11-13" notAfter="1904-11-17">[13. 11. 1904 – 17. 11. 1904?]</date>
-                     <placeName ref="#pmb168940">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -20648,7 +20650,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1905-05-08">8. 5. 1905</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -20787,13 +20789,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1905-05-25" n="01">25. 5. 1905</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1905-05-26" notAfter="1905-05-30">[26. 5. 1905
                   – 30. 5. 1905?]</date>
-                     <placeName ref="#pmb168940">Wien</placeName>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -21042,7 +21044,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1905-07-25" n="01">25. 7. 1905</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -21082,7 +21084,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1905-07-31">31. VII. 05</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -21653,7 +21655,7 @@
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date evidence="conjecture" notBefore="1906-08-04" notAfter="1906-08-08">[4. 8. 1906
                   – 8. 8. 1906?]</date>
-                     <placeName ref="#pmb173">Rodaun</placeName>
+                     <placeName ref="#pmb231810">Willergasse 2</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -22372,9 +22374,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1907-08-30" notAfter="1907-09-03">[30. 8. 1907
-                  – 3. 9. 1907?]</date>
-                     <placeName ref="#pmb40371">Karersee</placeName>
+                     <date evidence="conjecture" when="1907-09-13">[13. 9. 1907?]</date>
+                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>

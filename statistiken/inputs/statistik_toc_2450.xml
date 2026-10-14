@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-13Z</date>
+            <date>2026-10-14Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2450.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,12 +70,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2450">Fels, Friedrich M.</persName>
                      <date when="1892-12-31" n="02">[Ende 1892?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb52">II., Leopoldstadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1892-12-31" notAfter="1893-01-02">[31. 12. 1892 – 4. 1. 1893?]</date>
-                     <placeName ref="#pmb167782">Wien</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2450">Fels, Friedrich M.</ref>
@@ -100,12 +100,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2450">Fels, Friedrich M.</persName>
                      <date when="1892-12-31" n="03">[vor dem 1. 1. 1893?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb52">II., Leopoldstadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1892-12-31" notAfter="1893-01-02">[31. 12. 1892 – 4. 1. 1893?]</date>
-                     <placeName ref="#pmb167782">Wien</placeName>
+                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2450">Fels, Friedrich M.</ref>
@@ -130,7 +130,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2450">Fels, Friedrich M.</persName>
                      <date when="1893-01-01" n="02">[1. 1. 1893?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255099">Reisnerstraße</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -161,7 +161,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2450">Fels, Friedrich M.</persName>
                      <date when="1893-01-01" n="03">[1. 1. 1893?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb52">II., Leopoldstadt</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -192,7 +192,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2450">Fels, Friedrich M.</persName>
                      <date when="1893-01-20" n="01">[20. 1. 1893]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb206983">Strohgasse 3</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -761,7 +761,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <date notBefore="1895-06-01" notAfter="1895-06-15">[1. Hälfte Juni
+                  1895?]</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2450">Fels, Friedrich M.</ref>

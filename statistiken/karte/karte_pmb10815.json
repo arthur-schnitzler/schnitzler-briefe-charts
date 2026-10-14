@@ -1642,10 +1642,10 @@
       },
       "from": null,
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       }
     },
     {
@@ -3307,10 +3307,10 @@
       },
       "from": null,
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       }
     },
     {
@@ -3535,16 +3535,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Steyrerhof",
+        "ref": "pmb683",
+        "lat": 48.21117,
+        "lon": 16.37606
       },
       "to": {
-        "name": "Frankgasse 1",
-        "ref": "pmb168934",
-        "lat": 48.21533,
-        "lon": 16.35736
+        "name": "Hotel Bristol Berlin",
+        "ref": "pmb127",
+        "lat": 52.516152,
+        "lon": 13.383456
       }
     },
     {
@@ -3666,10 +3666,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Steyrerhof",
+        "ref": "pmb683",
+        "lat": 48.21117,
+        "lon": 16.37606
       }
     },
     {
@@ -5820,10 +5820,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Haus Bahr",
+        "ref": "pmb207274",
+        "lat": 48.186771,
+        "lon": 16.261305
       }
     },
     {
@@ -5866,12 +5866,17 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Reichenau an der Rax",
-        "ref": "pmb483",
-        "lat": 47.7,
-        "lon": 15.83333
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       },
-      "to": null
+      "to": {
+        "name": "Haus Bahr",
+        "ref": "pmb207274",
+        "lat": 48.186771,
+        "lon": 16.261305
+      }
     },
     {
       "id": "L01535",
@@ -6402,12 +6407,17 @@
         "ref": "pmb10815"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
-      "to": null
+      "to": {
+        "name": "Haus Bahr",
+        "ref": "pmb207274",
+        "lat": 48.186771,
+        "lon": 16.261305
+      }
     },
     {
       "id": "L01607",
@@ -7375,16 +7385,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Haus Bahr",
+        "ref": "pmb207274",
+        "lat": 48.186771,
+        "lon": 16.261305
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
       }
     },
     {

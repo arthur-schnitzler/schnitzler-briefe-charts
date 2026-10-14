@@ -39,7 +39,7 @@
     {
       "id": "pmb295215",
       "name": "Pension Serno",
-      "count": 2
+      "count": 5
     },
     {
       "id": "pmb296017",
@@ -67,11 +67,6 @@
       "count": 1
     },
     {
-      "id": "pmb45258",
-      "name": "München",
-      "count": 3
-    },
-    {
       "id": "pmb592",
       "name": "5, rue de Maubeuge",
       "count": 1
@@ -80,7 +75,7 @@
   "links_from_schnitzler": [
     {
       "from": "pmb168815",
-      "to": "pmb45258",
+      "to": "pmb295215",
       "weight": 2,
       "titles": [
         "Arthur Schnitzler an Elsa Ginsberg-Plessner, 12. 1. 1916",
@@ -162,10 +157,11 @@
     {
       "from": "pmb295215",
       "to": "pmb168815",
-      "weight": 2,
+      "weight": 3,
       "titles": [
         "Elsa Ginsberg-Plessner an Arthur Schnitzler, 15. 11. 1915",
-        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 9. 1. 1916"
+        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 9. 1. 1916",
+        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 13. 1. 1916"
       ]
     },
     {
@@ -204,14 +200,6 @@
       "weight": 1,
       "titles": [
         "Elsa Ginsberg-Plessner an Arthur Schnitzler, 6. 12. 1912"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Elsa Ginsberg-Plessner an Arthur Schnitzler, 13. 1. 1916"
       ]
     }
   ]

@@ -39,7 +39,7 @@
     {
       "id": "pmb232296",
       "name": "Mahlerstraße 13",
-      "count": 5
+      "count": 7
     },
     {
       "id": "pmb365220",
@@ -54,7 +54,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 9
+      "count": 7
     },
     {
       "id": "pmb756",
@@ -107,10 +107,12 @@
     {
       "from": "pmb232296",
       "to": "pmb167782",
-      "weight": 4,
+      "weight": 6,
       "titles": [
         "Karl Kraus an Arthur Schnitzler, 31. 10. 1892",
         "Karl Kraus an Arthur Schnitzler, 31. 12. 1892",
+        "Karl Kraus an Arthur Schnitzler, 11. 1. 1893",
+        "Karl Kraus an Arthur Schnitzler, 22. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 26. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 22. 3. 1893"
       ]
@@ -142,10 +144,8 @@
     {
       "from": "pmb50",
       "to": "pmb167782",
-      "weight": 5,
+      "weight": 3,
       "titles": [
-        "Karl Kraus an Arthur Schnitzler, 11. 1. 1893",
-        "Karl Kraus an Arthur Schnitzler, 22. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 19. 3. 1893",
         "Karl Kraus an Arthur Schnitzler, 2. 5. 1893",
         "Karl Kraus an Arthur Schnitzler, 5. 5. 1893"
