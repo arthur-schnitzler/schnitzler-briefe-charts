@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-14Z</date>
+            <date>2026-10-15Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12438.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -927,11 +927,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1915-10-21" n="01">21. 10. 1915</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365563">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1915-10-21" notAfter="1915-10-23">[21. 10. 1915 – 25. 10. 1915?]</date>
+                     <date evidence="conjecture" when="1915-10-26">[26. 10. 1915?]</date>
                      <placeName ref="#pmb168815">Wien</placeName>
                   </correspAction>
                   <correspContext>
@@ -1189,13 +1189,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1916-09-24" n="01">24. 9. 1916</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1916-09-24" notAfter="1916-09-26">[24. 9. 1916
-                  – 28. 9. 1916?]</date>
-                     <placeName ref="#pmb168815">Wien</placeName>
+                     <date evidence="conjecture" when="1916-09-30">[30. 9. 1916?]</date>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1686,13 +1685,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1917-06-19" n="01">19. 6. 1917</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1917-06-19" notAfter="1917-06-21">[19. 6. 1917
-                  – 23. 6. 1917?]</date>
-                     <placeName ref="#pmb168815">Wien</placeName>
+                     <date evidence="conjecture" when="1917-06-22">[22. 6. 1917?]</date>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3183,8 +3181,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1922-05-14" notAfter="1922-05-18">[14. 5. 1922
-                  – 18. 5. 1922?]</date>
+                     <date evidence="conjecture" when="1922-05-19">[19. 5. 1922?]</date>
                      <placeName ref="#pmb168815">Wien</placeName>
                   </correspAction>
                   <correspContext>

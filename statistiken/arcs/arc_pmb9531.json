@@ -2,11 +2,6 @@
   "correspondent": "Rilke, Rainer Maria",
   "nodes": [
     {
-      "id": "pmb168",
-      "name": "Berlin",
-      "count": 1
-    },
-    {
       "id": "pmb168934",
       "name": "Frankgasse 1",
       "count": 17
@@ -19,7 +14,7 @@
     {
       "id": "pmb258929",
       "name": "Westerwede",
-      "count": 7
+      "count": 2
     },
     {
       "id": "pmb34050",
@@ -34,61 +29,54 @@
     {
       "id": "pmb340535",
       "name": "Villa Waldfrieden",
-      "count": 4
-    },
-    {
-      "id": "pmb341236",
-      "name": "Weißer Hirsch",
-      "count": 1
+      "count": 5
     },
     {
       "id": "pmb364288",
       "name": "Westerweder Straße 12",
-      "count": 4
+      "count": 9
     },
     {
       "id": "pmb462",
       "name": "Venedig",
+      "count": 1
+    },
+    {
+      "id": "pmb580",
+      "name": "Dr. Lahmann’s Sanatorium",
       "count": 1
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168934",
-      "to": "pmb168",
+      "to": "pmb258929",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, 20. 1. 1900"
-      ]
-    },
-    {
-      "from": "pmb168934",
-      "to": "pmb258929",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, 7. 12. 1901",
         "Arthur Schnitzler an Rainer Maria Rilke, 17. 1. 1902"
       ]
     },
     {
       "from": "pmb168934",
       "to": "pmb340535",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899"
+        "Arthur Schnitzler an Rainer Maria Rilke, 13. 4. 1899",
+        "Arthur Schnitzler an Rainer Maria Rilke, 20. 1. 1900"
       ]
     },
     {
       "from": "pmb168934",
       "to": "pmb364288",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 18. 5. und 20. 6. 1901?]"
+        "Arthur Schnitzler an Rainer Maria Rilke, [zwischen 18. 5. und 23. 6. 1901?]",
+        "Arthur Schnitzler an Rainer Maria Rilke, 7. 12. 1901"
       ]
     },
     {
       "from": "pmb212",
-      "to": "pmb258929",
+      "to": "pmb364288",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Rainer Maria Rilke, 4. 7. 1901"
@@ -99,19 +87,9 @@
     {
       "from": "pmb258929",
       "to": "pmb168934",
-      "weight": 3,
-      "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
-        "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]",
-        "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]"
-      ]
-    },
-    {
-      "from": "pmb258929",
-      "to": "pmb212",
       "weight": 1,
       "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, 24. 6. 1901"
+        "Rainer Maria Rilke: Widmungsexemplar Das tägliche Leben für Arthur Schnitzler, [18. 1. 1902]"
       ]
     },
     {
@@ -134,21 +112,23 @@
       ]
     },
     {
-      "from": "pmb341236",
+      "from": "pmb364288",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 5,
       "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, [zwischen 3. und 17.? 5. 1901]"
+        "Rainer Maria Rilke an Arthur Schnitzler, 3. 12. 1901",
+        "Rainer Maria Rilke: Widmungsexemplar Die Letzten für Arthur Schnitzler, [3. 12. 1901]",
+        "Rainer Maria Rilke an Arthur Schnitzler, [Ende 1901]",
+        "Rainer Maria Rilke an Arthur Schnitzler, 14. 1. 1902",
+        "Rainer Maria Rilke an Arthur Schnitzler, 19. 1. 1902"
       ]
     },
     {
       "from": "pmb364288",
-      "to": "pmb168934",
-      "weight": 3,
+      "to": "pmb212",
+      "weight": 1,
       "titles": [
-        "Rainer Maria Rilke an Arthur Schnitzler, [Ende 1901]",
-        "Rainer Maria Rilke an Arthur Schnitzler, 14. 1. 1902",
-        "Rainer Maria Rilke an Arthur Schnitzler, 19. 1. 1902"
+        "Rainer Maria Rilke an Arthur Schnitzler, 24. 6. 1901"
       ]
     },
     {
@@ -157,6 +137,14 @@
       "weight": 1,
       "titles": [
         "Rainer Maria Rilke: Widmungsexemplar Die Liebe der Magdalena für Arthur Schnitzler, 15. 5. 1912"
+      ]
+    },
+    {
+      "from": "pmb580",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Rainer Maria Rilke an Arthur Schnitzler, [zwischen 5. und 17.? 5. 1901]"
       ]
     }
   ]

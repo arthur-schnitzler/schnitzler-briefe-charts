@@ -18,7 +18,7 @@
         "ref": "pmb11036"
       },
       "from": {
-        "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+        "name": "Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11",
         "ref": "pmb167789",
         "lat": 48.2012,
         "lon": 16.37188
@@ -50,7 +50,7 @@
         "lon": 16.361139
       },
       "to": {
-        "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+        "name": "Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11",
         "ref": "pmb167789",
         "lat": 48.2012,
         "lon": 16.37188
@@ -1102,10 +1102,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "",
+        "name": "Franzosenschanze 4",
         "ref": "pmb234399",
-        "lat": null,
-        "lon": null
+        "lat": 47.74443,
+        "lon": 13.385272
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -1128,10 +1128,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "",
+        "name": "Franzosenschanze 4",
         "ref": "pmb234399",
-        "lat": null,
-        "lon": null
+        "lat": 47.74443,
+        "lon": 13.385272
       },
       "to": {
         "name": "Edlach an der Rax",
@@ -1284,16 +1284,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "St. Gilgen",
-        "ref": "pmb33",
-        "lat": 47.76667,
-        "lon": 13.36667
+        "name": "Franzosenschanze 4",
+        "ref": "pmb234399",
+        "lat": 47.74443,
+        "lon": 13.385272
       },
       "to": {
-        "name": "Sternwartestraße 71",
-        "ref": "pmb168815",
-        "lat": 48.23188,
-        "lon": 16.33716
+        "name": "Waldhof, Dependance des Südbahnhotels Semmering",
+        "ref": "pmb252271",
+        "lat": 47.64618171,
+        "lon": 15.8246089
       }
     },
     {
@@ -1335,7 +1335,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Lichtenfelsgasse 7",
+        "ref": "pmb234454",
+        "lat": 48.209934,
+        "lon": 16.356392
+      },
       "to": {
         "name": "Sternwartestraße 71",
         "ref": "pmb168815",

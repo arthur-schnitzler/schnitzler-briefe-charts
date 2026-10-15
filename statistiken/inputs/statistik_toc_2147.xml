@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-14Z</date>
+            <date>2026-10-15Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2147.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -479,18 +479,18 @@
                <measure unit="zeichenanzahl" quantity="127"/>
             </item>
             <item corresp="L02062">
-               <title level="a">Peter Altenberg an Arthur Schnitzler, [10.? 5. 1912]</title>
+               <title level="a">Peter Altenberg an Arthur Schnitzler, [zwischen 10. und 31. 5. 1912]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2147">Altenberg, Peter</persName>
-                     <date when="1912-05-10" n="01">[10.? 5. 1912]</date>
-                     <placeName ref="#pmb189">Semmering</placeName>
+                     <date notBefore="1912-05-10" notAfter="1912-05-31" n="01">[zwischen 10. und 31. 5. 1912]</date>
+                     <placeName ref="#pmb204">Hotel Panhans</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1912-05-10" notAfter="1912-05-12">[10. 5. 1912
-                  – 14. 5. 1912?]</date>
-                     <placeName ref="#pmb189">Semmering</placeName>
+                     <date evidence="conjecture" notBefore="1912-05-10" notAfter="1912-05-30">[10. 5. 1912
+                  – 30. 5. 1912?]</date>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2147">Altenberg, Peter</ref>
@@ -584,9 +584,13 @@
                      <date when="1912-12-01" n="01">1. 12. 191[2]</date>
                      <placeName ref="#pmb189">Semmering</placeName>
                   </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1912-12-01">1. 12. 191[2]</date>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1912-12-01">1. 12. 191[2]</date>
+                     <date when="1912-12-02" evidence="conjecture">2. 12. 191[2]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>

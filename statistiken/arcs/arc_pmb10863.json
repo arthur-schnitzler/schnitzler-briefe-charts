@@ -73,7 +73,7 @@
     },
     {
       "id": "pmb167789",
-      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "name": "Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11",
       "count": 37
     },
     {
@@ -158,7 +158,7 @@
     },
     {
       "id": "pmb245386",
-      "name": "",
+      "name": "Hotel Beaurivage",
       "count": 1
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "id": "pmb246913",
-      "name": "",
+      "name": "Posthotel",
       "count": 1
     },
     {
@@ -178,7 +178,7 @@
     },
     {
       "id": "pmb250702",
-      "name": "",
+      "name": "Hotel Haus Gibson",
       "count": 1
     },
     {
@@ -188,7 +188,7 @@
     },
     {
       "id": "pmb251480",
-      "name": "",
+      "name": "Villa Döllgast",
       "count": 1
     },
     {
@@ -213,7 +213,7 @@
     },
     {
       "id": "pmb263384",
-      "name": "",
+      "name": "Villa Viola",
       "count": 2
     },
     {
@@ -249,6 +249,11 @@
     {
       "id": "pmb34018",
       "name": "Hotel Elefant [Graz]",
+      "count": 1
+    },
+    {
+      "id": "pmb34050",
+      "name": "Hotel de l’Europe [Venedig]",
       "count": 1
     },
     {
@@ -348,7 +353,7 @@
     },
     {
       "id": "pmb365086",
-      "name": "?? [Nördlich der Lofoten im Atlanik]",
+      "name": "?? [Nördlich der Lofoten im Atlantik]",
       "count": 1
     },
     {
@@ -433,12 +438,12 @@
     },
     {
       "id": "pmb405441",
-      "name": "",
+      "name": "Grazer Straße 6 [Bad Ischl]",
       "count": 5
     },
     {
       "id": "pmb405576",
-      "name": "",
+      "name": "Trondhjems postkontor",
       "count": 1
     },
     {
@@ -579,7 +584,7 @@
     {
       "id": "pmb428",
       "name": "Welsberg-Taisten",
-      "count": 6
+      "count": 5
     },
     {
       "id": "pmb42960",
@@ -989,7 +994,7 @@
     {
       "id": "pmb723",
       "name": "Wildbad Waldbrunn",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb734",
@@ -2273,6 +2278,14 @@
       ]
     },
     {
+      "from": "pmb34050",
+      "to": "pmb462",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 15. 5. 1912"
+      ]
+    },
+    {
       "from": "pmb34387",
       "to": "pmb43462",
       "weight": 5,
@@ -2519,14 +2532,6 @@
       ]
     },
     {
-      "from": "pmb428",
-      "to": "pmb45277",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 29. 7. 1907"
-      ]
-    },
-    {
       "from": "pmb42960",
       "to": "pmb40788",
       "weight": 1,
@@ -2717,14 +2722,6 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Richard Beer-Hofmann, 1. 6. 1903"
-      ]
-    },
-    {
-      "from": "pmb462",
-      "to": "pmb462",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 15. 5. 1912"
       ]
     },
     {
@@ -3022,9 +3019,10 @@
     {
       "from": "pmb723",
       "to": "pmb45277",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 11. 7. 1907"
+        "Arthur Schnitzler an Richard Beer-Hofmann, 11. 7. 1907",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 29. 7. 1907"
       ]
     },
     {

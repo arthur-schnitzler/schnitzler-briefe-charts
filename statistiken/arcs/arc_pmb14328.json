@@ -8,7 +8,7 @@
     },
     {
       "id": "pmb167789",
-      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "name": "Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11",
       "count": 4
     },
     {
@@ -39,12 +39,7 @@
     {
       "id": "pmb35644",
       "name": "Villa Blumenthal",
-      "count": 1
-    },
-    {
-      "id": "pmb35658",
-      "name": "Lauffen",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb592",
@@ -109,18 +104,18 @@
     },
     {
       "from": "pmb35644",
-      "to": "pmb592",
-      "weight": 1,
-      "titles": [
-        "Oscar Blumenthal an Arthur Schnitzler, 12. 5. 1897"
-      ]
-    },
-    {
-      "from": "pmb35658",
       "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Oscar Blumenthal an Arthur Schnitzler, 14. 5. 1912"
+      ]
+    },
+    {
+      "from": "pmb35644",
+      "to": "pmb592",
+      "weight": 1,
+      "titles": [
+        "Oscar Blumenthal an Arthur Schnitzler, 12. 5. 1897"
       ]
     }
   ]

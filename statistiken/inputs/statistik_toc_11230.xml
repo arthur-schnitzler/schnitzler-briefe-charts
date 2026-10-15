@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-14Z</date>
+            <date>2026-10-15Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11230.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1503,13 +1503,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11230">Ehrenstein, Albert</persName>
                      <date when="1911-04-27" n="01">27. 4. 1911</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb386">Universität Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1911-04-27" notAfter="1911-04-29">[27. 4. 1911
-                  – 1. 5. 1911?]</date>
-                     <placeName ref="#pmb168815">Wien</placeName>
+                     <date evidence="external" when="1911-05-03">3. 5. 1911</date>
+                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
@@ -1540,17 +1539,20 @@
                      <persName ref="#pmb11230">Ehrenstein, Albert</persName>
                      <date evidence="conjecture" notBefore="1911-05-06" notAfter="1911-05-08">[6. 5. 1911
                   – 10. 5. 1911?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb386">Universität Wien</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein, Albert</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02018">Schnitzler an Brandes, 29. 4. 1911</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L03997">Zuckerkandl an Schnitzler, [zwischen 12. 5. 1911 und
-                  21. 5. 1911?]</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_11230">Ehrenstein,
+                  Albert</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02018">Schnitzler an
+                  Brandes, 29. 4. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03997">Zuckerkandl an
+                  Schnitzler, [zwischen 12. 5. 1911 und 21. 5. 1911?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11230"
-                          target="L02017">Ehrenstein an Schnitzler, 27. 4. 1911</ref>
+                          target="L02017">Ehrenstein an Schnitzler,
+                  27. 4. 1911</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11230"

@@ -8,7 +8,7 @@
     },
     {
       "id": "pmb167789",
-      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "name": "Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11",
       "count": 2
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb168934",
@@ -33,13 +33,23 @@
     },
     {
       "id": "pmb234399",
-      "name": "",
-      "count": 2
+      "name": "Franzosenschanze 4",
+      "count": 3
+    },
+    {
+      "id": "pmb234454",
+      "name": "Lichtenfelsgasse 7",
+      "count": 1
+    },
+    {
+      "id": "pmb252271",
+      "name": "Waldhof, Dependance des Südbahnhotels Semmering",
+      "count": 1
     },
     {
       "id": "pmb33",
       "name": "St. Gilgen",
-      "count": 11
+      "count": 10
     },
     {
       "id": "pmb45258",
@@ -122,6 +132,14 @@
     },
     {
       "from": "pmb234399",
+      "to": "pmb252271",
+      "weight": 1,
+      "titles": [
+        "Max Burckhard an Arthur Schnitzler, 23. 8. 1911"
+      ]
+    },
+    {
+      "from": "pmb234399",
       "to": "pmb470",
       "weight": 1,
       "titles": [
@@ -129,11 +147,11 @@
       ]
     },
     {
-      "from": "pmb33",
+      "from": "pmb234454",
       "to": "pmb168815",
       "weight": 1,
       "titles": [
-        "Max Burckhard an Arthur Schnitzler, 23. 8. 1911"
+        "Max Burckhard: Widmungsexemplar Scala Santa für Arthur Schnitzler, 8. 11. 1911"
       ]
     },
     {

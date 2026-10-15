@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-14Z</date>
+            <date>2026-10-15Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10992.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1094,43 +1094,12 @@
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="206"/>
             </item>
-            <item corresp="L01029">
-               <title level="a">Georg Brandes an Arthur Schnitzler, 3. 4. [1900]</title>
-               <correspDesc>
-                  <correspAction type="sent">
-                     <persName ref="#pmb10992">Brandes, Georg</persName>
-                     <date when="1900-04-03" n="05">3. 4. [1900]</date>
-                     <placeName ref="#pmb1121">Hotel Royal [Budapest]</placeName>
-                  </correspAction>
-                  <correspAction type="received">
-                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1900-04-04" notAfter="1900-04-07">[4. 4. 1900
-                  – 7. 4. 1900?]</date>
-                     <placeName ref="#pmb38096">Opatija</placeName>
-                  </correspAction>
-                  <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04378">Schnitzler an Schwarzkopf, 3. 4. 1900</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01028">Brandes an Schnitzler, [3. 4. 1900?]</ref>
-                     <ref subtype="previous_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_10992"
-                          target="L01022">Brandes an Schnitzler, [18. 3. 1900]</ref>
-                     <ref subtype="next_letter"
-                          type="withinCorrespondence"
-                          source="correspondence_10992"
-                          target="L01028">Brandes an Schnitzler, [3. 4. 1900?]</ref>
-                  </correspContext>
-               </correspDesc>
-               <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="579"/>
-            </item>
             <item corresp="L01028">
                <title level="a">Georg Brandes an Arthur Schnitzler, [3. 4. 1900?]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
-                     <date when="1900-04-03" n="06">[3. 4. 1900?]</date>
+                     <date when="1900-04-03" n="05">[3. 4. 1900?]</date>
                      <placeName ref="#pmb43471">Budapest</placeName>
                   </correspAction>
                   <correspAction type="delivered">
@@ -1157,6 +1126,37 @@
                </correspDesc>
                <objectType corresp="telegramm"/>
                <measure unit="zeichenanzahl" quantity="136"/>
+            </item>
+            <item corresp="L01029">
+               <title level="a">Georg Brandes an Arthur Schnitzler, 3. 4. [1900]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb10992">Brandes, Georg</persName>
+                     <date when="1900-04-03" n="06">3. 4. [1900]</date>
+                     <placeName ref="#pmb1121">Hotel Royal [Budapest]</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1900-04-04" notAfter="1900-04-07">[4. 4. 1900
+                  – 7. 4. 1900?]</date>
+                     <placeName ref="#pmb38096">Opatija</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04378">Schnitzler an Schwarzkopf, 3. 4. 1900</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01028">Brandes an Schnitzler, [3. 4. 1900?]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10992"
+                          target="L01022">Brandes an Schnitzler, [18. 3. 1900]</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_10992"
+                          target="L01028">Brandes an Schnitzler, [3. 4. 1900?]</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="579"/>
             </item>
             <item corresp="L01033">
                <title level="a">Georg Brandes an Arthur Schnitzler, 30. 4. 1900</title>
@@ -3310,8 +3310,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1922-05-16" notAfter="1922-05-20">[16. 5. 1922
-                  – 20. 5. 1922?]</date>
+                     <date evidence="conjecture" when="1922-05-19">[19. 5. 1922?]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>

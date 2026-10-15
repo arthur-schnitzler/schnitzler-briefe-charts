@@ -33,7 +33,7 @@
     },
     {
       "id": "pmb167789",
-      "name": "Ordination Arthur Schnitzler [Bösendorferstraße 11]",
+      "name": "Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11",
       "count": 44
     },
     {
@@ -49,7 +49,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 120
+      "count": 118
     },
     {
       "id": "pmb168934",
@@ -104,7 +104,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 17
+      "count": 16
     },
     {
       "id": "pmb230",
@@ -113,7 +113,7 @@
     },
     {
       "id": "pmb231658",
-      "name": "",
+      "name": "Günthergasse 1",
       "count": 1
     },
     {
@@ -128,7 +128,7 @@
     },
     {
       "id": "pmb257071",
-      "name": "",
+      "name": "Elisabethstraße 6",
       "count": 1
     },
     {
@@ -353,7 +353,7 @@
     },
     {
       "id": "pmb405571",
-      "name": "",
+      "name": "Hauptpostamt München I",
       "count": 1
     },
     {
@@ -452,6 +452,11 @@
       "count": 6
     },
     {
+      "id": "pmb45260",
+      "name": "Brijuni",
+      "count": 1
+    },
+    {
       "id": "pmb45264",
       "name": "Monreale",
       "count": 1
@@ -537,6 +542,11 @@
       "count": 1
     },
     {
+      "id": "pmb655",
+      "name": "Hotel Kaiserkrone",
+      "count": 1
+    },
+    {
       "id": "pmb656",
       "name": "Ramgut",
       "count": 1
@@ -588,7 +598,7 @@
     },
     {
       "id": "pmb89",
-      "name": "Sanatorium Loew",
+      "name": "Sanatorium Dr. Anton Loew",
       "count": 1
     },
     {
@@ -1562,14 +1572,6 @@
     },
     {
       "from": "pmb213",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, [6. 8. 1915]"
-      ]
-    },
-    {
-      "from": "pmb213",
       "to": "pmb40903",
       "weight": 1,
       "titles": [
@@ -2102,10 +2104,9 @@
     {
       "from": "pmb415",
       "to": "pmb168815",
-      "weight": 12,
+      "weight": 11,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 11. 9. 1911",
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 5. 8. [1912]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 11. 9. [1914]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 17. 8. [1918]",
         "Hugo Hofmannsthal an Arthur Schnitzler, 19. 9. 1919",
@@ -2139,6 +2140,14 @@
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 24. 7. [1916]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [25. 8. 1916]"
+      ]
+    },
+    {
+      "from": "pmb415",
+      "to": "pmb45260",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 5. 8. [1912]"
       ]
     },
     {
@@ -2518,6 +2527,14 @@
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 17. 5. [1896]"
+      ]
+    },
+    {
+      "from": "pmb655",
+      "to": "pmb655",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, [6. 8. 1915]"
       ]
     },
     {

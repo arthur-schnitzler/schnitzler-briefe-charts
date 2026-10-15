@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-14Z</date>
+            <date>2026-10-15Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11740.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -13749,11 +13749,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
-                     <date evidence="conjecture"
-                           notBefore="1905-03-16"
-                           error="Zeitabfolge Fehler 1"
-                           notAfter="1905-03-20">[16. 3. 1905
-                  – 20. 3. 1905?]</date>
+                     <date when="1905-03-17">17. 3. 1905</date>
                      <placeName ref="#pmb40297">Hofmannsthal-Schlössl</placeName>
                   </correspAction>
                   <correspContext>
@@ -15024,7 +15020,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1906-12-28" error="Zeitabfolge Fehler 1">29. 12. 1906</date>
+                     <date when="1906-12-29">29. 12. 1906</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
@@ -15966,11 +15962,8 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture"
-                           notBefore="1908-01-09"
-                           error="Zeitabfolge Fehler 1"
-                           notAfter="1908-01-13">[9. 1. 1908
-                  – 13. 1. 1908?]</date>
+                     <date evidence="conjecture" notBefore="1908-01-10" notAfter="1908-01-15">[10. 1. 1908
+                  – 15. 1. 1908?]</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
@@ -18172,18 +18165,22 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1912-08-06" notAfter="1912-08-10">[6. 8. 1912
-                  – 10. 8. 1912?]</date>
-                     <placeName ref="#pmb168815">Wien</placeName>
+                     <date evidence="conjecture" notBefore="1912-08-06" notAfter="1912-08-12">[6. 8. 1912
+                  – 12. 8. 1912?]</date>
+                     <placeName ref="#pmb45260" evidence="conjecture">Wien</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02082">Schnitzler an Beer-Hofmann, [4. oder 5]. 8. 1912</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02084">Dehmel an Schnitzler, 14. 8. 1912</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo
+                  von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02082">Schnitzler an
+                  Beer-Hofmann, [4. oder 5]. 8. 1912</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02084">Dehmel an
+                  Schnitzler, 14. 8. 1912</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
-                          target="L02076">Hofmannsthal an Schnitzler, 5. 7. [1912]</ref>
+                          target="L02076">Hofmannsthal an Schnitzler,
+                  5. 7. [1912]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11740"
@@ -18320,7 +18317,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="290"/>
+               <measure unit="zeichenanzahl" quantity="289"/>
             </item>
             <item corresp="L02103">
                <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 21. 11. 1912</title>
@@ -18830,13 +18827,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <date when="1915-08-06" n="01">[6. 8. 1915]</date>
-                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                     <placeName ref="#pmb655">Hotel Kaiserkrone</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1915-08-07" notAfter="1915-08-11">[7. 8. 1915
-                  – 11. 8. 1915?]</date>
-                     <placeName ref="#pmb168815">Wien</placeName>
+                     <date when="1915-08-06" evidence="conjecture">[6. 8. 1915]</date>
+                     <placeName ref="#pmb655">Hotel Kaiserkrone</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11740">Hofmannsthal, Hugo von</ref>

@@ -22,6 +22,11 @@
       "count": 2
     },
     {
+      "id": "pmb386",
+      "name": "Universität Wien",
+      "count": 2
+    },
+    {
       "id": "pmb413",
       "name": "Südbahnhotel [Semmering]",
       "count": 1
@@ -39,7 +44,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 31
+      "count": 29
     }
   ],
   "links_from_schnitzler": [
@@ -53,12 +58,19 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb386",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Albert Ehrenstein, 6. 5. 1911"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Arthur Schnitzler an Albert Ehrenstein, 31. 1. 1911",
         "Arthur Schnitzler an Albert Ehrenstein, 9. 2. 1911",
-        "Arthur Schnitzler an Albert Ehrenstein, 6. 5. 1911",
         "Arthur Schnitzler an Albert Ehrenstein, [zwischen 23. und 25.] 5. 1912"
       ]
     },
@@ -109,6 +121,14 @@
       ]
     },
     {
+      "from": "pmb386",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Albert Ehrenstein an Arthur Schnitzler, 27. 4. 1911"
+      ]
+    },
+    {
       "from": "pmb44146",
       "to": "pmb168940",
       "weight": 1,
@@ -119,10 +139,9 @@
     {
       "from": "pmb50",
       "to": "pmb168815",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Albert Ehrenstein an Arthur Schnitzler, 31. 12. 1910",
-        "Albert Ehrenstein an Arthur Schnitzler, 27. 4. 1911"
+        "Albert Ehrenstein an Arthur Schnitzler, 31. 12. 1910"
       ]
     },
     {
