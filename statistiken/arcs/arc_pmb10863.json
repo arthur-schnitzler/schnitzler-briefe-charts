@@ -89,17 +89,17 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 63
+      "count": 64
     },
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 296
+      "count": 294
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 111
+      "count": 112
     },
     {
       "id": "pmb182",
@@ -1432,8 +1432,9 @@
     {
       "from": "pmb168815",
       "to": "pmb250767",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 23. 7. 1910",
         "Arthur Schnitzler an Richard Beer-Hofmann, [10. oder 11]. 8. 1910"
       ]
     },
@@ -1957,10 +1958,9 @@
     {
       "from": "pmb168940",
       "to": "pmb250767",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 29. 6. 1910",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 23. 7. 1910"
+        "Arthur Schnitzler an Richard Beer-Hofmann, 29. 6. 1910"
       ]
     },
     {
@@ -3688,7 +3688,7 @@
     },
     {
       "from": "pmb40260",
-      "to": "pmb168934",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, 13. 10. 1903"
@@ -4074,9 +4074,16 @@
     {
       "from": "pmb462",
       "to": "pmb168934",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 4. 2. 1900",
+        "Richard Beer-Hofmann an Arthur Schnitzler, 4. 2. 1900"
+      ]
+    },
+    {
+      "from": "pmb462",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
         "Richard Beer-Hofmann an Arthur Schnitzler, [6. oder 7]. 10. 1903"
       ]
     },
