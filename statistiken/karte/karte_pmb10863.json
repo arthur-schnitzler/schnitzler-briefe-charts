@@ -1480,10 +1480,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Wollzeile",
-        "ref": "pmb338",
-        "lat": 48.20852,
-        "lon": 16.37592
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -1740,10 +1740,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -1759,8 +1759,18 @@
         "name": "Beer-Hofmann, Richard",
         "ref": "pmb10863"
       },
-      "from": null,
-      "to": null
+      "from": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      },
+      "to": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      }
     },
     {
       "id": "L00219",
@@ -1781,7 +1791,12 @@
         "lat": 48.212477,
         "lon": 16.357233
       },
-      "to": null
+      "to": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      }
     },
     {
       "id": "L00223",
@@ -1797,10 +1812,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Schulgasse 8 [Bad Ischl]",
+        "ref": "pmb41463",
+        "lat": 47.712523,
+        "lon": 13.621877
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -1849,10 +1864,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Schulgasse 8 [Bad Ischl]",
+        "ref": "pmb41463",
+        "lat": 47.712523,
+        "lon": 13.621877
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -1901,16 +1916,16 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Schulgasse 8 [Bad Ischl]",
+        "ref": "pmb41463",
+        "lat": 47.712523,
+        "lon": 13.621877
       }
     },
     {
@@ -1927,10 +1942,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
         "name": "Schulgasse 8 [Bad Ischl]",
@@ -1953,10 +1968,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
         "name": "Villa Erdödy",
@@ -1979,10 +1994,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Schulgasse 8 [Bad Ischl]",
+        "ref": "pmb41463",
+        "lat": 47.712523,
+        "lon": 13.621877
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -2031,10 +2046,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Salzburg",
-        "ref": "pmb30",
-        "lat": 47.80067,
-        "lon": 13.04532
+        "name": "Café Tomaselli",
+        "ref": "pmb41187",
+        "lat": 47.799167,
+        "lon": 13.045
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -2057,10 +2072,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Schulgasse 8 [Bad Ischl]",
+        "ref": "pmb41463",
+        "lat": 47.712523,
+        "lon": 13.621877
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -2141,10 +2156,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Schulgasse 8 [Bad Ischl]",
+        "ref": "pmb41463",
+        "lat": 47.712523,
+        "lon": 13.621877
       }
     },
     {
@@ -2167,10 +2182,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Schulgasse 8 [Bad Ischl]",
+        "ref": "pmb41463",
+        "lat": 47.712523,
+        "lon": 13.621877
       }
     },
     {
@@ -2213,10 +2228,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Schulgasse 8 [Bad Ischl]",
+        "ref": "pmb41463",
+        "lat": 47.712523,
+        "lon": 13.621877
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -2375,10 +2390,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -2421,10 +2436,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
@@ -2453,10 +2468,10 @@
         "lon": 16.357233
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -4892,10 +4907,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
+        "name": "Hotel Continental [München]",
+        "ref": "pmb681",
+        "lat": 48.143395,
+        "lon": 11.569993
       },
       "to": {
         "name": "Eglmoosgasse 22",
@@ -21542,10 +21557,10 @@
         "lon": 9.84604
       },
       "to": {
-        "name": "Herchenbachstraße",
-        "ref": "pmb491",
-        "lat": 48.74979,
-        "lon": 8.23933
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
       }
     },
     {
@@ -21770,10 +21785,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "?? [Atlantik, westlich von Frankreich]",
-        "ref": "pmb252268",
-        "lat": 46.38,
-        "lon": -8.0
+        "name": "",
+        "ref": "pmb251752",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Hasenauerstraße 59",

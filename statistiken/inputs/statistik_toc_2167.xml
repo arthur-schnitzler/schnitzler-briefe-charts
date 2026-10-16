@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-15Z</date>
+            <date>2026-10-16Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2167.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1496,7 +1496,7 @@
                      <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <date when="1893-10-27" n="01">[27. 10. 1893]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb192623">Salesianergasse 12</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -6814,7 +6814,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L01223">Schnitzler an Beer-Hofmann, [12. oder 13]. 6. 1902</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01193">Schnitzler an Beer-Hofmann, [16. 6. 1902?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01193">Schnitzler an Beer-Hofmann, [16. oder 17. 6. 1902?]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -9312,15 +9312,12 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2167">Salten, Felix</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01568">Burckhard an
-                  Schnitzler, 30. 11. 1905</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01569">Ehrenstein an
-                  Schnitzler, 3. 12. 1905</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01568">Burckhard an Schnitzler, 30. 11. 1905</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01569">Ehrenstein an Schnitzler, 3. 12. 1905</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
-                          target="L03603">Schnitzler an Salten,
-                  24. 11. 1905</ref>
+                          target="L03603">Schnitzler an Salten, 24. 11. 1905</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2167"
@@ -14512,7 +14509,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2167">Salten, Felix</persName>
                      <date when="1930-05-17" n="01">17. 5. 1930</date>
-                     <placeName ref="#pmb12376">Atlantischer Ozean</placeName>
+                     <placeName ref="#pmb405729">?? [Atlantischer Ozean, vor New York]</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1930-05-18">18. 5. 1930</date>

@@ -17,11 +17,6 @@
       "count": 1
     },
     {
-      "id": "pmb12376",
-      "name": "Atlantischer Ozean",
-      "count": 1
-    },
-    {
       "id": "pmb127",
       "name": "Hotel Bristol Berlin",
       "count": 1
@@ -145,6 +140,11 @@
       "id": "pmb189",
       "name": "Semmering",
       "count": 5
+    },
+    {
+      "id": "pmb192623",
+      "name": "Salesianergasse 12",
+      "count": 1
     },
     {
       "id": "pmb197",
@@ -277,6 +277,11 @@
       "count": 1
     },
     {
+      "id": "pmb405729",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb40903",
       "name": "Hotel Kongen af Danmark",
       "count": 1
@@ -404,7 +409,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 267
+      "count": 266
     },
     {
       "id": "pmb50792",
@@ -977,14 +982,6 @@
       ]
     },
     {
-      "from": "pmb12376",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 17. 5. 1930"
-      ]
-    },
-    {
       "from": "pmb1283",
       "to": "pmb168815",
       "weight": 1,
@@ -1167,6 +1164,14 @@
         "Felix Salten, Jakob Wassermann, Otto Brahm, Ludwig Brahm an Arthur Schnitzler, [20. oder 21]. 12. [1907?]",
         "Felix Salten an Arthur Schnitzler, 26. 1. 1908",
         "Felix Salten an Arthur Schnitzler, 15. 2. 1909"
+      ]
+    },
+    {
+      "from": "pmb192623",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal und Felix Salten an Arthur Schnitzler, [27. 10. 1893]"
       ]
     },
     {
@@ -1404,6 +1409,14 @@
       ]
     },
     {
+      "from": "pmb405729",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 17. 5. 1930"
+      ]
+    },
+    {
       "from": "pmb411",
       "to": "pmb168815",
       "weight": 1,
@@ -1546,7 +1559,7 @@
     {
       "from": "pmb50",
       "to": "pmb167782",
-      "weight": 8,
+      "weight": 7,
       "titles": [
         "Felix Salten an Arthur Schnitzler, [12. 11. 1892]",
         "Felix Salten an Arthur Schnitzler, [zwischen 16. 11. 1892 und 3. 12. 1892]",
@@ -1554,8 +1567,7 @@
         "Felix Salten an Arthur Schnitzler, [2. 5. 1893]",
         "Felix Salten an Arthur Schnitzler, [1. oder 3.? 8. 1893]",
         "Felix Salten an Arthur Schnitzler, [20. 9. 1893]",
-        "Felix Salten an Arthur Schnitzler, [24?. 10. 1893]",
-        "Hugo von Hofmannsthal und Felix Salten an Arthur Schnitzler, [27. 10. 1893]"
+        "Felix Salten an Arthur Schnitzler, [24?. 10. 1893]"
       ]
     },
     {

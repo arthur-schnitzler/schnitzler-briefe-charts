@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-15Z</date>
+            <date>2026-10-16Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11485.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -173,9 +173,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1889-08-04" notAfter="1889-08-06">[4. 8. 1889
-                  – 8. 8. 1889?]</date>
-                     <placeName ref="#pmb168768">Wohnung und Ordination Arthur Schnitzler Burgring 1</placeName>
+                     <date evidence="conjecture" notBefore="1889-08-05" notAfter="1889-08-07">[5. 8. 1889
+                  – 7. 8. 1889?]</date>
+                     <placeName ref="#pmb715" evidence="internal">Hotel Kaiserin Elisabeth [Bad Ischl]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -206,7 +206,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1889-08-06" notAfter="1889-08-08">[6. 8. 1889
                   – 10. 8. 1889?]</date>
-                     <placeName ref="#pmb168768">Wohnung und Ordination Arthur Schnitzler Burgring 1</placeName>
+                     <placeName ref="#pmb715">Hotel Kaiserin Elisabeth [Bad Ischl]</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -420,7 +420,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1890-09-25" notAfter="1890-09-27">[25. 9. 1890
                   – 29. 9. 1890?]</date>
-                     <placeName ref="#pmb167789">Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</placeName>
+                     <placeName ref="#pmb230">Österreichischer Hof</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -2729,7 +2729,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1894-08-16">[16?. 8. 1894]</date>
-                     <placeName ref="#pmb230">Österreichischer Hof</placeName>
+                     <placeName ref="#pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -2746,7 +2746,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="telegramm"/>
-               <measure unit="zeichenanzahl" quantity="85"/>
+               <measure unit="zeichenanzahl" quantity="86"/>
             </item>
             <item corresp="L02606">
                <title level="a">Paul Goldmann an Arthur Schnitzler, [22.? 8. 1894]</title>
@@ -11084,7 +11084,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L04538">Rilke an Schnitzler, [zwischen 3. und
+                     <ref subtype="previous_letter" type="withinCollection" target="L04538">Rilke an Schnitzler, [zwischen 5. und
                   17.? 5. 1901]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01116">Brandes an Schnitzler, 10. 5. [1901]</ref>
                      <ref subtype="previous_letter"
@@ -13227,7 +13227,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01193">Schnitzler an Beer-Hofmann, [16. 6. 1902?]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01193">Schnitzler an Beer-Hofmann, [16. oder 17. 6. 1902?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03531">Goldmann an Gussmann, 20. 6. [1902]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"

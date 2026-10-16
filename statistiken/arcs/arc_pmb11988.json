@@ -12,6 +12,11 @@
       "count": 1
     },
     {
+      "id": "pmb1219",
+      "name": "Ramsauer Garni Café",
+      "count": 1
+    },
+    {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
       "count": 15
@@ -34,12 +39,12 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 3
+      "count": 2
     },
     {
       "id": "pmb232296",
       "name": "Mahlerstraße 13",
-      "count": 7
+      "count": 10
     },
     {
       "id": "pmb365220",
@@ -54,7 +59,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 7
+      "count": 4
     },
     {
       "id": "pmb756",
@@ -87,6 +92,14 @@
       ]
     },
     {
+      "from": "pmb1219",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Karl Kraus an Arthur Schnitzler, 12. 8. 1893"
+      ]
+    },
+    {
       "from": "pmb168",
       "to": "pmb756",
       "weight": 1,
@@ -97,24 +110,26 @@
     {
       "from": "pmb213",
       "to": "pmb167782",
-      "weight": 3,
+      "weight": 2,
       "titles": [
         "Karl Kraus an Arthur Schnitzler, 21. 7. 1893",
-        "Karl Kraus an Arthur Schnitzler, [26. oder 27]. 7. 1893",
-        "Karl Kraus an Arthur Schnitzler, 12. 8. 1893"
+        "Karl Kraus an Arthur Schnitzler, [26. oder 27]. 7. 1893"
       ]
     },
     {
       "from": "pmb232296",
       "to": "pmb167782",
-      "weight": 6,
+      "weight": 9,
       "titles": [
         "Karl Kraus an Arthur Schnitzler, 31. 10. 1892",
         "Karl Kraus an Arthur Schnitzler, 31. 12. 1892",
         "Karl Kraus an Arthur Schnitzler, 11. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 22. 1. 1893",
         "Karl Kraus an Arthur Schnitzler, 26. 1. 1893",
-        "Karl Kraus an Arthur Schnitzler, 22. 3. 1893"
+        "Karl Kraus an Arthur Schnitzler, 19. 3. 1893",
+        "Karl Kraus an Arthur Schnitzler, 22. 3. 1893",
+        "Karl Kraus an Arthur Schnitzler, 2. 5. 1893",
+        "Karl Kraus an Arthur Schnitzler, 5. 5. 1893"
       ]
     },
     {
@@ -139,16 +154,6 @@
       "weight": 1,
       "titles": [
         "Karl Kraus an Arthur Schnitzler, 8. 7. 1894"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb167782",
-      "weight": 3,
-      "titles": [
-        "Karl Kraus an Arthur Schnitzler, 19. 3. 1893",
-        "Karl Kraus an Arthur Schnitzler, 2. 5. 1893",
-        "Karl Kraus an Arthur Schnitzler, 5. 5. 1893"
       ]
     },
     {

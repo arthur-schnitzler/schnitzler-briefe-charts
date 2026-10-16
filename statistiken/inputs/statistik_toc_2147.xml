@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-15Z</date>
+            <date>2026-10-16Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2147.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -43,6 +43,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2147">Altenberg, Peter</persName>
                      <date when="1893-05-02" n="02">[2.? 5. 1893]</date>
+                     <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -472,7 +473,7 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L02062">Altenberg an Schnitzler, [10.? 5. 1912]</ref>
+                          target="L02062">Altenberg an Schnitzler, [zwischen 10. und 31. 5. 1912]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte"/>
@@ -532,7 +533,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"
-                          target="L02062">Altenberg an Schnitzler, [10.? 5. 1912]</ref>
+                          target="L02062">Altenberg an Schnitzler, [zwischen 10. und 31. 5. 1912]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2147"

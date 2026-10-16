@@ -7,20 +7,20 @@
       "count": 11
     },
     {
+      "id": "pmb299574",
+      "name": "Schönburgstraße 48",
+      "count": 9
+    },
+    {
       "id": "pmb47503",
       "name": "Bernried",
       "count": 2
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 9
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168815",
-      "to": "pmb50",
+      "to": "pmb299574",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Therese Rie-Andro, 12. 2. 1912"
@@ -29,16 +29,7 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb47503",
-      "to": "pmb168815",
-      "weight": 2,
-      "titles": [
-        "Therese Rie-Andro an Arthur Schnitzler, [Anfang Juli 1923]",
-        "Therese Rie-Andro an Arthur Schnitzler, 23. 7. 1923"
-      ]
-    },
-    {
-      "from": "pmb50",
+      "from": "pmb299574",
       "to": "pmb168815",
       "weight": 8,
       "titles": [
@@ -50,6 +41,15 @@
         "Therese Rie-Andro an Arthur Schnitzler, 25. 12. 1927",
         "Therese Rie-Andro an Arthur Schnitzler, 6. 1. 1928",
         "Therese Rie-Andro an Arthur Schnitzler, 22. 12. 1929"
+      ]
+    },
+    {
+      "from": "pmb47503",
+      "to": "pmb168815",
+      "weight": 2,
+      "titles": [
+        "Therese Rie-Andro an Arthur Schnitzler, [Anfang Juli 1923]",
+        "Therese Rie-Andro an Arthur Schnitzler, 23. 7. 1923"
       ]
     }
   ]

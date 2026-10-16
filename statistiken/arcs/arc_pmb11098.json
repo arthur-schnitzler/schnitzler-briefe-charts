@@ -4,7 +4,7 @@
     {
       "id": "pmb1231",
       "name": "Steinsdorfstraße 7",
-      "count": 4
+      "count": 6
     },
     {
       "id": "pmb167782",
@@ -24,7 +24,7 @@
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 3
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
@@ -49,25 +49,19 @@
     {
       "from": "pmb1231",
       "to": "pmb167782",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Michael Georg Conrad an Arthur Schnitzler, 28. 3. 1893"
+        "Michael Georg Conrad an Arthur Schnitzler, 28. 3. 1893",
+        "Michael Georg Conrad an Arthur Schnitzler, 21. 6. 1893"
       ]
     },
     {
       "from": "pmb1231",
       "to": "pmb168940",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Michael Georg Conrad an Arthur Schnitzler, 22. 1. 1904"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Michael Georg Conrad an Arthur Schnitzler, 21. 6. 1893"
+        "Michael Georg Conrad an Arthur Schnitzler, 22. 1. 1904",
+        "Michael Georg Conrad an Arthur Schnitzler, 26. 5. 1906"
       ]
     },
     {
@@ -76,14 +70,6 @@
       "weight": 1,
       "titles": [
         "Michael Georg Conrad an Arthur Schnitzler, 14. 11. 1890"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb168940",
-      "weight": 1,
-      "titles": [
-        "Michael Georg Conrad an Arthur Schnitzler, 26. 5. 1906"
       ]
     }
   ]

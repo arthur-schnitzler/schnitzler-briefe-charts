@@ -14,7 +14,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb168815",
@@ -29,7 +29,7 @@
     {
       "id": "pmb18",
       "name": "Lessing-Theater",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb29",
@@ -52,14 +52,6 @@
   "links_to_schnitzler": [
     {
       "from": "pmb168",
-      "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Oscar Blumenthal an Arthur Schnitzler, 12. 8. 1893"
-      ]
-    },
-    {
-      "from": "pmb168",
       "to": "pmb168815",
       "weight": 1,
       "titles": [
@@ -73,6 +65,14 @@
       "titles": [
         "Oscar Blumenthal an Arthur Schnitzler, 14. 11. 1896",
         "Oscar Blumenthal an Arthur Schnitzler, 19. 11. 1896"
+      ]
+    },
+    {
+      "from": "pmb18",
+      "to": "pmb167782",
+      "weight": 1,
+      "titles": [
+        "Oscar Blumenthal an Arthur Schnitzler, 12. 8. 1893"
       ]
     },
     {

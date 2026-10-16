@@ -2,6 +2,11 @@
   "correspondent": "Blei, Franz",
   "nodes": [
     {
+      "id": "pmb1167",
+      "name": "Hubertusstraße",
+      "count": 1
+    },
+    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
       "count": 1
@@ -12,9 +17,19 @@
       "count": 9
     },
     {
+      "id": "pmb255854",
+      "name": "",
+      "count": 2
+    },
+    {
+      "id": "pmb405734",
+      "name": "",
+      "count": 1
+    },
+    {
       "id": "pmb45258",
       "name": "München",
-      "count": 7
+      "count": 3
     }
   ],
   "links_from_schnitzler": [
@@ -29,6 +44,31 @@
   ],
   "links_to_schnitzler": [
     {
+      "from": "pmb1167",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Franz Blei an Arthur Schnitzler, 12. 12. 1907"
+      ]
+    },
+    {
+      "from": "pmb255854",
+      "to": "pmb168940",
+      "weight": 2,
+      "titles": [
+        "Franz Blei an Arthur Schnitzler, 25. 11. 1903",
+        "Franz Blei an Arthur Schnitzler, 4. 1. 1904"
+      ]
+    },
+    {
+      "from": "pmb405734",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Franz Blei an Arthur Schnitzler, 17. 10. 1903"
+      ]
+    },
+    {
       "from": "pmb45258",
       "to": "pmb168815",
       "weight": 1,
@@ -39,12 +79,8 @@
     {
       "from": "pmb45258",
       "to": "pmb168940",
-      "weight": 5,
+      "weight": 1,
       "titles": [
-        "Franz Blei an Arthur Schnitzler, 17. 10. 1903",
-        "Franz Blei an Arthur Schnitzler, 25. 11. 1903",
-        "Franz Blei an Arthur Schnitzler, 4. 1. 1904",
-        "Franz Blei an Arthur Schnitzler, 12. 12. 1907",
         "Franz Blei an Arthur Schnitzler, [17. 12. 1909]"
       ]
     }

@@ -64,7 +64,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 57
+      "count": 56
     },
     {
       "id": "pmb168934",
@@ -89,6 +89,11 @@
     {
       "id": "pmb230",
       "name": "Österreichischer Hof",
+      "count": 1
+    },
+    {
+      "id": "pmb233170",
+      "name": "",
       "count": 1
     },
     {
@@ -544,7 +549,7 @@
     {
       "from": "pmb405596",
       "to": "pmb168815",
-      "weight": 17,
+      "weight": 16,
       "titles": [
         "Georg Brandes an Arthur Schnitzler, 18. 12. 1910",
         "Georg Brandes an Arthur Schnitzler, 6. 10. 1911",
@@ -559,7 +564,6 @@
         "Georg Brandes an Arthur Schnitzler, 17. 8. 1920",
         "Georg Brandes an Arthur Schnitzler, 15. 5. 1922",
         "Georg Brandes an Arthur Schnitzler, 10. 12. 1924",
-        "Georg Brandes an Arthur Schnitzler, 21. 6. 1925",
         "Georg Brandes an Arthur Schnitzler, 12. 7. 1925",
         "Georg Brandes an Arthur Schnitzler, 30. 12. 1925",
         "Georg Brandes an Arthur Schnitzler, 28. 8. 1926"
@@ -571,6 +575,14 @@
       "weight": 1,
       "titles": [
         "Georg Brandes an Arthur Schnitzler, 23. 8. 1914"
+      ]
+    },
+    {
+      "from": "pmb405596",
+      "to": "pmb233170",
+      "weight": 1,
+      "titles": [
+        "Georg Brandes an Arthur Schnitzler, 21. 6. 1925"
       ]
     },
     {

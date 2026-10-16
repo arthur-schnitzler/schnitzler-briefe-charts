@@ -22,11 +22,6 @@
       "count": 1
     },
     {
-      "id": "pmb255099",
-      "name": "Reisnerstraße 3",
-      "count": 1
-    },
-    {
       "id": "pmb339370",
       "name": "Tuchlauben 7",
       "count": 1
@@ -57,11 +52,6 @@
       "count": 1
     },
     {
-      "id": "pmb43520",
-      "name": "Meran",
-      "count": 4
-    },
-    {
       "id": "pmb484",
       "name": "Zürich",
       "count": 4
@@ -74,12 +64,12 @@
     {
       "id": "pmb52",
       "name": "II., Leopoldstadt",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb809",
       "name": "Hotel Erzherzog Rainer [Meran]",
-      "count": 1
+      "count": 5
     }
   ],
   "links_from_schnitzler": [
@@ -91,14 +81,6 @@
       "weight": 1,
       "titles": [
         "Friedrich M. Fels an Arthur Schnitzler, [20. 1. 1893]"
-      ]
-    },
-    {
-      "from": "pmb255099",
-      "to": "pmb167782",
-      "weight": 1,
-      "titles": [
-        "Friedrich M. Fels an Arthur Schnitzler, [1. 1. 1893?]"
       ]
     },
     {
@@ -152,17 +134,6 @@
       ]
     },
     {
-      "from": "pmb43520",
-      "to": "pmb167782",
-      "weight": 4,
-      "titles": [
-        "Friedrich M. Fels an Arthur Schnitzler, 1[7]. 2. 1893",
-        "Friedrich M. Fels an Arthur Schnitzler, 23. 2. 1893",
-        "Friedrich M. Fels an Arthur Schnitzler, 20. 4. 1893",
-        "Friedrich M. Fels an Arthur Schnitzler, [29. 4. 1893?]"
-      ]
-    },
-    {
       "from": "pmb484",
       "to": "pmb168934",
       "weight": 4,
@@ -189,19 +160,24 @@
     {
       "from": "pmb52",
       "to": "pmb167782",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Friedrich M. Fels an Arthur Schnitzler, [Ende 1892?]",
         "Friedrich M. Fels an Arthur Schnitzler, [vor dem 1. 1. 1893?]",
+        "Friedrich M. Fels an Arthur Schnitzler, [1. 1. 1893?]",
         "Friedrich M. Fels an Arthur Schnitzler, [1. 1. 1893?]"
       ]
     },
     {
       "from": "pmb809",
       "to": "pmb167782",
-      "weight": 1,
+      "weight": 5,
       "titles": [
-        "Friedrich M. Fels an Arthur Schnitzler, 1[6]. 2. 1893"
+        "Friedrich M. Fels an Arthur Schnitzler, 1[6]. 2. 1893",
+        "Friedrich M. Fels an Arthur Schnitzler, 1[7]. 2. 1893",
+        "Friedrich M. Fels an Arthur Schnitzler, 23. 2. 1893",
+        "Friedrich M. Fels an Arthur Schnitzler, 20. 4. 1893",
+        "Friedrich M. Fels an Arthur Schnitzler, [29. 4. 1893?]"
       ]
     }
   ]

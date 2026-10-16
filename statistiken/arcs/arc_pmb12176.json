@@ -4,7 +4,12 @@
     {
       "id": "pmb1213",
       "name": "Poschingerstraße",
-      "count": 3
+      "count": 9
+    },
+    {
+      "id": "pmb1241",
+      "name": "Konradstraße",
+      "count": 1
     },
     {
       "id": "pmb1243",
@@ -49,7 +54,7 @@
     {
       "id": "pmb45258",
       "name": "München",
-      "count": 16
+      "count": 9
     },
     {
       "id": "pmb45260",
@@ -95,9 +100,23 @@
     {
       "from": "pmb1213",
       "to": "pmb168815",
+      "weight": 7,
+      "titles": [
+        "Thomas Mann an Arthur Schnitzler, 20. 2. 1923",
+        "Thomas Mann an Arthur Schnitzler, 22. 11. 1923",
+        "Thomas Mann an Arthur Schnitzler, 9. 1. 1925",
+        "Thomas Mann an Arthur Schnitzler, 25. 12. 1927",
+        "Thomas Mann an Arthur Schnitzler, 28. 5. 1928",
+        "Thomas Mann an Arthur Schnitzler, 1. 2. 1929",
+        "Thomas Mann an Arthur Schnitzler, [5. 12. 1930]"
+      ]
+    },
+    {
+      "from": "pmb1241",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
-        "Thomas Mann an Arthur Schnitzler, 25. 12. 1927"
+        "Thomas Mann an Arthur Schnitzler, 15. 2. 1904"
       ]
     },
     {
@@ -152,27 +171,13 @@
     {
       "from": "pmb45258",
       "to": "pmb168815",
-      "weight": 11,
+      "weight": 5,
       "titles": [
         "Thomas Mann an Arthur Schnitzler, 22. 11. 1910",
         "Thomas Mann an Arthur Schnitzler, 16. 10. 1911",
         "Thomas Mann an Arthur Schnitzler, 8. 12. 1912",
         "Thomas Mann an Arthur Schnitzler, 4. 9. 1922",
-        "Thomas Mann an Arthur Schnitzler, 20. 2. 1923",
-        "Thomas Mann an Arthur Schnitzler, 22. 11. 1923",
-        "Thomas Mann an Arthur Schnitzler, 9. 1. 1925",
-        "Thomas Mann an Arthur Schnitzler, 28. 5. 1928",
-        "Thomas Mann an Arthur Schnitzler, 1. 2. 1929",
-        "Thomas Mann an Arthur Schnitzler, [nach dem 18. 11. 1929]",
-        "Thomas Mann an Arthur Schnitzler, [5. 12. 1930]"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb168940",
-      "weight": 1,
-      "titles": [
-        "Thomas Mann an Arthur Schnitzler, 15. 2. 1904"
+        "Thomas Mann an Arthur Schnitzler, [nach dem 18. 11. 1929]"
       ]
     },
     {

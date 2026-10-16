@@ -44,7 +44,7 @@
     {
       "id": "pmb365563",
       "name": "Meidlinger Hauptstraße 56",
-      "count": 51
+      "count": 89
     },
     {
       "id": "pmb41069",
@@ -55,11 +55,6 @@
       "id": "pmb44400",
       "name": "Zistersdorf",
       "count": 15
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 38
     }
   ],
   "links_from_schnitzler": [
@@ -90,7 +85,7 @@
     {
       "from": "pmb168815",
       "to": "pmb365563",
-      "weight": 45,
+      "weight": 46,
       "titles": [
         "Arthur Schnitzler an Robert Adam, 31. 10. 1910",
         "Arthur Schnitzler an Robert Adam, 3. 12. 1910",
@@ -127,6 +122,7 @@
         "Arthur Schnitzler an Robert Adam, 28. 10. 1919",
         "Arthur Schnitzler an Robert Adam, 12. 6. 1920",
         "Arthur Schnitzler an Robert Adam, 25. 6. 1920",
+        "Arthur Schnitzler an Robert Adam, 14. 7. 1920",
         "Arthur Schnitzler an Robert Adam, 28. 10. 1920",
         "Arthur Schnitzler an Robert Adam, 20. 11. 1920",
         "Arthur Schnitzler an Robert Adam, 30. 3. 1921",
@@ -152,14 +148,6 @@
         "Arthur Schnitzler an Robert Adam, 11. 7. 1915",
         "Arthur Schnitzler an Robert Adam, 13. [7. 1915?]",
         "Arthur Schnitzler an Robert Adam, 20. 7. 1915"
-      ]
-    },
-    {
-      "from": "pmb168815",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Robert Adam, 14. 7. 1920"
       ]
     },
     {
@@ -207,50 +195,21 @@
     {
       "from": "pmb365563",
       "to": "pmb168815",
-      "weight": 4,
-      "titles": [
-        "Robert Adam an Arthur Schnitzler, 21. 10. 1915",
-        "Robert Adam an Arthur Schnitzler, 10. 5. 1916",
-        "Robert Adam an Arthur Schnitzler, 24. 9. 1916",
-        "Robert Adam an Arthur Schnitzler, 19. 6. 1917"
-      ]
-    },
-    {
-      "from": "pmb41069",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Robert Adam an Arthur Schnitzler, 13. 5. 1922"
-      ]
-    },
-    {
-      "from": "pmb44400",
-      "to": "pmb168815",
-      "weight": 7,
-      "titles": [
-        "Robert Adam an Arthur Schnitzler, 2. 4. 1913",
-        "Robert Adam an Arthur Schnitzler, Briefentwurf, 15. 4. 1913",
-        "Robert Adam an Arthur Schnitzler, 7. 5. 1913",
-        "Robert Adam an Arthur Schnitzler, 15. 5. 1913",
-        "Robert Adam an Arthur Schnitzler, 1. 6. 1915",
-        "Robert Adam an Arthur Schnitzler, 22. 6. 1915",
-        "Robert Adam an Arthur Schnitzler, 16. 7. 1915"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb168815",
-      "weight": 36,
+      "weight": 40,
       "titles": [
         "Robert Adam an Arthur Schnitzler, 29. 10. 1910",
         "Robert Adam an Arthur Schnitzler, 3. 2. 1911",
         "Robert Adam an Arthur Schnitzler, 9. 2. 1911",
         "Robert Adam an Arthur Schnitzler, 26. 9. 1915",
+        "Robert Adam an Arthur Schnitzler, 21. 10. 1915",
+        "Robert Adam an Arthur Schnitzler, 10. 5. 1916",
         "Robert Adam an Arthur Schnitzler, 21. 5. 1916",
+        "Robert Adam an Arthur Schnitzler, 24. 9. 1916",
         "Robert Adam an Arthur Schnitzler, 20. 11. 1916",
         "Robert Adam an Arthur Schnitzler, 30. 11. 1916",
         "Robert Adam an Arthur Schnitzler, 9. 12. 1916",
         "Robert Adam an Arthur Schnitzler, 16. 5. 1917",
+        "Robert Adam an Arthur Schnitzler, 19. 6. 1917",
         "Robert Adam an Arthur Schnitzler, 23. 8. 1917",
         "Robert Adam an Arthur Schnitzler, 12. 10. 1917",
         "Robert Adam an Arthur Schnitzler, 5. 11. 1917",
@@ -281,11 +240,33 @@
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb365563",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Robert Adam an Arthur Schnitzler, 25. 2. 1909"
+      ]
+    },
+    {
+      "from": "pmb41069",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Robert Adam an Arthur Schnitzler, 13. 5. 1922"
+      ]
+    },
+    {
+      "from": "pmb44400",
+      "to": "pmb168815",
+      "weight": 7,
+      "titles": [
+        "Robert Adam an Arthur Schnitzler, 2. 4. 1913",
+        "Robert Adam an Arthur Schnitzler, Briefentwurf, 15. 4. 1913",
+        "Robert Adam an Arthur Schnitzler, 7. 5. 1913",
+        "Robert Adam an Arthur Schnitzler, 15. 5. 1913",
+        "Robert Adam an Arthur Schnitzler, 1. 6. 1915",
+        "Robert Adam an Arthur Schnitzler, 22. 6. 1915",
+        "Robert Adam an Arthur Schnitzler, 16. 7. 1915"
       ]
     }
   ]
