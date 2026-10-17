@@ -9,7 +9,7 @@
     {
       "id": "pmb167782",
       "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-      "count": 6
+      "count": 5
     },
     {
       "id": "pmb167789",
@@ -19,7 +19,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb168934",
@@ -27,14 +27,14 @@
       "count": 1
     },
     {
-      "id": "pmb34218",
-      "name": "Seewartstraße",
-      "count": 1
-    },
-    {
       "id": "pmb364699",
       "name": "Linkstraße 25",
       "count": 6
+    },
+    {
+      "id": "pmb405781",
+      "name": "",
+      "count": 1
     },
     {
       "id": "pmb414",
@@ -52,14 +52,6 @@
         "Arthur Schnitzler an Wilhelm Bölsche, 1. 6. 1893",
         "Arthur Schnitzler an Wilhelm Bölsche, 11. 6. 1893",
         "Arthur Schnitzler an Wilhelm Bölsche, 14. 6. 1893"
-      ]
-    },
-    {
-      "from": "pmb167782",
-      "to": "pmb168",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Wilhelm Bölsche, [12.? 11. 1893]"
       ]
     },
     {
@@ -131,20 +123,20 @@
       ]
     },
     {
-      "from": "pmb34218",
-      "to": "pmb168934",
-      "weight": 1,
-      "titles": [
-        "Wilhelm Bölsche an Arthur Schnitzler, 16. 11. 1893"
-      ]
-    },
-    {
       "from": "pmb364699",
       "to": "pmb167789",
       "weight": 2,
       "titles": [
         "Wilhelm Bölsche an Arthur Schnitzler, 17. 9. 1890",
         "Wilhelm Bölsche an Arthur Schnitzler, 25. 10. 1890"
+      ]
+    },
+    {
+      "from": "pmb405781",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Wilhelm Bölsche an Arthur Schnitzler, 16. 11. 1893"
       ]
     }
   ]

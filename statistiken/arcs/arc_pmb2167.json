@@ -109,7 +109,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 67
+      "count": 68
     },
     {
       "id": "pmb168934",
@@ -134,7 +134,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb189",
@@ -199,7 +199,7 @@
     {
       "id": "pmb235812",
       "name": "Cottagegasse 37",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb237626",
@@ -409,7 +409,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 266
+      "count": 265
     },
     {
       "id": "pmb50792",
@@ -669,6 +669,14 @@
     },
     {
       "from": "pmb168815",
+      "to": "pmb235812",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Felix Salten, 10. 12. 1923"
+      ]
+    },
+    {
+      "from": "pmb168815",
       "to": "pmb411",
       "weight": 1,
       "titles": [
@@ -688,7 +696,7 @@
         "Arthur Schnitzler: Widmungsexemplar Buch der Sprüche und Bedenken für Felix Salten, 17. 12. 1927",
         "Arthur Schnitzler an Felix Salten, 11. 4. 1928",
         "Arthur Schnitzler an Felix Salten, 29. 7. 1929",
-        "Arthur Schnitzler an Felix Salten, 30. 12. 19[29?]",
+        "Arthur Schnitzler an Felix Salten, 30. 12. 1930",
         "Arthur Schnitzler an Felix Salten, 1. 1. 1931",
         "Arthur Schnitzler an Felix Salten, 30. 5. 1931"
       ]
@@ -884,10 +892,9 @@
     {
       "from": "pmb182",
       "to": "pmb50",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Felix Salten, 26. 4. 1897",
-        "Arthur Schnitzler an Felix Salten, 10. 12. 1923"
+        "Arthur Schnitzler an Felix Salten, 26. 4. 1897"
       ]
     },
     {

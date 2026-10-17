@@ -10975,16 +10975,16 @@
         "ref": "pmb2167"
       },
       "from": {
-        "name": "Paris",
-        "ref": "pmb182",
-        "lat": 48.85341,
-        "lon": 2.3488
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       }
     },
     {
@@ -11560,32 +11560,6 @@
       }
     },
     {
-      "id": "L03025",
-      "title": "Arthur Schnitzler an Felix Salten, 30. 12. 19[29?]",
-      "type": "von schnitzler",
-      "date": "1929-12-30",
-      "sender": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "receiver": {
-        "name": "Salten, Felix",
-        "ref": "pmb2167"
-      },
-      "from": {
-        "name": "Sternwartestraße 71",
-        "ref": "pmb168815",
-        "lat": 48.23188,
-        "lon": 16.33716
-      },
-      "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
-      }
-    },
-    {
       "id": "L03533",
       "title": "Felix Salten an Arthur Schnitzler, 17. 5. 1930",
       "type": "von partner",
@@ -11713,6 +11687,32 @@
         "ref": "pmb168815",
         "lat": 48.23188,
         "lon": 16.33716
+      }
+    },
+    {
+      "id": "L03025",
+      "title": "Arthur Schnitzler an Felix Salten, 30. 12. 1930",
+      "type": "von schnitzler",
+      "date": "1930-12-30",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Salten, Felix",
+        "ref": "pmb2167"
+      },
+      "from": {
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
+      },
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
       }
     },
     {

@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-16Z</date>
+            <date>2026-10-17Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11485.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1743,9 +1743,9 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1893-08-24" notAfter="1893-08-28">[24. 8. 1893
-                  – 28. 8. 1893?]</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <date evidence="conjecture" notBefore="1893-08-24" notAfter="1893-08-26">[24. 8. 1893
+                  – 26. 8. 1893?]</date>
+                     <placeName ref="#pmb987" evidence="conjecture">Toblach</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -2410,7 +2410,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-04-21" n="02">21. 4. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2441,7 +2441,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-05-01" n="01">1. 5. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2472,7 +2472,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-05-29" n="02">29. 5. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2503,7 +2503,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-06-01" n="02">1. 6. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2534,7 +2534,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-06-15" n="03">15. 6. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2565,7 +2565,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-06-19" n="01">19. 6. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2634,7 +2634,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-07-29" n="02">29. 7. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2665,7 +2665,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-08-09" n="01">9. 8. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2856,7 +2856,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-09-21" n="01">21. 9. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2887,7 +2887,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-10-25" n="01">25. 10. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2917,7 +2917,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-11-03" n="01">3. 11. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2948,7 +2948,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-11-18" n="01">18. 11. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2978,7 +2978,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-11-28" n="02">28. 11. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3069,7 +3069,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1894-12-31" n="02">31. 12. [1894]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3100,7 +3100,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-01-05" n="01">5. 1. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3131,7 +3131,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-01-12" n="01">12. 1. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3193,7 +3193,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-02-06" n="02">6. 2. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3224,7 +3224,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-03-02" n="01">2. 3. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3255,7 +3255,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-03-07" n="01">7. 3. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3287,7 +3287,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-03-21" n="02">21. 3. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3318,7 +3318,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-03-28" n="01">28. 3. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3349,7 +3349,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-04-03" n="01">3. 4. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3411,7 +3411,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-05-19" n="01">19. 5. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3442,7 +3442,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-06-07" n="02">7. 6. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3473,7 +3473,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-06-24" n="02">24. 6. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3504,7 +3504,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-06-29" n="01">29. 6. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3535,13 +3535,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-07-06" n="01">6. 7. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-07-07" notAfter="1895-07-11">[7. 7. 1895
                   – 11. 7. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb772" evidence="conjecture">Mariánské Lázně</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -3566,7 +3566,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-07-09" n="02">9. 7. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3596,7 +3596,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-07-25" n="02">25. 7. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3627,7 +3627,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-07-29" n="01">29. 7. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3782,7 +3782,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-09-12" n="02">12. 9. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3813,7 +3813,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-09-23" n="03">23. 9. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3844,7 +3844,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-10-06" n="03">6. 10. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3875,7 +3875,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-10-07" n="01">7. 10. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3936,7 +3936,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-10-13" n="01">13. 10. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3966,7 +3966,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-10-14" n="01">14. 10. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3996,7 +3996,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-10-15" n="03">15. 10. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4026,7 +4026,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-10-17" n="01">17. 10. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4056,7 +4056,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-11-06" n="01">6. 11. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4087,7 +4087,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-11-13" n="01">13. 11. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4117,7 +4117,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-11-29" n="01">29. 11. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4147,7 +4147,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-12-05" n="01">5. 12. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4178,7 +4178,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-12-16" n="02">16. 12. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4238,7 +4238,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1895-12-21" n="02">21. 12. [1895]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4268,7 +4268,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-01-11" n="01">11. 1. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4332,7 +4332,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-01-13" n="01">13. 1. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4363,7 +4363,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-01-16" n="02">16. 1. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4394,7 +4394,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-01-23" n="01">23. 1. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4455,13 +4455,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-02-01" n="01">1. 2. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">24, rue Feydeau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1896-02-02" notAfter="1896-02-06">[2. 2. 1896
                   – 6. 2. 1896?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb41234">Hotel Westminster</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -4515,7 +4515,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-02-06" n="01">6. 2. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4545,7 +4545,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-03-22" n="01">22. 3. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4576,7 +4576,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-04-01" n="01">1. 4. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4607,7 +4607,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-04-02" n="01">2. 4. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4669,7 +4669,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-04-29" n="01">29. 4. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4700,7 +4700,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-05-04" n="01">4. 5. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4731,7 +4731,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-05-17" n="02">17. 5. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4762,7 +4762,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-05-24" n="01">24. 5. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4793,7 +4793,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-06-04" n="02">4. 6. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4824,7 +4824,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-06-15" n="01">15. 6. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4855,7 +4855,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-06-22" n="01">22. 6. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4886,7 +4886,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-06-29" n="02">29. 6. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4917,7 +4917,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-07-04" n="01">4. 7. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4947,7 +4947,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-07-14" n="01">14. 7. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -4977,7 +4977,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-07-17" n="03">17. 7. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5007,7 +5007,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-07-26" n="03">26. 7. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5098,7 +5098,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-09-22" n="01">22. 9. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5129,7 +5129,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-09-26" n="01">26. 9. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5160,7 +5160,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-10-17" n="02">17. 10. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5190,7 +5190,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-10-27" n="02">27. 10. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5221,12 +5221,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-11-01" n="01">1. 11. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1896-11-02" notAfter="1896-11-03">[2.–3. 11. 1896?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168">Berlin</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -5251,7 +5251,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-11-13" n="01">13. 11. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5400,7 +5400,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-11-23" n="03">23. 11. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5430,7 +5430,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1896-12-02" n="01">2. 12. [1896]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5461,7 +5461,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-01-02" n="01">2. [1.? 1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5492,7 +5492,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-01-08" n="01">8. 1. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5523,7 +5523,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-01-27" n="01">27. 1. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5554,7 +5554,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-02-09" n="03">9. 2. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5585,7 +5585,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-02-16" n="01">16. 2. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5616,7 +5616,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-02-24" n="01">24. 2. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5677,7 +5677,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-03-11" n="01">11. 3. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5707,7 +5707,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-03-22" n="03">22. 3. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5738,7 +5738,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-04-04" n="01">4. 4. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5769,7 +5769,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-04-17" n="01">17. 4. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -5893,7 +5893,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1897-05-06" n="02">6. 5. [1897]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb42671">Paris</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -7149,7 +7149,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1898-06-07">7. 6. 1898</date>
+                     <date when="1898-06-10">[10.? 6. 1898]</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -7353,7 +7353,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date when="1898-10-08">8. 10. 1898</date>
+                     <date when="1898-10-13">[13.?] 10. 1898</date>
                      <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -9914,13 +9914,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11485">Goldmann, Paul</persName>
                      <date when="1900-08-28" n="01">28. 8. [1900]</date>
-                     <placeName ref="#pmb91918">Trafoi</placeName>
+                     <placeName ref="#pmb141796">Hotel Trafoi</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1900-08-29" notAfter="1900-08-30">[29. 8. 1900
-                  – 30. 8. 1900?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <date when="1900-08-28" evidence="conjecture">28. 8. [1900]</date>
+                     <placeName ref="#pmb141796">Hotel Trafoi</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
@@ -11297,7 +11296,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1901-06-20">[20. 6. 1901]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb30" evidence="conjecture">Salzburg</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11485">Goldmann, Paul</ref>
