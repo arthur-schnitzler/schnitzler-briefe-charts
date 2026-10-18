@@ -114,7 +114,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 126
+      "count": 125
     },
     {
       "id": "pmb168940",
@@ -199,7 +199,7 @@
     {
       "id": "pmb235812",
       "name": "Cottagegasse 37",
-      "count": 3
+      "count": 21
     },
     {
       "id": "pmb237626",
@@ -278,7 +278,7 @@
     },
     {
       "id": "pmb405729",
-      "name": "",
+      "name": "?? [Atlantischer Ozean, vor New York]",
       "count": 1
     },
     {
@@ -299,7 +299,7 @@
     {
       "id": "pmb414",
       "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
-      "count": 8
+      "count": 9
     },
     {
       "id": "pmb417",
@@ -409,7 +409,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 265
+      "count": 248
     },
     {
       "id": "pmb50792",
@@ -468,7 +468,7 @@
     },
     {
       "id": "pmb772",
-      "name": "Marienbad",
+      "name": "Mariánské Lázně",
       "count": 3
     },
     {
@@ -670,9 +670,12 @@
     {
       "from": "pmb168815",
       "to": "pmb235812",
-      "weight": 1,
+      "weight": 4,
       "titles": [
-        "Arthur Schnitzler an Felix Salten, 10. 12. 1923"
+        "Arthur Schnitzler: Widmungsexemplar Die Schwestern für Felix Salten, 2. 12. 1919",
+        "Arthur Schnitzler an Felix Salten, 10. 12. 1923",
+        "Arthur Schnitzler an Felix Salten, 13. 4. 1927",
+        "Arthur Schnitzler an Felix Salten, 29. 7. 1929"
       ]
     },
     {
@@ -686,16 +689,13 @@
     {
       "from": "pmb168815",
       "to": "pmb50",
-      "weight": 11,
+      "weight": 8,
       "titles": [
         "Arthur Schnitzler an Felix Salten, 20. 10. 1911",
         "Arthur Schnitzler und Ferdinand Schmutzer: Widmungsexemplar Der blinde Geronimo und sein Bruder für Felix Salten, [29. 5. 1915?]",
         "Arthur Schnitzler: Widmungsexemplar Komödie der Worte für Felix Salten, [zwischen 18. und 20.?] 10. 1915",
-        "Arthur Schnitzler: Widmungsexemplar Die Schwestern für Felix Salten, 2. 12. 1919",
-        "Arthur Schnitzler an Felix Salten, 13. 4. 1927",
         "Arthur Schnitzler: Widmungsexemplar Buch der Sprüche und Bedenken für Felix Salten, 17. 12. 1927",
         "Arthur Schnitzler an Felix Salten, 11. 4. 1928",
-        "Arthur Schnitzler an Felix Salten, 29. 7. 1929",
         "Arthur Schnitzler an Felix Salten, 30. 12. 1930",
         "Arthur Schnitzler an Felix Salten, 1. 1. 1931",
         "Arthur Schnitzler an Felix Salten, 30. 5. 1931"
@@ -1291,9 +1291,24 @@
     {
       "from": "pmb235812",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 16,
       "titles": [
-        "Felix Salten an Arthur Schnitzler, 27. 12. 1917"
+        "Felix Salten: Widmungsexemplar Olga Frohgemuth für Olga und Arthur Schnitzler, 26. 9. 1910",
+        "Felix Salten an Arthur Schnitzler, 14. 10. 1910",
+        "Felix Salten an Arthur Schnitzler, [22. 11. 1910?]",
+        "Felix Salten an Arthur Schnitzler, 22. 10. 1911",
+        "Felix Salten: Widmungsexemplar Wurstelprater für Arthur Schnitzler, 12. 12. 1911",
+        "Felix Salten an Arthur Schnitzler, [26. 1. 1912]",
+        "Felix Salten an Arthur Schnitzler, [18. 2. 1912]",
+        "Felix Salten an Arthur Schnitzler, 15. 5. 1917",
+        "Felix Salten an Arthur Schnitzler, 27. 12. 1917",
+        "Felix Salten: Widmungsexemplar Schauen und Spielen für Arthur Schnitzler, 22. 9. 1921",
+        "Felix Salten an Arthur Schnitzler, [22. 2. 1922?]",
+        "Felix Salten: Widmungsexemplar Neue Menschen auf alter Erde für Arthur Schnitzler, 30. 4. 1925",
+        "Felix Salten an Arthur Schnitzler, 23. 2. 1926",
+        "Felix Salten an Arthur Schnitzler, 11. 4. 1928",
+        "Felix Salten: Widmungsexemplar Simson für Arthur Schnitzler, 1. 10. 1928",
+        "Felix Salten an Arthur Schnitzler, [16. 11. 1929]"
       ]
     },
     {
@@ -1613,26 +1628,11 @@
     {
       "from": "pmb50",
       "to": "pmb168815",
-      "weight": 19,
+      "weight": 4,
       "titles": [
-        "Felix Salten: Widmungsexemplar Olga Frohgemuth für Olga und Arthur Schnitzler, 26. 9. 1910",
-        "Felix Salten an Arthur Schnitzler, 14. 10. 1910",
-        "Felix Salten an Arthur Schnitzler, [22. 11. 1910?]",
-        "Felix Salten an Arthur Schnitzler, 22. 10. 1911",
-        "Felix Salten: Widmungsexemplar Wurstelprater für Arthur Schnitzler, 12. 12. 1911",
-        "Felix Salten an Arthur Schnitzler, [26. 1. 1912]",
-        "Felix Salten an Arthur Schnitzler, [18. 2. 1912]",
-        "Felix Salten an Arthur Schnitzler, 15. 5. 1917",
-        "Felix Salten: Widmungsexemplar Schauen und Spielen für Arthur Schnitzler, 22. 9. 1921",
-        "Felix Salten an Arthur Schnitzler, [22. 2. 1922?]",
         "Felix Salten: Widmungsexemplar Geister der Zeit für Arthur Schnitzler, Februar 1925",
-        "Felix Salten: Widmungsexemplar Neue Menschen auf alter Erde für Arthur Schnitzler, 30. 4. 1925",
-        "Felix Salten an Arthur Schnitzler, 23. 2. 1926",
         "Ottilie und Felix Salten an Arthur Schnitzler, [Anfang April 1927?]",
-        "Felix Salten an Arthur Schnitzler, 11. 4. 1928",
         "Felix Salten: Widmungsexemplar Der Schrei der Liebe für Arthur Schnitzler, Juli 1928",
-        "Felix Salten: Widmungsexemplar Simson für Arthur Schnitzler, 1. 10. 1928",
-        "Felix Salten an Arthur Schnitzler, [16. 11. 1929]",
         "Felix Salten: Widmungsexemplar Fünf Minuten Amerika für Arthur Schnitzler, [zwischen 1. und 29.?] 5. 1931"
       ]
     },
@@ -1830,9 +1830,10 @@
     {
       "from": "pmb50",
       "to": "pmb414",
-      "weight": 4,
+      "weight": 5,
       "titles": [
         "Felix Salten an Arthur Schnitzler, 30. 8. 1894",
+        "Felix Salten an Arthur Schnitzler, 22. 7. 1895",
         "Felix Salten an Arthur Schnitzler, [14. oder 15]. 8. 1895",
         "Felix Salten an Arthur Schnitzler, [16. oder 17]. 7. 1897",
         "Felix Salten an Arthur Schnitzler, 22. 7. 1897"
