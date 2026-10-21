@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-18Z</date>
+            <date>2026-10-21Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11061.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -255,7 +255,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
                      <date when="1891-12-15" n="02">15. 12. 1891</date>
-                     <placeName ref="#pmb168">Berlin</placeName>
+                     <placeName ref="#pmb1276">Peter-Hille-Straße 72</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -740,11 +740,44 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11061"
-                          target="L00284">Bölsche an Schnitzler, 16. 11. 1893</ref>
+                          target="L00282">Schnitzler an Bölsche, [12.? 11. 1893]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="528"/>
+            </item>
+            <item corresp="L00282">
+               <title level="a">Arthur Schnitzler an Wilhelm Bölsche, [12.? 11. 1893]</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1893-11-12" n="01">[12.? 11. 1893]</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb1276">Peter-Hille-Straße 72</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
+                     <date evidence="conjecture" notBefore="1893-11-14" notAfter="1893-11-16">[14. 11. 1893 – 16. 11. 1893?]</date>
+                     <placeName ref="#pmb405781">Richard-Wagner-Strasse 12/1</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_11061">Bölsche, Wilhelm</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L00281">Bahr an Schnitzler, [7. 11. 1893?]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00268">Schnitzler an Beer-Hofmann, [14. 11.? 1893]</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11061"
+                          target="L00234">Schnitzler an Bölsche, 8. 7. 1893</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_11061"
+                          target="L00284">Bölsche an Schnitzler, 16. 11. 1893</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="535"/>
             </item>
             <item corresp="L00284">
                <title level="a">Wilhelm Bölsche an Arthur Schnitzler, 16. 11. 1893</title>
@@ -752,7 +785,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11061">Bölsche, Wilhelm</persName>
                      <date when="1893-11-16" n="01">16. 11. 1893</date>
-                     <placeName ref="#pmb405781">Seewartstraße</placeName>
+                     <placeName ref="#pmb405781">Richard-Wagner-Strasse 12/1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1893-11-16">16. 11. 1893</date>
@@ -774,7 +807,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11061"
-                          target="L00234">Schnitzler an Bölsche, 8. 7. 1893</ref>
+                          target="L00282">Schnitzler an Bölsche, [12.? 11. 1893]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>

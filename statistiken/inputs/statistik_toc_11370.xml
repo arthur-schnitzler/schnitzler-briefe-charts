@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-18Z</date>
+            <date>2026-10-21Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11370.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,8 +74,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1906-05-08" notAfter="1906-05-11">[8. 5. 1906
-                  – 11. 5. 1906?]</date>
+                     <date evidence="conjecture" when="1906-05-14">[14. 5. 1906?]</date>
                      <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
@@ -101,12 +100,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date when="1912-05-14" n="02">14. 5. 1912</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb253790">Berggasse 19</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1912-05-14" notAfter="1912-05-17">[14. 5. 1912
-                  – 17. 5. 1912?]</date>
+                     <date evidence="conjecture" when="1912-05-23">[23. 5. 1912?]</date>
                      <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
@@ -413,11 +411,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date when="1930-01-01" n="01">[1. 1.? 1930]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb253790" evidence="conjecture">Berggasse 19</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date notBefore="1930-01-02" notAfter="1930-01-05">[1. 1. 1930 – 5. 1. 1930?]</date>
+                     <date when="1930-01-15">[15. 1. 1930?]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>

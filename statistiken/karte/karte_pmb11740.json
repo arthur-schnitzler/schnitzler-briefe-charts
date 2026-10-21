@@ -7618,10 +7618,10 @@
         "lon": 16.255556
       },
       "to": {
-        "name": "Frankgasse 1",
-        "ref": "pmb168934",
-        "lat": 48.21533,
-        "lon": 16.35736
+        "name": "Vahrn",
+        "ref": "pmb946",
+        "lat": 46.73901,
+        "lon": 11.63749
       }
     },
     {
@@ -7909,10 +7909,10 @@
         "ref": "pmb11740"
       },
       "from": {
-        "name": "Frankgasse 1",
-        "ref": "pmb168934",
-        "lat": 48.21533,
-        "lon": 16.35736
+        "name": "Hauptstraße 56 [Hinterbrühl]",
+        "ref": "pmb145165",
+        "lat": 48.08736,
+        "lon": 16.24924
       },
       "to": {
         "name": "Hofmannsthal-Schlössl",
@@ -12022,6 +12022,32 @@
         "ref": "pmb43520",
         "lat": 46.66817,
         "lon": 11.15953
+      }
+    },
+    {
+      "id": "L01705",
+      "title": "Hugo von Hofmannsthal und Louise Schnitzler an Arthur Schnitzler, 5. 9. 1907",
+      "type": "von partner",
+      "date": "1907-09-05",
+      "sender": {
+        "name": "Hofmannsthal, Hugo von",
+        "ref": "pmb11740"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Südbahnhotel [Semmering]",
+        "ref": "pmb413",
+        "lat": 47.647222,
+        "lon": 15.83
+      },
+      "to": {
+        "name": "Palasthotel Meran",
+        "ref": "pmb41086",
+        "lat": 46.667691,
+        "lon": 11.165082
       }
     },
     {

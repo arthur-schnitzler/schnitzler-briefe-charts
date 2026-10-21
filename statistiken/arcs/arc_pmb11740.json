@@ -19,7 +19,7 @@
     {
       "id": "pmb145165",
       "name": "Hauptstraße 56 [Hinterbrühl]",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb146",
@@ -54,7 +54,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 173
+      "count": 171
     },
     {
       "id": "pmb168940",
@@ -382,9 +382,19 @@
       "count": 2
     },
     {
+      "id": "pmb41086",
+      "name": "Palasthotel Meran",
+      "count": 1
+    },
+    {
       "id": "pmb41187",
       "name": "Café Tomaselli",
       "count": 2
+    },
+    {
+      "id": "pmb413",
+      "name": "Südbahnhotel [Semmering]",
+      "count": 1
     },
     {
       "id": "pmb414",
@@ -644,7 +654,7 @@
     {
       "id": "pmb946",
       "name": "Vahrn",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb958",
@@ -692,6 +702,14 @@
       "weight": 1,
       "titles": [
         "Felix Salten und Arthur Schnitzler an Hugo von Hofmannsthal, 3. 8. 1906"
+      ]
+    },
+    {
+      "from": "pmb145165",
+      "to": "pmb40297",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 3. 1902"
       ]
     },
     {
@@ -853,14 +871,6 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 2. 9. 1896"
-      ]
-    },
-    {
-      "from": "pmb168934",
-      "to": "pmb40297",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 29. 3. 1902"
       ]
     },
     {
@@ -2013,9 +2023,8 @@
     {
       "from": "pmb40297",
       "to": "pmb168934",
-      "weight": 9,
+      "weight": 8,
       "titles": [
-        "Hugo von Hofmannsthal an Arthur Schnitzler, 18. 7. [1901]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, 26. 3. [1902]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [28. 3. 1902]",
         "Hugo von Hofmannsthal an Arthur Schnitzler, [30. 3. 1902]",
@@ -2082,6 +2091,14 @@
       ]
     },
     {
+      "from": "pmb40297",
+      "to": "pmb946",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal an Arthur Schnitzler, 18. 7. [1901]"
+      ]
+    },
+    {
       "from": "pmb40302",
       "to": "pmb168815",
       "weight": 1,
@@ -2119,6 +2136,14 @@
       "weight": 1,
       "titles": [
         "Hugo von Hofmannsthal an Arthur Schnitzler, 11. 7. 1908"
+      ]
+    },
+    {
+      "from": "pmb413",
+      "to": "pmb41086",
+      "weight": 1,
+      "titles": [
+        "Hugo von Hofmannsthal und Louise Schnitzler an Arthur Schnitzler, 5. 9. 1907"
       ]
     },
     {

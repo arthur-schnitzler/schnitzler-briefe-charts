@@ -4,11 +4,16 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 15
+      "count": 14
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
+      "id": "pmb333633",
+      "name": "?? [Unterkunft von Schnitzler und Gussmann in St. Anton. 1901]",
       "count": 1
     },
     {
@@ -58,9 +63,8 @@
     {
       "from": "pmb90217",
       "to": "pmb168934",
-      "weight": 3,
+      "weight": 2,
       "titles": [
-        "Theodor von Sosnosky an Arthur Schnitzler, 21. 6. 1901",
         "Theodor von Sosnosky an Arthur Schnitzler, 9. 10. 1901",
         "Theodor von Sosnosky an Arthur Schnitzler, 14. 10. 1901"
       ]
@@ -71,6 +75,14 @@
       "weight": 1,
       "titles": [
         "Theodor von Sosnosky an Arthur Schnitzler, 3. 3. 1902"
+      ]
+    },
+    {
+      "from": "pmb90217",
+      "to": "pmb333633",
+      "weight": 1,
+      "titles": [
+        "Theodor von Sosnosky an Arthur Schnitzler, 21. 6. 1901"
       ]
     }
   ]

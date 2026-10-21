@@ -1,16 +1,17 @@
 Source,Target,Weight,Type
-"Salten, Felix","Wien",383,Directed
-"Salten, Felix","Frankgasse 1",130,Directed
-"Salten, Felix","Edmund-Weiß-Gasse 7",126,Directed
+"Salten, Felix","Wien",374,Directed
+"Salten, Felix","Frankgasse 1",129,Directed
+"Salten, Felix","Edmund-Weiß-Gasse 7",125,Directed
 "Salten, Felix","Berlin",95,Directed
 "Salten, Felix","Sternwartestraße 71",72,Directed
-"Salten, Felix","Bad Ischl",44,Directed
+"Salten, Felix","Bad Ischl",43,Directed
 "Salten, Felix","XVIII., Währing",32,Directed
 "Salten, Felix","Österreich",31,Directed
 "Salten, Felix","Ordination Arthur Schnitzler [Bösendorferstraße 11]",30,Directed
+"Salten, Felix","Salzburg",30,Directed
 "Salten, Felix","Unterach am Attersee",29,Directed
-"Salten, Felix","Salzburg",29,Directed
 "Salten, Felix","München",24,Directed
+"Salten, Felix","Cottagegasse 37",21,Directed
 "Salten, Felix","Berghof",19,Directed
 "Salten, Felix","Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",17,Directed
 "Salten, Felix","Semmering",16,Directed
@@ -21,11 +22,11 @@ Source,Target,Weight,Type
 "Salten, Felix","9/3 Post- und Telegraphenamt 72",13,Directed
 "Salten, Felix","Dresden",12,Directed
 "Salten, Felix","Wipplingerstraße",12,Directed
+"Salten, Felix","Hörlgasse 16",11,Directed
 "Salten, Felix","Burgtheater",11,Directed
 "Salten, Felix","Venedig",10,Directed
 "Salten, Felix","1/1 Post- und Telegraphenamt 1",10,Directed
 "Salten, Felix","Riedhof",10,Directed
-"Salten, Felix","Hörlgasse 16",10,Directed
 "Salten, Felix","Kopenhagen",10,Directed
 "Salten, Felix","Südtirol",10,Directed
 "Salten, Felix","Raimund-Theater",9,Directed
@@ -44,7 +45,6 @@ Source,Target,Weight,Type
 "Salten, Felix","Armbrustergasse 6",7,Directed
 "Salten, Felix","Italien",6,Directed
 "Salten, Felix","Café Kremser",6,Directed
-"Salten, Felix","Volkstheater",6,Directed
 "Salten, Felix","Bad Aussee",6,Directed
 "Salten, Felix","Dölsach",6,Directed
 "Salten, Felix","Pressbaum",6,Directed
@@ -61,13 +61,13 @@ Source,Target,Weight,Type
 "Salten, Felix","Mödling",5,Directed
 "Salten, Felix","Prater",5,Directed
 "Salten, Felix","9/1 Post- und Telegraphenamt 66",5,Directed
+"Salten, Felix","Volkstheater",5,Directed
 "Salten, Felix","Lienz",5,Directed
 "Salten, Felix","XIX., Döbling",5,Directed
 "Salten, Felix","Höhlenstein",5,Directed
 "Salten, Felix","Heringsdorf",5,Directed
-"Salten, Felix","Universitätsstraße",5,Directed
+"Salten, Felix","Universitätsstraße 6",5,Directed
 "Salten, Felix","XIII., Hietzing",5,Directed
-"Salten, Felix","Innsbruck",5,Directed
 "Salten, Felix","Teplice",5,Directed
 "Salten, Felix","Reichenau an der Rax",5,Directed
 "Salten, Felix","Florenz",5,Directed
@@ -84,6 +84,7 @@ Source,Target,Weight,Type
 "Salten, Felix","Pustertal",4,Directed
 "Salten, Felix","Frankfurt am Main",4,Directed
 "Salten, Felix","Prag",4,Directed
+"Salten, Felix","Innsbruck",4,Directed
 "Salten, Felix","Skodsborg",4,Directed
 "Salten, Felix","Schulerstraße",4,Directed
 "Salten, Felix","Russland",4,Directed
@@ -103,7 +104,6 @@ Source,Target,Weight,Type
 "Salten, Felix","Kantstraße",4,Directed
 "Salten, Felix","Tirol",4,Directed
 "Salten, Felix","Weimar",4,Directed
-"Salten, Felix","Cottagegasse 37",4,Directed
 "Salten, Felix","Wohnung und Ordination Johann Schnitzler Burgring 1",3,Directed
 "Salten, Felix","Weißenbach am Attersee",3,Directed
 "Salten, Felix","Amerika",3,Directed
@@ -116,7 +116,6 @@ Source,Target,Weight,Type
 "Salten, Felix","Ronacher",3,Directed
 "Salten, Felix","Brünn",3,Directed
 "Salten, Felix","Café Pucher",3,Directed
-"Salten, Felix","Wattmanngasse",3,Directed
 "Salten, Felix","Schlosspark Schönbrunn",3,Directed
 "Salten, Felix","Wiesbaden",3,Directed
 "Salten, Felix","Verona",3,Directed
@@ -165,12 +164,12 @@ Source,Target,Weight,Type
 "Salten, Felix","Riva del Garda",2,Directed
 "Salten, Felix","Postamt Salzburg Stadt",2,Directed
 "Salten, Felix","Hauptbahnhof Salzburg",2,Directed
+"Salten, Felix","Wattmanngasse",2,Directed
 "Salten, Felix","Bad Reichenhall",2,Directed
 "Salten, Felix","Hotel Savoy [Berlin]",2,Directed
 "Salten, Felix","Seeboden am Millstättersee",2,Directed
 "Salten, Felix","Kochgasse 32",2,Directed
 "Salten, Felix","Vorarlberg",2,Directed
-"Salten, Felix","Traunkai",2,Directed
 "Salten, Felix","Stuttgart",2,Directed
 "Salten, Felix","Schweden",2,Directed
 "Salten, Felix","Pörtschach am Wörthersee",2,Directed
@@ -203,6 +202,7 @@ Source,Target,Weight,Type
 "Salten, Felix","Wartburg",2,Directed
 "Salten, Felix","Hotel Radetzky",2,Directed
 "Salten, Felix","Hinterbrühl",2,Directed
+"Salten, Felix","Kurhotellet",2,Directed
 "Salten, Felix","St. Gilgen",2,Directed
 "Salten, Felix","19/2 Post- und Telegraphenamt 119",2,Directed
 "Salten, Felix","Lido",2,Directed
@@ -216,6 +216,7 @@ Source,Target,Weight,Type
 "Salten, Felix","Attersee",2,Directed
 "Salten, Felix","Partenkirchen",2,Directed
 "Salten, Felix","Altaussee",2,Directed
+"Salten, Felix","Währinger Cottage",2,Directed
 "Salten, Felix","Berchtesgaden",2,Directed
 "Salten, Felix","Czernowitz",2,Directed
 "Salten, Felix","Sanatorium am Königspark",2,Directed
@@ -255,6 +256,7 @@ Source,Target,Weight,Type
 "Salten, Felix","Hotel Erzherzog Karl [Wien]",1,Directed
 "Salten, Felix","Kärntner Straße",1,Directed
 "Salten, Felix","Währinger Straße",1,Directed
+"Salten, Felix","Salesianergasse 12",1,Directed
 "Salten, Felix","Café Reichsrath (Inh. Karl Auböck)",1,Directed
 "Salten, Felix","Gießhübl",1,Directed
 "Salten, Felix","9/2 Post- und Telegraphenamt 71",1,Directed
@@ -264,7 +266,7 @@ Source,Target,Weight,Type
 "Salten, Felix","XVII., Hernals",1,Directed
 "Salten, Felix","Steyr",1,Directed
 "Salten, Felix","3/1 Post- und Telegraphenamt 44",1,Directed
-"Salten, Felix","Sechsschimmelgasse",1,Directed
+"Salten, Felix","Sechsschimmelgasse 4",1,Directed
 "Salten, Felix","Hotel Oberpollinger",1,Directed
 "Salten, Felix","Szczecin",1,Directed
 "Salten, Felix","Sylt",1,Directed
@@ -273,8 +275,9 @@ Source,Target,Weight,Type
 "Salten, Felix","Friedhof Gerasdorf",1,Directed
 "Salten, Felix","Hôtel zum Erzherzog Franz Carl",1,Directed
 "Salten, Felix","Österreichischer Hof",1,Directed
-"Salten, Felix","Asien",1,Directed
+"Salten, Felix","Hotel Continental [München]",1,Directed
 "Salten, Felix","Japan",1,Directed
+"Salten, Felix","Asien",1,Directed
 "Salten, Felix","Kaufmännischer Verein",1,Directed
 "Salten, Felix","Café Dommayer",1,Directed
 "Salten, Felix","Valle d’Ampezzo",1,Directed
@@ -299,6 +302,7 @@ Source,Target,Weight,Type
 "Salten, Felix","Felberstraße",1,Directed
 "Salten, Felix","Penzinger Viadukt",1,Directed
 "Salten, Felix","Graz",1,Directed
+"Salten, Felix","Wattmanngasse 11",1,Directed
 "Salten, Felix","Café Glattauer",1,Directed
 "Salten, Felix","13/1 Post- und Telegraphenamt 88",1,Directed
 "Salten, Felix","Pelikangasse 4",1,Directed
@@ -314,8 +318,10 @@ Source,Target,Weight,Type
 "Salten, Felix","Nürnberg",1,Directed
 "Salten, Felix","Staatsbrücke",1,Directed
 "Salten, Felix","Alpen",1,Directed
-"Salten, Felix","Ala",1,Directed
+"Salten, Felix","Traunkai 11",1,Directed
 "Salten, Felix","Bludenz",1,Directed
+"Salten, Felix","Ala",1,Directed
+"Salten, Felix","Traunkai",1,Directed
 "Salten, Felix","Thusis",1,Directed
 "Salten, Felix","Pontresina",1,Directed
 "Salten, Felix","Ponte Adige",1,Directed
@@ -326,9 +332,10 @@ Source,Target,Weight,Type
 "Salten, Felix","Bosquet des Bains d'Apollon",1,Directed
 "Salten, Felix","Jardin de Versailles",1,Directed
 "Salten, Felix","Versailles",1,Directed
-"Salten, Felix","Arlberg",1,Directed
 "Salten, Felix","Hotel Bristol Salzburg",1,Directed
+"Salten, Felix","Gasthof und Pension Waldsacker",1,Directed
 "Salten, Felix","Darmstadt",1,Directed
+"Salten, Felix","Arlberg",1,Directed
 "Salten, Felix","Feldkirch",1,Directed
 "Salten, Felix","Cieszyn",1,Directed
 "Salten, Felix","Reichstag",1,Directed
@@ -417,11 +424,10 @@ Source,Target,Weight,Type
 "Salten, Felix","Goethes Wohnhaus",1,Directed
 "Salten, Felix","Klopeiner See",1,Directed
 "Salten, Felix","Bremerhaven",1,Directed
-"Salten, Felix","Cherbourg-Octeville",1,Directed
 "Salten, Felix","Plymouth",1,Directed
+"Salten, Felix","Cherbourg-Octeville",1,Directed
 "Salten, Felix","Seestraße",1,Directed
 "Salten, Felix","Lueg",1,Directed
-"Salten, Felix","Kurhotellet",1,Directed
 "Salten, Felix","Helsingør",1,Directed
 "Salten, Felix","Eisenach",1,Directed
 "Salten, Felix","Adriatisches Meer",1,Directed
@@ -489,6 +495,7 @@ Source,Target,Weight,Type
 "Salten, Felix","IJmuiden",1,Directed
 "Salten, Felix","Genua",1,Directed
 "Salten, Felix","Schloss Versailles",1,Directed
+"Salten, Felix","Hotel Kaiserkrone",1,Directed
 "Salten, Felix","Serbien",1,Directed
 "Salten, Felix","Sarajevo",1,Directed
 "Salten, Felix","Balkanhalbinsel",1,Directed
@@ -508,6 +515,7 @@ Source,Target,Weight,Type
 "Salten, Felix","Roma Termini",1,Directed
 "Salten, Felix","via San Carlo",1,Directed
 "Salten, Felix","Galleria Umberto I",1,Directed
+"Salten, Felix","Hotel Esplanade [Berlin]",1,Directed
 "Salten, Felix","Jupitertempel",1,Directed
 "Salten, Felix","Prievoz",1,Directed
 "Salten, Felix","Schloss Csáky",1,Directed
@@ -522,7 +530,6 @@ Source,Target,Weight,Type
 "Salten, Felix","Palästina",1,Directed
 "Salten, Felix","Olha-Kobyljanska-Stadttheater",1,Directed
 "Salten, Felix","Loschwitz",1,Directed
-"Salten, Felix","Währinger Cottage",1,Directed
 "Salten, Felix","Kaßbergauffahrt",1,Directed
 "Salten, Felix","Chemnitz",1,Directed
 "Salten, Felix","Rhodos",1,Directed

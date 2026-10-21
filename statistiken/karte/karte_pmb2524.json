@@ -18,16 +18,16 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "",
+        "ref": "pmb415036",
+        "lat": null,
+        "lon": null
       },
       "to": {
-        "name": "Seis am Schlern",
-        "ref": "pmb988",
-        "lat": 46.54133,
-        "lon": 11.55868
+        "name": "Villa Heufler",
+        "ref": "pmb467",
+        "lat": 46.54555,
+        "lon": 11.560026
       }
     },
     {
@@ -44,16 +44,16 @@
         "ref": "pmb2524"
       },
       "from": {
-        "name": "Seis am Schlern",
-        "ref": "pmb988",
-        "lat": 46.54133,
-        "lon": 11.55868
+        "name": "Villa Heufler",
+        "ref": "pmb467",
+        "lat": 46.54555,
+        "lon": 11.560026
       },
       "to": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "",
+        "ref": "pmb415036",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -76,10 +76,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "",
+        "ref": "pmb415036",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -96,10 +96,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "",
+        "ref": "pmb415036",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -128,10 +128,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "",
+        "ref": "pmb415036",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -148,10 +148,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "",
+        "ref": "pmb415036",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -179,7 +179,12 @@
         "lat": 48.23188,
         "lon": 16.33716
       },
-      "to": null
+      "to": {
+        "name": "Charlottenburg",
+        "ref": "pmb9925",
+        "lat": 52.516667,
+        "lon": 13.3
+      }
     }
   ]
 }

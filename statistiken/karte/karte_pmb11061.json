@@ -200,10 +200,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "Peter-Hille-Straße 72",
+        "ref": "pmb1276",
+        "lat": 52.4531,
+        "lon": 13.621
       },
       "to": {
         "name": "Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11",
@@ -600,6 +600,32 @@
         "ref": "pmb1276",
         "lat": 52.4531,
         "lon": 13.621
+      }
+    },
+    {
+      "id": "L00282",
+      "title": "Arthur Schnitzler an Wilhelm Bölsche, [12.? 11. 1893]",
+      "type": "von schnitzler",
+      "date": "1893-11-12",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Bölsche, Wilhelm",
+        "ref": "pmb11061"
+      },
+      "from": {
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
+      },
+      "to": {
+        "name": "Richard-Wagner-Strasse 12/1",
+        "ref": "pmb405781",
+        "lat": 47.36038735467241,
+        "lon": 8.53230864016307
       }
     },
     {

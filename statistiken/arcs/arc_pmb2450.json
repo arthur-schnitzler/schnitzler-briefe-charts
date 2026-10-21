@@ -34,7 +34,7 @@
     {
       "id": "pmb364920",
       "name": "Währinger Gürtel 90",
-      "count": 1
+      "count": 6
     },
     {
       "id": "pmb364944",
@@ -42,9 +42,19 @@
       "count": 1
     },
     {
+      "id": "pmb42061",
+      "name": "Waldmannstraße",
+      "count": 1
+    },
+    {
+      "id": "pmb42383",
+      "name": "Rämistrasse",
+      "count": 2
+    },
+    {
       "id": "pmb42505",
       "name": "Schifflände",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb43437",
@@ -52,14 +62,9 @@
       "count": 1
     },
     {
-      "id": "pmb484",
-      "name": "Zürich",
-      "count": 4
-    },
-    {
       "id": "pmb50",
       "name": "Wien",
-      "count": 6
+      "count": 1
     },
     {
       "id": "pmb52",
@@ -104,9 +109,14 @@
     {
       "from": "pmb364920",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 6,
       "titles": [
-        "Friedrich M. Fels an Arthur Schnitzler, 7. 10. 1894"
+        "Friedrich M. Fels an Arthur Schnitzler, 7. 10. 1894",
+        "Friedrich M. Fels an Arthur Schnitzler, 26. 10. 1894",
+        "Friedrich M. Fels an Arthur Schnitzler, 6. 11. 1894",
+        "Friedrich M. Fels an Arthur Schnitzler, [12. 11. 1894]",
+        "Friedrich M. Fels an Arthur Schnitzler, [26. 11. 1894]",
+        "Friedrich M. Fels an Arthur Schnitzler, [22. oder 23]. 4. 1895"
       ]
     },
     {
@@ -118,10 +128,28 @@
       ]
     },
     {
-      "from": "pmb42505",
+      "from": "pmb42061",
       "to": "pmb168934",
       "weight": 1,
       "titles": [
+        "Friedrich M. Fels an Arthur Schnitzler, [1. Hälfte Juni 1895]"
+      ]
+    },
+    {
+      "from": "pmb42383",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Friedrich M. Fels an Arthur Schnitzler, 19. 9. 1895",
+        "Friedrich M. Fels an Arthur Schnitzler, 28. 9. 1895"
+      ]
+    },
+    {
+      "from": "pmb42505",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Friedrich M. Fels an Arthur Schnitzler, 4. 10. 1895",
         "Friedrich M. Fels an Arthur Schnitzler, 16. 10. 1895"
       ]
     },
@@ -134,27 +162,11 @@
       ]
     },
     {
-      "from": "pmb484",
-      "to": "pmb168934",
-      "weight": 4,
-      "titles": [
-        "Friedrich M. Fels an Arthur Schnitzler, [1. Hälfte Juni 1895]",
-        "Friedrich M. Fels an Arthur Schnitzler, 19. 9. 1895",
-        "Friedrich M. Fels an Arthur Schnitzler, 28. 9. 1895",
-        "Friedrich M. Fels an Arthur Schnitzler, 4. 10. 1895"
-      ]
-    },
-    {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 6,
+      "weight": 1,
       "titles": [
-        "Friedrich M. Fels an Arthur Schnitzler, 22. 10. 1894",
-        "Friedrich M. Fels an Arthur Schnitzler, 26. 10. 1894",
-        "Friedrich M. Fels an Arthur Schnitzler, 6. 11. 1894",
-        "Friedrich M. Fels an Arthur Schnitzler, [12. 11. 1894]",
-        "Friedrich M. Fels an Arthur Schnitzler, [26. 11. 1894]",
-        "Friedrich M. Fels an Arthur Schnitzler, [22. oder 23]. 4. 1895"
+        "Friedrich M. Fels an Arthur Schnitzler, 22. 10. 1894"
       ]
     },
     {

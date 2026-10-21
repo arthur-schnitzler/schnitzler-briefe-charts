@@ -134,7 +134,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 64
+      "count": 60
     },
     {
       "id": "pmb168768",
@@ -154,7 +154,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 48
+      "count": 46
     },
     {
       "id": "pmb182",
@@ -179,7 +179,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 17
+      "count": 16
     },
     {
       "id": "pmb224",
@@ -214,7 +214,7 @@
     {
       "id": "pmb30",
       "name": "Salzburg",
-      "count": 8
+      "count": 9
     },
     {
       "id": "pmb339258",
@@ -302,6 +302,11 @@
       "count": 134
     },
     {
+      "id": "pmb405869",
+      "name": "",
+      "count": 4
+    },
+    {
       "id": "pmb40694",
       "name": "Gentzgasse",
       "count": 1
@@ -322,6 +327,11 @@
       "count": 1
     },
     {
+      "id": "pmb413",
+      "name": "Südbahnhotel [Semmering]",
+      "count": 1
+    },
+    {
       "id": "pmb414",
       "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
       "count": 4
@@ -334,7 +344,7 @@
     {
       "id": "pmb424",
       "name": "Bad Tölz",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb42671",
@@ -499,7 +509,7 @@
     {
       "id": "pmb723",
       "name": "Wildbad Waldbrunn",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pmb734",
@@ -614,6 +624,11 @@
     {
       "id": "pmb92294",
       "name": "Hotel Tegetthoff",
+      "count": 1
+    },
+    {
+      "id": "pmb92982",
+      "name": "Villa Carlo",
       "count": 1
     },
     {
@@ -1020,11 +1035,8 @@
     {
       "from": "pmb168",
       "to": "pmb168815",
-      "weight": 12,
+      "weight": 9,
       "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 13. 1. 1911",
-        "Eva Marie Goldmann an Arthur Schnitzler, 21. 9. 1911",
-        "Eva Marie Goldmann an Arthur Schnitzler, 1. 10. 1911",
         "Paul Goldmann an Arthur Schnitzler, 10. 2. 1915",
         "Paul Goldmann an Arthur Schnitzler, 16. 2. 1925",
         "Paul Goldmann an Arthur Schnitzler, 24. 10. 1925",
@@ -1064,12 +1076,11 @@
     {
       "from": "pmb168",
       "to": "pmb168940",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 16. 1. 1908",
         "Paul Goldmann an Arthur Schnitzler, 8. 5. 1908",
-        "Paul Goldmann an Arthur Schnitzler, 16. 11. 1908",
-        "Paul Goldmann an Arthur Schnitzler, 19. 4. 1910"
+        "Paul Goldmann an Arthur Schnitzler, 16. 11. 1908"
       ]
     },
     {
@@ -1266,18 +1277,18 @@
     },
     {
       "from": "pmb255",
-      "to": "pmb168940",
-      "weight": 1,
-      "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 14. 9. 1906"
-      ]
-    },
-    {
-      "from": "pmb255",
       "to": "pmb189",
       "weight": 1,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 3. 5. 1905"
+      ]
+    },
+    {
+      "from": "pmb255",
+      "to": "pmb413",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 14. 9. 1906"
       ]
     },
     {
@@ -1624,7 +1635,7 @@
     {
       "from": "pmb405854",
       "to": "pmb168940",
-      "weight": 12,
+      "weight": 11,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 14. 11. [1903]",
         "Paul Goldmann an Arthur Schnitzler, 13. 12. [1903]",
@@ -1636,7 +1647,6 @@
         "Paul Goldmann an Arthur Schnitzler, 27. 11. [1905]",
         "Paul Goldmann an Arthur Schnitzler, 22. 3. [1906]",
         "Paul Goldmann an Arthur Schnitzler, 9. 4. [1906]",
-        "Paul Goldmann an Arthur Schnitzler, 7. 7. 1907",
         "Paul Goldmann an Arthur Schnitzler, 5. 6. [1908]"
       ]
     },
@@ -1710,6 +1720,14 @@
     },
     {
       "from": "pmb405854",
+      "to": "pmb723",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 7. 7. 1907"
+      ]
+    },
+    {
+      "from": "pmb405854",
       "to": "pmb906",
       "weight": 1,
       "titles": [
@@ -1731,6 +1749,24 @@
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 9. 11. [1901]",
         "Paul Goldmann an Arthur Schnitzler, 10. 7. [1904]"
+      ]
+    },
+    {
+      "from": "pmb405869",
+      "to": "pmb168815",
+      "weight": 3,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 13. 1. 1911",
+        "Eva Marie Goldmann an Arthur Schnitzler, 21. 9. 1911",
+        "Eva Marie Goldmann an Arthur Schnitzler, 1. 10. 1911"
+      ]
+    },
+    {
+      "from": "pmb405869",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 19. 4. 1910"
       ]
     },
     {
@@ -1760,10 +1796,9 @@
     {
       "from": "pmb424",
       "to": "pmb213",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 13. 8. [1895]",
-        "Paul Goldmann an Arthur Schnitzler, 19. 8. [1895]"
+        "Paul Goldmann an Arthur Schnitzler, 13. 8. [1895]"
       ]
     },
     {
@@ -2347,6 +2382,14 @@
       "weight": 1,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 7. 10. 1907"
+      ]
+    },
+    {
+      "from": "pmb92982",
+      "to": "pmb30",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 19. 8. [1895]"
       ]
     },
     {

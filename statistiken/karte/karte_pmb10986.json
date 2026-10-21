@@ -1,9 +1,35 @@
 {
   "correspondent": {
     "id": "pmb10986",
-    "name": ""
+    "name": "Brahm, Otto"
   },
   "letters": [
+    {
+      "id": "L04547",
+      "title": "Arthur Schnitzler an Otto Brahm, 26. 1. 1901",
+      "type": "von schnitzler",
+      "date": "1901-01-26",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Brahm, Otto",
+        "ref": "pmb10986"
+      },
+      "from": {
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
+      },
+      "to": {
+        "name": "Deutsches Theater Berlin",
+        "ref": "pmb3",
+        "lat": 52.524444,
+        "lon": 13.382222
+      }
+    },
     {
       "id": "L02866",
       "title": "Otto Brahm, Gerhart Hauptmann und Margarete Marschalk an Arthur Schnitzler, 21. 6. 1903",
@@ -31,6 +57,32 @@
       }
     },
     {
+      "id": "L04549",
+      "title": "Arthur Schnitzler an Otto Brahm, 11. 11. 1904",
+      "type": "von schnitzler",
+      "date": "1904-11-11",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Brahm, Otto",
+        "ref": "pmb10986"
+      },
+      "from": {
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
+      },
+      "to": {
+        "name": "",
+        "ref": "pmb237370",
+        "lat": null,
+        "lon": null
+      }
+    },
+    {
       "id": "L03419",
       "title": "Felix Salten u. a. an Arthur Schnitzler, 19. 4. 1906",
       "type": "von partner",
@@ -54,6 +106,32 @@
         "ref": "pmb168940",
         "lat": 48.2304,
         "lon": 16.33472
+      }
+    },
+    {
+      "id": "L04548",
+      "title": "Arthur Schnitzler an Otto Brahm, 1[4?]. 4. 1907",
+      "type": "von schnitzler",
+      "date": "1907-04-14",
+      "sender": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "receiver": {
+        "name": "Brahm, Otto",
+        "ref": "pmb10986"
+      },
+      "from": {
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
+      },
+      "to": {
+        "name": "",
+        "ref": "pmb237370",
+        "lat": null,
+        "lon": null
       }
     },
     {

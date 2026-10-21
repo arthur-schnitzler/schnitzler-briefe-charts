@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-18Z</date>
+            <date>2026-10-21Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10815.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -616,7 +616,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L00280">Schnitzler an Bahr, 7. 11. 1893</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L00282">Schnitzler an , [12.? 11. 1893]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L00282">Schnitzler an Bölsche, [12.? 11. 1893]</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -1372,7 +1372,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="817"/>
+               <measure unit="zeichenanzahl" quantity="816"/>
             </item>
             <item corresp="L00537">
                <title level="a">Hermann Bahr an Arthur Schnitzler, 3. 3. 1896</title>
@@ -3548,7 +3548,7 @@
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L04228">Sosnosky an Schnitzler, 24. 1. 1901</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L01095">Schnitzler an Beer-Hofmann, 26. 1. 1901</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L04547">Schnitzler an Brahm, 26. 1. 1901</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10815"
@@ -8585,7 +8585,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L01667">Hofmannsthal an Schnitzler, 13. 4. 1907</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04548">Schnitzler an Brahm, 1[4?]. 4. 1907</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L01669">Schnitzler an Bahr, 16. 4. 1907</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -10227,7 +10227,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="briefkarte"/>
-               <measure unit="zeichenanzahl" quantity="512"/>
+               <measure unit="zeichenanzahl" quantity="510"/>
             </item>
             <item corresp="L01985">
                <title level="a">Hermann Bahr an Arthur Schnitzler, 22. 11. 1910</title>
@@ -10261,7 +10261,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="153"/>
+               <measure unit="zeichenanzahl" quantity="151"/>
             </item>
             <item corresp="L02029">
                <title level="a">Hermann Bahr an Arthur Schnitzler, 17. 9. 1911</title>
@@ -10373,7 +10373,7 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10815">Bahr, Hermann</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02049">Brandes an Schnitzler, [vor dem 2. 12. 1911]</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02046">Hofmannsthal an Schnitzler, 15. 11. 1911</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L03629">Zweig an Schnitzler, [18. oder 19]. 11. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
@@ -10550,7 +10550,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1912-09-25" notAfter="1912-09-25">[25. oder 26.] 9. 1912</date>
+                     <date notBefore="1912-09-25" notAfter="1912-09-25" n="01">[25. oder 26.] 9. 1912</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -10615,7 +10615,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="437"/>
+               <measure unit="zeichenanzahl" quantity="435"/>
             </item>
             <item corresp="L02099">
                <title level="a">Arthur Schnitzler an Hermann Bahr, 16. 11. 1912</title>
@@ -11240,7 +11240,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="479"/>
+               <measure unit="zeichenanzahl" quantity="477"/>
             </item>
             <item corresp="L01255">
                <title level="a">Arthur Schnitzler an Hermann Bahr, 14. 9. 1918</title>

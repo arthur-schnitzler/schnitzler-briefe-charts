@@ -4,7 +4,7 @@
     {
       "id": "pmb146",
       "name": "Frankfurt am Main",
-      "count": 7
+      "count": 8
     },
     {
       "id": "pmb167782",
@@ -38,6 +38,14 @@
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168934",
+      "to": "pmb146",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Fedor Mamroth, 7. 12. 1894"
+      ]
+    }
   ],
   "links_to_schnitzler": [
     {

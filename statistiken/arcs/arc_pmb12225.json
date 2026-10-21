@@ -9,17 +9,12 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 8
+      "count": 6
     },
     {
       "id": "pmb405611",
       "name": "Wittelsbachstraße 5",
-      "count": 5
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 5
+      "count": 10
     },
     {
       "id": "pmb50844",
@@ -29,13 +24,13 @@
     {
       "id": "pmb723",
       "name": "Wildbad Waldbrunn",
-      "count": 2
+      "count": 4
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168940",
-      "to": "pmb50",
+      "to": "pmb405611",
       "weight": 2,
       "titles": [
         "Arthur Schnitzler an Max Mell, 26. 10. 1906",
@@ -63,9 +58,19 @@
     {
       "from": "pmb405611",
       "to": "pmb168940",
-      "weight": 3,
+      "weight": 4,
       "titles": [
         "Max Mell an Arthur Schnitzler, 11. 10. 1906",
+        "Max Mell an Arthur Schnitzler, 7. 11. 1906",
+        "Max Mell an Arthur Schnitzler, 4. 11. 1907",
+        "Max Mell an Arthur Schnitzler, 8. 12. 1909"
+      ]
+    },
+    {
+      "from": "pmb405611",
+      "to": "pmb723",
+      "weight": 2,
+      "titles": [
         "Max Mell an Arthur Schnitzler, 15. 7. 1907",
         "Max Mell an Arthur Schnitzler, 29. 7. 1907"
       ]
@@ -76,16 +81,6 @@
       "weight": 1,
       "titles": [
         "Max und Mary Mell an Arthur und Olga Schnitzler, 3. 8. 1907"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb168940",
-      "weight": 3,
-      "titles": [
-        "Max Mell an Arthur Schnitzler, 7. 11. 1906",
-        "Max Mell an Arthur Schnitzler, 4. 11. 1907",
-        "Max Mell an Arthur Schnitzler, 8. 12. 1909"
       ]
     }
   ]

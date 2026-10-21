@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-18Z</date>
+            <date>2026-10-21Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -43,7 +43,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1885-05-29" n="01">29. 5. 1885</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb296554" evidence="conjecture">Zelinkagasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -100,12 +100,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1886-10-02" n="01">2. 10. 1886</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb296554">Zelinkagasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1886-10-03" notAfter="1886-10-07">[3. 10. 1886
-                  – 7. 10. 1886?]</date>
+                     <date evidence="conjecture" notBefore="1886-10-02" notAfter="1886-10-06">[2. 10. 1886
+                  – 6. 10. 1886?]</date>
                      <placeName ref="#pmb168765" evidence="conjecture">Wohnung und Ordination Johann Schnitzler Burgring 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -136,7 +136,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date notBefore="1889-04-23" notAfter="1889-04-24">[23. oder 24. 4. 1889?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415028" evidence="conjecture">Hollandstraße 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -161,12 +161,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-07-25" n="01">25. 7. 1892</date>
-                     <placeName ref="#pmb167789">Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</placeName>
+                     <placeName ref="#pmb167789" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1892-07-25" notAfter="1892-07-28">[25. 7. 1892 – 28. 7. 1892?]</date>
-                     <placeName ref="#pmb182" evidence="external">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -191,7 +191,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1892-07-29" n="02">29. 7. 1892</date>
-                     <placeName ref="#pmb63049">Houlgate</placeName>
+                     <placeName ref="#pmb298434">Villa des Œillets</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -222,12 +222,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-08-05" n="01">5. 8. 1892</date>
-                     <placeName ref="#pmb167789">Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</placeName>
+                     <placeName ref="#pmb167789" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1892-08-06" notAfter="1892-08-10">[6. 8. 1892 – 10. 8. 1892?]</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -252,12 +252,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1892-11-10" n="01">10. [11.?] 1892</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="external" when="1892-11-12">12. 11. 1892</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -287,7 +287,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="external" notBefore="1892-11-15" notAfter="1892-11-16">[15. 11. 1892 – 16. 11. 1892]</date>
-                     <placeName ref="#pmb182" evidence="external">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="external">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -312,7 +312,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1892-11-16" n="01">16. 11. 1892</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -343,13 +343,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1892-12-30" n="01">30. 12. 1892</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="external" notBefore="1892-12-31" notAfter="1893-01-02">[31. 12. 1892
                   – 2. 1. 1893]</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -374,7 +374,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1893-01-02" n="01">2. 1. 1893</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -405,7 +405,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1893-05-04" n="02">4. 5. 1893</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -436,13 +436,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-05-11" n="01">11. 5. 1893</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1893-05-12" notAfter="1893-05-16">[12. 5. 1893
                   – 16. 5. 1893?]</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -467,7 +467,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1893-05-19" n="01">19. 5. 1893</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -497,13 +497,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-06-13" n="01">13. 6. 1893</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="external" notBefore="1893-06-14" notAfter="1893-06-15">[14. 6. 1893 –
                   15. 6. 1893]</date>
-                     <placeName ref="#pmb182" evidence="external">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -528,7 +528,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1893-06-15" n="01">15. 6. 1893</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -559,13 +559,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-06-21" n="01">21. 6. 1893</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1893-06-22" notAfter="1893-06-29">[22. 6. 1893
                   – 29. 6. 1893]</date>
-                     <placeName ref="#pmb182" evidence="internal">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -590,13 +590,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1893-06-29" n="01">29. 6. 1893</date>
-                     <placeName ref="#pmb49170">Morschach</placeName>
+                     <placeName ref="#pmb296532">Hotel &amp; Pension Frohnalp</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="external" notBefore="1893-06-30" notAfter="1893-07-01">[30. 6. 1893
                   – 1. 7. 1893]</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -621,12 +621,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-07-01" n="01">1. 7. 1893</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1893-07-02" notAfter="1893-07-07">[2. 7. 1893 – 7. 7. 1893?]</date>
-                     <placeName ref="#pmb49170">Morschach</placeName>
+                     <placeName ref="#pmb296532" evidence="external">Hotel &amp; Pension Frohnalp</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -651,13 +651,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-08-04" n="01">4. 8. 1893</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1893-08-05" notAfter="1893-08-06">[5. 8. 1893
                   – 6. 8. 1893]</date>
-                     <placeName ref="#pmb182" evidence="external">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -682,7 +682,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1893-08-06" n="01">6. 8. 1893</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -712,7 +712,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1893-09-12" n="02">12. 9. 1893</date>
-                     <placeName ref="#pmb662" evidence="external">Baden bei Wien</placeName>
+                     <placeName ref="#pmb298935" evidence="conjecture">Helenenstraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -779,7 +779,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1893-09-28" n="01">28. 9. 1893</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
@@ -810,13 +810,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1893-12-08" n="02">8. 12. 1893</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="external" notBefore="1893-12-09" notAfter="1893-12-10">[9. 12. 1893
                   – 10. 12. 1893]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -846,7 +846,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1893-12-11" notAfter="1893-12-15">[11. 12. 1893 – 15. 12. 1893?]</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -871,12 +871,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-07-03" n="02">3. 7. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="external" notBefore="1894-07-04" notAfter="1894-07-05">[4. 7. 1894 – 5. 7. 1894]</date>
-                     <placeName ref="#pmb168934" evidence="external">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -907,7 +907,7 @@
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1894-07-05" notAfter="1894-07-08">[5. 7. 1894
                   – 8. 7. 1894?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -932,7 +932,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-09-04" n="01">4. 9. 1894</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb92294" evidence="external">Hotel Tegetthoff</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -963,7 +963,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-11-08" n="03">8. 11. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -994,12 +994,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1894-11-10" n="02">10. 11. 1894</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1894-11-10" notAfter="1894-11-13">[10. 11. 1894 – 13. 11. 1894?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1024,7 +1024,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-11-13" n="01">13. 11. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1059,7 +1059,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1894-11-18" notAfter="1894-11-22">[18. 11. 1894 – 22. 11. 1894?]</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1089,7 +1089,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1894-11-17" notAfter="1894-11-20">[17. 11. 1894 – 20. 11. 1894?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415039" evidence="external">Bureau de poste de Paris 37</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1114,7 +1114,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-11-27" n="01">27. 11. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb112436">Palais Bourbon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1149,7 +1149,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1894-11-30" notAfter="1894-12-03">[30. 11. 1894 – 3. 12. 1894?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1174,7 +1174,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-12-11" n="01">11. 12. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb112436">Palais Bourbon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1209,7 +1209,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1894-12-15" notAfter="1894-12-18">[15. 12. 1894 – 18. 12. 1894?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1234,7 +1234,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-12-17" n="01">17. 12. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1269,7 +1269,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1894-12-19" notAfter="1894-12-22">[19. 12. 1894 – 22. 12. 1894?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415039" evidence="conjecture">37 Bureau de poste, boulevard Malesherbes, 101</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1294,7 +1294,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-12-23" n="02">23. 12. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1329,7 +1329,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1894-12-26" notAfter="1894-12-29">[26. 12. 1894 – 29. 12. 1894?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1346,7 +1346,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="1009"/>
+               <measure unit="zeichenanzahl" quantity="1008"/>
             </item>
             <item corresp="L03841">
                <title level="a">Theodor Herzl an Arthur Schnitzler, 29. 12. 1894</title>
@@ -1354,7 +1354,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-12-29" n="01">29. 12. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1384,7 +1384,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1894-12-31" n="03">31. 12. 1894</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1414,7 +1414,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-01-01" n="01">1. 1. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1445,7 +1445,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-01-04" n="01">4. 1. 1895</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb298529">Cabinet de lecture</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1482,7 +1482,7 @@
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-01-07" notAfter="1895-01-10">[7. 1. 1895
                   – 10. 1. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415039" evidence="conjecture">37 Bureau de poste, boulevard Malesherbes, 101</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1507,7 +1507,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-01-09" n="01">9. 1. 1895</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1542,7 +1542,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-01-14" notAfter="1895-01-17">[14. 1. 1895 – 17. 1. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415039" evidence="conjecture">37 Bureau de poste, boulevard Malesherbes, 101</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1634,11 +1634,11 @@
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date notBefore="1895-01-20" notAfter="1895-01-23" n="03">[zwischen 20.  und
             23.?] 1. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1670,7 +1670,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-01-30" notAfter="1895-02-02">[30. 1. 1895 – 2. 2. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415039" evidence="conjecture">37 Bureau de poste, boulevard Malesherbes, 101</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1696,7 +1696,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-02-01" n="01">1. 2. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb112436">Palais Bourbon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1726,7 +1726,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-02-16" n="01">16. 2. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1762,7 +1762,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-02-18" notAfter="1895-02-21">[18. 2. 1895 – 21. 2. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415039" evidence="conjecture">37 Bureau de poste, boulevard Malesherbes, 101</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1792,7 +1792,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-02-18" notAfter="1895-02-21">[18. 2. 1895 – 21. 2. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415039" evidence="conjecture">37 Bureau de poste, boulevard Malesherbes, 101</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1817,7 +1817,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-02-18" n="03">18. 2. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb112436">Palais Bourbon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1877,7 +1877,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-02-20" n="02">20. 2. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb298653">Grand Hôtel</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1908,7 +1908,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-03-04" n="01">4. 3. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb112436">Palais Bourbon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1942,11 +1942,11 @@
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date notBefore="1895-03-08" notAfter="1895-03-17" n="01">[zwischen 8. und
                   17. 3. 1895?]</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -1976,7 +1976,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-03-09" notAfter="1895-03-12">[9. 3. 1895 – 12. 3. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2002,7 +2002,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-03-21" n="03">21. 3. 1895</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2033,7 +2033,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-03-30" n="02">30. 3. 1895</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2064,7 +2064,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-04-03" n="02">3. 4. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731" evidence="conjecture">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2100,7 +2100,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-04-06" notAfter="1895-04-09">[6. 4. 1895 – 9. 4. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb415039" evidence="conjecture">37 Bureau de poste, boulevard Malesherbes, 101</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2125,7 +2125,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-04-08" n="01">8. 4. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb112436">Palais Bourbon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2156,7 +2156,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-04-16" n="01">16. 4. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb296731">8, rue de Monceau</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2191,7 +2191,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-04-26" notAfter="1895-04-29">[26. 4. 1895 – 29. 4. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb298742" evidence="conjecture">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2216,7 +2216,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-04-26" n="02">26. 4. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb298742">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2252,7 +2252,7 @@
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-04-27" notAfter="1895-04-30">[27. 4. 1895
                   – 30. 4. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb418761" evidence="conjecture">3 Bureau de poste, boulevard Malesherbes, 6</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2282,7 +2282,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-05-01" notAfter="1895-05-04">[1. 5. 1895 – 4. 5. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb418761" evidence="conjecture">3 Bureau de poste, boulevard Malesherbes, 6</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2307,7 +2307,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-05-05" n="01">5. 5. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb298742">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2343,7 +2343,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-05-13" notAfter="1895-05-16">[13. 5. 1895 – 16. 5. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb298742" evidence="conjecture">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2368,7 +2368,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-05-14" n="01">14. 5. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb298742">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2403,7 +2403,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-05-16" notAfter="1895-05-19">[16. 5. 1895 – 19. 5. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb298742" evidence="conjecture">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2428,7 +2428,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-05-19" n="02">19. 5. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb298742" evidence="conjecture">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2464,7 +2464,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-06-21" notAfter="1895-06-24">[21. 6. 1895 – 24. 6. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb298742" evidence="conjecture">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2489,7 +2489,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-06-23" n="02">23. 6. 1895</date>
-                     <placeName ref="#pmb182" evidence="external">Paris</placeName>
+                     <placeName ref="#pmb298742" evidence="conjecture">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2520,12 +2520,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1895-06-30" n="01">30. 6. 1895</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1895-06-30" notAfter="1895-07-03">[30. 6. 1895 – 3. 7. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb298742" evidence="conjecture">37, Rue Cambon</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2550,12 +2550,15 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-07-20" n="01">20. 7. 1895</date>
-                     <placeName ref="#pmb182">Paris</placeName>
+                     <placeName ref="#pmb298742" evidence="conjecture">37, Rue Cambon</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1895-07-21" notAfter="1895-07-25">[21. 7. 1895 – 25. 7. 1895?]</date>
-                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
+                     <date evidence="conjecture" notBefore="1895-07-22" notAfter="1895-07-26">[22. 7. 1895 – 26. 7. 1895?]</date>
+                     <placeName ref="#pmb414" evidence="external">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2580,12 +2583,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date notBefore="1895-07-28" notAfter="1895-08-05" n="03">[zwischen 28. 7.  und 5. 8. 1895?]</date>
-                     <placeName ref="#pmb415" evidence="internal">Bad Aussee</placeName>
+                     <placeName ref="#pmb298721" evidence="internal">Villa Fuchs</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date notBefore="1895-08-01" notAfter="1895-08-07">[Anfang August 1895]</date>
-                     <placeName ref="#pmb213" evidence="conjecture">Bad Ischl</placeName>
+                     <placeName ref="#pmb414" evidence="conjecture">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2610,7 +2613,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-08-25" n="01">25. 8. 1895</date>
-                     <placeName ref="#pmb415">Bad Aussee</placeName>
+                     <placeName ref="#pmb298721" evidence="conjecture">Villa Fuchs</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1895-08-26">26. 8. 1895</date>
@@ -2627,6 +2630,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-08-27" notAfter="1895-09-07">[27. 8. 1895
                   – 7. 9. 1895?]</date>
+                     <placeName ref="#pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2651,7 +2655,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1895-11-09" n="01">[9. 11. 1895?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb199398" evidence="conjecture">Pelikangasse 16</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2686,7 +2690,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534" evidence="conjecture">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2711,7 +2715,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1896-04-08" n="01">8. 4. 1896</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2741,12 +2745,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1896-04-24" n="01">24. 4. 1896</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1896-04-24" notAfter="1896-04-27">[24. 4. 1896 – 27. 4. 1896?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb199398" evidence="conjecture">Pelikangasse 16</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2771,7 +2775,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1898-12-09" n="01">9. 12. 1898</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2802,7 +2806,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1899-11-06" n="01">6. 11. 1899</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534" evidence="external">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2832,7 +2836,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1899-12-08" n="01">8. 12. 1899</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2868,7 +2872,7 @@
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date notBefore="1899-12-10" notAfter="1899-12-12">[10. 12. 1899 –
                   12. 12. 1899?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534" evidence="conjecture">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -2893,7 +2897,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1899-12-12" n="01">12. 12. 1899</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb201138">Weimarer Straße 50</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2923,7 +2927,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1900-05-08" n="01">8. 5. 1900</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2953,7 +2957,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1900-11-14" n="01">14. 11. 1900</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2988,7 +2992,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1900-11-15" notAfter="1900-11-18">[15. 11. 1900 – 18. 11. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb201138" evidence="conjecture">Weimarer Straße 50</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -3013,7 +3017,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1900-11-16" n="01">16. 11. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3043,12 +3047,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1900-11-17" n="01">17. 11. 1900</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1900-11-17" notAfter="1900-11-20">[17. 11. 1900 – 20. 11. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534" evidence="conjecture">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -3078,7 +3082,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1900-12-03" notAfter="1900-12-06">[3. 12. 1900 – 6. 12. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb201138" evidence="conjecture">Weimarer Straße 50</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -3103,7 +3107,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1900-12-05" n="01">5. 12. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3133,7 +3137,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1900-12-06" n="02">6. 12. 1900</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3164,7 +3168,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1900-12-21" n="02">21. 12. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3194,12 +3198,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1900-12-22" n="01">22. 12. 1900</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1900-12-22" notAfter="1900-12-25">[22. 12. 1900 – 25. 12. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534" evidence="external">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -3224,7 +3228,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1900-12-23" n="01">23. 12. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3259,7 +3263,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1900-12-24" notAfter="1900-12-27">[24. 12. 1900 – 27. 12. 1900?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534" evidence="conjecture">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -3288,7 +3292,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534" evidence="conjecture">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -3318,7 +3322,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date evidence="conjecture" notBefore="1901-01-14" notAfter="1901-01-17">[14. 1. 1901 – 17. 1. 1901?]</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534" evidence="conjecture">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -3343,11 +3347,11 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1901-03-05" n="01">5. 3. 1901</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1901-03-05" notAfter="1901-03-08">[5. 3. 1901 – 8. 3. 1901?]</date>
+                     <date evidence="conjecture" when="1901-03-11">[11. 3. 1901?]</date>
                      <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
@@ -3373,7 +3377,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1901-04-11" n="01">11. 4. 1901</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb201138">Weimarer Straße 50</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3403,12 +3407,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1901-05-03" n="01">3. 5. 1901</date>
-                     <placeName ref="#pmb50" evidence="conjecture">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1901-05-03" notAfter="1901-05-06">[3. 5. 1901 – 6. 5. 1901?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11673">Herzl, Theodor</ref>
@@ -3434,7 +3438,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1901-11-25" n="02">25. 11. 1901</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3464,7 +3468,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11673">Herzl, Theodor</persName>
                      <date when="1902-02-28" n="02">28. 2. 1902</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb237534">Fichtegasse 11</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>

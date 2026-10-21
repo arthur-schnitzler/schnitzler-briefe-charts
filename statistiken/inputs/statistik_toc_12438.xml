@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-18Z</date>
+            <date>2026-10-21Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12438.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -365,7 +365,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
-                     <date n="01" notBefore="1911-09-20" notAfter="1911-09-21">[20. oder 21?]. 9. 1911</date>
+                     <date notBefore="1911-09-20" notAfter="1911-09-21" n="01">[20. oder 21?]. 9. 1911</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -400,7 +400,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1912-05-23" notAfter="1912-05-24">[23. oder 24]. 5. 1912</date>
+                     <date notBefore="1912-05-23" notAfter="1912-05-24" n="01">[23. oder 24]. 5. 1912</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -896,7 +896,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1915-09-26" n="01">26. 9. 1915</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -927,7 +927,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1915-10-21" n="01">21. 10. 1915</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -957,7 +957,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1916-05-10" n="01">10. 5. 1916</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -998,7 +998,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-05-15" notAfter="1916-05-17">[15. 5. 1916
                   – 19. 5. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1029,11 +1029,14 @@
                      <date when="1916-05-18">18. 5. 1916</date>
                      <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-05-18" notAfter="1916-05-20">[18. 5. 1916
                   – 22. 5. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1058,7 +1061,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1916-05-21" n="01">21. 5. 1916</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1095,11 +1098,14 @@
                      <date when="1916-07-01">1. 7. [1916]</date>
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-07-01" notAfter="1916-07-04">[1. 7. 1916
                   – 4. 7. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1123,7 +1129,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1916-07-09" notAfter="1916-07-10">[9. oder 10]. 7. 1916</date>
+                     <date notBefore="1916-07-09" notAfter="1916-07-10" n="01">[9. oder 10]. 7. 1916</date>
                      <placeName ref="#pmb34387">Villa Annerl</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -1189,7 +1195,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1916-09-24" n="01">24. 9. 1916</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1225,11 +1231,14 @@
                      <date when="1916-10-09">9. 10. 1916</date>
                      <placeName ref="#pmb405253">Postbestellbezirk 18/1</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-10-09" notAfter="1916-10-11">[9. 10. 1916
                   – 13. 10. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1259,10 +1268,13 @@
                   <correspAction type="transmitted">
                      <placeName ref="#pmb405253">Postbestellbezirk 18/1</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-10-11" notAfter="1916-10-13">[11. 10. 1916 – 15. 10. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1292,10 +1304,13 @@
                   <correspAction type="transmitted">
                      <date when="1916-11-18">18. 11. 1916</date>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-11-18" notAfter="1916-11-20">[18. 11. 1916 – 20. 11. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1320,7 +1335,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1916-11-20" n="01">20. 11. 1916</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1355,7 +1370,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-11-23" notAfter="1916-11-25">[23. 11. 1916 – 27. 11. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1380,7 +1395,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1916-11-30" n="01">30. 11. 1916</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1410,7 +1425,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1916-12-09" n="01">9. 12. 1916</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1447,10 +1462,13 @@
                      <date when="1916-12-11">11. 12. 1916</date>
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-12-11" notAfter="1916-12-13">[11. 12. 1916 – 15. 12. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1481,10 +1499,13 @@
                      <date when="1916-12-12">12. 12. 1916</date>
                      <placeName ref="#pmb365226">18/1 Post- und Telegraphenamt 111</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1916-12-12" notAfter="1916-12-14">[12. 12. 1916 – 16. 12. 1916?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1525,7 +1546,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1916-12-21">21. 12. 1916</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1556,11 +1577,14 @@
                      <date when="1917-01-22">22. 1. 1917</date>
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1917-01-22" notAfter="1917-01-24">[22. 1. 1917
                   – 26. 1. 1917?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1585,7 +1609,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1917-05-16" n="01">16. 5. 1917</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1622,11 +1646,14 @@
                      <date when="1917-05-29">29. 5. 1917</date>
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1917-05-29" notAfter="1917-05-30">[29. 5. 1917
                   – 1. 6. 1917?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1656,11 +1683,14 @@
                   <correspAction type="transmitted">
                      <placeName ref="#pmb521">Bad Gastein</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb412760">Meidlinger Hauptstraße 52</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1917-06-16" notAfter="1917-06-20">[16. 6. 1917
                   – 20. 6. 1917?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1685,7 +1715,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1917-06-19" n="01">19. 6. 1917</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1715,7 +1745,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1917-08-23" n="01">23. 8. 1917</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1745,7 +1775,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1917-08-26" notAfter="1917-08-27">[26. oder 27]. 8. 1917</date>
+                     <date notBefore="1917-08-26" notAfter="1917-08-27" n="01">[26. oder 27]. 8. 1917</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -1756,7 +1786,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1917-08-27" notAfter="1917-08-29">[27. 8. 1917
                   – 31. 8. 1917?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1781,7 +1811,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1917-10-12" n="01">12. 10. 1917</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1817,10 +1847,13 @@
                      <date when="1917-10-15">[15. 10. 19]17</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1917-10-15" notAfter="1917-10-17">[15. 10. 1917 – 19. 10. 1917?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1851,10 +1884,13 @@
                      <date when="1917-10-22">22. 10. 1917</date>
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1917-10-22" notAfter="1917-10-24">[22. 10. 1917 – 26. 10. 1917?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1885,10 +1921,13 @@
                      <date when="1917-10-26">26. 10. 1917</date>
                      <placeName ref="#pmb405244">1/1 Telegraphenamt 13</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1917-10-26" notAfter="1917-10-29">[26. 10. 1917 – 31. 10. 1917?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -1913,7 +1952,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1917-11-05" n="01">5. 11. 1917</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1944,7 +1983,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1917-11-23" n="01">23. 11. 1917</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -1980,11 +2019,14 @@
                      <date when="1918-06-11">1[1]. 6. 1918</date>
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1918-06-11" notAfter="1918-06-13">[11. 6. 1918
                   – 15. 6. 1918?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2009,7 +2051,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-06-12" n="01">12. 6. 1918</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2050,7 +2092,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1918-06-15" notAfter="1918-06-17">[15. 6. 1918
                   – 19. 6. 1918?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2141,7 +2183,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-07-29" n="01">29. 7. 1918</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2182,7 +2224,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1918-08-06" notAfter="1918-08-08">[6. 8. 1918
                   – 10. 8. 1918?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2207,7 +2249,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-08-10" n="01">10. 8. 1918</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2248,7 +2290,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1918-08-19" notAfter="1918-08-21">[19. 8. 1918
                   – 23. 8. 1918?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2273,7 +2315,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-10-01" n="01">1. 10. 1918</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2314,7 +2356,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1918-10-05" notAfter="1918-10-07">[5. 10. 1918
                   – 9. 10. 1918?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2339,7 +2381,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-10-25" n="01">25. 10. 1918</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2379,7 +2421,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1918-11-04" notAfter="1918-11-06">[4. 11. 1918
                   – 8. 11. 1918?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2408,12 +2450,14 @@
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1918-11-13">13. 11. 1918</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1918-11-13" notAfter="1918-11-15">[13. 11. 1918 – 17. 11. 1918?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2438,7 +2482,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-11-15" n="01">15. 11. 1918</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2468,7 +2512,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-12-02" n="01">2. 12. 1918</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2500,7 +2544,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-12-08" n="01">8. 12. 1918</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2530,7 +2574,7 @@
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date n="01" notBefore="1918-12-19" notAfter="1918-12-20">[19. oder 20]. 12. [1918]</date>
+                     <date notBefore="1918-12-19" notAfter="1918-12-20" n="01">[19. oder 20]. 12. [1918]</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
@@ -2540,7 +2584,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1918-12-20">20. 12. [1918]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2565,7 +2609,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1919-01-17" n="01">17. 1. 1919</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2606,7 +2650,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1919-01-21" notAfter="1919-01-23">[21. 1. 1919
                   – 25. 1. 1919?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2638,6 +2682,9 @@
                      <placeName ref="#pmb365223">18/1 Post- und Telegraphenamt 110</placeName>
                   </correspAction>
                   <correspAction type="redirected">
+                     <placeName ref="#pmb412760">Meidlinger Hauptstraße 52</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
                      <date when="1919-08-05">5. 8. 1919</date>
                      <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
                   </correspAction>
@@ -2648,7 +2695,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1919-08-07" notAfter="1919-08-10">[7. 8. 1919
                   – 10. 8. 1919?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2673,7 +2720,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1919-08-19" n="01">19. 8. 1919</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2704,7 +2751,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1919-10-08" n="01">8. 10. 1919</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2744,7 +2791,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1919-10-30" notAfter="1919-11-02">[30. 10. 1919 – 2. 11. 1919?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2769,7 +2816,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1920-02-13" n="01">13. 2. 1920</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2810,7 +2857,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1920-06-15" notAfter="1920-06-18">[15. 6. 1920
                   – 18. 6. 1920?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2835,7 +2882,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1920-06-17" n="01">17. 6. 1920</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -2876,7 +2923,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1920-06-26" notAfter="1920-06-27">[26. 6. 1920
                   – 29. 6. 1920?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2907,7 +2954,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1920-07-14" notAfter="1920-07-16">[14. 7. 1920
                   – 18. 7. 1920?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -2939,7 +2986,7 @@
                      <placeName ref="#pmb365506">15/1 Post- und Telegraphenamt 101</placeName>
                   </correspAction>
                   <correspAction type="redirected">
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="delivered">
                      <placeName ref="#pmb1036">Gutenstein</placeName>
@@ -2979,10 +3026,13 @@
                      <date when="1920-10-28">28. 10. 1920</date>
                      <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb412760">Meidlinger Hauptstraße 52</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1920-10-28" notAfter="1920-10-30">[28. 10. 1920 – 1. 11. 1920?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3047,7 +3097,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1920-11-20" notAfter="1920-11-22">[20. 11. 1920 – 24. 11. 1920?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3082,7 +3132,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1921-03-30" notAfter="1921-04-01">[30. 3. 1921
                   – 3. 4. 1921?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3117,7 +3167,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1921-05-25" notAfter="1921-05-27">[25. 5. 1921
                   – 29. 5. 1921?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3152,7 +3202,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1921-05-30" notAfter="1921-06-01">[30. 5. 1921
                   – 1. 6. 1921?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3207,7 +3257,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1927-03-21" n="01">21. 3. 1927</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3244,11 +3294,14 @@
                      <date when="1927-04-09">9. 4. 1927</date>
                      <placeName ref="#pmb50">Wien</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb413360">Meidlinger Hauptstraße 54</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1927-04-09" notAfter="1927-04-11">[9. 4. 1927
                   – 13. 4. 1927?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3273,7 +3326,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1927-05-01" n="01">1. 5. 1927</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3304,7 +3357,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1927-12-30" n="01">30. 12. 1927</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3336,11 +3389,14 @@
                      <date when="1928-04-10" n="01">10. 4. 1928</date>
                      <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1928-04-10" notAfter="1928-04-12">[10. 4. 1928
                   – 14. 4. 1928?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3365,7 +3421,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1928-05-11" n="01">11. 5. 1928</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3396,7 +3452,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1929-06-07" n="01">7. 6. 1929</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3437,7 +3493,7 @@
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1929-06-15" notAfter="1929-06-18">[15. 6. 1929
                   – 18. 6. 1929?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3462,7 +3518,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1929-07-22" n="01">22. 7. 1929</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3532,7 +3588,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1929-12-22" n="01">22. 12. 1929</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3571,7 +3627,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1929-12-23" notAfter="1929-12-25">[23. 12. 1929 – 27. 12. 1929?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3596,7 +3652,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1930-01-05" n="01">5. 1. 1930</date>
-                     <placeName ref="#pmb365563">Wien</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -3632,11 +3688,14 @@
                      <date when="1930-06-13">13. 6. 1930</date>
                      <placeName ref="#pmb365620">8/2 Post- und Telegraphenamt 65</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date evidence="conjecture" notBefore="1930-06-13" notAfter="1930-06-16">[13. 6. 1930
                   – 16. 6. 1930?]</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12438">Adam, Robert</ref>
@@ -3661,7 +3720,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12438">Adam, Robert</persName>
                      <date when="1930-06-15" n="01">15. 6. 1930</date>
-                     <placeName ref="#pmb365563">Meidlinger Hauptstraße 56</placeName>
+                     <placeName ref="#pmb408343">Meidlinger Hauptstraße 58</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>

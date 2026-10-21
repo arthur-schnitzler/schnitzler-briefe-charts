@@ -52,6 +52,11 @@
       "count": 1
     },
     {
+      "id": "pmb4",
+      "name": "Bösendorfer-Saal",
+      "count": 1
+    },
+    {
       "id": "pmb416",
       "name": "Café Walther",
       "count": 1
@@ -59,7 +64,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 4
+      "count": 3
     },
     {
       "id": "pmb756",
@@ -157,6 +162,14 @@
       ]
     },
     {
+      "from": "pmb4",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb168934",
       "weight": 1,
@@ -167,9 +180,8 @@
     {
       "from": "pmb50",
       "to": "pmb168940",
-      "weight": 3,
+      "weight": 2,
       "titles": [
-        "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904",
         "Karl Kraus an Arthur Schnitzler, 20. 1. 1908",
         "Karl Kraus an Arthur Schnitzler, 22. 1. 1908"
       ]

@@ -2,11 +2,6 @@
   "correspondent": "Hauschner, Auguste",
   "nodes": [
     {
-      "id": "pmb168",
-      "name": "Berlin",
-      "count": 6
-    },
-    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
       "count": 1
@@ -17,15 +12,33 @@
       "count": 4
     },
     {
-      "id": "pmb988",
-      "name": "Seis am Schlern",
+      "id": "pmb415036",
+      "name": "",
+      "count": 6
+    },
+    {
+      "id": "pmb467",
+      "name": "Villa Heufler",
       "count": 2
+    },
+    {
+      "id": "pmb9925",
+      "name": "Charlottenburg",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
     {
+      "from": "pmb168815",
+      "to": "pmb9925",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Lotte Bloch-Zavřel, 11. 4. 1927"
+      ]
+    },
+    {
       "from": "pmb168940",
-      "to": "pmb168",
+      "to": "pmb415036",
       "weight": 2,
       "titles": [
         "Arthur Schnitzler an Auguste Hauschner, 12. 10. 1908",
@@ -33,8 +46,8 @@
       ]
     },
     {
-      "from": "pmb988",
-      "to": "pmb168",
+      "from": "pmb467",
+      "to": "pmb415036",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Auguste Hauschner, 29. 6. 1908"
@@ -43,7 +56,7 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb168",
+      "from": "pmb415036",
       "to": "pmb168940",
       "weight": 2,
       "titles": [
@@ -52,8 +65,8 @@
       ]
     },
     {
-      "from": "pmb168",
-      "to": "pmb988",
+      "from": "pmb415036",
+      "to": "pmb467",
       "weight": 1,
       "titles": [
         "Auguste Hauschner an Arthur Schnitzler, 17. 6. 1908"

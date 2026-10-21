@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-18Z</date>
+            <date>2026-10-21Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10992.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -2139,7 +2139,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="3539"/>
+               <measure unit="zeichenanzahl" quantity="3537"/>
             </item>
             <item corresp="L02016">
                <title level="a">Georg Brandes an Arthur Schnitzler, 11. 4. 1911</title>
@@ -2212,7 +2212,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="bildpostkarte"/>
-               <measure unit="zeichenanzahl" quantity="259"/>
+               <measure unit="zeichenanzahl" quantity="258"/>
             </item>
             <item corresp="L02033">
                <title level="a">Georg Brandes an Arthur Schnitzler, 6. 10. 1911</title>
@@ -2299,18 +2299,18 @@
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
-                          target="L02049">Brandes an Schnitzler, [vor dem 2. 12. 1911]</ref>
+                          target="L02049">Brandes an Schnitzler, [2. 12.? 1911]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
                <measure unit="zeichenanzahl" quantity="3301"/>
             </item>
             <item corresp="L02049">
-               <title level="a">Georg Brandes an Arthur Schnitzler, vor dem 2. 12. 1911</title>
+               <title level="a">Georg Brandes an Arthur Schnitzler, [2. 12.? 1911]</title>
                <correspDesc>
                   <correspAction type="sent">
                      <persName ref="#pmb10992">Brandes, Georg</persName>
-                     <date notAfter="1911-12-02" notBefore="1911-11-15" n="02">[vor dem 2. 12. 1911]</date>
+                     <date notAfter="1911-12-02" when="1911-12-02" n="02">[2. 12.? 1911]</date>
                      <placeName ref="#pmb405596">Strandboulevarden 27</placeName>
                   </correspAction>
                   <correspAction type="received">
@@ -2321,8 +2321,9 @@
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10992">Brandes, Georg</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02046">Hofmannsthal an Schnitzler, 15. 11. 1911</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02047">Schnitzler an Bahr, 18. 11. 1911</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L04012">Wedekind an Schnitzler, [zwischen 1.
+                  und 5.] 12. 1911</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L03951">Schnitzler an Zuckerkandl, 9. 12. 1911</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -2362,7 +2363,7 @@
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
-                          target="L02049">Brandes an Schnitzler, [vor dem 2. 12. 1911]</ref>
+                          target="L02049">Brandes an Schnitzler, [2. 12.? 1911]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_10992"
@@ -2565,7 +2566,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="1388"/>
+               <measure unit="zeichenanzahl" quantity="1387"/>
             </item>
             <item corresp="L02190">
                <title level="a">Arthur Schnitzler an Georg Brandes, 3. 8. 1914</title>
@@ -3172,7 +3173,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="838"/>
+               <measure unit="zeichenanzahl" quantity="836"/>
             </item>
             <item corresp="L02355">
                <title level="a">Arthur Schnitzler an Georg Brandes, 21. 8. 1920</title>
@@ -3327,7 +3328,7 @@
                           target="L02387">Schnitzler an Brandes, 7. 6. 1922</ref>
                   </correspContext>
                </correspDesc>
-               <measure unit="zeichenanzahl" quantity="2127"/>
+               <measure unit="zeichenanzahl" quantity="2126"/>
             </item>
             <item corresp="L02387">
                <title level="a">Arthur Schnitzler an Georg Brandes, 7. 6. 1922</title>
@@ -4149,7 +4150,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="karte" ana="postkarte"/>
-               <measure unit="zeichenanzahl" quantity="1083"/>
+               <measure unit="zeichenanzahl" quantity="1084"/>
             </item>
          </list>
       </body>

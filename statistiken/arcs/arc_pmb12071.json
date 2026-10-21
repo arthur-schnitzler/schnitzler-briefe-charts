@@ -17,6 +17,11 @@
       "count": 3
     },
     {
+      "id": "pmb4",
+      "name": "Bösendorfer-Saal",
+      "count": 1
+    },
+    {
       "id": "pmb470",
       "name": "Edlach an der Rax",
       "count": 1
@@ -24,7 +29,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb61082",
@@ -61,11 +66,18 @@
       ]
     },
     {
+      "from": "pmb4",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb168940",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Detlev von Liliencron u. a. an Arthur Schnitzler, 14. 4. 1904",
         "Wilhelm von Wymetal u. a. an Arthur Schnitzler, 27. 11. [1907]"
       ]
     }

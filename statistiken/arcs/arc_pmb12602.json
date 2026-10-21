@@ -24,17 +24,17 @@
     {
       "id": "pmb405592",
       "name": "Billrothstraße 44",
-      "count": 1
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
       "count": 3
     },
     {
-      "id": "pmb50476",
-      "name": "Rájec-Jestřebí",
+      "id": "pmb415010",
+      "name": "",
       "count": 2
+    },
+    {
+      "id": "pmb69",
+      "name": "XIX., Döbling",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
@@ -50,6 +50,15 @@
     },
     {
       "from": "pmb405592",
+      "to": "pmb168934",
+      "weight": 2,
+      "titles": [
+        "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1902",
+        "Ferdinand von Saar an Arthur Schnitzler, 25. 10. 1902"
+      ]
+    },
+    {
+      "from": "pmb405592",
       "to": "pmb30",
       "weight": 1,
       "titles": [
@@ -57,7 +66,7 @@
       ]
     },
     {
-      "from": "pmb50476",
+      "from": "pmb415010",
       "to": "pmb168934",
       "weight": 2,
       "titles": [
@@ -66,13 +75,11 @@
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb69",
       "to": "pmb168934",
-      "weight": 3,
+      "weight": 1,
       "titles": [
-        "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1895",
-        "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1902",
-        "Ferdinand von Saar an Arthur Schnitzler, 25. 10. 1902"
+        "Ferdinand von Saar an Arthur Schnitzler, 11. 10. 1895"
       ]
     }
   ]

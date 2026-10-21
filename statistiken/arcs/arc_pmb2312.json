@@ -9,7 +9,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 59
+      "count": 58
     },
     {
       "id": "pmb168934",
@@ -74,6 +74,11 @@
     {
       "id": "pmb53636",
       "name": "Hotel Axenstein",
+      "count": 1
+    },
+    {
+      "id": "pmb681",
+      "name": "Hotel Continental [München]",
       "count": 1
     },
     {
@@ -214,13 +219,12 @@
     {
       "from": "pmb238485",
       "to": "pmb168815",
-      "weight": 7,
+      "weight": 6,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 12. und 21. 5. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [13. 6. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [10. 9. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [9. 10. 1911?]",
-        "Berta Zuckerkandl an Arthur Schnitzler, [7. 11. 1911?]",
         "Berta Zuckerkandl an Arthur Schnitzler, [25. 11. 1911]",
         "Berta Zuckerkandl an Arthur Schnitzler, [zwischen 20. und 25. 5. 1913?]"
       ]
@@ -231,6 +235,14 @@
       "weight": 1,
       "titles": [
         "Berta Zuckerkandl an Arthur Schnitzler, [14. 4. 1911?]"
+      ]
+    },
+    {
+      "from": "pmb238485",
+      "to": "pmb681",
+      "weight": 1,
+      "titles": [
+        "Berta Zuckerkandl an Arthur Schnitzler, [7. 11. 1911?]"
       ]
     },
     {

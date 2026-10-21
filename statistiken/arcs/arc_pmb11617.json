@@ -19,17 +19,12 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 5
+      "count": 4
     },
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
       "count": 8
-    },
-    {
-      "id": "pmb213",
-      "name": "Bad Ischl",
-      "count": 1
     },
     {
       "id": "pmb216",
@@ -44,7 +39,7 @@
     {
       "id": "pmb34528",
       "name": "Szklarska Poręba",
-      "count": 3
+      "count": 1
     },
     {
       "id": "pmb365208",
@@ -52,9 +47,14 @@
       "count": 1
     },
     {
-      "id": "pmb45270",
-      "name": "Insel Hiddensee",
-      "count": 1
+      "id": "pmb407261",
+      "name": "",
+      "count": 3
+    },
+    {
+      "id": "pmb414",
+      "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+      "count": 2
     },
     {
       "id": "pmb50",
@@ -78,7 +78,7 @@
     },
     {
       "from": "pmb168934",
-      "to": "pmb34528",
+      "to": "pmb407261",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gerhart Hauptmann, 15. 7. 1899"
@@ -101,14 +101,6 @@
       ]
     },
     {
-      "from": "pmb213",
-      "to": "pmb45270",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Gerhart Hauptmann, 25. 8. 1899"
-      ]
-    },
-    {
       "from": "pmb33",
       "to": "pmb1052",
       "weight": 1,
@@ -122,6 +114,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gerhart Hauptmann, 14. 11. 1922"
+      ]
+    },
+    {
+      "from": "pmb414",
+      "to": "pmb407261",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 25. 8. 1899"
       ]
     }
   ],
@@ -145,10 +145,17 @@
     {
       "from": "pmb34528",
       "to": "pmb168934",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Gerhart Hauptmann an Arthur Schnitzler, [25.?] 7. 1899",
         "Otto Brahm, Gerhart Hauptmann und Margarete Marschalk an Arthur Schnitzler, 21. 6. 1903"
+      ]
+    },
+    {
+      "from": "pmb407261",
+      "to": "pmb414",
+      "weight": 1,
+      "titles": [
+        "Gerhart Hauptmann an Arthur Schnitzler, [25.?] 7. 1899"
       ]
     },
     {

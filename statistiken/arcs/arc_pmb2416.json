@@ -7,20 +7,25 @@
       "count": 10
     },
     {
-      "id": "pmb333976",
-      "name": "Obere Donaustraße 59",
-      "count": 4
+      "id": "pmb237309",
+      "name": "",
+      "count": 2
     },
     {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 6
+      "id": "pmb333976",
+      "name": "Obere Donaustraße 59",
+      "count": 7
+    },
+    {
+      "id": "pmb415017",
+      "name": "",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168934",
-      "to": "pmb50",
+      "to": "pmb237309",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler: Widmungsexemplar Reigen für Jakob Julius David, [2.?] 4. 1903"
@@ -29,26 +34,33 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb333976",
+      "from": "pmb237309",
       "to": "pmb168934",
-      "weight": 4,
+      "weight": 1,
       "titles": [
-        "Jakob Julius David an Arthur Schnitzler, 4. 11. 1895",
-        "Jakob Julius David an Arthur Schnitzler, 27. 2. 1899",
-        "Jakob Julius David an Arthur Schnitzler, 28. 2. 1899",
-        "Jakob Julius David an Arthur Schnitzler, 3. 3. 1899"
+        "Jakob Julius David an Arthur Schnitzler, 13. 5. 1901"
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb333976",
       "to": "pmb168934",
-      "weight": 5,
+      "weight": 7,
       "titles": [
         "Jakob Julius David an Arthur Schnitzler, 23. 12. 1894",
         "Jakob Julius David an Arthur Schnitzler, [27. 3. 1895]",
-        "Jakob Julius David an Arthur Schnitzler, [5. 10. 1895]",
-        "Jakob Julius David an Arthur Schnitzler, [8. 3. 1899?]",
-        "Jakob Julius David an Arthur Schnitzler, 13. 5. 1901"
+        "Jakob Julius David an Arthur Schnitzler, 4. 11. 1895",
+        "Jakob Julius David an Arthur Schnitzler, 27. 2. 1899",
+        "Jakob Julius David an Arthur Schnitzler, 28. 2. 1899",
+        "Jakob Julius David an Arthur Schnitzler, 3. 3. 1899",
+        "Jakob Julius David an Arthur Schnitzler, [8. 3. 1899?]"
+      ]
+    },
+    {
+      "from": "pmb415017",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Jakob Julius David an Arthur Schnitzler, [5. 10. 1895]"
       ]
     }
   ]
