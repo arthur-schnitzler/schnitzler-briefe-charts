@@ -1,5 +1,10 @@
 {
   "projects": {
+    "brahms-online": {
+      "label": "Brahms online",
+      "color": "#00ACC1",
+      "count": 2066
+    },
     "burgtheater": {
       "label": "Burgtheater",
       "color": "#8B0000",
@@ -27,6 +32,21 @@
     }
   },
   "intersections": {
+    "brahms-online|burgtheater": 0,
+    "brahms-online|burgtheater|schnitzler-briefe": 0,
+    "brahms-online|burgtheater|schnitzler-kultur": 0,
+    "brahms-online|burgtheater|wikidata": 0,
+    "brahms-online|burgtheater|wikipedia": 0,
+    "brahms-online|schnitzler-briefe": 0,
+    "brahms-online|schnitzler-briefe|schnitzler-kultur": 0,
+    "brahms-online|schnitzler-briefe|wikidata": 0,
+    "brahms-online|schnitzler-briefe|wikipedia": 0,
+    "brahms-online|schnitzler-kultur": 0,
+    "brahms-online|schnitzler-kultur|wikidata": 0,
+    "brahms-online|schnitzler-kultur|wikipedia": 0,
+    "brahms-online|wikidata": 0,
+    "brahms-online|wikidata|wikipedia": 0,
+    "brahms-online|wikipedia": 0,
     "burgtheater|schnitzler-briefe": 1,
     "burgtheater|schnitzler-briefe|schnitzler-kultur": 0,
     "burgtheater|schnitzler-briefe|wikidata": 0,

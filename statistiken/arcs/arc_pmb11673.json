@@ -38,12 +38,12 @@
     },
     {
       "id": "pmb199398",
-      "name": "",
+      "name": "Pelikangasse 16",
       "count": 2
     },
     {
       "id": "pmb201138",
-      "name": "Weimarer Straße 50",
+      "name": "Weimarer Straße 68",
       "count": 4
     },
     {
@@ -97,6 +97,11 @@
       "count": 11
     },
     {
+      "id": "pmb298759",
+      "name": "Bureau Nr. 3 de la Madeleine",
+      "count": 2
+    },
+    {
       "id": "pmb298935",
       "name": "Helenenstraße 71",
       "count": 2
@@ -113,18 +118,13 @@
     },
     {
       "id": "pmb415028",
-      "name": "",
+      "name": "Hollandstraße 1",
       "count": 1
     },
     {
       "id": "pmb415039",
-      "name": "",
+      "name": "37 Bureau de poste, boulevard Malesherbes, 101",
       "count": 8
-    },
-    {
-      "id": "pmb418761",
-      "name": "",
-      "count": 2
     },
     {
       "id": "pmb50",
@@ -250,6 +250,15 @@
     },
     {
       "from": "pmb168934",
+      "to": "pmb298759",
+      "weight": 2,
+      "titles": [
+        "Arthur Schnitzler an Theodor Herzl, 27. 3. 1895",
+        "Arthur Schnitzler an Theodor Herzl, 1. 5. 1895"
+      ]
+    },
+    {
+      "from": "pmb168934",
       "to": "pmb415039",
       "weight": 8,
       "titles": [
@@ -261,15 +270,6 @@
         "Arthur Schnitzler an Theodor Herzl, 18. 2. 189[5]",
         "Arthur Schnitzler an Theodor Herzl, 18. 2. 1895",
         "Arthur Schnitzler an Theodor Herzl, 6. 4. 1895"
-      ]
-    },
-    {
-      "from": "pmb168934",
-      "to": "pmb418761",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Theodor Herzl, 27. 3. 1895",
-        "Arthur Schnitzler an Theodor Herzl, 1. 5. 1895"
       ]
     },
     {
