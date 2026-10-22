@@ -149,7 +149,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 66
+      "count": 67
     },
     {
       "id": "pmb168934",
@@ -254,7 +254,7 @@
     {
       "id": "pmb235812",
       "name": "Cottagegasse 37",
-      "count": 23
+      "count": 25
     },
     {
       "id": "pmb237277",
@@ -384,7 +384,7 @@
     {
       "id": "pmb411",
       "name": "Berghof",
-      "count": 17
+      "count": 20
     },
     {
       "id": "pmb41187",
@@ -434,11 +434,6 @@
     {
       "id": "pmb44176",
       "name": "Olomouc",
-      "count": 1
-    },
-    {
-      "id": "pmb44493",
-      "name": "Tutzing",
       "count": 1
     },
     {
@@ -509,7 +504,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 26
+      "count": 23
     },
     {
       "id": "pmb50792",
@@ -525,6 +520,11 @@
       "id": "pmb51650",
       "name": "Jaffa",
       "count": 1
+    },
+    {
+      "id": "pmb51937",
+      "name": "Hotel Simson",
+      "count": 2
     },
     {
       "id": "pmb53227",
@@ -639,7 +639,7 @@
     {
       "id": "pmb877",
       "name": "Unterach am Attersee",
-      "count": 10
+      "count": 7
     },
     {
       "id": "pmb88",
@@ -812,9 +812,11 @@
     {
       "from": "pmb168815",
       "to": "pmb235812",
-      "weight": 5,
+      "weight": 7,
       "titles": [
         "Arthur Schnitzler an Felix Salten, 20. 10. 1911",
+        "Arthur Schnitzler und Ferdinand Schmutzer: Widmungsexemplar Der blinde Geronimo und sein Bruder für Felix Salten, [29. 5. 1915?]",
+        "Arthur Schnitzler: Widmungsexemplar Komödie der Worte für Felix Salten, [zwischen 18. und 20.?] 10. 1915",
         "Arthur Schnitzler: Widmungsexemplar Die Schwestern für Felix Salten, 2. 12. 1919",
         "Arthur Schnitzler an Felix Salten, 10. 12. 1923",
         "Arthur Schnitzler an Felix Salten, 13. 4. 1927",
@@ -833,10 +835,8 @@
     {
       "from": "pmb168815",
       "to": "pmb50",
-      "weight": 7,
+      "weight": 5,
       "titles": [
-        "Arthur Schnitzler und Ferdinand Schmutzer: Widmungsexemplar Der blinde Geronimo und sein Bruder für Felix Salten, [29. 5. 1915?]",
-        "Arthur Schnitzler: Widmungsexemplar Komödie der Worte für Felix Salten, [zwischen 18. und 20.?] 10. 1915",
         "Arthur Schnitzler: Widmungsexemplar Buch der Sprüche und Bedenken für Felix Salten, 17. 12. 1927",
         "Arthur Schnitzler an Felix Salten, 11. 4. 1928",
         "Arthur Schnitzler an Felix Salten, 30. 12. 1930",
@@ -2059,6 +2059,22 @@
     },
     {
       "from": "pmb411",
+      "to": "pmb45260",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 22. 7. 1912"
+      ]
+    },
+    {
+      "from": "pmb411",
+      "to": "pmb51937",
+      "weight": 1,
+      "titles": [
+        "Felix Salten an Arthur Schnitzler, 2. 9. 1912"
+      ]
+    },
+    {
+      "from": "pmb411",
       "to": "pmb655",
       "weight": 1,
       "titles": [
@@ -2495,18 +2511,9 @@
     },
     {
       "from": "pmb877",
-      "to": "pmb44493",
+      "to": "pmb45260",
       "weight": 1,
       "titles": [
-        "Felix Salten an Arthur Schnitzler, 2. 9. 1912"
-      ]
-    },
-    {
-      "from": "pmb877",
-      "to": "pmb45260",
-      "weight": 2,
-      "titles": [
-        "Felix Salten an Arthur Schnitzler, 22. 7. 1912",
         "Felix Salten u. a. an Arthur und Olga Schnitzler, [Ende Juli – 24. 8. 1912?]"
       ]
     },
