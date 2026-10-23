@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-22Z</date>
+            <date>2026-10-23Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_10762.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -48,7 +48,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1894-05-31">31. 5. 1894</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -100,13 +100,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-04-28" n="01">28. 4. 1895</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-04-28" notAfter="1895-04-30">[28. 4. 1895
                   – 2. 5. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -131,13 +131,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-05-01" n="02">[1. 5. 1895]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101" evidence="conjecture">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-05-01" notAfter="1895-05-03">[1. 5. 1895
                   – 5. 5. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -162,13 +162,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-05-02" n="01">[2. 5.? 1895]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-05-02" notAfter="1895-05-04">[2. 5. 1895
                   – 6. 5. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -199,7 +199,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-05-26" notAfter="1895-05-30">[26. 5. 1895
                   – 30. 5. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -262,7 +262,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1895-08-11" n="01">11. 8. 1895</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
@@ -292,12 +292,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-08-16" n="01">[vor dem 17. 8. 1895]</date>
-                     <placeName ref="#pmb39453">Dießen am Ammersee</placeName>
+                     <placeName ref="#pmb1102">Klosterbräu</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-08-16" notAfter="1895-08-20">[16. 8. 1895
                   – 20. 8. 1895?]</date>
+                     <placeName ref="#pmb414" evidence="external">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -360,12 +361,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-11-24" n="01">[24.? 11. 1895]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101" evidence="conjecture">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-11-24" notAfter="1895-11-26">[24. 11. 1895 – 28. 11. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -390,12 +391,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-11-25" n="01">[25. 11. 1895]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101" evidence="conjecture">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-11-25" notAfter="1895-11-27">[25. 11. 1895 – 29. 11. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -420,12 +421,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-11-25" n="02">[25. –26.? 11. 1895]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101" evidence="conjecture">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-11-25" notAfter="1895-11-27">[25. 11. 1895 – 29. 11. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -450,13 +451,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1895-12-01" n="01">[1. 12. 1895]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101" evidence="conjecture">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1895-12-01" notAfter="1895-12-03">[1. 12. 1895
                   – 5. 12. 1895?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -595,13 +596,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1896-01-09" n="01">[9. 1. 1896]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101" evidence="conjecture">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1896-01-09" notAfter="1896-01-11">[9. 1. 1896
                   – 13. 1. 1896?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -626,7 +627,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1896-01-18" n="01">18. 1. 1896</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1896-01-18">18. 1. 1896</date>
@@ -664,7 +665,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1896-01-28" n="01">28. 1. 1896</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb1101" evidence="conjecture">Hotel Royal</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1896-01-28">28. 1. 1896</date>
@@ -702,12 +703,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10762">Andreas-Salomé, Lou</persName>
                      <date when="1901-04-22" n="01">[22. 4. 1901]</date>
+                     <placeName ref="#pmb340535" evidence="conjecture">Villa Waldfrieden</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1901-04-22" notAfter="1901-04-26">[22. 4. 1901
                   – 26. 4. 1901?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -773,6 +775,7 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <placeName ref="#pmb168940" evidence="conjecture">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>
@@ -803,7 +806,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1912-11-10" notAfter="1912-11-15">[10. 11. 1912 – 15. 11. 1912?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10762">Andreas-Salomé, Lou</ref>

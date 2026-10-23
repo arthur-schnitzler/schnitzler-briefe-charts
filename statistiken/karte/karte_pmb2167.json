@@ -7948,10 +7948,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Berlin",
-        "ref": "pmb168",
-        "lat": 52.52437,
-        "lon": 13.41053
+        "name": "Kantstraße 34",
+        "ref": "pmb237277",
+        "lat": 52.506348,
+        "lon": 13.316245
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -8708,10 +8708,10 @@
         "lon": 12.101269
       },
       "to": {
-        "name": "Hotel Quisisana",
+        "name": "Hotel Quisisana [Mariánské Lázně]",
         "ref": "pmb509",
-        "lat": null,
-        "lon": null
+        "lat": 49.982519028,
+        "lon": 12.6979943665
       }
     },
     {
@@ -8754,10 +8754,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Hotel Quisisana",
+        "name": "Hotel Quisisana [Mariánské Lázně]",
         "ref": "pmb509",
-        "lat": null,
-        "lon": null
+        "lat": 49.982519028,
+        "lon": 12.6979943665
       },
       "to": {
         "name": "Wildbad Waldbrunn",
@@ -10528,10 +10528,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Cottagegasse",
-        "ref": "pmb63834",
-        "lat": 48.2400114,
-        "lon": 16.3437542
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       }
     },
     {
@@ -10574,10 +10574,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Unterach am Attersee",
-        "ref": "pmb877",
-        "lat": 47.80494,
-        "lon": 13.48728
+        "name": "Berghof",
+        "ref": "pmb411",
+        "lat": 47.799951,
+        "lon": 13.4815496
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -10636,6 +10636,32 @@
         "ref": "pmb235812",
         "lat": 48.233004,
         "lon": 16.34167
+      }
+    },
+    {
+      "id": "L03595",
+      "title": "Felix Salten an Arthur Schnitzler, [22. 2. 1921?]",
+      "type": "von partner",
+      "date": "1921-02-22",
+      "sender": {
+        "name": "Salten, Felix",
+        "ref": "pmb2167"
+      },
+      "receiver": {
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
+      },
+      "from": {
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
+      },
+      "to": {
+        "name": "Sternwartestraße 71",
+        "ref": "pmb168815",
+        "lat": 48.23188,
+        "lon": 16.33716
       }
     },
     {
@@ -10730,10 +10756,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Unterach am Attersee",
-        "ref": "pmb877",
-        "lat": 47.80494,
-        "lon": 13.48728
+        "name": "Berghof",
+        "ref": "pmb411",
+        "lat": 47.799951,
+        "lon": 13.4815496
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -10773,32 +10799,6 @@
       "title": "Felix Salten: Widmungsexemplar Schauen und Spielen für Arthur Schnitzler, 22. 9. 1921",
       "type": "von partner",
       "date": "1921-09-22",
-      "sender": {
-        "name": "Salten, Felix",
-        "ref": "pmb2167"
-      },
-      "receiver": {
-        "name": "Schnitzler, Arthur",
-        "ref": "pmb2121"
-      },
-      "from": {
-        "name": "Cottagegasse 37",
-        "ref": "pmb235812",
-        "lat": 48.233004,
-        "lon": 16.34167
-      },
-      "to": {
-        "name": "Sternwartestraße 71",
-        "ref": "pmb168815",
-        "lat": 48.23188,
-        "lon": 16.33716
-      }
-    },
-    {
-      "id": "L03595",
-      "title": "Felix Salten an Arthur Schnitzler, [22. 2. 1922?]",
-      "type": "von partner",
-      "date": "1922-02-22",
       "sender": {
         "name": "Salten, Felix",
         "ref": "pmb2167"
@@ -10944,10 +10944,10 @@
         "lon": 13.4815496
       },
       "to": {
-        "name": "Berchtesgaden",
-        "ref": "pmb797",
-        "lat": 47.63236,
-        "lon": 13.00187
+        "name": "Hotel Bellevue [Berchtesgaden]",
+        "ref": "pmb289742",
+        "lat": 47.63496,
+        "lon": 13.00757
       }
     },
     {
@@ -11094,10 +11094,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -11256,10 +11256,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Dresden",
-        "ref": "pmb866",
-        "lat": 51.0833,
-        "lon": 13.7666
+        "name": "Sanatorium am Königspark",
+        "ref": "pmb143582",
+        "lat": 51.04911361,
+        "lon": 13.83213937
       }
     },
     {
@@ -11276,10 +11276,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -11360,10 +11360,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       }
     },
     {
@@ -11412,10 +11412,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       }
     },
     {
@@ -11432,10 +11432,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -11750,10 +11750,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       }
     },
     {
@@ -11776,10 +11776,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       }
     },
     {
@@ -11796,10 +11796,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -11828,10 +11828,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Cottagegasse 37",
+        "ref": "pmb235812",
+        "lat": 48.233004,
+        "lon": 16.34167
       }
     }
   ]

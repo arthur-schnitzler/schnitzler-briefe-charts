@@ -4,7 +4,12 @@
     {
       "id": "pmb1101",
       "name": "Hotel Royal",
-      "count": 3
+      "count": 13
+    },
+    {
+      "id": "pmb1102",
+      "name": "Klosterbräu",
+      "count": 1
     },
     {
       "id": "pmb1104",
@@ -27,18 +32,28 @@
       "count": 20
     },
     {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 1
+    },
+    {
       "id": "pmb182",
       "name": "Paris",
       "count": 3
     },
     {
-      "id": "pmb39453",
-      "name": "Dießen am Ammersee",
+      "id": "pmb340535",
+      "name": "Villa Waldfrieden",
       "count": 1
     },
     {
       "id": "pmb399",
       "name": "Hotel Continental [Berlin]",
+      "count": 1
+    },
+    {
+      "id": "pmb414",
+      "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
       "count": 1
     },
     {
@@ -49,7 +64,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 12
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
@@ -66,11 +81,29 @@
     {
       "from": "pmb1101",
       "to": "pmb168934",
-      "weight": 3,
+      "weight": 13,
       "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, 28. 4. 1895",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [1. 5. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [2. 5.? 1895]",
         "Lou Andreas-Salomé an Arthur Schnitzler, 22. 11. 1895",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [24.? 11. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [25. 11. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [25. –26.? 11. 1895]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [1. 12. 1895]",
         "Lou Andreas-Salomé an Arthur Schnitzler, [7. oder 8]. 12. 1895",
-        "Lou Andreas-Salomé an Arthur Schnitzler, 15. 12. 1895"
+        "Lou Andreas-Salomé an Arthur Schnitzler, 15. 12. 1895",
+        "Lou Andreas-Salomé an Arthur Schnitzler, [9. 1. 1896]",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 18. 1. 1896",
+        "Lou Andreas-Salomé an Arthur Schnitzler, 28. 1. 1896"
+      ]
+    },
+    {
+      "from": "pmb1102",
+      "to": "pmb414",
+      "weight": 1,
+      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, [vor dem 17. 8. 1895]"
       ]
     },
     {
@@ -99,6 +132,22 @@
       ]
     },
     {
+      "from": "pmb340535",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, [22. 4. 1901]"
+      ]
+    },
+    {
+      "from": "pmb42325",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, Juni 1908"
+      ]
+    },
+    {
       "from": "pmb50",
       "to": "pmb168815",
       "weight": 1,
@@ -109,19 +158,9 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 11,
+      "weight": 1,
       "titles": [
-        "Lou Andreas-Salomé an Arthur Schnitzler, 28. 4. 1895",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [1. 5. 1895]",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [2. 5.? 1895]",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [24.? 11. 1895]",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [25. 11. 1895]",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [25. –26.? 11. 1895]",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [1. 12. 1895]",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [26. oder 27]. 12. 1895",
-        "Lou Andreas-Salomé an Arthur Schnitzler, [9. 1. 1896]",
-        "Lou Andreas-Salomé an Arthur Schnitzler, 18. 1. 1896",
-        "Lou Andreas-Salomé an Arthur Schnitzler, 28. 1. 1896"
+        "Lou Andreas-Salomé an Arthur Schnitzler, [26. oder 27]. 12. 1895"
       ]
     }
   ]

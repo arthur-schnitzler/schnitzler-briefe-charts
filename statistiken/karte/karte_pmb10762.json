@@ -70,10 +70,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -96,10 +96,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -122,10 +122,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -221,12 +221,17 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Dießen am Ammersee",
-        "ref": "pmb39453",
-        "lat": 47.950839,
-        "lon": 11.103059
+        "name": "Klosterbräu",
+        "ref": "pmb1102",
+        "lat": 47.948056,
+        "lon": 11.097222
       },
-      "to": null
+      "to": {
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
+      }
     },
     {
       "id": "L00514",
@@ -268,10 +273,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -294,10 +299,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -320,10 +325,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -346,10 +351,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -450,10 +455,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -476,10 +481,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -502,10 +507,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Royal",
+        "ref": "pmb1101",
+        "lat": 48.2078844,
+        "lon": 16.3723234
       },
       "to": {
         "name": "Frankgasse 1",
@@ -527,7 +532,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Villa Waldfrieden",
+        "ref": "pmb340535",
+        "lat": 52.476027,
+        "lon": 13.287052
+      },
       "to": {
         "name": "Frankgasse 1",
         "ref": "pmb168934",
@@ -580,7 +590,12 @@
         "lat": 51.53443,
         "lon": 9.93228
       },
-      "to": null
+      "to": {
+        "name": "Edmund-Weiß-Gasse 7",
+        "ref": "pmb168940",
+        "lat": 48.2304,
+        "lon": 16.33472
+      }
     },
     {
       "id": "L02097",
