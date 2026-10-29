@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-23Z</date>
+            <date>2026-10-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11216.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -43,13 +43,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11216">Ebner-Eschenbach, Marie von</persName>
                      <date when="1901-09-26" n="01">26. 9. 1901</date>
-                     <placeName ref="#pmb65192">Zdislavice</placeName>
+                     <placeName ref="#pmb65195">Schloss Zdislavice</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1901-09-27" notAfter="1901-10-01">[27. 9. 1901
                   – 1. 10. 1901?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11216">Ebner-Eschenbach, Marie von</ref>
@@ -70,13 +70,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11216">Ebner-Eschenbach, Marie von</persName>
                      <date when="1910-09-13" n="01">13. 9. 1910</date>
-                     <placeName ref="#pmb65192">Zdislavice</placeName>
+                     <placeName ref="#pmb65195">Schloss Zdislavice</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1910-09-14" notAfter="1910-09-18">[14. 9. 1910
                   – 18. 9. 1910?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11216">Ebner-Eschenbach, Marie von</ref>

@@ -8,7 +8,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Hofmannsthal-Schlössl",70,Directed
 "Hofmannsthal, Hugo von","Berlin",61,Directed
 "Hofmannsthal, Hugo von","Salzburg",50,Directed
-"Hofmannsthal, Hugo von","Ordination Arthur Schnitzler [Bösendorferstraße 11]",46,Directed
+"Hofmannsthal, Hugo von","Wohnung und Ordination Arthur Schnitzler, Bösendorferstraße 11",46,Directed
 "Hofmannsthal, Hugo von","Bad Aussee",44,Directed
 "Hofmannsthal, Hugo von","Bad Ischl",44,Directed
 "Hofmannsthal, Hugo von","Bad Fusch",37,Directed
@@ -42,7 +42,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Stallburggasse",10,Directed
 "Hofmannsthal, Hugo von","Carl-Theater",9,Directed
 "Hofmannsthal, Hugo von","IX., Alsergrund",9,Directed
-"Hofmannsthal, Hugo von","Marienbad",9,Directed
+"Hofmannsthal, Hugo von","Mariánské Lázně",9,Directed
 "Hofmannsthal, Hugo von","Rom",9,Directed
 "Hofmannsthal, Hugo von","Lueg",9,Directed
 "Hofmannsthal, Hugo von","Burgtheater",8,Directed
@@ -130,7 +130,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Thüringen",3,Directed
 "Hofmannsthal, Hugo von","Trient",3,Directed
 "Hofmannsthal, Hugo von","San Martino di Castrozza",3,Directed
-"Hofmannsthal, Hugo von","Edlach",3,Directed
+"Hofmannsthal, Hugo von","Edlach an der Rax",3,Directed
 "Hofmannsthal, Hugo von","Stubaital",3,Directed
 "Hofmannsthal, Hugo von","Madonna di Campiglio",3,Directed
 "Hofmannsthal, Hugo von","Badgasse",3,Directed
@@ -152,7 +152,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Internationales Ausstellungstheater im k.k. Prater",2,Directed
 "Hofmannsthal, Hugo von","Arles",2,Directed
 "Hofmannsthal, Hugo von","Siebenbrunnengasse",2,Directed
-"Hofmannsthal, Hugo von","Karlsbad",2,Directed
+"Hofmannsthal, Hugo von","Karlovy Vary",2,Directed
 "Hofmannsthal, Hugo von","Pustertal",2,Directed
 "Hofmannsthal, Hugo von","Valle d’Ampezzo",2,Directed
 "Hofmannsthal, Hugo von","Böhmen",2,Directed
@@ -210,7 +210,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Burg Liechtenstein",2,Directed
 "Hofmannsthal, Hugo von","Kärntner Straße",2,Directed
 "Hofmannsthal, Hugo von","Palais Thun-Salm",2,Directed
-"Hofmannsthal, Hugo von","Hauptstraße 56",2,Directed
+"Hofmannsthal, Hugo von","Hauptstraße 56 [Hinterbrühl]",2,Directed
 "Hofmannsthal, Hugo von","Jagniątków",2,Directed
 "Hofmannsthal, Hugo von","Budapest",2,Directed
 "Hofmannsthal, Hugo von","Europa",2,Directed
@@ -236,7 +236,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","14/2 Post- und Telegraphenamt 127",2,Directed
 "Hofmannsthal, Hugo von","Himmelpfortgasse",2,Directed
 "Hofmannsthal, Hugo von","Ravenna",2,Directed
-"Hofmannsthal, Hugo von","Sanatorium Loew",2,Directed
+"Hofmannsthal, Hugo von","Sanatorium Dr. Anton Loew",2,Directed
 "Hofmannsthal, Hugo von","Perugia",2,Directed
 "Hofmannsthal, Hugo von","Gasthaus Gosauschmied",2,Directed
 "Hofmannsthal, Hugo von","Vorderer Gosausee",2,Directed
@@ -276,7 +276,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Grillparzerstraße",1,Directed
 "Hofmannsthal, Hugo von","Café Union",1,Directed
 "Hofmannsthal, Hugo von","Wollzeile 15 (»Berthahof«)",1,Directed
-"Hofmannsthal, Hugo von","Kammersaal der Gesellschaft der Musikfreunde",1,Directed
+"Hofmannsthal, Hugo von","Kleiner Musikvereinssaal",1,Directed
 "Hofmannsthal, Hugo von","Friedrichshagen",1,Directed
 "Hofmannsthal, Hugo von","Hotel Wandl",1,Directed
 "Hofmannsthal, Hugo von","Russland",1,Directed
@@ -292,11 +292,11 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","rue Richelieu",1,Directed
 "Hofmannsthal, Hugo von","rue Jacob",1,Directed
 "Hofmannsthal, Hugo von","Leipzig",1,Directed
-"Hofmannsthal, Hugo von","Krütznergasse",1,Directed
+"Hofmannsthal, Hugo von","Krütznergasse 3",1,Directed
 "Hofmannsthal, Hugo von","Musikalienhandlung Albert J. Gutmann",1,Directed
 "Hofmannsthal, Hugo von","Zum goldenen Stern",1,Directed
 "Hofmannsthal, Hugo von","XIX., Döbling",1,Directed
-"Hofmannsthal, Hugo von","Franzensbad",1,Directed
+"Hofmannsthal, Hugo von","Františkovy Lázně",1,Directed
 "Hofmannsthal, Hugo von","Prager Burg",1,Directed
 "Hofmannsthal, Hugo von","Alter Jüdischer Friedhof",1,Directed
 "Hofmannsthal, Hugo von","Venedig in Wien",1,Directed
@@ -338,8 +338,8 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Gmunden",1,Directed
 "Hofmannsthal, Hugo von","Stadttheater [Gmunden]",1,Directed
 "Hofmannsthal, Hugo von","Villa Andrian",1,Directed
-"Hofmannsthal, Hugo von","Sofiensäle",1,Directed
-"Hofmannsthal, Hugo von","Bösendorfer Saal",1,Directed
+"Hofmannsthal, Hugo von","Sophiensäle",1,Directed
+"Hofmannsthal, Hugo von","Bösendorfer-Saal",1,Directed
 "Hofmannsthal, Hugo von","Am Hof",1,Directed
 "Hofmannsthal, Hugo von","Café de l’Europe",1,Directed
 "Hofmannsthal, Hugo von","Residenzhotel",1,Directed
@@ -397,7 +397,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Brügge",1,Directed
 "Hofmannsthal, Hugo von","gare de Bruges",1,Directed
 "Hofmannsthal, Hugo von","Liebfrauenkirche",1,Directed
-"Hofmannsthal, Hugo von","Hintersee",1,Directed
+"Hofmannsthal, Hugo von","Hintersee [Felbertal]",1,Directed
 "Hofmannsthal, Hugo von","Golling an der Salzach",1,Directed
 "Hofmannsthal, Hugo von","Kaliningrad",1,Directed
 "Hofmannsthal, Hugo von","Inneres Linzertor",1,Directed
@@ -455,7 +455,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Bahnhof Palermo Centrale",1,Directed
 "Hofmannsthal, Hugo von","Castellaccio di Monreale",1,Directed
 "Hofmannsthal, Hugo von","Monreale",1,Directed
-"Hofmannsthal, Hugo von","San Domenico Hotel",1,Directed
+"Hofmannsthal, Hugo von","Grand Hotel San Domenico",1,Directed
 "Hofmannsthal, Hugo von","Castelmola",1,Directed
 "Hofmannsthal, Hugo von","Grand Hotel San Domenico",1,Directed
 "Hofmannsthal, Hugo von","Pötzleinsdorf",1,Directed
@@ -497,7 +497,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Tiergarten Schönbrunn",1,Directed
 "Hofmannsthal, Hugo von","Prater",1,Directed
 "Hofmannsthal, Hugo von","Wurstelprater",1,Directed
-"Hofmannsthal, Hugo von","K.K. Telegrafen Centrale",1,Directed
+"Hofmannsthal, Hugo von","1/1 Telegraphen-Central-Station C.R.",1,Directed
 "Hofmannsthal, Hugo von","Schwarzenbergpark",1,Directed
 "Hofmannsthal, Hugo von","Orthof",1,Directed
 "Hofmannsthal, Hugo von","Schloss Kronborg",1,Directed
@@ -536,7 +536,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Schlern",1,Directed
 "Hofmannsthal, Hugo von","Jungbrunntal",1,Directed
 "Hofmannsthal, Hugo von","Wipplingerstraße 33",1,Directed
-"Hofmannsthal, Hugo von","Bülowstraße 90",1,Directed
+"Hofmannsthal, Hugo von","Bülowstraße 90/91",1,Directed
 "Hofmannsthal, Hugo von","Lech",1,Directed
 "Hofmannsthal, Hugo von","Villa Cantacuzène",1,Directed
 "Hofmannsthal, Hugo von","Hotel Vier Jahreszeiten",1,Directed
@@ -580,7 +580,7 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Lunz am See",1,Directed
 "Hofmannsthal, Hugo von","Rumänien",1,Directed
 "Hofmannsthal, Hugo von","Belgien",1,Directed
-"Hofmannsthal, Hugo von","Tänzelgasse",1,Directed
+"Hofmannsthal, Hugo von","Tänzelgasse 10",1,Directed
 "Hofmannsthal, Hugo von","Stift Dürnstein",1,Directed
 "Hofmannsthal, Hugo von","Schloss Mirabell",1,Directed
 "Hofmannsthal, Hugo von","Hellbrunn",1,Directed
@@ -598,8 +598,8 @@ Source,Target,Weight,Type
 "Hofmannsthal, Hugo von","Maria Santissima Assunta",1,Directed
 "Hofmannsthal, Hugo von","Palermo",1,Directed
 "Hofmannsthal, Hugo von","Steiermark",1,Directed
-"Hofmannsthal, Hugo von","Bahnhof Marseille",1,Directed
 "Hofmannsthal, Hugo von","Avignon",1,Directed
+"Hofmannsthal, Hugo von","Bahnhof Marseille",1,Directed
 "Hofmannsthal, Hugo von","Kathedrale von Avignon",1,Directed
 "Hofmannsthal, Hugo von","Stallburggasse 2",1,Directed
 "Hofmannsthal, Hugo von","Marokko",1,Directed

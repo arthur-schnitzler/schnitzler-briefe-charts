@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-23Z</date>
+            <date>2026-10-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_2312.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -1829,7 +1829,7 @@
                           type="withinCorrespondence"
                           source="correspondence_2312"
                           target="L03985">Schnitzler an Zuckerkandl, [zwischen 28. und
-            29. 8. 1929?]</ref>
+                  29. 8. 1929?]</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
@@ -1841,12 +1841,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date notBefore="1929-08-28" notAfter="1929-08-29" n="02">[zwischen 28. und
-            29. 8. 1929?]</date>
-                     <placeName ref="#pmb147147" evidence="conjecture">Grand Hotel Excelsior Regina</placeName>
+                  29. 8. 1929?]</date>
+                     <placeName ref="#pmb147147" evidence="conjecture">Grand Hotel Excelsior
+                  Regina</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb168" evidence="conjecture">Berlin</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
@@ -1877,18 +1878,18 @@
                      <persName ref="#pmb2312">Zuckerkandl, Berta</persName>
                      <date evidence="conjecture" notBefore="1929-09-04" notAfter="1929-09-08">[4. 9. 1929
                   – 8. 9. 1929?]</date>
-                     <placeName ref="#pmb182" evidence="conjecture">Paris</placeName>
+                     <placeName ref="#pmb235784" evidence="conjecture">Oppolzergasse 6</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_2312">Zuckerkandl, Berta</ref>
                      <ref subtype="previous_letter" type="withinCollection" target="L03985">Schnitzler an Zuckerkandl, [zwischen 28. und
-            29. 8. 1929?]</ref>
+                  29. 8. 1929?]</ref>
                      <ref subtype="next_letter" type="withinCollection" target="L02522">Hofmannsthal an Schnitzler, 3. 9. 1929</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_2312"
                           target="L03985">Schnitzler an Zuckerkandl, [zwischen 28. und
-            29. 8. 1929?]</ref>
+                  29. 8. 1929?]</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_2312"

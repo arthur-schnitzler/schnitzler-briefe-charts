@@ -2,20 +2,20 @@
   "correspondent": "Rodenberg, Julius",
   "nodes": [
     {
-      "id": "pmb168",
-      "name": "Berlin",
+      "id": "pmb168934",
+      "name": "Frankgasse 1",
       "count": 5
     },
     {
-      "id": "pmb168934",
-      "name": "Frankgasse 1",
+      "id": "pmb510068",
+      "name": "",
       "count": 5
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168934",
-      "to": "pmb168",
+      "to": "pmb510068",
       "weight": 2,
       "titles": [
         "Arthur Schnitzler an Julius Rodenberg, 7. 3. 1899",
@@ -25,7 +25,7 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb168",
+      "from": "pmb510068",
       "to": "pmb168934",
       "weight": 3,
       "titles": [

@@ -54,7 +54,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 8
+      "count": 7
     },
     {
       "id": "pmb168815",
@@ -64,7 +64,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 129
+      "count": 130
     },
     {
       "id": "pmb168940",
@@ -89,17 +89,17 @@
     {
       "id": "pmb192623",
       "name": "Salesianergasse 12",
-      "count": 10
+      "count": 13
     },
     {
       "id": "pmb195184",
       "name": "Lammgasse 3",
-      "count": 1
+      "count": 3
     },
     {
       "id": "pmb199581",
       "name": "Porzellangasse 37",
-      "count": 2
+      "count": 5
     },
     {
       "id": "pmb207274",
@@ -110,11 +110,6 @@
       "id": "pmb212",
       "name": "St. Anton am Arlberg",
       "count": 3
-    },
-    {
-      "id": "pmb213",
-      "name": "Bad Ischl",
-      "count": 1
     },
     {
       "id": "pmb215",
@@ -139,7 +134,7 @@
     {
       "id": "pmb231658",
       "name": "Günthergasse 1",
-      "count": 41
+      "count": 45
     },
     {
       "id": "pmb259",
@@ -219,7 +214,7 @@
     {
       "id": "pmb414",
       "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
-      "count": 5
+      "count": 6
     },
     {
       "id": "pmb44317",
@@ -274,7 +269,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 153
+      "count": 142
     },
     {
       "id": "pmb505",
@@ -498,9 +493,28 @@
     },
     {
       "from": "pmb168934",
-      "to": "pmb199581",
+      "to": "pmb192623",
       "weight": 1,
       "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 2. 12. 1893"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb195184",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler: Widmungsexemplar Das Märchen für Hermann Bahr, [8. 5.?] 1894"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb199581",
+      "weight": 4,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 28. 11. 1896",
+        "Arthur Schnitzler an Hermann Bahr, 26. 2. 1897",
+        "Arthur Schnitzler an Hermann Bahr, 28. 2. 1897",
         "Arthur Schnitzler an Hermann Bahr, 10. 12. 1898"
       ]
     },
@@ -514,17 +528,19 @@
     },
     {
       "from": "pmb168934",
-      "to": "pmb50",
-      "weight": 42,
+      "to": "pmb231658",
+      "weight": 3,
       "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 2. 12. 1893",
-        "Arthur Schnitzler: Widmungsexemplar Das Märchen für Hermann Bahr, [8. 5.?] 1894",
         "Arthur Schnitzler an Hermann Bahr, [20. 9. 1896?]",
-        "Arthur Schnitzler an Hermann Bahr, 28. 11. 1896",
         "Arthur Schnitzler an Hermann Bahr, 26. 2. 1897",
-        "Arthur Schnitzler an Hermann Bahr, 26. 2. 1897",
-        "Arthur Schnitzler an Hermann Bahr, 28. 2. 1897",
-        "Arthur Schnitzler an Hermann Bahr, 23. 3. 1897",
+        "Arthur Schnitzler an Hermann Bahr, 23. 3. 1897"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb50",
+      "weight": 34,
+      "titles": [
         "Arthur Schnitzler an Hermann Bahr, 27. 9. 1897",
         "Arthur Schnitzler an Hermann Bahr, 11. 11. 1897",
         "Arthur Schnitzler an Hermann Bahr, 1[4?]. 11. 1897",
@@ -680,14 +696,6 @@
       ]
     },
     {
-      "from": "pmb213",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 17. 7. 1895"
-      ]
-    },
-    {
       "from": "pmb304",
       "to": "pmb207274",
       "weight": 1,
@@ -739,8 +747,9 @@
     {
       "from": "pmb414",
       "to": "pmb231658",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 17. 7. 1895",
         "Arthur Schnitzler an Hermann Bahr, 11. 7. 1897"
       ]
     },
@@ -852,6 +861,14 @@
       ]
     },
     {
+      "from": "pmb168934",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, [12. 10. 1895]"
+      ]
+    },
+    {
       "from": "pmb168",
       "to": "pmb168",
       "weight": 1,
@@ -915,8 +932,10 @@
     {
       "from": "pmb192623",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 3,
       "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 2. 4. 1894",
+        "Hermann Bahr an Arthur Schnitzler, [20. 4. 1894]",
         "Hermann Bahr an Arthur Schnitzler, 2. 5. 1894"
       ]
     },
@@ -926,6 +945,14 @@
       "weight": 1,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 29. 7. 1894"
+      ]
+    },
+    {
+      "from": "pmb195184",
+      "to": "pmb414",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, [17.? 7. 1894]"
       ]
     },
     {
@@ -1004,16 +1031,8 @@
     },
     {
       "from": "pmb231658",
-      "to": "pmb168",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 5. 11. 1896"
-      ]
-    },
-    {
-      "from": "pmb231658",
       "to": "pmb168934",
-      "weight": 35,
+      "weight": 36,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 22. 10. 1894",
         "Hermann Bahr an Arthur Schnitzler, [8.? 5. 1895]",
@@ -1031,6 +1050,7 @@
         "Hermann Bahr an Arthur Schnitzler, 24. 9. 1896",
         "Hermann Bahr an Arthur Schnitzler, 8. 10. 1896",
         "Hermann Bahr an Arthur Schnitzler, 10. 10. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 5. 11. 1896",
         "Hermann Bahr an Arthur Schnitzler, 11. 11. 1896",
         "Hermann Bahr an Arthur Schnitzler, 16. 12. 1896",
         "Hermann Bahr an Arthur Schnitzler, [17. 12. 1896]",
@@ -1260,11 +1280,10 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 29,
+      "weight": 28,
       "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 2. 4. 1894",
-        "Hermann Bahr an Arthur Schnitzler, [20. 4. 1894]",
-        "Hermann Bahr an Arthur Schnitzler, [12. 10. 1895]",
+        "Hermann Bahr: Widmungsexemplar Renaissance für Arthur Schnitzler, 16. 1. 1897",
+        "Hermann Bahr: Widmungsexemplar Theater. Roman für Arthur Schnitzler, [nach dem 20. 3. 1897]",
         "Hermann Bahr an Arthur Schnitzler, 16. 9. [1898]",
         "Hermann Bahr an Arthur Schnitzler, 20. 4. [1900]",
         "Hermann Bahr an Arthur Schnitzler, [19. 5. 1900]",
@@ -1342,14 +1361,6 @@
       "weight": 1,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 22. 6. 1901"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb414",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, [17.? 7. 1894]"
       ]
     },
     {

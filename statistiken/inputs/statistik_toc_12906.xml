@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-23Z</date>
+            <date>2026-10-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12906.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -49,7 +49,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1893-05-04" notAfter="1893-05-08">[4. 5. 1893
                   – 8. 5. 1893?]</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -76,7 +76,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1893-05-04" notAfter="1893-05-08">[4. 5. 1893
                   – 8. 5. 1893?]</date>
-                     <placeName ref="#pmb167782">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
+                     <placeName ref="#pmb167782" evidence="conjecture">Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -101,6 +101,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date when="1910-12-01" n="01">Dezember 1910</date>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -131,12 +132,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date when="1913-10-22" n="01">22. 10. 1913</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1913-10-22" notAfter="1913-10-24">[22. 10. 1913 – 26. 10. 1913?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -166,7 +167,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date evidence="conjecture" notBefore="1913-10-24" notAfter="1913-10-26">[24. 10. 1913 – 28. 10. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -196,7 +197,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date evidence="conjecture" notBefore="1913-10-31" notAfter="1913-11-02">[31. 10. 1913 – 4. 11. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -256,12 +257,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date when="1913-12-08" n="01">8. 12. 1913</date>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1913-12-08" notAfter="1913-12-12">[8. 12. 1913
                   – 12. 12. 1913?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -291,7 +293,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date evidence="conjecture" notBefore="1913-12-10" notAfter="1913-12-12">[10. 12. 1913 – 14. 12. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -321,7 +323,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date evidence="conjecture" notBefore="1913-12-17" notAfter="1913-12-19">[17. 12. 1913 – 21. 12. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -346,12 +348,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date when="1913-12-20" n="01">[20. 12. 1913?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1913-12-20" notAfter="1913-12-22">[20. 12. 1913 – 24. 12. 1913?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -376,14 +378,14 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date when="1914-03-30" n="02">30. 3. 1914</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date evidence="conjecture" notBefore="1914-03-30" notAfter="1914-04-01">[30. 3. 1914
                   – 3. 4. 1914?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -414,7 +416,7 @@
                      <persName ref="#pmb12906">Suttner, Bertha von</persName>
                      <date evidence="conjecture" notBefore="1914-03-31" notAfter="1914-04-02">[31. 3. 1914
                   – 4. 4. 1914?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb255506" evidence="conjecture">Zedlitzgasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>
@@ -441,11 +443,14 @@
                      <date when="1914-05-14" n="01">14. 5. 1914</date>
                      <placeName ref="#pmb405355">Spiegelgasse 4</placeName>
                   </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
+                  </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <persName ref="#pmb2173">Schnitzler, Olga</persName>
                      <date evidence="conjecture" when="1914-05-23">[23. 5. 1914?]</date>
-                     <placeName ref="#pmb40709">Amsterdam</placeName>
+                     <placeName ref="#pmb245732" evidence="conjecture">Amstelhotel</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12906">Suttner, Bertha</ref>

@@ -12,6 +12,11 @@
       "count": 1
     },
     {
+      "id": "pmb168",
+      "name": "Berlin",
+      "count": 1
+    },
+    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
       "count": 58
@@ -24,7 +29,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 19
+      "count": 17
     },
     {
       "id": "pmb194907",
@@ -39,7 +44,7 @@
     {
       "id": "pmb235784",
       "name": "Oppolzergasse 6",
-      "count": 17
+      "count": 18
     },
     {
       "id": "pmb238485",
@@ -100,7 +105,7 @@
   "links_from_schnitzler": [
     {
       "from": "pmb147147",
-      "to": "pmb182",
+      "to": "pmb168",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Berta Zuckerkandl, [28. oder 29. 8. 1929?]"
@@ -215,7 +220,7 @@
     },
     {
       "from": "pmb53208",
-      "to": "pmb182",
+      "to": "pmb235784",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Berta Zuckerkandl, 3. 9. 1929"

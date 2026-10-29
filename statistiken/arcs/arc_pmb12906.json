@@ -12,9 +12,14 @@
       "count": 11
     },
     {
+      "id": "pmb245732",
+      "name": "Amstelhotel",
+      "count": 1
+    },
+    {
       "id": "pmb255506",
       "name": "Zedlitzgasse 7",
-      "count": 1
+      "count": 11
     },
     {
       "id": "pmb405355",
@@ -22,25 +27,15 @@
       "count": 1
     },
     {
-      "id": "pmb40709",
-      "name": "Amsterdam",
-      "count": 1
-    },
-    {
       "id": "pmb49303",
       "name": "Schloss Harmannsdorf",
       "count": 2
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 8
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168815",
-      "to": "pmb50",
+      "to": "pmb255506",
       "weight": 5,
       "titles": [
         "Arthur Schnitzler an Bertha von Suttner, 24. 10. 1913",
@@ -55,14 +50,19 @@
     {
       "from": "pmb255506",
       "to": "pmb168815",
-      "weight": 1,
+      "weight": 6,
       "titles": [
-        "Bertha von Suttner an Arthur Schnitzler, 4. 11. 1913"
+        "Bertha von Suttner an Arthur und Olga Schnitzler, Dezember 1910",
+        "Bertha von Suttner an Arthur Schnitzler, 22. 10. 1913",
+        "Bertha von Suttner an Arthur Schnitzler, 4. 11. 1913",
+        "Bertha von Suttner an Arthur Schnitzler, 8. 12. 1913",
+        "Bertha von Suttner an Arthur Schnitzler, [20. 12. 1913?]",
+        "Bertha von Suttner an Arthur und Olga Schnitzler, 30. 3. 1914"
       ]
     },
     {
       "from": "pmb405355",
-      "to": "pmb40709",
+      "to": "pmb245732",
       "weight": 1,
       "titles": [
         "Bertha von Suttner an Arthur und Olga Schnitzler, 14. 5. 1914"
@@ -75,16 +75,6 @@
       "titles": [
         "Arthur von Suttner an Arthur Schnitzler, 3. 5. 1893",
         "Bertha von Suttner an Arthur Schnitzler, 3. 5. 1893"
-      ]
-    },
-    {
-      "from": "pmb50",
-      "to": "pmb168815",
-      "weight": 3,
-      "titles": [
-        "Bertha von Suttner an Arthur Schnitzler, 22. 10. 1913",
-        "Bertha von Suttner an Arthur Schnitzler, [20. 12. 1913?]",
-        "Bertha von Suttner an Arthur und Olga Schnitzler, 30. 3. 1914"
       ]
     }
   ]
