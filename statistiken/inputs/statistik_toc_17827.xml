@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-09-02Z</date>
+            <date>2026-10-29Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_17827.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -36,7 +36,38 @@
    </teiHeader>
    <text>
       <body>
-         <list/>
+         <list>
+            <item corresp="L04550">
+               <title level="a">Hermine Hanel an Arthur Schnitzler, 18. 6. 1900</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb17827">Hanel, Hermine</persName>
+                     <date when="1900-06-18" n="01">18. 6. 1900</date>
+                     <placeName ref="#pmb45258" evidence="internal">München</placeName>
+                  </correspAction>
+                  <correspAction type="transmitted">
+                     <date when="1900-06-18">18. 6. 1900</date>
+                     <placeName ref="#pmb405571">Hauptpostamt München I</placeName>
+                  </correspAction>
+                  <correspAction type="delivered">
+                     <date when="1900-06-19">1[9]. 6. 1900</date>
+                     <placeName ref="#pmb365208">9/3 Post- und Telegraphenamt 72</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date when="1900-06-19">1[9]. 6. 1900</date>
+                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_17827">Hanel, Hermine</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02920">Goldmann an Schnitzler, 16. 6. [1900]</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01045">Schnitzler an Beer-Hofmann, 19. 6. 1900</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="karte" ana="postkarte"/>
+               <measure unit="zeichenanzahl" quantity="420"/>
+            </item>
+         </list>
       </body>
    </text>
 </TEI>
