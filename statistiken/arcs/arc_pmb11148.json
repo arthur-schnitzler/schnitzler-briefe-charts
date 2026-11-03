@@ -2,11 +2,6 @@
   "correspondent": "Dehmel, Richard",
   "nodes": [
     {
-      "id": "pmb1226",
-      "name": "Blankenese",
-      "count": 3
-    },
-    {
       "id": "pmb168",
       "name": "Berlin",
       "count": 2
@@ -24,7 +19,7 @@
     {
       "id": "pmb168940",
       "name": "Edmund-Weiß-Gasse 7",
-      "count": 6
+      "count": 5
     },
     {
       "id": "pmb205",
@@ -39,12 +34,12 @@
     {
       "id": "pmb405602",
       "name": "Richard-Dehmel-Haus",
-      "count": 1
+      "count": 4
     },
     {
       "id": "pmb43459",
       "name": "Am Kiekeberg 40",
-      "count": 6
+      "count": 8
     },
     {
       "id": "pmb44880",
@@ -59,13 +54,13 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 1
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168815",
-      "to": "pmb1226",
+      "to": "pmb405602",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Ida Dehmel, 25. 2. 1920"
@@ -73,10 +68,12 @@
     },
     {
       "from": "pmb168934",
-      "to": "pmb1226",
-      "weight": 1,
+      "to": "pmb43459",
+      "weight": 3,
       "titles": [
-        "Arthur Schnitzler an Richard Dehmel, 16. 2. 1902"
+        "Arthur Schnitzler an Richard Dehmel, 13. 1. 1902",
+        "Arthur Schnitzler an Richard Dehmel, 16. 2. 1902",
+        "Arthur Schnitzler an Richard Dehmel, 22. 3. 1903"
       ]
     },
     {
@@ -89,7 +86,7 @@
     },
     {
       "from": "pmb168",
-      "to": "pmb1226",
+      "to": "pmb43459",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler: Widmungsexemplar Der Schleier der Beatrice für Richard Dehmel, [1. 1. 1902?]"
@@ -105,7 +102,7 @@
     },
     {
       "from": "pmb45260",
-      "to": "pmb43459",
+      "to": "pmb405602",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Richard Dehmel, 19. 8. 1912"
@@ -138,6 +135,14 @@
       ]
     },
     {
+      "from": "pmb405602",
+      "to": "pmb45260",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, 14. 8. 1912"
+      ]
+    },
+    {
       "from": "pmb43459",
       "to": "pmb168934",
       "weight": 2,
@@ -155,19 +160,19 @@
       ]
     },
     {
-      "from": "pmb43459",
-      "to": "pmb45260",
-      "weight": 1,
-      "titles": [
-        "Richard Dehmel an Arthur Schnitzler, 14. 8. 1912"
-      ]
-    },
-    {
       "from": "pmb44880",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
         "Richard Dehmel an Arthur Schnitzler, 8. 6. 1908"
+      ]
+    },
+    {
+      "from": "pmb50",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Richard Dehmel an Arthur Schnitzler, [6. 3. 1904?]"
       ]
     }
   ]

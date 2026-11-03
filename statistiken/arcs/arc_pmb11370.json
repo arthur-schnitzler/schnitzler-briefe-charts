@@ -4,7 +4,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 11
+      "count": 12
     },
     {
       "id": "pmb168940",
@@ -14,12 +14,12 @@
     {
       "id": "pmb253790",
       "name": "Berggasse 19",
-      "count": 6
+      "count": 12
     },
     {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 8
+      "id": "pmb61755",
+      "name": "Cottage-Sanatorium für Nerven- und Stoffwechselkranke",
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
@@ -36,11 +36,18 @@
     {
       "from": "pmb253790",
       "to": "pmb168815",
-      "weight": 3,
+      "weight": 10,
       "titles": [
         "Sigmund Freud an Arthur Schnitzler, 14. 5. 1912",
         "Sigmund Freud an Arthur Schnitzler, 14. 5. 1922",
-        "Sigmund Freud: Widmungsexemplar von Das Unbehagen in der Kultur an Arthur Schnitzler, [1. 1.? 1930]"
+        "Sigmund Freud an Arthur Schnitzler, 8. 6. 1922",
+        "Sigmund Freud an Arthur Schnitzler, Oktober 1924",
+        "Sigmund Freud: Widmungsexemplar von Psychoanalytische Studien an Werken der Dichtung und Kunst, [erste Hälfte] November 1924",
+        "Sigmund Freud an Arthur Schnitzler, 24. 5. 1926",
+        "Sigmund Freud: Widmungsexemplar von Die Zukunft einer Illusion, [zwischen 15.? und 28. 11. 1927]",
+        "Sigmund Freud an Arthur Schnitzler, 7. 5. 1928",
+        "Sigmund Freud: Widmungsexemplar von Das Unbehagen in der Kultur an Arthur Schnitzler, [1. 1.? 1930]",
+        "Sigmund Freud an Arthur Schnitzler, [zwischen 7. 5. 1931 und 31. 5. 1931]"
       ]
     },
     {
@@ -52,18 +59,12 @@
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb61755",
       "to": "pmb168815",
-      "weight": 8,
+      "weight": 2,
       "titles": [
-        "Sigmund Freud an Arthur Schnitzler, Oktober 1924",
-        "Sigmund Freud: Widmungsexemplar von Psychoanalytische Studien an Werken der Dichtung und Kunst, [erste Hälfte] November 1924",
         "Sigmund Freud an Arthur Schnitzler, 8. 3. 1926",
-        "Sigmund Freud an Arthur Schnitzler, 24. 3. 1926",
-        "Sigmund Freud an Arthur Schnitzler, 24. 5. 1926",
-        "Sigmund Freud: Widmungsexemplar von Die Zukunft einer Illusion, [zwischen 15.? und 28. 11. 1927]",
-        "Sigmund Freud an Arthur Schnitzler, 7. 5. 1928",
-        "Sigmund Freud an Arthur Schnitzler, [zwischen 7. 5. 1931 und 31. 5. 1931]"
+        "Sigmund Freud an Arthur Schnitzler, 24. 3. 1926"
       ]
     }
   ]

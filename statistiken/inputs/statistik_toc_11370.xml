@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-29Z</date>
+            <date>2026-11-03Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11370.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -164,21 +164,25 @@
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
-                     <date evidence="conjecture" notBefore="1922-06-09" notAfter="1922-06-13">[9. 6. 1922 – 13. 6. 1922?]</date>
+                     <date evidence="conjecture" when="1922-06-11">[11. 6. 1922?]</date>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
-                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
-                     <ref subtype="previous_letter" type="withinCollection" target="L02387">Schnitzler an Brandes, 7. 6. 1922</ref>
-                     <ref subtype="next_letter" type="withinCollection" target="L02388">Bahr an Schnitzler, 9. 6. 1922</ref>
+                     <ref type="belongsToCorrespondence" target="correspondence_11370">Freud,
+                  Sigmund</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L02387">Schnitzler an
+                  Brandes, 7. 6. 1922</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L02388">Bahr an
+                  Schnitzler, 9. 6. 1922</ref>
                      <ref subtype="previous_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03887">Freud an Schnitzler, 14. 5. 1922</ref>
+                          target="L03887">Freud an Schnitzler,
+                  14. 5. 1922</ref>
                      <ref subtype="next_letter"
                           type="withinCorrespondence"
                           source="correspondence_11370"
-                          target="L03816">Freud an Schnitzler, Oktober
-                  1924</ref>
+                          target="L03816">Freud an Schnitzler, Oktober 1924</ref>
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
@@ -191,7 +195,7 @@
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date notBefore="1924-10-01" notAfter="1924-10-31" n="01">Oktober
                   1924</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb253790">Berggasse 19</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -225,13 +229,13 @@
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date notBefore="1924-11-01" notAfter="1924-11-15" n="01">[erste Hälfte] November
                   1924</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb253790" evidence="conjecture">Berggasse 19</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date notBefore="1924-11-01" notAfter="1924-11-15">[erste Hälfte] November
                   1924</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
@@ -257,7 +261,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date when="1926-03-08" n="01">8. 3. 1926</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb61755" evidence="internal">Cottage-Sanatorium für Nerven- und Stoffwechselkranke</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -289,13 +293,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date when="1926-03-24" n="01">24. 3. 1926</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb61755" evidence="external">Cottage-Sanatorium für Nerven- und Stoffwechselkranke</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date notBefore="1926-03-24" notAfter="1926-03-24">[24. 3. 1926 –
                   26. 3. 1926]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
@@ -320,13 +324,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date when="1926-05-24" n="01">24. 5. 1926</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb253790">Berggasse 19</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1926-05-24" notAfter="1926-05-27">[24. 5. 1926
                   – 27. 5. 1926?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
@@ -351,12 +355,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date notBefore="1927-11-15" notAfter="1927-11-28" n="01">[zwischen 15.? und 28. 11. 1927]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb253790" evidence="conjecture">Berggasse 19</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date notBefore="1927-11-15" notAfter="1927-11-28">[zwischen 15.? und 28. 11. 1927]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
@@ -380,7 +384,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date when="1928-05-07" n="01">7. 5. 1928</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb253790">Berggasse 19</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -416,7 +420,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1930-01-15">[15. 1. 1930?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11370">Freud, Sigmund</ref>
@@ -440,7 +444,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11370">Freud, Sigmund</persName>
                      <date notBefore="1931-05-07" notAfter="1931-05-31" n="01">[zwischen 7. 5. 1931 und 31. 5. 1931]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb253790" evidence="conjecture">Berggasse 19</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>

@@ -44,7 +44,7 @@
     {
       "id": "pmb232296",
       "name": "Mahlerstraße 13",
-      "count": 10
+      "count": 11
     },
     {
       "id": "pmb365220",
@@ -62,9 +62,9 @@
       "count": 1
     },
     {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 3
+      "id": "pmb510731",
+      "name": "",
+      "count": 2
     },
     {
       "id": "pmb756",
@@ -140,9 +140,10 @@
     {
       "from": "pmb232296",
       "to": "pmb168934",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Karl Kraus an Arthur Schnitzler, 22. 3. 1894"
+        "Karl Kraus an Arthur Schnitzler, 22. 3. 1894",
+        "Karl Kraus an Arthur Schnitzler, 25. 4. 1895"
       ]
     },
     {
@@ -170,15 +171,7 @@
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb168934",
-      "weight": 1,
-      "titles": [
-        "Karl Kraus an Arthur Schnitzler, 25. 4. 1895"
-      ]
-    },
-    {
-      "from": "pmb50",
+      "from": "pmb510731",
       "to": "pmb168940",
       "weight": 2,
       "titles": [

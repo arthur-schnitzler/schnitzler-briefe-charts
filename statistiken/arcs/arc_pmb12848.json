@@ -7,20 +7,15 @@
       "count": 2
     },
     {
-      "id": "pmb45258",
-      "name": "München",
-      "count": 1
-    },
-    {
-      "id": "pmb60017",
-      "name": "Pullach im Isartal",
-      "count": 1
+      "id": "pmb300132",
+      "name": "Villa Bellemaison",
+      "count": 2
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168815",
-      "to": "pmb45258",
+      "to": "pmb300132",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Carl Sternheim, 27. 12. 1911"
@@ -29,7 +24,7 @@
   ],
   "links_to_schnitzler": [
     {
-      "from": "pmb60017",
+      "from": "pmb300132",
       "to": "pmb168815",
       "weight": 1,
       "titles": [

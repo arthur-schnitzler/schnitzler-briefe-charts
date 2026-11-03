@@ -50,10 +50,10 @@
         "lon": 13.41053
       },
       "to": {
-        "name": "Blankenese",
-        "ref": "pmb1226",
-        "lat": 53.5652,
-        "lon": 9.7972
+        "name": "Am Kiekeberg 40",
+        "ref": "pmb43459",
+        "lat": 53.561692,
+        "lon": 9.806521
       }
     },
     {
@@ -101,7 +101,12 @@
         "lat": 48.21533,
         "lon": 16.35736
       },
-      "to": null
+      "to": {
+        "name": "Am Kiekeberg 40",
+        "ref": "pmb43459",
+        "lat": 53.561692,
+        "lon": 9.806521
+      }
     },
     {
       "id": "L01202",
@@ -149,10 +154,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Blankenese",
-        "ref": "pmb1226",
-        "lat": 53.5652,
-        "lon": 9.7972
+        "name": "Am Kiekeberg 40",
+        "ref": "pmb43459",
+        "lat": 53.561692,
+        "lon": 9.806521
       }
     },
     {
@@ -174,7 +179,12 @@
         "lat": 48.21533,
         "lon": 16.35736
       },
-      "to": null
+      "to": {
+        "name": "Am Kiekeberg 40",
+        "ref": "pmb43459",
+        "lat": 53.561692,
+        "lon": 9.806521
+      }
     },
     {
       "id": "L01378",
@@ -189,12 +199,17 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      },
       "to": {
-        "name": "Edmund-Weiß-Gasse 7",
-        "ref": "pmb168940",
-        "lat": 48.2304,
-        "lon": 16.33472
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
       }
     },
     {
@@ -341,10 +356,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Am Kiekeberg 40",
-        "ref": "pmb43459",
-        "lat": 53.561692,
-        "lon": 9.806521
+        "name": "Richard-Dehmel-Haus",
+        "ref": "pmb405602",
+        "lat": 53.56552777777778,
+        "lon": 9.798416666666666
       },
       "to": {
         "name": "Brijuni",
@@ -373,10 +388,10 @@
         "lon": 13.76222
       },
       "to": {
-        "name": "Am Kiekeberg 40",
-        "ref": "pmb43459",
-        "lat": 53.561692,
-        "lon": 9.806521
+        "name": "Richard-Dehmel-Haus",
+        "ref": "pmb405602",
+        "lat": 53.56552777777778,
+        "lon": 9.798416666666666
       }
     },
     {
@@ -425,10 +440,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Blankenese",
-        "ref": "pmb1226",
-        "lat": 53.5652,
-        "lon": 9.7972
+        "name": "Richard-Dehmel-Haus",
+        "ref": "pmb405602",
+        "lat": 53.56552777777778,
+        "lon": 9.798416666666666
       }
     }
   ]

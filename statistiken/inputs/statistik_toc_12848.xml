@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-10-29Z</date>
+            <date>2026-11-03Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12848.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -47,12 +47,12 @@
                      <persName ref="#pmb11273">Eulenberg, Herbert</persName>
                      <persName ref="#pmb300090">Borngräber, Otto</persName>
                      <date when="1911-12-22" n="01">22. 12. 1911</date>
-                     <placeName ref="#pmb60017">Pullach im Isartal</placeName>
+                     <placeName ref="#pmb300132">Villa Bellemaison</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1911-12-23" notAfter="1911-12-27">[23. 12. 1911 – 27. 12. 1911?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12848">Sternheim, Carl</ref>
@@ -83,13 +83,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1911-12-27" n="01">27. 12. 1911</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb12848">Sternheim, Carl</persName>
                      <date evidence="conjecture" notBefore="1911-12-28" notAfter="1912-01-01">[28. 12. 1911 –
             1. 1. 1912?]</date>
-                     <placeName ref="#pmb45258">München</placeName>
+                     <placeName ref="#pmb300132" evidence="conjecture">Villa Bellemaison</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12848">Sternheim, Carl</ref>

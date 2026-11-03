@@ -12,11 +12,6 @@
       "count": 1
     },
     {
-      "id": "pmb168",
-      "name": "Berlin",
-      "count": 1
-    },
-    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
       "count": 58
@@ -44,7 +39,7 @@
     {
       "id": "pmb235784",
       "name": "Oppolzergasse 6",
-      "count": 18
+      "count": 17
     },
     {
       "id": "pmb238485",
@@ -64,7 +59,7 @@
     {
       "id": "pmb299335",
       "name": "Conrad Strochner-Straße 3",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb300061",
@@ -75,6 +70,11 @@
       "id": "pmb36503",
       "name": "Breitenstein am Semmering",
       "count": 2
+    },
+    {
+      "id": "pmb510722",
+      "name": "",
+      "count": 1
     },
     {
       "id": "pmb52452",
@@ -105,7 +105,7 @@
   "links_from_schnitzler": [
     {
       "from": "pmb147147",
-      "to": "pmb168",
+      "to": "pmb510722",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Berta Zuckerkandl, [28. oder 29. 8. 1929?]"
@@ -146,7 +146,7 @@
     {
       "from": "pmb168815",
       "to": "pmb235784",
-      "weight": 14,
+      "weight": 13,
       "titles": [
         "Arthur Schnitzler: Widmungsexemplar von Fink und Fliederbusch an Berta Zuckerkandl, 11. 11. 1917",
         "Arthur Schnitzler: Widmungsexemplar von Casanovas Heimfahrt an Berta Zuckerkandl, Jänner 1919",
@@ -159,7 +159,6 @@
         "Arthur Schnitzler: Widmungsexemplar von Buch der Sprüche und Bedenken an Berta Zuckerkandl, 17. 12. 1927",
         "Arthur Schnitzler an Berta Zuckerkandl, 22. 12. 1928",
         "Arthur Schnitzler an Berta Zuckerkandl, 4. 3. 1929",
-        "Arthur Schnitzler an Berta Zuckerkandl, 10. 8. 1929",
         "Arthur Schnitzler an Berta Zuckerkandl, 7. 11. 1929",
         "Arthur Schnitzler: Widmungsexemplar von La Pénombre des ames an Berta Zuckerkandl, 30. 1. 1930"
       ]
@@ -189,9 +188,10 @@
     {
       "from": "pmb168815",
       "to": "pmb299335",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Berta Zuckerkandl, 8. 8. 1929"
+        "Arthur Schnitzler an Berta Zuckerkandl, 8. 8. 1929",
+        "Arthur Schnitzler an Berta Zuckerkandl, 10. 8. 1929"
       ]
     },
     {
