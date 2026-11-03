@@ -5,6 +5,11 @@ on:
   repository_dispatch:
     types: [data-updated]
 
+# Runs push to the same branch; queue them instead of racing
+concurrency:
+  group: update-csv-files
+  cancel-in-progress: false
+
 jobs:
   build_pages:
     name: Copy data to repo
@@ -24,6 +29,6 @@ jobs:
     - name: Fetch and preprocess Data
       run: |
         ./fetch_data.sh
-    - uses: stefanzweifel/git-auto-commit-action@v6
+    - uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Downloaded/Updated Data
