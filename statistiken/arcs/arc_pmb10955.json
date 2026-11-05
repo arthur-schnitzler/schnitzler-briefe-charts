@@ -4,6 +4,11 @@
     {
       "id": "pmb1167",
       "name": "Hubertusstraße 13",
+      "count": 3
+    },
+    {
+      "id": "pmb1170",
+      "name": "Casa Vignolo",
       "count": 1
     },
     {
@@ -19,7 +24,7 @@
     {
       "id": "pmb255854",
       "name": "Arcisstraße 19",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb405734",
@@ -27,18 +32,26 @@
       "count": 1
     },
     {
-      "id": "pmb45258",
-      "name": "München",
-      "count": 3
+      "id": "pmb510841",
+      "name": "",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
     {
       "from": "pmb168940",
-      "to": "pmb45258",
+      "to": "pmb1167",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Franz Blei, 14. 12. 1909"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb255854",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Franz Blei, 8. 1. 1904"
       ]
     }
   ],
@@ -46,16 +59,26 @@
     {
       "from": "pmb1167",
       "to": "pmb168940",
+      "weight": 2,
+      "titles": [
+        "Franz Blei an Arthur Schnitzler, 12. 12. 1907",
+        "Franz Blei an Arthur Schnitzler, [17. 12. 1909]"
+      ]
+    },
+    {
+      "from": "pmb1170",
+      "to": "pmb168940",
       "weight": 1,
       "titles": [
-        "Franz Blei an Arthur Schnitzler, 12. 12. 1907"
+        "Franz Blei an Arthur Schnitzler, 10. 7. 1910"
       ]
     },
     {
       "from": "pmb255854",
       "to": "pmb168940",
-      "weight": 2,
+      "weight": 3,
       "titles": [
+        "Franz Blei an Arthur Schnitzler, 12. 10. 1903",
         "Franz Blei an Arthur Schnitzler, 25. 11. 1903",
         "Franz Blei an Arthur Schnitzler, 4. 1. 1904"
       ]
@@ -69,19 +92,11 @@
       ]
     },
     {
-      "from": "pmb45258",
+      "from": "pmb510841",
       "to": "pmb168815",
       "weight": 1,
       "titles": [
         "Franz Blei an Arthur Schnitzler, [Anfang? Januar 1911]"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb168940",
-      "weight": 1,
-      "titles": [
-        "Franz Blei an Arthur Schnitzler, [17. 12. 1909]"
       ]
     }
   ]

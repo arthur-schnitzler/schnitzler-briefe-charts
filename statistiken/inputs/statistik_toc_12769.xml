@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-11-03Z</date>
+            <date>2026-11-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_12769.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,13 +70,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12769">Seligmann, Adalbert</persName>
                      <date when="1900-05-20" n="01">[20. 5. 1900]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb295211">Bäckerstraße 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1900-05-20" notAfter="1900-05-22">[20. 5. 1900
                   – 24. 5. 1900?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12769">Seligmann, Adalbert Franz</ref>
@@ -101,13 +101,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12769">Seligmann, Adalbert</persName>
                      <date when="1900-05-25" n="03">25. 5. 1900</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb295211" evidence="conjecture">Bäckerstraße 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1900-05-25" notAfter="1900-05-27">[25. 5. 1900
                   – 29. 5. 1900?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12769">Seligmann, Adalbert Franz</ref>
@@ -199,7 +199,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1902-11-21" notAfter="1902-11-23">[21. 11. 1902 – 25. 11. 1902?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12769">Seligmann, Adalbert Franz</ref>
@@ -224,12 +224,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb12769">Seligmann, Adalbert</persName>
                      <date when="1905-10-13" n="04">13. 10. 1905</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb510839">Währinger Straße 15</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1905-10-13" notAfter="1905-10-15">[13. 10. 1905 – 17. 10. 1905?]</date>
-                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                     <placeName ref="#pmb168940" evidence="conjecture">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12769">Seligmann, Adalbert Franz</ref>
@@ -259,7 +259,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb12769">Seligmann, Adalbert</persName>
                      <date evidence="conjecture" notBefore="1905-10-15" notAfter="1905-10-17">[15. 10. 1905 – 19. 10. 1905?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb510839" evidence="conjecture">Währinger Straße 15</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_12769">Seligmann, Adalbert Franz</ref>
@@ -284,7 +284,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1909-02-12" n="01">12. 2. 1909</date>
-                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                     <placeName ref="#pmb168940" evidence="conjecture">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1909-02-12">[12. 2. 1909]</date>

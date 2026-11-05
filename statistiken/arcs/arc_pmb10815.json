@@ -9,7 +9,7 @@
     {
       "id": "pmb127",
       "name": "Hotel Bristol Berlin",
-      "count": 2
+      "count": 4
     },
     {
       "id": "pmb132",
@@ -54,7 +54,7 @@
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 7
+      "count": 3
     },
     {
       "id": "pmb168815",
@@ -64,7 +64,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 130
+      "count": 129
     },
     {
       "id": "pmb168940",
@@ -74,7 +74,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 2
+      "count": 1
     },
     {
       "id": "pmb189",
@@ -99,12 +99,12 @@
     {
       "id": "pmb199581",
       "name": "Porzellangasse 37",
-      "count": 5
+      "count": 9
     },
     {
       "id": "pmb207274",
       "name": "Haus Bahr",
-      "count": 44
+      "count": 99
     },
     {
       "id": "pmb212",
@@ -114,17 +114,12 @@
     {
       "id": "pmb215",
       "name": "Hotel de Rome",
-      "count": 1
-    },
-    {
-      "id": "pmb218",
-      "name": "Öhningen",
       "count": 2
     },
     {
       "id": "pmb219",
       "name": "Sanatorium Schloss Marbach am Bodensee",
-      "count": 2
+      "count": 5
     },
     {
       "id": "pmb224",
@@ -134,7 +129,12 @@
     {
       "id": "pmb231658",
       "name": "Günthergasse 1",
-      "count": 45
+      "count": 7
+    },
+    {
+      "id": "pmb233777",
+      "name": "Bülowstraße 90/91",
+      "count": 1
     },
     {
       "id": "pmb259",
@@ -177,9 +177,14 @@
       "count": 1
     },
     {
+      "id": "pmb34067",
+      "name": "Julienhof",
+      "count": 1
+    },
+    {
       "id": "pmb399",
       "name": "Hotel Continental [Berlin]",
-      "count": 1
+      "count": 2
     },
     {
       "id": "pmb405283",
@@ -269,7 +274,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 142
+      "count": 65
     },
     {
       "id": "pmb505",
@@ -282,13 +287,18 @@
       "count": 2
     },
     {
+      "id": "pmb561",
+      "name": "Redaktion der »Zeit«",
+      "count": 51
+    },
+    {
       "id": "pmb591",
       "name": "Matrei am Brenner",
       "count": 1
     },
     {
-      "id": "pmb662",
-      "name": "Baden bei Wien",
+      "id": "pmb592",
+      "name": "5, rue de Maubeuge",
       "count": 1
     },
     {
@@ -304,7 +314,7 @@
     {
       "id": "pmb683",
       "name": "Steyrerhof",
-      "count": 2
+      "count": 18
     },
     {
       "id": "pmb714",
@@ -319,11 +329,6 @@
     {
       "id": "pmb834",
       "name": "Darmstadt",
-      "count": 1
-    },
-    {
-      "id": "pmb845",
-      "name": "Radolfzell am Bodensee",
       "count": 1
     },
     {
@@ -382,6 +387,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 15. 10. 1902"
+      ]
+    },
+    {
+      "from": "pmb127",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 3. 1. 1902"
       ]
     },
     {
@@ -510,55 +523,23 @@
     {
       "from": "pmb168934",
       "to": "pmb199581",
-      "weight": 4,
+      "weight": 6,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 28. 11. 1896",
         "Arthur Schnitzler an Hermann Bahr, 26. 2. 1897",
         "Arthur Schnitzler an Hermann Bahr, 28. 2. 1897",
+        "Arthur Schnitzler an Hermann Bahr, 27. 9. 1897",
+        "Arthur Schnitzler an Hermann Bahr, 6. 9. 1898",
         "Arthur Schnitzler an Hermann Bahr, 10. 12. 1898"
       ]
     },
     {
       "from": "pmb168934",
       "to": "pmb207274",
-      "weight": 1,
+      "weight": 21,
       "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 24. – 25. 6. 1906"
-      ]
-    },
-    {
-      "from": "pmb168934",
-      "to": "pmb231658",
-      "weight": 3,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, [20. 9. 1896?]",
-        "Arthur Schnitzler an Hermann Bahr, 26. 2. 1897",
-        "Arthur Schnitzler an Hermann Bahr, 23. 3. 1897"
-      ]
-    },
-    {
-      "from": "pmb168934",
-      "to": "pmb50",
-      "weight": 34,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 27. 9. 1897",
-        "Arthur Schnitzler an Hermann Bahr, 11. 11. 1897",
-        "Arthur Schnitzler an Hermann Bahr, 1[4?]. 11. 1897",
-        "Arthur Schnitzler an Hermann Bahr, 8. 12. 1897",
-        "Arthur Schnitzler an Hermann Bahr, [25. 1. 1898?]",
-        "Arthur Schnitzler: Widmungsexemplar Freiwild für Hermann Bahr, 6. 2. 1898",
-        "Arthur Schnitzler an Hermann Bahr, 13. 11. 1898",
-        "Arthur Schnitzler an Hermann Bahr, 1. 12. 1898",
-        "Arthur Schnitzler an Hermann Bahr, Antwort auf eine Umfrage, 15. 2. 1899",
-        "Arthur Schnitzler an Hermann Bahr, [2. – 6.?] 3. 1899",
-        "Arthur Schnitzler an Hermann Bahr, 7. 3. 1899",
-        "Arthur Schnitzler an Hermann Bahr, 9. 3. 1899",
-        "Arthur Schnitzler an Hermann Bahr, 19. 5. 1900",
         "Arthur Schnitzler an Hermann Bahr, 11. 10. 1900",
-        "Arthur Schnitzler an Hermann Bahr, [6.] 12. 1900",
         "Arthur Schnitzler an Hermann Bahr, 25. 1. 1901",
-        "Arthur Schnitzler an Hermann Bahr, [14. 3.? 1901]",
-        "Arthur Schnitzler an Hermann Bahr, 19. 4. 1901",
         "Arthur Schnitzler: Widmungsexemplar Frau Bertha Garlan für Hermann Bahr, [24.?] 4. 1901",
         "Arthur Schnitzler: Widmungsexemplar Lieutenant Gustl für Hermann Bahr, [20.?] 5. 1901",
         "Arthur Schnitzler an Hermann Bahr, 10. – 12. 9. 1901",
@@ -573,15 +554,52 @@
         "Arthur Schnitzler an Hermann Bahr, 3. 10. 1902",
         "Arthur Schnitzler an Hermann Bahr, 20. 2. 1903",
         "Arthur Schnitzler an Hermann Bahr, 28. 3. 1903",
+        "Arthur Schnitzler: Widmungsexemplar Reigen für Hermann Bahr, [2.?] 4. 1903",
+        "Arthur Schnitzler an Hermann Bahr, 18. 5. 1903",
         "Arthur Schnitzler an Hermann Bahr, 24. 6. 1903",
-        "Arthur Schnitzler an Hermann Bahr, 19. 7. 1903"
+        "Arthur Schnitzler an Hermann Bahr, 1[3]. 7. 1903",
+        "Arthur Schnitzler an Hermann Bahr, 24. – 25. 6. 1906"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb231658",
+      "weight": 7,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 14. 10. 1898",
+        "Arthur Schnitzler an Hermann Bahr, 13. 11. 1898",
+        "Arthur Schnitzler an Hermann Bahr, 1. 12. 1898",
+        "Arthur Schnitzler an Hermann Bahr, Antwort auf eine Umfrage, 15. 2. 1899",
+        "Arthur Schnitzler an Hermann Bahr, [2. – 6.?] 3. 1899",
+        "Arthur Schnitzler an Hermann Bahr, 7. 3. 1899",
+        "Arthur Schnitzler an Hermann Bahr, 9. 3. 1899"
+      ]
+    },
+    {
+      "from": "pmb168934",
+      "to": "pmb561",
+      "weight": 8,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, [20. 9. 1896?]",
+        "Arthur Schnitzler an Hermann Bahr, 26. 2. 1897",
+        "Arthur Schnitzler an Hermann Bahr, 23. 3. 1897",
+        "Arthur Schnitzler an Hermann Bahr, 11. 11. 1897",
+        "Arthur Schnitzler an Hermann Bahr, 1[4?]. 11. 1897",
+        "Arthur Schnitzler an Hermann Bahr, 8. 12. 1897",
+        "Arthur Schnitzler an Hermann Bahr, [25. 1. 1898?]",
+        "Arthur Schnitzler: Widmungsexemplar Freiwild für Hermann Bahr, 6. 2. 1898"
       ]
     },
     {
       "from": "pmb168934",
       "to": "pmb683",
-      "weight": 1,
+      "weight": 6,
       "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 19. 5. 1900",
+        "Arthur Schnitzler an Hermann Bahr, [6.] 12. 1900",
+        "Arthur Schnitzler an Hermann Bahr, [14. 3.? 1901]",
+        "Arthur Schnitzler an Hermann Bahr, 19. 4. 1901",
+        "Arthur Schnitzler an Hermann Bahr, 25. 1. 1902",
         "Arthur Schnitzler an Hermann Bahr, 30. 3. 1902"
       ]
     },
@@ -596,13 +614,19 @@
     {
       "from": "pmb168940",
       "to": "pmb207274",
-      "weight": 14,
+      "weight": 20,
       "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 6. 4. 1903",
         "Arthur Schnitzler an Hermann Bahr, 9. 10. 1903",
         "Arthur Schnitzler an Hermann Bahr, 10. 11. 1903",
         "Arthur Schnitzler an Hermann Bahr, 11. 11. 1903",
+        "Arthur Schnitzler an Hermann Bahr, 13. 11. 1903",
         "Arthur Schnitzler an Hermann Bahr, [18. oder 19.] 11. [1903]",
+        "Arthur Schnitzler an Hermann Bahr, 8. 1. 1904",
+        "Arthur Schnitzler an Hermann Bahr, 22. 2. 1904",
         "Arthur Schnitzler an Hermann Bahr, 17. 8. 1904",
+        "Arthur Schnitzler an Hermann Bahr, 5. 12. 1904",
+        "Arthur Schnitzler an Hermann Bahr, 14. 12. 1904",
         "Arthur Schnitzler an Hermann Bahr, 1. 1. 1905",
         "Arthur Schnitzler an Hermann Bahr, 6. 6. 1905",
         "Arthur Schnitzler an Hermann Bahr, 30. 7. 1905",
@@ -617,9 +641,10 @@
     {
       "from": "pmb168940",
       "to": "pmb219",
-      "weight": 1,
+      "weight": 2,
       "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 27. 1. 1904"
+        "Arthur Schnitzler an Hermann Bahr, 27. 1. 1904",
+        "Arthur Schnitzler an Hermann Bahr, 1. 2. 1904"
       ]
     },
     {
@@ -633,12 +658,8 @@
     {
       "from": "pmb168940",
       "to": "pmb50",
-      "weight": 24,
+      "weight": 20,
       "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 6. 4. 1903",
-        "Arthur Schnitzler an Hermann Bahr, 13. 11. 1903",
-        "Arthur Schnitzler an Hermann Bahr, 8. 1. 1904",
-        "Arthur Schnitzler an Hermann Bahr, 14. 12. 1904",
         "Arthur Schnitzler an Hermann Bahr, 23. 1. 1905",
         "Arthur Schnitzler an Hermann Bahr, 17. 9. 1905",
         "Arthur Schnitzler an Hermann Bahr, 21. 9. 1905",
@@ -662,28 +683,11 @@
       ]
     },
     {
-      "from": "pmb168940",
-      "to": "pmb845",
+      "from": "pmb207274",
+      "to": "pmb207274",
       "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 1. 2. 1904"
-      ]
-    },
-    {
-      "from": "pmb168",
-      "to": "pmb50",
-      "weight": 2,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 3. 1. 1902",
-        "Arthur Schnitzler: Widmungsexemplar Der einsame Weg für Hermann Bahr, [10.?] 2. 1904"
-      ]
-    },
-    {
-      "from": "pmb182",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hermann Bahr, 22. 4. 1897"
+        "Arthur Schnitzler an Hermann Bahr, 19. 7. 1903"
       ]
     },
     {
@@ -693,6 +697,14 @@
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 1. 7. 1901",
         "Arthur Schnitzler an Hermann Bahr, 3. 7. 1901"
+      ]
+    },
+    {
+      "from": "pmb233777",
+      "to": "pmb207274",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler: Widmungsexemplar Der einsame Weg für Hermann Bahr, [10.?] 2. 1904"
       ]
     },
     {
@@ -709,6 +721,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler u. a. an Hermann Bahr, 7. 9. 1904"
+      ]
+    },
+    {
+      "from": "pmb34067",
+      "to": "pmb207274",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 18. 10. 1900"
       ]
     },
     {
@@ -729,7 +749,7 @@
     },
     {
       "from": "pmb41234",
-      "to": "pmb231658",
+      "to": "pmb561",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 7. 2. 1896"
@@ -746,7 +766,7 @@
     },
     {
       "from": "pmb414",
-      "to": "pmb231658",
+      "to": "pmb561",
       "weight": 2,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 17. 7. 1895",
@@ -786,6 +806,14 @@
       ]
     },
     {
+      "from": "pmb592",
+      "to": "pmb561",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hermann Bahr, 22. 4. 1897"
+      ]
+    },
+    {
       "from": "pmb834",
       "to": "pmb207274",
       "weight": 1,
@@ -803,7 +831,7 @@
     },
     {
       "from": "pmb867",
-      "to": "pmb50",
+      "to": "pmb207274",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hermann Bahr, 26. 6. 1901"
@@ -866,14 +894,6 @@
       "weight": 1,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, [12. 10. 1895]"
-      ]
-    },
-    {
-      "from": "pmb168",
-      "to": "pmb168",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 15. 10. 1902"
       ]
     },
     {
@@ -956,24 +976,58 @@
       ]
     },
     {
-      "from": "pmb207274",
+      "from": "pmb199581",
       "to": "pmb168934",
       "weight": 2,
       "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 16. 9. [1898]",
+        "Hermann Bahr an Arthur Schnitzler, 20. 4. [1900]"
+      ]
+    },
+    {
+      "from": "pmb207274",
+      "to": "pmb168934",
+      "weight": 14,
+      "titles": [
         "Hermann Bahr an Arthur Schnitzler, 12. 10. 1900",
-        "Hermann Bahr an Arthur Schnitzler, 29. 10. 1901"
+        "Hermann Bahr an Arthur Schnitzler, 21. 12. [1900]",
+        "Hermann Bahr an Arthur Schnitzler, 7. 10. [1901]",
+        "Hermann Bahr an Arthur Schnitzler, 21. 10. [1901]",
+        "Hermann Bahr an Arthur Schnitzler, 27. 10. [1901]",
+        "Hermann Bahr an Arthur Schnitzler, 29. 10. 1901",
+        "Hermann Bahr an Arthur Schnitzler, 1. 4. 1902",
+        "Hermann Bahr an Arthur Schnitzler, 15. 5. 1902",
+        "Hermann Bahr an Arthur Schnitzler, 10. 7. [1902]",
+        "Hermann Bahr an Arthur Schnitzler, 15. 3. 1903",
+        "Hermann Bahr an Arthur Schnitzler, [29. 3. 1903?]",
+        "Hermann Bahr an Arthur Schnitzler, [30. 3. 1903]",
+        "Hermann Bahr an Arthur Schnitzler, 4. 4. [1903]",
+        "Hermann Bahr: Widmungsexemplar Rezensionen für Arthur Schnitzler, [21.?] 6. 1903"
       ]
     },
     {
       "from": "pmb207274",
       "to": "pmb168940",
-      "weight": 10,
+      "weight": 23,
       "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 8. 10. 1903",
+        "Hermann Bahr: Widmungsexemplar Dialog vom Tragischen für Arthur Schnitzler, 31. 10. 1903",
+        "Hermann Bahr an Arthur Schnitzler, 9. 11. 1903",
+        "Hermann Bahr an Arthur Schnitzler, 10. 11. 1903",
         "Hermann Bahr an Arthur Schnitzler, 13. 11. 1903",
         "Hermann Bahr an Arthur Schnitzler, 15. 11. 1903",
+        "Hermann Bahr an Arthur Schnitzler, 16. 12. [1903]",
         "Hermann Bahr an Arthur Schnitzler, 7. 1. 1904",
+        "Hermann Bahr an Arthur Schnitzler, 23. 4. [1904]",
         "Hermann Bahr an Arthur Schnitzler, 27. 4. 1904",
         "Hermann Bahr an Arthur Schnitzler, 28. 4. 1904",
+        "Hermann Bahr an Arthur Schnitzler, 27. 7. [1904]",
+        "Hermann Bahr an Arthur Schnitzler, 5. 8. [1904]",
+        "Hermann Bahr an Arthur Schnitzler, 11. 8. [1904?]",
+        "Hermann Bahr an Arthur Schnitzler, 19. [10. 1904]",
+        "Hermann Bahr an Arthur Schnitzler, 3. 11. 1904",
+        "Hermann Bahr an Arthur Schnitzler, 4. [12.] 1904",
+        "Hermann Bahr an Arthur Schnitzler, 14. 12. 1904",
         "Hermann Bahr an Arthur Schnitzler, 14. 6. 1905",
         "Hermann Bahr an Arthur Schnitzler, 20. 9. 1905",
         "Hermann Bahr an Arthur Schnitzler, 4. 10. 1905",
@@ -998,15 +1052,15 @@
       ]
     },
     {
-      "from": "pmb218",
-      "to": "pmb168",
+      "from": "pmb215",
+      "to": "pmb127",
       "weight": 1,
       "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 5. 2. 1904"
+        "Hermann Bahr an Arthur Schnitzler, 15. 10. 1902"
       ]
     },
     {
-      "from": "pmb218",
+      "from": "pmb219",
       "to": "pmb168940",
       "weight": 1,
       "titles": [
@@ -1016,8 +1070,9 @@
     {
       "from": "pmb219",
       "to": "pmb399",
-      "weight": 1,
+      "weight": 2,
       "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 5. 2. 1904",
         "Hermann Bahr an Arthur Schnitzler, 12. 2. 1904"
       ]
     },
@@ -1027,66 +1082,6 @@
       "weight": 1,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 22. 10. 1910"
-      ]
-    },
-    {
-      "from": "pmb231658",
-      "to": "pmb168934",
-      "weight": 36,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 22. 10. 1894",
-        "Hermann Bahr an Arthur Schnitzler, [8.? 5. 1895]",
-        "Hermann Bahr an Arthur Schnitzler, [13. 6. 1895]",
-        "Hermann Bahr an Arthur Schnitzler, [19. 6. 1895]",
-        "Hermann Bahr an Arthur Schnitzler, 4. 10. 1895",
-        "Hermann Bahr an Arthur Schnitzler, [4. 10. 1895]",
-        "Hermann Bahr an Arthur Schnitzler, [6. 10. 1895]",
-        "Hermann Bahr an Arthur Schnitzler, 3. 3. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 14. 3. 1896",
-        "Hermann Bahr an Arthur Schnitzler, [18. 6. 1896]",
-        "Hermann Bahr an Arthur Schnitzler, 2. 9. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 4. 9. 1896",
-        "Hermann Bahr an Arthur Schnitzler, [19.? 9. 1896]",
-        "Hermann Bahr an Arthur Schnitzler, 24. 9. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 8. 10. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 10. 10. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 5. 11. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 11. 11. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 16. 12. 1896",
-        "Hermann Bahr an Arthur Schnitzler, [17. 12. 1896]",
-        "Hermann Bahr an Arthur Schnitzler, 21. 12. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 23. 12. 1896",
-        "Hermann Bahr an Arthur Schnitzler, 22. 3. 1897",
-        "Hermann Bahr an Arthur Schnitzler, 23. 3. 1897",
-        "Hermann Bahr an Arthur Schnitzler, 28. 9. 1897",
-        "Hermann Bahr an Arthur Schnitzler, 10. 11. 1897",
-        "Hermann Bahr an Arthur Schnitzler, 12. 11. [1897]",
-        "Hermann Bahr an Arthur Schnitzler, 16. 11. 1897",
-        "Hermann Bahr an Arthur Schnitzler, 24. 1. 1898",
-        "Hermann Bahr an Arthur Schnitzler, 2. 9. 1898",
-        "Hermann Bahr an Arthur Schnitzler, 14. 11. 1898",
-        "Hermann Bahr an Arthur Schnitzler, 1. 12. 1898",
-        "Hermann Bahr an Arthur Schnitzler, 14. 12. 1898",
-        "Hermann Bahr an Arthur Schnitzler, 10. 2. 1899",
-        "Hermann Bahr an Arthur Schnitzler, 6. 3. 1899",
-        "Hermann Bahr an Arthur Schnitzler, 8. 3. 1899"
-      ]
-    },
-    {
-      "from": "pmb231658",
-      "to": "pmb41234",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 5. 2. [1896]"
-      ]
-    },
-    {
-      "from": "pmb231658",
-      "to": "pmb414",
-      "weight": 2,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 23. 7. 1895",
-        "Hermann Bahr an Arthur Schnitzler, 8. 7. 1897"
       ]
     },
     {
@@ -1280,57 +1275,22 @@
     {
       "from": "pmb50",
       "to": "pmb168934",
-      "weight": 28,
+      "weight": 7,
       "titles": [
         "Hermann Bahr: Widmungsexemplar Renaissance für Arthur Schnitzler, 16. 1. 1897",
         "Hermann Bahr: Widmungsexemplar Theater. Roman für Arthur Schnitzler, [nach dem 20. 3. 1897]",
-        "Hermann Bahr an Arthur Schnitzler, 16. 9. [1898]",
-        "Hermann Bahr an Arthur Schnitzler, 20. 4. [1900]",
-        "Hermann Bahr an Arthur Schnitzler, [19. 5. 1900]",
-        "Hermann Bahr an Arthur Schnitzler, 9. 11. [1900]",
-        "Hermann Bahr an Arthur Schnitzler, 21. 12. [1900]",
+        "Hermann Bahr: Widmungsexemplar Wenn es Euch gefällt für Arthur Schnitzler, 21. 5. 1899",
         "Hermann Bahr an Arthur Schnitzler, 23. 1. [1901]",
-        "Hermann Bahr an Arthur Schnitzler, 11. 2. [1901]",
-        "Hermann Bahr an Arthur Schnitzler, 20. 2. [1901]",
         "Hermann Bahr an Arthur Schnitzler, [13. 3.? 1901]",
-        "Hermann Bahr an Arthur Schnitzler, 25. 4. [1901]",
-        "Hermann Bahr an Arthur Schnitzler, 12. 9. 1901",
-        "Hermann Bahr an Arthur Schnitzler, 7. 10. [1901]",
-        "Hermann Bahr an Arthur Schnitzler, 21. 10. [1901]",
-        "Hermann Bahr an Arthur Schnitzler, 27. 10. [1901]",
-        "Hermann Bahr an Arthur Schnitzler, 9. 1. 1902",
-        "Hermann Bahr an Arthur Schnitzler, 8. 3. [1902]",
-        "Hermann Bahr an Arthur Schnitzler, 1. 4. 1902",
-        "Hermann Bahr an Arthur Schnitzler, 15. 5. 1902",
-        "Hermann Bahr an Arthur Schnitzler, 10. 7. [1902]",
-        "Hermann Bahr an Arthur Schnitzler, 20. 11. [1902?]",
-        "Hermann Bahr an Arthur Schnitzler, 15. 3. 1903",
-        "Hermann Bahr an Arthur Schnitzler, [15. 3. 1903]",
-        "Hermann Bahr an Arthur Schnitzler, [29. 3. 1903?]",
-        "Hermann Bahr an Arthur Schnitzler, [30. 3. 1903]",
-        "Hermann Bahr an Arthur Schnitzler, 4. 4. [1903]",
-        "Hermann Bahr: Widmungsexemplar Rezensionen für Arthur Schnitzler, [21.?] 6. 1903"
+        "Hermann Bahr: Widmungsexemplar Wirkung in die Ferne für Arthur Schnitzler, Oktober 1901",
+        "Hermann Bahr an Arthur Schnitzler, [15. 3. 1903]"
       ]
     },
     {
       "from": "pmb50",
       "to": "pmb168940",
-      "weight": 36,
+      "weight": 22,
       "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 8. 10. 1903",
-        "Hermann Bahr: Widmungsexemplar Dialog vom Tragischen für Arthur Schnitzler, 31. 10. 1903",
-        "Hermann Bahr an Arthur Schnitzler, [31. 10. 1903]",
-        "Hermann Bahr an Arthur Schnitzler, 9. 11. 1903",
-        "Hermann Bahr an Arthur Schnitzler, 10. 11. 1903",
-        "Hermann Bahr an Arthur Schnitzler, 16. 12. [1903]",
-        "Hermann Bahr an Arthur Schnitzler, 23. 4. [1904]",
-        "Hermann Bahr an Arthur Schnitzler, 27. 7. [1904]",
-        "Hermann Bahr an Arthur Schnitzler, 5. 8. [1904]",
-        "Hermann Bahr an Arthur Schnitzler, 11. 8. [1904?]",
-        "Hermann Bahr an Arthur Schnitzler, 19. [10. 1904]",
-        "Hermann Bahr an Arthur Schnitzler, 3. 11. 1904",
-        "Hermann Bahr an Arthur Schnitzler, 4. [12.] 1904",
-        "Hermann Bahr an Arthur Schnitzler, 14. 12. 1904",
         "Hermann Bahr an Arthur Schnitzler, 21. 1. 1905",
         "Hermann Bahr an Arthur Schnitzler, 9. 2. [1905]",
         "Hermann Bahr: Widmungsexemplar Sanna für Arthur Schnitzler, [1.?] 3. 1905",
@@ -1356,20 +1316,72 @@
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb30",
-      "weight": 1,
-      "titles": [
-        "Hermann Bahr an Arthur Schnitzler, 22. 6. 1901"
-      ]
-    },
-    {
       "from": "pmb51",
       "to": "pmb168934",
       "weight": 2,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 30. 12. 1893",
         "Hermann Bahr an Arthur Schnitzler, 21. 4. 1894"
+      ]
+    },
+    {
+      "from": "pmb561",
+      "to": "pmb168934",
+      "weight": 36,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 22. 10. 1894",
+        "Hermann Bahr an Arthur Schnitzler, [8.? 5. 1895]",
+        "Hermann Bahr an Arthur Schnitzler, [13. 6. 1895]",
+        "Hermann Bahr an Arthur Schnitzler, [19. 6. 1895]",
+        "Hermann Bahr an Arthur Schnitzler, 4. 10. 1895",
+        "Hermann Bahr an Arthur Schnitzler, [4. 10. 1895]",
+        "Hermann Bahr an Arthur Schnitzler, [6. 10. 1895]",
+        "Hermann Bahr an Arthur Schnitzler, 3. 3. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 14. 3. 1896",
+        "Hermann Bahr an Arthur Schnitzler, [18. 6. 1896]",
+        "Hermann Bahr an Arthur Schnitzler, 2. 9. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 4. 9. 1896",
+        "Hermann Bahr an Arthur Schnitzler, [19.? 9. 1896]",
+        "Hermann Bahr an Arthur Schnitzler, 24. 9. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 8. 10. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 10. 10. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 5. 11. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 11. 11. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 16. 12. 1896",
+        "Hermann Bahr an Arthur Schnitzler, [17. 12. 1896]",
+        "Hermann Bahr an Arthur Schnitzler, 21. 12. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 23. 12. 1896",
+        "Hermann Bahr an Arthur Schnitzler, 22. 3. 1897",
+        "Hermann Bahr an Arthur Schnitzler, 23. 3. 1897",
+        "Hermann Bahr an Arthur Schnitzler, 28. 9. 1897",
+        "Hermann Bahr an Arthur Schnitzler, 10. 11. 1897",
+        "Hermann Bahr an Arthur Schnitzler, 12. 11. [1897]",
+        "Hermann Bahr an Arthur Schnitzler, 16. 11. 1897",
+        "Hermann Bahr an Arthur Schnitzler, 24. 1. 1898",
+        "Hermann Bahr an Arthur Schnitzler, 2. 9. 1898",
+        "Hermann Bahr an Arthur Schnitzler, 14. 11. 1898",
+        "Hermann Bahr an Arthur Schnitzler, 1. 12. 1898",
+        "Hermann Bahr an Arthur Schnitzler, 14. 12. 1898",
+        "Hermann Bahr an Arthur Schnitzler, 10. 2. 1899",
+        "Hermann Bahr an Arthur Schnitzler, 6. 3. 1899",
+        "Hermann Bahr an Arthur Schnitzler, 8. 3. 1899"
+      ]
+    },
+    {
+      "from": "pmb561",
+      "to": "pmb41234",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 5. 2. [1896]"
+      ]
+    },
+    {
+      "from": "pmb561",
+      "to": "pmb414",
+      "weight": 2,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 23. 7. 1895",
+        "Hermann Bahr an Arthur Schnitzler, 8. 7. 1897"
       ]
     },
     {
@@ -1387,6 +1399,38 @@
       "weight": 1,
       "titles": [
         "Hermann Bahr an Arthur Schnitzler, 30. 12. [1901]"
+      ]
+    },
+    {
+      "from": "pmb683",
+      "to": "pmb168934",
+      "weight": 9,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, [19. 5. 1900]",
+        "Hermann Bahr an Arthur Schnitzler, 9. 11. [1900]",
+        "Hermann Bahr an Arthur Schnitzler, 11. 2. [1901]",
+        "Hermann Bahr an Arthur Schnitzler, 20. 2. [1901]",
+        "Hermann Bahr an Arthur Schnitzler, 25. 4. [1901]",
+        "Hermann Bahr an Arthur Schnitzler, 12. 9. 1901",
+        "Hermann Bahr an Arthur Schnitzler, 9. 1. 1902",
+        "Hermann Bahr an Arthur Schnitzler, 8. 3. [1902]",
+        "Hermann Bahr an Arthur Schnitzler, 20. 11. [1902?]"
+      ]
+    },
+    {
+      "from": "pmb683",
+      "to": "pmb168940",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, [31. 10. 1903]"
+      ]
+    },
+    {
+      "from": "pmb683",
+      "to": "pmb30",
+      "weight": 1,
+      "titles": [
+        "Hermann Bahr an Arthur Schnitzler, 22. 6. 1901"
       ]
     },
     {

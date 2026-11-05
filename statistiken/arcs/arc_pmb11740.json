@@ -112,11 +112,6 @@
       "count": 1
     },
     {
-      "id": "pmb231658",
-      "name": "Günthergasse 1",
-      "count": 1
-    },
-    {
       "id": "pmb234089",
       "name": "Grand Hotel San Domenico",
       "count": 1
@@ -535,6 +530,11 @@
       "id": "pmb545",
       "name": "Hotel Savoy [Berlin]",
       "count": 3
+    },
+    {
+      "id": "pmb561",
+      "name": "Redaktion der »Zeit«",
+      "count": 1
     },
     {
       "id": "pmb608",
@@ -1088,14 +1088,6 @@
       ]
     },
     {
-      "from": "pmb231658",
-      "to": "pmb50",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 12. 3. 1897"
-      ]
-    },
-    {
       "from": "pmb234089",
       "to": "pmb40297",
       "weight": 1,
@@ -1286,6 +1278,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 8. 10. 1899"
+      ]
+    },
+    {
+      "from": "pmb561",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 12. 3. 1897"
       ]
     },
     {

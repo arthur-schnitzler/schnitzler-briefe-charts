@@ -12,24 +12,49 @@
       "count": 2
     },
     {
+      "id": "pmb255870",
+      "name": "",
+      "count": 4
+    },
+    {
       "id": "pmb300132",
       "name": "Villa Bellemaison",
       "count": 1
     },
     {
-      "id": "pmb45258",
-      "name": "München",
-      "count": 3
-    },
-    {
-      "id": "pmb50",
-      "name": "Wien",
+      "id": "pmb92294",
+      "name": "Hotel Tegetthoff",
       "count": 1
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168815",
+      "to": "pmb255870",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Frank Wedekind, 19. 7. 1913"
+      ]
+    }
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb255870",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Frank Wedekind: Widmungsexemplar von Franziska für Arthur Schnitzler, [zwischen 1. und 5.] 12. 1911"
+      ]
+    },
+    {
+      "from": "pmb255870",
+      "to": "pmb168940",
+      "weight": 2,
+      "titles": [
+        "Frank Wedekind an Arthur Schnitzler, 24. 12. 1909",
+        "Frank Wedekind an Arthur Schnitzler, 19. 6. 1910"
+      ]
+    },
     {
       "from": "pmb300132",
       "to": "pmb168815",
@@ -39,24 +64,7 @@
       ]
     },
     {
-      "from": "pmb45258",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Frank Wedekind: Widmungsexemplar von Franziska für Arthur Schnitzler, [zwischen 1. und 5.] 12. 1911"
-      ]
-    },
-    {
-      "from": "pmb45258",
-      "to": "pmb168940",
-      "weight": 2,
-      "titles": [
-        "Frank Wedekind an Arthur Schnitzler, 24. 12. 1909",
-        "Frank Wedekind an Arthur Schnitzler, 19. 6. 1910"
-      ]
-    },
-    {
-      "from": "pmb50",
+      "from": "pmb92294",
       "to": "pmb168815",
       "weight": 1,
       "titles": [

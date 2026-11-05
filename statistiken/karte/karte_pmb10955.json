@@ -17,7 +17,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Arcisstraße 19",
+        "ref": "pmb255854",
+        "lat": 48.147539,
+        "lon": 11.567737
+      },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
         "ref": "pmb168940",
@@ -122,7 +127,12 @@
         "lat": 48.2304,
         "lon": 16.33472
       },
-      "to": null
+      "to": {
+        "name": "Arcisstraße 19",
+        "ref": "pmb255854",
+        "lat": 48.147539,
+        "lon": 11.567737
+      }
     },
     {
       "id": "L01740",
@@ -170,10 +180,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
+        "name": "Hubertusstraße 13",
+        "ref": "pmb1167",
+        "lat": 48.062914,
+        "lon": 11.66563
       }
     },
     {
@@ -190,10 +200,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
+        "name": "Hubertusstraße 13",
+        "ref": "pmb1167",
+        "lat": 48.062914,
+        "lon": 11.66563
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -215,7 +225,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Casa Vignolo",
+        "ref": "pmb1170",
+        "lat": 43.95501,
+        "lon": 10.1731
+      },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
         "ref": "pmb168940",
@@ -237,10 +252,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "München",
-        "ref": "pmb45258",
-        "lat": 48.13743,
-        "lon": 11.57549
+        "name": "",
+        "ref": "pmb510841",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Sternwartestraße 71",

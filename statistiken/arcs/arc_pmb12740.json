@@ -797,6 +797,11 @@
       "count": 1
     },
     {
+      "id": "pmb873",
+      "name": "Triest",
+      "count": 1
+    },
+    {
       "id": "pmb88",
       "name": "Palasthotel Berlin",
       "count": 1
@@ -879,11 +884,6 @@
     {
       "id": "pmb91731",
       "name": "Sellajoch",
-      "count": 1
-    },
-    {
-      "id": "pmb91944",
-      "name": "Triest",
       "count": 1
     },
     {
@@ -2344,6 +2344,14 @@
       ]
     },
     {
+      "from": "pmb873",
+      "to": "pmb207296",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 3. 1900"
+      ]
+    },
+    {
       "from": "pmb883",
       "to": "pmb207296",
       "weight": 1,
@@ -2453,14 +2461,6 @@
       "weight": 1,
       "titles": [
         "Arthur und Olga Schnitzler an Gustav Schwarzkopf, 28. 8. 1907"
-      ]
-    },
-    {
-      "from": "pmb91944",
-      "to": "pmb207296",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Gustav Schwarzkopf, 29. 3. 1900"
       ]
     },
     {

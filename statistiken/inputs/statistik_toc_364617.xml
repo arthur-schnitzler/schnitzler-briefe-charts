@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-11-03Z</date>
+            <date>2026-11-05Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_364617.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -36,7 +36,63 @@
    </teiHeader>
    <text>
       <body>
-         <list/>
+         <list>
+            <item corresp="L04551">
+               <title level="a">Hermione von Preuschen an Arthur Schnitzler, 4. 6. 1904</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb364617">Preuschen, Hermione von</persName>
+                     <date when="1904-06-04" n="01">4. 6. 1904</date>
+                     <placeName ref="#pmb340535" evidence="conjecture">Villa Waldfrieden</placeName>
+                  </correspAction>
+                  <correspAction type="redirected">
+                     <placeName ref="#pmb168934" evidence="internal">Frankgasse 1</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date notBefore="1904-06-06" notAfter="1904-06-10">[6. 6. 1904 – 10. 6. 1904?]</date>
+                     <placeName ref="#pmb168940" evidence="conjecture">Edmund-Weiß-Gasse 7</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_364617">Preuschen, Hermione von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L03397">Salten an Schnitzler, 3. 6. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01405">Schnitzler an Beer-Hofmann, 9. 6. 1904</ref>
+                     <ref subtype="next_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_364617"
+                          target="L04552">Preuschen an Schnitzler, 4. 7. 1904</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="4497"/>
+            </item>
+            <item corresp="L04552">
+               <title level="a">Hermione von Preuschen an Arthur Schnitzler, 4. 7. 1904</title>
+               <correspDesc>
+                  <correspAction type="sent">
+                     <persName ref="#pmb364617">Preuschen, Hermione von</persName>
+                     <date when="1904-07-04" n="01">4. 7. 1904</date>
+                     <placeName ref="#pmb340535" evidence="conjecture">Villa Waldfrieden</placeName>
+                  </correspAction>
+                  <correspAction type="received">
+                     <persName ref="#pmb2121">Schnitzler, Arthur</persName>
+                     <date evidence="conjecture" notBefore="1904-07-05" notAfter="1904-07-09">[5. 7. 1904 – 9. 7. 1904?]</date>
+                     <placeName ref="#pmb168940" evidence="conjecture">Edmund-Weiß-Gasse 7</placeName>
+                  </correspAction>
+                  <correspContext>
+                     <ref type="belongsToCorrespondence" target="correspondence_364617">Preuschen, Hermione von</ref>
+                     <ref subtype="previous_letter" type="withinCollection" target="L01415">Beer-Hofmann an Schnitzler, 4. 7. 1904</ref>
+                     <ref subtype="next_letter" type="withinCollection" target="L01416">Hofmannsthal an Schnitzler, [9. oder 10]. 7. 1904</ref>
+                     <ref subtype="previous_letter"
+                          type="withinCorrespondence"
+                          source="correspondence_364617"
+                          target="L04551">Preuschen an Schnitzler, 4. 6. 1904</ref>
+                  </correspContext>
+               </correspDesc>
+               <objectType corresp="brief"/>
+               <measure unit="zeichenanzahl" quantity="1456"/>
+            </item>
+         </list>
       </body>
    </text>
 </TEI>

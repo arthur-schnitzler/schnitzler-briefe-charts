@@ -1,9 +1,28 @@
 {
-  "correspondent": "",
+  "correspondent": "Preuschen, Hermione von",
   "nodes": [
+    {
+      "id": "pmb168940",
+      "name": "Edmund-Weiß-Gasse 7",
+      "count": 2
+    },
+    {
+      "id": "pmb340535",
+      "name": "Villa Waldfrieden",
+      "count": 2
+    }
   ],
   "links_from_schnitzler": [
   ],
   "links_to_schnitzler": [
+    {
+      "from": "pmb340535",
+      "to": "pmb168940",
+      "weight": 2,
+      "titles": [
+        "Hermione von Preuschen an Arthur Schnitzler, 4. 6. 1904",
+        "Hermione von Preuschen an Arthur Schnitzler, 4. 7. 1904"
+      ]
+    }
   ]
 }
