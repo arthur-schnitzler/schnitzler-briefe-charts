@@ -4,7 +4,7 @@
     {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
-      "count": 132
+      "count": 131
     },
     {
       "id": "pmb168940",
@@ -75,6 +75,11 @@
       "id": "pmb30",
       "name": "Salzburg",
       "count": 3
+    },
+    {
+      "id": "pmb365226",
+      "name": "18/1 Post- und Telegraphenamt 111",
+      "count": 1
     },
     {
       "id": "pmb39944",
@@ -227,9 +232,8 @@
     {
       "from": "pmb168815",
       "to": "pmb297",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Stefan Zweig, 18. 8. [1920]",
         "Arthur Schnitzler an Stefan Zweig, 3. 1. 1921"
       ]
     },
@@ -261,6 +265,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Stefan Zweig, 22. 12. 1909"
+      ]
+    },
+    {
+      "from": "pmb365226",
+      "to": "pmb297",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Stefan Zweig, 18. 8. [1920]"
       ]
     },
     {

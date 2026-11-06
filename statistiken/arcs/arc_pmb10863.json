@@ -372,6 +372,11 @@
       "count": 2
     },
     {
+      "id": "pmb365226",
+      "name": "18/1 Post- und Telegraphenamt 111",
+      "count": 1
+    },
+    {
       "id": "pmb365483",
       "name": "Kolingasse 9",
       "count": 1
@@ -774,7 +779,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 103
+      "count": 102
     },
     {
       "id": "pmb50112",
@@ -3644,6 +3649,14 @@
       ]
     },
     {
+      "from": "pmb365226",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Richard Beer-Hofmann an Arthur Schnitzler, 30. [10. 1896]"
+      ]
+    },
+    {
       "from": "pmb365483",
       "to": "pmb104",
       "weight": 1,
@@ -4126,9 +4139,8 @@
     {
       "from": "pmb50",
       "to": "pmb168",
-      "weight": 3,
+      "weight": 2,
       "titles": [
-        "Richard Beer-Hofmann an Arthur Schnitzler, 30. [10. 1896]",
         "Richard Beer-Hofmann an Arthur Schnitzler, [4. 11. 1896]",
         "Richard und Paula Beer-Hofmann an Arthur Schnitzler, 29. 11. 1912"
       ]
