@@ -449,15 +449,15 @@
     {
       "id": "L03694",
       "title": "Elsa Plessner an Arthur Schnitzler, [Mitte April 1897]",
-      "type": "umfeld schnitzler",
+      "type": "von partner",
       "date": null,
       "sender": {
         "name": "Plessner, Elsa",
         "ref": "pmb2128"
       },
       "receiver": {
-        "name": "",
-        "ref": ""
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
       },
       "from": {
         "name": "Florianigasse 44",
@@ -465,7 +465,12 @@
         "lat": 48.212431,
         "lon": 16.34616
       },
-      "to": null
+      "to": {
+        "name": "5, rue de Maubeuge",
+        "ref": "pmb592",
+        "lat": 48.876475,
+        "lon": 2.340852
+      }
     },
     {
       "id": "L03695",

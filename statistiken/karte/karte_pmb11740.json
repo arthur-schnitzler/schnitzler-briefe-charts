@@ -11189,15 +11189,15 @@
     {
       "id": "L01596",
       "title": "Hugo von Hofmannsthal an Arthur Schnitzler, 7. 5. 1906",
-      "type": "umfeld schnitzler",
+      "type": "von partner",
       "date": "1906-05-07",
       "sender": {
         "name": "Hofmannsthal, Hugo von",
         "ref": "pmb11740"
       },
       "receiver": {
-        "name": "",
-        "ref": ""
+        "name": "Schnitzler, Arthur",
+        "ref": "pmb2121"
       },
       "from": {
         "name": "Hofmannsthal-Schlössl",
@@ -11205,7 +11205,12 @@
         "lat": 48.133611,
         "lon": 16.255556
       },
-      "to": null
+      "to": {
+        "name": "Hotel Radetzky",
+        "ref": "pmb44510",
+        "lat": 48.090788,
+        "lon": 16.241739
+      }
     },
     {
       "id": "L01602",

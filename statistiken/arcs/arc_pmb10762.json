@@ -42,11 +42,6 @@
       "count": 3
     },
     {
-      "id": "pmb340535",
-      "name": "Villa Waldfrieden",
-      "count": 1
-    },
-    {
       "id": "pmb399",
       "name": "Hotel Continental [Berlin]",
       "count": 1
@@ -65,6 +60,11 @@
       "id": "pmb50",
       "name": "Wien",
       "count": 2
+    },
+    {
+      "id": "pmb510969",
+      "name": "",
+      "count": 1
     }
   ],
   "links_from_schnitzler": [
@@ -132,14 +132,6 @@
       ]
     },
     {
-      "from": "pmb340535",
-      "to": "pmb168934",
-      "weight": 1,
-      "titles": [
-        "Lou Andreas-Salomé an Arthur Schnitzler, [22. 4. 1901]"
-      ]
-    },
-    {
       "from": "pmb42325",
       "to": "pmb168940",
       "weight": 1,
@@ -161,6 +153,14 @@
       "weight": 1,
       "titles": [
         "Lou Andreas-Salomé an Arthur Schnitzler, [26. oder 27]. 12. 1895"
+      ]
+    },
+    {
+      "from": "pmb510969",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Lou Andreas-Salomé an Arthur Schnitzler, [22. 4. 1901]"
       ]
     }
   ]

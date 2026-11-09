@@ -2,6 +2,11 @@
   "correspondent": "Herzfeld, Marie",
   "nodes": [
     {
+      "id": "pmb1091",
+      "name": "Badehotellet",
+      "count": 2
+    },
+    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
       "count": 5
@@ -30,14 +35,17 @@
       "id": "pmb65485",
       "name": "Steeg",
       "count": 1
-    },
-    {
-      "id": "pmb958",
-      "name": "Skodsborg",
-      "count": 2
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb1091",
+      "to": "pmb46000",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Marie Herzfeld, 19. 8. 1896"
+      ]
+    },
     {
       "from": "pmb168815",
       "to": "pmb50",
@@ -54,20 +62,12 @@
         "Arthur Schnitzler an Marie Herzfeld, 24. 1. 1908",
         "Arthur Schnitzler an Marie Herzfeld, 20. 4. 1909"
       ]
-    },
-    {
-      "from": "pmb958",
-      "to": "pmb46000",
-      "weight": 1,
-      "titles": [
-        "Arthur Schnitzler an Marie Herzfeld, 19. 8. 1896"
-      ]
     }
   ],
   "links_to_schnitzler": [
     {
       "from": "pmb46000",
-      "to": "pmb958",
+      "to": "pmb1091",
       "weight": 1,
       "titles": [
         "Marie Herzfeld an Arthur Schnitzler, 7. 8. 1896"
