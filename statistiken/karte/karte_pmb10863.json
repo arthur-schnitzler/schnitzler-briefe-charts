@@ -2124,10 +2124,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-        "ref": "pmb167782",
-        "lat": 48.212477,
-        "lon": 16.357233
+        "name": "1/1 Post- und Telegraphenamt 10",
+        "ref": "pmb365217",
+        "lat": 48.210234,
+        "lon": 16.357213
       },
       "to": {
         "name": "Schulgasse 8 [Bad Ischl]",
@@ -2254,10 +2254,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Wohnung und Ordination Arthur Schnitzler Grillparzerstraße 7/3. Stock",
-        "ref": "pmb167782",
-        "lat": 48.212477,
-        "lon": 16.357233
+        "name": "1/1 Post- und Telegraphenamt 10",
+        "ref": "pmb365217",
+        "lat": 48.210234,
+        "lon": 16.357213
       },
       "to": {
         "name": "Schulgasse 8 [Bad Ischl]",
@@ -2502,9 +2502,9 @@
     },
     {
       "id": "L00288",
-      "title": "Arthur Schnitzler, Karl Kraus und Friedrich Schik an Richard Beer-Hofmann, [31. 12. 1893?]",
+      "title": "Arthur Schnitzler, Karl Kraus und Friedrich Schik an Richard Beer-Hofmann, [1. 1. 1894?]",
       "type": "von schnitzler",
-      "date": "1893-12-31",
+      "date": "1894-01-01",
       "sender": {
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
@@ -2514,12 +2514,17 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Frankgasse 1",
-        "ref": "pmb168934",
-        "lat": 48.21533,
-        "lon": 16.35736
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
       },
-      "to": null
+      "to": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      }
     },
     {
       "id": "L00289",
@@ -2541,10 +2546,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -2645,10 +2650,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -2664,7 +2669,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      },
       "to": {
         "name": "Frankgasse 1",
         "ref": "pmb168934",
@@ -2841,7 +2851,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      },
       "to": {
         "name": "Frankgasse 1",
         "ref": "pmb168934",
@@ -2863,10 +2878,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -2921,10 +2936,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wollzeile 15 (»Berthahof«)",
-        "ref": "pmb190427",
-        "lat": 48.208656,
-        "lon": 16.375924
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       }
     },
     {
@@ -2941,10 +2956,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Frankgasse 1",
@@ -2993,10 +3008,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Frankgasse 1",
@@ -3019,10 +3034,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Frankgasse 1",
@@ -3071,16 +3086,16 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       }
     },
     {
@@ -3149,10 +3164,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
         "name": "Eglmoosgasse 22",
@@ -3331,10 +3346,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Frankgasse 1",
@@ -3357,10 +3372,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Frankgasse 1",
@@ -3493,10 +3508,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Florenz",
-        "ref": "pmb263",
-        "lat": 43.77925,
-        "lon": 11.24626
+        "name": "",
+        "ref": "pmb511093",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -3747,10 +3762,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Neapel",
-        "ref": "pmb595",
-        "lat": 40.85216,
-        "lon": 14.26811
+        "name": "Hotel Hassler [Neapel]",
+        "ref": "pmb364923",
+        "lat": 40.8302153354582,
+        "lon": 14.246194459892541
       },
       "to": {
         "name": "Frankgasse 1",
@@ -3851,10 +3866,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Neapel",
-        "ref": "pmb595",
-        "lat": 40.85216,
-        "lon": 14.26811
+        "name": "Hotel Hassler [Neapel]",
+        "ref": "pmb364923",
+        "lat": 40.8302153354582,
+        "lon": 14.246194459892541
       },
       "to": {
         "name": "Frankgasse 1",
@@ -3954,7 +3969,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      },
       "to": {
         "name": "Frankgasse 1",
         "ref": "pmb168934",
@@ -4085,7 +4105,12 @@
         "lat": 48.21533,
         "lon": 16.35736
       },
-      "to": null
+      "to": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      }
     },
     {
       "id": "L00416",
@@ -4231,10 +4256,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
       },
       "to": {
         "name": "Frankgasse 1",
@@ -4413,10 +4438,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -4517,10 +4542,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -4543,10 +4568,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -4751,10 +4776,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Mariánské Lázně",
@@ -4783,10 +4808,10 @@
         "lon": 12.701944
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       }
     },
     {
@@ -4803,10 +4828,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
         "name": "Eglmoosgasse 22",
@@ -4829,16 +4854,16 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
+        "ref": "pmb414",
+        "lat": 47.706537,
+        "lon": 13.609575
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       }
     },
     {
@@ -4887,10 +4912,10 @@
         "lon": 12.42326
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       }
     },
     {
@@ -4933,10 +4958,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Schönberg im Stubaital",
-        "ref": "pmb759",
-        "lat": 47.18333,
-        "lon": 11.41667
+        "name": "Gasthaus Jagerhof",
+        "ref": "pmb43323",
+        "lat": 47.18732,
+        "lon": 11.40657
       },
       "to": {
         "name": "Frankgasse 1",
@@ -4965,10 +4990,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Schönberg im Stubaital",
-        "ref": "pmb759",
-        "lat": 47.18333,
-        "lon": 11.41667
+        "name": "Gasthaus Jagerhof",
+        "ref": "pmb43323",
+        "lat": 47.18732,
+        "lon": 11.40657
       }
     },
     {
@@ -4985,10 +5010,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Schönberg im Stubaital",
-        "ref": "pmb759",
-        "lat": 47.18333,
-        "lon": 11.41667
+        "name": "Gasthaus Jagerhof",
+        "ref": "pmb43323",
+        "lat": 47.18732,
+        "lon": 11.40657
       },
       "to": {
         "name": "Frankgasse 1",
@@ -5017,10 +5042,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Schönberg im Stubaital",
-        "ref": "pmb759",
-        "lat": 47.18333,
-        "lon": 11.41667
+        "name": "Gasthaus Jagerhof",
+        "ref": "pmb43323",
+        "lat": 47.18732,
+        "lon": 11.40657
       }
     },
     {
@@ -5063,10 +5088,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Schönberg im Stubaital",
-        "ref": "pmb759",
-        "lat": 47.18333,
-        "lon": 11.41667
+        "name": "Gasthaus Jagerhof",
+        "ref": "pmb43323",
+        "lat": 47.18732,
+        "lon": 11.40657
       },
       "to": {
         "name": "Frankgasse 1",
@@ -5121,10 +5146,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Gardone Riviera",
-        "ref": "pmb374",
-        "lat": 45.62499,
-        "lon": 10.56527
+        "name": "Grand Hotel Gardone",
+        "ref": "pmb40858",
+        "lat": 45.618146,
+        "lon": 10.560226
       }
     },
     {
@@ -5277,10 +5302,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {

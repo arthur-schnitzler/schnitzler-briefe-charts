@@ -96,10 +96,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb511078",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -128,10 +128,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb511078",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -148,10 +148,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb511078",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -180,10 +180,10 @@
         "lon": 16.33472
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb511078",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -200,10 +200,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb511078",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -226,10 +226,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb511082",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -258,10 +258,10 @@
         "lon": 16.33716
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb511082",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -278,10 +278,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "",
+        "ref": "pmb511082",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Sternwartestraße 71",
@@ -303,7 +303,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "",
+        "ref": "pmb511082",
+        "lat": null,
+        "lon": null
+      },
       "to": {
         "name": "Sternwartestraße 71",
         "ref": "pmb168815",

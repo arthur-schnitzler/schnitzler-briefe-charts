@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-11-09Z</date>
+            <date>2026-11-12Z</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/schnitzler-briefe/tocs/statistik_toc_11666.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -145,13 +145,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date when="1908-01-16" n="03">16. 1. 1908</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb511078" evidence="conjecture">Lichtenauergasse 5</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1908-01-16" notAfter="1908-01-18">[16. 1. 1908
                   – 20. 1. 1908?]</date>
-                     <placeName ref="#pmb168940">Edmund-Weiß-Gasse 7</placeName>
+                     <placeName ref="#pmb168940" evidence="conjecture">Edmund-Weiß-Gasse 7</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11666">Herzfeld, Marie</ref>
@@ -182,7 +182,7 @@
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date evidence="conjecture" notBefore="1908-01-24" notAfter="1908-01-26">[24. 1. 1908
                   – 28. 1. 1908?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb511078" evidence="conjecture">Lichtenauergasse 5</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11666">Herzfeld, Marie</ref>
@@ -207,7 +207,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date when="1909-04-19" n="01">19. 4. 1909</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb511078">Lichtenauergasse 5</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -244,7 +244,7 @@
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date evidence="conjecture" notBefore="1909-04-20" notAfter="1909-04-22">[20. 4. 1909
                   – 24. 4. 1909?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb511078" evidence="conjecture">Lichtenauergasse 5</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11666">Herzfeld, Marie</ref>
@@ -269,7 +269,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date when="1913-03-30" n="01">30. 3. 1913</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb511078">Lichtenauergasse 5</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -300,7 +300,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date when="1931-03-05" n="02">5. 3. 1931</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb511082">Ölzeltgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
@@ -331,13 +331,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1931-03-07" n="01">7. 3. 1931</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date evidence="conjecture" notBefore="1931-03-07" notAfter="1931-03-09">[7. 3. 1931
                   – 11. 3. 1931?]</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb511082">Ölzeltgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11666">Herzfeld, Marie</ref>
@@ -362,13 +362,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date when="1931-03-10" n="01">10. 3. 1931</date>
-                     <placeName ref="#pmb50">Wien</placeName>
+                     <placeName ref="#pmb511082">Ölzeltgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1931-03-10" notAfter="1931-03-12">[10. 3. 1931
                   – 14. 3. 1931?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11666">Herzfeld, Marie</ref>
@@ -393,12 +393,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb11666">Herzfeld, Marie</persName>
                      <date when="1931-03-12" n="01">12. 3. [1931]</date>
+                     <placeName ref="#pmb511082">Ölzeltgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1931-03-12" notAfter="1931-03-16">[12. 3. 1931
                   – 16. 3. 1931?]</date>
-                     <placeName ref="#pmb168815">Sternwartestraße 71</placeName>
+                     <placeName ref="#pmb168815" evidence="conjecture">Sternwartestraße 71</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_11666">Herzfeld, Marie</ref>

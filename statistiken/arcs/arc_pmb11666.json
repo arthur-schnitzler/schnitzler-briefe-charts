@@ -27,9 +27,14 @@
       "count": 2
     },
     {
-      "id": "pmb50",
-      "name": "Wien",
-      "count": 8
+      "id": "pmb511078",
+      "name": "",
+      "count": 5
+    },
+    {
+      "id": "pmb511082",
+      "name": "",
+      "count": 4
     },
     {
       "id": "pmb65485",
@@ -48,7 +53,7 @@
     },
     {
       "from": "pmb168815",
-      "to": "pmb50",
+      "to": "pmb511082",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Marie Herzfeld, 7. 3. 1931"
@@ -56,7 +61,7 @@
     },
     {
       "from": "pmb168940",
-      "to": "pmb50",
+      "to": "pmb511078",
       "weight": 2,
       "titles": [
         "Arthur Schnitzler an Marie Herzfeld, 24. 1. 1908",
@@ -74,22 +79,30 @@
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb511078",
       "to": "pmb168815",
-      "weight": 3,
+      "weight": 1,
       "titles": [
-        "Marie Herzfeld an Arthur Schnitzler, 30. 3. 1913",
-        "Marie Herzfeld an Arthur Schnitzler, 5. 3. 1931",
-        "Marie Herzfeld an Arthur Schnitzler, 10. 3. 1931"
+        "Marie Herzfeld an Arthur Schnitzler, 30. 3. 1913"
       ]
     },
     {
-      "from": "pmb50",
+      "from": "pmb511078",
       "to": "pmb168940",
       "weight": 2,
       "titles": [
         "Marie Herzfeld an Arthur Schnitzler, 16. 1. 1908",
         "Marie Herzfeld an Arthur Schnitzler, 19. 4. 1909"
+      ]
+    },
+    {
+      "from": "pmb511082",
+      "to": "pmb168815",
+      "weight": 3,
+      "titles": [
+        "Marie Herzfeld an Arthur Schnitzler, 5. 3. 1931",
+        "Marie Herzfeld an Arthur Schnitzler, 10. 3. 1931",
+        "Marie Herzfeld an Arthur Schnitzler, 12. 3. [1931]"
       ]
     },
     {
