@@ -1,14 +1,19 @@
 {
   "projects": {
+    "anno": {
+      "label": "ANNO Theaterzettel",
+      "color": "#b7422f",
+      "count": 7017
+    },
     "brahms-online": {
       "label": "Brahms online",
       "color": "#00ACC1",
-      "count": 2066
+      "count": 2065
     },
     "burgtheater": {
-      "label": "Burgtheateraufführungen",
-      "color": "#0B2545",
-      "count": 35649
+      "label": "Burgtheater",
+      "color": "#02305c",
+      "count": 35648
     },
     "schnitzler-briefe": {
       "label": "Briefe mit Autorinnen und Autoren",
@@ -18,7 +23,7 @@
     "schnitzler-kultur": {
       "label": "Kulturveranstaltungen",
       "color": "#6B4C5A",
-      "count": 6227
+      "count": 6239
     },
     "wikidata": {
       "label": "Wikidata",
@@ -32,6 +37,27 @@
     }
   },
   "intersections": {
+    "anno|brahms-online": 5,
+    "anno|brahms-online|burgtheater": 0,
+    "anno|brahms-online|schnitzler-briefe": 0,
+    "anno|brahms-online|schnitzler-kultur": 0,
+    "anno|brahms-online|wikidata": 0,
+    "anno|brahms-online|wikipedia": 0,
+    "anno|burgtheater": 6525,
+    "anno|burgtheater|schnitzler-briefe": 34,
+    "anno|burgtheater|schnitzler-kultur": 219,
+    "anno|burgtheater|wikidata": 0,
+    "anno|burgtheater|wikipedia": 0,
+    "anno|schnitzler-briefe": 71,
+    "anno|schnitzler-briefe|schnitzler-kultur": 47,
+    "anno|schnitzler-briefe|wikidata": 0,
+    "anno|schnitzler-briefe|wikipedia": 0,
+    "anno|schnitzler-kultur": 678,
+    "anno|schnitzler-kultur|wikidata": 0,
+    "anno|schnitzler-kultur|wikipedia": 0,
+    "anno|wikidata": 0,
+    "anno|wikidata|wikipedia": 0,
+    "anno|wikipedia": 0,
     "brahms-online|burgtheater": 0,
     "brahms-online|burgtheater|schnitzler-briefe": 0,
     "brahms-online|burgtheater|schnitzler-kultur": 0,
@@ -48,16 +74,16 @@
     "brahms-online|wikidata|wikipedia": 0,
     "brahms-online|wikipedia": 0,
     "burgtheater|schnitzler-briefe": 35,
-    "burgtheater|schnitzler-briefe|schnitzler-kultur": 23,
+    "burgtheater|schnitzler-briefe|schnitzler-kultur": 24,
     "burgtheater|schnitzler-briefe|wikidata": 0,
     "burgtheater|schnitzler-briefe|wikipedia": 0,
-    "burgtheater|schnitzler-kultur": 229,
+    "burgtheater|schnitzler-kultur": 230,
     "burgtheater|schnitzler-kultur|wikidata": 0,
     "burgtheater|schnitzler-kultur|wikipedia": 0,
     "burgtheater|wikidata": 0,
     "burgtheater|wikidata|wikipedia": 0,
     "burgtheater|wikipedia": 0,
-    "schnitzler-briefe|schnitzler-kultur": 306,
+    "schnitzler-briefe|schnitzler-kultur": 312,
     "schnitzler-briefe|schnitzler-kultur|wikidata": 0,
     "schnitzler-briefe|schnitzler-kultur|wikipedia": 0,
     "schnitzler-briefe|wikidata": 0,
