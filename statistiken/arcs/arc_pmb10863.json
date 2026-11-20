@@ -94,7 +94,7 @@
     {
       "id": "pmb168934",
       "name": "Frankgasse 1",
-      "count": 293
+      "count": 292
     },
     {
       "id": "pmb168940",
@@ -109,7 +109,7 @@
     {
       "id": "pmb190427",
       "name": "Wollzeile 15 (»Berthahof«)",
-      "count": 193
+      "count": 194
     },
     {
       "id": "pmb197",
@@ -124,7 +124,7 @@
     {
       "id": "pmb213",
       "name": "Bad Ischl",
-      "count": 18
+      "count": 16
     },
     {
       "id": "pmb224",
@@ -349,7 +349,7 @@
     {
       "id": "pmb364910",
       "name": "Eglmoosgasse 22",
-      "count": 37
+      "count": 38
     },
     {
       "id": "pmb364923",
@@ -559,7 +559,7 @@
     {
       "id": "pmb414",
       "name": "Hotel und Pension Rudolfshöhe (Leopold Petter)",
-      "count": 19
+      "count": 21
     },
     {
       "id": "pmb41430",
@@ -993,6 +993,11 @@
     },
     {
       "id": "pmb623994",
+      "name": "",
+      "count": 1
+    },
+    {
+      "id": "pmb624019",
       "name": "",
       "count": 1
     },
@@ -1551,7 +1556,7 @@
     {
       "from": "pmb168934",
       "to": "pmb190427",
-      "weight": 106,
+      "weight": 107,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 4. 1. 1894",
         "Arthur Schnitzler an Richard Beer-Hofmann, 21. 3. 1894",
@@ -1613,6 +1618,7 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, [17. 9. 1897?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, 25. 9. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 2. 10. 1897",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 4. 10. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, [20. oder 21]. 10. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 27. 10. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 7. 11. 1897",
@@ -1736,7 +1742,7 @@
     {
       "from": "pmb168934",
       "to": "pmb364910",
-      "weight": 12,
+      "weight": 11,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, 31. 5. 1894",
         "Arthur Schnitzler an Richard Beer-Hofmann, [zwischen 26. – 29. 6. 1894?]",
@@ -1748,7 +1754,6 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, 12. 6. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 23. 6. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 4. 8. 1897",
-        "Arthur Schnitzler an Richard Beer-Hofmann, 5. 8. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 17. 8. 1897"
       ]
     },
@@ -2041,9 +2046,8 @@
     {
       "from": "pmb213",
       "to": "pmb213",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Arthur Schnitzler an Richard Beer-Hofmann, 20. 7. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, [3. 8. 1915]"
       ]
     },
@@ -2060,10 +2064,9 @@
     {
       "from": "pmb213",
       "to": "pmb364910",
-      "weight": 2,
+      "weight": 1,
       "titles": [
-        "Adele Sandrock und Arthur Schnitzler an Richard Beer-Hofmann und Paul Goldmann, 29. 8. 1894",
-        "Arthur Schnitzler an Richard Beer-Hofmann, [17. oder 18. 7. 1897?]"
+        "Adele Sandrock und Arthur Schnitzler an Richard Beer-Hofmann und Paul Goldmann, 29. 8. 1894"
       ]
     },
     {
@@ -2521,12 +2524,14 @@
     {
       "from": "pmb414",
       "to": "pmb364910",
-      "weight": 4,
+      "weight": 6,
       "titles": [
         "Arthur Schnitzler an Richard Beer-Hofmann, [16. 7. 1894?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, [18. 7. 1894?]",
         "Arthur Schnitzler an Richard Beer-Hofmann, [25. 7. 1895?]",
-        "Arthur Schnitzler an Richard Beer-Hofmann, [5. 8. 1895?]"
+        "Arthur Schnitzler an Richard Beer-Hofmann, [5. 8. 1895?]",
+        "Arthur Schnitzler an Richard Beer-Hofmann, [17. oder 18. 7. 1897?]",
+        "Arthur Schnitzler an Richard Beer-Hofmann, 20. 7. 1897"
       ]
     },
     {
@@ -2998,6 +3003,14 @@
         "Arthur Schnitzler an Richard Beer-Hofmann, 19. 4. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 26. 4. 1897",
         "Arthur Schnitzler an Richard Beer-Hofmann, 20. 5. 1897"
+      ]
+    },
+    {
+      "from": "pmb624019",
+      "to": "pmb364910",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Richard Beer-Hofmann, 5. 8. 1897"
       ]
     },
     {

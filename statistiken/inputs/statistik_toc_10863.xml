@@ -10048,7 +10048,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-06-23" n="01">23. 6. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-06-23">23. 6. 1897</date>
@@ -10123,7 +10123,7 @@
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date notBefore="1897-07-17" notAfter="1897-07-18" n="02">[17. oder
                   18. 7. 1897?]</date>
-                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                     <placeName ref="#pmb414" evidence="conjecture">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
@@ -10152,13 +10152,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-07-20" n="01">20. 7. 1897</date>
-                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                     <placeName ref="#pmb414" evidence="conjecture">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date evidence="conjecture" notBefore="1897-07-20" notAfter="1897-07-22">[20. 7. 1897
                   – 24. 7. 1897?]</date>
-                     <placeName ref="#pmb213">Bad Ischl</placeName>
+                     <placeName ref="#pmb364910" evidence="conjecture">Eglmoosgasse 22</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -10184,7 +10184,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-08-04" n="01">4. 8. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-08-04">4. 8. 1897</date>
@@ -10222,7 +10222,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-08-05" n="01">5. 8. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb624019" evidence="conjecture">7/2 Post- und Telegraphenamt 62</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
@@ -10244,7 +10244,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="telegramm"/>
-               <measure unit="zeichenanzahl" quantity="230"/>
+               <measure unit="zeichenanzahl" quantity="231"/>
             </item>
             <item corresp="L00714">
                <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, 7. 8. 1897</title>
@@ -10268,7 +10268,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-08-07">7. 8. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="internal">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -10293,7 +10293,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-08-14" n="02">14. 8. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
@@ -10438,7 +10438,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-08-31" n="03">31. 8. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-09-01">1. 9. 1897</date>
@@ -10476,7 +10476,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-09-17" n="01">[17. 9. 1897?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
@@ -10499,7 +10499,7 @@
                   </correspContext>
                </correspDesc>
                <objectType corresp="brief"/>
-               <measure unit="zeichenanzahl" quantity="240"/>
+               <measure unit="zeichenanzahl" quantity="238"/>
             </item>
             <item corresp="L00723">
                <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 25. 9. 1897</title>
@@ -10507,7 +10507,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-09-25" n="01">25. 9. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-09-25">25. 9. 1897</date>
@@ -10520,7 +10520,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1897-09-25">25. 9. 1897</date>
-                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
+                     <placeName ref="#pmb190427" evidence="internal">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -10545,7 +10545,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-10-02" n="01">2. 10. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-10-02">2. 10. [1897]</date>
@@ -10558,7 +10558,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1897-10-03">3. 10. 1897</date>
-                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
+                     <placeName ref="#pmb190427" evidence="internal">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -10583,12 +10583,13 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-10-04" n="01">4. 10. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date evidence="conjecture" notBefore="1897-10-04" notAfter="1897-10-08">[4. 10. 1897
                   – 8. 10. 1897?]</date>
+                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -10613,12 +10614,12 @@
                   <correspAction type="sent">
                      <persName ref="#pmb10863">Beer-Hofmann, Richard</persName>
                      <date when="1897-10-20" n="01">[20. 10. 1897]</date>
-                     <placeName ref="#pmb190427">Wollzeile 15 (»Berthahof«)</placeName>
+                     <placeName ref="#pmb190427" evidence="conjecture">Wollzeile 15 (»Berthahof«)</placeName>
                   </correspAction>
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1897-10-20" notAfter="1897-10-22">[20. 10. 1897 – 24. 10. 1897?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -10643,7 +10644,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date notBefore="1897-10-20" notAfter="1897-10-21" n="02">[20. oder 21]. 10. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-10-21">21. 10. [1897]</date>
@@ -10719,7 +10720,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-10-27" n="02">27. 10. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-10-27">27. 10. 1897</date>
@@ -10753,7 +10754,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-11-07" n="02">7. 11. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-11-07">7. 11. 1897</date>
@@ -10791,7 +10792,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-11-29" n="01">29. 11. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-11-30">30. 11. 1897</date>
@@ -10863,7 +10864,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-12-17" n="01">17. 12. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-12-17">17. 12. 1897</date>
@@ -10906,7 +10907,7 @@
                   <correspAction type="received">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date evidence="conjecture" notBefore="1897-12-25" notAfter="1897-12-29">[25. 12. 1897 – 29. 12. 1897?]</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspContext>
                      <ref type="belongsToCorrespondence" target="correspondence_10863">Beer-Hofmann, Richard</ref>
@@ -10931,7 +10932,7 @@
                   <correspAction type="sent">
                      <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                      <date when="1897-12-27" n="01">27. 12. 1897</date>
-                     <placeName ref="#pmb168934">Frankgasse 1</placeName>
+                     <placeName ref="#pmb168934" evidence="conjecture">Frankgasse 1</placeName>
                   </correspAction>
                   <correspAction type="transmitted">
                      <date when="1897-12-27">27. 12. 1897</date>
