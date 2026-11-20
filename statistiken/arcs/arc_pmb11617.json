@@ -4,12 +4,12 @@
     {
       "id": "pmb1052",
       "name": "Haus Wiesenstein",
-      "count": 2
+      "count": 6
     },
     {
       "id": "pmb168",
       "name": "Berlin",
-      "count": 2
+      "count": 3
     },
     {
       "id": "pmb168815",
@@ -27,9 +27,14 @@
       "count": 7
     },
     {
-      "id": "pmb216",
-      "name": "Unter den Linden",
+      "id": "pmb18",
+      "name": "Lessing-Theater",
       "count": 1
+    },
+    {
+      "id": "pmb29",
+      "name": "Hotel Sacher",
+      "count": 2
     },
     {
       "id": "pmb33",
@@ -69,10 +74,26 @@
     {
       "id": "pmb735",
       "name": "Jagniątków",
-      "count": 7
+      "count": 5
     }
   ],
   "links_from_schnitzler": [
+    {
+      "from": "pmb168815",
+      "to": "pmb1052",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 17. 3. 1922"
+      ]
+    },
+    {
+      "from": "pmb168815",
+      "to": "pmb50",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 27. 11. 1929"
+      ]
+    },
     {
       "from": "pmb168815",
       "to": "pmb735",
@@ -83,10 +104,34 @@
     },
     {
       "from": "pmb168934",
+      "to": "pmb29",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 30. 11. 1902"
+      ]
+    },
+    {
+      "from": "pmb168934",
       "to": "pmb407261",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gerhart Hauptmann, 15. 7. 1899"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb1052",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, 18. 1. 1905"
+      ]
+    },
+    {
+      "from": "pmb168940",
+      "to": "pmb168",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Gerhart Hauptmann, [17. 1. 1906]"
       ]
     },
     {
@@ -115,7 +160,7 @@
     },
     {
       "from": "pmb365226",
-      "to": "pmb216",
+      "to": "pmb18",
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Gerhart Hauptmann, 24. 10. 1904"
@@ -134,9 +179,11 @@
     {
       "from": "pmb1052",
       "to": "pmb168940",
-      "weight": 1,
+      "weight": 3,
       "titles": [
-        "Hugo und Gerty von Hofmannsthal, Gerhart und Margarete Hauptmann an Arthur Schnitzler, 29. 1. 1905"
+        "Gerhart Hauptmann an Arthur Schnitzler, 24. 1. 1905",
+        "Hugo und Gerty von Hofmannsthal, Gerhart und Margarete Hauptmann an Arthur Schnitzler, 29. 1. 1905",
+        "Gerhart Hauptmann an Arthur Schnitzler, 18. 12. 1906"
       ]
     },
     {
@@ -145,6 +192,14 @@
       "weight": 1,
       "titles": [
         "Richard Dehmel, Gerhart Hauptmann und Jakob Wassermann an Arthur Schnitzler, 3. 12. 1909"
+      ]
+    },
+    {
+      "from": "pmb29",
+      "to": "pmb168934",
+      "weight": 1,
+      "titles": [
+        "Gerhart Hauptmann an Arthur Schnitzler, [29. 11. 1902]"
       ]
     },
     {
@@ -164,14 +219,6 @@
       ]
     },
     {
-      "from": "pmb50",
-      "to": "pmb168934",
-      "weight": 1,
-      "titles": [
-        "Gerhart Hauptmann an Arthur Schnitzler, [29. 11. 1902]"
-      ]
-    },
-    {
       "from": "pmb735",
       "to": "pmb168815",
       "weight": 1,
@@ -182,11 +229,9 @@
     {
       "from": "pmb735",
       "to": "pmb168940",
-      "weight": 3,
+      "weight": 1,
       "titles": [
-        "Gerhart Hauptmann an Arthur Schnitzler, 24. 1. 1905",
-        "Gerhart Hauptmann an Arthur Schnitzler, 29. [1. 1905?]",
-        "Gerhart Hauptmann an Arthur Schnitzler, 18. 12. 1906"
+        "Gerhart Hauptmann an Arthur Schnitzler, 29. [1. 1905?]"
       ]
     }
   ]

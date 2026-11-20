@@ -159,7 +159,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 79
+      "count": 53
     },
     {
       "id": "pmb186",
@@ -475,6 +475,11 @@
       "id": "pmb62045",
       "name": "Biarritz",
       "count": 1
+    },
+    {
+      "id": "pmb623994",
+      "name": "",
+      "count": 26
     },
     {
       "id": "pmb63858",
@@ -1162,7 +1167,7 @@
     {
       "from": "pmb182",
       "to": "pmb168934",
-      "weight": 41,
+      "weight": 22,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 28. 11. [1893]",
         "Paul Goldmann an Arthur Schnitzler, 3. 12. [1893?]",
@@ -1185,25 +1190,6 @@
         "Paul Goldmann an Arthur Schnitzler, [21. 12. 1895?]",
         "Paul Goldmann an Arthur Schnitzler, 21. 11. 1896",
         "Paul Goldmann an Arthur Schnitzler, [25. – 28.? 2. 1897]",
-        "Paul Goldmann an Arthur Schnitzler, 15. 6. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 18. 6. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 1. 8. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 25. 9. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 29. 9. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 5. 10. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 15. 10. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 27. 10. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 19. 11. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 10. 12. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 23. 12. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 30. 12. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 19. 1. [1898]",
-        "Paul Goldmann an Arthur Schnitzler, 26. 1. [1898]",
-        "Paul Goldmann an Arthur Schnitzler, 28. 2. [1898]",
-        "Paul Goldmann an Arthur Schnitzler, 2. 3. [1898]",
-        "Paul Goldmann an Arthur Schnitzler, 7. 3. [1898]",
-        "Paul Goldmann an Arthur Schnitzler, 10. 3. [1898]",
-        "Paul Goldmann an Arthur Schnitzler, 16. 3. [1898]",
         "Paul Goldmann an Arthur Schnitzler, 26. 2. [1899]"
       ]
     },
@@ -1217,45 +1203,10 @@
     },
     {
       "from": "pmb182",
-      "to": "pmb213",
-      "weight": 4,
-      "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 2. 7. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 13. 7. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 18. 7. [1897]",
-        "Paul Goldmann an Arthur Schnitzler, 19. 7. [1897]"
-      ]
-    },
-    {
-      "from": "pmb182",
-      "to": "pmb224",
-      "weight": 1,
-      "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 26. 5. [1897]"
-      ]
-    },
-    {
-      "from": "pmb182",
-      "to": "pmb30",
-      "weight": 1,
-      "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 6. 2. [1898]"
-      ]
-    },
-    {
-      "from": "pmb182",
       "to": "pmb45258",
       "weight": 1,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 12. 9. [1899]"
-      ]
-    },
-    {
-      "from": "pmb182",
-      "to": "pmb652",
-      "weight": 1,
-      "titles": [
-        "Paul Goldmann an Arthur Schnitzler, 24. 11. [1897]"
       ]
     },
     {
@@ -2219,6 +2170,67 @@
       "weight": 1,
       "titles": [
         "Paul Goldmann an Arthur Schnitzler, 5. 8. [1892]"
+      ]
+    },
+    {
+      "from": "pmb623994",
+      "to": "pmb168934",
+      "weight": 19,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 15. 6. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 18. 6. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 1. 8. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 25. 9. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 29. 9. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 5. 10. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 15. 10. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 27. 10. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 19. 11. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 10. 12. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 23. 12. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 30. 12. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 19. 1. [1898]",
+        "Paul Goldmann an Arthur Schnitzler, 26. 1. [1898]",
+        "Paul Goldmann an Arthur Schnitzler, 28. 2. [1898]",
+        "Paul Goldmann an Arthur Schnitzler, 2. 3. [1898]",
+        "Paul Goldmann an Arthur Schnitzler, 7. 3. [1898]",
+        "Paul Goldmann an Arthur Schnitzler, 10. 3. [1898]",
+        "Paul Goldmann an Arthur Schnitzler, 16. 3. [1898]"
+      ]
+    },
+    {
+      "from": "pmb623994",
+      "to": "pmb213",
+      "weight": 4,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 2. 7. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 13. 7. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 18. 7. [1897]",
+        "Paul Goldmann an Arthur Schnitzler, 19. 7. [1897]"
+      ]
+    },
+    {
+      "from": "pmb623994",
+      "to": "pmb224",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 26. 5. [1897]"
+      ]
+    },
+    {
+      "from": "pmb623994",
+      "to": "pmb30",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 6. 2. [1898]"
+      ]
+    },
+    {
+      "from": "pmb623994",
+      "to": "pmb652",
+      "weight": 1,
+      "titles": [
+        "Paul Goldmann an Arthur Schnitzler, 24. 11. [1897]"
       ]
     },
     {

@@ -96,10 +96,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Hotel Sacher",
+        "ref": "pmb29",
+        "lat": 48.203889,
+        "lon": 16.369444
       },
       "to": {
         "name": "Frankgasse 1",
@@ -127,7 +127,12 @@
         "lat": 48.21533,
         "lon": 16.35736
       },
-      "to": null
+      "to": {
+        "name": "Hotel Sacher",
+        "ref": "pmb29",
+        "lat": 48.203889,
+        "lon": 16.369444
+      }
     },
     {
       "id": "L01275",
@@ -227,10 +232,10 @@
         "lon": 16.344569
       },
       "to": {
-        "name": "Unter den Linden",
-        "ref": "pmb216",
-        "lat": 52.51699,
-        "lon": 13.38832
+        "name": "Lessing-Theater",
+        "ref": "pmb18",
+        "lat": 52.5225,
+        "lon": 13.376389
       }
     },
     {
@@ -252,7 +257,12 @@
         "lat": 48.2304,
         "lon": 16.33472
       },
-      "to": null
+      "to": {
+        "name": "Haus Wiesenstein",
+        "ref": "pmb1052",
+        "lat": 50.816944,
+        "lon": 15.607897
+      }
     },
     {
       "id": "L01494",
@@ -268,10 +278,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Jagniątków",
-        "ref": "pmb735",
+        "name": "Haus Wiesenstein",
+        "ref": "pmb1052",
         "lat": 50.816944,
-        "lon": 15.609444
+        "lon": 15.607897
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -351,7 +361,12 @@
         "lat": 48.2304,
         "lon": 16.33472
       },
-      "to": null
+      "to": {
+        "name": "Berlin",
+        "ref": "pmb168",
+        "lat": 52.52437,
+        "lon": 13.41053
+      }
     },
     {
       "id": "L01643",
@@ -367,10 +382,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Jagniątków",
-        "ref": "pmb735",
+        "name": "Haus Wiesenstein",
+        "ref": "pmb1052",
         "lat": 50.816944,
-        "lon": 15.609444
+        "lon": 15.607897
       },
       "to": {
         "name": "Edmund-Weiß-Gasse 7",
@@ -424,7 +439,12 @@
         "lat": 48.23188,
         "lon": 16.33716
       },
-      "to": null
+      "to": {
+        "name": "Haus Wiesenstein",
+        "ref": "pmb1052",
+        "lat": 50.816944,
+        "lon": 15.607897
+      }
     },
     {
       "id": "L02384",
@@ -523,7 +543,12 @@
         "lat": 48.23188,
         "lon": 16.33716
       },
-      "to": null
+      "to": {
+        "name": "Wien",
+        "ref": "pmb50",
+        "lat": 48.208333,
+        "lon": 16.373056
+      }
     }
   ]
 }

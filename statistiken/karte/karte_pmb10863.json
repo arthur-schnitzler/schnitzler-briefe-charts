@@ -5348,10 +5348,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -5380,10 +5380,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -5478,10 +5478,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -5509,7 +5509,12 @@
         "lat": 48.21533,
         "lon": 16.35736
       },
-      "to": null
+      "to": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      }
     },
     {
       "id": "L00526",
@@ -5524,8 +5529,18 @@
         "name": "Beer-Hofmann, Richard",
         "ref": "pmb10863"
       },
-      "from": null,
-      "to": null
+      "from": {
+        "name": "Frankgasse 1",
+        "ref": "pmb168934",
+        "lat": 48.21533,
+        "lon": 16.35736
+      },
+      "to": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      }
     },
     {
       "id": "L00528",
@@ -5651,10 +5666,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -5885,10 +5900,10 @@
         "lon": 13.38333
       },
       "to": {
-        "name": "Trondheim",
-        "ref": "pmb40290",
-        "lat": 63.43049,
-        "lon": 10.39506
+        "name": "Trondhjems postkontor",
+        "ref": "pmb405576",
+        "lat": 63.430638,
+        "lon": 10.398562
       }
     },
     {
@@ -5989,10 +6004,10 @@
         "lon": 10.74609
       },
       "to": {
-        "name": "Kopenhagen",
-        "ref": "pmb36300",
-        "lat": 55.67594,
-        "lon": 12.56553
+        "name": "",
+        "ref": "pmb623960",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -6067,10 +6082,10 @@
         "lon": 12.586111
       },
       "to": {
-        "name": "Stockholm",
-        "ref": "pmb1119",
-        "lat": 59.325,
-        "lon": 18.05
+        "name": "",
+        "ref": "pmb623964",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -6139,10 +6154,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Hotel Kongen af Danmark",
-        "ref": "pmb40903",
-        "lat": 55.676944,
-        "lon": 12.586111
+        "name": "Kopenhagen",
+        "ref": "pmb36300",
+        "lat": 55.67594,
+        "lon": 12.56553
       },
       "to": {
         "name": "Grand Hotel Stockholm",
@@ -6165,10 +6180,10 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Grand Hotel Stockholm",
-        "ref": "pmb40705",
-        "lat": 59.329722,
-        "lon": 18.075556
+        "name": "Stockholm",
+        "ref": "pmb1119",
+        "lat": 59.325,
+        "lon": 18.05
       },
       "to": {
         "name": "Hotel Kongen af Danmark",
@@ -6217,16 +6232,16 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Skodsborg",
-        "ref": "pmb958",
-        "lat": 55.8225,
-        "lon": 12.57324
+        "name": "Badehotellet",
+        "ref": "pmb1091",
+        "lat": 55.826747,
+        "lon": 12.574733
       },
       "to": {
-        "name": "Skodsborg",
-        "ref": "pmb958",
-        "lat": 55.8225,
-        "lon": 12.57324
+        "name": "Badehotellet",
+        "ref": "pmb1091",
+        "lat": 55.826747,
+        "lon": 12.574733
       }
     },
     {
@@ -6347,16 +6362,16 @@
         "ref": "pmb10863"
       },
       "from": {
-        "name": "Frankgasse 1",
-        "ref": "pmb168934",
-        "lat": 48.21533,
-        "lon": 16.35736
+        "name": "Kaiser-Franz-Ring 54",
+        "ref": "pmb365095",
+        "lat": 48.010891,
+        "lon": 16.242066
       },
       "to": {
-        "name": "Baden bei Wien",
-        "ref": "pmb662",
-        "lat": 48.00543,
-        "lon": 16.23264
+        "name": "Kaiser-Franz-Ring 54",
+        "ref": "pmb365095",
+        "lat": 48.010891,
+        "lon": 16.242066
       }
     },
     {
@@ -6425,10 +6440,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Kaiser-Franz-Ring 54",
-        "ref": "pmb365095",
-        "lat": 48.010891,
-        "lon": 16.242066
+        "name": "",
+        "ref": "pmb92195",
+        "lat": null,
+        "lon": null
       },
       "to": {
         "name": "Frankgasse 1",
@@ -6529,10 +6544,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -6665,10 +6680,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -6841,10 +6856,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -6873,10 +6888,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -6918,7 +6933,12 @@
         "name": "Schnitzler, Arthur",
         "ref": "pmb2121"
       },
-      "from": null,
+      "from": {
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
+      },
       "to": {
         "name": "Frankgasse 1",
         "ref": "pmb168934",
@@ -6972,10 +6992,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       }
     },
     {
@@ -7070,10 +7090,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -7096,10 +7116,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Wien",
-        "ref": "pmb50",
-        "lat": 48.208333,
-        "lon": 16.373056
+        "name": "Wollzeile 15 (»Berthahof«)",
+        "ref": "pmb190427",
+        "lat": 48.208656,
+        "lon": 16.375924
       },
       "to": {
         "name": "Frankgasse 1",
@@ -7180,10 +7200,10 @@
         "lon": 16.373056
       },
       "to": {
-        "name": "Paris",
-        "ref": "pmb182",
-        "lat": 48.85341,
-        "lon": 2.3488
+        "name": "",
+        "ref": "pmb623994",
+        "lat": null,
+        "lon": null
       }
     },
     {
@@ -7232,10 +7252,10 @@
         "lon": 13.61893
       },
       "to": {
-        "name": "Paris",
-        "ref": "pmb182",
-        "lat": 48.85341,
-        "lon": 2.3488
+        "name": "5, rue de Maubeuge",
+        "ref": "pmb592",
+        "lat": 48.876475,
+        "lon": 2.340852
       }
     },
     {
@@ -7284,10 +7304,10 @@
         "lon": 16.375924
       },
       "to": {
-        "name": "London",
-        "ref": "pmb224",
-        "lat": 51.50853,
-        "lon": -0.12574
+        "name": "Woodville Hall",
+        "ref": "pmb288554",
+        "lat": 51.44923,
+        "lon": -0.053842
       }
     },
     {
@@ -7356,10 +7376,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Frankgasse 1",
@@ -7382,10 +7402,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Frankgasse 1",
@@ -7414,10 +7434,10 @@
         "lon": 16.35736
       },
       "to": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       }
     },
     {
@@ -7434,10 +7454,10 @@
         "ref": "pmb2121"
       },
       "from": {
-        "name": "Bad Ischl",
-        "ref": "pmb213",
-        "lat": 47.71109,
-        "lon": 13.61893
+        "name": "Eglmoosgasse 22",
+        "ref": "pmb364910",
+        "lat": 47.712155,
+        "lon": 13.616607
       },
       "to": {
         "name": "Frankgasse 1",

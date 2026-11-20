@@ -69,7 +69,7 @@
     {
       "id": "pmb182",
       "name": "Paris",
-      "count": 10
+      "count": 9
     },
     {
       "id": "pmb183",
@@ -89,7 +89,7 @@
     {
       "id": "pmb192623",
       "name": "Salesianergasse 12",
-      "count": 79
+      "count": 80
     },
     {
       "id": "pmb197",
@@ -509,7 +509,7 @@
     {
       "id": "pmb50",
       "name": "Wien",
-      "count": 174
+      "count": 173
     },
     {
       "id": "pmb513",
@@ -539,6 +539,11 @@
     {
       "id": "pmb561",
       "name": "Redaktion der »Zeit«",
+      "count": 1
+    },
+    {
+      "id": "pmb592",
+      "name": "5, rue de Maubeuge",
       "count": 1
     },
     {
@@ -1033,12 +1038,11 @@
     {
       "from": "pmb182",
       "to": "pmb50",
-      "weight": 4,
+      "weight": 3,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 26. 4. 1897",
         "Arthur Schnitzler an Hugo von Hofmannsthal, 28. 4. 1897",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 6. 5. 1897",
-        "Arthur Schnitzler an Hugo von Hofmannsthal, 20. 5. 1897"
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 6. 5. 1897"
       ]
     },
     {
@@ -1291,6 +1295,14 @@
       "weight": 1,
       "titles": [
         "Arthur Schnitzler an Hugo von Hofmannsthal, 12. 3. 1897"
+      ]
+    },
+    {
+      "from": "pmb592",
+      "to": "pmb192623",
+      "weight": 1,
+      "titles": [
+        "Arthur Schnitzler an Hugo von Hofmannsthal, 20. 5. 1897"
       ]
     },
     {

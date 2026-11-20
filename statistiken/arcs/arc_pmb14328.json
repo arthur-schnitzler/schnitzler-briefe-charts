@@ -12,11 +12,6 @@
       "count": 4
     },
     {
-      "id": "pmb168",
-      "name": "Berlin",
-      "count": 3
-    },
-    {
       "id": "pmb168815",
       "name": "Sternwartestraße 71",
       "count": 2
@@ -29,7 +24,7 @@
     {
       "id": "pmb18",
       "name": "Lessing-Theater",
-      "count": 6
+      "count": 8
     },
     {
       "id": "pmb29",
@@ -42,6 +37,11 @@
       "count": 2
     },
     {
+      "id": "pmb35654",
+      "name": "Bundesallee 20",
+      "count": 1
+    },
+    {
       "id": "pmb592",
       "name": "5, rue de Maubeuge",
       "count": 1
@@ -50,23 +50,6 @@
   "links_from_schnitzler": [
   ],
   "links_to_schnitzler": [
-    {
-      "from": "pmb168",
-      "to": "pmb168815",
-      "weight": 1,
-      "titles": [
-        "Oscar Blumenthal an Arthur Schnitzler, [nach dem 13. 3. 1912]"
-      ]
-    },
-    {
-      "from": "pmb168",
-      "to": "pmb168934",
-      "weight": 2,
-      "titles": [
-        "Oscar Blumenthal an Arthur Schnitzler, 14. 11. 1896",
-        "Oscar Blumenthal an Arthur Schnitzler, 19. 11. 1896"
-      ]
-    },
     {
       "from": "pmb18",
       "to": "pmb167782",
@@ -88,10 +71,12 @@
     {
       "from": "pmb18",
       "to": "pmb168934",
-      "weight": 2,
+      "weight": 4,
       "titles": [
         "Oscar Blumenthal an Arthur Schnitzler, 16. 1. 1894",
-        "Gerhard Wiese an Arthur Schnitzler, 21. 3. 1894"
+        "Gerhard Wiese an Arthur Schnitzler, 21. 3. 1894",
+        "Oscar Blumenthal an Arthur Schnitzler, 14. 11. 1896",
+        "Oscar Blumenthal an Arthur Schnitzler, 19. 11. 1896"
       ]
     },
     {
@@ -116,6 +101,14 @@
       "weight": 1,
       "titles": [
         "Oscar Blumenthal an Arthur Schnitzler, 12. 5. 1897"
+      ]
+    },
+    {
+      "from": "pmb35654",
+      "to": "pmb168815",
+      "weight": 1,
+      "titles": [
+        "Oscar Blumenthal an Arthur Schnitzler, [nach dem 13. 3. 1912]"
       ]
     }
   ]
